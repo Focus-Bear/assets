@@ -99,6 +99,16 @@
                             "duration_seconds"
                         ],
                         "properties": {
+                            "id": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/id",
+                                "type": "string",
+                                "title": "UUID",
+                                "description": "Identify each an activity",
+                                "default": "",
+                                "examples": [
+                                    "f8a08c49-54c9-4855-998e-310f4638e90b"
+                                ]
+                            },
                             "name": {
                                 "$id": "#/properties/morning_activities/items/anyOf/0/properties/name",
                                 "type": "string",
@@ -402,6 +412,16 @@
                             "duration_seconds"
                         ],
                         "properties": {
+                            "id": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/id",
+                                "type": "string",
+                                "title": "UUID",
+                                "description": "Identify each an activity",
+                                "default": "",
+                                "examples": [
+                                    "f8a08c49-54c9-4855-998e-310f4638e90b"
+                                ]
+                            },
                             "name": {
                                 "$id": "#/properties/evening_activities/items/anyOf/0/properties/name",
                                 "type": "string",
@@ -731,6 +751,16 @@
                             "duration_seconds"
                         ],
                         "properties": {
+                            "id": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/id",
+                                "type": "string",
+                                "title": "UUID",
+                                "description": "Identify each an activity",
+                                "default": "",
+                                "examples": [
+                                    "f8a08c49-54c9-4855-998e-310f4638e90b"
+                                ]
+                            },
                             "name": {
                                 "$id": "#/properties/break_activities/items/anyOf/0/properties/name",
                                 "type": "string",
@@ -902,6 +932,16 @@
                                                 "name"
                                             ],
                                             "properties": {
+                                                "id": {
+                                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/id",
+                                                    "type": "string",
+                                                    "title": "UUID",
+                                                    "description": "Identify each choice",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "f8a08c49-54c9-4855-998e-310f4638e90b"
+                                                    ]
+                                                },
                                                 "name": {
                                                     "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
                                                     "type": "string",
