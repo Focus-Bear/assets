@@ -155,10 +155,10 @@
                                 "enum": ["AVG", "SUM"],
                                 "title": "type",
                                 "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
-                                "default": "total",
+                                "default": "SUM",
                                 "examples": [
-                                    "average",
-                                    "total"
+                                    "AVG",
+                                    "SUM"
                                 ]
                             },
                             "video_urls": {
@@ -468,10 +468,10 @@
                                 "enum": ["AVG", "SUM"],
                                 "title": "type",
                                 "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
-                                "default": "total",
+                                "default": "SUM",
                                 "examples": [
-                                    "average",
-                                    "total"
+                                    "AVG",
+                                    "SUM"
                                 ]
                             },
                             "video_urls": {
@@ -1011,10 +1011,10 @@
                                 "enum": ["AVG", "SUM"],
                                 "title": "type",
                                 "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
-                                "default": "total",
+                                "default": "SUM",
                                 "examples": [
-                                    "average",
-                                    "total"
+                                    "AVG",
+                                    "SUM"
                                 ]
                             },
                             "duration_seconds": {
