@@ -109,6 +109,16 @@
                                     "f8a08c49-54c9-4855-998e-310f4638e90b"
                                 ]
                             },
+                            "activity_sequence_id": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/activity_sequence_id",
+                                "type": "string",
+                                "title": "Activity Sequence ID",
+                                "description": "Identify each habit whether it completed or not.",
+                                "default": "",
+                                "examples": [
+                                    "7d3c99d5-3e46-48fb-80bb-05e2d1f7b56e"
+                                ]
+                            },
                             "name": {
                                 "$id": "#/properties/morning_activities/items/anyOf/0/properties/name",
                                 "type": "string",
@@ -423,6 +433,16 @@
                                 "default": "",
                                 "examples": [
                                     "f8a08c49-54c9-4855-998e-310f4638e90b"
+                                ]
+                            },
+                            "activity_sequence_id": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/activity_sequence_id",
+                                "type": "string",
+                                "title": "Activity Sequence ID",
+                                "description": "Identify each habit whether it completed or not.",
+                                "default": "",
+                                "examples": [
+                                    "4a11d365-47e4-498e-9fff-ef7e9a139c86"
                                 ]
                             },
                             "name": {
@@ -762,6 +782,16 @@
                                 "default": "",
                                 "examples": [
                                     "f8a08c49-54c9-4855-998e-310f4638e90b"
+                                ]
+                            },
+                            "activity_sequence_id": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/activity_sequence_id",
+                                "type": "string",
+                                "title": "Activity Sequence ID",
+                                "description": "Identify each habit whether it completed or not.",
+                                "default": "",
+                                "examples": [
+                                    "ebba7c57-3dd5-4bff-98ba-d45cf0d4087b"
                                 ]
                             },
                             "name": {
