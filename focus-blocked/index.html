@@ -117,7 +117,7 @@
           : '';
 
       const focus_tip = `<div class='notice-wrapper'>
-                          ${block_type ? '' : (`<a href=${old_url}>Click here to re-open the original URL ${
+                          ${block_type ? '' : (`<a href=${current_url}>Click here to re-open the original URL ${
         old_url ?? ''
       }</a>`)}
                           <h6>Want to reprogram your brain so you stay on task during focus blocks?
@@ -140,16 +140,15 @@
       } else {
         document.getElementById('focusTitle').innerText =
           "Let's keep the focus on " + focus_mode;
-        const endTime = moment(focusEndTime, 'YYYY-MM-DDThh:mm:ss');
+        const endTime = moment(focusEndTime);
         let refreshIntervalId = setInterval(
           () => {
-            const now = moment();
-            if (endTime.diff(now, 'minutes') > 0) {
+            if (endTime.diff(moment(), 'minutes') > 0) {
               document.getElementById(
                 'progressWrapper'
               ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
-                .duration(endTime.diff(now))
-                .humanize(true)}</p> <a href='${old_url}'>Original URL</a>`;
+                .duration(endTime.diff(moment()))
+                .humanize(true)}</p> <a href='${current_url}'>Original URL ${old_url}</a>`;
             } else {
               clearInterval(refreshIntervalId);
               document.getElementById('focusTitle').innerText =
