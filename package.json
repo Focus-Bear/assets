@@ -9,15 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amanueltsfy/assets.git"
+    "url": "git+https://github.com/Focus-Bear/assets.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amanueltsfy/assets/issues"
+    "url": "https://github.com/Focus-Bear/assets/issues"
   },
-  "homepage": "https://github.com/amanueltsfy/assets#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@vercel/ncc": "^0.34.0"
