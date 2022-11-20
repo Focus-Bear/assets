@@ -21,12 +21,12 @@ try {
     } else {
       errorMessage += `Keys: `;
     }
-    errorMessage += not_found_keys.map((key) => " " + key);
+    errorMessage += JSON.stringify(...not_found_keys);
     errorMessage += ` not found in config-es.json.`;
     core.setFailed(errorMessage);
   } else {
-    core.info("All keys are the same in both config files");
+    core.summary("All keys are the same in both config files");
   }
 } catch (error) {
-  core.error(error.message);
+  core.setFailed(error.message);
 }

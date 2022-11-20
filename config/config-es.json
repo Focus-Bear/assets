@@ -36,7 +36,9 @@
         "titleGetFocused": "Concéntrate",
         "activitySkippedText":"<ACTIVITY> Posponer!",
         "lastActivitySkippedText":"<ACTIVITY> Postponer! Has completado tu tiempo frente a la pantalla. 💪",
-        "buttonSkipHabitText":"Postponer por hoy"
+        "buttonSkipHabitText":"Postponer por hoy",
+        "buttonPostponeBreakText":"Posponer Descanso cinco minutos",
+        "breakDurationText":"Duración de descanso de actividades: <DURATION>"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -44,6 +46,7 @@
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
         "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
+        "buttonAbortText":"Por favor perdóname",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -106,8 +109,10 @@
         "graphDateText":"Fecha",
         "graphTimeText":"Tiempo",
         "buttonBackToMyHabitsText":"Regresar a mis hábitos",
-        "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet."
-
+        "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet.",
+        "alertAppRestartText":"Focus Bear se reinicia automáticamente si se cierra o bloquea a la fuerza para asegurarse de ayudarte a combatir las distracciones. Si quieres salir de la aplicación/tomar un descanso, use las funciones para salir en la barra de menú en Focus Bear menú.",
+        "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
+        "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -321,7 +326,10 @@
         "descriptionCuddlyBearText":"Modo de osito de peluche: amable y gentil: te da el beneficio de la duda cuando abres una URL no permitida. Te deja permitir temporalmente las URL bloqueadas durante un modo de enfoque.",
         "checkBoxGrizzlyBearText":"Modo de oso pardo",
         "descriptionGrizzlyBearText":"Modo Grizzly Bear: súper estricto: bloquea inmediatamente las URL que no están permitidas y no se permita permitirlas hasta que finalice el modo de enfoque.",
-        "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí."
+        "pomodoroDescriptionText":"Modo Pomodoro tiene ciclos entre trabajo duro cuando el modo de enfoque ha sido encendido (y las distracciones apagadas) y periodos de descanso.",
+        "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
+        "titleDockIcon":"Icono de muelle:",
+        "checkBoxShowDockIconText":"Mostrar icono de muelle"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -389,6 +397,7 @@
         "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com",
         "autoOnDoNotDisturbText":"Enciende NO MOLESTAR automáticamente cada vez que des inicio a Focus Mode.",
         "needDndPermissionText":"Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?"
+
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -522,6 +531,7 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
+
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -532,7 +542,7 @@
         "titleSomethingElse": "Algo diferente",
         "buttonContinueText": "Continuar",
         "workText": "Trabajo",
-        "placeholderWorkText":"Rocket Surgery"
+        "placeholderWorkText":"Cirugía de cohetes"
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo pomodoro Súper",
@@ -557,7 +567,7 @@
         "buttonRestoreText": "Sincronizar estado de pago"
     },
     "activityPostponeInfo": {
-        "posponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
+        "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
         "postponeBreakText": "Si tienes alguna urgencia, puedes posponer la actividad de descanso por 5 minutos.",
         "buttonTakeBreakText": "¡Ay, está bien, me tomaré un descanso!",
         "selectMinutesText": "Selecciona cuántos minutos deseas posponerlo:",
@@ -566,7 +576,7 @@
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
         "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
-        "buttonEnableOfficeModeText": "Switch to office mode",
+        "buttonEnableOfficeModeText": "Cambiar al modo de oficina",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
         "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos"
@@ -635,8 +645,13 @@
         "titleSignupFailed": "Error al registrarse.",
         "titleLoginFailed": "Error al iniciar sesión.",
         "titlePasswordRules": "Reglas de contraseña:",
-        "passwordRulesText": "* Al menos 8 caracteres de longitud\n* Contener al menos 3 de los siguientes 4 tipos de caracteres:\n* letras minúsculas (a-z)\n* letras mayúsculas (A-Z)\n* números ( es decir, 0-9)\n* caracteres especiales (por ejemplo, !@#$%^&*)",
-        "buttonForgotPasswordText": "Olvidé mi contraseña"
+        "buttonForgotPasswordText": "Olvidé mi contraseña",
+        "passwordRuleFirstText": "Al menos 8 caracteres de longitud",
+        "passwordRuleSecondText": "Contener al menos 3 de los siguientes 4 tipos de caracteres:",
+        "passwordRuleThirdText": "letras minúsculas (a-z)",
+        "passwordRuleFourthText": "letras mayúsculas (A-Z)",
+        "passwordRuleFifthText": "números ( es decir, 0-9)",
+        "passwordRuleSixthText": "caracteres especiales (por ejemplo, !@#$%^&*)"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puede iniciar sesión o registrarse. Si no la ve, intenta abrir Safari manualmente. Si aún no puedes verla",
@@ -656,6 +671,7 @@
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un anuncio de 30 segundos, así tu puedes posponer tu descanso si estas muy ocupado. ¡También detectamos si estas en reunión y no mostramos descansos ya que eso podría causar un momento incomodo si estas compartiendo pantalla!",
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente"
+
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
