@@ -2,8 +2,6 @@ name: "Compare config files"
 
 on: 
   pull_request:
-    branches:
-      - main
 
 jobs: 
   Compare:
