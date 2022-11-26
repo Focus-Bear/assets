@@ -1,15 +1,12 @@
 name: "Compare config files"
 
 on: 
-  pull_request:
-    types: [opened, reopened]
-    branches:
-      - main
+  pull_request: types: [opened, reopened]
 
 jobs: 
   Compare:
-    - name: Compare keys in config-es.json & config.json
-      runs-on: ubuntu-latest
+   name: Compare keys in config-es.json & config.json
+   runs-on: ubuntu-latest
    
    steps:
     - name: Checking keys
