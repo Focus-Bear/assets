@@ -1,7 +1,8 @@
 name: "Compare config files"
 
 on: 
-  pull_request: types: [opened, reopened]
+  pull_request: 
+    types: [opened, reopened]
 
 jobs: 
   Compare:
