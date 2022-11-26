@@ -2,6 +2,7 @@ name: "Compare config files"
 
 on: 
   pull_request:
+    types: [opened, reopened]
     branches:
       - main
 
@@ -12,4 +13,4 @@ jobs:
    
    steps:
     - name: Checking keys
-      uses: Focus-Bear/assets@main
+      uses: ./
