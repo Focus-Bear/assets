@@ -1,14 +1,14 @@
 name: "Compare config files"
 
-on: 
-  pull_request: 
-    types: [opened, reopened]
+on:
+  pull_request:
+    branches: [main]
 
-jobs: 
+jobs:
   Compare:
-   name: Compare keys in config-es.json & config.json
-   runs-on: ubuntu-latest
-   
-   steps:
-    - name: Checking keys
-      uses: amanueltsfy/assets@main
+    name: Compare keys in config-es.json & config.json
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking keys
+        uses: amanueltsfy/assets@main
