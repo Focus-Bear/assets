@@ -15,4 +15,4 @@ jobs:
         with:
           path: main
       - name: Checking keys
-        uses: actions/assets@main
+        uses: Focus-Bear/assets@main
