@@ -10,5 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: main
       - name: Checking keys
-        uses: amanueltsfy/assets@main
+        uses: actions/assets@main
