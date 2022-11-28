@@ -13,7 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: amanueltsfy/assets
-          path: main
+          ref: main
       - name: Checking keys
-        uses: Focus-Bear/assets@main
+        uses: ./
