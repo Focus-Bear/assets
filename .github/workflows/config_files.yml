@@ -1,7 +1,7 @@
 name: "Compare config files"
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [main]
 
 jobs:
@@ -13,7 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.repository_owner }}/${{ github.repository }}
           ref: main
       - name: Checking keys
         uses: ./
