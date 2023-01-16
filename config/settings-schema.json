@@ -399,6 +399,16 @@
                                 "examples": [
                                     true
                                 ]
+                            },
+                            "take_notes": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/take_notes",
+                                "type": "string",
+                                "title": "take_notes",
+                                "description": "types of note taking options",
+                                "default": "NO_NOTE",
+                                "examples": [
+                                    "NO_NOTE"
+                                ]
                             }
                         },
                         "additionalProperties": false
@@ -734,6 +744,16 @@
                                 "default": false,
                                 "examples": [
                                     true
+                                ]
+                            },
+                            "take_notes": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/take_notes",
+                                "type": "string",
+                                "title": "take_notes",
+                                "description": "types of note taking options",
+                                "default": "NO_NOTE",
+                                "examples": [
+                                    "NO_NOTE"
                                 ]
                             }
                         },
@@ -1115,6 +1135,16 @@
                                 "description": "Allowed Focus Mode ID",
                                 "default": "",
                                 "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
+                            },
+                            "take_notes": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/take_notes",
+                                "type": "string",
+                                "title": "take_notes",
+                                "description": "types of note taking options",
+                                "default": "NO_NOTE",
+                                "examples": [
+                                    "NO_NOTE"
+                                ]
                             }
                         },
                         "additionalProperties": false
