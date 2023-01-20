@@ -1,20 +1,22 @@
 name: 'Compare config files'
 
 on:
-  pull_request_target:
-    branches: [main]
-    types: [opened, synchronize]
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   Compare:
     name: Compare keys in config-es.json & config.json
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v3
         with:
           repository: amanueltsfy@assets
+          path: assets
           ref: update-schema/notes
 
       - name: Checking config keys
