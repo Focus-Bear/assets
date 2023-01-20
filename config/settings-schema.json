@@ -414,11 +414,22 @@
                             "priority": {
                                 "$id": "#/properties/morning_activities/items/anyOf/0/properties/priority",
                                 "type": "string",
+                                "enum": ["STANDARD", "HIGH"],
                                 "title": "priority",
                                 "description": "type of activity priority options",
                                 "default": "STANDARD",
                                 "examples": [
                                     "STANDARD"
+                                ]
+                            },
+                            "category": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "Category",
+                                "description": "custom accumulator for the user activities",
+                                "default": "General",
+                                "examples": [
+                                    "General"
                                 ]
                             }
                         },
@@ -770,11 +781,22 @@
                             "priority": {
                                 "$id": "#/properties/evening_activities/items/anyOf/0/properties/priority",
                                 "type": "string",
+                                "enum": ["STANDARD", "HIGH"],
                                 "title": "priority",
                                 "description": "type of activity priority options",
                                 "default": "STANDARD",
                                 "examples": [
                                     "STANDARD"
+                                ]
+                            },
+                            "category": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "Category",
+                                "description": "custom accumulator for the user activities",
+                                "default": "General",
+                                "examples": [
+                                    "General"
                                 ]
                             }
                         },
@@ -1170,11 +1192,22 @@
                             "priority": {
                                 "$id": "#/properties/break_activities/items/anyOf/0/properties/priority",
                                 "type": "string",
+                                "enum": ["STANDARD", "HIGH"],
                                 "title": "priority",
                                 "description": "type of activity priority options",
                                 "default": "STANDARD",
                                 "examples": [
                                     "STANDARD"
+                                ]
+                            },
+                            "category": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "Category",
+                                "description": "custom accumulator for the user activities",
+                                "default": "General",
+                                "examples": [
+                                    "General"
                                 ]
                             }
                         },
