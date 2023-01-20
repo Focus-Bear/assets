@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   Compare:
@@ -19,4 +18,4 @@ jobs:
           ref: update-schema/notes
 
       - name: Checking config keys
-        uses: amanueltsfy/assets@v1
+        uses: amanueltsfy/assets@main
