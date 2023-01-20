@@ -15,8 +15,7 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v3
         with:
-          repository: amanueltsfy@assets
-          path: assets
+          repository: amanueltsfy/assets
           ref: update-schema/notes
 
       - name: Checking config keys
