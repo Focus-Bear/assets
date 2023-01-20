@@ -8,7 +8,7 @@ on:
 jobs:
   Compare:
     name: Compare keys in config-es.json & config.json
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout the repo
@@ -18,4 +18,4 @@ jobs:
           ref: update-schema/notes
 
       - name: Checking config keys
-        uses: amanueltsfy/assets@main
+        uses: amanueltsfy/assets@v1

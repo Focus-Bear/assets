@@ -3,4 +3,4 @@ description: 'it will compare keys and analyze a JSON structure in both config-e
 
 runs:
   using: 'node16'
-  main: 'dist/index.js'
+  v1: 'dist/index.js'
