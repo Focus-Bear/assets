@@ -19,4 +19,4 @@ jobs:
           ref: update-schema/notes
 
       - name: Checking config keys
-        uses: ./
+        uses: amanueltsfy/assets@v1
