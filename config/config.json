@@ -15,7 +15,7 @@
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
         "lastActivityFinishedText":"<ACTIVITY> finished!✅ You’ve earned your screen time. 💪",
-        "startBreakActivityTitleText":"It’s time for a break. Do <TIME> of <ACTIVITY> to earn more screentime.",
+        "startBreakActivityTitleText":"It’s time for a micro break. Let’s do <TIME> of <ACTIVITY> to keep your mind and body sharp.",
         "doSomeActivityText":"<ACTIVITY>",
         "beforeYouStartText":"Before you start, take a few moments to reflect on why you want to do these habits. Then visualise yourself beginning the habit sequence. Mentally walk through any of the habits that are going to be harder. This process will help reduce \"limbic friction\", i.e. prime your brain to do the habits no matter what, even if you don't have the app available.",
         "beforeYouBeginText":"Before you begin, take 30 seconds to visualise yourself performing each of the habits. This sounds kooky but research indicates that doing a mental rehearsal like this increases the likelihood of you completing the habits and makes the habits more sticky so that even if you don't have access to your computer/this app, you'll still do all the habits.",
@@ -42,7 +42,7 @@
         "wrapupButtonText":"Let's wrap up for the day",
         "stayFocusedText":"OK - Stay focused throughout the day!",
         "letsCreatAccountText":"Now let's set up an account for you",
-        "buttonAbortText":"Please spare me",
+        "buttonAbortText":"Exit Fullscreen",
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
         "webhookUrl":"https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -749,7 +749,7 @@
         "titleSignUpSuccessful":"Sign up successful",
         "signupSuccessText":"Great you're all signed up. I'll just give you a few tips before you start using it.",
         "buildingHabitsText":"Building Better Habits",
-        "buildingHabitsDescription":"Focus Bear will help you develop stronger habits in the morning and evening by blocking distractions. But don't worry - if you need to access your computer in a hurry, just click the \"Please spare me\" button in the top right.",
+        "buildingHabitsDescription":"Focus Bear will help you develop stronger habits in the morning and evening by blocking distractions. But don't worry - if you need to access your computer in a hurry, just click the \"Exit Fullscreen\" button in the top right.",
         "brainBreaksText":"Brain Breaks",
         "brainBreaksDescription":"To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time. We also detect if you're in a meeting and don't show breaks as that might lead to awkward screensharing moments otherwise!",
         "buttonBackText":"Back",
@@ -762,9 +762,9 @@
         "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
-        "title": "Your Break starts in",
+        "title": "Your micro break starts in",
         "buttonPostponeText": "Postpone for 5 minutes",
-        "postponeConfirmText": "You postponed the last break - are you sure you can't make time for the break now?",
+        "postponeConfirmText": "You postponed the last micro break - are you sure you can't make time for the break now?",
         "buttonTakeBreakText": "Argh ok I'll take a break!"
     },
     "askAppWorkVcInfo": {
@@ -895,9 +895,9 @@
         "languageSpanish":"Spanish"
     },
     "breaksBrainDumpVcInfo": {
-        "title":"Capture your thoughts before starting your break",
-        "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉",
-        "buttonStartBreakText":"Start Break"
+        "title":"Capture your thoughts before starting your micro break",
+        "description":"Taking regular micro breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉",
+        "buttonStartBreakText":"Start Micro Break"
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime":"Startup Time:",
