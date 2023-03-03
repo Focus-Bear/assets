@@ -736,8 +736,8 @@
         "exploreTipsText":"Haz click en siguiente para explorar los tips para usar Focus Bear.",
         "titleSignInSuccessful":"Inicio de sesión exitosa",
         "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo.",
-        "privacyText": "Privacy and Security",
-        "privacyDescription":"We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email team@focusbear.io or refer to our privacy policy:",
+        "privacyText": "[NEEDSTRANSLATION]Privacy and Security",
+        "privacyDescription":"[NEEDSTRANSLATION]We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email team@focusbear.io or refer to our privacy policy:",
         "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
