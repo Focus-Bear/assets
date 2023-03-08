@@ -96,10 +96,13 @@ if (block_type) {
 
 document.getElementById('privacyBtn').addEventListener('click', () => {
   let noticeElement = document.getElementById('privacyNoticeContent');
+  let noticeElementArrow = document.getElementById('arrow');
   if (noticeElement.className === 'hidePrivacyNotice') {
     noticeElement.className = 'privacyNotice';
+    noticeElementArrow.className = 'privacyNoticeContentArrow'
   } else {
     noticeElement.className = 'hidePrivacyNotice';
+    noticeElementArrow.className = 'hidePrivacyNotice'
   }
 });
 
