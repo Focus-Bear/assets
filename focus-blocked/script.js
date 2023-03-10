@@ -24,7 +24,7 @@ const focus_tip_old_url = `<div class='notice-wrapper'>
                     ${
                       block_type
                         ? ''
-                        : `<a href=${current_url}>Click here to re-open the original URL ${
+                        : `<a href=${`https://${current_url}`}>Click here to re-open the original URL ${
                             old_url ?? ''
                           }</a>`
                     }
@@ -33,7 +33,7 @@ const focus_tip = `<div class='notice-wrapper'>
                     ${
                       block_type
                         ? ''
-                        : `<a href=${current_url}>Click here to re-open the original URL ${
+                        : `<a href=${`https://${current_url}`}>Click here to re-open the original URL ${
                             old_url ?? ''
                           }</a>`
                     }
@@ -57,7 +57,7 @@ if (block_type) {
       'progressWrapper'
     ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>Back to your plans for world domination! Save ${
       !block_type.includes('always-block')
-        ? `<a href='${old_url}''>${old_url}</a>`
+        ? `<a href='https://${old_url}''>${old_url}</a>`
         : old_url
     } for when you've finished boiling the oceans.</h6></div>`;
     document.getElementById(
@@ -80,7 +80,7 @@ if (block_type) {
           .duration(endTime.diff(moment()))
           .humanize(
             true
-          )}</p> <a href='${current_url}'>Original URL ${old_url}</a>`;
+          )}</p> <a href='https://${current_url}'>Original URL ${old_url}</a>`;
       } else {
         clearInterval(refreshIntervalId);
         document.getElementById('focusTitle').innerText =
@@ -115,8 +115,8 @@ if (cuddlyBearMode) {
 
 document.getElementById('unblockBtn').addEventListener('click', () => {
   if (old_url.includes('?')) {
-    window.open(`${old_url}&focus_bear_temporarily_allow=true`, '_self');
+    window.open(`https://${old_url}&focus_bear_temporarily_allow=true`, '_self');
   } else {
-    window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
+    window.open(`https://${old_url}?focus_bear_temporarily_allow=true`, '_self');
   }
 });
