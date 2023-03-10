@@ -188,7 +188,7 @@
   overflow: auto;
 }
 
-.popup .content > button + a {
+.popup .content > a,button{
   width: fit-content;
   padding: 6px 10px;
   border-radius: 5px;

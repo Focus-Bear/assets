@@ -45,7 +45,7 @@ const focus_tip = `<div class='notice-wrapper'>
 
 if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
-  if (block_type === 'always-block') {
+  if (block_type === 'always-block' || block_type === 'always-blocked') {
     document.getElementById(
       'progressWrapper'
     ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to Preferences > Always Blocked URLs</h6></div>`;
