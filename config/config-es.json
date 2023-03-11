@@ -121,8 +121,11 @@
         "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.[NEEDTRANSLATION]",
         "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]",
         "focusEndsText":"Focus mode ends in[NEEDTRANSLATION]",
-        "postponeEndsText":"Habit resumes in[NEEDTRANSLATION]"
-
+        "postponeEndsText":"Habit resumes in[NEEDTRANSLATION]",
+        "tabStatsText":"Stats[NEEDTRANSLATION]",
+        "askExtendFocusText":"Still in the flow? Extend the session[NEEDTRANSLATION]",
+        "extendFocusMinutesText":"Select minutes to extend:[NEEDTRANSLATION]",
+        "buttonExtendText":"Extend[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -438,7 +441,10 @@
         "allowUrlsQuestionText":"¿Qué URL quieres permitir?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
         "enterMultiUrlText":"Introduce una o varias direcciones URL (una en cada línea)",
-        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.[NEEDTRANSLATION]"
+        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.[NEEDTRANSLATION]",
+        "descriptionAlwaysBlockedUrls":"When you use this focus mode, all websites will be allowed except for your Always Blocked URLs[NEEDTRANSLATION]",
+        "titleBlockedApps":"Which apps do you want to block?[NEEDTRANSLATION]",
+        "titleBlockedUrls":"Below is the list of Always Blocked URLs:[NEEDTRANSLATION]"
 
      },
     "focusPreferencesAdvancedInfo": {
@@ -795,7 +801,8 @@
         "buttonAllowText": "Sí – solo esta vez",
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes",
-        "intentionText": "Tu intención era \"<INTENTION>\""
+        "intentionText": "Tu intención era \"<INTENTION>\"",
+        "firstTempItemAllowText":"Allowed! Heads up: it might be a little annoying at first to have to keep allowing sites/apps but within a few days, you'll have taught Focus Bear what apps and websites are productive.[NEEDTRANSLATION]"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -882,8 +889,9 @@
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"¿Deseas permitir de forma permanente las aplicaciones o URL que utilizaste durante esta sesión?",
         "buttonAllowText":"Permitir",
-        "titleKeywords":"Keywords:[NEEDTRANSLATION]",
-        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it.[NEEDTRANSLATION]"
+        "titleKeywords":"Allowed keywords:[NEEDTRANSLATION]",
+        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it.\n\nYou can type keywords below that should be allowed. E.g. you can use React Native as a keyword and then any page with that phrase in the URL/title will be allowed.[NEEDTRANSLATION]",
+        "tooltipAddkeyword":"Add keyword[NEEDTRANSLATION]"
     },
     "allTracksVcInfo": {
         "title":"Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
