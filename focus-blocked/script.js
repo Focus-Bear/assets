@@ -25,7 +25,7 @@ const focus_tip_old_url = `<div class='notice-wrapper'>
                     ${
                       block_type
                         ? ''
-                        : `<a href=${`${current_url}`}>Click here to re-open the original URL ${
+                        : `<a href=${current_url}>Click here to re-open the original URL ${
                             old_url ?? ''
                           }</a>`
                     }
@@ -34,7 +34,7 @@ const focus_tip = `<div class='notice-wrapper'>
                     ${
                       block_type
                         ? ''
-                        : `<a href=${`${current_url}`}>Click here to re-open the original URL ${
+                        : `<a href=${current_url}>Click here to re-open the original URL ${
                             old_url ?? ''
                           }</a>`
                     }
