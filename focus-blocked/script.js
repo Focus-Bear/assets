@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 let current_url = urlParams.get('old_url');
-current_url = current_url.startsWith('https') ? current_url : `https://${current_url}`
+current_url = current_url.startsWith('http') ? current_url : `https://${current_url}`
 const old_url = current_url.substring(
   0,
   current_url.indexOf('?') === -1
