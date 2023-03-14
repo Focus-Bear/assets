@@ -118,10 +118,10 @@
         "secondsSText":"s",
         "otherReasonText":"Otro",
         "loadingText":"Cargando",
-        "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.[NEEDTRANSLATION]",
-        "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]",
-        "focusEndsText":"Focus mode ends in[NEEDTRANSLATION]",
-        "postponeEndsText":"Habit resumes in[NEEDTRANSLATION]",
+        "cutOffTimePassedText":"Se está acabando el tiempo - concentrémonos en los hábitos de alta prioridad para el resto de la noche.",
+        "noHighPriorityActivityText":"No se encontraron actividades con alta prioridad.",
+        "focusEndsText":"El modo de enfoque termina en",
+        "postponeEndsText":"El hábito se reanuda en",
         "tabStatsText":"Stats[NEEDTRANSLATION]",
         "askExtendFocusText":"Still in the flow? Extend the session[NEEDTRANSLATION]",
         "extendFocusMinutesText":"Select minutes to extend:[NEEDTRANSLATION]",
@@ -178,11 +178,11 @@
                 "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
                 "buttonDeactivateText": "Desactivar rutina + descansos"
             },
-            "dropDownMeeting":"I have a meeting[NEEDTRANSLATION]",
-            "dropDownSomeOneElse":"Someone else is using my computer[NEEDTRANSLATION]",
-            "dropDownAnnoying":"I'm finding Focus Bear annoying[NEEDTRANSLATION]",
-            "dropDownRelax":"I want to relax for a while without restrictions[NEEDTRANSLATION]",
-            "descriptionNewOptions":"Restoring access immediately and cancelling habits for next 4 hours.. Your normal routine will resume after that.[NEEDTRANSLATION]"
+            "dropDownMeeting":"Tengo una reunión.",
+            "dropDownSomeOneElse":"Alguien más está usando mi computadora.",
+            "dropDownAnnoying":"Estoy encontrando a Focus Bear molesto.",
+            "dropDownRelax":"Quiero relajarme un rato sin restricciones.",
+            "descriptionNewOptions":"Restaurando el acceso inmediatamente y cancelando los hábitos durante las próximas 4 horas. Después de eso, tu rutina normal se reanudará."
         },
         "abortDoneInfo": {
             "title": "Desactivado",
@@ -240,9 +240,10 @@
             "subTitle":"¿Quieres abandonar completamente o solo quieres tomar un descanso por un par de horas?",
             "buttonDiableAppText":"Quisiera un descanso de 4 horas",
             "buttonQuitText":"Apagar completamente – Regresaré cuando esté listo",
-            "selectHoursText":"Select hours to turn it off[NEEDTRANSLATION]",
-            "buttonBreakOneHourText":"Turn it off for 1 hour[NEEDTRANSLATION]",
-            "buttonBreakFewHourText":"Turn it off for <HOUR> hours[NEEDTRANSLATION]"
+            "selectHoursText":"Seleccionar horas para apagarlo",
+            "buttonBreakOneHourText":"Apagar durante 1 hora",
+            "buttonBreakFewHourText":"Apagar durante <HOUR> horas"
+
         }
     },
     "shutOffTimeInfo": {
@@ -441,7 +442,7 @@
         "allowUrlsQuestionText":"¿Qué URL quieres permitir?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
         "enterMultiUrlText":"Introduce una o varias direcciones URL (una en cada línea)",
-        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.[NEEDTRANSLATION]",
+        "meetingsFocusInfoText":"El modo de enfoque de reuniones se usa para detectar cuándo estás en una reunión para no pedirte que tomes un descanso cuando estés en una reunión importante. Agrega las aplicaciones y los sitios web que usas para videoconferencias.",
         "descriptionAlwaysBlockedUrls":"When you use this focus mode, all websites will be allowed except for your Always Blocked URLs[NEEDTRANSLATION]",
         "titleBlockedApps":"Which apps do you want to block?[NEEDTRANSLATION]",
         "titleBlockedUrls":"Below is the list of Always Blocked URLs:[NEEDTRANSLATION]"
@@ -894,10 +895,11 @@
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"Do you want to permanently allow these Apps or URLs that you used during this focus block?[NEEDTRANSLATION]",
         "buttonAllowText":"Permitir",
-        "titleKeywords":"Allowed keywords:[NEEDTRANSLATION]",
-        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it.\n\nYou can type keywords below that should be allowed. E.g. you can use React Native as a keyword and then any page with that phrase in the URL/title will be allowed.[NEEDTRANSLATION]",
+        "titleKeywords":"Palabras clave:",
+        "keywordsInfoText":"Para evitar tener que agregar sitios web individualmente, podemos escanear los títulos de las páginas web que permitiste en esta sesión e identificar las frases clave más comunes. Por ejemplo, si abriste diez páginas relacionadas con Figma 'Cómo vincular entre páginas en Figma', 'Cómo compartir archivos Figma', etc. Podemos detectar que Figma es la frase más común y agregarla a tu lista de permitidos. Después de eso, se permitirá automáticamente cualquier página web con 'Figma' en el título. No almacenamos los detalles de las páginas que visitas - descartamos inmediatamente la información después de analizarla.",
         "tooltipAddkeyword":"Add keyword[NEEDTRANSLATION]",
         "titleWindowText":"Teach Focus Bear how you focus[NEEDTRANSLATION]"
+ 
     },
     "allTracksVcInfo": {
         "title":"Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
