@@ -5,9 +5,9 @@
         "preloadFocusModesDoneText": "Here's a short video that explains how to use Focus Bear.",
         "introActivities": [
             { "name": "Deep Breathing", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
-            { "name": "Pushups", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
-            { "name": "Stretching", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
-            { "name": "Funny cat videos", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
+            { "name": "Pushups", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=dOY-VkXbJCY"] },
+            { "name": "Stretching", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=s5V_sVvagrM"] },
+            { "name": "Funny cat videos", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=YJx_G02o5DM"] },
             { "name": "Your own adventure", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] }
         ],
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
