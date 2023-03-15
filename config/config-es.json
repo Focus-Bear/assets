@@ -5,10 +5,16 @@
         "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
-            { "name": "Respiración Consciente","duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"]}
+            { "name": "Deep Breathing[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
+            { "name": "Pushups[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
+            { "name": "Stretching[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
+            { "name": "Funny cat videos[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
+            { "name": "Your own adventure[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] }
         ],
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
-        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda."
+        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
+        "titleSelectActivity":"What 30 seconds of activity do you want to do?[NEEDTRANSLATION]",
+        "titleEnterActivityName":"Enter name of activity[NEEDTRANSLATION]"
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debes lograr antes de poder usar tu computadora.",
@@ -306,7 +312,7 @@
         "menuItemEnterLicenseKeyTitle": "Introduce la clave de la licencia",
         "menuItemSettingsTitle": "Configuraciones",
         "menuItemPreferencesTitle": "Preferencias",
-        "menuItemExportStatisticsTitle": "Exportar estadísticas",
+        "menuItemExportStatisticsTitle": "Export Data[NEEDTRANSLATION]",
         "menuItemFocusTitle": "Enfoque",
         "menuItemHardcorePomodoroModeTitle": " Modo Pomodoro Estricto",
         "menuItemFocusPreferencesTitle": "Preferencias de enfoque",
@@ -332,8 +338,10 @@
         "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
         "menuItemMeetingDetectionTitle":"Reunion Activa – Descanso desactivados",
         "menuItemResumeHabitsTitle":"Resumir Habitos",
-        "menuItemFocusMusicTitle":"Música de enfoque"
- 
+        "menuItemFocusMusicTitle":"Música de enfoque",
+        "titleWorkMode":"Work Mode:[NEEDTRANSLATION]",
+        "segmentOfficeModeText":"Office Mode[NEEDTRANSLATION]",
+        "segmentWfhModeText":"WFH Mode[NEEDTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -495,7 +503,8 @@
             "questionFirstText": "¿Qué lograste durante este tiempo?",
             "questionSecondText": "¿Algunas distracciones?",
             "titleIntention": "¿Cuál fue tu intención?",
-            "buttonTakeBreakText": "Tómate un descanso de 5 minutos"
+            "buttonTakeBreakText": "Tómate un descanso de 5 minutos",
+            "buttonStartFocusText":"Start another focus block[NEEDTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -774,10 +783,11 @@
         
     },
     "breakWarningVcInfo": {
-        "title": "Tu descanso comienza en",
+        "title": "Your <DURATION> seconds micro break starts in[NEEDTRANSLATION]",
         "buttonPostponeText": "Posponer por 5 minutos",
         "postponeConfirmText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
-        "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!"
+        "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!",
+        "descriptionText":"Micro breaks help keep your energy + alertness levels consistent throughout the day and have positive impacts on your posture (no more screen headaches).[NEEDTRANSLATION]"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
