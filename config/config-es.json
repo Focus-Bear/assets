@@ -16,6 +16,7 @@
         "titleSelectActivity":"¿Qué actividad de 30 segundos quieres hacer?",
         "titleEnterActivityName":"Introduce el nombre de la actividad",
         "buttonSkipText":"Skip[NEEDSTRANSLATION]"
+
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debes lograr antes de poder usar tu computadora.",
@@ -456,6 +457,7 @@
         "titleBlockedApps":"¿Qué aplicaciones quieres bloquear?",
         "titleBlockedUrls":"A continuación se muestra la lista de URLs siempre bloqueadas:",
         "checkBoxDoNotDisturbText":"Block Notifications while focusing"
+
      },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
