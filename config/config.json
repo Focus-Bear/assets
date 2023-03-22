@@ -783,7 +783,7 @@
         "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
-        "title": "Your <DURATION> seconds micro break starts in",
+        "title": "Your <DURATION> second micro break starts in",
         "buttonPostponeText": "Postpone for 5 minutes",
         "postponeConfirmText": "You postponed the last micro break - are you sure you can't make time for the break now?",
         "buttonTakeBreakText": "Argh ok I'll take a break!",
