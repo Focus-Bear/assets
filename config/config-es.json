@@ -645,6 +645,7 @@
     "description": "We'll customise your focus mode depending on type of work you do.[NEEDSTRANSLATION]",
     "maxChars": "[NEEDSTRANSLATION]*Max 25 characters"
   },
+
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo Pomodoro Estricto",
         "descriptionHardcorePomodoroText": "(Bloquear el modo de enfoque para múltiples pomodoros)",

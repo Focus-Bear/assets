@@ -638,9 +638,9 @@
         "buttonContinueText":"Continue",
         "workText":"Work",
         "placeholderWorkText":"Rocket Surgery",
-        "gotItText":"Got it. Let's set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE>.",
-        "description": "We'll customise your focus mode depending on type of work you do.",
-        "maxChars": "*Max 25 characters"
+        "gotItText":"Got it. We've set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE>. You can add other Focus Modes later.",
+        "description":"We'll customise your focus mode depending on type of work you do.",
+         "maxChars": "*Max 25 characters"
     },
     "pomodoroPreferencesAdvancedInfo":{
         "checkBoxUseHardcorePomodoroText":"Use super pomodoro mode",
@@ -865,27 +865,29 @@
         "descriptionUrls": "Don't worry you can still use other websites if you need to but these are the sites that are most likely to be productive for you while you're doing <WORK_TYPE>. You can change these settings later on.",
         "subTitleForUrls": "Add the websites you plan to use:"
     },
-  "focusTipsVcInfo": {
-    "title": "All set up!",
-    "tip1title": "Tip 1: Try focus block",
-    "tip1Text": "You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the top menu icon.",
-    "tip1TextWIN": "You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the Focus Bear menu icon in the System Tray.",
-    "tip2title": "Tip 2:",
-    "tip2Text": "To modify this Focus Mode, first click on Preferences in the Focus Bear popup menu.",
-    "tip3title": "Tip 3:",
-    "tip3Text": "Then click on the Focus tab in the Preferences window that opens up.",
-    "tip4title": "Tip 4:",
-    "tip4Text": "Then choose your focus mode from the left list of Focus Types. Edit the settings in the right side.",
-    "tip2Newtitle": "Tip 2: Teach Focus Bear what is productive",
-    "tip2NewText": "As you use this Focus Mode, Focus Bear will ask you whether each website/app is productive.",
-    "tip3Newtitle": "Tip 3: Permanently allow apps/websites",
-    "tip3NewText": "At the end of the focus block, you can permanently allow those apps/websites (or choose not to).",
-    "tip4Newtitle": "Tip 4: Use keywords",
-    "tip4NewText": "You can even add keywords, e.g. \"React Native\" and any website with that keyword will be allowed.",
-    "buttonBackText": "Back",
-    "buttonNextText": "Next",
-    "buttonGotItText": "Onwards"
-  },
+
+    "focusTipsVcInfo": {
+        "title": "Quick How Tos",
+        "tip1title": "How To 1: Start a focus block",
+        "tip1Text":"You can try your new focus mode out now by clicking the Play icon (click the top menu icon first).",
+        "tip1TextWIN": "You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the Focus Bear menu icon in the System Tray.",
+        "tip2title": "Tip 2:",
+        "tip2Text":"To modify this Focus Mode, first click on Preferences in the Focus Bear popup menu.",
+        "tip3title":"Tip 3:",
+        "tip3Text":"Then click on the Focus tab in the Preferences window that opens up.",
+        "tip4title":"Tip 4:",
+        "tip4Text":"Then choose your focus mode from the left list of Focus Modes. Edit the settings in the right side.",
+        "tip2Newtitle": "How To 2: Teach Focus Bear what is productive",
+        "tip2NewText":"As you use this Focus Mode, Focus Bear will ask you whether each website/app is productive.",
+        "tip3Newtitle":"How To 3: Permanently allow apps/websites",
+        "tip3NewText":"At the end of the focus block, you can permanently allow those apps/websites (or choose not to).",
+        "tip4Newtitle":"How To 4: Use keywords",
+        "tip4NewText":"You can even add keywords, e.g. \"React Native\" and any website with that keyword will be allowed.",
+        "buttonBackText":"Back",
+        "buttonNextText":"Next",
+        "buttonGotItText":"Onwards"
+    },
+
     "howHeardVcInfo": {
         "title": "How did you hear about Focus Bear?",
         "buttonContinueText":"Continue",
