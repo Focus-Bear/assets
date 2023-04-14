@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - 'config/*.json'
+  pull_request:
+    paths:
+      - 'config/*.json'
 
 jobs:
   check-keys:
