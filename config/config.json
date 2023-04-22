@@ -1098,7 +1098,7 @@
     "aISettingVcInfo":{
         "titleMotivation": "Personalised motivational message:",
         "checkBoxMorningMotivationText": "Use AI to generate a personalised motivational message each morning",
-        "descriptionMorningMotivationText": "Your routine streak and your morning routine activities will be sent to Open AI. No other details will be shared but if you have anything in the habit titles that would identify you, we recommend not to have any personally identifiable information in habit titles.",
+        "descriptionMorningMotivationText": "Your routine streak and your morning routine activities will be sent to Open AI. No other details will be shared but if you have anything in the habit titles that would identify you, we recommend you remove it.",
         "titleWebsiteAllow": "Allow websites:",
         "checkBoxWebsiteAllowText": "Use AI to decide if websites should be allowed",
         "descriptionWebsiteAllowText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.",
