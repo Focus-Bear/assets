@@ -1,3 +1,22 @@
+# v144 (Apr 12 - 2023)
+- Updates to onboarding
+- Fix: Always blocked URLs to block immediately even in cuddly bear mode
+- Updates to the Quit dialog
+- Removed timer to postpone breaks when using low friction mode
+- Update to the How to Start a Focus Block screenshot in the onboarding quick tips
+
+# v143 (Apr 11 - 2023)
+- Updates to onboarding screens
+- Allow testing of blocking function during onboarding
+
+# v142 (Apr 3 - 2023)
+- Added help section in preferences
+- Show 'Brain Dump' in the main menu if you have noted anything in your brain dumps
+- Disable microbreaks by default when starting a Pomodoro
+- Show a warning if you choose to run in Grizzly Bear mode
+- Changes to the Quit dialog if you're in the middle of a routine with allowed app activity
+- Added a postpone link in the Habit resume countdown popup
+
 # v141 (Mar 29 - 2023)
 - Be able to select from Focus Mode templates during onboarding
 - Can now trigger an activity in a calendar schedule via LateNoMore by indicating the activity name in the event description with "fbtrigger:{activity_name}"
