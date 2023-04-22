@@ -852,6 +852,7 @@
         "windowTitleText": "Focus Bear - Caja de herramientas",
         "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools.[NEEDSTRANSLATION]",
         "checkBoxActivityText": "Don't Show toolbox when starting a habit with allowed apps"
+
     },
     "skipHabitVcInfo": {
         "title": "Posponer habito ahora",
