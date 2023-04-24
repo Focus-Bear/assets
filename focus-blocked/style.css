@@ -40,11 +40,18 @@
 }
 
 #progressWrapper {
+  width: fit-content;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+#progressWrapper img {
+  width: auto;
+  height: 380px;
 }
 
 #focusTipWrapper {
@@ -76,7 +83,7 @@
 #privacyContainer {
   width: 100%;
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
