@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.container > p {
+.container>p {
   font-size: 20px;
   font-weight: 600;
 }
@@ -28,14 +28,14 @@
   gap: 10px;
 }
 
-.notice-wrapper > h6 {
+.notice-wrapper>h6 {
   font-size: 14px;
   width: 70%;
   margin: 0;
   text-align: justify;
 }
 
-.notice-wrapper > a {
+.notice-wrapper>a {
   font-weight: bold;
 }
 
@@ -94,7 +94,7 @@
   border-radius: 10px;
 }
 
-.privacyNoticeContentArrow{
+.privacyNoticeContentArrow {
   width: 0;
   height: 0;
   border-top: 10px solid lightgray;
@@ -188,7 +188,8 @@
   overflow: auto;
 }
 
-.popup .content > a,button{
+.popup .content>a,
+button {
   width: fit-content;
   padding: 6px 10px;
   border-radius: 5px;
@@ -227,15 +228,15 @@
   font-family: monospace;
 }
 
-#showReason:hover{
- background-color: gray;
+#showReason:hover {
+  background-color: gray;
 }
 
 .toast {
   position: fixed;
   top: 0;
   left: 50%;
-  transform: translate(-50%,-100%);
+  transform: translate(-50%, -100%);
   opacity: 0;
   transition: opacity 500ms, transform 500ms;
   margin-top: 15px;
@@ -248,7 +249,7 @@
 }
 
 .toast.visible {
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
   opacity: 1;
 }
 

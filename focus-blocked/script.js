@@ -1,6 +1,27 @@
+class LocalStorageService {
+  constructor() {
+    this.localStorage = window.localStorage;
+  }
+
+  setItem(key, value) {
+    this.localStorage.setItem(key, value);
+  }
+
+  getItem(key) {
+    return this.localStorage.getItem(key) ?? false;
+  }
+}
+
+const LOCAL_STORAGE = {
+  IS_PAGE_LOADED: 'is_page_loaded',
+  IS_PAGE_RELOADED: 'is_page_reloaded',
+};
+
 const urlParams = new URLSearchParams(window.location.search);
 let current_url = urlParams.get('old_url');
-current_url = current_url.startsWith('http') ? current_url : `https://${current_url}`
+current_url = current_url.startsWith('http')
+  ? current_url
+  : `https://${current_url}`;
 const old_url = current_url.substring(
   0,
   current_url.indexOf('?') === -1
@@ -21,7 +42,7 @@ if (block_type)
     : block_type.includes('evening')
     ? "Blocked because you're doing your evening routine"
     : '';
-
+const storage = new LocalStorageService();
 const focus_tip_old_url = `<div class='notice-wrapper'>
                     ${
                       block_type
@@ -52,7 +73,8 @@ if (block_type) {
       'progressWrapper'
     ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to Preferences > Always Blocked URLs</h6></div>`;
     let imgElement = document.createElement('img');
-    imgElement.src = 'https://focus-bear.github.io/assets/focus-blocked/block_urls.png';
+    imgElement.src =
+      'https://focus-bear.github.io/assets/focus-blocked/block_urls.png';
     document.getElementById('progressWrapper').appendChild(imgElement);
   } else {
     document.getElementById(
@@ -70,6 +92,13 @@ if (block_type) {
     };
   }
 } else {
+  const isPageLoaded = storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED);
+  const isPageReloaded = storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED);
+  if (isPageLoaded) {
+    storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true);
+  } else {
+    storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
+  }
   document.getElementById('focusTitle').innerText =
     "Let's keep the focus on " + focus_mode;
   const endTime = moment(focusEndTime);
@@ -89,6 +118,9 @@ if (block_type) {
           'Focus block is over!';
         document.getElementById('progressWrapper').innerHTML =
           focus_tip_old_url;
+        if (isPageReloaded) {
+          window.location.href = old_url;
+        }
       }
     },
     1000,
@@ -101,10 +133,10 @@ document.getElementById('privacyBtn').addEventListener('click', () => {
   let noticeElementArrow = document.getElementById('arrow');
   if (noticeElement.className === 'hidePrivacyNotice') {
     noticeElement.className = 'privacyNotice';
-    noticeElementArrow.className = 'privacyNoticeContentArrow'
+    noticeElementArrow.className = 'privacyNoticeContentArrow';
   } else {
     noticeElement.className = 'hidePrivacyNotice';
-    noticeElementArrow.className = 'hidePrivacyNotice'
+    noticeElementArrow.className = 'hidePrivacyNotice';
   }
 });
 
@@ -123,16 +155,16 @@ document.getElementById('unblockBtn').addEventListener('click', () => {
   }
 });
 
-if(blocked_reason){
-  document.getElementById('showReason').addEventListener('click',() => {
-    let toast = document.getElementById("toast")
-    toast.innerHTML = blocked_reason
-    toast.classList.add('visible')
+if (blocked_reason) {
+  document.getElementById('showReason').addEventListener('click', () => {
+    let toast = document.getElementById('toast');
+    toast.innerHTML = blocked_reason;
+    toast.classList.add('visible');
     setTimeout(() => {
-      toast.classList.remove('visible')
-    },5000)
-  })
-}else{
-  let showReasonBtn = document.getElementById('showReason')
-  showReasonBtn.parentNode.removeChild(showReasonBtn)
+      toast.classList.remove('visible');
+    }, 5000);
+  });
+} else {
+  let showReasonBtn = document.getElementById('showReason');
+  showReasonBtn.parentNode.removeChild(showReasonBtn);
 }
