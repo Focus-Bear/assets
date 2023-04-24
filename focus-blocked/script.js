@@ -156,15 +156,10 @@ document.getElementById('unblockBtn').addEventListener('click', () => {
 });
 
 if (blocked_reason) {
-  document.getElementById('showReason').addEventListener('click', () => {
-    let toast = document.getElementById('toast');
-    toast.innerHTML = blocked_reason;
-    toast.classList.add('visible');
-    setTimeout(() => {
-      toast.classList.remove('visible');
-    }, 5000);
-  });
-} else {
-  let showReasonBtn = document.getElementById('showReason');
-  showReasonBtn.parentNode.removeChild(showReasonBtn);
+  let toast = document.getElementById('toast');
+  toast.innerHTML = blocked_reason;
+  toast.classList.add('visible');
+  setTimeout(() => {
+    toast.classList.remove('visible');
+  }, 5000);
 }

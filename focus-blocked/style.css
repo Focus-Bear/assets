@@ -227,18 +227,6 @@ button {
   color: white;
 }
 
-#showReason {
-  position: fixed;
-  top: 10px;
-  left: 5px;
-  background-color: lightgray;
-  font-family: monospace;
-}
-
-#showReason:hover {
-  background-color: gray;
-}
-
 .toast {
   position: fixed;
   top: 0;
