@@ -219,6 +219,39 @@
   color: white;
 }
 
+#showReason {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: lightgray;
+  font-family: monospace;
+}
+
+#showReason:hover{
+ background-color: gray;
+}
+
+.toast {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-100%);
+  opacity: 0;
+  transition: opacity 500ms, transform 500ms;
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.toast.visible {
+  transform: translate(-50%,0);
+  opacity: 1;
+}
+
 @media only screen and (max-width: 1024px) {
   .popup .content {
     flex-direction: column;

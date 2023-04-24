@@ -11,6 +11,7 @@ const focus_mode = urlParams.get('focus_mode');
 const focusEndTime = urlParams.get('focus_mode_end_time');
 const block_type = urlParams.get('block_type');
 const cuddlyBearMode = urlParams.get('cuddly_bear_mode');
+const blocked_reason = urlParams.get('reason');
 let blocked_message;
 if (block_type)
   blocked_message = block_type.includes('always-block')
@@ -121,3 +122,17 @@ document.getElementById('unblockBtn').addEventListener('click', () => {
     window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
   }
 });
+
+if(blocked_reason){
+  document.getElementById('showReason').addEventListener('click',() => {
+    let toast = document.getElementById("toast")
+    toast.innerHTML = blocked_reason
+    toast.classList.add('visible')
+    setTimeout(() => {
+      toast.classList.remove('visible')
+    },5000)
+  })
+}else{
+  let showReasonBtn = document.getElementById('showReason')
+  showReasonBtn.parentNode.removeChild(showReasonBtn)
+}
