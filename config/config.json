@@ -903,8 +903,8 @@
         "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.",
         "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
         "buttonContinueText": "Continue",
-        "enterUrlText": "Enter url to block:",
-        "buttonAddUrlText": "Add url",
+        "enterUrlText": "Enter URL to block:",
+        "buttonAddUrlText": "Add URL",
         "tipText": "In case you're worried - we don't track which websites you're using.",
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
@@ -1114,6 +1114,7 @@
         "buttonContinueText": "Continue",
         "fullDescriptionText": "To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time. We also detect if you're in a meeting and don't show breaks as that might lead to awkward screensharing moments otherwise!"
     },
+
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",
