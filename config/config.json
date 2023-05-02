@@ -52,7 +52,8 @@
         "buttonVideoText": "Video",
         "buttonNotesText": "Notes",
         "titleTakeNotes": "Take Notes",
-        "buttonInstructionsText": "Instructions"
+        "buttonInstructionsText": "Instructions",
+        "buttonChooseVideoText": "Choose a different video"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -419,7 +420,11 @@
         "checkBoxShowMeetingDetectionPopupText": "Automatically suggest starting \"Meetings\" focus mode",
         "alertChangeLanguageInfoText": "Focus Bear will restart for the changes to take effect.",
         "warningGrizzlyBearText":"Warning: Grizzly Bear mode is not recommended until you have fully fleshed out your focus modes. We recommend starting with cuddly bear mode and switching to Grizzly Bear mode after a few weeks",
-        "helpText":"Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please export your logs (use the link below) and attach it to the email."
+        "helpText":"Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please export your logs (use the link below) and attach it to the email.",
+        "titleShowBreaksInPostpone": "Show Micro breaks:",
+        "checkBoxShowBreaksInPostponeText": "Show breaks while postponing routine",
+        "tabReportProblemText": "Report Problem",
+        "tabChatText": "Chat with Focus Bear"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -470,8 +475,8 @@
         "titleBlockedSelectedUrls": "Block selected urls (works with Safari and Chrome only)",
         "titleAllowUrlListApproch": "Block everything except safe sites that I choose",
         "titleBlockUrlListApproch": "Allow everything except certain distracting sites",
-        "allowUrlsQuestionText": "Which URLs do you want to allow?",
-        "blockUrlsQuestionText": "Which URLs do you want to block?",
+        "allowUrlsQuestionText": "Websites to allow",
+        "blockUrlsQuestionText": "Websites to block",
         "enterMultiUrlText": "Enter single or multiple urls(one in each line)",
         "meetingsFocusInfoText": "The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.",
         "descriptionAlwaysBlockedUrls": "When you use this focus mode, all websites will be allowed except for your Always Blocked URLs",
@@ -511,7 +516,8 @@
             "explanationText": "Setting an intention for the focus block helps prime your brain to accomplish that task.",
             "buttonStopFocusText": "Stop current focus mode and start this one",
             "activityRunningCantStartFocusText": "You can not start a focus mode while an activity is running.",
-            "tipMaximumMinutesText": "Tip: research indicates that 90 minutes is the maximum limit for focused work (ultradian rhythms). After that, your attention will naturally decline and you'll need to take a break."
+            "tipMaximumMinutesText": "Tip: research indicates that 90 minutes is the maximum limit for focused work (ultradian rhythms). After that, your attention will naturally decline and you'll need to take a break.",
+            "buttonShowTimerInMenuText": "Show timer in menu bar when running a Focus Block"
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
@@ -580,7 +586,7 @@
         "chooseTheFocusModeText": "Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minute break)",
         "alertWarningPaswwordSetText": "To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go.",
-        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?",
+        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks",
         "timerText": "Time spend unfocused: <TIME>"
     },
     "logQuantityInfo": {
@@ -903,8 +909,8 @@
         "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.",
         "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
         "buttonContinueText": "Continue",
-        "enterUrlText": "Enter URL to block:",
-        "buttonAddUrlText": "Add URL",
+        "enterUrlText": "Enter url to block:",
+        "buttonAddUrlText": "Add url",
         "tipText": "In case you're worried - we don't track which websites you're using.",
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
@@ -948,7 +954,8 @@
         "optionFirstText": "Friend recommended it",
         "optionSecondText": "Google",
         "optionThirdText": "Ad on Reddit or Twitter",
-        "optionFourthText": "Somewhere else"
+        "optionFourthText": "Somewhere else",
+        "optionRemarkableText": "Remarkable"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Reactivate",
@@ -1114,7 +1121,11 @@
         "buttonContinueText": "Continue",
         "fullDescriptionText": "To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time. We also detect if you're in a meeting and don't show breaks as that might lead to awkward screensharing moments otherwise!"
     },
-
+    "popupAppointmentTimeVcInfo":{
+        "title": "It looks like you have an appointment that is about to start: <EVENT_TITLE>. Pausing your habits so you can attend the appointment.",
+        "buttonBackToHabitsText": "Back to habits - I don't need to attend",
+        "buttonThanksText": "Thanks!"
+    },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",

@@ -52,7 +52,8 @@
         "buttonVideoText": "Video",
         "buttonNotesText": "Notas",
         "titleTakeNotes": "Tomar notas",
-        "buttonInstructionsText": "Instructions[NEEDSTRANSLATION]"
+        "buttonInstructionsText": "Instructions[NEEDSTRANSLATION]",
+        "buttonChooseVideoText": "Choose a different video[NEEDSTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -419,7 +420,11 @@
         "checkBoxShowMeetingDetectionPopupText": "Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
         "alertChangeLanguageInfoText": "Focus Bear se reiniciará para que los cambios surtan efecto.",
         "warningGrizzlyBearText":"Advertencia: El modo Oso Pardo no es recomendable hasta que hayas perfeccionado por completo tus modos de enfoque. Recomendamos empezar con el modo Oso de Peluche y cambiar al modo Oso Pardo pasadas unas semanas.",
-        "helpText":"Focus Bear sigue siendo una aplicación nueva y es posible que encuentres errores (o tengas grandes ideas sobre cómo mejorarla). Agradeceríamos mucho tu opinión. Puedes escribirnos a team@focusbear.io. Las capturas de pantalla son realmente útiles para que podamos entender el problema. Además, si has tenido algún problema, exporta tus registros (utiliza el enlace que aparece a continuación) y adjúntalos al correo electrónico."
+        "helpText":"Focus Bear sigue siendo una aplicación nueva y es posible que encuentres errores (o tengas grandes ideas sobre cómo mejorarla). Agradeceríamos mucho tu opinión. Puedes escribirnos a team@focusbear.io. Las capturas de pantalla son realmente útiles para que podamos entender el problema. Además, si has tenido algún problema, exporta tus registros (utiliza el enlace que aparece a continuación) y adjúntalos al correo electrónico.",
+        "titleShowBreaksInPostpone": "Show Micro breaks:[NEEDSTRANSLATION]",
+        "checkBoxShowBreaksInPostponeText": "Show breaks while postponing routine[NEEDSTRANSLATION]",
+        "tabReportProblemText": "Report Problem[NEEDSTRANSLATION]",
+        "tabChatText": "Chat with Focus Bear[NEEDSTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -470,8 +475,8 @@
         "titleBlockedSelectedUrls": "Bloquear URL seleccionadas (solo funciona con Safari y Chrome)",
         "titleAllowUrlListApproch": "Bloquear todo excepto los sitios seguros que elija",
         "titleBlockUrlListApproch": "Permitir todo excepto ciertos sitios que me distraen",
-        "allowUrlsQuestionText": "¿Qué URL quieres permitir?",
-        "blockUrlsQuestionText": "¿Qué URL quieres bloquear?",
+        "allowUrlsQuestionText": "Websites to allow[NEEDSTRANSLATION]",
+        "blockUrlsQuestionText": "Websites to block[NEEDSTRANSLATION]",
         "enterMultiUrlText": "Introduce una o varias direcciones URL (una en cada línea)",
         "meetingsFocusInfoText": "El modo de enfoque de reuniones se usa para detectar cuándo estás en una reunión para no pedirte que tomes un descanso cuando estés en una reunión importante. Agrega las aplicaciones y los sitios web que usas para videoconferencias.",
         "descriptionAlwaysBlockedUrls": "Cuando utilices este modo de enfoque, se permitirán todos los sitios web excepto tus URLs siempre bloqueadas",
@@ -511,7 +516,8 @@
             "explanationText": "Establece una intención para el bloque de enfoque que te ayude a preparar tu cerebro para realizar esa tarea.",
             "buttonStopFocusText": "Detener el modo de enfoque actual e iniciar este",
             "activityRunningCantStartFocusText": "No puedes iniciar un modo de enfoque mientras se está ejecutando una actividad.",
-            "tipMaximumMinutesText": "Consejo: las investigaciones indican que 90 minutos es el límite máximo para trabajo concentrado (ritmos ultradianos). Después de eso, tu atención decaerá de forma natural y tendrás que tomarte un descanso."
+            "tipMaximumMinutesText": "Consejo: las investigaciones indican que 90 minutos es el límite máximo para trabajo concentrado (ritmos ultradianos). Después de eso, tu atención decaerá de forma natural y tendrás que tomarte un descanso.",
+            "buttonShowTimerInMenuText": "Show timer in menu bar when running a Focus Block[NEEDSTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -580,7 +586,7 @@
         "chooseTheFocusModeText": "Elige el modo de enfoque y la duración: no podrás cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puedes usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText": "Para que el modo Pomodoro Estricto sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por ti); de lo contrario, aún podrás cancelar los modos de enfoque antes de que se acabe el tiempo...",
         "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
-        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?",
+        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo",
         "timerText": "Tiempo gastado desenfocado: <TIME>"
     },
     "logQuantityInfo": {
@@ -950,7 +956,8 @@
         "optionFirstText": "Un amigo/a lo recomendó",
         "optionSecondText": "Google",
         "optionThirdText": "Anuncio en Reddit o Twitter",
-        "optionFourthText": "En otro lugar"
+        "optionFourthText": "En otro lugar",
+        "optionRemarkableText": "Remarkable[NEEDSTRANSLATION]"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Actualizar ahora",
@@ -1098,7 +1105,6 @@
         "descriptionText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.[NEEDSTRANSLATION]",
         "buttonCancelText": "No thanks[NEEDSTRANSLATION]",
         "titleAlertText": "Alright. You can change this setting later under Preferences - Settings - AI[NEEDSTRANSLATION]"
-
     },
     "aISettingVcInfo":{
         "titleMotivation": "Personalised motivational message:[NEEDSTRANSLATION]",
@@ -1116,6 +1122,11 @@
         "descriptionText": "(Optometrists recommend a 20 second break every 20 minutes)[NEEDSTRANSLATION]",
         "buttonContinueText": "Continuar",
         "fullDescriptionText": "Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!"
+    },
+    "popupAppointmentTimeVcInfo":{
+        "title": "It looks like you have an appointment that is about to start: <EVENT_TITLE>. Pausing your habits so you can attend the appointment.[NEEDSTRANSLATION]",
+        "buttonBackToHabitsText": "Back to habits - I don't need to attend[NEEDSTRANSLATION]",
+        "buttonThanksText": "Thanks![NEEDSTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
