@@ -868,7 +868,7 @@
         "firstTempItemAllowText": "¡Permitido! Atención: puede ser un poco molesto al principio tener que seguir permitiendo sitios/aplicaciones, pero en unos pocos días, habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
         "checkingUrlText": "Comprobando si esta URL es segura para tu modo de enfoque actual. Tardaré unos 4-5 segundos en comprobarlo. Si es segura, se permitirá automáticamente.",
         "urlNotVerifiedText": "No se ha podido verificar el estado de esta url.",
-        "titleUrlSafeText": "Sitio seguro según IA (probabilidad <PERCENTAJE>%)",
+        "titleUrlSafeText": "Sitio seguro según IA (probabilidad <PERCENTAGE>%)",
         "reasonText": "Motivo: <REASON>",
         "buttonBadDecisionText": "Mala decisión",
         "checkboxDonotShowText": "No volver a mostrar esto"
