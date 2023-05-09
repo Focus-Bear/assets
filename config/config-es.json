@@ -53,7 +53,11 @@
         "buttonNotesText": "Notas",
         "titleTakeNotes": "Tomar notas",
         "buttonInstructionsText": "Instrucciones",
-        "buttonChooseVideoText": "Choose a different video[NEEDSTRANSLATION]"
+        "buttonChooseVideoText": "Choose a different video[NEEDSTRANSLATION]",
+        "buttonActivityDoneText": "I'm done[NEEDSTRANSLATION]",
+        "startNonTimerActivityButtonText": "Start <NAME>[NEEDSTRANSLATION]",
+        "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.[NEEDSTRANSLATION]",
+        "completionRequirementsText": "Complete After: <REQUIREMENTS>[NEEDSTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -517,7 +521,9 @@
             "buttonStopFocusText": "Detener el modo de enfoque actual e iniciar este",
             "activityRunningCantStartFocusText": "No puedes iniciar un modo de enfoque mientras se está ejecutando una actividad.",
             "tipMaximumMinutesText": "Consejo: las investigaciones indican que 90 minutos es el límite máximo para trabajo concentrado (ritmos ultradianos). Después de eso, tu atención decaerá de forma natural y tendrás que tomarte un descanso.",
-            "buttonShowTimerInMenuText": "Show timer in menu bar when running a Focus Block[NEEDSTRANSLATION]"
+            "buttonShowTimerInMenuText": "Show timer in menu bar when running a Focus Block[NEEDSTRANSLATION]",
+            "buttonSettingsText": "Settings[NEEDSTRANSLATION]",
+            "buttonSaveIntentionText": "Save intention as template[NEEDSTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -983,7 +989,8 @@
         "titleWindowText": "Enseña a Focus Bear cómo te concentras"
     },
     "allTracksVcInfo": {
-        "title": "Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
+        "title": "Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás.",
+        "titleVolumeText": "Volume:[NEEDSTRANSLATION]"
     },
     "setUpVcInfo": {
         "title": "Configuración",
@@ -1120,13 +1127,6 @@
         "title": "Recordatorios de descanso",
         "questionText": "¿Con qué frecuencia quieres tomar descansos?",
         "descriptionText": "(Los optometristas recomiendan un descanso de 20 segundos cada 20 minutos)",
-        "buttonContinueText": "Continuar",
-        "fullDescriptionText": "Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!"
-    },
-    "askBreakTimeVcInfo":{
-        "title": "Break reminders[NEEDSTRANSLATION]",
-        "questionText": "How frequently do you want to  take breaks?[NEEDSTRANSLATION]",
-        "descriptionText": "(Optometrists recommend a 20 second break every 20 minutes)[NEEDSTRANSLATION]",
         "buttonContinueText": "Continuar",
         "fullDescriptionText": "Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!"
     },
