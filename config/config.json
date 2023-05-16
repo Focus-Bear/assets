@@ -59,7 +59,7 @@
         "startNonTimerActivityButtonText": "Start <NAME>",
         "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.",
         "completionRequirementsText": "Complete After: <REQUIREMENTS>",
-        "titleCheckList": "Check List"
+        "titleCheckList": "Checklist"
     },
     "common": {
         "emailId": "team@focusbear.io",
