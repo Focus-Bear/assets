@@ -104,7 +104,7 @@ if (block_type) {
   const endTime = moment(focusEndTime);
   let refreshIntervalId = setInterval(
     () => {
-      if (endTime.diff(moment(), 'minutes') > 0) {
+      if (endTime.diff(moment(), 'seconds') > 0) {
         document.getElementById(
           'progressWrapper'
         ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
