@@ -24,7 +24,8 @@
         "titleSelectActivity": "¿Qué actividad de 30 segundos quieres hacer?",
         "titleEnterActivityName": "Introduce el nombre de la actividad",
         "buttonSkipText": "Omitir",
-        "takingBreaksText": "Tomar descansos a lo largo del día ayuda con el estrés y la concentración."
+        "takingBreaksText": "Tomar descansos a lo largo del día ayuda con el estrés y la concentración.",
+        "buttonEditHabitsText": "Customise my habits first[NEEDSTRANSLATION]"
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Aquí están los hábitos para empezar un día increíble.",
@@ -41,7 +42,7 @@
         "whatComesNextButtonText": "¿Qué viene después?",
         "buttonGetKookyText": "Ponte loco/loca 🧘‍♂️",
         "buttonReviseQuantityText": "Revisa Cantidad",
-        "buttonBeginText": "Comenzar",
+        "buttonBeginText": "Begin Habits[NEEDSTRANSLATION]",
         "visualizeDescriptionText": "Antes de comenzar tu rutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis y Colegas” en 2020 indican que enfocarte en un punto fijo agudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
         "titleGetFocused": "Concéntrate",
         "activitySkippedText": "<ACTIVITY> Posponer!",
@@ -57,7 +58,8 @@
         "buttonActivityDoneText": "I'm done[NEEDSTRANSLATION]",
         "startNonTimerActivityButtonText": "Start <NAME>[NEEDSTRANSLATION]",
         "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.[NEEDSTRANSLATION]",
-        "completionRequirementsText": "Complete After: <REQUIREMENTS>[NEEDSTRANSLATION]"
+        "completionRequirementsText": "Complete After: <REQUIREMENTS>[NEEDSTRANSLATION]",
+        "titleCheckList": "Check List[NEEDSTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -367,7 +369,8 @@
         "segmentOfficeModeText": "Modo de Oficina",
         "segmentWfhModeText": "Modo desde Casa",
         "menuItemSetFocusModesTitle": "Configurar Modos de Enfoque",
-        "toolTipLockedFocus": "Usa esto si quieres enfocarte en usar una aplicación/leer un artículo. Detectaremos la aplicación + el sitio que tengas abiertos y bloquearemos todo lo demás."
+        "toolTipLockedFocus": "Usa esto si quieres enfocarte en usar una aplicación/leer un artículo. Detectaremos la aplicación + el sitio que tengas abiertos y bloquearemos todo lo demás.",
+        "menuItemOpenChecklistTitle": "Open checklist[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -428,7 +431,11 @@
         "titleShowBreaksInPostpone": "Show Micro breaks:[NEEDSTRANSLATION]",
         "checkBoxShowBreaksInPostponeText": "Show breaks while postponing routine[NEEDSTRANSLATION]",
         "tabReportProblemText": "Report Problem[NEEDSTRANSLATION]",
-        "tabChatText": "Chat with Focus Bear[NEEDSTRANSLATION]"
+        "tabChatText": "Chat with Focus Bear[NEEDSTRANSLATION]",
+        "titleTabLimiter": "Browser tab limiter:[NEEDSTRANSLATION]",
+        "titleTabLimitCount": "Max tab limit:[NEEDSTRANSLATION]",
+        "checkBoxTabLimiterText": "Prevent user from opening more browser tabs[NEEDSTRANSLATION]",
+        "alertTabCountText": "Tab count can not be 0.[NEEDSTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -1053,6 +1060,7 @@
         "buttonDidNotBlockedText": "No lo bloqueó 😒",
         "titleWhichBrowser": "¡Ups! ¿Qué navegador usaste?",
         "tryBrowsersBlockText": "¿Usaste Safari, Google Chrome, Sidekick, Brave Browser o Microsoft Edge?\nSólo podemos bloquear si usas esos navegadores.",
+        "tryBrowsersBlockTextWIN": "Did you use Google Chrome, Firefox, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.[NEEDSTRANSLATION]",
         "buttonStillNotBlockedText": "Aún no funciona",
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
         "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?"
