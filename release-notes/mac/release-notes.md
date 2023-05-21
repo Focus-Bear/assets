@@ -1,3 +1,34 @@
+# v159 (May 18 - 2023)
+- 510
+- 600
+- 552 (enhanced)
+- 186
+- onboarding middle work text bold done
+- 618
+
+# v158 (May 16 - 2023)
+- 552
+- Tab limiter fixed for multiple windows with specific browsers
+- Let user customize habits on morning/evening routine start screen
+- 613
+
+# v157 (May 15 - 2023)
+- 186
+- 552
+- 558
+
+# v156 (May 9 - 2023)
+- 609
+- 610
+- 582 (adjusted for minutes, Late no more build)
+
+# v155 (May 9 - 2023)
+- 495
+- 601
+- 602
+- 226
+- 597 (Search)
+
 # v153 (May 2 - 2023)
 - Allow option to show focus mode time remaining in menu bar
 - Added Chat With Focus Bear tab inside Help section
