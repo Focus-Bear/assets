@@ -1,39 +1,38 @@
 # v159 (May 18 - 2023)
-- 510
-- 600
-- 552 (enhanced)
-- 186
-- onboarding middle work text bold done
-- 618
+- Show daily random inspiration phrases at the start of morning and evening routines
+- Fixes to the blur feature when website blocking popup appears
+- Enhancements to the log quantity value sliders feature
+- Enhancements to the activity checklist feature
+- Tweaks to the onboarding UI
+- Increased the size of the Help tab in preferences
 
 # v158 (May 16 - 2023)
-- 552
+- Enhancements to the log quantity value sliders feature
 - Tab limiter fixed for multiple windows with specific browsers
-- Let user customize habits on morning/evening routine start screen
-- 613
+- Let user customize habits from the morning/evening routine start screen
 
 # v157 (May 15 - 2023)
-- 186
-- 552
-- 558
+- Added a checklist feature to an activity
+- Implemented value sliders for the activity log quantity
+- Added a browser tab limiter feature
 
 # v156 (May 9 - 2023)
-- 609
-- 610
-- 582 (adjusted for minutes, Late no more build)
+- Added volume control for Focus Music
+- Allow saving of Focus Mode intention as a template
+- Adjusted the Focus Mode timer to countdown in real time
 
 # v155 (May 9 - 2023)
-- 495
-- 601
-- 602
-- 226
-- 597 (Search)
+- Updates to the Change Video feature during an activity
+- Updates to the Focus Mode menu bar timer
+- Added chat support inside the Help tab in preferences
+- Implemented the API for End-of-Day activity summary
+- Added search feature for settings
 
 # v153 (May 2 - 2023)
 - Allow option to show focus mode time remaining in menu bar
 - Added Chat With Focus Bear tab inside Help section
 - Added "Remarkable" as an option for the referral source in the onboarding
-- Modifications for the onboarding signup page
+- Modifications for the onboarding sign up page
 - Allow changing the video during an activity
 - Show current time on full screen popups
 - Changes to the Focus Mode editing screen
