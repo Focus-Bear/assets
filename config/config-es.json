@@ -59,8 +59,13 @@
         "startNonTimerActivityButtonText": "Iniciar <NAME>",
         "startNonTimerBreakActivityTitleText": "Es hora de un microdescanso. Hagamos <ACTIVITY> para mantener la mente y el cuerpo despiertos.",
         "completionRequirementsText": "Completar después: <REQUIREMENTS>",
-        "titleCheckList": "Lista de Control"
-
+        "titleCheckList": "Lista de Control",
+        "activitySkippedWhatNextSoundText": "<ACTIVITY> skipped. Guess Whats next?[NEEDSTRANSLATION]",
+        "activityFinishedWhatNextSoundText": "<ACTIVITY> finished. Guess Whats next?[NEEDSTRANSLATION]",
+        "activitySkippedNextActivitySoundText": "<ACTIVITY> skipped. Next up is <NEXTACTIVITY>.[NEEDSTRANSLATION]",
+        "activityFinishedNextActivitySoundText": "<ACTIVITY> finished. Next up is <NEXTACTIVITY>.[NEEDSTRANSLATION]",
+        "activitySkippedUnlockNowSoundText": "<ACTIVITY> skipped. You’ve earned your screen time.[NEEDSTRANSLATION]",
+        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finished. You’ve earned your screen time.[NEEDSTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -436,7 +441,9 @@
         "titleTabLimiter": "Limitador de pestañas del navegador:",
         "titleTabLimitCount": "Límite máximo de pestañas:",
         "checkBoxTabLimiterText": "Evita que el usuario abra más pestañas del navegador",
-        "alertTabCountText": "El número de pestañas no puede ser 0"
+        "alertTabCountText": "El número de pestañas no puede ser 0",
+        "titleFullScreen": "Full Screen View:[NEEDSTRANSLATION]",
+        "checkBoxFullScreenEnabledText": "Play activities in full screen mode[NEEDSTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -784,7 +791,7 @@
         "buttonCancelHabitText": "No, no me interesa ahora"
 
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
+    "upgradeNowUrl": "https://dashboard.focusbear.io/profile",
     "customLoginVcInfo": {
         "titleSignIn": "Iniciar sesión",
         "titleSignUp": "Registrarse",
@@ -1032,7 +1039,13 @@
         "questionText": "¿Cuándo quiere empezar y terminar de trabajar?",
         "questionStartWorkTimeText": "¿A qué hora empiezas a trabajar?",
         "questionFinishWorkTimeText": "¿A qué hora terminas de trabajar?",
-        "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)"
+        "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
+        "titleTimeText": "Tu horario se ve así:",
+        "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina",
+        "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
+        "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo",
+        "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna",
+        "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear te ayuda a evitar distracciones y desarrollar hábitos saludables.",
@@ -1143,6 +1156,19 @@
         "title": "Parece que tiene una cita que está a punto de empezar: <EVENT_TITLE>. Pausando tus hábitos para que puedas asistir a la cita.",
         "buttonBackToHabitsText": "Volver a los hábitos - No necesito asistir",
         "buttonThanksText": "¡Gracias!"
+    },
+    "alertMaxTabLimitVcInfo":{
+        "title": "Max tab count (<COUNT>) exceeded.[NEEDSTRANSLATION]"
+    },
+    "chooseFrictionLevelVcInfo":{
+        "title": "How strict do you want Focus Bear to be?[NEEDSTRANSLATION]",
+        "superGentleText": "Super gentle (non-full screen, instantly postpone habits)[NEEDSTRANSLATION]",
+        "gentleText": "Gentle (Full screen, instantly postpone habits)[NEEDSTRANSLATION]",
+        "slightlyStrictText": "Slightly strict (Full screen with countdown timers for postponing habits)[NEEDSTRANSLATION]",
+        "strictText": "Strict (Password required to postpone habits)[NEEDSTRANSLATION]",
+        "superStrictText": "Super strict (Password to postpone/skip habits + Instantly block non-allowed websites)[NEEDSTRANSLATION]",
+        "underneathText": "(You can change this later)[NEEDSTRANSLATION]",
+        "buttonContinueText": "Continuar"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
