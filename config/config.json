@@ -59,7 +59,13 @@
         "startNonTimerActivityButtonText": "Start <NAME>",
         "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.",
         "completionRequirementsText": "Complete After: <REQUIREMENTS>",
-        "titleCheckList": "Checklist"
+        "titleCheckList": "Checklist",
+        "activitySkippedWhatNextSoundText": "<ACTIVITY> skipped. Guess Whats next?",
+        "activityFinishedWhatNextSoundText": "<ACTIVITY> finished. Guess Whats next?",
+        "activitySkippedNextActivitySoundText": "<ACTIVITY> skipped. Next up is <NEXTACTIVITY>.",
+        "activityFinishedNextActivitySoundText": "<ACTIVITY> finished. Next up is <NEXTACTIVITY>.",
+        "activitySkippedUnlockNowSoundText": "<ACTIVITY> skipped. You’ve earned your screen time.",
+        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finished. You’ve earned your screen time."
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -435,7 +441,9 @@
         "titleTabLimiter": "Browser tab limiter:",
         "titleTabLimitCount": "Max tab limit:",
         "checkBoxTabLimiterText": "Prevent user from opening more browser tabs",
-        "alertTabCountText": "Tab count can not be 0."
+        "alertTabCountText": "Tab count can not be 0.",
+        "titleFullScreen": "Full Screen View:",
+        "checkBoxFullScreenEnabledText": "Play activities in full screen mode"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -782,7 +790,7 @@
         "buttonOkShowHabitText": "OK fine - show me the habit feature",
         "buttonCancelHabitText": "No I'm not interested right now"
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
+    "upgradeNowUrl": "https://dashboard.focusbear.io/profile",
     "customLoginVcInfo": {
         "titleSignIn": "Sign In",
         "titleSignUp": "Sign Up",
@@ -1029,7 +1037,13 @@
         "questionText": "When do you want to start and finish work?",
         "questionStartWorkTimeText": "What time do you start work?",
         "questionFinishWorkTimeText": "What time do you finish work?",
-        "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)"
+        "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
+        "titleTimeText": "Your schedule looks like:",
+        "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine",
+        "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)",
+        "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Work",
+        "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.",
+        "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear helps you avoid distractions and build healthy habits.",
@@ -1140,6 +1154,19 @@
         "title": "It looks like you have an appointment that is about to start: <EVENT_TITLE>. Pausing your habits so you can attend the appointment.",
         "buttonBackToHabitsText": "Back to habits - I don't need to attend",
         "buttonThanksText": "Thanks!"
+    },
+    "alertMaxTabLimitVcInfo":{
+        "title": "Max tab count (<COUNT>) exceeded."
+    },
+    "chooseFrictionLevelVcInfo":{
+        "title": "How strict do you want Focus Bear to be?",
+        "superGentleText": "Super gentle (non-full screen, instantly postpone habits)",
+        "gentleText": "Gentle (Full screen, instantly postpone habits)",
+        "slightlyStrictText": "Slightly strict (Full screen with countdown timers for postponing habits)",
+        "strictText": "Strict (Password required to postpone habits)",
+        "superStrictText": "Super strict (Password to postpone/skip habits + Instantly block non-allowed websites)",
+        "underneathText": "(You can change this later)",
+        "buttonContinueText": "Continue"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
