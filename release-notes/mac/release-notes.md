@@ -1,3 +1,91 @@
+# v159 (May 18 - 2023)
+- Show daily random inspiration phrases at the start of morning and evening routines
+- Fixes to the blur feature when website blocking popup appears
+- Enhancements to the log quantity value sliders feature
+- Enhancements to the activity checklist feature
+- Tweaks to the onboarding UI
+- Increased the size of the Help tab in preferences
+
+# v158 (May 16 - 2023)
+- Enhancements to the log quantity value sliders feature
+- Tab limiter fixed for multiple windows with specific browsers
+- Let user customize habits from the morning/evening routine start screen
+
+# v157 (May 15 - 2023)
+- Added a checklist feature to an activity
+- Implemented value sliders for the activity log quantity
+- Added a browser tab limiter feature
+
+# v156 (May 9 - 2023)
+- Added volume control for Focus Music
+- Allow saving of Focus Mode intention as a template
+- Adjusted the Focus Mode timer to countdown in real time
+
+# v155 (May 9 - 2023)
+- Updates to the Change Video feature during an activity
+- Updates to the Focus Mode menu bar timer
+- Added chat support inside the Help tab in preferences
+- Implemented the API for End-of-Day activity summary
+- Added search feature for settings
+
+# v153 (May 2 - 2023)
+- Allow option to show focus mode time remaining in menu bar
+- Added Chat With Focus Bear tab inside Help section
+- Added "Remarkable" as an option for the referral source in the onboarding
+- Modifications for the onboarding sign up page
+- Allow changing the video during an activity
+- Show current time on full screen popups
+- Changes to the Focus Mode editing screen
+
+# v152 (Apr 28 - 2023)
+- Fix for blurring of blocked sites and apps
+- Fix for idle time issue
+
+# v151 (Apr 28 - 2023)
+- Handle appointment reminders from Late No More
+- Fix for showing micro breaks when in postpone mode
+- Fix for natural break detection if laptop lid is closed
+- When using the skip feature during Deactivate, add the option to select: "I already did it"
+- Fix for remaining focus time to countdown in real time
+
+# v150 (Apr 26 - 2023)
+- Changes to onboarding screens
+- Allow setting blocked URLs for a focus mode
+- Fixes for issues with morning routine
+
+# v149 (Apr 25 - 2023)
+- Prevent showing screensaver while activity is playing
+- Fixes for AI tab in settings
+- Fixes for AI system opt-in
+- Tweaks for the toolbox popup for allowed app activity
+- Changes to onboarding screens
+
+# v148 (Apr 22 - 2023)
+- Checks for background processes when opening app
+- Tweaks to the pomodoro/focus mode break
+- Settings added to the toolbox popup for allowed app activity
+- Let user opt-in to use the AI system
+- Separate tab for AI in Settings
+- Ask users to opt into the personalised routine motivation message
+
+# v147 (Apr 22 - 2023)
+- Show daily inspiration webview at start of morning/evening routine
+- Fix for natural break detection if the the laptop lid is closed
+- Disable micro breaks by default in Pomodoro popup
+- Show the probability and also a pop-up if the page is allowed by AI
+- Show micro breaks when in postpone mode
+
+# v146 (Apr 20 - 2023)
+- Implemented AI to determine if an app or site should be blocked while in Cuddly Bear mode
+- Show text instructions for an activity
+
+# v145 (Apr 18 - 2023)
+- Improvements to the brain dump screen prior to taking a break
+- Show tooltip for Lock Focus on Current Activity feature
+- Show a warning if a duration longer than 90 minutes is selected for a focus session
+- Allow resizing of the Preferences window
+- Show the toolbox of allowed app and websites during an activity or focus session
+
 # v144 (Apr 12 - 2023)
 - Updates to onboarding
 - Fix: Always blocked URLs to block immediately even in cuddly bear mode
