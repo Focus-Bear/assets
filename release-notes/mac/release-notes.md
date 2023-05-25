@@ -1,3 +1,8 @@
+# v163 (May 25 - 2023)
+- Quit window modified not to have countdown timers after submitting feedback
+- Support for running non full screen breaks (even if the user is normally full screen) added even if the user is on a call. A setting is added for this.
+- Dark mode setting made searchable.
+
 # v159 (May 18 - 2023)
 - Show daily random inspiration phrases at the start of morning and evening routines
 - Fixes to the blur feature when website blocking popup appears
