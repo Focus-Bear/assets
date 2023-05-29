@@ -1,3 +1,7 @@
+# v165 (May 26 - 2023)
+- Added support to get breaks while postponed in evening routine.
+- Text changes on evening routine's finish screen.
+
 # v164 (May 26 - 2023)
 - Removed capture thoughts screen before breaks while in call. Changed texts for some related screens.
 - Fixed: Chrome permission requested before the user gets to Permission page.
