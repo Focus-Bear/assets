@@ -1,3 +1,35 @@
+# v165 (May 26 - 2023)
+- Added support to get breaks while postponed in evening routine.
+- Text changes on evening routine's finish screen.
+
+# v164 (May 26 - 2023)
+- Removed capture thoughts screen before breaks while in call. Changed texts for some related screens.
+- Fixed: Chrome permission requested before the user gets to Permission page.
+- Tech changes for Blocked URLs screen while onboarding.
+- Enhanced AI blocking screen during setup focus modes AI question.
+
+# v163 (May 25 - 2023)
+- Quit window modified not to have countdown timers after submitting feedback
+- Support for running non full screen breaks (even if the user is normally full screen) added even if the user is on a call. A setting is added for this.
+- Dark mode setting made searchable.
+
+# v162 (May 24 - 2023)
+- Added a setting (under General) "Dark Mode" with a dropdown "Copy system preferences", "Always Dark Mode", "Never Dark Mode"
+- Setting for Verbal announcement of next activity/finished activity added.
+- Bug Fixes
+- 
+# v161 (May 23 - 2023)
+- Adjustments for non Full Screen Breaks, bigger Size windows, etc.
+- Advanced blocked URLs respected during allowed focus mode activity.
+- Timer removed when Daily motivational message is shown before routines.
+- Enhancements to log quantity screen.
+- Button Title changed to "Postpone" in non full screen mode.
+- Verbal Announcement added on finishing activity.
+
+# v160 (May 22 - 2023)
+- Support for non full-screen breaks added
+- Added support to choose their friction level during onboarding
+
 # v159 (May 18 - 2023)
 - Show daily random inspiration phrases at the start of morning and evening routines
 - Fixes to the blur feature when website blocking popup appears
