@@ -224,7 +224,7 @@
     "quitInfo": {
         "quittingTitle": "Quitting..",
         "quittingCountDownInfo": {
-            "subTitle": "Are you sure you want to Quit? Please take 5 seconds to reflect on whether you are serious about quitting.",
+            "subTitle": "Are you sure you want to Quit? Please take 2 seconds to reflect on whether you are serious about quitting.",
             "message": "While you wait, reflect on why you’re doing this. If it was because your routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
             "pleaseEmailText": "Please email",
             "buttonQuitCancelText": "I didn’t mean it. Let me do my habits!"
@@ -376,7 +376,8 @@
         "segmentWfhModeText": "WFH Mode",
         "menuItemSetFocusModesTitle": "Set up Focus Modes",
         "toolTipLockedFocus": "Use this if you want to focus on using one app/reading one article. We'll detect the current app + site you have open and block everything else.",
-        "menuItemOpenChecklistTitle": "Open checklist"
+        "menuItemOpenChecklistTitle": "Open checklist",
+        "menuItemMeetingDetectionBreaksOnTitle": "Meeting active - breaks on"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -443,7 +444,12 @@
         "checkBoxTabLimiterText": "Prevent user from opening more browser tabs",
         "alertTabCountText": "Tab count can not be 0.",
         "titleFullScreen": "Full Screen View:",
-        "checkBoxFullScreenEnabledText": "Play activities in full screen mode"
+        "checkBoxFullScreenEnabledText": "Play activities in full screen mode",
+        "titleDarkMode": "Dark Mode:",
+        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode"],
+        "titleAnnouncement": "Announcement:",
+        "checkBoxAnnouncementText": "Announcement after each activity",
+        "checkBoxShowBreaksInCallText": "Show breaks while in call"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -859,7 +865,9 @@
         "buttonPostponeText": "Postpone for 5 minutes",
         "postponeConfirmText": "You postponed the last micro break - are you sure you can't make time for the break now?",
         "buttonTakeBreakText": "Argh ok I'll take a break!",
-        "descriptionText": "Micro breaks help keep your energy + alertness levels consistent throughout the day and have positive impacts on your posture (no more screen headaches)."
+        "descriptionText": "Micro breaks help keep your energy + alertness levels consistent throughout the day and have positive impacts on your posture (no more screen headaches).",
+        "descriptionMeetingsText": "Micro breaks can help you stay focused in meetings.",
+        "titleMeetings": "Your <DURATION> second mid meeting break starts in"
     },
     "askAppWorkVcInfo": {
         "title": "Welcome to Focus Bear",
@@ -928,10 +936,10 @@
         "title": "Welcome to Focus Bear",
         "questionText": "Which sites do you waste time on?",
         "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.",
-        "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
+        "bottomText": "(You can change this later)",
         "buttonContinueText": "Continue",
-        "enterUrlText": "Enter url to block:",
-        "buttonAddUrlText": "Add url",
+        "enterUrlText": "Enter URL or keyword to block:",
+        "buttonAddUrlText": "Add URL",
         "tipText": "In case you're worried - we don't track which websites you're using.",
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
@@ -1027,7 +1035,8 @@
             "Optimizing a website for users browsing on a Game Boy Color",
             "Creating a machine learning algorithm that predicts which coworker will bring donuts to the office next",
             "Writing a script that generates random passwords that only consist of emojis",
-            "Designing a user interface for a self-driving unicycle"]
+            "Designing a user interface for a self-driving unicycle"],
+        "subTitleMeetings": "You're going to focus better on the meeting after this break. Write down any quick thoughts you don't forget."
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Startup Time:",
@@ -1055,7 +1064,8 @@
         "descriptionText": "Alright, now you need to give Focus Bear permission to block distractions.",
         "buttonPermissionGrantedText": "Continue",
         "buttonRequestPermissionText": "Request Permission",
-        "enabledText": "✅  Enabled!"
+        "enabledText": "✅  Enabled!",
+        "buttonDidNotWorkText": "It didn't work"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacy and Security",
