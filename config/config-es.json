@@ -449,7 +449,10 @@
         "appAppearanceOptions": ["Copy system preferences[NEEDSTRANSLATION]", "Always Dark Mode[NEEDSTRANSLATION]", "Never Dark Mode[NEEDSTRANSLATION]"],
         "titleAnnouncement": "Announcement:[NEEDSTRANSLATION]",
         "checkBoxAnnouncementText": "Announcement after each activity[NEEDSTRANSLATION]",
-        "checkBoxShowBreaksInCallText": "Show breaks while in call[NEEDSTRANSLATION]"
+        "checkBoxShowBreaksInCallText": "Show breaks while in call[NEEDSTRANSLATION]",
+        "titleReloadAppAfterForceQuit": "Reload:[NEEDSTRANSLATION]",
+        "checkBoxReloadAppAfterForceQuitText": "Reload after Force Quit[NEEDSTRANSLATION]",
+        "titleFont": "Application Font:[NEEDSTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
