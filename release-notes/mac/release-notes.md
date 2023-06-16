@@ -1,3 +1,10 @@
+# v167 (June 01 - 2023)
+- Enhanced the search feature to highlight the selected option from the search results.
+- Added an overlay that doesn't take focus initially and gradually becomes clearer, when its time for Full Screen Breaks.
+
+# v166 (May 26 - 2023)
+- Minor enhancements
+
 # v165 (May 26 - 2023)
 - Added support to get breaks while postponed in evening routine.
 - Text changes on evening routine's finish screen.
