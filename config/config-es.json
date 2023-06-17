@@ -60,12 +60,12 @@
         "startNonTimerBreakActivityTitleText": "Es hora de un microdescanso. Hagamos <ACTIVITY> para mantener la mente y el cuerpo despiertos.",
         "completionRequirementsText": "Completar después: <REQUIREMENTS>",
         "titleCheckList": "Lista de Control",
-        "activitySkippedWhatNextSoundText": "<ACTIVITY> skipped. Guess Whats next?[NEEDSTRANSLATION]",
-        "activityFinishedWhatNextSoundText": "<ACTIVITY> finished. Guess Whats next?[NEEDSTRANSLATION]",
-        "activitySkippedNextActivitySoundText": "<ACTIVITY> skipped. Next up is <NEXTACTIVITY>.[NEEDSTRANSLATION]",
-        "activityFinishedNextActivitySoundText": "<ACTIVITY> finished. Next up is <NEXTACTIVITY>.[NEEDSTRANSLATION]",
-        "activitySkippedUnlockNowSoundText": "<ACTIVITY> skipped. You’ve earned your screen time.[NEEDSTRANSLATION]",
-        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finished. You’ve earned your screen time.[NEEDSTRANSLATION]"
+        "activitySkippedWhatNextSoundText": "<ACTIVITY> omitido. ¿Adivina qué sigue?",
+        "activityFinishedWhatNextSoundText": "<ACTIVITY> finalizado. ¿Adivina qué sigue?",
+        "activitySkippedNextActivitySoundText": "<ACTIVITY> omitido. Lo siguiente es <NEXTACTIVITY>.",
+        "activityFinishedNextActivitySoundText": "<ACTIVITY> finalizado. Lo siguiente es <NEXTACTIVITY>.",
+        "activitySkippedUnlockNowSoundText": "<ACTIVITY> omitido. Te has ganado tu tiempo de pantalla.",
+        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finalizado. Te has ganado tu tiempo de pantalla."
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -377,7 +377,7 @@
         "menuItemSetFocusModesTitle": "Configurar Modos de Enfoque",
         "toolTipLockedFocus": "Usa esto si quieres enfocarte en usar una aplicación/leer un artículo. Detectaremos la aplicación + el sitio que tengas abiertos y bloquearemos todo lo demás.",
         "menuItemOpenChecklistTitle": "Abrir Lista de Control",
-        "menuItemMeetingDetectionBreaksOnTitle": "Meeting active - breaks on[NEEDSTRANSLATION]"
+        "menuItemMeetingDetectionBreaksOnTitle": "Reunión activa - descansos activos"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -443,16 +443,16 @@
         "titleTabLimitCount": "Límite máximo de pestañas:",
         "checkBoxTabLimiterText": "Evita que el usuario abra más pestañas del navegador",
         "alertTabCountText": "El número de pestañas no puede ser 0",
-        "titleFullScreen": "Full Screen View:[NEEDSTRANSLATION]",
-        "checkBoxFullScreenEnabledText": "Play activities in full screen mode[NEEDSTRANSLATION]",
-        "titleDarkMode": "Dark Mode:[NEEDSTRANSLATION]",
-        "appAppearanceOptions": ["Copy system preferences[NEEDSTRANSLATION]", "Always Dark Mode[NEEDSTRANSLATION]", "Never Dark Mode[NEEDSTRANSLATION]"],
-        "titleAnnouncement": "Announcement:[NEEDSTRANSLATION]",
-        "checkBoxAnnouncementText": "Announcement after each activity[NEEDSTRANSLATION]",
-        "checkBoxShowBreaksInCallText": "Show breaks while in call[NEEDSTRANSLATION]",
-        "titleReloadAppAfterForceQuit": "Reload:[NEEDSTRANSLATION]",
-        "checkBoxReloadAppAfterForceQuitText": "Reload after Force Quit[NEEDSTRANSLATION]",
-        "titleFont": "Application Font:[NEEDSTRANSLATION]"
+        "titleFullScreen": "Vista de Pantalla Completa:",
+        "checkBoxFullScreenEnabledText": "Reproducir actividades en modo pantalla completa",
+        "titleDarkMode": "Modo Oscuro:",
+        "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro"],
+        "titleAnnouncement": "Anuncio:",
+        "checkBoxAnnouncementText": "Anuncio después de cada actividad",
+        "checkBoxShowBreaksInCallText": "Mostrar descansos durante llamadas",
+        "titleReloadAppAfterForceQuit": "Volver a cargar:",
+        "checkBoxReloadAppAfterForceQuitText": "Volver a cargar después de forzar cierre",
+        "titleFont": "Fuente de la Aplicación:"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -870,8 +870,8 @@
         "postponeConfirmText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
         "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!",
         "descriptionText": "Los micro descansos ayudan a mantener los niveles de energía y alerta constantes a lo largo del día y tienen efectos positivos en la postura (no más dolores de cabeza por la pantalla).",
-        "descriptionMeetingsText": "Micro breaks can help you stay focused in meetings.[NEEDSTRANSLATION]",
-        "titleMeetings": "Your <DURATION> second mid meeting break starts in[NEEDSTRANSLATION]"
+        "descriptionMeetingsText": "Los microdescansos pueden ayudarte a mantenerte concentrado/a en las reuniones.",
+        "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -940,7 +940,7 @@
         "title": "Bienvenido a Focus Bear",
         "questionText": "¿En qué sitios te distraes?",
         "description": "Puedes bloquear ciertos sitios por defecto para evitar entrar en agujeros negros. Marca los sitios que no quieras usar nunca en tu computadora.",
-        "bottomText": "(You can change this later)[NEEDSTRANSLATION]",
+        "bottomText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingresa la URL para bloquear:",
         "buttonAddUrlText": "Agregar URL",
@@ -1041,7 +1041,7 @@
             "Creando un algoritmo de aprendizaje automático que predice qué compañero de trabajo llevará donas a la oficina la próxima vez",
             "Escribiendo un script que genera contraseñas aleatorias que sólo consisten en emojis",
             "Diseñando una interfaz de usuario para un monociclo autoconducido"],
-        "subTitleMeetings": "You're going to focus better on the meeting after this break. Write down any quick thoughts you don't forget.[NEEDSTRANSLATION]"
+        "subTitleMeetings": "Te concentrarás mejor en la reunión después de este descanso. Anota cualquier pensamiento rápido para no olvidarlo."
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Hora de inicio:",
@@ -1070,7 +1070,7 @@
         "buttonPermissionGrantedText": "Continuar",
         "buttonRequestPermissionText": "Solicitar Permiso",
         "enabledText": "✅  ¡Activado!",
-        "buttonDidNotWorkText": "It didn't work[NEEDSTRANSLATION]"
+        "buttonDidNotWorkText": "No funcionó"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacidad y Seguridad",
@@ -1171,16 +1171,16 @@
         "buttonThanksText": "¡Gracias!"
     },
     "alertMaxTabLimitVcInfo":{
-        "title": "Max tab count (<COUNT>) exceeded.[NEEDSTRANSLATION]"
+        "title": "Número máximo de pestañas (<COUNT>) excedido"
     },
     "chooseFrictionLevelVcInfo":{
-        "title": "How strict do you want Focus Bear to be?[NEEDSTRANSLATION]",
-        "superGentleText": "Super gentle (non-full screen, instantly postpone habits)[NEEDSTRANSLATION]",
-        "gentleText": "Gentle (Full screen, instantly postpone habits)[NEEDSTRANSLATION]",
-        "slightlyStrictText": "Slightly strict (Full screen with countdown timers for postponing habits)[NEEDSTRANSLATION]",
-        "strictText": "Strict (Password required to postpone habits)[NEEDSTRANSLATION]",
-        "superStrictText": "Super strict (Password to postpone/skip habits + Instantly block non-allowed websites)[NEEDSTRANSLATION]",
-        "underneathText": "(You can change this later)[NEEDSTRANSLATION]",
+        "title": "¿Qué tan estricto quieres que sea Focus Bear?",
+        "superGentleText": "Súper suave (no pantalla completa, posponer hábitos al instante)",
+        "gentleText": "Suave (pantalla completa, posponer hábitos al instante)",
+        "slightlyStrictText": "Ligeramente estricto (pantalla completa con temporizadores en cuenta regresiva para posponer hábitos)",
+        "strictText": "Estricto (contraseña requerida para posponer hábitos)",
+        "superStrictText": "Superestricto (Contraseña para posponer/saltar hábitos + Bloqueo instantáneo de sitios web no permitidos)",
+        "underneathText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar"
     },
     "WindowsSpecific": {
