@@ -1,3 +1,30 @@
+# v173 (June 17 - 2023)
+- Added support for mobile app install links.
+- Added support for Breaks to run during evening routine focus mode activity.
+- Added support to detect when the user has changed their habits and pull the new habits from the backend. The event triggers after system wake up or after resuming from postpone.
+
+#v172 (June 15 - 2023)
+- Button texts changed to Black from Orange. 
+- Addressed some Accessibility issues. 
+- Text changes for m to minutes and other similar.
+- Preferences Window resize work for all tabs.
+- Text color changes from grey to black on all screens.
+- Added support for stopping always blocked URLs when app is deactivated.
+
+#v171 (June 14 - 2023)
+- Added ability to change fonts and gave a setting for it. Added few fonts which are dyslexia friendly fonts.
+
+#v170 (June 13 - 2023)
+- Added support to allow users to skip break activities.
+
+#v169 (June 12 - 2023)
+- Fixed some obvious accessibility issues, contrast colors on several screens for both dark and light mode.
+- Other minor UI fixes
+
+#v169 (June 5 - 2023)
+- Added support to control Reload after Force quit with a setting.
+- Handling for LateNoMore triggers.
+
 # v167 (June 01 - 2023)
 - Enhanced the search feature to highlight the selected option from the search results.
 - Added an overlay that doesn't take focus initially and gradually becomes clearer, when its time for Full Screen Breaks.

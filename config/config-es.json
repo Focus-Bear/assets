@@ -157,7 +157,8 @@
         "extendFocusMinutesText": "Selecciona los minutos que deseas prolongar:",
         "buttonExtendText": "Extender",
         "tabHelpText": "Ayuda",
-        "tabAIText": "IA"
+        "tabAIText": "IA",
+        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
