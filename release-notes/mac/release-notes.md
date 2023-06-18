@@ -21,7 +21,7 @@
 - Fixed some obvious accessibility issues, contrast colors on several screens for both dark and light mode.
 - Other minor UI fixes
 
-#v169 (June 5 - 2023)
+#v168 (June 5 - 2023)
 - Added support to control Reload after Force quit with a setting.
 - Handling for LateNoMore triggers.
 
