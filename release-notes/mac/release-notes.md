@@ -1,3 +1,11 @@
+# v174 (June 20 - 2023)
+## New Features
+- If you postpone your habits, the Start Focus Mode popup will appear to guide you in using your time wisely.
+- You can synchronize your activities with the allowed focus mode, and they will be marked as completed focus modes.
+## Bug Fixes / Improvements
+- We have fixed the issue where the size of the cuddly bear popup would change unexpectedly.
+- You can now choose to require a password when postponing an activity after clicking "Deactivate" from the menu.
+
 # v173 (June 17 - 2023)
 ## New Features
 - Now supports installation links for mobile apps.
