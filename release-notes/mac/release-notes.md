@@ -1,3 +1,7 @@
+# v175 (June 20 - 2023)
+## Bug Fixes / Improvements
+- You can now define custom duration in minutes for postponing of break activities
+
 # v174 (June 20 - 2023)
 ## New Features
 - If you postpone your habits, the Start Focus Mode popup will appear to guide you in using your time wisely.
