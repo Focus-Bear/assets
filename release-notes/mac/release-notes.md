@@ -1,6 +1,6 @@
 # v175 (June 20 - 2023)
 ## Bug Fixes / Improvements
-- You can now define custom duration in minutes for postponing of break activities
+- You can now postpone breaks for more than 5 minutes
 
 # v174 (June 20 - 2023)
 ## New Features
