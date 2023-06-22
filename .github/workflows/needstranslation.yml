@@ -6,6 +6,7 @@ on:
 jobs:
   check-translation:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -14,7 +15,7 @@ jobs:
         run: |
           if grep -q "NEEDSTRANSLATION" ${{ github.workspace }}/config/config-es.json; then
             echo "config-es.json has items that need translation"
+            exit 1
           else
             echo "config-es.json does not need translation"
-            exit 1
           fi
