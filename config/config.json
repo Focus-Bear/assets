@@ -158,7 +158,9 @@
         "buttonExtendText": "Extend",
         "tabHelpText": "Help",
         "tabAIText": "AI",
-        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect."
+        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.",
+        "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?",
+        "uploadingText": "Uploading..."
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -909,7 +911,8 @@
         "titleUrlSafeText": "Safe site according to AI (probability <PERCENTAGE>%)",
         "reasonText": "Reason: <REASON>",
         "buttonBadDecisionText": "Bad decision",
-        "checkboxDonotShowText": "Don't show this anymore"
+        "checkboxDonotShowText": "Don't show this anymore",
+        "progressInfoText": "Here is the progress while you are teaching Focus Bear to keep allowing sites/apps but within a few days, you'll have taught Focus Bear what apps and websites are productive."
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
