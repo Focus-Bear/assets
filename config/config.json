@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Let’s take a quick 30 second break",
-        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, let’s try out some sample activities (deep breathing/pushups etc.).\n\nWhile you breathe deeply/do pushups, think of how awesome you’ll be if you stick to your morning routine every day.",
+        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, let’s try out some sample activities (deep breathing/stretching).\n\nWhile you breathe deeply/stretch, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "introActivities": [
             {
@@ -790,8 +790,8 @@
         "buttonLaterText": "A bit later please",
         "buttonLetsDoItText": "Let's do it",
         "allRightsReservedText": "© 2022-2023 Focus Bear All Rights Reserved.",
-        "confirmText": "Double checking you have 2 minutes now - you’re about to go full screen.",
-        "buttonConfirmLetsDoItText": "I have 2 minutes",
+        "confirmText": "Double checking that you have 2 minutes now.",
+        "buttonConfirmLetsDoItText": "Yes, I have 2 minutes",
         "buttonNeedMoreTimeText": "Not Now",
         "gotTwoMinutesText": "Got two minutes to try out our habit guide feature?",
         "subTitleNewText": "Next Up: Building habits to support focus",

@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Tomemos un descanso rápido de 30 segundos",
-        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de respiración consciente.\n\nMientras respiras profundamente, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
+        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de respiración consciente/estiramento.\n\nMientras respiras profundamente/estiras, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "introActivities": [
             {
@@ -790,8 +790,8 @@
         "buttonLaterText": "Más tarde, por favor.",
         "buttonLetsDoItText": "Hagámoslo ya",
         "allRightsReservedText": "© 2022-2023 Focus Bear Todos los derechos reservados.",
-        "confirmText": "Verificando que tienes 2 minutos ahora - estás a punto de ir a pantalla completa.",
-        "buttonConfirmLetsDoItText": "Tengo 2 minutos",
+        "confirmText": "Verificando que tienes 2 minutos ahora.",
+        "buttonConfirmLetsDoItText": "Si, Tengo 2 minutos",
         "buttonNeedMoreTimeText": "Ahora no",
         "gotTwoMinutesText": "¿Tienes dos minutos para probar nuestra guía de hábitos?",
         "subTitleNewText": "A continuación: Construir hábitos que favorezcan la concentración",
