@@ -1,4 +1,4 @@
-name: Adhoc Check for NEEDSTRANSLATION
+name: Check for NEEDS TRANSLATION
 
 on:
   workflow_dispatch:
