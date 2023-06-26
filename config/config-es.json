@@ -885,7 +885,8 @@
         "titleSelectHabitPack": "Elige un paquete de hábitos para empezar",
         "morningRoutineText": "Duración de rutina matutina:",
         "eveningRoutineText": "Duración de rutina nocturna:",
-        "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)"
+        "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)",
+        "titleSelectBreaks": "Choose your break activities to get started[NEEDSTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",

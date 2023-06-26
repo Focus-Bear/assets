@@ -884,7 +884,8 @@
         "titleSelectHabitPack": "Choose a habit pack to get started",
         "morningRoutineText": "Morning routine duration:",
         "eveningRoutineText": "Evening routine duration:",
-        "anythingElseText": "Anything else you hope Focus Bear can help with? (We'll try to take your feedback on board)"
+        "anythingElseText": "Anything else you hope Focus Bear can help with? (We'll try to take your feedback on board)",
+        "titleSelectBreaks": "Choose your break activities to get started"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
