@@ -158,7 +158,7 @@
         "buttonExtendText": "Extender",
         "tabHelpText": "Ayuda",
         "tabAIText": "IA",
-        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.[NEEDSTRANSLATION]"
+        "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
