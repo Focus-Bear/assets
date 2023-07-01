@@ -80,7 +80,7 @@
         "buttonExportText": "Export",
         "appName": "Focus Bear",
         "trialExpiredText": "Your trial has expired!",
-        "daysRemainingText": "Trial version - <DAYS> of 31 trial days remaining",
+        "daysRemainingText": "Trial version - <DAYS> of 7 trial days remaining",
         "buttonStatusStateFocusText": "FOCUS",
         "buttonStatusStateOffText": "OFF",
         "buttonStatusStateCallText": "CALL",
@@ -319,8 +319,8 @@
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "We offer a 31-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
-        "buttonStartTrialText": "START 31-DAY FREE TRIAL",
+        "description": "We offer a 7-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
+        "buttonStartTrialText": "START 7-DAY FREE TRIAL",
         "buttonContinueTrialText": "Continue Trial",
         "buttonRegisterNowText": "Register Now",
         "trialPeriodText": "Trial period",
@@ -1109,7 +1109,7 @@
     "askAccountVcInfo": {
         "title": "Setting up a Focus Bear Account",
         "descriptionText": "How about setting up an account so you can sync your block preferences across your devices?",
-        "tipText": "Setting up an account doesn't cost anything - you still get a 31 day free trial- but it is necessary to enable the more advanced features.",
+        "tipText": "Setting up an account doesn't cost anything - you still get a 7 day free trial- but it is necessary to enable the more advanced features.",
         "buttonNotRightNowText": "Not right now",
         "buttonSignUpText": "Sure - let me sign up",
         "alertText": "If you feel like setting up an account, just click on the Focus Bear menu icon."

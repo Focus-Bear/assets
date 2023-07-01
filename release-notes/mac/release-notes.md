@@ -1,4 +1,18 @@
- 
+# v178 (June 24 - 2023)
+## New Features
+- If your evening routine begins while you are in a focus mode, we have added a feature that will display the Focus mode end screen to help you smoothly transition from your focus mode to your evening routine.
+- In Cuddly Bear mode, we have introduced a progress bar in the Gentle Block window. This bar indicates how much you have taught Focus Bear about your focus preferences. Each time you block or allow a URL, the progress bar increases by 1. Once you reach 50 decisions, Focus Bear will have a good understanding of your focus needs.
+
+# v177 (June 23 - 2023)
+## Bug Fixes / Improvements
+- We have made improvements to make the app more compatible with Dyslexic-friendly fonts. Additionally, we have implemented various general fixes to enhance overall performance.
+
+# v176 (June 22 - 2023)
+## New Features
+- You can now upload logs to our server if you encounter any issues with the app. This feature requires your permission to proceed.
+## Bug Fixes / Improvements
+- We have included support for two new fonts: Intel One and Open Dyslexic.
+
 # v175 (June 20 - 2023)
 ## Bug Fixes / Improvements
 - You can now postpone breaks for more than 5 minutes

@@ -80,7 +80,7 @@
         "buttonExportText": "Exportar",
         "appName": "Focus Bear",
         "trialExpiredText": "¡Tu periodo de prueba ha caducado!",
-        "daysRemainingText": "Versión de prueba - <DAYS> de 31 días de prueba restantes",
+        "daysRemainingText": "Versión de prueba - <DAYS> de 7 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
         "buttonStatusStateCallText": "LLAMAR",
@@ -158,7 +158,7 @@
         "buttonExtendText": "Extender",
         "tabHelpText": "Ayuda",
         "tabAIText": "IA",
-        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.[NEEDSTRANSLATION]",
+        "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios.",
         "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?[NEEDSTRANSLATION]",
         "uploadingText": "Uploading...[NEEDSTRANSLATION]"
     },
@@ -319,8 +319,8 @@
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "Ofrecemos un período de prueba de 31 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
-        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 31 DÍAS",
+        "description": "Ofrecemos un período de prueba de 7 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
+        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 7 DÍAS",
         "buttonContinueTrialText": "Continuar con la prueba",
         "buttonRegisterNowText": "Regístrate ahora",
         "trialPeriodText": "Periodo de prueba",
@@ -1111,7 +1111,7 @@
     "askAccountVcInfo": {
         "title": "Crear una cuenta de Focus Bear",
         "descriptionText": "¿Qué te parece crear una cuenta para poder sincronizar tus preferencias de bloqueo en todos tus dispositivos?",
-        "tipText": "Crear una cuenta no cuesta nada (tienes 31 días de prueba gratuita), pero es necesario para activar las funciones más avanzadas.",
+        "tipText": "Crear una cuenta no cuesta nada (tienes 7 días de prueba gratuita), pero es necesario para activar las funciones más avanzadas.",
         "buttonNotRightNowText": "Ahora no",
         "buttonSignUpText": "Claro - voy a registrarme",
         "alertText": "Si quieres crear una cuenta, sólo tienes que hacer clic en el icono del menú de Focus Bear."
