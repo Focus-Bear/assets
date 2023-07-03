@@ -671,7 +671,8 @@
         "buttonSkipEveningHabitText": "Postponing/skipping evening routine",
         "buttonSkipMorningHabitText": "Postponing/skipping morning routine",
         "buttonChangeSettingsText": "Changing settings",
-        "buttonSkipEveningHabitAfterCutOffText": "Postponing/skipping evening routine after cutoff time"
+        "buttonSkipEveningHabitAfterCutOffText": "Postponing/skipping evening routine after cutoff time",
+        "buttonSavedPasswordText": "I've saved the password somewhere safe"
     },
     "blockedUrlsViewInfo": {
         "title": "Always Blocked URLs",
@@ -838,7 +839,10 @@
         "tooltipCopyPassword": "Copy password",
         "checkBoxPasswordSavedText": "I saved the password somewhere safe",
         "buttonCopyPasswordText": "Copy",
-        "explainCreateAccountText": "Create an account to sync your habit + block settings across all your devices."
+        "explainCreateAccountText": "Create an account to sync your habit + block settings across all your devices.",
+        "tooltipShowPassword": "Show Password",
+		"tooltipHidePassword": "Hide Password",
+        "passwordGenerateText": "We generated a password for you"
     },
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
@@ -885,7 +889,10 @@
         "morningRoutineText": "Morning routine duration:",
         "eveningRoutineText": "Evening routine duration:",
         "anythingElseText": "Anything else you hope Focus Bear can help with? (We'll try to take your feedback on board)",
-        "titleSelectBreaks": "Choose your break activities to get started"
+        "titleSelectBreaks": "Choose your break activities to get started",
+        "chooseOptionsText": "Choose one of the following options:",
+        "infoBuildHabitsText": "Focus Bear can help you with morning and evening routines. The app will guide you through habits like mindfulness, journalling, exercise, planning your day or anything you care about.",
+        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done."
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -1184,7 +1191,8 @@
         "strictText": "Strict (Password required to postpone habits)",
         "superStrictText": "Super strict (Password to postpone/skip habits + Instantly block non-allowed websites)",
         "underneathText": "(You can change this later)",
-        "buttonContinueText": "Continue"
+        "buttonContinueText": "Continue",
+        "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
