@@ -920,7 +920,7 @@
         "reasonText": "Reason: <REASON>",
         "buttonBadDecisionText": "Bad decision",
         "checkboxDonotShowText": "Don't show this anymore",
-        "progressInfoText": "Here is the progress while you are teaching Focus Bear to keep allowing sites/apps but within a few days, you'll have taught Focus Bear what apps and websites are productive."
+        "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive."
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
