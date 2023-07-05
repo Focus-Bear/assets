@@ -80,7 +80,7 @@
         "buttonExportText": "Exportar",
         "appName": "Focus Bear",
         "trialExpiredText": "¡Tu periodo de prueba ha caducado!",
-        "daysRemainingText": "Versión de prueba - <DAYS> de 31 días de prueba restantes",
+        "daysRemainingText": "Versión de prueba - <DAYS> de 7 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
         "buttonStatusStateCallText": "LLAMAR",
@@ -158,7 +158,9 @@
         "buttonExtendText": "Extender",
         "tabHelpText": "Ayuda",
         "tabAIText": "IA",
-        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.[NEEDSTRANSLATION]"
+        "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios.",
+        "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?[NEEDSTRANSLATION]",
+        "uploadingText": "Uploading...[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -317,8 +319,8 @@
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "Ofrecemos un período de prueba de 31 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
-        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 31 DÍAS",
+        "description": "Ofrecemos un período de prueba de 7 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
+        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 7 DÍAS",
         "buttonContinueTrialText": "Continuar con la prueba",
         "buttonRegisterNowText": "Regístrate ahora",
         "trialPeriodText": "Periodo de prueba",
@@ -669,7 +671,8 @@
         "buttonSkipEveningHabitText": "Posponer/omitir rutina de tarde",
         "buttonSkipMorningHabitText": "Posponer/omitir rutina de mañana",
         "buttonChangeSettingsText": "Editar Ajustes",
-        "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite"
+        "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite",
+        "buttonSavedPasswordText": "I've saved the password somewhere safe[NEEDSTRANSLATION]"
     },
     "blockedUrlsViewInfo": {
         "title": "URL siempre bloqueadas",
@@ -837,7 +840,10 @@
         "tooltipCopyPassword": "Copiar contraseña",
         "checkBoxPasswordSavedText": "Guardé la contraseña en un lugar seguro",
         "buttonCopyPasswordText": "Copiar",
-        "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos."
+        "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos.",
+        "tooltipShowPassword": "Show Password[NEEDSTRANSLATION]",
+		"tooltipHidePassword": "Hide Password[NEEDSTRANSLATION]",
+        "passwordGenerateText": "We generated a password for you[NEEDSTRANSLATION]"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puedes iniciar sesión o registrarte. Si no la ves, intenta abrir Safari manualmente. Si aún no puedes verla:",
@@ -883,7 +889,11 @@
         "titleSelectHabitPack": "Elige un paquete de hábitos para empezar",
         "morningRoutineText": "Duración de rutina matutina:",
         "eveningRoutineText": "Duración de rutina nocturna:",
-        "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)"
+        "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)",
+        "titleSelectBreaks": "Choose your break activities to get started[NEEDSTRANSLATION]",
+        "chooseOptionsText": "Choose one of the following options:[NEEDSTRANSLATION]",
+        "infoBuildHabitsText": "Focus Bear can help you with morning and evening routines. The app will guide you through habits like mindfulness, journalling, exercise, planning your day or anything you care about.[NEEDSTRANSLATION]",
+        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done.[NEEDSTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -910,7 +920,8 @@
         "titleUrlSafeText": "Sitio seguro según IA (probabilidad <PERCENTAGE>%)",
         "reasonText": "Motivo: <REASON>",
         "buttonBadDecisionText": "Mala decisión",
-        "checkboxDonotShowText": "No volver a mostrar esto"
+        "checkboxDonotShowText": "No volver a mostrar esto",
+        "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive.[NEEDSTRANSLATION]"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1107,7 +1118,7 @@
     "askAccountVcInfo": {
         "title": "Crear una cuenta de Focus Bear",
         "descriptionText": "¿Qué te parece crear una cuenta para poder sincronizar tus preferencias de bloqueo en todos tus dispositivos?",
-        "tipText": "Crear una cuenta no cuesta nada (tienes 31 días de prueba gratuita), pero es necesario para activar las funciones más avanzadas.",
+        "tipText": "Crear una cuenta no cuesta nada (tienes 7 días de prueba gratuita), pero es necesario para activar las funciones más avanzadas.",
         "buttonNotRightNowText": "Ahora no",
         "buttonSignUpText": "Claro - voy a registrarme",
         "alertText": "Si quieres crear una cuenta, sólo tienes que hacer clic en el icono del menú de Focus Bear."
@@ -1182,7 +1193,8 @@
         "strictText": "Estricto (contraseña requerida para posponer hábitos)",
         "superStrictText": "Superestricto (Contraseña para posponer/saltar hábitos + Bloqueo instantáneo de sitios web no permitidos)",
         "underneathText": "(Puedes cambiar esto después)",
-        "buttonContinueText": "Continuar"
+        "buttonContinueText": "Continuar",
+        "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it.[NEEDSTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
