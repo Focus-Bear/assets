@@ -10,7 +10,6 @@
 # v182 (July 1 - 2023)
 ## New Features
 ## Bug Fixes / Improvements
-
 - Fix to allow the focus mode to continue uninterrupted, even if a microbreak starts
 - Added a save button to the brain dump screen to make it more intuitive and prevent any confusion.
 - Added visual enhancement to the menu by highlighting the active focus mode. This makes it easier to identify the currently active focus mode at a glance.
