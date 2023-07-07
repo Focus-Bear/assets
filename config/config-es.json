@@ -160,7 +160,8 @@
         "tabAIText": "IA",
         "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios.",
         "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?[NEEDSTRANSLATION]",
-        "uploadingText": "Uploading...[NEEDSTRANSLATION]"
+        "uploadingText": "Uploading...[NEEDSTRANSLATION]",
+        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -893,7 +894,8 @@
         "titleSelectBreaks": "Choose your break activities to get started[NEEDSTRANSLATION]",
         "chooseOptionsText": "Choose one of the following options:[NEEDSTRANSLATION]",
         "infoBuildHabitsText": "Focus Bear can help you with morning and evening routines. The app will guide you through habits like mindfulness, journalling, exercise, planning your day or anything you care about.[NEEDSTRANSLATION]",
-        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done.[NEEDSTRANSLATION]"
+        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done.[NEEDSTRANSLATION]",
+        "habitPackInfoText": "A habit pack is a collection of habits to do in the morning, the evening and during breaks[NEEDSTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -951,7 +953,7 @@
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",
         "questionText": "¿En qué sitios te distraes?",
-        "description": "Puedes bloquear ciertos sitios por defecto para evitar entrar en agujeros negros. Marca los sitios que no quieras usar nunca en tu computadora.",
+        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use while you're working.[NEEDSTRANSLATION]",
         "bottomText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingresa la URL para bloquear:",
@@ -959,7 +961,9 @@
         "tipText": "Por si te preocupa, no rastreamos los sitios web que utilizas.",
         "categorySocialMedia": "Redes Sociales",
         "categoryNews": "Noticias",
-        "categoryOthers": "Otros"
+        "categoryOthers": "Otros",
+        "blockSitesCountText": "<COUNT> sites will always be blocked.[NEEDSTRANSLATION]",
+        "oneSiteBlockText": "1 site will always be blocked.[NEEDSTRANSLATION]"
 
     },
     "preloadFocusModeAppsVcInfo": {
@@ -1195,6 +1199,31 @@
         "underneathText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar",
         "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it.[NEEDSTRANSLATION]"
+    },
+    "menuTourVcInfo": {
+        "title": "Focus Bear Menu[NEEDSTRANSLATION]",
+        "buttonGetStartedText": "Get Started[NEEDSTRANSLATION]",
+        "buttonNextText": "Next >[NEEDSTRANSLATION]",
+        "buttonFinishText": "Finish[NEEDSTRANSLATION]",
+        "tourMessagesInfo": [
+            {
+                "title": "Focus Bear[NEEDSTRANSLATION]",
+                "description": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time![NEEDSTRANSLATION]",
+            },
+            {
+                "title": "Preferences[NEEDSTRANSLATION]",
+                "description": "Click on \"Preferences\" to[NEEDSTRANSLATION]",
+                "arrayListItems": [
+                    "Edit activities for your morning routine, evening routine, breaks throught the day.[NEEDSTRANSLATION]",
+                    "Setup or change Password.[NEEDSTRANSLATION]",
+                    "View your progress stats.[NEEDSTRANSLATION]"
+                ]
+            },
+            {
+                "title": "Setup Focus mode[NEEDSTRANSLATION]",
+                "description": "Setup focus modes to et into deep work with distraction blocking. You can remove blocks if you have an emergency.[NEEDSTRANSLATION]",
+            }
+        ]
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
