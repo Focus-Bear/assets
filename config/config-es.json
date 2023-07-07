@@ -953,7 +953,7 @@
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",
         "questionText": "¿En qué sitios te distraes?",
-        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use while you're working.[NEEDSTRANSLATION]",
+        "description": "Puedes bloquear ciertos sitios por defecto para evitar entrar en agujeros negros. Marca los sitios que no quieras usar nunca en tu computadora.",
         "bottomText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingresa la URL para bloquear:",
