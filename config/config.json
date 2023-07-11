@@ -161,7 +161,8 @@
         "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.",
         "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?",
         "uploadingText": "Uploading...",
-        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app."
+        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.",
+        "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video."
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
