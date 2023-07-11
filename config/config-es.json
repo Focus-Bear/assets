@@ -159,9 +159,9 @@
         "tabHelpText": "Ayuda",
         "tabAIText": "IA",
         "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios.",
-        "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?[NEEDSTRANSLATION]",
-        "uploadingText": "Uploading...[NEEDSTRANSLATION]",
-        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.[NEEDSTRANSLATION]",
+        "alertUploadLogText": "¿Quieres subir los registros a nuestro servidor para que revisemos qué problemas hubo?",
+        "uploadingText": "Cargando...",
+        "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
         "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video.[NEEDSTRANSLATION]"
     },
     "abortInfo": {
@@ -674,7 +674,7 @@
         "buttonSkipMorningHabitText": "Posponer/omitir rutina de mañana",
         "buttonChangeSettingsText": "Editar Ajustes",
         "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite",
-        "buttonSavedPasswordText": "I've saved the password somewhere safe[NEEDSTRANSLATION]"
+        "buttonSavedPasswordText": "He guardado la contraseña en un lugar seguro"
     },
     "blockedUrlsViewInfo": {
         "title": "URL siempre bloqueadas",
@@ -843,9 +843,9 @@
         "checkBoxPasswordSavedText": "Guardé la contraseña en un lugar seguro",
         "buttonCopyPasswordText": "Copiar",
         "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos.",
-        "tooltipShowPassword": "Show Password[NEEDSTRANSLATION]",
-		"tooltipHidePassword": "Hide Password[NEEDSTRANSLATION]",
-        "passwordGenerateText": "We generated a password for you[NEEDSTRANSLATION]"
+        "tooltipShowPassword": "Mostrar Contraseña",
+		"tooltipHidePassword": "Ocultar Contraseña",
+        "passwordGenerateText": "Hemos generado una contraseña para ti"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puedes iniciar sesión o registrarte. Si no la ves, intenta abrir Safari manualmente. Si aún no puedes verla:",
@@ -892,11 +892,11 @@
         "morningRoutineText": "Duración de rutina matutina:",
         "eveningRoutineText": "Duración de rutina nocturna:",
         "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)",
-        "titleSelectBreaks": "Choose your break activities to get started[NEEDSTRANSLATION]",
-        "chooseOptionsText": "Choose one of the following options:[NEEDSTRANSLATION]",
-        "infoBuildHabitsText": "Focus Bear can help you with morning and evening routines. The app will guide you through habits like mindfulness, journalling, exercise, planning your day or anything you care about.[NEEDSTRANSLATION]",
-        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done.[NEEDSTRANSLATION]",
-        "habitPackInfoText": "A habit pack is a collection of habits to do in the morning, the evening and during breaks[NEEDSTRANSLATION]"
+        "titleSelectBreaks": "Elige tus actividades de descanso para empezar",
+        "chooseOptionsText": "Elige una de las siguientes opciones:",
+        "infoBuildHabitsText": "Focus Bear puede ayudarte con tus rutinas matutinas y nocturnas. La aplicación te guiará a través de hábitos como atención plena, journaling, ejercicio, planear tu día o cualquier otra cosa que te interese.",
+        "infoStayFocusedText": "Focus Bear puede ayudarte a bloquear sitios web y aplicaciones que te distraigan mientras trabajas para ayudarte a lograr hacer más cosas.",
+        "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos."
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -924,7 +924,7 @@
         "reasonText": "Motivo: <REASON>",
         "buttonBadDecisionText": "Mala decisión",
         "checkboxDonotShowText": "No volver a mostrar esto",
-        "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive.[NEEDSTRANSLATION]"
+        "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos."
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -963,9 +963,8 @@
         "categorySocialMedia": "Redes Sociales",
         "categoryNews": "Noticias",
         "categoryOthers": "Otros",
-        "blockSitesCountText": "<COUNT> sites will always be blocked.[NEEDSTRANSLATION]",
-        "oneSiteBlockText": "1 site will always be blocked.[NEEDSTRANSLATION]"
-
+        "blockSitesCountText": "<COUNT> sitios estarán siempre bloqueados",
+        "oneSiteBlockText": "1 sitio estará siempre bloqueados"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Listo",
@@ -1199,7 +1198,32 @@
         "superStrictText": "Superestricto (Contraseña para posponer/saltar hábitos + Bloqueo instantáneo de sitios web no permitidos)",
         "underneathText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar",
-        "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it.[NEEDSTRANSLATION]"
+        "alertDoubleConfirmText": "¿Estás seguro/a? Recomendamos empezar con un modo menos estricto al principio y aumentar gradualmente el rigor si lo necesitas."
+    },
+    "menuTourVcInfo": {
+        "title": "Menú de Focus Bear",
+        "buttonGetStartedText": "Empezar",
+        "buttonNextText": "Siguiente >",
+        "buttonFinishText": "Terminar",
+        "tourMessagesInfo": [
+            {
+                "title": "Focus Bear",
+                "description": "Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en muy poco tiempo.",
+            },
+            {
+                "title": "Preferencias",
+                "description": "Haz clic en \"Preferences\" para",
+                "arrayListItems": [
+                    "Editar actividades para tu rutina matutina, vespertina y descansos a lo largo del día.",
+                    "Configurar o cambiar Contraseña.",
+                    "Ver tus estadísticas de progreso."
+                ]
+            },
+            {
+                "title": "Configuración Modo de Enfoque",
+                "description": "Configura los modos de enfoque para trabajar en profundidad bloqueando distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
+            }
+        ]
     },
     "menuTourVcInfo": {
         "title": "Focus Bear Menu[NEEDSTRANSLATION]",
