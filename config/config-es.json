@@ -161,7 +161,8 @@
         "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios.",
         "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?[NEEDSTRANSLATION]",
         "uploadingText": "Uploading...[NEEDSTRANSLATION]",
-        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.[NEEDSTRANSLATION]"
+        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.[NEEDSTRANSLATION]",
+        "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video.[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
