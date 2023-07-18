@@ -1,3 +1,29 @@
+# v188 (July 15 - 2023)
+## Bug Fixes / Improvements
+- Added support for Relax focus mode and relax activity in evening routine
+
+# v187 (July 15 - 2023)
+## Bug Fixes / Improvements
+- Added support for ARC browser
+
+# v186 (July 11 - 2023)
+## Bug Fixes / Improvements
+- Improvements in existing functionality
+
+# v185 (July 7 - 2023)
+## New Features
+- Added Focus Bear menu tour to guide new users
+
+## Bug Fixes / Improvements
+- Minor improvements to various sections of the app
+
+# v184 (July 6 - 2023)
+## Bug Fixes / Improvements
+- Improvements to blocked URLS screen during onboarding.
+- Improvement to Signup screen for "Generate Password" option
+- Added support for Poppins font.
+- Fix to not reload habits whenever a screensaver takes over while there is still an undismissed meeting notification from LateNoMore  
+
 # v183 (July 1 - 2023)
 ## Bug Fixes / Improvements
 - User settings now loaded with the new pattern in Edit Habits screen.
@@ -8,7 +34,6 @@
 - Improvements to the logging to capture more relevant data.
 
 # v182 (July 1 - 2023)
-## New Features
 ## Bug Fixes / Improvements
 - Fix to allow the focus mode to continue uninterrupted, even if a microbreak starts
 - Added a save button to the brain dump screen to make it more intuitive and prevent any confusion.
