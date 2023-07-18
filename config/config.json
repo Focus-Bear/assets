@@ -160,7 +160,9 @@
         "tabAIText": "AI",
         "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.",
         "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?",
-        "uploadingText": "Uploading..."
+        "uploadingText": "Uploading...",
+        "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.",
+        "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video."
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -892,7 +894,8 @@
         "titleSelectBreaks": "Choose your break activities to get started",
         "chooseOptionsText": "Choose one of the following options:",
         "infoBuildHabitsText": "Focus Bear can help you with morning and evening routines. The app will guide you through habits like mindfulness, journalling, exercise, planning your day or anything you care about.",
-        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done."
+        "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done.",
+        "habitPackInfoText": "A habit pack is a collection of habits to do in the morning, the evening and during breaks"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -950,7 +953,7 @@
     "onboardingBlockedUrlsInfo": {
         "title": "Welcome to Focus Bear",
         "questionText": "Which sites do you waste time on?",
-        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.",
+        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use while you're working.",
         "bottomText": "(You can change this later)",
         "buttonContinueText": "Continue",
         "enterUrlText": "Enter URL or keyword to block:",
@@ -958,7 +961,9 @@
         "tipText": "In case you're worried - we don't track which websites you're using.",
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
-        "categoryOthers": "Others"
+        "categoryOthers": "Others",
+        "blockSitesCountText": "<COUNT> sites will always be blocked.",
+        "oneSiteBlockText": "1 site will always be blocked."
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Done",
@@ -1193,6 +1198,31 @@
         "underneathText": "(You can change this later)",
         "buttonContinueText": "Continue",
         "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it."
+    },
+    "menuTourVcInfo": {
+        "title": "Focus Bear Menu",
+        "buttonGetStartedText": "Get Started",
+        "buttonNextText": "Next >",
+        "buttonFinishText": "Finish",
+        "tourMessagesInfo": [
+            {
+                "title": "Focus Bear",
+                "description": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!",
+            },
+            {
+                "title": "Preferences",
+                "description": "Click on \"Preferences\" to",
+                "arrayListItems": [
+                    "Edit activities for your morning routine, evening routine, breaks throught the day.",
+                    "Setup or change Password.",
+                    "View your progress stats."
+                ]
+            },
+            {
+                "title": "Setup Focus mode",
+                "description": "Setup focus modes to et into deep work with distraction blocking. You can remove blocks if you have an emergency.",
+            }
+        ]
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
