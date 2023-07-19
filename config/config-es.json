@@ -162,7 +162,7 @@
         "alertUploadLogText": "¿Quieres subir los registros a nuestro servidor para que revisemos qué problemas hubo?",
         "uploadingText": "Cargando...",
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
-        "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video.[NEEDSTRANSLATION]"
+        "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -1235,27 +1235,27 @@
         ]
     },
     "menuTourVcInfo": {
-        "title": "Focus Bear Menu[NEEDSTRANSLATION]",
-        "buttonGetStartedText": "Get Started[NEEDSTRANSLATION]",
-        "buttonNextText": "Next >[NEEDSTRANSLATION]",
-        "buttonFinishText": "Finish[NEEDSTRANSLATION]",
+        "title": "Menú de Focus Bear",
+        "buttonGetStartedText": "Iniciar",
+        "buttonNextText": "Siguiente >",
+        "buttonFinishText": "Terminar",
         "tourMessagesInfo": [
             {
-                "title": "Focus Bear[NEEDSTRANSLATION]",
-                "description": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time![NEEDSTRANSLATION]",
+                "title": "Focus Bear",
+                "description": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!",
             },
             {
-                "title": "Preferences[NEEDSTRANSLATION]",
-                "description": "Click on \"Preferences\" to[NEEDSTRANSLATION]",
+                "title": "Preferencias",
+                "description": "Haz clic en \"Preferences\" para",
                 "arrayListItems": [
-                    "Edit activities for your morning routine, evening routine, breaks throught the day.[NEEDSTRANSLATION]",
-                    "Setup or change Password.[NEEDSTRANSLATION]",
-                    "View your progress stats.[NEEDSTRANSLATION]"
+                    "Editar actividades para tu rutina matutina, nocturna y descansos a lo largo del día.",
+                    "Configurar o cambiar contraseña.",
+                    "Ver tus estadísticas de progreso."
                 ]
             },
             {
-                "title": "Setup Focus mode[NEEDSTRANSLATION]",
-                "description": "Setup focus modes to et into deep work with distraction blocking. You can remove blocks if you have an emergency.[NEEDSTRANSLATION]",
+                "title": "Configurar Modo de Enfoque",
+                "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
             }
         ]
     },
