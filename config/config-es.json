@@ -518,7 +518,7 @@
         "checkBoxDoNotDisturbText": "Bloquear notificaciones mientras te concentras",
         "buttonDeleteUrlText": "Borrar URL",
         "relaxFocusText": "Relax - block nothing[NEEDSTRANSLATION]",
-        "titleTags": "Tags:[NEEDSTRANSLATION]",
+        "titleTags": "Reporting Tags:[NEEDSTRANSLATION]",
         "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1.[NEEDSTRANSLATION]"
     },
     "focusPreferencesAdvancedInfo": {
@@ -575,7 +575,26 @@
             "buttonTakeBreakText": "Tómate un descanso de 5 minutos",
             "buttonStartFocusText": "Iniciar otro bloque de enfoque",
             "alertFullScreenBreakText": "¿Quieres tomar un descanso a pantalla completa?",
-            "titleTags": "Tags[NEEDSTRANSLATION]"
+            "titleTags": "Reporting Tags[NEEDSTRANSLATION]",
+            "tourMessagesInfo": [
+                {
+                    "title": "Intention[NEEDSTRANSLATION]",
+                    "description": "See what intentions have you set when starting the focus block.[NEEDSTRANSLATION]",
+                },
+                {
+                    "title": "Achivements[NEEDSTRANSLATION]",
+                    "description": "Write a summary of what did you achieved during this focus block.[NEEDSTRANSLATION]",
+                },
+                {
+                    "title": "Reporting Tags[NEEDSTRANSLATION]",
+                    "description": "Add reporting tags to help analyse your time logs. For example, you could add a \"billable\" tag if you're a freelancer or add tags for certain clients.[NEEDSTRANSLATION]",
+                },
+                {
+                    "title": "Distractions[NEEDSTRANSLATION]",
+                    "description": "Did you faced any distractions? Write a summary of distractions faced.[NEEDSTRANSLATION]",
+                }
+            ],
+            "titleTourBox": "Focus Complete Block[NEEDSTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -1211,34 +1230,10 @@
     },
     "menuTourVcInfo": {
         "title": "Menú de Focus Bear",
-        "buttonGetStartedText": "Empezar",
-        "buttonNextText": "Siguiente >",
-        "buttonFinishText": "Terminar",
-        "tourMessagesInfo": [
-            {
-                "title": "Focus Bear",
-                "description": "Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en muy poco tiempo.",
-            },
-            {
-                "title": "Preferencias",
-                "description": "Haz clic en \"Preferences\" para",
-                "arrayListItems": [
-                    "Editar actividades para tu rutina matutina, vespertina y descansos a lo largo del día.",
-                    "Configurar o cambiar Contraseña.",
-                    "Ver tus estadísticas de progreso."
-                ]
-            },
-            {
-                "title": "Configuración Modo de Enfoque",
-                "description": "Configura los modos de enfoque para trabajar en profundidad bloqueando distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
-            }
-        ]
-    },
-    "menuTourVcInfo": {
-        "title": "Menú de Focus Bear",
         "buttonGetStartedText": "Iniciar",
         "buttonNextText": "Siguiente >",
         "buttonFinishText": "Terminar",
+        "indexText": "<CURRENTINDEX> of <TOTALCOUNT>[NEEDSTRANSLATION]",
         "tourMessagesInfo": [
             {
                 "title": "Focus Bear",

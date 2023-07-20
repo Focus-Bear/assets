@@ -518,7 +518,7 @@
         "checkBoxDoNotDisturbText": "Block Notifications while focusing",
         "buttonDeleteUrlText": "Delete URL",
         "relaxFocusText": "Relax - block nothing",
-        "titleTags": "Tags:",
+        "titleTags": "Reporting Tags:",
         "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1."
     },
     "focusPreferencesAdvancedInfo": {
@@ -575,7 +575,26 @@
             "buttonTakeBreakText": "Take a 5 minute break",
             "buttonStartFocusText": "Start another focus block",
             "alertFullScreenBreakText": "Do you want to take a full screen break?",
-            "titleTags": "Tags"
+            "titleTags": "Reporting Tags",
+            "tourMessagesInfo": [
+                {
+                    "title": "Intention",
+                    "description": "See what intentions have you set when starting the focus block.",
+                },
+                {
+                    "title": "Achivements",
+                    "description": "Write a summary of what did you achieved during this focus block.",
+                },
+                {
+                    "title": "Reporting Tags",
+                    "description": "Add reporting tags to help analyse your time logs. For example, you could add a \"billable\" tag if you're a freelancer or add tags for certain clients.",
+                },
+                {
+                    "title": "Distractions",
+                    "description": "Did you faced any distractions? Write a summary of distractions faced.",
+                }
+            ],
+            "titleTourBox": "Focus Complete Block"
         },
         "focusSummaryInfo": {
             "title": "You completed <COUNT> focus blocks today.",
@@ -626,7 +645,7 @@
         "alertWarningPaswwordSetText": "To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go.",
         "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks",
-        "timerText": "Time spend unfocused: <TIME>"
+        "timerText": "Time spent unfocused: <TIME>"
     },
     "logQuantityInfo": {
         "title": "Log Quantity of activity",
@@ -1213,6 +1232,7 @@
         "buttonGetStartedText": "Get Started",
         "buttonNextText": "Next >",
         "buttonFinishText": "Finish",
+        "indexText": "<CURRENTINDEX> of <TOTALCOUNT>",
         "tourMessagesInfo": [
             {
                 "title": "Focus Bear",
