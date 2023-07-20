@@ -1,3 +1,87 @@
+# v188 (July 15 - 2023)
+## Bug Fixes / Improvements
+- Added support for Relax focus mode and relax activity in evening routine
+
+# v187 (July 15 - 2023)
+## Bug Fixes / Improvements
+- Added support for ARC browser
+
+# v186 (July 11 - 2023)
+## Bug Fixes / Improvements
+- Improvements in existing functionality
+
+# v185 (July 7 - 2023)
+## New Features
+- Added Focus Bear menu tour to guide new users
+
+## Bug Fixes / Improvements
+- Minor improvements to various sections of the app
+
+# v184 (July 6 - 2023)
+## Bug Fixes / Improvements
+- Improvements to blocked URLS screen during onboarding.
+- Improvement to Signup screen for "Generate Password" option
+- Added support for Poppins font.
+- Fix to not reload habits whenever a screensaver takes over while there is still an undismissed meeting notification from LateNoMore  
+
+# v183 (July 1 - 2023)
+## Bug Fixes / Improvements
+- User settings now loaded with the new pattern in Edit Habits screen.
+- Modified the Brain dump screen to close when the save button is clicked.
+- Added an arrow in the screenshot of the AI screen in onboarding to help make it more understandable.
+- Added a highlight to the generated password text in the signup screen.
+- Made the text size in the Activity instructions adjust dynamically so it maximizes the text box area for improved visibility.
+- Improvements to the logging to capture more relevant data.
+
+# v182 (July 1 - 2023)
+## Bug Fixes / Improvements
+- Fix to allow the focus mode to continue uninterrupted, even if a microbreak starts
+- Added a save button to the brain dump screen to make it more intuitive and prevent any confusion.
+- Added visual enhancement to the menu by highlighting the active focus mode. This makes it easier to identify the currently active focus mode at a glance.
+
+# v181 (July 1 - 2023)
+## Bug Fixes / Improvements
+- Improved keyboard navigation in activities that don't use timers, making it easier to navigate and interact with them via keyboard.
+- Fixed the alignment of text in the deactivate screen, ensuring that it is centered properly.
+- Resolved an issue where the name of the random choice activity was not displayed on the start button.
+- Made user interface enhancements to the Generate password screen in the Sign Up window, improving the overall experience of creating a password.
+- Added helpful tooltips to the checkbox options on the Goals screen during the onboarding process, providing additional information and guidance.
+- Made improvements to the strictness selector feature during onboarding.
+
+# v180 (June 27 - 2023)
+## Bug Fixes / Improvements
+- Fixed an issue where the Cuddly Bear Allow App popup windows is hidden behind the blocked app and was unclickable.
+- Removed a log event that is no longer needed, improving the application's performance and optimizing resource usage.
+- Fixed an issue where the Focus time remaining was showing negative time values
+- Added scroll view in General tab under Preferences > Settings, which allows you to easily navigate and access all the settings, even if they exceed the available window space.
+- Made changes to the onboarding screen for a more user-friendly experience. 
+
+# v179 (June 26 - 2023)
+## New Features
+- Introduced a new option in the Late No More settings. Users can now enable the automatic launch at system startup feature so the application starts up automatically when you startup your computer, saving you time and effort, and ensuring that you don't miss any meeting reminders.
+
+## Bug Fixes / Improvements
+- Fixed an issue where the focus mode activity would restart when a screensaver appeared while waiting for input on the focus block end screen. 
+- Made screen adjustments for better readability of texts using the Dyslexia friendly fonts. This will enhance the reading experience and improve accessibility for users with dyslexia.
+- Added a blank default option in the "Reason for deactivating" dropdown menu, which encourages users to consciously choose a reason when deactivating the app.
+- Changed the title on the break activity habit pack select screen for better clarity. This makes it easier to identify and select the desired habit pack during break activities.
+
+
+# v178 (June 24 - 2023)
+## New Features
+- If your evening routine begins while you are in a focus mode, we have added a feature that will display the Focus mode end screen to help you smoothly transition from your focus mode to your evening routine.
+- In Cuddly Bear mode, we have introduced a progress bar in the Gentle Block window. This bar indicates how much you have taught Focus Bear about your focus preferences. Each time you block or allow a URL, the progress bar increases by 1. Once you reach 50 decisions, Focus Bear will have a good understanding of your focus needs.
+
+# v177 (June 23 - 2023)
+## Bug Fixes / Improvements
+- We have made improvements to make the app more compatible with Dyslexic-friendly fonts. Additionally, we have implemented various general fixes to enhance overall performance.
+
+# v176 (June 22 - 2023)
+## New Features
+- You can now upload logs to our server if you encounter any issues with the app. This feature requires your permission to proceed.
+## Bug Fixes / Improvements
+- We have included support for two new fonts: Intel One and Open Dyslexic.
+
 # v175 (June 20 - 2023)
 ## Bug Fixes / Improvements
 - You can now postpone breaks for more than 5 minutes

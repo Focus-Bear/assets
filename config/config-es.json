@@ -80,7 +80,7 @@
         "buttonExportText": "Exportar",
         "appName": "Focus Bear",
         "trialExpiredText": "¡Tu periodo de prueba ha caducado!",
-        "daysRemainingText": "Versión de prueba - <DAYS> de 31 días de prueba restantes",
+        "daysRemainingText": "Versión de prueba - <DAYS> de 7 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
         "buttonStatusStateCallText": "LLAMAR",
@@ -158,7 +158,11 @@
         "buttonExtendText": "Extender",
         "tabHelpText": "Ayuda",
         "tabAIText": "IA",
-        "settingsChangedText": "It looks like your settings have been updated. App will restart to take effect.[NEEDSTRANSLATION]"
+        "settingsChangedText": "Parece que tu configuración se ha actualizado. La aplicación se reiniciará para aplicar los cambios.",
+        "alertUploadLogText": "¿Quieres subir los registros a nuestro servidor para que revisemos qué problemas hubo?",
+        "uploadingText": "Cargando...",
+        "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
+        "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -317,8 +321,8 @@
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "Ofrecemos un período de prueba de 31 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
-        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 31 DÍAS",
+        "description": "Ofrecemos un período de prueba de 7 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
+        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 7 DÍAS",
         "buttonContinueTrialText": "Continuar con la prueba",
         "buttonRegisterNowText": "Regístrate ahora",
         "trialPeriodText": "Periodo de prueba",
@@ -669,7 +673,8 @@
         "buttonSkipEveningHabitText": "Posponer/omitir rutina de tarde",
         "buttonSkipMorningHabitText": "Posponer/omitir rutina de mañana",
         "buttonChangeSettingsText": "Editar Ajustes",
-        "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite"
+        "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite",
+        "buttonSavedPasswordText": "He guardado la contraseña en un lugar seguro"
     },
     "blockedUrlsViewInfo": {
         "title": "URL siempre bloqueadas",
@@ -837,7 +842,10 @@
         "tooltipCopyPassword": "Copiar contraseña",
         "checkBoxPasswordSavedText": "Guardé la contraseña en un lugar seguro",
         "buttonCopyPasswordText": "Copiar",
-        "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos."
+        "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos.",
+        "tooltipShowPassword": "Mostrar Contraseña",
+		"tooltipHidePassword": "Ocultar Contraseña",
+        "passwordGenerateText": "Hemos generado una contraseña para ti"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puedes iniciar sesión o registrarte. Si no la ves, intenta abrir Safari manualmente. Si aún no puedes verla:",
@@ -883,7 +891,12 @@
         "titleSelectHabitPack": "Elige un paquete de hábitos para empezar",
         "morningRoutineText": "Duración de rutina matutina:",
         "eveningRoutineText": "Duración de rutina nocturna:",
-        "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)"
+        "anythingElseText": "¿Hay algo más en lo que Focus Bear pueda ayudarte? (Intentaremos incorporar tus sugerencias)",
+        "titleSelectBreaks": "Elige tus actividades de descanso para empezar",
+        "chooseOptionsText": "Elige una de las siguientes opciones:",
+        "infoBuildHabitsText": "Focus Bear puede ayudarte con tus rutinas matutinas y nocturnas. La aplicación te guiará a través de hábitos como atención plena, journaling, ejercicio, planear tu día o cualquier otra cosa que te interese.",
+        "infoStayFocusedText": "Focus Bear puede ayudarte a bloquear sitios web y aplicaciones que te distraigan mientras trabajas para ayudarte a lograr hacer más cosas.",
+        "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos."
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -910,7 +923,8 @@
         "titleUrlSafeText": "Sitio seguro según IA (probabilidad <PERCENTAGE>%)",
         "reasonText": "Motivo: <REASON>",
         "buttonBadDecisionText": "Mala decisión",
-        "checkboxDonotShowText": "No volver a mostrar esto"
+        "checkboxDonotShowText": "No volver a mostrar esto",
+        "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos."
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -948,8 +962,9 @@
         "tipText": "Por si te preocupa, no rastreamos los sitios web que utilizas.",
         "categorySocialMedia": "Redes Sociales",
         "categoryNews": "Noticias",
-        "categoryOthers": "Otros"
-
+        "categoryOthers": "Otros",
+        "blockSitesCountText": "<COUNT> sitios estarán siempre bloqueados",
+        "oneSiteBlockText": "1 sitio estará siempre bloqueados"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Listo",
@@ -1107,7 +1122,7 @@
     "askAccountVcInfo": {
         "title": "Crear una cuenta de Focus Bear",
         "descriptionText": "¿Qué te parece crear una cuenta para poder sincronizar tus preferencias de bloqueo en todos tus dispositivos?",
-        "tipText": "Crear una cuenta no cuesta nada (tienes 31 días de prueba gratuita), pero es necesario para activar las funciones más avanzadas.",
+        "tipText": "Crear una cuenta no cuesta nada (tienes 7 días de prueba gratuita), pero es necesario para activar las funciones más avanzadas.",
         "buttonNotRightNowText": "Ahora no",
         "buttonSignUpText": "Claro - voy a registrarme",
         "alertText": "Si quieres crear una cuenta, sólo tienes que hacer clic en el icono del menú de Focus Bear."
@@ -1182,7 +1197,58 @@
         "strictText": "Estricto (contraseña requerida para posponer hábitos)",
         "superStrictText": "Superestricto (Contraseña para posponer/saltar hábitos + Bloqueo instantáneo de sitios web no permitidos)",
         "underneathText": "(Puedes cambiar esto después)",
-        "buttonContinueText": "Continuar"
+        "buttonContinueText": "Continuar",
+        "alertDoubleConfirmText": "¿Estás seguro/a? Recomendamos empezar con un modo menos estricto al principio y aumentar gradualmente el rigor si lo necesitas."
+    },
+    "menuTourVcInfo": {
+        "title": "Menú de Focus Bear",
+        "buttonGetStartedText": "Empezar",
+        "buttonNextText": "Siguiente >",
+        "buttonFinishText": "Terminar",
+        "tourMessagesInfo": [
+            {
+                "title": "Focus Bear",
+                "description": "Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en muy poco tiempo.",
+            },
+            {
+                "title": "Preferencias",
+                "description": "Haz clic en \"Preferences\" para",
+                "arrayListItems": [
+                    "Editar actividades para tu rutina matutina, vespertina y descansos a lo largo del día.",
+                    "Configurar o cambiar Contraseña.",
+                    "Ver tus estadísticas de progreso."
+                ]
+            },
+            {
+                "title": "Configuración Modo de Enfoque",
+                "description": "Configura los modos de enfoque para trabajar en profundidad bloqueando distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
+            }
+        ]
+    },
+    "menuTourVcInfo": {
+        "title": "Menú de Focus Bear",
+        "buttonGetStartedText": "Iniciar",
+        "buttonNextText": "Siguiente >",
+        "buttonFinishText": "Terminar",
+        "tourMessagesInfo": [
+            {
+                "title": "Focus Bear",
+                "description": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!",
+            },
+            {
+                "title": "Preferencias",
+                "description": "Haz clic en \"Preferences\" para",
+                "arrayListItems": [
+                    "Editar actividades para tu rutina matutina, nocturna y descansos a lo largo del día.",
+                    "Configurar o cambiar contraseña.",
+                    "Ver tus estadísticas de progreso."
+                ]
+            },
+            {
+                "title": "Configurar Modo de Enfoque",
+                "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
+            }
+        ]
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
