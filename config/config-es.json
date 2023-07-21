@@ -516,7 +516,10 @@
         "titleBlockedApps": "¿Qué aplicaciones quieres bloquear?",
         "titleBlockedUrls": "A continuación se muestra la lista de URLs siempre bloqueadas:",
         "checkBoxDoNotDisturbText": "Bloquear notificaciones mientras te concentras",
-        "buttonDeleteUrlText": "Borrar URL"
+        "buttonDeleteUrlText": "Borrar URL",
+        "relaxFocusText": "Relax - block nothing[NEEDSTRANSLATION]",
+        "titleTags": "Reporting Tags:[NEEDSTRANSLATION]",
+        "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1.[NEEDSTRANSLATION]"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -571,7 +574,27 @@
             "titleIntention": "¿Cuál fue tu intención?",
             "buttonTakeBreakText": "Tómate un descanso de 5 minutos",
             "buttonStartFocusText": "Iniciar otro bloque de enfoque",
-            "alertFullScreenBreakText": "¿Quieres tomar un descanso a pantalla completa?"
+            "alertFullScreenBreakText": "¿Quieres tomar un descanso a pantalla completa?",
+            "titleTags": "Reporting Tags[NEEDSTRANSLATION]",
+            "tourMessagesInfo": [
+                {
+                    "title": "Intention[NEEDSTRANSLATION]",
+                    "description": "See what intentions have you set when starting the focus block.[NEEDSTRANSLATION]",
+                },
+                {
+                    "title": "Achivements[NEEDSTRANSLATION]",
+                    "description": "Write a summary of what did you achieved during this focus block.[NEEDSTRANSLATION]",
+                },
+                {
+                    "title": "Reporting Tags[NEEDSTRANSLATION]",
+                    "description": "Add reporting tags to help analyse your time logs. For example, you could add a \"billable\" tag if you're a freelancer or add tags for certain clients.[NEEDSTRANSLATION]",
+                },
+                {
+                    "title": "Distractions[NEEDSTRANSLATION]",
+                    "description": "Did you faced any distractions? Write a summary of distractions faced.[NEEDSTRANSLATION]",
+                }
+            ],
+            "titleTourBox": "Focus Complete Block[NEEDSTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -674,7 +697,8 @@
         "buttonSkipMorningHabitText": "Posponer/omitir rutina de mañana",
         "buttonChangeSettingsText": "Editar Ajustes",
         "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite",
-        "buttonSavedPasswordText": "He guardado la contraseña en un lugar seguro"
+        "buttonSavedPasswordText": "He guardado la contraseña en un lugar seguro",
+        "buttonUseRelaxFocusModeText": "Allow using relax focus mode[NEEDSTRANSLATION]"
     },
     "blockedUrlsViewInfo": {
         "title": "URL siempre bloqueadas",
@@ -924,7 +948,8 @@
         "reasonText": "Motivo: <REASON>",
         "buttonBadDecisionText": "Mala decisión",
         "checkboxDonotShowText": "No volver a mostrar esto",
-        "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos."
+        "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
+        "buttonBlockAndAddToRelaxModeText": "Block and save for Relax mode[NEEDSTRANSLATION]"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1073,7 +1098,10 @@
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna",
-        "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)"
+        "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
+        "questionSleepTimeText": "What time do you want to go to sleep?[NEEDSTRANSLATION]",
+        "sleepTimeAlertText": "Sleep time cannot be less than finish work time.[NEEDSTRANSLATION]",
+        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing[NEEDSTRANSLATION]"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear te ayuda a evitar distracciones y desarrollar hábitos saludables.",
@@ -1202,34 +1230,10 @@
     },
     "menuTourVcInfo": {
         "title": "Menú de Focus Bear",
-        "buttonGetStartedText": "Empezar",
-        "buttonNextText": "Siguiente >",
-        "buttonFinishText": "Terminar",
-        "tourMessagesInfo": [
-            {
-                "title": "Focus Bear",
-                "description": "Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en muy poco tiempo.",
-            },
-            {
-                "title": "Preferencias",
-                "description": "Haz clic en \"Preferences\" para",
-                "arrayListItems": [
-                    "Editar actividades para tu rutina matutina, vespertina y descansos a lo largo del día.",
-                    "Configurar o cambiar Contraseña.",
-                    "Ver tus estadísticas de progreso."
-                ]
-            },
-            {
-                "title": "Configuración Modo de Enfoque",
-                "description": "Configura los modos de enfoque para trabajar en profundidad bloqueando distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
-            }
-        ]
-    },
-    "menuTourVcInfo": {
-        "title": "Menú de Focus Bear",
         "buttonGetStartedText": "Iniciar",
         "buttonNextText": "Siguiente >",
         "buttonFinishText": "Terminar",
+        "indexText": "<CURRENTINDEX> of <TOTALCOUNT>[NEEDSTRANSLATION]",
         "tourMessagesInfo": [
             {
                 "title": "Focus Bear",
