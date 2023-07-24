@@ -703,7 +703,7 @@
     "blockedUrlsViewInfo": {
         "title": "Super Distracting Sites",
         "invalidDomainText": "Adding * will block all urls. Please use another combination.",
-        "subTitleText": "\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\"",
+        "subTitleText": "Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.",
         "checkBoxText": "Immediately block super distracting sites"
     },
     "rememberNextHabitViewInfo": {
