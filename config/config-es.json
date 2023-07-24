@@ -703,7 +703,7 @@
     "blockedUrlsViewInfo": {
         "title": "Super Distracting Sites[NEEDSTRANSLATION]",
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utiliza otra combinación.",
-        "subTitleText": "Bloquea estas URL incluso si no estás en un bloque de enfoque. Es posible que desees colocar redes sociales o sitios de noticias que preferirías no usar en ningún momento. Siempre puedes configurar una actividad de rutina vespertina que permita explícitamente el acceso a Facebook para seguir conectado/a, excepto durante tu rutina matutina o jornada de trabajo.",
+        "subTitleText": "[NEEDSTRANSLATION]Which sites do you waste time on? Focus Bear will help you be more intentional about how you use these sites. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the site.",
         "checkBoxText": "Immediately block super distracting sites[NEEDSTRANSLATION]"
     },
     "rememberNextHabitViewInfo": {
