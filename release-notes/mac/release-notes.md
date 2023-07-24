@@ -1,5 +1,26 @@
-# v188 (July 15 - 2023)
+# v191 (July 20 - 2023)
+## New Features
+- Tutorial to show how to add Focus Block tags appears at the end of focus block session
+
 ## Bug Fixes / Improvements
+- Other minor enhancements and bug fixes
+
+# v190 (July 19 - 2023)
+## New Features
+- Focus Block tags are now included in the exported CSV file
+
+## Bug Fixes / Improvements
+- Various bug fixes
+- Improvements to relax mode activity
+- Improvements for using focus modes while an activity is postponed
+- Loading screen added while waiting for activity props
+
+# v189 (July 18 - 2023)
+## New Features
+- Ability to add tags to completed focus block sessions
+
+# v188 (July 15 - 2023)
+## New Features
 - Added support for Relax focus mode and relax activity in evening routine
 
 # v187 (July 15 - 2023)
