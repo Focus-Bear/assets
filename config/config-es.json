@@ -701,9 +701,10 @@
         "buttonUseRelaxFocusModeText": "Allow using relax focus mode[NEEDSTRANSLATION]"
     },
     "blockedUrlsViewInfo": {
-        "title": "URL siempre bloqueadas",
+        "title": "Super Distracting Sites[NEEDSTRANSLATION]",
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utiliza otra combinación.",
-        "subTitleText": "Bloquea estas URL incluso si no estás en un bloque de enfoque. Es posible que desees colocar redes sociales o sitios de noticias que preferirías no usar en ningún momento. Siempre puedes configurar una actividad de rutina vespertina que permita explícitamente el acceso a Facebook para seguir conectado/a, excepto durante tu rutina matutina o jornada de trabajo."
+        "subTitleText": "Bloquea estas URL incluso si no estás en un bloque de enfoque. Es posible que desees colocar redes sociales o sitios de noticias que preferirías no usar en ningún momento. Siempre puedes configurar una actividad de rutina vespertina que permita explícitamente el acceso a Facebook para seguir conectado/a, excepto durante tu rutina matutina o jornada de trabajo.",
+        "checkBoxText": "Immediately block super distracting sites[NEEDSTRANSLATION]"
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "¡Vas muy bien!",
@@ -1253,6 +1254,22 @@
                 "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
             }
         ]
+    },
+    "relaxModeVcInfo":{
+        "title": "Sites you saved for relax mode:[NEEDSTRANSLATION]",
+        "toolTipRemoveUrls": "Remove Selected URLs[NEEDSTRANSLATION]",
+        "buttonActivityDoneText": "I'm done relaxing. Start winding down![NEEDSTRANSLATION]"
+    },
+    "setIntentionBlockedUrlsVcInfo":{
+        "title": "You said <SITE> is super distracting for you. What do you want to achieve during your time here?[NEEDSTRANSLATION]",
+        "buttonSetIntentionText": "Set Intention[NEEDSTRANSLATION]",
+        "buttonBlockText": "Block it[NEEDSTRANSLATION]",
+        "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately[NEEDSTRANSLATION]",
+        "selectMinutesText": "Select minutes to use this site?[NEEDSTRANSLATION]"
+    },
+    "intentionBlockedUrlsVcInfo":{
+        "title": "Your intention for <SITE>[NEEDSTRANSLATION]",
+        "buttonBlockText": "I'm done. Block this site now[NEEDSTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
