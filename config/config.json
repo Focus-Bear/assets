@@ -701,9 +701,10 @@
         "buttonUseRelaxFocusModeText": "Allow using relax focus mode"
     },
     "blockedUrlsViewInfo": {
-        "title": "Always Blocked URLs",
+        "title": "Super Distracting Sites",
         "invalidDomainText": "Adding * will block all urls. Please use another combination.",
-        "subTitleText": "\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\""
+        "subTitleText": "Which sites do you waste time on? Focus Bear will help you be more intentional about how you use these sites. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the site.",
+        "checkBoxText": "Immediately block super distracting sites"
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "Right on!",
@@ -1257,6 +1258,17 @@
         "title": "Sites you saved for relax mode:",
         "toolTipRemoveUrls": "Remove Selected URLs",
         "buttonActivityDoneText": "I'm done relaxing. Start winding down!"
+    },
+    "setIntentionBlockedUrlsVcInfo":{
+        "title": "You said <SITE> is super distracting for you. What do you want to achieve during your time here?",
+        "buttonSetIntentionText": "Set Intention",
+        "buttonBlockText": "Block it",
+        "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately",
+        "selectMinutesText": "Select minutes to use this site?"
+    },
+    "intentionBlockedUrlsVcInfo":{
+        "title": "Your intention for <SITE>",
+        "buttonBlockText": "I'm done. Block this site now"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
