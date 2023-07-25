@@ -517,9 +517,9 @@
         "titleBlockedUrls": "A continuación se muestra la lista de URLs siempre bloqueadas:",
         "checkBoxDoNotDisturbText": "Bloquear notificaciones mientras te concentras",
         "buttonDeleteUrlText": "Borrar URL",
-        "relaxFocusText": "Relax - block nothing[NEEDSTRANSLATION]",
-        "titleTags": "Reporting Tags:[NEEDSTRANSLATION]",
-        "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1.[NEEDSTRANSLATION]"
+        "relaxFocusText": "Relajarse - no bloquear nada",
+        "titleTags": "Etiquetas de Informes:",
+        "tagsInfoText": "Agrega etiquetas para poder preparar registros de tiempo para bloques de enfoque específicos. Ejemplos de etiquetas podrían ser: facturable, Jones, cliente, Proyecto 1."
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -575,26 +575,26 @@
             "buttonTakeBreakText": "Tómate un descanso de 5 minutos",
             "buttonStartFocusText": "Iniciar otro bloque de enfoque",
             "alertFullScreenBreakText": "¿Quieres tomar un descanso a pantalla completa?",
-            "titleTags": "Reporting Tags[NEEDSTRANSLATION]",
+            "titleTags": "Reportar Etiquetas",
             "tourMessagesInfo": [
                 {
-                    "title": "Intention[NEEDSTRANSLATION]",
-                    "description": "See what intentions have you set when starting the focus block.[NEEDSTRANSLATION]",
+                    "title": "Intención",
+                    "description": "Comprueba qué intenciones estableciste al iniciar el bloque de enfoque.",
                 },
                 {
-                    "title": "Achivements[NEEDSTRANSLATION]",
-                    "description": "Write a summary of what did you achieved during this focus block.[NEEDSTRANSLATION]",
+                    "title": "Logros",
+                    "description": "Escribe un resumen de lo que has conseguido durante este bloque de enfoque.",
                 },
                 {
-                    "title": "Reporting Tags[NEEDSTRANSLATION]",
-                    "description": "Add reporting tags to help analyse your time logs. For example, you could add a \"billable\" tag if you're a freelancer or add tags for certain clients.[NEEDSTRANSLATION]",
+                    "title": "Reportar Etiquetas",
+                    "description": "Agrega etiquetas de informes para ayudar a analizar tus registros de tiempo. Por ejemplo, puede agregar una etiqueta de \"billable\" si eres freelancer o agregar etiquetas para determinados clientes.",
                 },
                 {
-                    "title": "Distractions[NEEDSTRANSLATION]",
-                    "description": "Did you faced any distractions? Write a summary of distractions faced.[NEEDSTRANSLATION]",
+                    "title": "Distracciones",
+                    "description": "¿Enfrentaste alguna distracción? Escribe un resumen de las distracciones a las que te has enfrentado.",
                 }
             ],
-            "titleTourBox": "Focus Complete Block[NEEDSTRANSLATION]"
+            "titleTourBox": "Bloque Completo de Enfoque"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -698,13 +698,13 @@
         "buttonChangeSettingsText": "Editar Ajustes",
         "buttonSkipEveningHabitAfterCutOffText": "Posponer/saltar la rutina nocturna después de la hora límite",
         "buttonSavedPasswordText": "He guardado la contraseña en un lugar seguro",
-        "buttonUseRelaxFocusModeText": "Allow using relax focus mode[NEEDSTRANSLATION]"
+        "buttonUseRelaxFocusModeText": "Permitir el uso del modo de enfoque relajado"
     },
     "blockedUrlsViewInfo": {
-        "title": "Super Distracting Sites[NEEDSTRANSLATION]",
+        "title": "Sitios Super Distractores",
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utiliza otra combinación.",
-        "subTitleText": "[NEEDSTRANSLATION]Which sites do you waste time on? Focus Bear will help you be more intentional about how you use these sites. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the site.",
-        "checkBoxText": "Immediately block super distracting sites[NEEDSTRANSLATION]"
+        "subTitleText": "¿En qué sitios pierdes el tiempo? Focus Bear te ayudará a ser más consciente de cómo utilizas estos sitios. Se bloquearán durante las sesiones de enfoque. El resto del tiempo, Focus Bear te preguntará por qué quieres utilizar el sitio.",
+        "checkBoxText": "Bloquear inmediatamente sitios super distractores"
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "¡Vas muy bien!",
@@ -950,7 +950,7 @@
         "buttonBadDecisionText": "Mala decisión",
         "checkboxDonotShowText": "No volver a mostrar esto",
         "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
-        "buttonBlockAndAddToRelaxModeText": "Block and save for Relax mode[NEEDSTRANSLATION]"
+        "buttonBlockAndAddToRelaxModeText": "Bloquear y guardar para el modo Relajado"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1100,9 +1100,9 @@
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna",
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
-        "questionSleepTimeText": "What time do you want to go to sleep?[NEEDSTRANSLATION]",
-        "sleepTimeAlertText": "Sleep time cannot be less than finish work time.[NEEDSTRANSLATION]",
-        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing[NEEDSTRANSLATION]"
+        "questionSleepTimeText": "¿A qué hora te quieres ir a dormir?",
+        "sleepTimeAlertText": "El tiempo para dormir no puede ser inferior al tiempo de trabajo finalizado.",
+        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear te ayuda a evitar distracciones y desarrollar hábitos saludables.",
@@ -1234,7 +1234,7 @@
         "buttonGetStartedText": "Iniciar",
         "buttonNextText": "Siguiente >",
         "buttonFinishText": "Terminar",
-        "indexText": "<CURRENTINDEX> of <TOTALCOUNT>[NEEDSTRANSLATION]",
+        "indexText": "<CURRENTINDEX> de <TOTALCOUNT>",
         "tourMessagesInfo": [
             {
                 "title": "Focus Bear",
@@ -1256,20 +1256,20 @@
         ]
     },
     "relaxModeVcInfo":{
-        "title": "Sites you saved for relax mode:[NEEDSTRANSLATION]",
-        "toolTipRemoveUrls": "Remove Selected URLs[NEEDSTRANSLATION]",
-        "buttonActivityDoneText": "I'm done relaxing. Start winding down![NEEDSTRANSLATION]"
+        "title": "Sitios que guardaste para el modo Relajado:",
+        "toolTipRemoveUrls": "Eliminar URLs seleccionadas",
+        "buttonActivityDoneText": "He terminado de relajarme. ¡Empieza a desconectar!"
     },
     "setIntentionBlockedUrlsVcInfo":{
-        "title": "You said <SITE> is super distracting for you. What do you want to achieve during your time here?[NEEDSTRANSLATION]",
-        "buttonSetIntentionText": "Set Intention[NEEDSTRANSLATION]",
-        "buttonBlockText": "Block it[NEEDSTRANSLATION]",
-        "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately[NEEDSTRANSLATION]",
-        "selectMinutesText": "Select minutes to use this site?[NEEDSTRANSLATION]"
+        "title": "Dijiste que <SITE> es super distractor para ti. ¿Qué quieres conseguir durante tu tiempo aquí?",
+        "buttonSetIntentionText": "Establecer Intención",
+        "buttonBlockText": "Bloquearlo",
+        "buttonDontShowAgainText": "No preguntar por intenciones - bloquear sitios super distractores inmediatamente",
+        "selectMinutesText": "Seleccionar los minutos a usar este sitio"
     },
     "intentionBlockedUrlsVcInfo":{
-        "title": "Your intention for <SITE>[NEEDSTRANSLATION]",
-        "buttonBlockText": "I'm done. Block this site now[NEEDSTRANSLATION]"
+        "title": "Tu intención para <SITE>",
+        "buttonBlockText": "Terminé. Bloquear este sitio ahora"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
