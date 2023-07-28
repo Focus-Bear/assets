@@ -457,7 +457,10 @@
         "checkBoxShowBreaksInCallText": "Mostrar descansos durante llamadas",
         "titleReloadAppAfterForceQuit": "Volver a cargar:",
         "checkBoxReloadAppAfterForceQuitText": "Volver a cargar después de forzar cierre",
-        "titleFont": "Fuente de la Aplicación:"
+        "titleFont": "Fuente de la Aplicación:",
+        "titlePomodoroShortcut": "Shortcut to start pomodoro:[NEEDSTRANSLATION]",
+        "recordShorcutText": "Record Shortcut[NEEDSTRANSLATION]",
+        "alertShortcutErrorText": "Please use a different key combination.[NEEDSTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",

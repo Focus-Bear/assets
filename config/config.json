@@ -457,7 +457,10 @@
         "checkBoxShowBreaksInCallText": "Show breaks while in call",
         "titleReloadAppAfterForceQuit": "Reload:",
         "checkBoxReloadAppAfterForceQuitText": "Reload after Force Quit",
-        "titleFont": "Application Font:"
+        "titleFont": "Application Font:",
+        "titlePomodoroShortcut": "Shortcut to start pomodoro:",
+        "recordShorcutText": "Record Shortcut",
+        "alertShortcutErrorText": "Please use a different key combination."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
