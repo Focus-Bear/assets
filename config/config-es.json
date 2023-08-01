@@ -162,7 +162,8 @@
         "alertUploadLogText": "¿Quieres subir los registros a nuestro servidor para que revisemos qué problemas hubo?",
         "uploadingText": "Cargando...",
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
-        "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción."
+        "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
+        "tabBlockedAppsText": "Blocked Apps[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -428,7 +429,7 @@
         "radioButtonHardSkipText": "Haz difícil saltar hábitos- de otro modo terminaré saltando hábitos + descansos la mayoría del tiempo",
         "buttonExportLogsText": "Haz clic aquí para exportar registros y compartirlos con el Equipo de Soporte.",
         "buttonPanelExportLogsText": "Exportar Registros",
-        "panelExportLogsText": "Exporta registros para compartir con el Equipo de Soporte de Focus Bear",
+        "panelExportLogsText": "Exporta registros para compartir con el Equipo de Soporte de Focus Bear. We'll save the logs to the folder you choose.[NEEDSTRANSLATION]",
         "exportSuccessText": "Tus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
         "titleMeetingDetection": "Detección de reunión",
         "descriptionMeetingDetectionText": "Habilita la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que estás en una llamada.",
@@ -1268,11 +1269,19 @@
         "buttonSetIntentionText": "Set Intention[NEEDSTRANSLATION]",
         "buttonBlockText": "Block it[NEEDSTRANSLATION]",
         "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately[NEEDSTRANSLATION]",
-        "selectMinutesText": "Select minutes to use this site?[NEEDSTRANSLATION]"
+        "selectMinutesText": "Select minutes to use this site?[NEEDSTRANSLATION]",
+        "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately[NEEDSTRANSLATION]"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>[NEEDSTRANSLATION]",
-        "buttonBlockText": "I'm done. Block this site now[NEEDSTRANSLATION]"
+        "buttonBlockText": "I'm done. Block this site now[NEEDSTRANSLATION]",
+        "buttonBlockAppText": "I'm done. Block this app now[NEEDSTRANSLATION]"
+    },
+    "blockedAppsViewInfo": {
+        "title": "Super Distracting Apps[NEEDSTRANSLATION]",
+        "subTitleText": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the app.[NEEDSTRANSLATION]",
+        "checkBoxText": "Immediately block super distracting apps[NEEDSTRANSLATION]",
+        "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section.[NEEDSTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",

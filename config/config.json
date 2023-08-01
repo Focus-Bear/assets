@@ -162,7 +162,8 @@
         "alertUploadLogText": "Do you want to upload the logs to our server for us to review what was broken?",
         "uploadingText": "Uploading...",
         "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.",
-        "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video."
+        "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video.",
+        "tabBlockedAppsText": "Blocked Apps"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -428,7 +429,7 @@
         "radioButtonHardSkipText": "Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time",
         "buttonExportLogsText": "Click here to export logs to share with Support Team.",
         "buttonPanelExportLogsText": "Export Logs",
-        "panelExportLogsText": "Export logs to share with Focus Bear Support Team",
+        "panelExportLogsText": "Export logs to share with Focus Bear Support Team. We'll save the logs to the folder you choose.",
         "exportSuccessText": "Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory",
         "titleMeetingDetection": "Meeting detection",
         "descriptionMeetingDetectionText": "Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
@@ -1267,11 +1268,19 @@
         "buttonSetIntentionText": "Set Intention",
         "buttonBlockText": "Block it",
         "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately",
-        "selectMinutesText": "Select minutes to use this site?"
+        "selectMinutesText": "Select minutes to use this site?",
+        "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
-        "buttonBlockText": "I'm done. Block this site now"
+        "buttonBlockText": "I'm done. Block this site now",
+        "buttonBlockAppText": "I'm done. Block this app now"
+    },
+    "blockedAppsViewInfo": {
+        "title": "Super Distracting Apps",
+        "subTitleText": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the app.",
+        "checkBoxText": "Immediately block super distracting apps",
+        "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
