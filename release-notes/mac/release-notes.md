@@ -1,3 +1,45 @@
+# v199
+## Bug Fixes / Improvements
+- Fixed keyboard focus issues
+- Fixed an issue when starting another focus mode within an allowed-focus-mode activity.
+- Fixed issue with controls being hidden in Set Intention box when the 5 sec. timer is shown.
+
+# v198
+## New Features
+- Ability to start Pomodoro via a shortcut, configurable in settings.
+
+## Bug Fixes / Improvements
+- Updates to address flickering issues for Set Intention box
+- Improvements to Set Intention box
+
+# v197
+## Bug Fixes / Improvements
+- Enhancements to Set Intention functionality
+- Added logs for audio events
+- Enhancements to Log Qty functionality
+
+# v196
+## Bug Fixes / Improvements
+- fixed focus mode URL blocking behaviour
+- fixes for LateNoMore and FocusBear interrupting system restart.
+- show current time format based on your locale settings
+- code enhancements to address Graph issues and code conflicts
+
+# v195
+## Bug Fixes / Improvements
+- Enhanced the Set intention popup for Super Distracting URLs to allow you to input a time for when you want to visit the site later.
+- Enhanced the Log Quantity to accept input values using sliders or textbox
+
+# v193 & v194
+## Bug Fixes / Improvements
+- Enhanced the Log Quantity sliders to take input via text boxes
+- Fixes to the cuddly bear popup if AI endpoint says a URL or app should be blocked
+- Enhancements to the Set Intention window when opening super distracting sites
+
+# v192
+## New Features
+- Display an intention window if you want to continue opening a site identified as Super Distracting.
+
 # v191 (July 20 - 2023)
 ## New Features
 - Tutorial to show how to add Focus Block tags appears at the end of focus block session
