@@ -794,7 +794,12 @@
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up",
-        "descriptionText": "Nearly done! Let's grab a few details to save your habits."
+        "descriptionText": "Nearly done! Let's grab a few details to save your habits.",
+        "buttonSignInEmailText": "Sign In with Email",
+        "buttonSignInGoogleText": "Sign In with Google",
+        "buttonSignInAppleText": "Sign In with Apple",
+        "loginComingSoonTitle": "Coming Soon - for now register again with a password to link your existing account.",
+        "loginComingSoonDescription": "We don't have support for single sign on yet on desktop. If you've already registered for an account via Google/Apple on mobile, you'll need to register again with an email and password and it will link to the existing account you have."
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Personalized habit routines",
@@ -1138,7 +1143,8 @@
         "tryBrowsersBlockTextWIN": "Did you use Google Chrome, Firefox, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.",
         "buttonStillNotBlockedText": "Still not working",
         "buttonNowBlockedText": "I just tried those browsers and it worked!",
-        "emailUsText": "Sorry about that 😓 Any chance you could email us (team@focusbear.io) and we'll try and fix it for you?"
+        "emailUsText": "Sorry about that 😓 Any chance you could email us (team@focusbear.io) and we'll try and fix it for you?",
+        "descriptionTryIntentionText": "Try opening <BLOCKED_URL>. Focus Bear will help you be more intentional with how you use the site."
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "Awesome! We look forward to helping you block distractions.",

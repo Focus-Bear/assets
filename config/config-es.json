@@ -794,7 +794,12 @@
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate",
-        "descriptionText": "¡Casi listo! Veamos algunos detalles para guardar tus hábitos."
+        "descriptionText": "¡Casi listo! Veamos algunos detalles para guardar tus hábitos.",
+        "buttonSignInEmailText": "Sign In with Email[NEEDSTRANSLATION]",
+        "buttonSignInGoogleText": "Sign In with Google[NEEDSTRANSLATION]",
+        "buttonSignInAppleText": "Sign In with Apple[NEEDSTRANSLATION]",
+        "loginComingSoonTitle": "Coming Soon - for now register again with a password to link your existing account.[NEEDSTRANSLATION]",
+        "loginComingSoonDescription": "We don't have support for single sign on yet on desktop. If you've already registered for an account via Google/Apple on mobile, you'll need to register again with an email and password and it will link to the existing account you have.[NEEDSTRANSLATION]"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Rutinas de hábitos personalizadas",
@@ -1139,7 +1144,8 @@
         "tryBrowsersBlockTextWIN": "¿Utilizaste Google Chrome, Firefox, Brave Browser o Microsoft Edge?\nSólo podemos bloquear si usas esos navegadores.",
         "buttonStillNotBlockedText": "Aún no funciona",
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
-        "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?"
+        "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?",
+        "descriptionTryIntentionText": "Try opening <BLOCKED_URL>. Focus Bear will help you be more intentional with how you use the site.[NEEDSTRANSLATION]"
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "¡Genial! Esperamos ayudarte a bloquear las distracciones.",
