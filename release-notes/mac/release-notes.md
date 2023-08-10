@@ -1,10 +1,30 @@
-# v199
+# v202 (Aug 9 - 2023)
+## Bug Fixes / Improvements
+- Added support to list apps from Utilities folder, System apps
+- Added support for Dark mode in Settings and Stats page (in Preferences)
+
+# v201 (Aug 8 - 2023)
+## New Features
+- Remember last focus mode duration
+
+## Bug Fixes / Improvements
+- Updated onboarding cards
+- Bug Fixes and improvements
+
+# v200 (Aug 1 - 2023)
+## New Features
+- Super distracting Apps. You can now add super distracting apps to be blocked.
+
+## Bug Fixes / Improvements
+- Other minor improvements
+
+# v199 (Jul 28 - 2023)
 ## Bug Fixes / Improvements
 - Fixed keyboard focus issues
 - Fixed an issue when starting another focus mode within an allowed-focus-mode activity.
 - Fixed issue with controls being hidden in Set Intention box when the 5 sec. timer is shown.
 
-# v198
+# v198 (Jul 27 - 2023)
 ## New Features
 - Ability to start Pomodoro via a shortcut, configurable in settings.
 
@@ -12,31 +32,31 @@
 - Updates to address flickering issues for Set Intention box
 - Improvements to Set Intention box
 
-# v197
+# v197 (Jul 26 - 2023)
 ## Bug Fixes / Improvements
 - Enhancements to Set Intention functionality
 - Added logs for audio events
 - Enhancements to Log Qty functionality
 
-# v196
+# v196 (Jul 25 - 2023)
 ## Bug Fixes / Improvements
 - fixed focus mode URL blocking behaviour
 - fixes for LateNoMore and FocusBear interrupting system restart.
 - show current time format based on your locale settings
 - code enhancements to address Graph issues and code conflicts
 
-# v195
+# v195 (Jul 24 - 2023)
 ## Bug Fixes / Improvements
 - Enhanced the Set intention popup for Super Distracting URLs to allow you to input a time for when you want to visit the site later.
 - Enhanced the Log Quantity to accept input values using sliders or textbox
 
-# v193 & v194
+# v193 & v194 (Jul 22 - 2023)
 ## Bug Fixes / Improvements
 - Enhanced the Log Quantity sliders to take input via text boxes
 - Fixes to the cuddly bear popup if AI endpoint says a URL or app should be blocked
 - Enhancements to the Set Intention window when opening super distracting sites
 
-# v192
+# v192 (Jul 21 - 2023)
 ## New Features
 - Display an intention window if you want to continue opening a site identified as Super Distracting.
 
