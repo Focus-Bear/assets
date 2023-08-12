@@ -162,7 +162,8 @@
         "alertUploadLogText": "¿Quieres subir los registros a nuestro servidor para que revisemos qué problemas hubo?",
         "uploadingText": "Cargando...",
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
-        "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción."
+        "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
+        "tabBlockedAppsText": "Blocked Apps[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -428,7 +429,7 @@
         "radioButtonHardSkipText": "Haz difícil saltar hábitos- de otro modo terminaré saltando hábitos + descansos la mayoría del tiempo",
         "buttonExportLogsText": "Haz clic aquí para exportar registros y compartirlos con el Equipo de Soporte.",
         "buttonPanelExportLogsText": "Exportar Registros",
-        "panelExportLogsText": "Exporta registros para compartir con el Equipo de Soporte de Focus Bear",
+        "panelExportLogsText": "Exporta registros para compartir con el Equipo de Soporte de Focus Bear. We'll save the logs to the folder you choose.[NEEDSTRANSLATION]",
         "exportSuccessText": "Tus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
         "titleMeetingDetection": "Detección de reunión",
         "descriptionMeetingDetectionText": "Habilita la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que estás en una llamada.",
@@ -793,7 +794,12 @@
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate",
-        "descriptionText": "¡Casi listo! Veamos algunos detalles para guardar tus hábitos."
+        "descriptionText": "¡Casi listo! Veamos algunos detalles para guardar tus hábitos.",
+        "buttonSignInEmailText": "Sign In with Email[NEEDSTRANSLATION]",
+        "buttonSignInGoogleText": "Sign In with Google[NEEDSTRANSLATION]",
+        "buttonSignInAppleText": "Sign In with Apple[NEEDSTRANSLATION]",
+        "loginComingSoonTitle": "Coming Soon - for now register again with a password to link your existing account.[NEEDSTRANSLATION]",
+        "loginComingSoonDescription": "We don't have support for single sign on yet on desktop. If you've already registered for an account via Google/Apple on mobile, you'll need to register again with an email and password and it will link to the existing account you have.[NEEDSTRANSLATION]"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Rutinas de hábitos personalizadas",
@@ -1138,7 +1144,8 @@
         "tryBrowsersBlockTextWIN": "¿Utilizaste Google Chrome, Firefox, Brave Browser o Microsoft Edge?\nSólo podemos bloquear si usas esos navegadores.",
         "buttonStillNotBlockedText": "Aún no funciona",
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
-        "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?"
+        "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?",
+        "descriptionTryIntentionText": "Try opening <BLOCKED_URL>. Focus Bear will help you be more intentional with how you use the site.[NEEDSTRANSLATION]"
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "¡Genial! Esperamos ayudarte a bloquear las distracciones.",
@@ -1268,11 +1275,19 @@
         "buttonSetIntentionText": "Establecer Intención",
         "buttonBlockText": "Bloquearlo",
         "buttonDontShowAgainText": "No preguntar por intenciones - bloquear sitios super distractores inmediatamente",
-        "selectMinutesText": "Seleccionar los minutos a usar este sitio"
+        "selectMinutesText": "Seleccionar los minutos a usar este sitio",
+        "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately[NEEDSTRANSLATION]"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
-        "buttonBlockText": "Terminé. Bloquear este sitio ahora"
+        "buttonBlockText": "Terminé. Bloquear este sitio ahora",
+        "buttonBlockAppText": "I'm done. Block this app now[NEEDSTRANSLATION]"
+    },
+    "blockedAppsViewInfo": {
+        "title": "Super Distracting Apps[NEEDSTRANSLATION]",
+        "subTitleText": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the app.[NEEDSTRANSLATION]",
+        "checkBoxText": "Immediately block super distracting apps[NEEDSTRANSLATION]",
+        "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section.[NEEDSTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
