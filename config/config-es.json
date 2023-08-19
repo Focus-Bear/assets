@@ -163,7 +163,7 @@
         "uploadingText": "Cargando...",
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
-        "tabBlockedAppsText": "Blocked Apps[NEEDSTRANSLATION]"
+        "tabBlockedAppsText": "Aplicaciones Bloqueadas"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -429,7 +429,7 @@
         "radioButtonHardSkipText": "Haz difícil saltar hábitos- de otro modo terminaré saltando hábitos + descansos la mayoría del tiempo",
         "buttonExportLogsText": "Haz clic aquí para exportar registros y compartirlos con el Equipo de Soporte.",
         "buttonPanelExportLogsText": "Exportar Registros",
-        "panelExportLogsText": "Exporta registros para compartir con el Equipo de Soporte de Focus Bear. We'll save the logs to the folder you choose.[NEEDSTRANSLATION]",
+        "panelExportLogsText": "Exporta registros para compartir con el Equipo de Soporte de Focus Bear. Guardaremos los registros en la carpeta que elijas.",
         "exportSuccessText": "Tus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
         "titleMeetingDetection": "Detección de reunión",
         "descriptionMeetingDetectionText": "Habilita la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que estás en una llamada.",
@@ -459,9 +459,9 @@
         "titleReloadAppAfterForceQuit": "Volver a cargar:",
         "checkBoxReloadAppAfterForceQuitText": "Volver a cargar después de forzar cierre",
         "titleFont": "Fuente de la Aplicación:",
-        "titlePomodoroShortcut": "Shortcut to start pomodoro:[NEEDSTRANSLATION]",
-        "recordShorcutText": "Record Shortcut[NEEDSTRANSLATION]",
-        "alertShortcutErrorText": "Please use a different key combination.[NEEDSTRANSLATION]"
+        "titlePomodoroShortcut": "Acceso directo para iniciar pomodoro:",
+        "recordShorcutText": "Grabar Acceso Directo",
+        "alertShortcutErrorText": "Por favor, usa otra combinación de teclas."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -795,11 +795,11 @@
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate",
         "descriptionText": "¡Casi listo! Veamos algunos detalles para guardar tus hábitos.",
-        "buttonSignInEmailText": "Sign In with Email[NEEDSTRANSLATION]",
-        "buttonSignInGoogleText": "Sign In with Google[NEEDSTRANSLATION]",
-        "buttonSignInAppleText": "Sign In with Apple[NEEDSTRANSLATION]",
-        "loginComingSoonTitle": "Coming Soon - for now register again with a password to link your existing account.[NEEDSTRANSLATION]",
-        "loginComingSoonDescription": "We don't have support for single sign on yet on desktop. If you've already registered for an account via Google/Apple on mobile, you'll need to register again with an email and password and it will link to the existing account you have.[NEEDSTRANSLATION]"
+        "buttonSignInEmailText": "Registrarse con Email",
+        "buttonSignInGoogleText": "Registrarse con Google",
+        "buttonSignInAppleText": "Registrarse con Apple",
+        "loginComingSoonTitle": "Próximamente - por ahora registrate de nuevo con una contraseña para vincular tu cuenta existente.",
+        "loginComingSoonDescription": "Todavía no tenemos soporte para inicio de sesión único en escritorio. Si ya te registraste para obtener una cuenta a través de Google/Apple en el móvil, tendrás que registrarte de nuevo con un correo electrónico y contraseña, y se vinculará a la cuenta existente que tengas."
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Rutinas de hábitos personalizadas",
@@ -1145,7 +1145,7 @@
         "buttonStillNotBlockedText": "Aún no funciona",
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
         "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?",
-        "descriptionTryIntentionText": "Try opening <BLOCKED_URL>. Focus Bear will help you be more intentional with how you use the site.[NEEDSTRANSLATION]"
+        "descriptionTryIntentionText": "Intenta abrir <BLOCKED_URL>. Focus Bear te ayudará a utilizar el sitio de forma más intencional."
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "¡Genial! Esperamos ayudarte a bloquear las distracciones.",
@@ -1276,18 +1276,18 @@
         "buttonBlockText": "Bloquearlo",
         "buttonDontShowAgainText": "No preguntar por intenciones - bloquear sitios super distractores inmediatamente",
         "selectMinutesText": "Seleccionar los minutos a usar este sitio",
-        "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately[NEEDSTRANSLATION]"
+        "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
         "buttonBlockText": "Terminé. Bloquear este sitio ahora",
-        "buttonBlockAppText": "I'm done. Block this app now[NEEDSTRANSLATION]"
+        "buttonBlockAppText": "Terminé. Bloquear esta aplicación ahora"
     },
     "blockedAppsViewInfo": {
-        "title": "Super Distracting Apps[NEEDSTRANSLATION]",
-        "subTitleText": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the app.[NEEDSTRANSLATION]",
-        "checkBoxText": "Immediately block super distracting apps[NEEDSTRANSLATION]",
-        "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section.[NEEDSTRANSLATION]"
+        "title": "Aplicaciones Super Distractoras",
+        "subTitleText": "¿En qué aplicaciones pierdes el tiempo? Focus Bear te ayudará a ser más consciente de cómo usas estas aplicaciones. Se bloquearán durante las sesiones de enfoque. El resto del tiempo, Focus Bear te preguntará por qué quieres usar la aplicación.",
+        "checkBoxText": "Bloquear inmediatamente aplicaciones súper distractoras",
+        "addBrowserAlertText": "Lo sentimos, no puedes elegir aplicaciones de navegador aquí. En su lugar, pon los sitios web que te distraen en la sección URLs superdistractoras."
     },
     "settingsNew": {
         "uiSettingTitle": "UI[NEEDSTRANSLATION]",
