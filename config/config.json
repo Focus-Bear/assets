@@ -1288,6 +1288,23 @@
         "checkBoxText": "Immediately block super distracting apps",
         "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section."
     },
+    "settingsNew": {
+        "uiSettingTitle": "UI",
+        "accessibilitySettingTitle": "Accessibility",
+        "aISettingTitle": "AI Features",
+        "pomodoroSettingTitle": "Pomodoro",
+        "strictnessSettingTitle": "Strictness",
+        "advancedSettingTitle": "Advanced",
+        "accountSettingTitle": "Account",
+        "uninstallSettingTitle": "Uninstall",
+        "frictionSettingTitle": "Friction",
+        "passwordSettingTitle": "Password",
+        "focusModeSettingTitle": "Focus Mode",
+        "tabLimiterSettingTitle": "Browser tab limiter",
+        "meetingsSettingTitle": "Meetings",
+        "privacySettingTitle": "Privacy",
+        "breaksSettingTitle": "Micro Breaks"
+    },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",
