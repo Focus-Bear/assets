@@ -1289,6 +1289,23 @@
         "checkBoxText": "Immediately block super distracting apps[NEEDSTRANSLATION]",
         "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section.[NEEDSTRANSLATION]"
     },
+    "settingsNew": {
+        "uiSettingTitle": "UI[NEEDSTRANSLATION]",
+        "accessibilitySettingTitle": "Accessibility[NEEDSTRANSLATION]",
+        "aISettingTitle": "AI Features[NEEDSTRANSLATION]",
+        "pomodoroSettingTitle": "Pomodoro",
+        "strictnessSettingTitle": "Strictness[NEEDSTRANSLATION]",
+        "advancedSettingTitle": "Avanzado",
+        "accountSettingTitle": "Cuenta",
+        "uninstallSettingTitle": "Desinstalar",
+        "frictionSettingTitle": "Friction[NEEDSTRANSLATION]",
+        "passwordSettingTitle": "Contraseña",
+        "focusModeSettingTitle": "Focus Mode[NEEDSTRANSLATION]",
+        "tabLimiterSettingTitle": "Browser tab limiter[NEEDSTRANSLATION]",
+        "meetingsSettingTitle": "Meetings[NEEDSTRANSLATION]",
+        "privacySettingTitle": "Privacy[NEEDSTRANSLATION]",
+        "breaksSettingTitle": "Micro Breaks[NEEDSTRANSLATION]"
+    },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear está funcionando en segundo plano",
