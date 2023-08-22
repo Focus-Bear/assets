@@ -1290,21 +1290,21 @@
         "addBrowserAlertText": "Lo sentimos, no puedes elegir aplicaciones de navegador aquí. En su lugar, pon los sitios web que te distraen en la sección URLs superdistractoras."
     },
     "settingsNew": {
-        "uiSettingTitle": "UI[NEEDSTRANSLATION]",
-        "accessibilitySettingTitle": "Accessibility[NEEDSTRANSLATION]",
-        "aISettingTitle": "AI Features[NEEDSTRANSLATION]",
+        "uiSettingTitle": "IU",
+        "accessibilitySettingTitle": "Accesibilidad",
+        "aISettingTitle": "Funciones de IA",
         "pomodoroSettingTitle": "Pomodoro",
-        "strictnessSettingTitle": "Strictness[NEEDSTRANSLATION]",
+        "strictnessSettingTitle": "Rigidez",
         "advancedSettingTitle": "Avanzado",
         "accountSettingTitle": "Cuenta",
         "uninstallSettingTitle": "Desinstalar",
-        "frictionSettingTitle": "Friction[NEEDSTRANSLATION]",
+        "frictionSettingTitle": "Fricción",
         "passwordSettingTitle": "Contraseña",
-        "focusModeSettingTitle": "Focus Mode[NEEDSTRANSLATION]",
-        "tabLimiterSettingTitle": "Browser tab limiter[NEEDSTRANSLATION]",
-        "meetingsSettingTitle": "Meetings[NEEDSTRANSLATION]",
-        "privacySettingTitle": "Privacy[NEEDSTRANSLATION]",
-        "breaksSettingTitle": "Micro Breaks[NEEDSTRANSLATION]"
+        "focusModeSettingTitle": "Modo de Enfoque",
+        "tabLimiterSettingTitle": "Límite de pestañas del navegador",
+        "meetingsSettingTitle": "Reuniones",
+        "privacySettingTitle": "Privacidad",
+        "breaksSettingTitle": "Micro Descansos"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
