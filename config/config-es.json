@@ -383,7 +383,10 @@
         "menuItemSetFocusModesTitle": "Configurar Modos de Enfoque",
         "toolTipLockedFocus": "Usa esto si quieres enfocarte en usar una aplicación/leer un artículo. Detectaremos la aplicación + el sitio que tengas abiertos y bloquearemos todo lo demás.",
         "menuItemOpenChecklistTitle": "Abrir Lista de Control",
-        "menuItemMeetingDetectionBreaksOnTitle": "Reunión activa - descansos activos"
+        "menuItemMeetingDetectionBreaksOnTitle": "Reunión activa - descansos activos",
+        "menuItemPauseFocusModeTitle": "Pause this focus mode[NEEDSTRANSLATION]",
+        "menuItemStopFocusModeTitle": "Stop this focus mode[NEEDSTRANSLATION]",
+        "menuItemResumeFocusModeTitle": "Resume this focus mode[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -787,7 +790,8 @@
         "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
-        "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres"
+        "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres",
+        "titleTimeSpentText": "Time spent:[NEEDSTRANSLATION]"
     },
     "askLogInVcInfo": {
         "title": "Guarda tus hábitos en tu cuenta.",
@@ -1276,7 +1280,8 @@
         "buttonBlockText": "Bloquearlo",
         "buttonDontShowAgainText": "No preguntar por intenciones - bloquear sitios super distractores inmediatamente",
         "selectMinutesText": "Seleccionar los minutos a usar este sitio",
-        "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras"
+        "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
+        "confirmUseAgainText": "Are you sure? You already spent <MINUTES> minutes[NEEDSTRANSLATION]"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
