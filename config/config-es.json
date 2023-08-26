@@ -1107,6 +1107,7 @@
         "questionStartWorkTimeText": "¿A qué hora empiezas a trabajar?",
         "questionFinishWorkTimeText": "¿A qué hora terminas de trabajar?",
         "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
+        "explanationTextWIN": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)[NEEDSTRANSLATION]",
         "titleTimeText": "Tu horario se ve así:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
@@ -1330,6 +1331,7 @@
         "iWontUseIT": "Probablemente no lo usaría",
         "iMightUseIt": "Tal vez lo use",
         "downloadingUpdate": "Descargando Actualización",
-        "downloadProgress": "Descargando Actualización: {0} de {1}"
+        "downloadProgress": "Descargando Actualización: {0} de {1}",
+        "allWebsitesAllowed": "All websites are allowed[NEEDTRANSLATION]"
     }
 }
