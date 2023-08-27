@@ -383,7 +383,10 @@
         "menuItemSetFocusModesTitle": "Set up Focus Modes",
         "toolTipLockedFocus": "Use this if you want to focus on using one app/reading one article. We'll detect the current app + site you have open and block everything else.",
         "menuItemOpenChecklistTitle": "Open checklist",
-        "menuItemMeetingDetectionBreaksOnTitle": "Meeting active - breaks on"
+        "menuItemMeetingDetectionBreaksOnTitle": "Meeting active - breaks on",
+        "menuItemPauseFocusModeTitle": "Pause this focus mode",
+        "menuItemStopFocusModeTitle": "Stop this focus mode",
+        "menuItemResumeFocusModeTitle": "Resume this focus mode"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -787,7 +790,8 @@
         "titleWorkNoteFirst": "Things I'll do in my next break:",
         "titleWorkNoteSecond": "Things you wanted to do in your break:",
         "titleNotFocusSession": "You're currently not in a focus block",
-        "writeThingsHereText": "Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it"
+        "writeThingsHereText": "Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it",
+        "titleTimeSpentText": "Time spent:"
     },
     "askLogInVcInfo": {
         "title": "Save your habits to your account.",
@@ -1102,6 +1106,7 @@
         "questionStartWorkTimeText": "What time do you start work?",
         "questionFinishWorkTimeText": "What time do you finish work?",
         "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
+        "explanationTextWIN": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "titleTimeText": "Your schedule looks like:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)",
@@ -1275,7 +1280,8 @@
         "buttonBlockText": "Block it",
         "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately",
         "selectMinutesText": "Select minutes to use this site?",
-        "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately"
+        "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately",
+        "confirmUseAgainText": "Are you sure? You already spent <MINUTES> minutes"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
@@ -1324,6 +1330,7 @@
         "iWontUseIT": "I probably wouldn't use it",
         "iMightUseIt": "I might use it",
         "downloadingUpdate": "Downloading Update",
-        "downloadProgress": "Downloading Update: {0} of {1}"
+        "downloadProgress": "Downloading Update: {0} of {1}",
+        "allWebsitesAllowed": "All websites are allowed",
     }
 }
