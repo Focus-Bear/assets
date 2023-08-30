@@ -55,7 +55,7 @@
         "titleTakeNotes": "Take Notes",
         "buttonInstructionsText": "Instructions",
         "buttonChooseVideoText": "Choose a different video",
-        "buttonActivityDoneText": "I'm done",
+        "buttonActivityDoneText": "I'm done ✅",
         "startNonTimerActivityButtonText": "Start <NAME>",
         "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.",
         "completionRequirementsText": "Complete After: <REQUIREMENTS>",
