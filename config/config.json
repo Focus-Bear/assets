@@ -1258,14 +1258,14 @@
                 "title": "Preferences",
                 "description": "Click on \"Preferences\" to",
                 "arrayListItems": [
-                    "Edit activities for your morning routine, evening routine, breaks throught the day.",
+                    "Edit activities for your morning routine, evening routine, breaks throughout the day.",
                     "Setup or change Password.",
                     "View your progress stats."
                 ]
             },
             {
                 "title": "Setup Focus mode",
-                "description": "Setup focus modes to et into deep work with distraction blocking. You can remove blocks if you have an emergency.",
+                "description": "Setup focus modes to get into deep work with distraction blocking. You can remove blocks if you have an emergency.",
             }
         ]
     },
