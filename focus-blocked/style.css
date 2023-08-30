@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 25px;
-  font-family: monospace;
+  font-family: fenwick,sans-serif;
   position: relative;
 }
 
@@ -117,7 +117,7 @@
 #privacyContainer button {
   width: fit-content;
   padding: 6px 20px;
-  font-family: monospace;
+  font-family: fenwick,sans-serif;
   border-radius: 5px;
   border: 0;
   cursor: pointer;
