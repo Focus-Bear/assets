@@ -1268,7 +1268,10 @@
                 "title": "Configurar Modo de Enfoque",
                 "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
             }
-        ]
+        ],
+        "titleAlertSetupComplete":"Setup complete![NEEDSTRANSLATION]",
+        "subTitleAlertSetupComplete":"To get up and running quickly, have a read of our quick start guide.[NEEDSTRANSLATION]",
+        "buttonOkText":"Enlighten me[NEEDSTRANSLATION]"
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",

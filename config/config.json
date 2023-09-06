@@ -1267,7 +1267,10 @@
                 "title": "Setup Focus mode",
                 "description": "Setup focus modes to et into deep work with distraction blocking. You can remove blocks if you have an emergency.",
             }
-        ]
+        ],
+        "titleAlertSetupComplete":"Setup complete!",
+        "subTitleAlertSetupComplete":"To get up and running quickly, have a read of our quick start guide.",
+        "buttonOkText":"Enlighten me"
     },
     "relaxModeVcInfo":{
         "title": "Sites you saved for relax mode:",
