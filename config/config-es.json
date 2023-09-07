@@ -562,7 +562,9 @@
             "tipMaximumMinutesText": "Consejo: las investigaciones indican que 90 minutos es el límite máximo para trabajo concentrado (ritmos ultradianos). Después de eso, tu atención decaerá de forma natural y tendrás que tomarte un descanso.",
             "buttonShowTimerInMenuText": "Mostrar temporizador en la barra de menú durante un bloque de enfoque",
             "buttonSettingsText": "Configuración",
-            "buttonSaveIntentionText": "Guardar intención como plantilla"
+            "buttonSaveIntentionText": "Guardar intención como plantilla",
+            "buttonWriteIntentionText": "Write a freeform intention instead[NEEDTRANSLATION]",
+            "buttonChooseTaskText": "Choose task to work on[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
