@@ -384,9 +384,9 @@
         "toolTipLockedFocus": "Usa esto si quieres enfocarte en usar una aplicación/leer un artículo. Detectaremos la aplicación + el sitio que tengas abiertos y bloquearemos todo lo demás.",
         "menuItemOpenChecklistTitle": "Abrir Lista de Control",
         "menuItemMeetingDetectionBreaksOnTitle": "Reunión activa - descansos activos",
-        "menuItemPauseFocusModeTitle": "Pause this focus mode[NEEDSTRANSLATION]",
-        "menuItemStopFocusModeTitle": "Stop this focus mode[NEEDSTRANSLATION]",
-        "menuItemResumeFocusModeTitle": "Resume this focus mode[NEEDSTRANSLATION]"
+        "menuItemPauseFocusModeTitle": "Pausar este Modo de Enfoque",
+        "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
+        "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -793,7 +793,7 @@
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
         "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres",
-        "titleTimeSpentText": "Time spent:[NEEDSTRANSLATION]"
+        "titleTimeSpentText": "Tiempo utilizado:"
     },
     "askLogInVcInfo": {
         "title": "Guarda tus hábitos en tu cuenta.",
@@ -1108,8 +1108,8 @@
         "questionText": "¿Cuándo quiere empezar y terminar de trabajar?",
         "questionStartWorkTimeText": "¿A qué hora empiezas a trabajar?",
         "questionFinishWorkTimeText": "¿A qué hora terminas de trabajar?",
-        "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
-        "explanationTextWIN": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)[NEEDSTRANSLATION]",
+        "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
+        "explanationTextWIN": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Hacer Rutina Nocturna.\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "titleTimeText": "Tu horario se ve así:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
@@ -1289,7 +1289,7 @@
         "buttonDontShowAgainText": "No preguntar por intenciones - bloquear sitios super distractores inmediatamente",
         "selectMinutesText": "Seleccionar los minutos a usar este sitio",
         "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
-        "confirmUseAgainText": "Are you sure? You already spent <MINUTES> minutes[NEEDSTRANSLATION]"
+        "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
@@ -1303,21 +1303,21 @@
         "addBrowserAlertText": "Lo sentimos, no puedes elegir aplicaciones de navegador aquí. En su lugar, pon los sitios web que te distraen en la sección URLs superdistractoras."
     },
     "settingsNew": {
-        "uiSettingTitle": "UI[NEEDSTRANSLATION]",
-        "accessibilitySettingTitle": "Accessibility[NEEDSTRANSLATION]",
-        "aISettingTitle": "AI Features[NEEDSTRANSLATION]",
+        "uiSettingTitle": "IU",
+        "accessibilitySettingTitle": "Accesibilidad",
+        "aISettingTitle": "Funciones de IA",
         "pomodoroSettingTitle": "Pomodoro",
-        "strictnessSettingTitle": "Strictness[NEEDSTRANSLATION]",
+        "strictnessSettingTitle": "Rigidez",
         "advancedSettingTitle": "Avanzado",
         "accountSettingTitle": "Cuenta",
         "uninstallSettingTitle": "Desinstalar",
-        "frictionSettingTitle": "Friction[NEEDSTRANSLATION]",
+        "frictionSettingTitle": "Fricción",
         "passwordSettingTitle": "Contraseña",
-        "focusModeSettingTitle": "Focus Mode[NEEDSTRANSLATION]",
-        "tabLimiterSettingTitle": "Browser tab limiter[NEEDSTRANSLATION]",
-        "meetingsSettingTitle": "Meetings[NEEDSTRANSLATION]",
-        "privacySettingTitle": "Privacy[NEEDSTRANSLATION]",
-        "breaksSettingTitle": "Micro Breaks[NEEDSTRANSLATION]"
+        "focusModeSettingTitle": "Modo de Enfoque",
+        "tabLimiterSettingTitle": "Límite de pestañas del navegador",
+        "meetingsSettingTitle": "Reuniones",
+        "privacySettingTitle": "Privacidad",
+        "breaksSettingTitle": "Micro Descansos"
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood[NEEDTRANSLATION]",
@@ -1349,6 +1349,6 @@
         "iMightUseIt": "Tal vez lo use",
         "downloadingUpdate": "Descargando Actualización",
         "downloadProgress": "Descargando Actualización: {0} de {1}",
-        "allWebsitesAllowed": "All websites are allowed[NEEDTRANSLATION]"
+        "allWebsitesAllowed": "Todos los sitios web están permitidos"
     }
 }
