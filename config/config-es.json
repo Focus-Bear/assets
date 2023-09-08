@@ -1152,7 +1152,9 @@
         "buttonStillNotBlockedText": "Aún no funciona",
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
         "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?",
-        "descriptionTryIntentionText": "Intenta abrir <BLOCKED_URL>. Focus Bear te ayudará a utilizar el sitio de forma más intencional."
+        "descriptionTryIntentionText": "Intenta abrir <BLOCKED_URL>. Focus Bear te ayudará a utilizar el sitio de forma más intencional.",
+        "buttonItBlockedNewText": "It made me more intentional[NEEDTRANSLATION]",
+        "buttonDidNotBlockedNewText": "It didn't stop me at all[NEEDTRANSLATION]"
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "¡Genial! Esperamos ayudarte a bloquear las distracciones.",
@@ -1316,6 +1318,16 @@
         "meetingsSettingTitle": "Meetings[NEEDSTRANSLATION]",
         "privacySettingTitle": "Privacy[NEEDSTRANSLATION]",
         "breaksSettingTitle": "Micro Breaks[NEEDSTRANSLATION]"
+    },
+    "impactMeasurementVcInfo": {
+        "title": "Analyse Your Sleep and Mood[NEEDTRANSLATION]",
+        "description": "Would you like to track your sleep and mood to see if Focus Bear is making a positive difference to your life? This would help us too by giving us (anonymous) data about the impact of our app.[NEEDTRANSLATION]",
+        "subTitleText": "Data we'll collect[NEEDTRANSLATION]",
+        "pointFirstText": "Hours of sleep[NEEDTRANSLATION]",
+        "pointSecondText": "Your mood and energy level[NEEDTRANSLATION]",
+        "pointThirdText": "How productive you felt at the end of the day[NEEDTRANSLATION]",
+        "buttonCancelText": "No thanks[NEEDTRANSLATION]",
+        "buttonOkText": "OK sure[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
