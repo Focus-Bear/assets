@@ -563,8 +563,8 @@
             "buttonShowTimerInMenuText": "Mostrar temporizador en la barra de menú durante un bloque de enfoque",
             "buttonSettingsText": "Configuración",
             "buttonSaveIntentionText": "Guardar intención como plantilla",
-            "buttonWriteIntentionText": "Write a freeform intention instead[NEEDTRANSLATION]",
-            "buttonChooseTaskText": "Choose task to work on[NEEDTRANSLATION]"
+            "buttonWriteIntentionText": "Escribe una intención libre",
+            "buttonChooseTaskText": "Elegir tarea en la que trabajar"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -1153,8 +1153,8 @@
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
         "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?",
         "descriptionTryIntentionText": "Intenta abrir <BLOCKED_URL>. Focus Bear te ayudará a utilizar el sitio de forma más intencional.",
-        "buttonItBlockedNewText": "It made me more intentional[NEEDTRANSLATION]",
-        "buttonDidNotBlockedNewText": "It didn't stop me at all[NEEDTRANSLATION]"
+        "buttonItBlockedNewText": "Me hizo más intencional",
+        "buttonDidNotBlockedNewText": "No me detuvo para nada"
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "¡Genial! Esperamos ayudarte a bloquear las distracciones.",
@@ -1273,9 +1273,9 @@
                 "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
             }
         ],
-        "titleAlertSetupComplete":"Setup complete![NEEDSTRANSLATION]",
-        "subTitleAlertSetupComplete":"To get up and running quickly, have a read of our quick start guide.[NEEDSTRANSLATION]",
-        "buttonOkText":"Enlighten me[NEEDSTRANSLATION]"
+        "titleAlertSetupComplete":"¡Instalación completada!",
+        "subTitleAlertSetupComplete":"Para empezar a trabajar rápidamente, lee nuestra guía de inicio rápido.",
+        "buttonOkText":"Ilumíname"
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",
@@ -1320,14 +1320,14 @@
         "breaksSettingTitle": "Micro Descansos"
     },
     "impactMeasurementVcInfo": {
-        "title": "Analyse Your Sleep and Mood[NEEDTRANSLATION]",
-        "description": "Would you like to track your sleep and mood to see if Focus Bear is making a positive difference to your life? This would help us too by giving us (anonymous) data about the impact of our app.[NEEDTRANSLATION]",
-        "subTitleText": "Data we'll collect[NEEDTRANSLATION]",
-        "pointFirstText": "Hours of sleep[NEEDTRANSLATION]",
-        "pointSecondText": "Your mood and energy level[NEEDTRANSLATION]",
-        "pointThirdText": "How productive you felt at the end of the day[NEEDTRANSLATION]",
-        "buttonCancelText": "No thanks[NEEDTRANSLATION]",
-        "buttonOkText": "OK sure[NEEDTRANSLATION]"
+        "title": "Analiza tu sueño y estado de ánimo",
+        "description": "¿Te gustaría hacer un seguimiento de tu sueño y estado de ánimo para ver si Focus Bear está haciendo una diferencia positiva en tu vida? Esto también nos ayudaría a nosotros al proporcionarnos datos (anónimos) sobre el impacto de nuestra aplicación.",
+        "subTitleText": "Datos que recopilaremos",
+        "pointFirstText": "Horas de sueño",
+        "pointSecondText": "Tu estado de ánimo y nivel de energía",
+        "pointThirdText": "Qué tan productivo te sentiste al final del día",
+        "buttonCancelText": "No, gracias",
+        "buttonOkText": "De acuerdo"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
