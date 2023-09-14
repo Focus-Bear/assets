@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .container {
@@ -102,7 +101,7 @@
   border-radius: 10px;
 }
 
-#privacyNoticeContentArrow {
+.privacyNoticeContentArrow {
   width: 0;
   height: 0;
   border-top: 10px solid lightgray;
@@ -156,10 +155,9 @@
 
 .overlay {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.3);
   transition: opacity 500ms;
   visibility: hidden;

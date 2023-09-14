@@ -23,7 +23,6 @@ const LOCAL_STORAGE = {
 
 const urlParams = new URLSearchParams(window.location.search);
 let current_url = urlParams.get('old_url');
-console.log(urlParams.toString());
 current_url = current_url?.startsWith('http')
   ? current_url
   : `https://${current_url}`;
@@ -97,9 +96,11 @@ if (block_type) {
     };
   }
 } else {
-  const isPageLoaded = storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED);
-  const isPageReloaded = storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED);
-  if (isPageLoaded) {
+  const isPageLoaded = Boolean(storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
+  const isPageReloaded = Boolean(
+    storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
+  );
+  if (!isPageLoaded) {
     storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true);
   } else {
     storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
