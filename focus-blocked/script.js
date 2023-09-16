@@ -10,6 +10,10 @@ class LocalStorageService {
   getItem(key) {
     return this.localStorage.getItem(key) ?? false;
   }
+
+  clearItems(keys) {
+    keys.forEach((key) => this.localStorage.clear(key));
+  }
 }
 
 const LOCAL_STORAGE = {
@@ -19,7 +23,7 @@ const LOCAL_STORAGE = {
 
 const urlParams = new URLSearchParams(window.location.search);
 let current_url = urlParams.get('old_url');
-current_url = current_url.startsWith('http')
+current_url = current_url?.startsWith('http')
   ? current_url
   : `https://${current_url}`;
 const old_url = current_url.substring(
@@ -92,9 +96,11 @@ if (block_type) {
     };
   }
 } else {
-  const isPageLoaded = storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED);
-  const isPageReloaded = storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED);
-  if (isPageLoaded) {
+  const isPageLoaded = Boolean(storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
+  const isPageReloaded = Boolean(
+    storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
+  );
+  if (!isPageLoaded) {
     storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true);
   } else {
     storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
@@ -118,6 +124,10 @@ if (block_type) {
           'Focus block is over!';
         document.getElementById('progressWrapper').innerHTML =
           focus_tip_old_url;
+        storage.clearItems([
+          LOCAL_STORAGE.IS_PAGE_LOADED,
+          LOCAL_STORAGE.IS_PAGE_RELOADED,
+        ]);
         if (isPageReloaded) {
           window.location.href = old_url;
         }
@@ -130,7 +140,7 @@ if (block_type) {
 
 document.getElementById('privacyBtn').addEventListener('click', () => {
   let noticeElement = document.getElementById('privacyNoticeContent');
-  let noticeElementArrow = document.getElementById('arrow');
+  let noticeElementArrow = document.getElementById('privacyNoticeContentArrow');
   if (noticeElement.className === 'hidePrivacyNotice') {
     noticeElement.className = 'privacyNotice';
     noticeElementArrow.className = 'privacyNoticeContentArrow';
