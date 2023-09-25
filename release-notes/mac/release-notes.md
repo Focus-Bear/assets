@@ -1,3 +1,9 @@
+# v214 (Sep 20 - 2023)
+## Bug Fixes / Improvements
+- Task list is also shown in the End of Focus Mode window.
+- Fix for showing the wrong window for task selection
+- Fix for password restriction for postponing the evening routine after cut-off time.
+
 # v213 (Sep 14 - 2023)
 ## Bug Fixes / Improvements
 - Show the To-Do Task list in the Focus Mode and Pomodoro start windows
