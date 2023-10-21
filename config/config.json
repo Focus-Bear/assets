@@ -572,7 +572,7 @@
             "buttonChooseTaskText": "Choose task to work on",
             "selectedTasksText": "Selected Tasks:",
             "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)",
-            "pomodoroRunningCantStartFocusText": "You can not start a focus mode while Super Pomodoro session is running."
+            "pomodoroRunningCantStartFocusText": "You cannot start a focus mode while Super Pomodoro session is running."
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
