@@ -163,7 +163,11 @@
         "uploadingText": "Cargando...",
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
-        "tabBlockedAppsText": "Aplicaciones Bloqueadas"
+        "tabBlockedAppsText": "Aplicaciones Bloqueadas",
+        "toDoListWindowTitle": "Focus Bear - To Do List[NEEDTRANSLATION]",
+        "completedText": "Completed[NEEDTRANSLATION]",
+        "inProgressText": "In Progress[NEEDTRANSLATION]",
+        "notStartedText": "Not Started[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -359,7 +363,7 @@
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
-        "menuItemQuitTitle": "Desactivar",
+        "menuItemQuitTitle": "Pause Blocking[NEEDSTRANSLATION]",
         "untilTimeText": "termina a las <TIME>",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
@@ -386,7 +390,8 @@
         "menuItemMeetingDetectionBreaksOnTitle": "Reunión activa - descansos activos",
         "menuItemPauseFocusModeTitle": "Pause this focus mode[NEEDSTRANSLATION]",
         "menuItemStopFocusModeTitle": "Stop this focus mode[NEEDSTRANSLATION]",
-        "menuItemResumeFocusModeTitle": "Resume this focus mode[NEEDSTRANSLATION]"
+        "menuItemResumeFocusModeTitle": "Resume this focus mode[NEEDSTRANSLATION]",
+        "menuItemToDoListTitle": "To Do List[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -564,7 +569,10 @@
             "buttonSettingsText": "Configuración",
             "buttonSaveIntentionText": "Guardar intención como plantilla",
             "buttonWriteIntentionText": "Write a freeform intention instead[NEEDTRANSLATION]",
-            "buttonChooseTaskText": "Choose task to work on[NEEDTRANSLATION]"
+            "buttonChooseTaskText": "Choose task to work on[NEEDTRANSLATION]",
+            "selectedTasksText": "Selected Tasks:[NEEDTRANSLATION]",
+            "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)[NEEDTRANSLATION]",
+            "pomodoroRunningCantStartFocusText": "You can not start a focus mode while Super Pomodoro session is running.[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -793,7 +801,9 @@
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
         "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres",
-        "titleTimeSpentText": "Time spent:[NEEDSTRANSLATION]"
+        "titleTimeSpentText": "Time spent:[NEEDSTRANSLATION]",
+        "notesSaveInfoText": "Your notes will automatically save[NEEDSTRANSLATION]",
+        "buttonCloseText": "Close[NEEDSTRANSLATION]"
     },
     "askLogInVcInfo": {
         "title": "Guarda tus hábitos en tu cuenta.",
@@ -936,7 +946,12 @@
         "chooseOptionsText": "Elige una de las siguientes opciones:",
         "infoBuildHabitsText": "Focus Bear puede ayudarte con tus rutinas matutinas y nocturnas. La aplicación te guiará a través de hábitos como atención plena, journaling, ejercicio, planear tu día o cualquier otra cosa que te interese.",
         "infoStayFocusedText": "Focus Bear puede ayudarte a bloquear sitios web y aplicaciones que te distraigan mientras trabajas para ayudarte a lograr hacer más cosas.",
-        "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos."
+        "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos.",
+        "checkBoxMeditateConsistentlyText": "Meditate consistently[NEEDTRANSLATION]",
+        "checkBoxSleepBetterText": "Sleep better[NEEDTRANSLATION]",
+        "checkBoxExerciseMoreText": "Exercise more[NEEDTRANSLATION]",
+        "checkBoxImproveBalanceText": "Improve work life balance[NEEDTRANSLATION]",
+        "additionalGoalsText": "Additional goals:[NEEDTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -1327,7 +1342,8 @@
         "pointSecondText": "Your mood and energy level[NEEDTRANSLATION]",
         "pointThirdText": "How productive you felt at the end of the day[NEEDTRANSLATION]",
         "buttonCancelText": "No thanks[NEEDTRANSLATION]",
-        "buttonOkText": "OK sure[NEEDTRANSLATION]"
+        "buttonOkText": "OK sure[NEEDTRANSLATION]",
+        "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
