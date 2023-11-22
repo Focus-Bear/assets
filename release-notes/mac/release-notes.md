@@ -1,3 +1,26 @@
+# v217 (Nov 3 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue for activities not recognizing allowed URL keywords
+
+# v216 (Oct 21 - 2023)
+## Bug Fixes / Improvements
+- Rename Deactivate to Pause Blocking
+- Fixed the issue with the focus block end screen disappearing if too much text is entered into the "What did you achieve?" text area.
+
+## New Features
+- Completed spanish translation of webviews
+- Added access the To-Do list from the Tools menu
+- Added ability to start a Focus mode from the Brain Dump window
+- Total focus time is shown in the focus mode end screen
+- Used a new combo box component for the What's Next screen
+
+# v215 (Oct 7 - 2023)
+## Bug Fixes / Improvements
+- At the end of focus mode screen, a popup will show the selected Todo Tasks during the start focus mode screen and ask you to mark which ones you were able to finish, then put it in the "What did you achieve?" text area
+- Show selected tasks in the Brain Dump during a focus mode
+- Added a note about autosaving for the close button in the Brain dump window
+- Fixed an issue with the Postpone break button not working
+
 # v214 (Sep 20 - 2023)
 ## Bug Fixes / Improvements
 - Task list is also shown in the End of Focus Mode window.
