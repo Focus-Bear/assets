@@ -68,7 +68,7 @@
         "activityFinishedUnlockNowSoundText": "<ACTIVITY> finished. You’ve earned your screen time."
     },
     "common": {
-        "emailId": "team@focusbear.io",
+        "emailId": "support@focusbear.io",
         "unlockMachineButtonText": "Unlock the machine",
         "wrapupButtonText": "Let's wrap up for the day",
         "stayFocusedText": "OK - Stay focused throughout the day!",
@@ -443,7 +443,7 @@
         "checkBoxShowMeetingDetectionPopupText": "Automatically suggest starting \"Meetings\" focus mode",
         "alertChangeLanguageInfoText": "Focus Bear will restart for the changes to take effect.",
         "warningGrizzlyBearText":"Warning: Grizzly Bear mode is not recommended until you have fully fleshed out your focus modes. We recommend starting with cuddly bear mode and switching to Grizzly Bear mode after a few weeks",
-        "helpText":"Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please export your logs (use the link below) and attach it to the email.",
+        "helpText":"Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at support@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please export your logs (use the link below) and attach it to the email.",
         "titleShowBreaksInPostpone": "Show Micro breaks:",
         "checkBoxShowBreaksInPostponeText": "Show breaks while postponing routine",
         "tabReportProblemText": "Report Problem",
@@ -908,7 +908,7 @@
         "titleSignInSuccessful": "Sign in successful",
         "signinSuccessText": "Great you're all signed in. I'll just give you a few tips before you start using it.",
         "privacyText": "Privacy and Security",
-        "privacyDescription": "We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email team@focusbear.io or refer to our privacy policy:",
+        "privacyDescription": "We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email support@focusbear.io or refer to our privacy policy:",
         "buttonPrivacyText": "Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
@@ -975,7 +975,7 @@
     },
     "popUpOfflineVcInfo": {
         "titleOffline": "It seems like you're offline. Please go online to continue with your habits.",
-        "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact team@focusbear.io",
+        "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact support@focusbear.io",
         "buttonOnlineText": "I'm online now",
         "buttonDefinitelyOnlineText": "I'm definitely online"
     },
@@ -1136,7 +1136,7 @@
         "title": "Privacy and Security",
         "subTitle": "We take your privacy and security very seriously and will never share your data ever.",
         "descriptionText": "🙈 We do not log which websites or apps you use.\n\n🔄 We do sync your habit data to our server but this is only to support cross device distraction blocking.\n\n🔒 Your data is encrypted and we don't let anyone else see it.",
-        "moreDetailText": "For more details, refer to our privacy policy or feel free to email team@focusbear.io.",
+        "moreDetailText": "For more details, refer to our privacy policy or feel free to email support@focusbear.io.",
         "buttonViewPrivacyText": "Click here to view Privacy Policy",
         "buttonContinueText": "Continue"
     },
@@ -1150,7 +1150,7 @@
         "tryBrowsersBlockTextWIN": "Did you use Google Chrome, Firefox, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.",
         "buttonStillNotBlockedText": "Still not working",
         "buttonNowBlockedText": "I just tried those browsers and it worked!",
-        "emailUsText": "Sorry about that 😓 Any chance you could email us (team@focusbear.io) and we'll try and fix it for you?",
+        "emailUsText": "Sorry about that 😓 Any chance you could email us (support@focusbear.io) and we'll try and fix it for you?",
         "descriptionTryIntentionText": "Try opening <BLOCKED_URL>. Focus Bear will help you be more intentional with how you use the site.",
         "buttonItBlockedNewText": "It made me more intentional",
         "buttonDidNotBlockedNewText": "It didn't stop me at all"
