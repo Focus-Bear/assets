@@ -1060,7 +1060,8 @@
         "optionSecondText": "Google",
         "optionThirdText": "Ad on Reddit or Twitter",
         "optionFourthText": "Somewhere else",
-        "optionRemarkableText": "Remarkable"
+        "optionRemarkableText": "Remarkable",
+        "optionPodcastsText": "Podcasts"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Reactivate",
@@ -1331,7 +1332,9 @@
         "tabLimiterSettingTitle": "Browser tab limiter",
         "meetingsSettingTitle": "Meetings",
         "privacySettingTitle": "Privacy",
-        "breaksSettingTitle": "Micro Breaks"
+        "breaksSettingTitle": "Micro Breaks",
+        "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker",
+        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons."
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -1343,6 +1346,17 @@
         "buttonCancelText": "No thanks",
         "buttonOkText": "OK sure",
         "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
+    },
+    "timeTrackerVcInfo": {
+        "title": "Introducing Focus Bear Time Tracker",
+        "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).",
+        "pointFirstText": "Privacy first: data is stored locally on your Mac",
+        "pointSecondText": "Assign time logs to different projects (helpful for timesheets)",
+        "pointThirdText": "Discover where you're wasting time (you can block it with Focus Bear 😉)",
+        "pointFourthText": "Track time on meetings and when you're away from your Mac",
+        "buttonEnableText": "Enable Focus Bear Time Tracker",
+        "buttonCancelText": "No thanks",
+        "alertInfoText": "You can always enable Focus Bear Time Tracker from Focus Bear prefrences later."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
