@@ -55,7 +55,7 @@
         "titleTakeNotes": "Take Notes",
         "buttonInstructionsText": "Instructions",
         "buttonChooseVideoText": "Choose a different video",
-        "buttonActivityDoneText": "I'm done ✅",
+        "buttonActivityDoneText": "I'm done",
         "startNonTimerActivityButtonText": "Start <NAME>",
         "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.",
         "completionRequirementsText": "Complete After: <REQUIREMENTS>",
@@ -163,7 +163,11 @@
         "uploadingText": "Uploading...",
         "reminderUninstallText": "Quick reminder: you need to drag the Focus Bear from the Applications folder to Trash to fully uninstall the app.",
         "alertOnboardingVideoText": "You'll be able to use the Focus Bear menu as soon as you have finished watching the onboarding video.",
-        "tabBlockedAppsText": "Blocked Apps"
+        "tabBlockedAppsText": "Blocked Apps",
+        "toDoListWindowTitle": "Focus Bear - To Do List",
+        "completedText": "Completed",
+        "inProgressText": "In Progress",
+        "notStartedText": "Not Started"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -359,7 +363,7 @@
         "menuItemCheckForUpdatesTitle": "Check for updates",
         "menuItemEnableOfficeModeTitle": "Office Mode Enabled",
         "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
-        "menuItemQuitTitle": "Deactivate",
+        "menuItemQuitTitle": "Pause Blocking",
         "untilTimeText": "ends at <TIME>",
         "onText": "On",
         "noOfficeFriendlyActivityAlertText": "You don't have any office friendly break activities. Do you want me to add one for you to stand up and stretch for 20 seconds?",
@@ -386,7 +390,8 @@
         "menuItemMeetingDetectionBreaksOnTitle": "Meeting active - breaks on",
         "menuItemPauseFocusModeTitle": "Pause this focus mode",
         "menuItemStopFocusModeTitle": "Stop this focus mode",
-        "menuItemResumeFocusModeTitle": "Resume this focus mode"
+        "menuItemResumeFocusModeTitle": "Resume this focus mode",
+        "menuItemToDoListTitle": "To Do List"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -564,7 +569,10 @@
             "buttonSettingsText": "Settings",
             "buttonSaveIntentionText": "Save intention as template",
             "buttonWriteIntentionText": "Write a freeform intention instead",
-            "buttonChooseTaskText": "Choose task to work on"
+            "buttonChooseTaskText": "Choose task to work on",
+            "selectedTasksText": "Selected Tasks:",
+            "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)",
+            "pomodoroRunningCantStartFocusText": "You cannot start a focus mode while Super Pomodoro session is running."
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
@@ -793,7 +801,9 @@
         "titleWorkNoteSecond": "Things you wanted to do in your break:",
         "titleNotFocusSession": "You're currently not in a focus block",
         "writeThingsHereText": "Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it",
-        "titleTimeSpentText": "Time spent:"
+        "titleTimeSpentText": "Time spent:",
+        "notesSaveInfoText": "Your notes will automatically save",
+        "buttonCloseText": "Close"
     },
     "askLogInVcInfo": {
         "title": "Save your habits to your account.",
@@ -935,7 +945,12 @@
         "chooseOptionsText": "Choose one of the following options:",
         "infoBuildHabitsText": "Focus Bear can help you with morning and evening routines. The app will guide you through habits like mindfulness, journalling, exercise, planning your day or anything you care about.",
         "infoStayFocusedText": "Focus Bear can help block distracting websites and apps while you're working to help you get more done.",
-        "habitPackInfoText": "A habit pack is a collection of habits to do in the morning, the evening and during breaks"
+        "habitPackInfoText": "A habit pack is a collection of habits to do in the morning, the evening and during breaks",
+        "checkBoxMeditateConsistentlyText": "Meditate consistently",
+        "checkBoxSleepBetterText": "Sleep better",
+        "checkBoxExerciseMoreText": "Exercise more",
+        "checkBoxImproveBalanceText": "Improve work life balance",
+        "additionalGoalsText": "Additional goals:"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -1045,7 +1060,8 @@
         "optionSecondText": "Google",
         "optionThirdText": "Ad on Reddit or Twitter",
         "optionFourthText": "Somewhere else",
-        "optionRemarkableText": "Remarkable"
+        "optionRemarkableText": "Remarkable",
+        "optionPodcastsText": "Podcasts"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Reactivate",
@@ -1316,7 +1332,9 @@
         "tabLimiterSettingTitle": "Browser tab limiter",
         "meetingsSettingTitle": "Meetings",
         "privacySettingTitle": "Privacy",
-        "breaksSettingTitle": "Micro Breaks"
+        "breaksSettingTitle": "Micro Breaks",
+        "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker",
+        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons."
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -1326,7 +1344,19 @@
         "pointSecondText": "Your mood and energy level",
         "pointThirdText": "How productive you felt at the end of the day",
         "buttonCancelText": "No thanks",
-        "buttonOkText": "OK sure"
+        "buttonOkText": "OK sure",
+        "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
+    },
+    "timeTrackerVcInfo": {
+        "title": "Introducing Focus Bear Time Tracker",
+        "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).",
+        "pointFirstText": "Privacy first: data is stored locally on your Mac",
+        "pointSecondText": "Assign time logs to different projects (helpful for timesheets)",
+        "pointThirdText": "Discover where you're wasting time (you can block it with Focus Bear 😉)",
+        "pointFourthText": "Track time on meetings and when you're away from your Mac",
+        "buttonEnableText": "Enable Focus Bear Time Tracker",
+        "buttonCancelText": "No thanks",
+        "alertInfoText": "You can always enable Focus Bear Time Tracker from Focus Bear preferences later."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
