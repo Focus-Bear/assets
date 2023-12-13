@@ -164,10 +164,10 @@
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
         "tabBlockedAppsText": "Aplicaciones Bloqueadas",
-        "toDoListWindowTitle": "Focus Bear - To Do List[NEEDTRANSLATION]",
-        "completedText": "Completed[NEEDTRANSLATION]",
-        "inProgressText": "In Progress[NEEDTRANSLATION]",
-        "notStartedText": "Not Started[NEEDTRANSLATION]"
+        "toDoListWindowTitle": "Focus Bear - Lista de Tareas",
+        "completedText": "Completado",
+        "inProgressText": "En Progreso",
+        "notStartedText": "No Iniciado"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -363,7 +363,7 @@
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
-        "menuItemQuitTitle": "Pause Blocking[NEEDSTRANSLATION]",
+        "menuItemQuitTitle": "Pausar Bloqueo",
         "untilTimeText": "termina a las <TIME>",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
@@ -391,7 +391,7 @@
         "menuItemPauseFocusModeTitle": "Pausar este Modo de Enfoque",
         "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
         "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
-        "menuItemToDoListTitle": "To Do List[NEEDSTRANSLATION]"
+        "menuItemToDoListTitle": "Lista de Tareas"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -570,9 +570,9 @@
             "buttonSaveIntentionText": "Guardar intención como plantilla",
             "buttonWriteIntentionText": "Escribe una intención libre",
             "buttonChooseTaskText": "Elegir tarea en la que trabajar",
-            "selectedTasksText": "Selected Tasks:[NEEDTRANSLATION]",
-            "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)[NEEDTRANSLATION]",
-            "pomodoroRunningCantStartFocusText": "You can not start a focus mode while Super Pomodoro session is running.[NEEDTRANSLATION]"
+            "selectedTasksText": "Tareas Seleccionadas:",
+            "focusedText": "Tiempo total de enfoque: <DURATION> (<COUNT> sesiones de enfoque)",
+            "pomodoroRunningCantStartFocusText": "No se puede iniciar un modo de enfoque mientras se está ejecutando la sesión Super Pomodoro."
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -802,8 +802,8 @@
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
         "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres",
         "titleTimeSpentText": "Tiempo utilizado:",
-        "notesSaveInfoText": "Your notes will automatically save[NEEDSTRANSLATION]",
-        "buttonCloseText": "Close[NEEDSTRANSLATION]"
+        "notesSaveInfoText": "Tus notas se guardarán automáticamente",
+        "buttonCloseText": "Cerrar"
     },
     "askLogInVcInfo": {
         "title": "Guarda tus hábitos en tu cuenta.",
@@ -947,11 +947,11 @@
         "infoBuildHabitsText": "Focus Bear puede ayudarte con tus rutinas matutinas y nocturnas. La aplicación te guiará a través de hábitos como atención plena, journaling, ejercicio, planear tu día o cualquier otra cosa que te interese.",
         "infoStayFocusedText": "Focus Bear puede ayudarte a bloquear sitios web y aplicaciones que te distraigan mientras trabajas para ayudarte a lograr hacer más cosas.",
         "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos.",
-        "checkBoxMeditateConsistentlyText": "Meditate consistently[NEEDTRANSLATION]",
-        "checkBoxSleepBetterText": "Sleep better[NEEDTRANSLATION]",
-        "checkBoxExerciseMoreText": "Exercise more[NEEDTRANSLATION]",
-        "checkBoxImproveBalanceText": "Improve work life balance[NEEDTRANSLATION]",
-        "additionalGoalsText": "Additional goals:[NEEDTRANSLATION]"
+        "checkBoxMeditateConsistentlyText": "Meditar de forma constante",
+        "checkBoxSleepBetterText": "Dormir mejor",
+        "checkBoxExerciseMoreText": "Hacer más ejercicio",
+        "checkBoxImproveBalanceText": "Mejorar el equilibrio entre la vida laboral y personal",
+        "additionalGoalsText": "Objetivos adicionales:"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -1062,7 +1062,7 @@
         "optionThirdText": "Anuncio en Reddit o Twitter",
         "optionFourthText": "En otro lugar",
         "optionRemarkableText": "Remarkable",
-        "optionPodcastsText": "Podcasts[NEEDTRANSLATION]"
+        "optionPodcastsText": "Podcasts"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Actualizar ahora",
@@ -1334,8 +1334,8 @@
         "meetingsSettingTitle": "Reuniones",
         "privacySettingTitle": "Privacidad",
         "breaksSettingTitle": "Micro Descansos",
-        "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker[NEEDSTRANSLATION]",
-        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.[NEEDSTRANSLATION]"
+        "focusBearTrackerSettingTitle": "Activar Rastreador de Tiempo Focus Bear",
+        "focusBearTrackerDescriptionTitle": "Analiza tu productividad rastreando cuánto tiempo pasas en diferentes sitios web y aplicaciones. Puede clasificar automáticamente los registros de tiempo en diferentes proyectos (útil para planillas de horas). Los datos se almacenan localmente por motivos de privacidad."
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1349,15 +1349,15 @@
         "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
     },
     "timeTrackerVcInfo": {
-        "title": "Introducing Focus Bear Time Tracker[NEEDTRANSLATION]",
-        "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).[NEEDTRANSLATION]",
-        "pointFirstText": "Privacy first: data is stored locally on your Mac[NEEDTRANSLATION]",
-        "pointSecondText": "Assign time logs to different projects (helpful for timesheets)[NEEDTRANSLATION]",
-        "pointThirdText": "Discover where you're wasting time (you can block it with Focus Bear 😉)[NEEDTRANSLATION]",
-        "pointFourthText": "Track time on meetings and when you're away from your Mac[NEEDTRANSLATION]",
-        "buttonEnableText": "Enable Focus Bear Time Tracker[NEEDTRANSLATION]",
-        "buttonCancelText": "No thanks[NEEDTRANSLATION]",
-        "alertInfoText": "You can always enable Focus Bear Time Tracker from Focus Bear prefrences later.[NEEDTRANSLATION]"
+        "title": "Presentamos Rastreador de Tiempo Focus Bear",
+        "description": "El Rastreador de Tiempo de Focus Bear te ayuda a analizar tu productividad mediante el seguimiento del tiempo que pasas en diferentes sitios web y aplicaciones. Puedes clasificar automáticamente los registros de tiempo en diferentes proyectos (útil para planillas horarias).",
+        "pointFirstText": "Privacidad ante todo: la información se almacena localmente en tu Mac",
+        "pointSecondText": "Asigna registros de tiempo a diferentes proyectos (útil para planillas horarias)",
+        "pointThirdText": "Descubre dónde pierdes el tiempo (puedes bloquearlo con Focus Bear 😉)",
+        "pointFourthText": "Controla el tiempo que pasas en reuniones y cuando estás lejos de tu Mac",
+        "buttonEnableText": "Activar el Rastreador de Tiempo Focus Bear",
+        "buttonCancelText": "No, gracias",
+        "alertInfoText": "Siempre podrás habilitar el Rastreador de Tiempo Focus Bear desde las preferencias de Focus Bear después."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
