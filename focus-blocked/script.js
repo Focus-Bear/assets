@@ -72,14 +72,30 @@ const focus_tip = `<div class='notice-wrapper'>
 
 if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
+  
   if (block_type === 'always-block' || block_type === 'always-blocked') {
-    document.getElementById(
-      'progressWrapper'
-    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to Preferences > Always Blocked URLs</h6></div>`;
+    
+    /* Determine the operating system */
+    let userAgent = window.navigator.userAgent;
+    let os = "Unknown";                     
+    if (userAgent.indexOf("Win") != -1) os = "Windows";
+    if (userAgent.indexOf("Mac") != -1) os = "Mac";
+                    
     let imgElement = document.createElement('img');
-    imgElement.src =
-      'https://focus-bear.github.io/assets/focus-blocked/block_urls.png';
+    
+    /* Show the relevant instructions based on the operating system */
+    if (os == 'Mac' || os == 'Unknown') {
+      imgElement.src = 'https://images.focusbear.io/focusbear_blocksites.jpg';
+      document.getElementById('progressWrapper').innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to:<br>
+      Preferences > Settings > Strictness > Super Distracting Sites</h6></div>`;
+    } else if (os == 'Windows') {
+      imgElement.src = 'https://images.focusbear.io/focusbear_blocksites_windows.png';
+      document.getElementById('progressWrapper').innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to:
+      <br>Preferences > Settings > Blocked URLs > Super Distracting Sites</h6></div>`;
+    }
+                        
     document.getElementById('progressWrapper').appendChild(imgElement);
+
   } else {
     document.getElementById(
       'progressWrapper'
