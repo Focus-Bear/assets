@@ -1,3 +1,262 @@
+# v217 (Nov 3 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue for activities not recognizing allowed URL keywords
+
+# v216 (Oct 21 - 2023)
+## Bug Fixes / Improvements
+- Rename Deactivate to Pause Blocking
+- Fixed the issue with the focus block end screen disappearing if too much text is entered into the "What did you achieve?" text area.
+
+## New Features
+- Completed spanish translation of webviews
+- Added access the To-Do list from the Tools menu
+- Added ability to start a Focus mode from the Brain Dump window
+- Total focus time is shown in the focus mode end screen
+- Used a new combo box component for the What's Next screen
+
+# v215 (Oct 7 - 2023)
+## Bug Fixes / Improvements
+- At the end of focus mode screen, a popup will show the selected Todo Tasks during the start focus mode screen and ask you to mark which ones you were able to finish, then put it in the "What did you achieve?" text area
+- Show selected tasks in the Brain Dump during a focus mode
+- Added a note about autosaving for the close button in the Brain dump window
+- Fixed an issue with the Postpone break button not working
+
+# v214 (Sep 20 - 2023)
+## Bug Fixes / Improvements
+- Task list is also shown in the End of Focus Mode window.
+- Fix for showing the wrong window for task selection
+- Fix for password restriction for postponing the evening routine after cut-off time.
+
+# v213 (Sep 14 - 2023)
+## Bug Fixes / Improvements
+- Show the To-Do Task list in the Focus Mode and Pomodoro start windows
+
+# v211 (Sep 11 - 2023)
+## Bug Fixes / Improvements
+- Fixed bug in calculation of habit completion time
+- Improvements to the To-Do List feature
+
+## New Features
+- Added an impact measurement feature to record sleep, energy, and mood.
+- Added a CSat/NPS survey rating
+
+# v210 (Sep 7- 2023)
+## Bug Fixes / Improvements
+- Added a close button in the Select Tasks window when starting a focus mode
+- Logs added for identifying sound files
+
+# v209 (Sep 6 - 2023)
+## Bug Fixes / Improvements
+- Improvements to LateNoMore integration to run activities that are not included in the habits and to start focus modes
+- Fix for YouTube videos not loading during activities
+
+## New Features
+- Show a post-install guide after completing installation and onboarding
+
+# v208 (Sep 2 - 2023)
+## Bug Fixes / Improvements
+- Improvements to the syncing of activities between desktop and mobile app to allow the mobile app to complete activities in any order  
+- Improvements to call detection
+- Fix for directing keyboard focus on the text area when taking notes during an activity
+- Added support to not show completed activities that were done randomly on mobile app for the morning and evening routines.
+
+# v207 (Aug 25 - 2023)
+## Bug Fixes / Improvements
+- Show a count-up timer instead of countdown during the meeting focus mode.
+- Fixed allowing of Progressive Web Apps (PWA) during habit activities.
+- Omitted event logging for test accounts
+- Added the feedback message in the API header when uploading logs to the server
+- Break activity videos are paused when they occur during a call
+
+# v206 (Aug 21 - 2023)
+## Bug Fixes / Improvements
+- Added icons to the new Settings UI
+- Applied 5 second limit to the safe URL API before showing a popup
+- Fixed issue of blurring of blocked apps/sites not covering entire area
+- Show the login window after deleting an account
+
+# v205 (Aug 19 - 2023)
+## Bug Fixes / Improvements
+- Updates to the Settings UI layout
+- Handling of HTTP400 state for API calls when offline
+
+# v203 (Aug 14 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue for focus mode ending countdown timer not closing when changing to a different focus mode.
+- Handling of HTTP500 state for API calls. 
+- Updates to the Settings UI layout
+
+## New Features
+- Added a To Do List feature when starting a focus mode.
+- Accessibility fonts applied to all webviews
+
+# v202 (Aug 9 - 2023)
+## Bug Fixes / Improvements
+- Added support to list apps from Utilities folder, System apps
+- Added support for Dark mode in Settings and Stats page (in Preferences)
+
+# v201 (Aug 8 - 2023)
+## New Features
+- Remember last focus mode duration
+
+## Bug Fixes / Improvements
+- Updated onboarding cards
+- Bug Fixes and improvements
+
+# v200 (Aug 1 - 2023)
+## New Features
+- Super distracting Apps. You can now add super distracting apps to be blocked.
+
+## Bug Fixes / Improvements
+- Other minor improvements
+
+# v199 (Jul 28 - 2023)
+## Bug Fixes / Improvements
+- Fixed keyboard focus issues
+- Fixed an issue when starting another focus mode within an allowed-focus-mode activity.
+- Fixed issue with controls being hidden in Set Intention box when the 5 sec. timer is shown.
+
+# v198 (Jul 27 - 2023)
+## New Features
+- Ability to start Pomodoro via a shortcut, configurable in settings.
+
+## Bug Fixes / Improvements
+- Updates to address flickering issues for Set Intention box
+- Improvements to Set Intention box
+
+# v197 (Jul 26 - 2023)
+## Bug Fixes / Improvements
+- Enhancements to Set Intention functionality
+- Added logs for audio events
+- Enhancements to Log Qty functionality
+
+# v196 (Jul 25 - 2023)
+## Bug Fixes / Improvements
+- fixed focus mode URL blocking behaviour
+- fixes for LateNoMore and FocusBear interrupting system restart.
+- show current time format based on your locale settings
+- code enhancements to address Graph issues and code conflicts
+
+# v195 (Jul 24 - 2023)
+## Bug Fixes / Improvements
+- Enhanced the Set intention popup for Super Distracting URLs to allow you to input a time for when you want to visit the site later.
+- Enhanced the Log Quantity to accept input values using sliders or textbox
+
+# v193 & v194 (Jul 22 - 2023)
+## Bug Fixes / Improvements
+- Enhanced the Log Quantity sliders to take input via text boxes
+- Fixes to the cuddly bear popup if AI endpoint says a URL or app should be blocked
+- Enhancements to the Set Intention window when opening super distracting sites
+
+# v192 (Jul 21 - 2023)
+## New Features
+- Display an intention window if you want to continue opening a site identified as Super Distracting.
+
+# v191 (July 20 - 2023)
+## New Features
+- Tutorial to show how to add Focus Block tags appears at the end of focus block session
+
+## Bug Fixes / Improvements
+- Other minor enhancements and bug fixes
+
+# v190 (July 19 - 2023)
+## New Features
+- Focus Block tags are now included in the exported CSV file
+
+## Bug Fixes / Improvements
+- Various bug fixes
+- Improvements to relax mode activity
+- Improvements for using focus modes while an activity is postponed
+- Loading screen added while waiting for activity props
+
+# v189 (July 18 - 2023)
+## New Features
+- Ability to add tags to completed focus block sessions
+
+# v188 (July 15 - 2023)
+## New Features
+- Added support for Relax focus mode and relax activity in evening routine
+
+# v187 (July 15 - 2023)
+## Bug Fixes / Improvements
+- Added support for ARC browser
+
+# v186 (July 11 - 2023)
+## Bug Fixes / Improvements
+- Improvements in existing functionality
+
+# v185 (July 7 - 2023)
+## New Features
+- Added Focus Bear menu tour to guide new users
+
+## Bug Fixes / Improvements
+- Minor improvements to various sections of the app
+
+# v184 (July 6 - 2023)
+## Bug Fixes / Improvements
+- Improvements to blocked URLS screen during onboarding.
+- Improvement to Signup screen for "Generate Password" option
+- Added support for Poppins font.
+- Fix to not reload habits whenever a screensaver takes over while there is still an undismissed meeting notification from LateNoMore  
+
+# v183 (July 1 - 2023)
+## Bug Fixes / Improvements
+- User settings now loaded with the new pattern in Edit Habits screen.
+- Modified the Brain dump screen to close when the save button is clicked.
+- Added an arrow in the screenshot of the AI screen in onboarding to help make it more understandable.
+- Added a highlight to the generated password text in the signup screen.
+- Made the text size in the Activity instructions adjust dynamically so it maximizes the text box area for improved visibility.
+- Improvements to the logging to capture more relevant data.
+
+# v182 (July 1 - 2023)
+## Bug Fixes / Improvements
+- Fix to allow the focus mode to continue uninterrupted, even if a microbreak starts
+- Added a save button to the brain dump screen to make it more intuitive and prevent any confusion.
+- Added visual enhancement to the menu by highlighting the active focus mode. This makes it easier to identify the currently active focus mode at a glance.
+
+# v181 (July 1 - 2023)
+## Bug Fixes / Improvements
+- Improved keyboard navigation in activities that don't use timers, making it easier to navigate and interact with them via keyboard.
+- Fixed the alignment of text in the deactivate screen, ensuring that it is centered properly.
+- Resolved an issue where the name of the random choice activity was not displayed on the start button.
+- Made user interface enhancements to the Generate password screen in the Sign Up window, improving the overall experience of creating a password.
+- Added helpful tooltips to the checkbox options on the Goals screen during the onboarding process, providing additional information and guidance.
+- Made improvements to the strictness selector feature during onboarding.
+
+# v180 (June 27 - 2023)
+## Bug Fixes / Improvements
+- Fixed an issue where the Cuddly Bear Allow App popup windows is hidden behind the blocked app and was unclickable.
+- Removed a log event that is no longer needed, improving the application's performance and optimizing resource usage.
+- Fixed an issue where the Focus time remaining was showing negative time values
+- Added scroll view in General tab under Preferences > Settings, which allows you to easily navigate and access all the settings, even if they exceed the available window space.
+- Made changes to the onboarding screen for a more user-friendly experience. 
+
+# v179 (June 26 - 2023)
+## New Features
+- Introduced a new option in the Late No More settings. Users can now enable the automatic launch at system startup feature so the application starts up automatically when you startup your computer, saving you time and effort, and ensuring that you don't miss any meeting reminders.
+
+## Bug Fixes / Improvements
+- Fixed an issue where the focus mode activity would restart when a screensaver appeared while waiting for input on the focus block end screen. 
+- Made screen adjustments for better readability of texts using the Dyslexia friendly fonts. This will enhance the reading experience and improve accessibility for users with dyslexia.
+- Added a blank default option in the "Reason for deactivating" dropdown menu, which encourages users to consciously choose a reason when deactivating the app.
+- Changed the title on the break activity habit pack select screen for better clarity. This makes it easier to identify and select the desired habit pack during break activities.
+
+
+# v178 (June 24 - 2023)
+## New Features
+- If your evening routine begins while you are in a focus mode, we have added a feature that will display the Focus mode end screen to help you smoothly transition from your focus mode to your evening routine.
+- In Cuddly Bear mode, we have introduced a progress bar in the Gentle Block window. This bar indicates how much you have taught Focus Bear about your focus preferences. Each time you block or allow a URL, the progress bar increases by 1. Once you reach 50 decisions, Focus Bear will have a good understanding of your focus needs.
+
+# v177 (June 23 - 2023)
+## Bug Fixes / Improvements
+- We have made improvements to make the app more compatible with Dyslexic-friendly fonts. Additionally, we have implemented various general fixes to enhance overall performance.
+
+# v176 (June 22 - 2023)
+## New Features
+- You can now upload logs to our server if you encounter any issues with the app. This feature requires your permission to proceed.
+## Bug Fixes / Improvements
+- We have included support for two new fonts: Intel One and Open Dyslexic.
+
 # v175 (June 20 - 2023)
 ## Bug Fixes / Improvements
 - You can now postpone breaks for more than 5 minutes
