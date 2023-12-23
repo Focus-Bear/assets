@@ -65,7 +65,11 @@
         "activitySkippedNextActivitySoundText": "<ACTIVITY> omitido. Lo siguiente es <NEXTACTIVITY>.",
         "activityFinishedNextActivitySoundText": "<ACTIVITY> finalizado. Lo siguiente es <NEXTACTIVITY>.",
         "activitySkippedUnlockNowSoundText": "<ACTIVITY> omitido. Te has ganado tu tiempo de pantalla.",
-        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finalizado. Te has ganado tu tiempo de pantalla."
+        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finalizado. Te has ganado tu tiempo de pantalla.",
+        "selectHabitText": "Select the habit you want to do first and click \"Begin Habits\"[NEEDTRANSLATION]",
+        "buttonChooseHabitText": "Choose another habit",
+        "titleChooseHabitText": "Choose the next habit to do from the following options:[NEEDTRANSLATION]",
+        "buttonMoreActionsText": "More Actions[NEEDTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -167,7 +171,8 @@
         "toDoListWindowTitle": "Focus Bear - To Do List[NEEDTRANSLATION]",
         "completedText": "Completed[NEEDTRANSLATION]",
         "inProgressText": "In Progress[NEEDTRANSLATION]",
-        "notStartedText": "Not Started[NEEDTRANSLATION]"
+        "notStartedText": "Not Started[NEEDTRANSLATION]",
+        "cutOffTimePassedsubTitle": "Your high priority habits will start after 5 seconds.[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -469,7 +474,9 @@
         "titleFont": "Fuente de la Aplicación:",
         "titlePomodoroShortcut": "Acceso directo para iniciar pomodoro:",
         "recordShorcutText": "Grabar Acceso Directo",
-        "alertShortcutErrorText": "Por favor, usa otra combinación de teclas."
+        "alertShortcutErrorText": "Por favor, usa otra combinación de teclas.",
+        "titleDoNotBlockUrlsInPomodoroBreak": "Do not block \"Super Distracting Sites\" during breaks in super pomodoro[NEEDTRANSLATION]",
+        "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -611,7 +618,10 @@
                     "description": "¿Enfrentaste alguna distracción? Escribe un resumen de las distracciones a las que te has enfrentado.",
                 }
             ],
-            "titleTourBox": "Bloque Completo de Enfoque"
+            "titleTourBox": "Bloque Completo de Enfoque",
+            "alertBlockUrlsDisbaledInBreaksText": "Super distracting sites unlocked during your pomodoro break. If you're brave, you can keep distractions blocked and go for a walk away from your computer instead.[NEEDTRANSLATION]",
+            "buttonBlockUrlsText": "Block distractions![NEEDTRANSLATION]",
+            "buttonCancelText": "Let me get distracted 😅[NEEDTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -930,7 +940,8 @@
         "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!",
         "descriptionText": "Los micro descansos ayudan a mantener los niveles de energía y alerta constantes a lo largo del día y tienen efectos positivos en la postura (no más dolores de cabeza por la pantalla).",
         "descriptionMeetingsText": "Los microdescansos pueden ayudarte a mantenerte concentrado/a en las reuniones.",
-        "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en"
+        "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en",
+        "buttonStartBreakNowText": "Start micro break now[NEEDTRANSLATION]"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1248,7 +1259,8 @@
     "popupAppointmentTimeVcInfo":{
         "title": "Parece que tiene una cita que está a punto de empezar: <EVENT_TITLE>. Pausando tus hábitos para que puedas asistir a la cita.",
         "buttonBackToHabitsText": "Volver a los hábitos - No necesito asistir",
-        "buttonThanksText": "¡Gracias!"
+        "buttonThanksText": "¡Gracias!",
+        "subTitle": "Unlocking your Mac so you can turn off Late No More appointment reminders. You have <TIMELEFT> to turn it off. Enter a password to continue using it until your appointment ends at <TIME>[NEEDTRANSLATION]"
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido"
@@ -1334,8 +1346,12 @@
         "meetingsSettingTitle": "Reuniones",
         "privacySettingTitle": "Privacidad",
         "breaksSettingTitle": "Micro Descansos",
+        "addOnsTitle": "Add Ons[NEEDSTRANSLATION]",
         "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker[NEEDSTRANSLATION]",
-        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.[NEEDSTRANSLATION]"
+        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.[NEEDSTRANSLATION]",
+        "titleGetLateNoMore": "Get Late No More[NEEDSTRANSLATION]",
+        "lateNoMoreAlreadyInstalledText": "Late No More already installed[NEEDSTRANSLATION]",
+        "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).[NEEDSTRANSLATION]"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1358,6 +1374,16 @@
         "buttonEnableText": "Enable Focus Bear Time Tracker[NEEDTRANSLATION]",
         "buttonCancelText": "No thanks[NEEDTRANSLATION]",
         "alertInfoText": "You can always enable Focus Bear Time Tracker from Focus Bear prefrences later.[NEEDTRANSLATION]"
+    },
+    "lateNoMorePopUpVcInfo": {
+        "title": "Introducing Late No More.[NEEDTRANSLATION]",
+        "description": "Download Late No More, our ADHD friendly calendar notification app. Being late sucks. Most calendar apps don't give notifications that stand out to ADHD brains. Late No More gives notifications that escalate in intensity as it gets closer to the start time. If you ignore the popups, you'll get verbal alerts (or a song).",
+        "pointFirstText": "Privacy first: data is stored locally on your Mac[NEEDTRANSLATION]",
+        "pointSecondText": "Notifications starting 2 minutes before the appointment[NEEDTRANSLATION]",
+        "pointThirdText": "Progressively more obnoxious alerts the closer it gets to the meeting start time[NEEDTRANSLATION]",
+        "pointFourthText": "Verbal alerts (or play Spotify song) once you're late[NEEDTRANSLATION]",
+        "buttonEnableText": "Get Late No More[NEEDTRANSLATION]",
+        "buttonCancelText": "No thanks[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
