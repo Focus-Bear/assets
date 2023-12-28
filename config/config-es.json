@@ -65,10 +65,14 @@
         "activitySkippedNextActivitySoundText": "<ACTIVITY> omitido. Lo siguiente es <NEXTACTIVITY>.",
         "activityFinishedNextActivitySoundText": "<ACTIVITY> finalizado. Lo siguiente es <NEXTACTIVITY>.",
         "activitySkippedUnlockNowSoundText": "<ACTIVITY> omitido. Te has ganado tu tiempo de pantalla.",
-        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finalizado. Te has ganado tu tiempo de pantalla."
+        "activityFinishedUnlockNowSoundText": "<ACTIVITY> finalizado. Te has ganado tu tiempo de pantalla.",
+        "selectHabitText": "Select the habit you want to do first and click \"Begin Habits\"[NEEDTRANSLATION]",
+        "buttonChooseHabitText": "Choose another habit",
+        "titleChooseHabitText": "Choose the next habit to do from the following options:[NEEDTRANSLATION]",
+        "buttonMoreActionsText": "More Actions[NEEDTRANSLATION]"
     },
     "common": {
-        "emailId": "team@focusbear.io",
+        "emailId": "support@focusbear.io",
         "unlockMachineButtonText": "Desbloquear la computadora",
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK! - Mantente concentrado/a durante todo el día!",
@@ -163,7 +167,12 @@
         "uploadingText": "Cargando...",
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
-        "tabBlockedAppsText": "Aplicaciones Bloqueadas"
+        "tabBlockedAppsText": "Aplicaciones Bloqueadas",
+        "toDoListWindowTitle": "Focus Bear - To Do List[NEEDTRANSLATION]",
+        "completedText": "Completed[NEEDTRANSLATION]",
+        "inProgressText": "In Progress[NEEDTRANSLATION]",
+        "notStartedText": "Not Started[NEEDTRANSLATION]",
+        "cutOffTimePassedsubTitle": "Your high priority habits will start after 5 seconds.[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -359,7 +368,7 @@
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
-        "menuItemQuitTitle": "Desactivar",
+        "menuItemQuitTitle": "Pause Blocking[NEEDSTRANSLATION]",
         "untilTimeText": "termina a las <TIME>",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
@@ -386,7 +395,8 @@
         "menuItemMeetingDetectionBreaksOnTitle": "Reunión activa - descansos activos",
         "menuItemPauseFocusModeTitle": "Pausar este Modo de Enfoque",
         "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
-        "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque"
+        "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
+        "menuItemToDoListTitle": "To Do List[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -443,7 +453,7 @@
         "checkBoxShowMeetingDetectionPopupText": "Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
         "alertChangeLanguageInfoText": "Focus Bear se reiniciará para que los cambios surtan efecto.",
         "warningGrizzlyBearText":"Advertencia: El modo Oso Pardo no es recomendable hasta que hayas perfeccionado por completo tus modos de enfoque. Recomendamos empezar con el modo Oso de Peluche y cambiar al modo Oso Pardo pasadas unas semanas.",
-        "helpText":"Focus Bear sigue siendo una aplicación nueva y es posible que encuentres errores (o tengas grandes ideas sobre cómo mejorarla). Agradeceríamos mucho tu opinión. Puedes escribirnos a team@focusbear.io. Las capturas de pantalla son realmente útiles para que podamos entender el problema. Además, si has tenido algún problema, exporta tus registros (utiliza el enlace que aparece a continuación) y adjúntalos al correo electrónico.",
+        "helpText":"Focus Bear sigue siendo una aplicación nueva y es posible que encuentres errores (o tengas grandes ideas sobre cómo mejorarla). Agradeceríamos mucho tu opinión. Puedes escribirnos a support@focusbear.io. Las capturas de pantalla son realmente útiles para que podamos entender el problema. Además, si has tenido algún problema, exporta tus registros (utiliza el enlace que aparece a continuación) y adjúntalos al correo electrónico.",
         "titleShowBreaksInPostpone": "Mostrar micro descansos:",
         "checkBoxShowBreaksInPostponeText": "Mostrar descansos al posponer la rutina",
         "tabReportProblemText": "Reportar un Problema",
@@ -464,7 +474,9 @@
         "titleFont": "Fuente de la Aplicación:",
         "titlePomodoroShortcut": "Acceso directo para iniciar pomodoro:",
         "recordShorcutText": "Grabar Acceso Directo",
-        "alertShortcutErrorText": "Por favor, usa otra combinación de teclas."
+        "alertShortcutErrorText": "Por favor, usa otra combinación de teclas.",
+        "titleDoNotBlockUrlsInPomodoroBreak": "Do not block \"Super Distracting Sites\" during breaks in super pomodoro[NEEDTRANSLATION]",
+        "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -564,7 +576,10 @@
             "buttonSettingsText": "Configuración",
             "buttonSaveIntentionText": "Guardar intención como plantilla",
             "buttonWriteIntentionText": "Escribe una intención libre",
-            "buttonChooseTaskText": "Elegir tarea en la que trabajar"
+            "buttonChooseTaskText": "Elegir tarea en la que trabajar",
+            "selectedTasksText": "Selected Tasks:[NEEDTRANSLATION]",
+            "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)[NEEDTRANSLATION]",
+            "pomodoroRunningCantStartFocusText": "You can not start a focus mode while Super Pomodoro session is running.[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -603,7 +618,10 @@
                     "description": "¿Enfrentaste alguna distracción? Escribe un resumen de las distracciones a las que te has enfrentado.",
                 }
             ],
-            "titleTourBox": "Bloque Completo de Enfoque"
+            "titleTourBox": "Bloque Completo de Enfoque",
+            "alertBlockUrlsDisbaledInBreaksText": "Super distracting sites unlocked during your pomodoro break. If you're brave, you can keep distractions blocked and go for a walk away from your computer instead.[NEEDTRANSLATION]",
+            "buttonBlockUrlsText": "Block distractions![NEEDTRANSLATION]",
+            "buttonCancelText": "Let me get distracted 😅[NEEDTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -793,7 +811,9 @@
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
         "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres",
-        "titleTimeSpentText": "Tiempo utilizado:"
+        "titleTimeSpentText": "Tiempo utilizado:",
+        "notesSaveInfoText": "Your notes will automatically save[NEEDSTRANSLATION]",
+        "buttonCloseText": "Close[NEEDSTRANSLATION]"
     },
     "askLogInVcInfo": {
         "title": "Guarda tus hábitos en tu cuenta.",
@@ -909,7 +929,7 @@
         "titleSignInSuccessful": "Inicio de sesión exitosa",
         "signinSuccessText": "Genial, ya has iniciado sesión. Te daré algunos consejos antes de que empieces a usar la app.",
         "privacyText": "Privacidad y Seguridad",
-        "privacyDescription": "Nos tomamos muy en serio tu privacidad y seguridad. No registramos qué sitios web o aplicaciones utilizas. Sincronizamos los datos de tus hábitos con nuestro servidor, pero solo para poder bloquear las distracciones entre dispositivos. Tus datos están encriptados y no permitimos que nadie más los vea. Para más información, envía un correo electrónico a team@focusbear.io o consulta nuestra política de privacidad:",
+        "privacyDescription": "Nos tomamos muy en serio tu privacidad y seguridad. No registramos qué sitios web o aplicaciones utilizas. Sincronizamos los datos de tus hábitos con nuestro servidor, pero solo para poder bloquear las distracciones entre dispositivos. Tus datos están encriptados y no permitimos que nadie más los vea. Para más información, envía un correo electrónico a support@focusbear.io o consulta nuestra política de privacidad:",
         "buttonPrivacyText": "Haz clic aquí para ver la Política de Privacidad"
     },
     "breakWarningVcInfo": {
@@ -920,7 +940,8 @@
         "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!",
         "descriptionText": "Los micro descansos ayudan a mantener los niveles de energía y alerta constantes a lo largo del día y tienen efectos positivos en la postura (no más dolores de cabeza por la pantalla).",
         "descriptionMeetingsText": "Los microdescansos pueden ayudarte a mantenerte concentrado/a en las reuniones.",
-        "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en"
+        "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en",
+        "buttonStartBreakNowText": "Start micro break now[NEEDTRANSLATION]"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -936,7 +957,12 @@
         "chooseOptionsText": "Elige una de las siguientes opciones:",
         "infoBuildHabitsText": "Focus Bear puede ayudarte con tus rutinas matutinas y nocturnas. La aplicación te guiará a través de hábitos como atención plena, journaling, ejercicio, planear tu día o cualquier otra cosa que te interese.",
         "infoStayFocusedText": "Focus Bear puede ayudarte a bloquear sitios web y aplicaciones que te distraigan mientras trabajas para ayudarte a lograr hacer más cosas.",
-        "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos."
+        "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos.",
+        "checkBoxMeditateConsistentlyText": "Meditate consistently[NEEDTRANSLATION]",
+        "checkBoxSleepBetterText": "Sleep better[NEEDTRANSLATION]",
+        "checkBoxExerciseMoreText": "Exercise more[NEEDTRANSLATION]",
+        "checkBoxImproveBalanceText": "Improve work life balance[NEEDTRANSLATION]",
+        "additionalGoalsText": "Additional goals:[NEEDTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -976,7 +1002,7 @@
     },
     "popUpOfflineVcInfo": {
         "titleOffline": "Parece que estás desconectado de Internet. Por favor conéctate para continuar con tus hábitos.",
-        "titleStillOffline": "Lo siento, no podemos conectar a nuestro servidor. Por favor verifica tu conexión a internet e intenta de nuevo. Si estás en línea y recibes este error, por favor contáctate con team@focusbear.io",
+        "titleStillOffline": "Lo siento, no podemos conectar a nuestro servidor. Por favor verifica tu conexión a internet e intenta de nuevo. Si estás en línea y recibes este error, por favor contáctate con support@focusbear.io",
         "buttonOnlineText": "Estoy en línea",
         "buttonDefinitelyOnlineText": "Definitivamente estoy en línea"
     },
@@ -1046,7 +1072,8 @@
         "optionSecondText": "Google",
         "optionThirdText": "Anuncio en Reddit o Twitter",
         "optionFourthText": "En otro lugar",
-        "optionRemarkableText": "Remarkable"
+        "optionRemarkableText": "Remarkable",
+        "optionPodcastsText": "Podcasts[NEEDTRANSLATION]"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Actualizar ahora",
@@ -1137,7 +1164,7 @@
         "title": "Privacidad y Seguridad",
         "subTitle": "Nos tomamos muy en serio tu privacidad y seguridad y nunca compartiremos tus datos.",
         "descriptionText": "🙈 No registramos qué sitios web o aplicaciones usas.\n\n🔄 Sí sincronizamos tus datos de hábitos con nuestro servidor, pero sólo para permitir el bloqueo de distracciones entre dispositivos.\n\n🔒 Tus datos está encriptados y no permitimos que nadie más los vea.",
-        "moreDetailText": "Para más información, consulta nuestra política de privacidad o envía un correo electrónico a team@focusbear.io.",
+        "moreDetailText": "Para más información, consulta nuestra política de privacidad o envía un correo electrónico a support@focusbear.io.",
         "buttonViewPrivacyText": "Haz clic aquí para ver la Política de Privacidad",
         "buttonContinueText": "Continuar"
     },
@@ -1151,7 +1178,7 @@
         "tryBrowsersBlockTextWIN": "¿Utilizaste Google Chrome, Firefox, Brave Browser o Microsoft Edge?\nSólo podemos bloquear si usas esos navegadores.",
         "buttonStillNotBlockedText": "Aún no funciona",
         "buttonNowBlockedText": "Acabo de probar esos navegadores y ¡funcionó!",
-        "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (team@focusbear.io) e intentaremos solucionarlo?",
+        "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (support@focusbear.io) e intentaremos solucionarlo?",
         "descriptionTryIntentionText": "Intenta abrir <BLOCKED_URL>. Focus Bear te ayudará a utilizar el sitio de forma más intencional.",
         "buttonItBlockedNewText": "Me hizo más intencional",
         "buttonDidNotBlockedNewText": "No me detuvo para nada"
@@ -1232,7 +1259,8 @@
     "popupAppointmentTimeVcInfo":{
         "title": "Parece que tiene una cita que está a punto de empezar: <EVENT_TITLE>. Pausando tus hábitos para que puedas asistir a la cita.",
         "buttonBackToHabitsText": "Volver a los hábitos - No necesito asistir",
-        "buttonThanksText": "¡Gracias!"
+        "buttonThanksText": "¡Gracias!",
+        "subTitle": "Unlocking your Mac so you can turn off Late No More appointment reminders. You have <TIMELEFT> to turn it off. Enter a password to continue using it until your appointment ends at <TIME>[NEEDTRANSLATION]"
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido"
@@ -1317,7 +1345,13 @@
         "tabLimiterSettingTitle": "Límite de pestañas del navegador",
         "meetingsSettingTitle": "Reuniones",
         "privacySettingTitle": "Privacidad",
-        "breaksSettingTitle": "Micro Descansos"
+        "breaksSettingTitle": "Micro Descansos",
+        "addOnsTitle": "Add Ons[NEEDSTRANSLATION]",
+        "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker[NEEDSTRANSLATION]",
+        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.[NEEDSTRANSLATION]",
+        "titleGetLateNoMore": "Get Late No More[NEEDSTRANSLATION]",
+        "lateNoMoreAlreadyInstalledText": "Late No More already installed[NEEDSTRANSLATION]",
+        "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).[NEEDSTRANSLATION]"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1327,7 +1361,29 @@
         "pointSecondText": "Tu estado de ánimo y nivel de energía",
         "pointThirdText": "Qué tan productivo te sentiste al final del día",
         "buttonCancelText": "No, gracias",
-        "buttonOkText": "De acuerdo"
+        "buttonOkText": "De acuerdo",
+        "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
+    },
+    "timeTrackerVcInfo": {
+        "title": "Introducing Focus Bear Time Tracker[NEEDTRANSLATION]",
+        "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).[NEEDTRANSLATION]",
+        "pointFirstText": "Privacy first: data is stored locally on your Mac[NEEDTRANSLATION]",
+        "pointSecondText": "Assign time logs to different projects (helpful for timesheets)[NEEDTRANSLATION]",
+        "pointThirdText": "Discover where you're wasting time (you can block it with Focus Bear 😉)[NEEDTRANSLATION]",
+        "pointFourthText": "Track time on meetings and when you're away from your Mac[NEEDTRANSLATION]",
+        "buttonEnableText": "Enable Focus Bear Time Tracker[NEEDTRANSLATION]",
+        "buttonCancelText": "No thanks[NEEDTRANSLATION]",
+        "alertInfoText": "You can always enable Focus Bear Time Tracker from Focus Bear prefrences later.[NEEDTRANSLATION]"
+    },
+    "lateNoMorePopUpVcInfo": {
+        "title": "Introducing Late No More.[NEEDTRANSLATION]",
+        "description": "Download Late No More, our ADHD friendly calendar notification app. Being late sucks. Most calendar apps don't give notifications that stand out to ADHD brains. Late No More gives notifications that escalate in intensity as it gets closer to the start time. If you ignore the popups, you'll get verbal alerts (or a song).",
+        "pointFirstText": "Privacy first: data is stored locally on your Mac[NEEDTRANSLATION]",
+        "pointSecondText": "Notifications starting 2 minutes before the appointment[NEEDTRANSLATION]",
+        "pointThirdText": "Progressively more obnoxious alerts the closer it gets to the meeting start time[NEEDTRANSLATION]",
+        "pointFourthText": "Verbal alerts (or play Spotify song) once you're late[NEEDTRANSLATION]",
+        "buttonEnableText": "Get Late No More[NEEDTRANSLATION]",
+        "buttonCancelText": "No thanks[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
