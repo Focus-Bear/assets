@@ -1,3 +1,108 @@
+# v229 (Dec 23 - 2023)
+## New Features
+- Includes a Time Tracker companion app
+- Password enabled check added for showing evening routine if app is deactivated
+
+## Bug Fixes / Improvements
+- Refined onboarding experience
+- Additional event logs
+- Ability to export logs from Time Tracker app
+- Improvements to the preference settings
+- Improvements to UI behaviors
+- Various code fixes
+
+# v217 (Nov 3 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue for activities not recognizing allowed URL keywords
+
+# v216 (Oct 21 - 2023)
+## Bug Fixes / Improvements
+- Rename Deactivate to Pause Blocking
+- Fixed the issue with the focus block end screen disappearing if too much text is entered into the "What did you achieve?" text area.
+
+## New Features
+- Completed spanish translation of webviews
+- Added access the To-Do list from the Tools menu
+- Added ability to start a Focus mode from the Brain Dump window
+- Total focus time is shown in the focus mode end screen
+- Used a new combo box component for the What's Next screen
+
+# v215 (Oct 7 - 2023)
+## Bug Fixes / Improvements
+- At the end of focus mode screen, a popup will show the selected Todo Tasks during the start focus mode screen and ask you to mark which ones you were able to finish, then put it in the "What did you achieve?" text area
+- Show selected tasks in the Brain Dump during a focus mode
+- Added a note about autosaving for the close button in the Brain dump window
+- Fixed an issue with the Postpone break button not working
+
+# v214 (Sep 20 - 2023)
+## Bug Fixes / Improvements
+- Task list is also shown in the End of Focus Mode window.
+- Fix for showing the wrong window for task selection
+- Fix for password restriction for postponing the evening routine after cut-off time.
+
+# v213 (Sep 14 - 2023)
+## Bug Fixes / Improvements
+- Show the To-Do Task list in the Focus Mode and Pomodoro start windows
+
+# v211 (Sep 11 - 2023)
+## Bug Fixes / Improvements
+- Fixed bug in calculation of habit completion time
+- Improvements to the To-Do List feature
+
+## New Features
+- Added an impact measurement feature to record sleep, energy, and mood.
+- Added a CSat/NPS survey rating
+
+# v210 (Sep 7- 2023)
+## Bug Fixes / Improvements
+- Added a close button in the Select Tasks window when starting a focus mode
+- Logs added for identifying sound files
+
+# v209 (Sep 6 - 2023)
+## Bug Fixes / Improvements
+- Improvements to LateNoMore integration to run activities that are not included in the habits and to start focus modes
+- Fix for YouTube videos not loading during activities
+
+## New Features
+- Show a post-install guide after completing installation and onboarding
+
+# v208 (Sep 2 - 2023)
+## Bug Fixes / Improvements
+- Improvements to the syncing of activities between desktop and mobile app to allow the mobile app to complete activities in any order  
+- Improvements to call detection
+- Fix for directing keyboard focus on the text area when taking notes during an activity
+- Added support to not show completed activities that were done randomly on mobile app for the morning and evening routines.
+
+# v207 (Aug 25 - 2023)
+## Bug Fixes / Improvements
+- Show a count-up timer instead of countdown during the meeting focus mode.
+- Fixed allowing of Progressive Web Apps (PWA) during habit activities.
+- Omitted event logging for test accounts
+- Added the feedback message in the API header when uploading logs to the server
+- Break activity videos are paused when they occur during a call
+
+# v206 (Aug 21 - 2023)
+## Bug Fixes / Improvements
+- Added icons to the new Settings UI
+- Applied 5 second limit to the safe URL API before showing a popup
+- Fixed issue of blurring of blocked apps/sites not covering entire area
+- Show the login window after deleting an account
+
+# v205 (Aug 19 - 2023)
+## Bug Fixes / Improvements
+- Updates to the Settings UI layout
+- Handling of HTTP400 state for API calls when offline
+
+# v203 (Aug 14 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue for focus mode ending countdown timer not closing when changing to a different focus mode.
+- Handling of HTTP500 state for API calls. 
+- Updates to the Settings UI layout
+
+## New Features
+- Added a To Do List feature when starting a focus mode.
+- Accessibility fonts applied to all webviews
+
 # v202 (Aug 9 - 2023)
 ## Bug Fixes / Improvements
 - Added support to list apps from Utilities folder, System apps
