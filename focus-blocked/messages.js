@@ -8,7 +8,9 @@ const getBlockedMessage = (block_type) =>
     : '';
 
 /* Show the relevant instructions based on the operating system */
-const instructions = window.navigator.userAgent.includes('Mac')
+const instructions = ['Macintosh,', 'iPhone', 'iPad'].some((userAgent) =>
+  navigator.userAgent.includes(userAgent)
+)
   ? {
       info: 'Preferences > Settings > Strictness > Super Distracting Sites',
       image: 'https://images.focusbear.io/focusbear_blocksites.jpg',

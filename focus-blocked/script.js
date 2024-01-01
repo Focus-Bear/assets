@@ -30,7 +30,8 @@ if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
 
   if (['always-block', 'always-blocked'].includes(block_type)) {
-    document.createElement('img').src = instructions.image;
+    const imgElement = document.createElement('img');
+    imgElement.src = instructions.image;
     document.getElementById(
       'progressWrapper'
     ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to: <br>${instructions.info}</h6></div>`;
