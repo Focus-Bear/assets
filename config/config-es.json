@@ -66,10 +66,10 @@
         "activityFinishedNextActivitySoundText": "<ACTIVITY> finalizado. Lo siguiente es <NEXTACTIVITY>.",
         "activitySkippedUnlockNowSoundText": "<ACTIVITY> omitido. Te has ganado tu tiempo de pantalla.",
         "activityFinishedUnlockNowSoundText": "<ACTIVITY> finalizado. Te has ganado tu tiempo de pantalla.",
-        "selectHabitText": "Select the habit you want to do first and click \"Begin Habits\"[NEEDTRANSLATION]",
-        "buttonChooseHabitText": "Choose another habit",
-        "titleChooseHabitText": "Choose the next habit to do from the following options:[NEEDTRANSLATION]",
-        "buttonMoreActionsText": "More Actions[NEEDTRANSLATION]"
+        "selectHabitText": "Selecciona el hábito que quieres hacer primero y pulsa \"Begin Habits\" ",
+        "buttonChooseHabitText": "Elegir otro hábito",
+        "titleChooseHabitText": "Elige el siguiente hábito a realizar entre las siguientes opciones:",
+        "buttonMoreActionsText": "Más acciones"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -168,11 +168,11 @@
         "reminderUninstallText": "Recordatorio rápido: tienes que arrastrar Focus Bear de la carpeta Aplicaciones a la Papelera para desinstalar completamente la aplicación.",
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
         "tabBlockedAppsText": "Aplicaciones Bloqueadas",
-        "toDoListWindowTitle": "Focus Bear - To Do List[NEEDTRANSLATION]",
-        "completedText": "Completed[NEEDTRANSLATION]",
-        "inProgressText": "In Progress[NEEDTRANSLATION]",
-        "notStartedText": "Not Started[NEEDTRANSLATION]",
-        "cutOffTimePassedsubTitle": "Your high priority habits will start after 5 seconds.[NEEDTRANSLATION]"
+        "toDoListWindowTitle": "Focus Bear - Lista de Tareas",
+        "completedText": "Completedo",
+        "inProgressText": "En Progreso",
+        "notStartedText": "Sin Iniciar",
+        "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -368,7 +368,7 @@
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
-        "menuItemQuitTitle": "Pause Blocking[NEEDSTRANSLATION]",
+        "menuItemQuitTitle": "Pausar Bloqueo",
         "untilTimeText": "termina a las <TIME>",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
@@ -396,12 +396,8 @@
         "menuItemPauseFocusModeTitle": "Pausar este Modo de Enfoque",
         "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
         "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
-<<<<<<< Updated upstream
-        "menuItemToDoListTitle": "To Do List[NEEDSTRANSLATION]"
-=======
         "menuItemToDoListTitle": "Lista de Tareas",
         "nextBreakText": "Next break in: <DURATION>[NEEDSTRANSLATION]"
->>>>>>> Stashed changes
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -480,14 +476,11 @@
         "titlePomodoroShortcut": "Acceso directo para iniciar pomodoro:",
         "recordShorcutText": "Grabar Acceso Directo",
         "alertShortcutErrorText": "Por favor, usa otra combinación de teclas.",
-<<<<<<< Updated upstream
-        "titleDoNotBlockUrlsInPomodoroBreak": "Do not block \"Super Distracting Sites\" during breaks in super pomodoro[NEEDTRANSLATION]",
-        "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings[NEEDTRANSLATION]"
-=======
         "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
         "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones",
         "allowOutOfOrderHabitsText": "Allow doing habits out of order[NEEDTRANSLATION]"
->>>>>>> Stashed changes
+        "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
+        "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -591,9 +584,9 @@
             "buttonSaveIntentionText": "Guardar intención como plantilla",
             "buttonWriteIntentionText": "Escribe una intención libre",
             "buttonChooseTaskText": "Elegir tarea en la que trabajar",
-            "selectedTasksText": "Selected Tasks:[NEEDTRANSLATION]",
-            "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)[NEEDTRANSLATION]",
-            "pomodoroRunningCantStartFocusText": "You can not start a focus mode while Super Pomodoro session is running.[NEEDTRANSLATION]"
+            "selectedTasksText": "Tareas Seleccionadas:",
+            "focusedText": "Tiempo Total de Enfoque: <DURATION> (<COUNT> sesiones de enfoque)",
+            "pomodoroRunningCantStartFocusText": "No puedes iniciar un modo de enfoque mientras se está ejecutando la sesión Super Pomodoro."
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -633,9 +626,9 @@
                 }
             ],
             "titleTourBox": "Bloque Completo de Enfoque",
-            "alertBlockUrlsDisbaledInBreaksText": "Super distracting sites unlocked during your pomodoro break. If you're brave, you can keep distractions blocked and go for a walk away from your computer instead.[NEEDTRANSLATION]",
-            "buttonBlockUrlsText": "Block distractions![NEEDTRANSLATION]",
-            "buttonCancelText": "Let me get distracted 😅[NEEDTRANSLATION]"
+            "alertBlockUrlsDisbaledInBreaksText": "Sitios súper distractores desbloqueados durante tu pausa pomodoro. Si eres atrevido, puedes bloquear las distracciones y salir a dar un paseo lejos del computador.",
+            "buttonBlockUrlsText": "Bloquear distracciones",
+            "buttonCancelText": "Déjame distraerme 😅"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -826,8 +819,8 @@
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
         "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres",
         "titleTimeSpentText": "Tiempo utilizado:",
-        "notesSaveInfoText": "Your notes will automatically save[NEEDSTRANSLATION]",
-        "buttonCloseText": "Close[NEEDSTRANSLATION]"
+        "notesSaveInfoText": "Tus notas se guardarán automáticamente",
+        "buttonCloseText": "Cerrar"
     },
     "askLogInVcInfo": {
         "title": "Guarda tus hábitos en tu cuenta.",
@@ -955,7 +948,7 @@
         "descriptionText": "Los micro descansos ayudan a mantener los niveles de energía y alerta constantes a lo largo del día y tienen efectos positivos en la postura (no más dolores de cabeza por la pantalla).",
         "descriptionMeetingsText": "Los microdescansos pueden ayudarte a mantenerte concentrado/a en las reuniones.",
         "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en",
-        "buttonStartBreakNowText": "Start micro break now[NEEDTRANSLATION]"
+        "buttonStartBreakNowText": "Iniciar microdescanso ahora"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -972,11 +965,11 @@
         "infoBuildHabitsText": "Focus Bear puede ayudarte con tus rutinas matutinas y nocturnas. La aplicación te guiará a través de hábitos como atención plena, journaling, ejercicio, planear tu día o cualquier otra cosa que te interese.",
         "infoStayFocusedText": "Focus Bear puede ayudarte a bloquear sitios web y aplicaciones que te distraigan mientras trabajas para ayudarte a lograr hacer más cosas.",
         "habitPackInfoText": "Un paquete de hábitos es un conjunto de hábitos para hacer por la mañana, por la tarde/noche y durante los descansos.",
-        "checkBoxMeditateConsistentlyText": "Meditate consistently[NEEDTRANSLATION]",
-        "checkBoxSleepBetterText": "Sleep better[NEEDTRANSLATION]",
-        "checkBoxExerciseMoreText": "Exercise more[NEEDTRANSLATION]",
-        "checkBoxImproveBalanceText": "Improve work life balance[NEEDTRANSLATION]",
-        "additionalGoalsText": "Additional goals:[NEEDTRANSLATION]"
+        "checkBoxMeditateConsistentlyText": "Meditar con constancia",
+        "checkBoxSleepBetterText": "Dormir mejor",
+        "checkBoxExerciseMoreText": "Hacer más ejercicio",
+        "checkBoxImproveBalanceText": "Mejorar el balance entre vida privada y trabajo",
+        "additionalGoalsText": "Metas adicionales:"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -1087,7 +1080,7 @@
         "optionThirdText": "Anuncio en Reddit o Twitter",
         "optionFourthText": "En otro lugar",
         "optionRemarkableText": "Remarkable",
-        "optionPodcastsText": "Podcasts[NEEDTRANSLATION]"
+        "optionPodcastsText": "Podcasts"
     },
     "trialExpiredNagInfo": {
         "buttonUpgradeNowText": "Actualizar ahora",
@@ -1276,7 +1269,7 @@
         "title": "Parece que tiene una cita que está a punto de empezar: <EVENT_TITLE>. Pausando tus hábitos para que puedas asistir a la cita.",
         "buttonBackToHabitsText": "Volver a los hábitos - No necesito asistir",
         "buttonThanksText": "¡Gracias!",
-        "subTitle": "Unlocking your Mac so you can turn off Late No More appointment reminders. You have <TIMELEFT> to turn it off. Enter a password to continue using it until your appointment ends at <TIME>[NEEDTRANSLATION]"
+        "subTitle": "Desbloquea tu Mac para poder desactivar los recordatorios de Late No More. Tienes <TIMELEFT> para apagarlo. Introduce una contraseña para seguir utilizándolo hasta que finalice tu cita en <TIME>"
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido"
@@ -1363,14 +1356,6 @@
         "meetingsSettingTitle": "Reuniones",
         "privacySettingTitle": "Privacidad",
         "breaksSettingTitle": "Micro Descansos",
-<<<<<<< Updated upstream
-        "addOnsTitle": "Add Ons[NEEDSTRANSLATION]",
-        "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker[NEEDSTRANSLATION]",
-        "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.[NEEDSTRANSLATION]",
-        "titleGetLateNoMore": "Get Late No More[NEEDSTRANSLATION]",
-        "lateNoMoreAlreadyInstalledText": "Late No More already installed[NEEDSTRANSLATION]",
-        "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).[NEEDSTRANSLATION]"
-=======
         "addOnsTitle": "Complementos",
         "focusBearTrackerSettingTitle": "Activar Focus Bear Time Tracker",
         "focusBearTrackerDescriptionTitle": "Analiza tu productividad haciendo un seguimiento del tiempo que pasas en diferentes sitios web y aplicaciones. Puede clasificar automáticamente los registros de tiempo en diferentes proyectos (útil para hojas de horario). Los datos se almacenan localmente por razones de privacidad.",
@@ -1379,7 +1364,6 @@
         "descriptionGetLateNoMore": "Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio de las reuniones. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
         "permissionsSettingTitle": "Permissions[NEEDSTRANSLATION]",
         "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers.[NEEDSTRANSLATION]"
->>>>>>> Stashed changes
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1393,15 +1377,25 @@
         "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
     },
     "timeTrackerVcInfo": {
-        "title": "Introducing Focus Bear Time Tracker[NEEDTRANSLATION]",
-        "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).[NEEDTRANSLATION]",
-        "pointFirstText": "Privacy first: data is stored locally on your Mac[NEEDTRANSLATION]",
-        "pointSecondText": "Assign time logs to different projects (helpful for timesheets)[NEEDTRANSLATION]",
-        "pointThirdText": "Discover where you're wasting time (you can block it with Focus Bear 😉)[NEEDTRANSLATION]",
-        "pointFourthText": "Track time on meetings and when you're away from your Mac[NEEDTRANSLATION]",
-        "buttonEnableText": "Enable Focus Bear Time Tracker[NEEDTRANSLATION]",
-        "buttonCancelText": "No thanks[NEEDTRANSLATION]",
-        "alertInfoText": "You can always enable Focus Bear Time Tracker from Focus Bear prefrences later.[NEEDTRANSLATION]"
+        "title": "Introduciendo Focus Bear Time Tracker",
+        "description": "Focus Bear Time Tracker te ayuda a analizar tu productividad mediante el seguimiento del tiempo que pasas en diferentes sitios web y aplicaciones. Puedes clasificar automáticamente los registros de tiempo en diferentes proyectos (útil para hojas de horas).",
+        "pointFirstText": "Primero la privacidad: los datos se almacenan localmente en tu Mac",
+        "pointSecondText": "Asigna registros de tiempo a diferentes proyectos (útil para hojas de horas)",
+        "pointThirdText": "Descubre dónde pierdes el tiempo (puedes bloquearlo con Focus Bear 😉)",
+        "pointFourthText": "Controla el tiempo que pasas en reuniones y cuando estás lejos de tu Mac",
+        "buttonEnableText": "Activar Focus Bear Time Tracker",
+        "buttonCancelText": "No, gracias",
+        "alertInfoText": "Puedes habilitar Focus Bear Time Tracker desde las Preferencias de Focus Bear más adelante."
+    },
+    "lateNoMorePopUpVcInfo": {
+        "title": "Introduciendo Late No More.",
+        "description": "Descarga Late No More, nuestra app de notificaciones de calendario amigable para TDAH. Llegar tarde apesta. La mayoría de las aplicaciones de calendario no ofrecen notificaciones que destaquen para los cerebros con TDAH. Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
+        "pointFirstText": "Primero la privacidad: los datos se almacenan localmente en tu Mac",
+        "pointSecondText": "Notificaciones que comienzan 2 minutos antes de la cita",
+        "pointThirdText": "Alertas progresivamente más insoportables cuanto más se acerca la hora de inicio de la reunión.",
+        "pointFourthText": "Alertas verbales (o canción de Spotify) cuando llegues tarde",
+        "buttonEnableText": "Obtener Late No More",
+        "buttonCancelText": "No, gracias"
     },
     "lateNoMorePopUpVcInfo": {
         "title": "Introducing Late No More.[NEEDTRANSLATION]",

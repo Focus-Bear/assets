@@ -1,3 +1,16 @@
+# v229 (Dec 23 - 2023)
+## New Features
+- Includes a Time Tracker companion app
+- Password enabled check added for showing evening routine if app is deactivated
+
+## Bug Fixes / Improvements
+- Refined onboarding experience
+- Additional event logs
+- Ability to export logs from Time Tracker app
+- Improvements to the preference settings
+- Improvements to UI behaviors
+- Various code fixes
+
 # v217 (Nov 3 - 2023)
 ## Bug Fixes / Improvements
 - Fixed issue for activities not recognizing allowed URL keywords
