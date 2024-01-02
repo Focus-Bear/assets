@@ -396,7 +396,12 @@
         "menuItemPauseFocusModeTitle": "Pausar este Modo de Enfoque",
         "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
         "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
+<<<<<<< Updated upstream
         "menuItemToDoListTitle": "To Do List[NEEDSTRANSLATION]"
+=======
+        "menuItemToDoListTitle": "Lista de Tareas",
+        "nextBreakText": "Next break in: <DURATION>[NEEDSTRANSLATION]"
+>>>>>>> Stashed changes
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -475,8 +480,14 @@
         "titlePomodoroShortcut": "Acceso directo para iniciar pomodoro:",
         "recordShorcutText": "Grabar Acceso Directo",
         "alertShortcutErrorText": "Por favor, usa otra combinación de teclas.",
+<<<<<<< Updated upstream
         "titleDoNotBlockUrlsInPomodoroBreak": "Do not block \"Super Distracting Sites\" during breaks in super pomodoro[NEEDTRANSLATION]",
         "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings[NEEDTRANSLATION]"
+=======
+        "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
+        "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones",
+        "allowOutOfOrderHabitsText": "Allow doing habits out of order[NEEDTRANSLATION]"
+>>>>>>> Stashed changes
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -538,7 +549,10 @@
         "buttonDeleteUrlText": "Borrar URL",
         "relaxFocusText": "Relajarse - no bloquear nada",
         "titleTags": "Etiquetas de Informes:",
-        "tagsInfoText": "Agrega etiquetas para poder preparar registros de tiempo para bloques de enfoque específicos. Ejemplos de etiquetas podrían ser: facturable, Jones, cliente, Proyecto 1."
+        "tagsInfoText": "Agrega etiquetas para poder preparar registros de tiempo para bloques de enfoque específicos. Ejemplos de etiquetas podrían ser: facturable, Jones, cliente, Proyecto 1.",
+        "titleAllowUrlList": "Allow List:[NEEDTRANSLATION]",
+        "titleBlockUrlList": "Block List:[NEEDTRANSLATION]",
+        "allWebsitesAllowedText": "Todos los sitios web están permitidos"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -1158,7 +1172,9 @@
         "buttonPermissionGrantedText": "Continuar",
         "buttonRequestPermissionText": "Solicitar Permiso",
         "enabledText": "✅  ¡Activado!",
-        "buttonDidNotWorkText": "No funcionó"
+        "buttonDidNotWorkText": "No funcionó",
+        "accessibilityPermissionText": "(Accessibility permission given)[NEEDTRANSLATION]",
+        "allPermissionText": "(All needed permissions given)[NEEDTRANSLATION]"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacidad y Seguridad",
@@ -1317,7 +1333,8 @@
         "buttonDontShowAgainText": "No preguntar por intenciones - bloquear sitios super distractores inmediatamente",
         "selectMinutesText": "Seleccionar los minutos a usar este sitio",
         "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
-        "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos"
+        "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos",
+        "privacyNoteText": "Privacy note: we only store this data on your local machine not on our servers[NEEDTRANSLATION]"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
@@ -1346,12 +1363,23 @@
         "meetingsSettingTitle": "Reuniones",
         "privacySettingTitle": "Privacidad",
         "breaksSettingTitle": "Micro Descansos",
+<<<<<<< Updated upstream
         "addOnsTitle": "Add Ons[NEEDSTRANSLATION]",
         "focusBearTrackerSettingTitle": "Enable Focus Bear Time Tracker[NEEDSTRANSLATION]",
         "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.[NEEDSTRANSLATION]",
         "titleGetLateNoMore": "Get Late No More[NEEDSTRANSLATION]",
         "lateNoMoreAlreadyInstalledText": "Late No More already installed[NEEDSTRANSLATION]",
         "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).[NEEDSTRANSLATION]"
+=======
+        "addOnsTitle": "Complementos",
+        "focusBearTrackerSettingTitle": "Activar Focus Bear Time Tracker",
+        "focusBearTrackerDescriptionTitle": "Analiza tu productividad haciendo un seguimiento del tiempo que pasas en diferentes sitios web y aplicaciones. Puede clasificar automáticamente los registros de tiempo en diferentes proyectos (útil para hojas de horario). Los datos se almacenan localmente por razones de privacidad.",
+        "titleGetLateNoMore": "Obtener Late No More",
+        "lateNoMoreAlreadyInstalledText": "Late No More ya está instalado",
+        "descriptionGetLateNoMore": "Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio de las reuniones. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
+        "permissionsSettingTitle": "Permissions[NEEDSTRANSLATION]",
+        "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers.[NEEDSTRANSLATION]"
+>>>>>>> Stashed changes
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1384,6 +1412,27 @@
         "pointFourthText": "Verbal alerts (or play Spotify song) once you're late[NEEDTRANSLATION]",
         "buttonEnableText": "Get Late No More[NEEDTRANSLATION]",
         "buttonCancelText": "No thanks[NEEDTRANSLATION]"
+    },
+    "firefoxPermissionsVcInfo": {
+        "title": "Grant required permissions to Focus Bear to allow blocking in Firefox[NEEDTRANSLATION]",
+        "description": "In order to allow blocking within Firefox, you need to grant specific permissions to Focus Bear.[NEEDTRANSLATION]",
+        "pointFirstText": "Open System Preferences > Security & Privacy > Privacy > Accessibility or use the button below.[NEEDTRANSLATION]",
+        "pointSecondText": "Select the lock icon in the bottom left corner and enter your password to unlock.[NEEDTRANSLATION]",
+        "pointThirdText": "Drag and drop the icon below into the allowed apps list under Accessibility.[NEEDTRANSLATION]",
+        "pointFourthText": "If Focus Bear is already in the list and checked, please remove Focus Bear by clicking the - button at the bottom and add it again.[NEEDTRANSLATION]",
+        "pointFifthText": "Edit setting - \"accessibility.force_disabled\" in Firefox to be able to block distractions.[NEEDTRANSLATION]",
+        "buttonActivateFirefoxText": "Open/Activate Firefox[NEEDTRANSLATION]",
+        "buttonClickHereText": "Click here to watch a video to learn how to edit the setting.[NEEDTRANSLATION]",
+        "buttonPreferencesText": "Open System Preferences[NEEDTRANSLATION]",
+        "buttonContinueText": "Continue[NEEDTRANSLATION]",
+        "pointFirstNewText": "Open System Preferences > Privacy & Security > Accessibility or use the button below.[NEEDTRANSLATION]",
+        "step1Text": "Step 1: Grant Accessibility permission to focus bear[NEEDTRANSLATION]",
+        "step2Text": "Step 2: Edit specific setting in Firefox[NEEDTRANSLATION]"
+    },
+    "longTermGoalsVcInfo": {
+        "title": "Are you sure?[NEEDTRANSLATION]",
+        "description": "Just a reminder that this is what you are trying to achieve with Focus Bear[NEEDTRANSLATION]",
+        "buttonContinueText": "Sure[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
