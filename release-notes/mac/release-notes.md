@@ -8,18 +8,103 @@
 - Show a warning when navigating away from the Settings tab in Preferences
 - Call rule for Google meet calls in time tracker
 
-# v229 (Dec 23 - 2023)
-## New Features
-- Includes a Time Tracker companion app
-- Password enabled check added for showing evening routine if app is deactivated
-
+# v233 (Jan 2 - 2024)
 ## Bug Fixes / Improvements
+- Simplify settings UI
+- Show user's long term goals when they tap please spare me/postpone/exit full screen
+- Pre-load the select tasks popup to speed it up
+- Fixed morning routine not showing after reactivating when deactivating app for 4 hours
+
+# v232 (Dec 30 - 2023)
+## Bug Fixes / Improvements
+- Firefox Permission screens updated to be in two parts
+- Fixed video not loading issue
+- Added setting to allow doing habits out of order
+- Show time until next break in menu bar
+- Change dock app icon to the bear with bow tie version if office mode is activated
+
+# v231 (Dec 29 - 2023)
+## Bug Fixes / Improvements
+- Enable Firefox permissions for existing users
+- Improved handling of browser permissions
+- Added permissions screen in Settings
+
+# v229 (Dec 23 - 2023)
+## Bug Fixes / Improvements
+- Password enabled check added for showing evening routine if app is deactivated
 - Refined onboarding experience
 - Additional event logs
-- Ability to export logs from Time Tracker app
+- Time Tracker: Ability to export logs from the app
 - Improvements to the preference settings
 - Improvements to UI behaviors
 - Various code fixes
+
+# v228 (Dec 21 - 2023)
+## Bug Fixes / Improvements
+- Let user start break immediately instead of waiting 30 seconds
+- Show total time spent on super distracting websites in set intention screen
+- Automatically start habits at cutoff time instead of waiting for user input
+- Prompt to install Late No More implemented, setting adjusted.
+
+# v227 (Dec 16 - 2023)
+## Bug Fixes / Improvements
+- List item text color fixed
+- After Password entered - keep unlocked for 2 minutes
+- TimeTracker: Fix for UI not staying in the same place when performing certain actions
+
+# v226 (Dec 15 - 2023)
+## Bug Fixes / Improvements
+- Allow choosing a different habit to do during routines
+- Update work for time tracker
+
+# v225 (Dec 13 - 2023)
+## Bug Fixes / Improvements
+- Should require a password to unlock Focus Bear when Late No More appointment starts
+- Fix for Pomodoro window showing every 10 minutes, implemented controls in the automatic Super Pomodoro setting
+- Pause blocking of URLs during breaks
+- Time Tracker: Allow creating a new project while logging a call/idle time
+- Alert added regarding URL blocking during breaks
+- Push back standard break if there has been a pomodoro break
+
+# v224 (Dec 7 - 2023)
+## Bug Fixes / Improvements
+- Settings change pusher notification integrated. App will restart automatically if the settings are changed on another device.
+- Changes to onboarding in "How did your hear about Focus Bear" section
+
+# v223 (Dec 6 - 2023)
+## Bug Fixes / Improvements
+- Integrated pusher notifications for Completed-Activity / Skipped Activity in morning / evening routine.
+- Handling of cases for Activity ongoing / postponed / etc.
+
+# v222 (Dec 5 - 2023)
+## Bug Fixes / Improvements
+- Integrated Pusher notifications for Focus Mode start and end events. So if the user is logged in on 2 devices with the same account (one being mac), if the user starts a focus mode in another device like mobile or windows app, mac app will get a notification of Focus mode start/end and will showup accordingly.
+
+# v221 (Dec 1 - 2023)
+## Bug Fixes / Improvements
+- Removed blur from break postpone (second time when 15 sec counter is on)
+## Screen Time Updates
+- Allow creating a new project while logging a call/idle time
+- Remove new project heading 
+- Allow user to split time from idle time / popup 
+- Fixed showing remainder time 
+- Added option to remove a time entry from Chronological view.
+
+# v220 (Nov 27 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue to pass duration to the Task window on Focus Mode End Screen.
+- minor text change for Mac app Focus Mode start screen
+- Screen Time: Show title first and then the URL for all the URLs
+
+# v219 (Nov 23 - 2023)
+## New Feature
+- Focus Bear Time Tracker..new users will see an intro offer to enable Focus Bear Time Tracker on 3rd day of installation after finishing Morning Routine. Existing users will see this offer right after updating to new build and finishing the Morning Routine.
+- Users can also enable Focus Bear Time Tracker from the Advanced section of Focus Bear Preferences.
+
+# v218 (Nov 14 - 2023)
+## Bug Fixes / Improvements
+- Pass habit data to Time Tracker, Screen Time/Time Tracker should always be allowed
+- What's next screen - press enter twice to continue, focus session achievements shouldn't appear as url encoded on end of day screen
 
 # v217 (Nov 3 - 2023)
 ## Bug Fixes / Improvements
