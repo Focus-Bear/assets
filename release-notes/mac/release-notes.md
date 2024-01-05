@@ -10,24 +10,27 @@
 
 # v233 (Jan 2 - 2024)
 ## Bug Fixes / Improvements
-- Simplify settings UI
-- Show user's long term goals when they tap please spare me/postpone/exit full screen
-- Pre-load the select tasks popup to speed it up
-- Fixed morning routine not showing after reactivating when deactivating app for 4 hours
+- Simplified settings UI
+- Shown user's long term goals when they tap please spare me/postpone/exit full screen
+- Optimized  select tasks popup to speed it up
+- Minor bug fixes
 
 # v232 (Dec 30 - 2023)
 ## Bug Fixes / Improvements
-- Firefox Permission screens updated to be in two parts
-- Fixed video not loading issue
-- Added setting to allow doing habits out of order
-- Show time until next break in menu bar
-- Change dock app icon to the bear with bow tie version if office mode is activated
+- Firefox Permission screens updated to show Video Guide
+- Added Setting to allow doing habits out of order
+- Added feature to show time until next break in menu bar
+- Changed dock icon to bow tie version if office mode activated
 
 # v231 (Dec 29 - 2023)
 ## Bug Fixes / Improvements
-- Enable Firefox permissions for existing users
-- Improved handling of browser permissions
-- Added permissions screen in Settings
+- Added support to block distractions on Firefox.
+- Onboarding screen adjustments
+
+# v230 (Dec 29 - 2023)
+## Bug Fixes / Improvements
+- Displayed total time spent on super distracting websites in set intention screen
+- Removed 5 sec timer from Focus End Screen
 
 # v229 (Dec 23 - 2023)
 ## Bug Fixes / Improvements
