@@ -1,3 +1,13 @@
+# v235 (Jan 5 - 2024)
+## Bug Fixes / Improvements
+- Fix app crashing when skipping habits
+
+# v234 (Jan 4 - 2024)
+## Bug Fixes / Improvements
+- Removed Zapier and call Events end point on Quit/Abort/Uninstall events
+- Show a warning when navigating away from the Settings tab in Preferences
+- Call rule for Google meet calls in time tracker
+
 # v229 (Dec 23 - 2023)
 ## New Features
 - Includes a Time Tracker companion app
