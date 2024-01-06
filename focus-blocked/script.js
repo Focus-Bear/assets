@@ -1,21 +1,3 @@
-class LocalStorageService {
-  constructor() {
-    this.localStorage = window.localStorage;
-  }
-
-  setItem(key, value) {
-    this.localStorage.setItem(key, value);
-  }
-
-  getItem(key) {
-    return this.localStorage.getItem(key) ?? false;
-  }
-
-  clearItems(keys) {
-    keys.forEach((key) => this.localStorage.clear(key));
-  }
-}
-
 const LOCAL_STORAGE = {
   IS_PAGE_LOADED: 'is_page_loaded',
   IS_PAGE_RELOADED: 'is_page_reloaded',
@@ -33,52 +15,26 @@ const old_url = current_url.substring(
     : current_url.indexOf('?')
 );
 const focus_mode = urlParams.get('focus_mode');
-const focusEndTime = urlParams.get('focus_mode_end_time');
 const block_type = urlParams.get('block_type');
 const cuddlyBearMode = urlParams.get('cuddly_bear_mode');
 const blocked_reason = urlParams.get('reason');
-let blocked_message;
-if (block_type)
-  blocked_message = block_type.includes('always-block')
-    ? 'This site is always blocked'
-    : block_type.includes('morning')
-    ? "Blocked because you're doing your morning routine"
-    : block_type.includes('evening')
-    ? "Blocked because you're doing your evening routine"
-    : '';
-const storage = new LocalStorageService();
-const focus_tip_old_url = `<div class='notice-wrapper'>
-                    ${
-                      block_type
-                        ? ''
-                        : `<a href=${current_url}>Click here to re-open the original URL ${
-                            old_url ?? ''
-                          }</a>`
-                    }
-                    </div>`;
-const focus_tip = `<div class='notice-wrapper'>
-                    ${
-                      block_type
-                        ? ''
-                        : `<a href=${current_url}>Click here to re-open the original URL ${
-                            old_url ?? ''
-                          }</a>`
-                    }
-                    <h6>Want to reprogram your brain so you stay on task during focus blocks?
-                      <a href="https://journals.sagepub.com/doi/abs/10.1177/1539449219876877?journalCode=otjb&">Research into breaking bad habits</a> indicates that if you take a positive action immediately after doing a bad habit, you'll start to disrupt the neural triggers for the bad habit. For example, you just opened ${old_url} when you were intending to focus${
-  focus_mode ? ` on ${focus_mode}` : ``
-}. Try doing some deep breathing for 5 seconds, get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty). If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.</h6>
-                    </div>`;
+
+const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
+
+const { focus_tip, focus_tip_old_url } = getFocusTip();
+const blocked_message = getBlockedMessage(block_type);
+const isPageLoaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
+const isPageReloaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED));
 
 if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
-  if (block_type === 'always-block' || block_type === 'always-blocked') {
+
+  if (['always-block', 'always-blocked'].includes(block_type)) {
+    const imgElement = document.createElement('img');
+    imgElement.src = instructions.image;
     document.getElementById(
       'progressWrapper'
-    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to Preferences > Always Blocked URLs</h6></div>`;
-    let imgElement = document.createElement('img');
-    imgElement.src =
-      'https://focus-bear.github.io/assets/focus-blocked/block_urls.png';
+    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to: <br>${instructions.info}</h6></div>`;
     document.getElementById('progressWrapper').appendChild(imgElement);
   } else {
     document.getElementById(
@@ -96,25 +52,20 @@ if (block_type) {
     };
   }
 } else {
-  const isPageLoaded = Boolean(storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
-  const isPageReloaded = Boolean(
-    storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
-  );
-  if (!isPageLoaded) {
-    storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true);
-  } else {
-    storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
-  }
+  !isPageLoaded
+    ? Storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
+    : Storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
+
   document.getElementById('focusTitle').innerText =
     "Let's keep the focus on " + focus_mode;
-  const endTime = moment(focusEndTime);
+
   let refreshIntervalId = setInterval(
     () => {
-      if (endTime.diff(moment(), 'seconds') > 0) {
+      if (focus_mode_end_time.diff(moment(), 'seconds') > 0) {
         document.getElementById(
           'progressWrapper'
         ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
-          .duration(endTime.diff(moment()))
+          .duration(focus_mode_end_time.diff(moment()))
           .humanize(
             true
           )}</p> <a href='${current_url}'>Original URL ${old_url}</a>`;
@@ -124,7 +75,7 @@ if (block_type) {
           'Focus block is over!';
         document.getElementById('progressWrapper').innerHTML =
           focus_tip_old_url;
-        storage.clearItems([
+        Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
           LOCAL_STORAGE.IS_PAGE_RELOADED,
         ]);
@@ -134,7 +85,7 @@ if (block_type) {
       }
     },
     1000,
-    endTime
+    focus_mode_end_time
   );
 }
 
