@@ -397,7 +397,7 @@
         "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
         "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
         "menuItemToDoListTitle": "Lista de Tareas",
-        "nextBreakText": "Next break in: <DURATION>[NEEDSTRANSLATION]"
+        "nextBreakText": "Siguiente descanso en: <DURATION>"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -478,7 +478,7 @@
         "alertShortcutErrorText": "Por favor, usa otra combinación de teclas.",
         "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
         "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones",
-        "allowOutOfOrderHabitsText": "Allow doing habits out of order[NEEDTRANSLATION]"
+        "allowOutOfOrderHabitsText": "Permitir hacer hábitos sin orden"
         "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
         "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones"
     },
@@ -543,8 +543,8 @@
         "relaxFocusText": "Relajarse - no bloquear nada",
         "titleTags": "Etiquetas de Informes:",
         "tagsInfoText": "Agrega etiquetas para poder preparar registros de tiempo para bloques de enfoque específicos. Ejemplos de etiquetas podrían ser: facturable, Jones, cliente, Proyecto 1.",
-        "titleAllowUrlList": "Allow List:[NEEDTRANSLATION]",
-        "titleBlockUrlList": "Block List:[NEEDTRANSLATION]",
+        "titleAllowUrlList": "Lista de Permitidos:",
+        "titleBlockUrlList": "Lista de Bloqueados:",
         "allWebsitesAllowedText": "Todos los sitios web están permitidos"
     },
     "focusPreferencesAdvancedInfo": {
@@ -1166,8 +1166,8 @@
         "buttonRequestPermissionText": "Solicitar Permiso",
         "enabledText": "✅  ¡Activado!",
         "buttonDidNotWorkText": "No funcionó",
-        "accessibilityPermissionText": "(Accessibility permission given)[NEEDTRANSLATION]",
-        "allPermissionText": "(All needed permissions given)[NEEDTRANSLATION]"
+        "accessibilityPermissionText": "(Permiso de accesibilidad concedido)",
+        "allPermissionText": "(Todos los permisos necesarios concedidos)"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacidad y Seguridad",
@@ -1327,7 +1327,7 @@
         "selectMinutesText": "Seleccionar los minutos a usar este sitio",
         "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
         "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos",
-        "privacyNoteText": "Privacy note: we only store this data on your local machine not on our servers[NEEDTRANSLATION]"
+        "privacyNoteText": "Nota de Privacidad: sólo almacenamos estos datos en tu equipo local, no en nuestros servidores"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
@@ -1362,8 +1362,8 @@
         "titleGetLateNoMore": "Obtener Late No More",
         "lateNoMoreAlreadyInstalledText": "Late No More ya está instalado",
         "descriptionGetLateNoMore": "Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio de las reuniones. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
-        "permissionsSettingTitle": "Permissions[NEEDSTRANSLATION]",
-        "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers.[NEEDSTRANSLATION]"
+        "permissionsSettingTitle": "Permisos",
+        "descriptionPermissions": "El acceso a todo el sistema es esencial para que Focus Bear evite eficazmente las distracciones en navegadores web. A continuación se describe el estado actual de los permisos de los navegadores instalados."
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1390,43 +1390,43 @@
     "lateNoMorePopUpVcInfo": {
         "title": "Introduciendo Late No More.",
         "description": "Descarga Late No More, nuestra app de notificaciones de calendario amigable para TDAH. Llegar tarde apesta. La mayoría de las aplicaciones de calendario no ofrecen notificaciones que destaquen para los cerebros con TDAH. Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
-        "pointFirstText": "Primero la privacidad: los datos se almacenan localmente en tu Mac",
+        "pointFirstText": "Primero la Privacidad: los datos se almacenan localmente en tu Mac",
         "pointSecondText": "Notificaciones que comienzan 2 minutos antes de la cita",
-        "pointThirdText": "Alertas progresivamente más insoportables cuanto más se acerca la hora de inicio de la reunión.",
+        "pointThirdText": "Alertas progresivamente más insoportables cuanto más se acerca la hora de inicio de la reunión",
         "pointFourthText": "Alertas verbales (o canción de Spotify) cuando llegues tarde",
         "buttonEnableText": "Obtener Late No More",
         "buttonCancelText": "No, gracias"
     },
     "lateNoMorePopUpVcInfo": {
-        "title": "Introducing Late No More.[NEEDTRANSLATION]",
-        "description": "Download Late No More, our ADHD friendly calendar notification app. Being late sucks. Most calendar apps don't give notifications that stand out to ADHD brains. Late No More gives notifications that escalate in intensity as it gets closer to the start time. If you ignore the popups, you'll get verbal alerts (or a song).",
-        "pointFirstText": "Privacy first: data is stored locally on your Mac[NEEDTRANSLATION]",
-        "pointSecondText": "Notifications starting 2 minutes before the appointment[NEEDTRANSLATION]",
-        "pointThirdText": "Progressively more obnoxious alerts the closer it gets to the meeting start time[NEEDTRANSLATION]",
-        "pointFourthText": "Verbal alerts (or play Spotify song) once you're late[NEEDTRANSLATION]",
-        "buttonEnableText": "Get Late No More[NEEDTRANSLATION]",
-        "buttonCancelText": "No thanks[NEEDTRANSLATION]"
+        "title": "Presentamos Late No More.",
+        "description": "Descarga Late No More, nuestra app de notificaciones de calendario amigable para TDAH. Llegar tarde apesta. La mayoría de las aplicaciones de calendario no ofrecen notificaciones que destaquen para los cerebros con TDAH. Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
+        "pointFirstText": "Primero la Privacidad: los datos se almacenan localmente en tu Mac",
+        "pointSecondText": "Notificaciones que comienzan 2 minutos antes de la cita",
+        "pointThirdText": "Alertas progresivamente más insoportables cuanto más se acerca la hora de inicio de la reunión",
+        "pointFourthText": "Alertas verbales (o canción de Spotify) cuando llegues tarde",
+        "buttonEnableText": "Obtener Late No More",
+        "buttonCancelText": "No, gracias"
     },
     "firefoxPermissionsVcInfo": {
-        "title": "Grant required permissions to Focus Bear to allow blocking in Firefox[NEEDTRANSLATION]",
-        "description": "In order to allow blocking within Firefox, you need to grant specific permissions to Focus Bear.[NEEDTRANSLATION]",
-        "pointFirstText": "Open System Preferences > Security & Privacy > Privacy > Accessibility or use the button below.[NEEDTRANSLATION]",
-        "pointSecondText": "Select the lock icon in the bottom left corner and enter your password to unlock.[NEEDTRANSLATION]",
-        "pointThirdText": "Drag and drop the icon below into the allowed apps list under Accessibility.[NEEDTRANSLATION]",
-        "pointFourthText": "If Focus Bear is already in the list and checked, please remove Focus Bear by clicking the - button at the bottom and add it again.[NEEDTRANSLATION]",
-        "pointFifthText": "Edit setting - \"accessibility.force_disabled\" in Firefox to be able to block distractions.[NEEDTRANSLATION]",
-        "buttonActivateFirefoxText": "Open/Activate Firefox[NEEDTRANSLATION]",
-        "buttonClickHereText": "Click here to watch a video to learn how to edit the setting.[NEEDTRANSLATION]",
-        "buttonPreferencesText": "Open System Preferences[NEEDTRANSLATION]",
-        "buttonContinueText": "Continue[NEEDTRANSLATION]",
-        "pointFirstNewText": "Open System Preferences > Privacy & Security > Accessibility or use the button below.[NEEDTRANSLATION]",
-        "step1Text": "Step 1: Grant Accessibility permission to focus bear[NEEDTRANSLATION]",
-        "step2Text": "Step 2: Edit specific setting in Firefox[NEEDTRANSLATION]"
+        "title": "Concede los permisos necesarios a Focus Bear para permitir el bloqueo en Firefox",
+        "description": "Para permitir el bloqueo en Firefox, es necesario conceder permisos específicos a Focus Bear.",
+        "pointFirstText": "Abre Preferencias del Sistema > Seguridad y Privacidad > Privacidad > Accesibilidad o utiliza el botón de abajo.",
+        "pointSecondText": "Selecciona el icono del candado en la esquina inferior izquierda e introduce tu contraseña para desbloquearlo.",
+        "pointThirdText": "Arrastra y suelta el icono de abajo en la lista de aplicaciones permitidas en Accesibilidad.",
+        "pointFourthText": "Si Focus Bear ya está en la lista y está marcado, elimínalo haciendo clic en el botón - de la parte inferior y vuelve a añadirlo.",
+        "pointFifthText": "Edita la configuración - \"accessibility.force_disabled\" en Firefox para poder bloquear las distracciones.",
+        "buttonActivateFirefoxText": "Abrir/Activar Firefox",
+        "buttonClickHereText": "Haz clic aquí para ver un vídeo y aprender a editar la configuración.",
+        "buttonPreferencesText": "Abrir Preferencias del Sistema",
+        "buttonContinueText": "Continuar",
+        "pointFirstNewText": "Abre Preferencias del Sistema > Privacidad y Seguridad > Accesibilidad o utiliza el botón de abajo.",
+        "step1Text": "Paso 1: Conceder permiso a Accesibilidad a Focus Bear",
+        "step2Text": "Paso 2: Editar la configuración específica en Firefox"
     },
     "longTermGoalsVcInfo": {
-        "title": "Are you sure?[NEEDTRANSLATION]",
-        "description": "Just a reminder that this is what you are trying to achieve with Focus Bear[NEEDTRANSLATION]",
-        "buttonContinueText": "Sure[NEEDTRANSLATION]"
+        "title": "¿Estás seguro?",
+        "description": "Sólo un recordatorio de que esto es lo que estás tratando de lograr con Focus Bear",
+        "buttonContinueText": "Seguro"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
