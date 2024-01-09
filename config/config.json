@@ -396,7 +396,8 @@
         "menuItemPauseFocusModeTitle": "Pause this focus mode",
         "menuItemStopFocusModeTitle": "Stop this focus mode",
         "menuItemResumeFocusModeTitle": "Resume this focus mode",
-        "menuItemToDoListTitle": "To Do List"
+        "menuItemToDoListTitle": "To Do List",
+        "nextBreakText": "Next break in: <DURATION>"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -476,7 +477,8 @@
         "recordShorcutText": "Record Shortcut",
         "alertShortcutErrorText": "Please use a different key combination.",
         "titleDoNotBlockUrlsInPomodoroBreak": "Do not block \"Super Distracting Sites\" during breaks in super pomodoro",
-        "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings"
+        "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings",
+        "allowOutOfOrderHabitsText": "Allow doing habits out of order"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -538,7 +540,10 @@
         "buttonDeleteUrlText": "Delete URL",
         "relaxFocusText": "Relax - block nothing",
         "titleTags": "Reporting Tags:",
-        "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1."
+        "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1.",
+        "titleAllowUrlList": "Allow List:",
+        "titleBlockUrlList": "Block List:",
+        "allWebsitesAllowedText": "All websites are allowed"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Run apple script before starting focus mode.",
@@ -1157,7 +1162,9 @@
         "buttonPermissionGrantedText": "Continue",
         "buttonRequestPermissionText": "Request Permission",
         "enabledText": "✅  Enabled!",
-        "buttonDidNotWorkText": "It didn't work"
+        "buttonDidNotWorkText": "It didn't work",
+        "accessibilityPermissionText": "(Accessibility permission given)",
+        "allPermissionText": "(All needed permissions given)"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacy and Security",
@@ -1316,7 +1323,8 @@
         "buttonDontShowAgainText": "Don't ask for intentions - block super distracting sites immediately",
         "selectMinutesText": "Select minutes to use this site?",
         "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately",
-        "confirmUseAgainText": "Are you sure? You already spent <MINUTES> minutes"
+        "confirmUseAgainText": "Are you sure? You already spent <MINUTES> minutes",
+        "privacyNoteText": "Privacy note: we only store this data on your local machine not on our servers"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
@@ -1350,7 +1358,9 @@
         "focusBearTrackerDescriptionTitle": "Analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets). Data is stored locally for privacy reasons.",
         "titleGetLateNoMore": "Get Late No More",
         "lateNoMoreAlreadyInstalledText": "Late No More already installed",
-        "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song)."
+        "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).",
+        "permissionsSettingTitle": "Permissions",
+        "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers."
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -1383,6 +1393,27 @@
         "pointFourthText": "Verbal alerts (or play Spotify song) once you're late",
         "buttonEnableText": "Get Late No More",
         "buttonCancelText": "No thanks"
+    },
+    "firefoxPermissionsVcInfo": {
+        "title": "Grant required permissions to Focus Bear to allow blocking in Firefox",
+        "description": "In order to allow blocking within Firefox, you need to grant specific permissions to Focus Bear.",
+        "pointFirstText": "Open System Preferences > Security & Privacy > Privacy > Accessibility or use the button below.",
+        "pointSecondText": "Select the lock icon in the bottom left corner and enter your password to unlock.",
+        "pointThirdText": "Drag and drop the icon below into the allowed apps list under Accessibility.",
+        "pointFourthText": "If Focus Bear is already in the list and checked, please remove Focus Bear by clicking the - button at the bottom and add it again.",
+        "pointFifthText": "Edit setting - \"accessibility.force_disabled\" in Firefox to be able to block distractions.",
+        "buttonActivateFirefoxText": "Open/Activate Firefox",
+        "buttonClickHereText": "Click here to watch a video to learn how to edit the setting.",
+        "buttonPreferencesText": "Open System Preferences",
+        "buttonContinueText": "Continue",
+        "pointFirstNewText": "Open System Preferences > Privacy & Security > Accessibility or use the button below.",
+        "step1Text": "Step 1: Grant Accessibility permission to focus bear",
+        "step2Text": "Step 2: Edit specific setting in Firefox"
+    },
+    "longTermGoalsVcInfo": {
+        "title": "Are you sure?",
+        "description": "Just a reminder that this is what you are trying to achieve with Focus Bear",
+        "buttonContinueText": "Sure"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
