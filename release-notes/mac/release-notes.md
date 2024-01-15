@@ -1,3 +1,8 @@
+# v237 (Jan 11 - 2024)
+## Bug Fixes / Improvements
+- Show strictness slider after onboarding
+- Focus mode end popup window unset as top most modal
+
 # v236 (Jan 8 - 2024)
 ## Bug Fixes / Improvements
 - Added support to show Friction level in Focus Modes
