@@ -28,7 +28,7 @@
         "buttonEditHabitsText": "Personalizar mis hábitos primero"
     },
     "activityInfo": {
-        "startMorningHabitTitleText": "¡Buenos días! Aquí están los hábitos para empezar un día increíble.",
+        "startMorningHabitTitleText": "¡Buenos días! Aquí están los hábitos para empezar un día increíble."
         "startEveningHabitTitleText": "¡Buenas noches! Hagamos tu rutina de relajación.",
         "startActivityButtonText": "Empieza <TIME> <NAME>",
         "activityFinishedText": "<ACTIVITY> ¡Completado!✅",
