@@ -623,19 +623,19 @@
             "tourMessagesInfo": [
                 {
                     "title": "Intention",
-                    "description": "Reminder of what you planned to do in this focus block.",
+                    "description": "Reminder of what you planned to do in this focus block."
                 },
                 {
                     "title": "Achivements",
-                    "description": "Write a summary of what you achieved - this goes in the Focus Summary section in your stats. You can export it as a CSV - handy if you need to share timesheets or just want to analyse your own productivity.",
+                    "description": "Write a summary of what you achieved - this goes in the Focus Summary section in your stats. You can export it as a CSV - handy if you need to share timesheets or just want to analyse your own productivity."
                 },
                 {
                     "title": "Reporting Tags",
-                    "description": "Add reporting tags to help analyse your time logs. For example, you could add a \"billable\" tag if you're a freelancer or add tags for certain clients.",
+                    "description": "Add reporting tags to help analyse your time logs. For example, you could add a \"billable\" tag if you're a freelancer or add tags for certain clients."
                 },
                 {
                     "title": "Distractions",
-                    "description": "Did you face any distractions? Write a summary here to help see patterns (this doesn't get shared with anyone else).",
+                    "description": "Did you face any distractions? Write a summary here to help see patterns (this doesn't get shared with anyone else)."
                 }
             ],
             "titleTourBox": "Focus Complete Block",
@@ -1328,7 +1328,7 @@
         "tourMessagesInfo": [
             {
                 "title": "Focus Bear",
-                "description": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!",
+                "description": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!"
             },
             {
                 "title": "Preferences",
@@ -1341,7 +1341,7 @@
             },
             {
                 "title": "Setup Focus mode",
-                "description": "Setup focus modes to get into deep work with distraction blocking. You can remove blocks if you have an emergency.",
+                "description": "Setup focus modes to get into deep work with distraction blocking. You can remove blocks if you have an emergency."
             }
         ],
         "titleAlertSetupComplete":"Setup complete!",
@@ -1490,6 +1490,6 @@
         "iMightUseIt": "I might use it",
         "downloadingUpdate": "Downloading Update",
         "downloadProgress": "Downloading Update: {0} of {1}",
-        "allWebsitesAllowed": "All websites are allowed",
+        "allWebsitesAllowed": "All websites are allowed"
     }
 }
