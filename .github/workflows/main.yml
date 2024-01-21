@@ -20,9 +20,27 @@ jobs:
 
       - name: Check JSON keys
         run: |
+          # Check if config.json is valid JSON
+          if ! jq empty ${{ github.workspace }}/config/config.json > /dev/null 2>&1; then
+            echo "Invalid JSON in config.json"
+            exit 1
+          fi
+          
+          # Extract keys from config.json
           keys1=$(jq -r '.. | objects | keys_unsorted[]' ${{ github.workspace }}/config/config.json | sort | uniq)
+          
+          # Check if config-es.json is valid JSON
+          if ! jq empty ${{ github.workspace }}/config/config-es.json > /dev/null 2>&1; then
+            echo "Invalid JSON in config-es.json"
+            exit 1
+          fi
+          
+          # Extract keys from config-es.json
           keys2=$(jq -r '.. | objects | keys_unsorted[]' ${{ github.workspace }}/config/config-es.json | sort | uniq)
+          
+          # Compare keys
           if [[ "$keys1" != "$keys2" ]]; then
             echo "Mismatch in config file keys. Check contents of config.json & config-es.json files in /config directory"
             exit 1
           fi
+
