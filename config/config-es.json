@@ -327,7 +327,9 @@
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
         "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzado haz clic en \"Avanzado\"para ver o editar la configuración JSON",
-        "settingIsValidText": "¡Guardado! Reiniciando la aplicación ahora."
+        "settingIsValidText": "¡Guardado! Reiniciando la aplicación ahora.",
+        "settingsEditedButNotSavedText": "You've made changes to your habits/breaks but haven't saved them yet. It is recommended to review and save the changes (the app will restart)?[NEEDTRANSLATION]",
+        "buttonReviewSettingsText": "I'll review and Save[NEEDTRANSLATION]"
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -397,7 +399,8 @@
         "menuItemStopFocusModeTitle": "Detener este Modo de Enfoque",
         "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
         "menuItemToDoListTitle": "Lista de Tareas",
-        "nextBreakText": "Siguiente descanso en: <DURATION>"
+        "nextBreakText": "Siguiente descanso en: <DURATION>",
+        "menuItemStartHabitsFirstTimeTitle": "Start first routine[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -545,7 +548,8 @@
         "tagsInfoText": "Agrega etiquetas para poder preparar registros de tiempo para bloques de enfoque específicos. Ejemplos de etiquetas podrían ser: facturable, Jones, cliente, Proyecto 1.",
         "titleAllowUrlList": "Lista de Permitidos:",
         "titleBlockUrlList": "Lista de Bloqueados:",
-        "allWebsitesAllowedText": "Todos los sitios web están permitidos"
+        "allWebsitesAllowedText": "Todos los sitios web están permitidos",
+        "infoAlwaysBlockedUrlsText": "Super distracting sites are automatically blocked[NEEDTRANSLATION]"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -562,7 +566,11 @@
         "autoOnDoNotDisturbText": "Enciende NO MOLESTAR automáticamente cada vez que des inicio a modo de enfoque.",
         "needDndPermissionText": "Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?",
         "runShellCommandBeforeText": "Ejecutar script de shell antes de iniciar el modo de enfoque.",
-        "runShellCommandAfterText": "Ejecutar script de shell después de terminar el modo de enfoque."
+        "runShellCommandAfterText": "Ejecutar script de shell después de terminar el modo de enfoque.",
+        "titleScripts": "Run scripts before/after habits[NEEDTRANSLATION]",
+        "titleBlockedUrlsAndApps": "Blocked URLs and Apps[NEEDTRANSLATION]",
+        "titleBlockedApps": "Blocked Apps[NEEDTRANSLATION]",
+        "instructionBlockedApps": "The Apps here will be blocked during this focus mode. Useful if you want to allow some apps but block others. For example, you could have Safari as an allowed app but block Google Chrome[NEEDTRANSLATION]"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactiva el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -586,7 +594,12 @@
             "buttonChooseTaskText": "Elegir tarea en la que trabajar",
             "selectedTasksText": "Tareas Seleccionadas:",
             "focusedText": "Tiempo Total de Enfoque: <DURATION> (<COUNT> sesiones de enfoque)",
-            "pomodoroRunningCantStartFocusText": "No puedes iniciar un modo de enfoque mientras se está ejecutando la sesión Super Pomodoro."
+            "pomodoroRunningCantStartFocusText": "No puedes iniciar un modo de enfoque mientras se está ejecutando la sesión Super Pomodoro.",
+            "titleFrictionLevel": "Friction level:[NEEDTRANSLATION]",
+            "frictionLevelLowText": "low[NEEDTRANSLATION]",
+            "frictionLevelHighText": "high[NEEDTRANSLATION]",
+            "tooltipFrictionLevelLowText": "You can stop focusing at any time[NEEDTRANSLATION]",
+            "tooltipFrictionLevelHighText": "You need to enter a password to stop focusing[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -679,7 +692,15 @@
         "alertWarningPaswwordSetText": "Para que el modo Pomodoro Estricto sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por ti); de lo contrario, aún podrás cancelar los modos de enfoque antes de que se acabe el tiempo...",
         "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
         "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo",
-        "timerText": "Tiempo gastado desenfocado: <TIME>"
+        "timerText": "Tiempo gastado desenfocado: <TIME>",
+        "whatIsPomodoroText": "What is Pomodoro?[NEEDTRANSLATION]",
+        "buttonAdvancedOptionsText": "Show advanced options[NEEDTRANSLATION]",
+        "pomodoroTooltipText": "Pomodoro mode is a productivity technique where you focus intensely (normally for 25 minutes) and then take a break (normally for 5 minutes).[NEEDTRANSLATION]",
+        "buttonLearnMoreText": "Learn more[NEEDTRANSLATION]",
+        "alertExtendPostponeText": "Focus duration is longer than habit postpone duration.[NEEDTRANSLATION]",
+        "alertExtendPostponeDescription": "You may want to extend the postpone duration to match the focus session duration. Click on the desired button to start the focus session.[NEEDTRANSLATION]",
+        "buttonExtendPostponeText": "Extend postpone duration[NEEDTRANSLATION]",
+        "buttonDoNotExtendPostponeText": "Do not extend postpone duration[NEEDTRANSLATION]"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -699,7 +720,11 @@
         "alertConfirmResetPasswordTitle": "Restablecer la contraseña",
         "alertConfirmResetPasswordSubTitle": "Tu contraseña actual se eliminará después de 24 horas. Luego puedes establecer una nueva contraseña. ¿Continuar?",
         "alertPasswordResetDoneTitle": "Restablecimiento de contraseña en curso",
-        "alertPasswordResetDoneSubTitle": "Establece una nueva contraseña después de 24 horas."
+        "alertPasswordResetDoneSubTitle": "Establece una nueva contraseña después de 24 horas.",
+        "tabViewPasswordTitle": "Enter password[NEEDTRANSLATION]",
+        "tabViewRandomCharactersTitle": "Type random characters[NEEDTRANSLATION]",
+        "titleRandomCharacters": "Please type <NUMBER> random characters to continue[NEEDTRANSLATION]",
+        "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again.[NEEDTRANSLATION]"
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Configurar la contraseña",
@@ -1167,7 +1192,8 @@
         "enabledText": "✅  ¡Activado!",
         "buttonDidNotWorkText": "No funcionó",
         "accessibilityPermissionText": "(Permiso de accesibilidad concedido)",
-        "allPermissionText": "(Todos los permisos necesarios concedidos)"
+        "allPermissionText": "(Todos los permisos necesarios concedidos)",
+        "settingsFirefoxText": "Awaiting settings update in Firefox[NEEDTRANSLATION]"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacidad y Seguridad",
@@ -1283,7 +1309,16 @@
         "superStrictText": "Superestricto (Contraseña para posponer/saltar hábitos + Bloqueo instantáneo de sitios web no permitidos)",
         "underneathText": "(Puedes cambiar esto después)",
         "buttonContinueText": "Continuar",
-        "alertDoubleConfirmText": "¿Estás seguro/a? Recomendamos empezar con un modo menos estricto al principio y aumentar gradualmente el rigor si lo necesitas."
+        "alertDoubleConfirmText": "¿Estás seguro/a? Recomendamos empezar con un modo menos estricto al principio y aumentar gradualmente el rigor si lo necesitas.",
+        "descriptionSuperGentle": "- Activates Cuddly mode for a gentle user experience\n- Habits can be done without going full screen\n- Allows quick and easy habit postponement\n- App does not restart upon force quit[NEEDTRANSLATION]",
+        "descriptionGentle": "- Incorporates Cuddly mode for a user-friendly approach\n- Habits run in full screen, maintaining focus\n- Enables instant habit postponement\n- App does not restart upon force quit[NEEDTRANSLATION]",
+        "descriptionSlightlyStrict": "- Retains Cuddly mode for user comfort\n- Introduces countdown timers for controlled habit postponement within full screen\n- App restarts upon force quit to uphold commitment to established habits[NEEDTRANSLATION]",
+        "descriptionStrict": "- Upholds Cuddly mode for a friendly interface\n- Requires a password for habit postponement, promoting commitment\n- App restarts upon force quit, emphasizing the importance of adherence to habits[NEEDTRANSLATION]",
+        "descriptionSuperStrict": "- Activates Grizzly mode for enhanced security measures\n- Implements a password system for habit postponement/skipping, ensuring accountability\n- App restarts upon force quit, reinforcing unwavering commitment\n- Immediately blocks distracting websites for an undistracted working environment[NEEDTRANSLATION]",
+        "buttonApplyText": "Apply changes[NEEDTRANSLATION]",
+        "alertSetPasswordText": "It is recommended that you set a password for the Strict/Super strict modes.[NEEDTRANSLATION]",
+        "buttonSetPasswordText": "Set password[NEEDTRANSLATION]",
+        "buttonDoNotSetPasswordText": "Do not set password[NEEDTRANSLATION]"
     },
     "menuTourVcInfo": {
         "title": "Menú de Focus Bear",
@@ -1363,7 +1398,13 @@
         "lateNoMoreAlreadyInstalledText": "Late No More ya está instalado",
         "descriptionGetLateNoMore": "Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio de las reuniones. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
         "permissionsSettingTitle": "Permisos",
-        "descriptionPermissions": "El acceso a todo el sistema es esencial para que Focus Bear evite eficazmente las distracciones en navegadores web. A continuación se describe el estado actual de los permisos de los navegadores instalados."
+        "descriptionPermissions": "El acceso a todo el sistema es esencial para que Focus Bear evite eficazmente las distracciones en navegadores web. A continuación se describe el estado actual de los permisos de los navegadores instalados.",
+        "titleStrictnessLevel": "Strictness level:[NEEDSTRANSLATION]",
+        "titleSuperGentle": "Super gentle[NEEDSTRANSLATION]",
+        "titleGentle": "Gentle[NEEDSTRANSLATION]",
+        "titleSlightlyStrict": "Slightly strict[NEEDSTRANSLATION]",
+        "titleStrict": "Strict[NEEDSTRANSLATION]",
+        "titleSuperStrict": "Super strict[NEEDSTRANSLATION]"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1386,16 +1427,6 @@
         "buttonEnableText": "Activar Focus Bear Time Tracker",
         "buttonCancelText": "No, gracias",
         "alertInfoText": "Puedes habilitar Focus Bear Time Tracker desde las Preferencias de Focus Bear más adelante."
-    },
-    "lateNoMorePopUpVcInfo": {
-        "title": "Introduciendo Late No More.",
-        "description": "Descarga Late No More, nuestra app de notificaciones de calendario amigable para TDAH. Llegar tarde apesta. La mayoría de las aplicaciones de calendario no ofrecen notificaciones que destaquen para los cerebros con TDAH. Late No More emite notificaciones que aumentan de intensidad a medida que se acerca la hora de inicio. Si ignoras las ventanas emergentes, recibirás alertas verbales (o una canción).",
-        "pointFirstText": "Primero la Privacidad: los datos se almacenan localmente en tu Mac",
-        "pointSecondText": "Notificaciones que comienzan 2 minutos antes de la cita",
-        "pointThirdText": "Alertas progresivamente más insoportables cuanto más se acerca la hora de inicio de la reunión",
-        "pointFourthText": "Alertas verbales (o canción de Spotify) cuando llegues tarde",
-        "buttonEnableText": "Obtener Late No More",
-        "buttonCancelText": "No, gracias"
     },
     "lateNoMorePopUpVcInfo": {
         "title": "Presentamos Late No More.",
@@ -1426,7 +1457,19 @@
     "longTermGoalsVcInfo": {
         "title": "¿Estás seguro?",
         "description": "Sólo un recordatorio de que esto es lo que estás tratando de lograr con Focus Bear",
-        "buttonContinueText": "Seguro"
+        "buttonContinueText": "Seguro""
+    },
+    "askPostponeIntentionVcInfo": {
+        "title": "What do you intend to do instead of doing your habits?[NEEDTRANSLATION]",
+        "minimumCharacterText": "(Minimum 10 characters)[NEEDTRANSLATION]",
+        "buttonContinueText": "Continue[NEEDTRANSLATION]"
+    },
+    "helpVcInfo": {
+        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)[NEEDTRANSLATION]",
+        "buttonShareLogsText": "Share logs with Focus Bear Support Team[NEEDTRANSLATION]",
+        "placeHolderLogsFeedback": "What happened?[NEEDTRANSLATION]",
+        "logsUploadDoneText": "Logs successfully shared.[NEEDTRANSLATION]",
+        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",

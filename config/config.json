@@ -327,7 +327,9 @@
         "buttonEditSettingsText": "Edit Habits",
         "buttonAdvancedText": "Advanced",
         "description": "Click on \"Edit Settings\" to modify your existing settings.\nIf you are an advanced user click on \"Advanced\" to view or edit settings JSON",
-        "settingIsValidText": "Saved! Restarting the app now."
+        "settingIsValidText": "Saved! Restarting the app now.",
+        "settingsEditedButNotSavedText": "You've made changes to your habits/breaks but haven't saved them yet. It is recommended to review and save the changes (the app will restart)?",
+        "buttonReviewSettingsText": "I'll review and Save"
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -397,7 +399,8 @@
         "menuItemStopFocusModeTitle": "Stop this focus mode",
         "menuItemResumeFocusModeTitle": "Resume this focus mode",
         "menuItemToDoListTitle": "To Do List",
-        "nextBreakText": "Next break in: <DURATION>"
+        "nextBreakText": "Next break in: <DURATION>",
+        "menuItemStartHabitsFirstTimeTitle": "Start first routine"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -478,7 +481,9 @@
         "alertShortcutErrorText": "Please use a different key combination.",
         "titleDoNotBlockUrlsInPomodoroBreak": "Do not block \"Super Distracting Sites\" during breaks in super pomodoro",
         "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings",
-        "allowOutOfOrderHabitsText": "Allow doing habits out of order"
+        "allowOutOfOrderHabitsText": "Allow doing habits out of order",
+        "settingRequireIntentionText": "Require intention when postponing",
+        "descriptionSettingRequireIntention": "If this is set, when you try to postpone, Focus Bear will ask you to type in your plans for what you will do while postponing your habits. You must enter at least 10 characters."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -543,7 +548,8 @@
         "tagsInfoText": "Add tags to be able to prepare time logs for specific focus blocks. Examples of tags would be: billable, jones, client, Project 1.",
         "titleAllowUrlList": "Allow List:",
         "titleBlockUrlList": "Block List:",
-        "allWebsitesAllowedText": "All websites are allowed"
+        "allWebsitesAllowedText": "All websites are allowed",
+        "infoAlwaysBlockedUrlsText": "Super distracting sites are automatically blocked"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Run apple script before starting focus mode.",
@@ -560,7 +566,11 @@
         "autoOnDoNotDisturbText": "Turn on Do Not Disturb automatically when starting a focus mode.",
         "needDndPermissionText": "To turn on Do Not Disturb when starting a Focus Mode, Focus Bear needs Accessibility permissions. Would you like to give the permissions now?",
         "runShellCommandBeforeText": "Run shell script before starting focus mode.",
-        "runShellCommandAfterText": "Run shell script after finishing focus mode."
+        "runShellCommandAfterText": "Run shell script after finishing focus mode.",
+        "titleScripts": "Run scripts before/after habits",
+        "titleBlockedUrlsAndApps": "Blocked URLs and Apps",
+        "titleBlockedApps": "Blocked Apps",
+        "instructionBlockedApps": "The Apps here will be blocked during this focus mode. Useful if you want to allow some apps but block others. For example, you could have Safari as an allowed app but block Google Chrome"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "A focus mode is already running. Please deactivate the running focus mode to start a new one.",
@@ -584,7 +594,12 @@
             "buttonChooseTaskText": "Choose task to work on",
             "selectedTasksText": "Selected Tasks:",
             "focusedText": "Total focused time: <DURATION> (<COUNT> focus sessions)",
-            "pomodoroRunningCantStartFocusText": "You cannot start a focus mode while Super Pomodoro session is running."
+            "pomodoroRunningCantStartFocusText": "You cannot start a focus mode while Super Pomodoro session is running.",
+            "titleFrictionLevel": "Friction level:",
+            "frictionLevelLowText": "low",
+            "frictionLevelHighText": "high",
+            "tooltipFrictionLevelLowText": "You can stop focusing at any time",
+            "tooltipFrictionLevelHighText": "You need to enter a password to stop focusing"
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
@@ -677,7 +692,15 @@
         "alertWarningPaswwordSetText": "To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go.",
         "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks",
-        "timerText": "Time spent unfocused: <TIME>"
+        "timerText": "Time spent unfocused: <TIME>",
+        "whatIsPomodoroText": "What is Pomodoro?",
+        "buttonAdvancedOptionsText": "Show advanced options",
+        "pomodoroTooltipText": "Pomodoro mode is a productivity technique where you focus intensely (normally for 25 minutes) and then take a break (normally for 5 minutes).",
+        "buttonLearnMoreText": "Learn more",
+        "alertExtendPostponeText": "Focus duration is longer than habit postpone duration.",
+        "alertExtendPostponeDescription": "You may want to extend the postpone duration to match the focus session duration. Click on the desired button to start the focus session.",
+        "buttonExtendPostponeText": "Extend postpone duration",
+        "buttonDoNotExtendPostponeText": "Do not extend postpone duration"
     },
     "logQuantityInfo": {
         "title": "Log Quantity of activity",
@@ -697,7 +720,11 @@
         "alertConfirmResetPasswordTitle": "Reset Password",
         "alertConfirmResetPasswordSubTitle": "Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle": "Password reset in progress",
-        "alertPasswordResetDoneSubTitle": "Please set a new password after 24 hours."
+        "alertPasswordResetDoneSubTitle": "Please set a new password after 24 hours.",
+        "tabViewPasswordTitle": "Enter password",
+        "tabViewRandomCharactersTitle": "Type random characters",
+        "titleRandomCharacters": "Please type <NUMBER> random characters to continue",
+        "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again."
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Set Password",
@@ -1164,7 +1191,8 @@
         "enabledText": "✅  Enabled!",
         "buttonDidNotWorkText": "It didn't work",
         "accessibilityPermissionText": "(Accessibility permission given)",
-        "allPermissionText": "(All needed permissions given)"
+        "allPermissionText": "(All needed permissions given)",
+        "settingsFirefoxText": "Awaiting settings update in Firefox"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacy and Security",
@@ -1280,7 +1308,16 @@
         "superStrictText": "Super strict (Password to postpone/skip habits + Instantly block non-allowed websites)",
         "underneathText": "(You can change this later)",
         "buttonContinueText": "Continue",
-        "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it."
+        "alertDoubleConfirmText": "Are you sure? We recommend starting with a less strict mode initially and gradually amp up the strictness if you need it.",
+        "descriptionSuperGentle": "- Activates Cuddly mode for a gentle user experience\n- Habits can be done without going full screen\n- Allows quick and easy habit postponement\n- App does not restart upon force quit",
+        "descriptionGentle": "- Incorporates Cuddly mode for a user-friendly approach\n- Habits run in full screen, maintaining focus\n- Enables instant habit postponement\n- App does not restart upon force quit",
+        "descriptionSlightlyStrict": "- Retains Cuddly mode for user comfort\n- Introduces countdown timers for controlled habit postponement within full screen\n- App restarts upon force quit to uphold commitment to established habits",
+        "descriptionStrict": "- Upholds Cuddly mode for a friendly interface\n- Requires a password for habit postponement, promoting commitment\n- App restarts upon force quit, emphasizing the importance of adherence to habits",
+        "descriptionSuperStrict": "- Activates Grizzly mode for enhanced security measures\n- Implements a password system for habit postponement/skipping, ensuring accountability\n- App restarts upon force quit, reinforcing unwavering commitment\n- Immediately blocks distracting websites for an undistracted working environment",
+        "buttonApplyText": "Apply changes",
+        "alertSetPasswordText": "It is recommended that you set a password for the Strict/Super strict modes.",
+        "buttonSetPasswordText": "Set password",
+        "buttonDoNotSetPasswordText": "Do not set password"
     },
     "menuTourVcInfo": {
         "title": "Focus Bear Menu",
@@ -1360,7 +1397,13 @@
         "lateNoMoreAlreadyInstalledText": "Late No More already installed",
         "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).",
         "permissionsSettingTitle": "Permissions",
-        "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers."
+        "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers.",
+        "titleStrictnessLevel": "Strictness level:",
+        "titleSuperGentle": "Super gentle",
+        "titleGentle": "Gentle",
+        "titleSlightlyStrict": "Slightly strict",
+        "titleStrict": "Strict",
+        "titleSuperStrict": "Super strict"
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -1414,6 +1457,18 @@
         "title": "Are you sure?",
         "description": "Just a reminder that this is what you are trying to achieve with Focus Bear",
         "buttonContinueText": "Sure"
+    },
+    "askPostponeIntentionVcInfo": {
+        "title": "What do you intend to do instead of doing your habits?",
+        "minimumCharacterText": "(Minimum 10 characters)",
+        "buttonContinueText": "Continue"
+    },
+    "helpVcInfo": {
+        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
+        "buttonShareLogsText": "Share logs with Focus Bear Support Team",
+        "placeHolderLogsFeedback": "What happened?",
+        "logsUploadDoneText": "Logs successfully shared.",
+        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
