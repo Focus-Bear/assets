@@ -1,27 +1,27 @@
 {
     "welcomeInfo": {
-        "welcomeMessageHeading": "Tomemos un descanso rápido de 30 segundos",
-        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de respiración consciente/estiramento.\n\nMientras respiras profundamente/estiras, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
+        "welcomeMessageHeading": "Tomemos un descanso rápido de 10 segundos",
+        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 10 segundos de respiración consciente/estiramento.\n\nMientras respiras profundamente/estiras, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "introActivities": [
             {
                 "name": "Respiración profunda",
-                "duration_seconds": 30,
+                "duration_seconds": 10,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=CUre1WgjIyU"
                 ]
             },
             {
                 "name": "Estiramientos",
-                "duration_seconds": 30,
+                "duration_seconds": 10,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=s5V_sVvagrM"
                 ]
             }
         ],
         "welcomeVideoUrl": "https://youtu.be/2gPiProa-rg",
-        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
-        "titleSelectActivity": "¿Qué actividad de 30 segundos quieres hacer?",
+        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 10 segundos de respiración profunda.",
+        "titleSelectActivity": "¿Qué actividad de 10 segundos quieres hacer?",
         "titleEnterActivityName": "Introduce el nombre de la actividad",
         "buttonSkipText": "Omitir",
         "takingBreaksText": "Tomar descansos a lo largo del día ayuda con el estrés y la concentración.",
@@ -1062,7 +1062,7 @@
         "categorySocialMedia": "Redes Sociales",
         "categoryNews": "Noticias",
         "categoryOthers": "Otros",
-        "blockSitesCountText": "<COUNT> sitios estarán siempre bloqueados",
+        "blockSitesCountText": "<COUNT> sites will always be blocked. (except when you're in Relax Mode)[NEEDTRANSLATION]",
         "oneSiteBlockText": "1 sitio estará siempre bloqueados"
     },
     "preloadFocusModeAppsVcInfo": {
@@ -1201,7 +1201,8 @@
         "descriptionText": "🙈 No registramos qué sitios web o aplicaciones usas.\n\n🔄 Sí sincronizamos tus datos de hábitos con nuestro servidor, pero sólo para permitir el bloqueo de distracciones entre dispositivos.\n\n🔒 Tus datos está encriptados y no permitimos que nadie más los vea.",
         "moreDetailText": "Para más información, consulta nuestra política de privacidad o envía un correo electrónico a support@focusbear.io.",
         "buttonViewPrivacyText": "Haz clic aquí para ver la Política de Privacidad",
-        "buttonContinueText": "Continuar"
+        "buttonContinueText": "Continuar",
+        "buttonAcceptPrivacyPolicyText": "I accept the Privacy Policy[NEEDTRANSLATION]"
     },
     "tryBlockUrlVcInfo": {
         "titleShieldActivated": "¡Escudo antidistracción activado!",
@@ -1445,7 +1446,7 @@
         "pointSecondText": "Selecciona el icono del candado en la esquina inferior izquierda e introduce tu contraseña para desbloquearlo.",
         "pointThirdText": "Arrastra y suelta el icono de abajo en la lista de aplicaciones permitidas en Accesibilidad.",
         "pointFourthText": "Si Focus Bear ya está en la lista y está marcado, elimínalo haciendo clic en el botón - de la parte inferior y vuelve a añadirlo.",
-        "pointFifthText": "Edita la configuración - \"accessibility.force_disabled\" en Firefox para poder bloquear las distracciones.",
+        "pointFifthText": "Change the setting - \"accessibility.force_disabled\" to -1 in Firefox to enable distractions in blocking.[NEEDTRANSLATION]",
         "buttonActivateFirefoxText": "Abrir/Activar Firefox",
         "buttonClickHereText": "Haz clic aquí para ver un vídeo y aprender a editar la configuración.",
         "buttonPreferencesText": "Abrir Preferencias del Sistema",
@@ -1470,6 +1471,29 @@
         "placeHolderLogsFeedback": "What happened?[NEEDTRANSLATION]",
         "logsUploadDoneText": "Logs successfully shared.[NEEDTRANSLATION]",
         "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]"
+    },
+    "confirmMorningRoutineTimeVcInfo": {
+        "title": "Confirm your morning routine[NEEDTRANSLATION]",
+        "subTitle": "To be super clear, here's what's going to happen in the morning.[NEEDTRANSLATION]",
+        "timeText": "From <TIME>:[NEEDTRANSLATION]",
+        "pointFirstMorningTimeText": "You'll do your \"Morning routine\".[NEEDTRANSLATION]",
+        "pointSecondMorningTimeText": "While you're doing your habits, your computer will be locked.[NEEDTRANSLATION]",
+        "pointThirdMorningTimeText": "(You can unlock it if you have an emergency).[NEEDTRANSLATION]",
+        "pointFourthMorningTimeText": "After you finish your habits, your computer will be unlocked and Focus Bear will help you avoid distractions during your workday.[NEEDTRANSLATION]",
+        "buttonContinueText": "Sounds good[NEEDTRANSLATION]",
+        "buttonReviewText": "Change this[NEEDTRANSLATION]"
+    },
+    "confirmEveningRoutineTimeVcInfo": {
+        "title": "Confirm your evening routine[NEEDTRANSLATION]",
+        "subTitle": "To be super clear, here's what's going to happen in the evening.[NEEDTRANSLATION]",
+        "timeText": "At <TIME>:[NEEDTRANSLATION]",
+        "pointFirstRelaxTimeText": "You'll enter \"Relax mode\".[NEEDTRANSLATION]",
+        "pointSecondRelaxTimeText": "You can use any app (including websites that are normally blocked).[NEEDTRANSLATION]",
+        "pointThirdRelaxTimeText": "Good for playing games or unrestricted browsing. You've earned it after a hard day of focusing.[NEEDTRANSLATION]",
+        "pointFirstEveningTimeText": "You'll enter \"Wind Down mode\".[NEEDTRANSLATION]",
+        "pointSecondEveningTimeText": "It's time to do your evening habits and get ready to sleep.[NEEDTRANSLATION]",
+        "pointThirdEveningTimeText": "Games and other websites are blocked.[NEEDTRANSLATION]",
+        "pointFourthEveningTimeText": "If you really need to keep using your computer, you can unlock it but we recommend sticking to your routine.[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",

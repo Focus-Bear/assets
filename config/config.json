@@ -1,27 +1,27 @@
 {
     "welcomeInfo": {
-        "welcomeMessageHeading": "Let’s take a quick 30 second break",
+        "welcomeMessageHeading": "Let’s take a quick 10 second break",
         "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, let’s try out some sample activities (deep breathing/stretching).\n\nWhile you breathe deeply/stretch, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "introActivities": [
             {
                 "name": "Deep Breathing",
-                "duration_seconds": 30,
+                "duration_seconds": 10,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=CUre1WgjIyU"
                 ]
             },
             {
                 "name": "Stretching",
-                "duration_seconds": 30,
+                "duration_seconds": 10,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=s5V_sVvagrM"
                 ]
             }
         ],
         "welcomeVideoUrl": "https://youtu.be/2gPiProa-rg",
-        "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing.",
-        "titleSelectActivity": "What 30 seconds of activity do you want to do?",
+        "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 10 seconds of deep breathing.",
+        "titleSelectActivity": "What 10 seconds of activity do you want to do?",
         "titleEnterActivityName": "Enter name of activity",
         "buttonSkipText": "Skip",
         "takingBreaksText": "Taking breaks throughout the day helps with stress and focus.",
@@ -1061,7 +1061,7 @@
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
         "categoryOthers": "Others",
-        "blockSitesCountText": "<COUNT> sites will always be blocked.",
+        "blockSitesCountText": "<COUNT> sites will always be blocked. (except when you're in Relax Mode)",
         "oneSiteBlockText": "1 site will always be blocked."
     },
     "preloadFocusModeAppsVcInfo": {
@@ -1200,7 +1200,8 @@
         "descriptionText": "🙈 We do not log which websites or apps you use.\n\n🔄 We do sync your habit data to our server but this is only to support cross device distraction blocking.\n\n🔒 Your data is encrypted and we don't let anyone else see it.",
         "moreDetailText": "For more details, refer to our privacy policy or feel free to email support@focusbear.io.",
         "buttonViewPrivacyText": "Click here to view Privacy Policy",
-        "buttonContinueText": "Continue"
+        "buttonContinueText": "Continue",
+        "buttonAcceptPrivacyPolicyText": "I accept the Privacy Policy"
     },
     "tryBlockUrlVcInfo": {
         "titleShieldActivated": "Distraction Shield activated!",
@@ -1444,7 +1445,7 @@
         "pointSecondText": "Select the lock icon in the bottom left corner and enter your password to unlock.",
         "pointThirdText": "Drag and drop the icon below into the allowed apps list under Accessibility.",
         "pointFourthText": "If Focus Bear is already in the list and checked, please remove Focus Bear by clicking the - button at the bottom and add it again.",
-        "pointFifthText": "Edit setting - \"accessibility.force_disabled\" in Firefox to be able to block distractions.",
+        "pointFifthText": "Change the setting - \"accessibility.force_disabled\" to -1 in Firefox to enable distractions in blocking.",
         "buttonActivateFirefoxText": "Open/Activate Firefox",
         "buttonClickHereText": "Click here to watch a video to learn how to edit the setting.",
         "buttonPreferencesText": "Open System Preferences",
@@ -1469,6 +1470,29 @@
         "placeHolderLogsFeedback": "What happened?",
         "logsUploadDoneText": "Logs successfully shared.",
         "logsUploadErrorText": "There was some problem in uploading the logs. Please try again."
+    },
+    "confirmMorningRoutineTimeVcInfo": {
+        "title": "Confirm your morning routine",
+        "subTitle": "To be super clear, here's what's going to happen in the morning.",
+        "timeText": "From <TIME>:",
+        "pointFirstMorningTimeText": "You'll do your \"Morning routine\".",
+        "pointSecondMorningTimeText": "While you're doing your habits, your computer will be locked.",
+        "pointThirdMorningTimeText": "(You can unlock it if you have an emergency).",
+        "pointFourthMorningTimeText": "After you finish your habits, your computer will be unlocked and Focus Bear will help you avoid distractions during your workday.",
+        "buttonContinueText": "Sounds good",
+        "buttonReviewText": "Change this"
+    },
+    "confirmEveningRoutineTimeVcInfo": {
+        "title": "Confirm your evening routine",
+        "subTitle": "To be super clear, here's what's going to happen in the evening.",
+        "timeText": "At <TIME>:",
+        "pointFirstRelaxTimeText": "You'll enter \"Relax mode\".",
+        "pointSecondRelaxTimeText": "You can use any app (including websites that are normally blocked).",
+        "pointThirdRelaxTimeText": "Good for playing games or unrestricted browsing. You've earned it after a hard day of focusing.",
+        "pointFirstEveningTimeText": "You'll enter \"Wind Down mode\".",
+        "pointSecondEveningTimeText": "It's time to do your evening habits and get ready to sleep.",
+        "pointThirdEveningTimeText": "Games and other websites are blocked.",
+        "pointFourthEveningTimeText": "If you really need to keep using your computer, you can unlock it but we recommend sticking to your routine."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
