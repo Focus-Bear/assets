@@ -623,19 +623,19 @@
             "tourMessagesInfo": [
                 {
                     "title": "Intención",
-                    "description": "Comprueba qué intenciones estableciste al iniciar el bloque de enfoque.",
+                    "description": "Comprueba qué intenciones estableciste al iniciar el bloque de enfoque."
                 },
                 {
                     "title": "Logros",
-                    "description": "Escribe un resumen de lo que has conseguido durante este bloque de enfoque.",
+                    "description": "Escribe un resumen de lo que has conseguido durante este bloque de enfoque."
                 },
                 {
                     "title": "Reportar Etiquetas",
-                    "description": "Agrega etiquetas de informes para ayudar a analizar tus registros de tiempo. Por ejemplo, puede agregar una etiqueta de \"billable\" si eres freelancer o agregar etiquetas para determinados clientes.",
+                    "description": "Agrega etiquetas de informes para ayudar a analizar tus registros de tiempo. Por ejemplo, puede agregar una etiqueta de \"billable\" si eres freelancer o agregar etiquetas para determinados clientes."
                 },
                 {
                     "title": "Distracciones",
-                    "description": "¿Enfrentaste alguna distracción? Escribe un resumen de las distracciones a las que te has enfrentado.",
+                    "description": "¿Enfrentaste alguna distracción? Escribe un resumen de las distracciones a las que te has enfrentado."
                 }
             ],
             "titleTourBox": "Bloque Completo de Enfoque",
@@ -1330,7 +1330,7 @@
         "tourMessagesInfo": [
             {
                 "title": "Focus Bear",
-                "description": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!",
+                "description": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!"
             },
             {
                 "title": "Preferencias",
@@ -1343,7 +1343,7 @@
             },
             {
                 "title": "Configurar Modo de Enfoque",
-                "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
+                "description": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia."
             }
         ],
         "titleAlertSetupComplete":"¡Instalación completada!",
@@ -1494,6 +1494,18 @@
         "pointSecondEveningTimeText": "It's time to do your evening habits and get ready to sleep.[NEEDTRANSLATION]",
         "pointThirdEveningTimeText": "Games and other websites are blocked.[NEEDTRANSLATION]",
         "pointFourthEveningTimeText": "If you really need to keep using your computer, you can unlock it but we recommend sticking to your routine.[NEEDTRANSLATION]"
+    },
+    "askPostponeIntentionVcInfo": {
+        "title": "What do you intend to do instead of doing your habits?[NEEDTRANSLATION]",
+        "minimumCharacterText": "(Minimum 10 characters)[NEEDTRANSLATION]",
+        "buttonContinueText": "Continue[NEEDTRANSLATION]"
+    },
+    "helpVcInfo": {
+        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)[NEEDTRANSLATION]",
+        "buttonShareLogsText": "Share logs with Focus Bear Support Team[NEEDTRANSLATION]",
+        "placeHolderLogsFeedback": "What happened?[NEEDTRANSLATION]",
+        "logsUploadDoneText": "Logs successfully shared.[NEEDTRANSLATION]",
+        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
