@@ -1,3 +1,18 @@
+# v237 (Jan 11 - 2024)
+## Bug Fixes / Improvements
+- Show strictness slider after onboarding
+- Focus mode end popup window unset as top most modal
+
+# v236 (Jan 8 - 2024)
+## Bug Fixes / Improvements
+- Added support to show Friction level in Focus Modes
+- Added a button in Focus Bear Menu to allow first time users to start the Routine which usually does not comes on the first install day.
+- Added explanation to Focus mode screen in settings for blocking distractions.
+- Simplified Pomodoro UI to show/hide advanced options
+- Added a setting to require intention when postponing habits, text box to ask intention added at required places
+- Added support to add Blocked Apps in a Focus mode (advanced settings), Optimized UI for Advanced settings
+- Added more information to strictness levels screen that comes while on-boarding.
+
 # v235 (Jan 5 - 2024)
 ## Bug Fixes / Improvements
 - Fix app crashing when skipping habits
