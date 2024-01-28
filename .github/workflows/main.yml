@@ -20,5 +20,5 @@ jobs:
 
       - name: Check JSON keys
         run: |
-          bash ./check-json.sh
+          bash ./.github/workflows/check-json.sh
 
