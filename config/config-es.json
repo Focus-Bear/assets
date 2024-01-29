@@ -1458,7 +1458,7 @@
     "longTermGoalsVcInfo": {
         "title": "¿Estás seguro?",
         "description": "Sólo un recordatorio de que esto es lo que estás tratando de lograr con Focus Bear",
-        "buttonContinueText": "Seguro""
+        "buttonContinueText": "Seguro"
     },
     "askPostponeIntentionVcInfo": {
         "title": "What do you intend to do instead of doing your habits?[NEEDTRANSLATION]",
