@@ -172,7 +172,9 @@
         "completedText": "Completedo",
         "inProgressText": "En Progreso",
         "notStartedText": "Sin Iniciar",
-        "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos."
+        "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos.",
+        "comingSoonText": "Coming Soon[NEEDTRANSLATION]",
+        "newBadgeText": "New[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -329,7 +331,9 @@
         "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzado haz clic en \"Avanzado\"para ver o editar la configuración JSON",
         "settingIsValidText": "¡Guardado! Reiniciando la aplicación ahora.",
         "settingsEditedButNotSavedText": "You've made changes to your habits/breaks but haven't saved them yet. It is recommended to review and save the changes (the app will restart)?[NEEDTRANSLATION]",
-        "buttonReviewSettingsText": "I'll review and Save[NEEDTRANSLATION]"
+        "buttonReviewSettingsText": "I'll review and Save[NEEDTRANSLATION]",
+        "downloadReportText": "Please visit Focus Bear dashboard in your web browser to download the report.[NEEDTRANSLATION]",
+        "buttonVisitDashboardText": "Click here to visit dashboard now[NEEDTRANSLATION]"
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -482,8 +486,9 @@
         "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
         "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones",
         "allowOutOfOrderHabitsText": "Permitir hacer hábitos sin orden",
-        "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante las pausas en Super Pomodoro.",
-        "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones"
+        "settingRequireIntentionText": "Require intention when postponing[NEEDTRANSLATION]",
+        "descriptionSettingRequireIntention": "If this is set, when you try to postpone, Focus Bear will ask you to type in your plans for what you will do while postponing your habits. You must enter at least 10 characters.[NEEDTRANSLATION]",
+        "accountabilityBuddiesText": "Accountability buddies[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -641,7 +646,8 @@
             "titleTourBox": "Bloque Completo de Enfoque",
             "alertBlockUrlsDisbaledInBreaksText": "Sitios súper distractores desbloqueados durante tu pausa pomodoro. Si eres atrevido, puedes bloquear las distracciones y salir a dar un paseo lejos del computador.",
             "buttonBlockUrlsText": "Bloquear distracciones",
-            "buttonCancelText": "Déjame distraerme 😅"
+            "buttonCancelText": "Déjame distraerme 😅",
+            "pinWindowText": "You can pin this window so you don't forget to fill out your achievements after a focus session.[NEEDTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -724,7 +730,8 @@
         "tabViewPasswordTitle": "Enter password[NEEDTRANSLATION]",
         "tabViewRandomCharactersTitle": "Type random characters[NEEDTRANSLATION]",
         "titleRandomCharacters": "Please type <NUMBER> random characters to continue[NEEDTRANSLATION]",
-        "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again.[NEEDTRANSLATION]"
+        "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again.[NEEDTRANSLATION]",
+        "titleEnterCharacters": "To unlock your machine without a password, enter these characters. You said you wanted it to be hard to use your computer impulsively 😅[NEEDTRANSLATION]"
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Configurar la contraseña",
@@ -1193,7 +1200,10 @@
         "buttonDidNotWorkText": "No funcionó",
         "accessibilityPermissionText": "(Permiso de accesibilidad concedido)",
         "allPermissionText": "(Todos los permisos necesarios concedidos)",
-        "settingsFirefoxText": "Awaiting settings update in Firefox[NEEDTRANSLATION]"
+        "settingsFirefoxText": "Awaiting settings update in Firefox[NEEDTRANSLATION]",
+        "firefoxInfoText": "Firefox doesn't show Focus Bear which URL you have open unless you change this setting. Sorry it's extra work. Other browsers don't require this step.[NEEDTRANSLATION]",
+        "alertOpenPreferencesText": "Unable to get <APPNAME> URL. Please check permissions. Do you want to Open System Preferences -> Privacy & Security and check if <APPNAME> is allowed to be accessed by Focus Bear under Automation?[NEEDTRANSLATION]",
+        "alertOpenPreferencesLatestOsText": "Unable to get <APPNAME> URL. Please check permissions. Do you want to Open System Preferences -> Security & Privacy > Privacy and check if <APPNAME> is allowed to be accessed by Focus Bear under Automation?[NEEDTRANSLATION]"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacidad y Seguridad",

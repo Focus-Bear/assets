@@ -172,7 +172,9 @@
         "completedText": "Completed",
         "inProgressText": "In Progress",
         "notStartedText": "Not Started",
-        "cutOffTimePassedsubTitle": "Your high priority habits will start after 5 seconds."
+        "cutOffTimePassedsubTitle": "Your high priority habits will start after 5 seconds.",
+        "comingSoonText": "Coming Soon",
+        "newBadgeText": "New"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -329,7 +331,9 @@
         "description": "Click on \"Edit Settings\" to modify your existing settings.\nIf you are an advanced user click on \"Advanced\" to view or edit settings JSON",
         "settingIsValidText": "Saved! Restarting the app now.",
         "settingsEditedButNotSavedText": "You've made changes to your habits/breaks but haven't saved them yet. It is recommended to review and save the changes (the app will restart)?",
-        "buttonReviewSettingsText": "I'll review and Save"
+        "buttonReviewSettingsText": "I'll review and Save",
+        "downloadReportText": "Please visit Focus Bear dashboard in your web browser to download the report.",
+        "buttonVisitDashboardText": "Click here to visit dashboard now"
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -483,7 +487,8 @@
         "blockUrlsDuringMeetingsText": "Block \"Super Distracting Sites\" during Meetings",
         "allowOutOfOrderHabitsText": "Allow doing habits out of order",
         "settingRequireIntentionText": "Require intention when postponing",
-        "descriptionSettingRequireIntention": "If this is set, when you try to postpone, Focus Bear will ask you to type in your plans for what you will do while postponing your habits. You must enter at least 10 characters."
+        "descriptionSettingRequireIntention": "If this is set, when you try to postpone, Focus Bear will ask you to type in your plans for what you will do while postponing your habits. You must enter at least 10 characters.",
+        "accountabilityBuddiesText": "Accountability buddies"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -641,7 +646,8 @@
             "titleTourBox": "Focus Complete Block",
             "alertBlockUrlsDisbaledInBreaksText": "Super distracting sites unlocked during your pomodoro break. If you're brave, you can keep distractions blocked and go for a walk away from your computer instead.",
             "buttonBlockUrlsText": "Block distractions!",
-            "buttonCancelText": "Let me get distracted 😅"
+            "buttonCancelText": "Let me get distracted 😅",
+            "pinWindowText": "You can pin this window so you don't forget to fill out your achievements after a focus session."
         },
         "focusSummaryInfo": {
             "title": "You completed <COUNT> focus blocks today.",
@@ -724,7 +730,8 @@
         "tabViewPasswordTitle": "Enter password",
         "tabViewRandomCharactersTitle": "Type random characters",
         "titleRandomCharacters": "Please type <NUMBER> random characters to continue",
-        "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again."
+        "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again.",
+        "titleEnterCharacters": "To unlock your machine without a password, enter these characters. You said you wanted it to be hard to use your computer impulsively 😅"
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Set Password",
@@ -1192,7 +1199,10 @@
         "buttonDidNotWorkText": "It didn't work",
         "accessibilityPermissionText": "(Accessibility permission given)",
         "allPermissionText": "(All needed permissions given)",
-        "settingsFirefoxText": "Awaiting settings update in Firefox"
+        "settingsFirefoxText": "Awaiting settings update in Firefox",
+        "firefoxInfoText": "Firefox doesn't show Focus Bear which URL you have open unless you change this setting. Sorry it's extra work. Other browsers don't require this step.",
+        "alertOpenPreferencesLatestOsText": "Unable to get <APPNAME> URL. Please check permissions. Do you want to Open System Preferences -> Privacy & Security and check if <APPNAME> is allowed to be accessed by Focus Bear under Automation?",
+        "alertOpenPreferencesText": "Unable to get <APPNAME> URL. Please check permissions. Do you want to Open System Preferences -> Security & Privacy > Privacy and check if <APPNAME> is allowed to be accessed by Focus Bear under Automation?"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacy and Security",
