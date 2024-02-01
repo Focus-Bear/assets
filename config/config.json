@@ -679,7 +679,7 @@
             "subTitle": "On selecting \"Block everything else\" the app will start \"Meetings\" focus mode.",
             "buttonBlockText": "Block everything else",
             "buttonCancelText": "It's ok for me to use other apps during this meeting",
-            "buttonFalseDetectionText": "False positive: I'm not in a meeting",
+            "buttonFalseDetectionText": "Wrong - I'm not in a meeting",
             "titleFalseDetection": "Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
             "buttonDisableText": "Disable meeting detection",
             "buttonGotItText": "Got it",
