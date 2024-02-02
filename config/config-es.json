@@ -1506,18 +1506,6 @@
         "pointThirdEveningTimeText": "Games and other websites are blocked.[NEEDTRANSLATION]",
         "pointFourthEveningTimeText": "If you really need to keep using your computer, you can unlock it but we recommend sticking to your routine.[NEEDTRANSLATION]"
     },
-    "askPostponeIntentionVcInfo": {
-        "title": "What do you intend to do instead of doing your habits?[NEEDTRANSLATION]",
-        "minimumCharacterText": "(Minimum 10 characters)[NEEDTRANSLATION]",
-        "buttonContinueText": "Continue[NEEDTRANSLATION]"
-    },
-    "helpVcInfo": {
-        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)[NEEDTRANSLATION]",
-        "buttonShareLogsText": "Share logs with Focus Bear Support Team[NEEDTRANSLATION]",
-        "placeHolderLogsFeedback": "What happened?[NEEDTRANSLATION]",
-        "logsUploadDoneText": "Logs successfully shared.[NEEDTRANSLATION]",
-        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]"
-    },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear está funcionando en segundo plano",
