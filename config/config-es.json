@@ -487,7 +487,7 @@
         "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones",
         "allowOutOfOrderHabitsText": "Permitir hacer hábitos sin orden",
         "settingRequireIntentionText": "intención al posponer",
-        "descriptionSettingRequireIntention": "Si está activado, cuando intentes posponer, Focus Bear te pedirá que escribas tus planes sobre lo que harás mientras pospones tus hábitos. Debes introducir al menos 10 caracteres."
+        "descriptionSettingRequireIntention": "Si está activado, cuando intentes posponer, Focus Bear te pedirá que escribas tus planes sobre lo que harás mientras pospones tus hábitos. Debes introducir al menos 10 caracteres.",
         "accountabilityBuddiesText": "Accountability buddies[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
