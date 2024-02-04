@@ -1360,7 +1360,7 @@
         "tourMenu": "Focus Bear",
         "descriptionMenu": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!",
         "tourFirstRoutine": "Start first routine",
-        "descriptionFirstRoutine": "Your first morning routine does not starts automatically on first day. Click Start first routine to initiate your first routine.",
+        "descriptionFirstRoutine": "Your morning/evening routine does not start automatically on the first day. Click Start first routine to kick off your first routine.",
         "tourPreferences": "Preferences",
         "descriptionPreferences": "Click on \"Preferences\" to",
         "arrayListItemsPreferences": [
