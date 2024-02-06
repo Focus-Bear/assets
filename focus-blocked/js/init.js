@@ -9,6 +9,7 @@ const old_url = current_url.substring(
     ? current_url.length
     : current_url.indexOf('?')
 );
+const domain = new URL(old_url).hostname;
 const focus_mode = urlParams.get('focus_mode');
 const block_type = urlParams.get('block_type');
 const cuddlyBearMode = urlParams.get('cuddly_bear_mode');
@@ -21,7 +22,7 @@ const blocked_message = getBlockedMessage(block_type);
 const isPageLoaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
 const isPageReloaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED));
 const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
-  current_url
+  domain
 );
 let toast = document.getElementById('toast');
 let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');

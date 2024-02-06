@@ -46,7 +46,7 @@ const getFocusTip = (block_type, old_url, current_url, focus_mode) => ({
 });
 
 const getExternalHint = () => {
-  switch (current_url) {
+  switch (domain) {
     case EXTERNAL_HINT_DOMAINS.REDDIT:
       return "Is this sub-reddit actually productive? If so, you can add it to your Focus Mode's allow list but still block the rest of Reddit.";
     case EXTERNAL_HINT_DOMAINS.YOUTUBE:
