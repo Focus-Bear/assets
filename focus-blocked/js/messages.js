@@ -44,3 +44,14 @@ const getFocusTip = (block_type, old_url, current_url, focus_mode) => ({
   }. Try doing some deep breathing for 5 seconds, get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty). If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.</h6>
     </div>`,
 });
+
+const getExternalHint = () => {
+  switch (domain) {
+    case EXTERNAL_HINT_DOMAINS.REDDIT:
+      return "Is this sub-reddit actually productive? If so, you can add it to your Focus Mode's allow list but still block the rest of Reddit.";
+    case EXTERNAL_HINT_DOMAINS.YOUTUBE:
+      return "Is this video actually productive? If so, you can add it to your Focus Mode's allow list but block the rest of Youtube.";
+    default:
+      return '';
+  }
+};
