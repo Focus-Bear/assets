@@ -1,3 +1,72 @@
+# v1.1.245 (Feb 6 - 2024)
+## Bug Fixes / Improvements
+- Added more meeting URLs covering more apps to default meetings focus mode for enhanced Call detection
+- Enhanced Extend postpone time 2 minute warning popup when extending Focus Session
+
+## New Feature
+- Added Community tab in help section
+
+# v1.1.244 (Feb 3 - 2024)
+## Bug Fixes / Improvements
+- Fixed issue for missing controls on Menu tour after onboarding 
+- Added tooltips (with info icon) to all options in settings for better explanation of features.
+
+# v1.1.243 (Feb 1 - 2024)
+## Bug Fixes / Improvements
+- More "NEW" indicators added in Settings
+- Handled user opening habits well after routine start time and an alert is shown to seek confirmation to start habits
+- Added missing options from preferences to appear in search results
+- Enhanced Permission handling for previously denied permissions for all browsers
+
+# v242 (Jan 30 - 2024)
+## Bug Fixes / Improvements
+- Added progress indicator while onboarding 
+- Fixed Late No More disrupting saving achievements at end of activity with focus mode
+- Added icons to menu items for more clarity of options
+- Added option to pin complete focus mode screen topmost
+
+## New Feature
+- Added feature to show "NEW" indicator in app for newly added features 
+
+# v241 (Jan 23 - 2024)
+## Bug Fixes / Improvements
+- Fixed issue of Focus Bear window not remaining top most when a focus mode ends automatically at evening routine time
+- Enhanced onboarding to ask users to confirm they understand what will happen at the morning/evening routine time 
+- Fixed evening routine screen showed long hours of focus mode
+- Ask password on Customize button click per settings, 
+- Added back to habits option on habits list screen when entering into Edit Habits mode
+
+## New Feature
+- Added feature for user to accept privacy policy in installation process
+
+# v240 (Jan 20 - 2024)
+## Bug Fixes / Improvements
+- Added a different friction mechanism (Entering Random Characters) for unlocking computer besides password
+- Remove 15 second countdown if you skip and choose "Can't do it" unless the user has selected high friction
+
+# v239 (Jan 18 - 2024)
+## Bug Fixes / Improvements
+- Added Setting to require an intention when postponing 
+- Fixed Password Protection not triggering when changing to Relax focus mode 
+- Modified option to extend duration of habit postpone via an alert message and 2 clear buttons. 
+- Fixed running focus session during shut off time when evening routine is postponed.
+
+## New Feature
+- Added feature to report issue directly from Report Problem screen and now user need have to send logs over email.
+
+# v238 (Jan 17 - 2024)
+## Bug Fixes / Improvements
+- Fixed minor issue with Start another focus mode button on Focus End Window.
+- Enhanced user experience to keep the end focus screen topmost for 5 seconds and then after that, let it go behind if the user clicks away - Optimized Permissions for browsers while Onboarding
+- Updated Settings User Interface under Friction
+- Fixed Arc Browser issue where a margin was added on top to show the URL bar. 
+- Optimized "Relax - block nothing" focus mode to block nothing 
+- Added option to extend duration of habit postpone via an alert message
+- Added 25 minutes option to all duration drop-downs
+
+## New Feature
+- Added feature to remember last focus mode length for normal Focus modes. 
+
 # v237 (Jan 11 - 2024)
 ## Bug Fixes / Improvements
 - Show strictness slider after onboarding
