@@ -50,7 +50,7 @@ const getExternalHint = () => {
     case EXTERNAL_HINT_DOMAINS.REDDIT:
       return "Is this sub-reddit actually productive? If so, you can add it to your Focus Mode's allow list but still block the rest of Reddit.";
     case EXTERNAL_HINT_DOMAINS.YOUTUBE:
-      return "Is this video actually productive? If so, you can add it to your Focus Mode's allow list but block the rest of Reddit.";
+      return "Is this video actually productive? If so, you can add it to your Focus Mode's allow list but block the rest of Youtube.";
     default:
       return '';
   }
