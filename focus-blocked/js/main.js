@@ -1,3 +1,10 @@
+const { focus_tip, focus_tip_old_url } = getFocusTip(
+  block_type,
+  old_url,
+  current_url,
+  focus_mode
+);
+
 if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
 
@@ -57,7 +64,9 @@ if (block_type) {
       }
     },
     1000,
-    focus_mode_end_time
+    focus_mode_end_time,
+    current_url,
+    old_url
   );
 }
 
