@@ -1,4 +1,10 @@
 # v1.1.245 (Feb 6 - 2024)
+
+## New Features
+- Coming Soon: Community tab in the help section for discussions with other Focus Bear users.
+- Added an alternative way (but still hard enough to deter impulsivity) to bypass password protection when unlocking the computer after finishing your evening routine. 
+- Blocking in firefox now supported
+
 ## Bug Fixes/Improvements
 - Removed the countdown timer if you select the "Can’t do it" option when skipping a habit.
 - Display a warning message when you navigate away from the Edit Habits tab with unsaved changes.
@@ -11,7 +17,6 @@
 - Added "New" badges to identify newly added features in the settings.
 - Added icons to menu items to reduce cognitive load for easier navigation.
 - Optimized the UI in the Friction settings.
-- Improved UI for Arc and Firefox browsers.
 - Simplified the Pomodoro start screen UI.
 - Show a slider to adjust the strictness level after finishing the onboarding process.
 - Added a progress indicator in the onboarding process.
@@ -29,10 +34,6 @@
 - Ability to report issues directly from the Report Problem screen.
 - Ability to send logs directly from the app without having to use email.
 - Various minor bug fixes and optimizations.
-
-## New Features
-- Coming Soon: Community tab in the help section for discussions with other Focus Bear users.
-- Added an alternative way (but still hard enough to deter impulsivity) to bypass password protection when unlocking the computer after finishing your evening routine. 
 
 # v229 (Dec 23 - 2023)
 ## Bug Fixes / Improvements
