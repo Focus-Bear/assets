@@ -24,7 +24,7 @@
 - Added the option to extend postpone duration for habits after the postponement countdown is finished.
 - Password protection included for starting the ‘Relax - block nothing’ focus mode.
 - Show the current Friction level setting in the Focus mode start screen.
-- Improved the 2-minute warning popup when a focus session is about to end, allowing you to extend the session if you are still in the flow.
+- Added ability to extend a focus mode session in the 2-minute warning popup that appears when a focus session is about to end.
 - More websites added to the allowed list in the default Meetings focus mode for better call detection.
 - Added the option to pin the Focus session completion window so it stays on top of other windows on your desktop.
 - Ability to report issues directly from the Report Problem screen.
