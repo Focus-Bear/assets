@@ -1,4 +1,4 @@
-# v1.2.253 (Feb 22 - 2024)
+# v1.3.253 (Feb 22 - 2024)
 ## Bug Fixes/Improvements
 - Fix for the focus alignment score adjustment when adding an app during a focus session. 
 - Added texts to config files.
