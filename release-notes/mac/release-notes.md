@@ -30,11 +30,11 @@
 
 # v.1.2.248 (Feb 14 - 2024)
 ## Bug Fixes/Improvements
-- Fix for issue with unable to close the postpone dialog
-- Fix for extend postpone time not working from the 2 minute warning popup
-- Show saved for later list if blocking is disabled during breaks
-- Show quotes about taking breaks in the break popup
-- Show tutorials for the relevant OS platform when a new user registers
+- Fix for issue with unable to close the postpone dialog.
+- Fix for extend postpone time not working from the 2 minute warning popup.
+- Show the Saved for Later list if blocking is disabled during breaks.
+- Show quotes about taking breaks in the break popup.
+- Show tutorials for the relevant OS platform when a new user registers.
 
 # v1.1.245 (Feb 6 - 2024)
 ## New Features
