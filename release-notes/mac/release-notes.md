@@ -1,5 +1,42 @@
-# v1.1.245 (Feb 6 - 2024)
+# v1.2.253 (Feb 22 - 2024)
+## Bug Fixes/Improvements
+- Fix for the focus alignment score adjustment when adding an app during a focus session. 
+- Added texts to config files.
 
+# v1.2.252 (Feb 21 - 2024)
+## Bug Fixes/Improvements
+- Fixed issue with the previous day's filtered list appearing for the current day's evening routine.
+- Added options to the Habit selection popup: Search, Select all, Unselect all.
+- Added handling of focus alignment score for runtime additions to a Focus mode. 
+
+# v1.2.251 (Feb 21 - 2024)
+## Bug Fixes/Improvements
+- Added ability to temporarily customize your routine before starting.
+- Added event tracking for when a password screen is shown.
+- Added event tracking for new users such as if the user is a subscriber or is using a Mac.
+- Added the focus alignment score in the metadata when sending tracking events.
+
+# v.1.2.250 (Feb 19 - 2024)
+## Bug Fixes/Improvements
+- Fix for the issue with accidentally blocking Focus Bear and Time Tracker apps by making them an "Always Allowed" app.
+
+# v.1.2.249 (Feb 17 - 2024)
+## Bug Fixes/Improvements
+- Fix for the AI blocking algorithm when viewing irrelevant content in an allowed site during Focus sessions.
+- Added setting to only show "Are you sure you want to use this distracting site?" popup if the focus alignment score is below a certain value.
+- Updated the Discord link in the Community section.
+- Added event tracking for postponing breaks from the break warning.
+- Hide the dock icon by default when in strict mode.
+
+# v.1.2.248 (Feb 14 - 2024)
+## Bug Fixes/Improvements
+- Fix for issue with unable to close the postpone dialog
+- Fix for extend postpone time not working from the 2 minute warning popup
+- Show saved for later list if blocking is disabled during breaks
+- Show quotes about taking breaks in the break popup
+- Show tutorials for the relevant OS platform when a new user registers
+
+# v1.1.245 (Feb 6 - 2024)
 ## New Features
 - Coming Soon: Community tab in the help section for discussions with other Focus Bear users.
 - Added an alternative way (but still hard enough to deter impulsivity) to bypass password protection when unlocking the computer after finishing your evening routine. 
