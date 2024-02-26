@@ -1,16 +1,16 @@
 # v1.3.253 (Feb 22 - 2024)
 ## New Features
 - The app calculates your Focus Alignment Score based on how relevant a site is to your focus intention and shows you a warning if the score goes below a certain value during a focus session.
-- In the focus mode preferences, a setting is added to select how low your Focus alignment score must be before displaying a distraction warning.
 - Added the ability for you to choose which habits to do during a routine in any order you like.
 
-## Bug Fixes/Improvements
-- Added options to the Habit selection popup: Search, Select all, Unselect all.
-- Added ability to customize your routine before starting it.
-- Fix to make Focus Bear an always-allowed app so it doesn't block itself accidentally if added in the blocked apps list.
-- Hide the dock icon by default it the Strictness Level is set to "Strict".
+## Improvements
+- Hide the dock icon by default if the Strictness Level is set to "Strict".
 - Show the "Saved for Later" list if blocking is disabled during breaks.
 - Show quotes about taking breaks in the start break popup.
+
+## Bug Fixes
+- Fix to make Focus Bear an always-allowed app so it doesn't block itself accidentally if added in the blocked apps list.
+- General stability improvements
 
 # v1.1.245 (Feb 6 - 2024)
 ## New Features
