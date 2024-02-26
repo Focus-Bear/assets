@@ -1,5 +1,18 @@
-# v1.1.245 (Feb 6 - 2024)
+# v1.3.253 (Feb 22 - 2024)
+## New Features
+- The app calculates your Focus Alignment Score based on how relevant a site is to your focus intention and shows you a warning if the score goes below a certain value during a focus session.
+- Added the ability for you to choose which habits to do during a routine in any order you like.
 
+## Improvements
+- Hide the dock icon by default if the Strictness Level is set to "Strict".
+- Show the "Saved for Later" list if blocking is disabled during breaks.
+- Show quotes about taking breaks in the start break popup.
+
+## Bug Fixes
+- Fix to make Focus Bear an always-allowed app so it doesn't block itself accidentally if added in the blocked apps list.
+- General stability improvements
+
+# v1.1.245 (Feb 6 - 2024)
 ## New Features
 - Coming Soon: Community tab in the help section for discussions with other Focus Bear users.
 - Added an alternative way (but still hard enough to deter impulsivity) to bypass password protection when unlocking the computer after finishing your evening routine. 
