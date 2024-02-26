@@ -1,25 +1,16 @@
 # v1.3.253 (Feb 22 - 2024)
+## New Features
+- The app calculates your Focus Alignment Score based on how relevant a site is to your focus intention and shows you a warning if the score goes below a certain value during a focus session.
+- In the focus mode preferences, a setting is added to select how low your Focus alignment score must be before displaying a distraction warning.
+- Added the ability for you to choose which habits to do during a routine in any order you like.
+
 ## Bug Fixes/Improvements
-- Fix for the focus alignment score adjustment when adding an app during a focus session. 
-- Added texts to config files.
-- Fixed issue with the previous day's filtered list appearing for the current day's evening routine.
 - Added options to the Habit selection popup: Search, Select all, Unselect all.
-- Added handling of focus alignment score for runtime additions to a Focus mode. 
-- Added ability to temporarily customize your routine before starting.
-- Added event tracking for when a password screen is shown.
-- Added event tracking for new users such as if the user is a subscriber or is using a Mac.
-- Added the focus alignment score in the metadata when sending tracking events.
-- Fix for the issue with accidentally blocking Focus Bear and Time Tracker apps by making them an "Always Allowed" app.
-- Fix for the AI blocking algorithm when viewing irrelevant content in an allowed site during Focus sessions.
-- Added setting to only show "Are you sure you want to use this distracting site?" popup if the focus alignment score is below a certain value.
-- Updated the Discord link in the Community section.
-- Added event tracking for postponing breaks from the break warning.
-- Hide the dock icon by default when in strict mode.
-- Fix for issue with unable to close the postpone dialog.
-- Fix for extend postpone time not working from the 2 minute warning popup.
-- Show the Saved for Later list if blocking is disabled during breaks.
-- Show quotes about taking breaks in the break popup.
-- Show tutorials for the relevant OS platform when a new user registers.
+- Added ability to customize your routine before starting it.
+- Fix to make Focus Bear an always-allowed app so it doesn't block itself accidentally if added in the blocked apps list.
+- Hide the dock icon by default it the Strictness Level is set to "Strict".
+- Show the "Saved for Later" list if blocking is disabled during breaks.
+- Show quotes about taking breaks in the start break popup.
 
 # v1.1.245 (Feb 6 - 2024)
 ## New Features
