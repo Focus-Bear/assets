@@ -69,7 +69,9 @@
         "selectHabitText": "Selecciona el hábito que quieres hacer primero y pulsa \"Begin Habits\" ",
         "buttonChooseHabitText": "Elegir otro hábito",
         "titleChooseHabitText": "Elige el siguiente hábito a realizar entre las siguientes opciones:",
-        "buttonMoreActionsText": "Más acciones"
+        "buttonMoreActionsText": "Más acciones",
+        "buttonSelectHabitsText": "I don't have time for all these habits[NEEDTRANSLATION]",
+        "menuItemSelectHabitsText": "Select the habits to do from the list of all habits[NEEDTRANSLATION]"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -404,7 +406,8 @@
         "menuItemResumeFocusModeTitle": "Reanudar este Modo de Enfoque",
         "menuItemToDoListTitle": "Lista de Tareas",
         "nextBreakText": "Siguiente descanso en: <DURATION>",
-        "menuItemStartHabitsFirstTimeTitle": "Start first routine[NEEDSTRANSLATION]"
+        "menuItemStartHabitsFirstTimeTitle": "Start first routine[NEEDSTRANSLATION]",
+        "focusAlignmentScoreText": "Focus alignment score = <SCORE>[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -575,7 +578,8 @@
         "titleScripts": "Run scripts before/after habits[NEEDTRANSLATION]",
         "titleBlockedUrlsAndApps": "Blocked URLs and Apps[NEEDTRANSLATION]",
         "titleBlockedApps": "Blocked Apps[NEEDTRANSLATION]",
-        "instructionBlockedApps": "The Apps here will be blocked during this focus mode. Useful if you want to allow some apps but block others. For example, you could have Safari as an allowed app but block Google Chrome[NEEDTRANSLATION]"
+        "instructionBlockedApps": "The Apps here will be blocked during this focus mode. Useful if you want to allow some apps but block others. For example, you could have Safari as an allowed app but block Google Chrome[NEEDTRANSLATION]",
+        "focusAlignmentScoreTitle": "Show distracting site popup only when focus alignment score is less than[NEEDTRANSLATION]"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactiva el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -982,7 +986,109 @@
         "descriptionText": "Los micro descansos ayudan a mantener los niveles de energía y alerta constantes a lo largo del día y tienen efectos positivos en la postura (no más dolores de cabeza por la pantalla).",
         "descriptionMeetingsText": "Los microdescansos pueden ayudarte a mantenerte concentrado/a en las reuniones.",
         "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> segundos comienza en",
-        "buttonStartBreakNowText": "Iniciar microdescanso ahora"
+        "buttonStartBreakNowText": "Iniciar microdescanso ahora",
+        "arrayQuote": [
+            {
+                "attribution": "Alan Cohen",
+                "quote": "There is virtue in work and there is virtue in rest. Use both and overlook neither.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Cynthia Mendenhall",
+                "quote": "No matter how strong or strong-willed you are, you cannot live a stressful, maxed-out life without that pace eventually biting you in the butt. It is necessary to take breaks, set parameters, and be kind to yourself if you want to continue making an impact in your little corner of the world.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Helen Edwards",
+                "quote": "In this game, everyone needs a break to refuel, recharge, and jump back in full throttle.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Louisa May Alcott",
+                "quote": "Have regular hours for work and play; make each day both useful and pleasant, and prove that you understand the worth of time by employing it well.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Catherine Pulsifer",
+                "quote": "Sometimes we just need a mental vacation. Take a 15-minute break and start planning your next vacation.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Emily Griffin",
+                "quote": "I think it's important to try to be present with whatever it is you're doing. And if you can't be present, take a break.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "May Sarton",
+                "quote": "The most valuable thing we can do for the psyche, occasionally, is to let it rest, wander, live in the changing light of room, not try to be or do anything whatever.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Sall Clarkson",
+                "quote": "Managing our stress and our rest is a sign of living wisely. Refueling as a way to find joy, to create pleasure, and to celebrate life in the midst of all its demands fills our hearts with renewed hope. When we take the time to breathe, listen, and rest from the daily grind to see miracles bubbling up in our lives.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Izey Victoria Odiase",
+                "quote": "Relax, Recharge and Reflect. Sometimes it’s OK to do nothing.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Anne Lamott",
+                "quote": "Almost everything will work again if you unplug it for a few minutes, including you.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Oprah Winfrey",
+                "quote": "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Harper Reed",
+                "quote": "The opportunity to step away from everything and take a break is something that shouldn’t be squandered.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Sri Sri Ravi Shankar",
+                "quote": "Wisdom is knowing when to have rest, when to have activity, and how much of each to have.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Anne Lamott",
+                "quote": "When you rest, you catch your breath and it holds you up, like water wings…[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Pico Iyer",
+                "quote": "It’s precisely those who are busiest who most need to give themselves a break.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Banksy",
+                "quote": "If you get tired, learn to rest, not to quit.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Bryant McGill",
+                "quote": "Your calm mind is the ultimate weapon against your challenges.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Jennifer Williamson",
+                "quote": "Real rest feels like every cell is thanking you for taking care of you. It’s calm, not full of checklists and chores. It’s simple: not multitasking; not fixing broken things.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Akiroq Brost",
+                "quote": "Do something nice for yourself today. Find some quiet, sit in stillness, breathe. Put your problems on pause. You deserve a break.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Lailah Gifty Akita",
+                "quote": "Try to pause each day and take a walk to view nature.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Russell Eric Dobda",
+                "quote": "Taking a break can lead to breakthroughs.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Giridhar Alwar",
+                "quote": "When things are not happening as planned just stop worrying and take an unplanned break to regain yourself.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Hiral Nagda",
+                "quote": "Sometimes doing nothing makes way for everything.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Hiral Nagda",
+                "quote": "Don't underestimate the power of resting. It builds you back unlike anything.[NEEDTRANSLATION]"
+            },
+            {
+                "attribution": "Rodolfo Peon",
+                "quote": "For those of us who live in a sunny and hot desert, a cloudy day is sometimes all we need to clear our minds...[NEEDTRANSLATION]"
+            }
+        ]
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1032,7 +1138,8 @@
         "buttonBadDecisionText": "Mala decisión",
         "checkboxDonotShowText": "No volver a mostrar esto",
         "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
-        "buttonBlockAndAddToRelaxModeText": "Bloquear y guardar para el modo Relajado"
+        "buttonBlockAndAddToRelaxModeText": "Bloquear y guardar para el modo Relajado",
+        "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%[NEEDTRANSLATION]"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1388,7 +1495,8 @@
         "selectMinutesText": "Seleccionar los minutos a usar este sitio",
         "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
         "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos",
-        "privacyNoteText": "Nota de Privacidad: sólo almacenamos estos datos en tu equipo local, no en nuestros servidores"
+        "privacyNoteText": "Nota de Privacidad: sólo almacenamos estos datos en tu equipo local, no en nuestros servidores",
+        "timeSpentText": "Total time spent: <TIME>[NEEDTRANSLATION]"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
@@ -1495,7 +1603,13 @@
         "buttonShareLogsText": "Share logs with Focus Bear Support Team[NEEDTRANSLATION]",
         "placeHolderLogsFeedback": "What happened?[NEEDTRANSLATION]",
         "logsUploadDoneText": "Logs successfully shared.[NEEDTRANSLATION]",
-        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]"
+        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]",
+        "tabCommunity": "Community[NEEDTRANSLATION]",
+        "titleCommunity": "Join the Focus Bear discord server to share ideas, set up co-working/body doubling sessions and get help with the app.[NEEDTRANSLATION]",
+        "buttonJoinDiscordText": "Join Discord Server[NEEDTRANSLATION]",
+        "buttonDontUseDiscordText": "I don't use Discord[NEEDTRANSLATION]",
+        "titleChooseCommunity": "What community system would you prefer to use?[NEEDTRANSLATION]",
+        "placeHolderEnterCommunity": "Enter community name[NEEDTRANSLATION]"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine[NEEDTRANSLATION]",
@@ -1519,18 +1633,6 @@
         "pointSecondEveningTimeText": "It's time to do your evening habits and get ready to sleep.[NEEDTRANSLATION]",
         "pointThirdEveningTimeText": "Games and other websites are blocked.[NEEDTRANSLATION]",
         "pointFourthEveningTimeText": "If you really need to keep using your computer, you can unlock it but we recommend sticking to your routine.[NEEDTRANSLATION]"
-    },
-    "askPostponeIntentionVcInfo": {
-        "title": "What do you intend to do instead of doing your habits?[NEEDTRANSLATION]",
-        "minimumCharacterText": "(Minimum 10 characters)[NEEDTRANSLATION]",
-        "buttonContinueText": "Continue[NEEDTRANSLATION]"
-    },
-    "helpVcInfo": {
-        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)[NEEDTRANSLATION]",
-        "buttonShareLogsText": "Share logs with Focus Bear Support Team[NEEDTRANSLATION]",
-        "placeHolderLogsFeedback": "What happened?[NEEDTRANSLATION]",
-        "logsUploadDoneText": "Logs successfully shared.[NEEDTRANSLATION]",
-        "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.[NEEDTRANSLATION]"
     },
     "lateMorningHabitPopupVcInfo": {
         "title": "Hiya, do you still want to do your morning routine today or skip it?[NEEDTRANSLATION]",
@@ -1587,6 +1689,15 @@
         "strictness_Password_QuitApp": "Secure goodbyes! Enable this setting to require a password when you decide to quit the Focus Bear, adding an extra layer of security to your intentional exits.[NEEDTRANSLATION]",
         "strictness_Password_UseRelaxFocusMode": "Browse freely with control! Enable this feature to require a password when allowing the use of Relax Focus mode, adding a security layer to your leisurely internet sessions.[NEEDTRANSLATION]"
     },
+    "chooseHabitsVCInfo": {
+        "title": "Choose Habits:[NEEDTRANSLATION]",
+        "titleRequiredTime": "Total time required for the selected habits:[NEEDTRANSLATION]",
+        "titleCompletionTime": "Expected completion time:[NEEDTRANSLATION]",
+        "buttonContinueText": "Continuar",
+        "subTitle": "Select the habits you want to do in this routine.[NEEDTRANSLATION]",
+        "checkBoxSelectAllText": "Select / Deselect all[NEEDTRANSLATION]"
+    },
+    "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear está funcionando en segundo plano",
