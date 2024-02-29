@@ -1,51 +1,52 @@
-# v237 (Jan 11 - 2024)
-## Bug Fixes / Improvements
-- Show strictness slider after onboarding
-- Focus mode end popup window unset as top most modal
+# v1.3.253 (Feb 22 - 2024)
+## New Features
+- The app calculates your Focus Alignment Score based on how relevant a site is to your focus intention and shows you a warning if the score goes below a certain value during a focus session.
+- Added the ability for you to choose which habits to do during a routine in any order you like.
 
-# v236 (Jan 8 - 2024)
-## Bug Fixes / Improvements
-- Added support to show Friction level in Focus Modes
-- Added a button in Focus Bear Menu to allow first time users to start the Routine which usually does not comes on the first install day.
-- Added explanation to Focus mode screen in settings for blocking distractions.
-- Simplified Pomodoro UI to show/hide advanced options
-- Added a setting to require intention when postponing habits, text box to ask intention added at required places
-- Added support to add Blocked Apps in a Focus mode (advanced settings), Optimized UI for Advanced settings
-- Added more information to strictness levels screen that comes while on-boarding.
+## Improvements
+- Hide the dock icon by default if the Strictness Level is set to "Strict".
+- Show the "Saved for Later" list if blocking is disabled during breaks.
+- Show quotes about taking breaks in the start break popup.
 
-# v235 (Jan 5 - 2024)
-## Bug Fixes / Improvements
-- Fix app crashing when skipping habits
+## Bug Fixes
+- Fix to make Focus Bear an always-allowed app so it doesn't block itself accidentally if added in the blocked apps list.
+- General stability improvements
 
-# v234 (Jan 4 - 2024)
-## Bug Fixes / Improvements
-- Removed Zapier and call Events end point on Quit/Abort/Uninstall events
-- Show a warning when navigating away from the Settings tab in Preferences
-- Call rule for Google meet calls in time tracker
+# v1.1.245 (Feb 6 - 2024)
+## New Features
+- Coming Soon: Community tab in the help section for discussions with other Focus Bear users.
+- Added an alternative way (but still hard enough to deter impulsivity) to bypass password protection when unlocking the computer after finishing your evening routine. 
+- Blocking in firefox now supported
 
-# v233 (Jan 2 - 2024)
-## Bug Fixes / Improvements
-- Simplified settings UI
-- Shown user's long term goals when they tap please spare me/postpone/exit full screen
-- Optimized  select tasks popup to speed it up
-- Minor bug fixes
-
-# v232 (Dec 30 - 2023)
-## Bug Fixes / Improvements
-- Firefox Permission screens updated to show Video Guide
-- Added Setting to allow doing habits out of order
-- Added feature to show time until next break in menu bar
-- Changed dock icon to bow tie version if office mode activated
-
-# v231 (Dec 29 - 2023)
-## Bug Fixes / Improvements
-- Added support to block distractions on Firefox.
-- Onboarding screen adjustments
-
-# v230 (Dec 29 - 2023)
-## Bug Fixes / Improvements
-- Displayed total time spent on super distracting websites in set intention screen
-- Removed 5 sec timer from Focus End Screen
+## Bug Fixes/Improvements
+- Removed the countdown timer if you select the "Can’t do it" option when skipping a habit.
+- Display a warning message when you navigate away from the Edit Habits tab with unsaved changes.
+- Fixed the issue for having denied permissions setting for all browsers when reinstalling the app.
+- Password protected the 'Customize Habits' button in the morning/evening routine start screen.
+- Start habits seamlessly after your routine begins.
+- Fixed the issue with Late No More app disrupting your completed routine activities.
+- Added a step to accept the privacy policy during installation.
+- Added tool tips when hovering over the info "i" icons in the settings.
+- Added "New" badges to identify newly added features in the settings.
+- Added icons to menu items to reduce cognitive load for easier navigation.
+- Optimized the UI in the Friction settings.
+- Simplified the Pomodoro start screen UI.
+- Show a slider to adjust the strictness level after finishing the onboarding process.
+- Added a progress indicator in the onboarding process.
+- Added the option to select 25 minutes for the delay duration of habits and activities.
+- Remembers the last focus mode duration when starting a new focus mode.
+- Show a confirmation if you still want to do your habits if you have not yet done them after more than 4 hours have already elapsed since your scheduled routine start time.
+- If you have enabled password protection, we’ve introduced a different friction mechanism for unlocking the computer, in - addition to the password.
+- Removed the 15-second delay countdown when choosing to skip habits.
+- Added the option to extend postpone duration for habits after the postponement countdown is finished.
+- Password protection included for starting the ‘Relax - block nothing’ focus mode.
+- Show the current Friction level setting in the Focus mode start screen.
+- Added ability to extend a focus mode session in the 2-minute warning popup that appears when a focus session is about to end.
+- More websites added to the allowed list in the default Meetings focus mode for better call detection.
+- Added the option to pin the Focus session completion window so it stays on top of other windows on your desktop.
+- Ability to report issues directly from the Report Problem screen.
+- Ability to send logs directly from the app without having to use email.
+- Various minor bug fixes and optimizations.
 
 # v229 (Dec 23 - 2023)
 ## Bug Fixes / Improvements

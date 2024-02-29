@@ -1,30 +1,9 @@
-const LOCAL_STORAGE = {
-  IS_PAGE_LOADED: 'is_page_loaded',
-  IS_PAGE_RELOADED: 'is_page_reloaded',
-};
-
-const urlParams = new URLSearchParams(window.location.search);
-let current_url = urlParams.get('old_url');
-current_url = current_url?.startsWith('http')
-  ? current_url
-  : `https://${current_url}`;
-const old_url = current_url.substring(
-  0,
-  current_url.indexOf('?') === -1
-    ? current_url.length
-    : current_url.indexOf('?')
+const { focus_tip, focus_tip_old_url } = getFocusTip(
+  block_type,
+  old_url,
+  current_url,
+  focus_mode
 );
-const focus_mode = urlParams.get('focus_mode');
-const block_type = urlParams.get('block_type');
-const cuddlyBearMode = urlParams.get('cuddly_bear_mode');
-const blocked_reason = urlParams.get('reason');
-
-const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
-
-const { focus_tip, focus_tip_old_url } = getFocusTip();
-const blocked_message = getBlockedMessage(block_type);
-const isPageLoaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
-const isPageReloaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED));
 
 if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
@@ -85,11 +64,13 @@ if (block_type) {
       }
     },
     1000,
-    focus_mode_end_time
+    focus_mode_end_time,
+    current_url,
+    old_url
   );
 }
 
-document.getElementById('privacyBtn').addEventListener('click', () => {
+privacyBtn.addEventListener('click', () => {
   let noticeElement = document.getElementById('privacyNoticeContent');
   let noticeElementArrow = document.getElementById('privacyNoticeContentArrow');
   if (noticeElement.className === 'hidePrivacyNotice') {
@@ -101,14 +82,13 @@ document.getElementById('privacyBtn').addEventListener('click', () => {
   }
 });
 
-let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');
 if (cuddlyBearMode) {
   cuddlyBearBtn.className = 'showCuddlyBearBtn';
 } else {
   cuddlyBearBtn.className = 'hideCuddlyBearBtn';
 }
 
-document.getElementById('unblockBtn').addEventListener('click', () => {
+unblockBtn.addEventListener('click', () => {
   if (old_url.includes('?')) {
     window.open(`${old_url}&focus_bear_temporarily_allow=true`, '_self');
   } else {
@@ -117,8 +97,15 @@ document.getElementById('unblockBtn').addEventListener('click', () => {
 });
 
 if (blocked_reason) {
-  let toast = document.getElementById('toast');
   toast.innerHTML = blocked_reason;
+  toast.classList.add('visible');
+  setTimeout(() => {
+    toast.classList.remove('visible');
+  }, 5000);
+}
+
+if (isExternalHintRequired) {
+  toast.innerHTML = getExternalHint();
   toast.classList.add('visible');
   setTimeout(() => {
     toast.classList.remove('visible');
