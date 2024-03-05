@@ -1,3 +1,13 @@
+# v1.3.257 (Mar 4 - 2024)
+## New Features
+- When a site has been allowed by AI blocking, you can check the reason why it was allowed by hovering over the Focus Bear icon in the top menu bar.
+
+## Improvements
+- After the break from a focus mode has ended, the app will show the Pomodoro Start screen so that you can start another focus mode.
+- Made some UI improvements for 13-inch MacBook screens.
+- Updated the Discord invite link in the Community Help tab.
+- General bug fixes and backend improvements.
+
 # v1.3.253 (Feb 22 - 2024)
 ## New Features
 - The app calculates your Focus Alignment Score based on how relevant a site is to your focus intention and shows you a warning if the score goes below a certain value during a focus session.
