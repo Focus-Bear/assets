@@ -407,7 +407,8 @@
         "menuItemToDoListTitle": "Lista de Tareas",
         "nextBreakText": "Siguiente descanso en: <DURATION>",
         "menuItemStartHabitsFirstTimeTitle": "Iniciar Primera Rutina",
-        "focusAlignmentScoreText": "Focus alignment score = <SCORE>[NEEDSTRANSLATION]"
+        "focusAlignmentScoreText": "Focus alignment score = <SCORE>[NEEDSTRANSLATION]",
+        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -691,7 +692,7 @@
         }
     },
     "pomodoroInfo": {
-        "title": "Es hora de Enfocarse",
+        "title": "Pomodoro time![NEEDTRANSLATION]",
         "questionFirstText": "¿Qué quieres lograr en esta sesión de pomodoro?",
         "questionSecondText": "¿Qué modo de enfoque quieres usar?",
         "buttonEditFocusModeText": "Editar modos de enfoque",
@@ -898,7 +899,7 @@
         "descriptionSecondText": "No podrás usar otras aplicaciones durante la inducción. ¿Tienes tiempo ahora o lo hacemos un poco más tarde?",
         "buttonLaterText": "Más tarde, por favor.",
         "buttonLetsDoItText": "Hagámoslo ya",
-        "allRightsReservedText": "© 2022-2023 Focus Bear Todos los derechos reservados.",
+        "allRightsReservedText": "© 2022-2024 Focus Bear Todos los derechos reservados.",
         "confirmText": "Verificando que tienes 2 minutos ahora.",
         "buttonConfirmLetsDoItText": "Si, Tengo 2 minutos",
         "buttonNeedMoreTimeText": "Ahora no",
@@ -1110,7 +1111,19 @@
         "checkBoxSleepBetterText": "Dormir mejor",
         "checkBoxExerciseMoreText": "Hacer más ejercicio",
         "checkBoxImproveBalanceText": "Mejorar el balance entre vida privada y trabajo",
-        "additionalGoalsText": "Metas adicionales:"
+        "additionalGoalsText": "Metas adicionales:",
+        "titleHowMuchCare": "How much do you care about building habits?[NEEDSTRANSLATION]",
+        "selectOneText": "Select one that apply[NEEDSTRANSLATION]",
+        "buttonDontCareText": "Meh - don't really care[NEEDSTRANSLATION]",
+        "buttonNotCommittedText": "I probably should do habits but am not that committed[NEEDSTRANSLATION]",
+        "buttonCommittedText": "Super committed - this is the main reason i ant to use Focus Bear[NEEDSTRANSLATION]",
+        "subTitle": "Set your Goals and Preferences[NEEDSTRANSLATION]",
+        "resultFocusOnlyText": "Ok no worries. We'll let you focus on focusing![NEEDSTRANSLATION]",
+        "resultNoHabitsText": "Got it. We won't activate the habit features for now but you can activate them later.[NEEDSTRANSLATION]",
+        "resultHabitsText": "Cool. We'll let you set up your habits right away[NEEDSTRANSLATION]",
+        "titleAdditionalGoals": "Are there other goals you want to achieve with Focus Bear?[NEEDSTRANSLATION]",
+        "gladText": "Glad you're as passionate about building routines as we are![NEEDSTRANSLATION]",
+        "selectGoalsText": "Select all that apply[NEEDSTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -1158,7 +1171,8 @@
     "whySkipHabitVcInfo": {
         "title": "¿Por que quieres omitir?",
         "buttonAlreadyDidItText": "Ya lo hice",
-        "buttonCanNotDoItText": "No puedo hacerlo ahora"
+        "buttonCanNotDoItText": "No puedo hacerlo ahora",
+        "buttonSkipBreaksCompletely": "Skip micro break Completely[NEEDTRANSLATION]"
     },
     "habitSkipEasinessVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1419,7 +1433,8 @@
         "subTitle": "Desbloquea tu Mac para poder desactivar los recordatorios de Late No More. Tienes <TIMELEFT> para apagarlo. Introduce una contraseña para seguir utilizándolo hasta que finalice tu cita en <TIME>"
     },
     "alertMaxTabLimitVcInfo":{
-        "title": "Número máximo de pestañas (<COUNT>) excedido"
+        "title": "Número máximo de pestañas (<COUNT>) excedido",
+        "titleTabsCount": "Number of open tabs:[NEEDTRANSLATION]"
     },
     "chooseFrictionLevelVcInfo":{
         "title": "¿Qué tan estricto quieres que sea Focus Bear?",
@@ -1697,6 +1712,19 @@
         "buttonContinueText": "Continuar",
         "subTitle": "Select the habits you want to do in this routine.[NEEDTRANSLATION]",
         "checkBoxSelectAllText": "Select / Deselect all[NEEDTRANSLATION]"
+    },
+    "confirmRunScriptVcInfo": {
+        "title": "Confirm you want to run a Apple/shell script[NEEDTRANSLATION]",
+        "subTitle": "Your settings are configured to run this command before/after this <FOCUSMODE>. Are you sure you want to run this?[NEEDTRANSLATION]",
+        "titleAppleScript": "Apple Script:[NEEDTRANSLATION]",
+        "titleShellScript": "Shell Script:[NEEDTRANSLATION]",
+        "buttonCancelText": "No - this looks scary[NEEDTRANSLATION]",
+        "buttonContinueText": "Yup![NEEDTRANSLATION]",
+        "buttonDontShowAgainText": "Don't show this again[NEEDTRANSLATION]"
+    },
+    "selectHabitsLaterInfo": {
+        "title": "If you ever decide you want to activate habits in the future, you can open Preferences from the menu bar and click Edit Habits[NEEDTRANSLATION]",
+        "buttonContinueText": "Continuar"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
