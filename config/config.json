@@ -407,7 +407,8 @@
         "menuItemToDoListTitle": "To Do List",
         "nextBreakText": "Next break in: <DURATION>",
         "menuItemStartHabitsFirstTimeTitle": "Start first routine",
-        "focusAlignmentScoreText": "Focus alignment score = <SCORE>"
+        "focusAlignmentScoreText": "Focus alignment score = <SCORE>",
+        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -691,7 +692,7 @@
         }
     },
     "pomodoroInfo": {
-        "title": "It's time to focus",
+        "title": "Pomodoro time!",
         "questionFirstText": "What do you want to achieve in this pomodoro session?",
         "questionSecondText": "Which focus mode do you want to use?",
         "buttonEditFocusModeText": "Edit focus modes",
@@ -897,7 +898,7 @@
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText": "A bit later please",
         "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022-2023 Focus Bear All Rights Reserved.",
+        "allRightsReservedText": "© 2022-2024 Focus Bear All Rights Reserved.",
         "confirmText": "Double checking that you have 2 minutes now.",
         "buttonConfirmLetsDoItText": "Yes, I have 2 minutes",
         "buttonNeedMoreTimeText": "Not Now",
@@ -1108,7 +1109,19 @@
         "checkBoxSleepBetterText": "Sleep better",
         "checkBoxExerciseMoreText": "Exercise more",
         "checkBoxImproveBalanceText": "Improve work life balance",
-        "additionalGoalsText": "Additional goals:"
+        "additionalGoalsText": "Additional goals:",
+        "titleHowMuchCare": "How much do you care about building habits?",
+        "selectOneText": "Select one that apply",
+        "buttonDontCareText": "Meh - don't really care",
+        "buttonNotCommittedText": "I probably should do habits but am not that committed",
+        "buttonCommittedText": "Super committed - this is the main reason i ant to use Focus Bear",
+        "subTitle": "Set your Goals and Preferences",
+        "resultFocusOnlyText": "Ok no worries. We'll let you focus on focusing!",
+        "resultNoHabitsText": "Got it. We won't activate the habit features for now but you can activate them later.",
+        "resultHabitsText": "Cool. We'll let you set up your habits right away",
+        "titleAdditionalGoals": "Are there other goals you want to achieve with Focus Bear?",
+        "gladText": "Glad you're as passionate about building routines as we are!",
+        "selectGoalsText": "Select all that apply"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -1156,7 +1169,8 @@
     "whySkipHabitVcInfo": {
         "title": "Why do you want to skip?",
         "buttonAlreadyDidItText": "I already did it",
-        "buttonCanNotDoItText": "Can't do it today"
+        "buttonCanNotDoItText": "Can't do it today",
+        "buttonSkipBreaksCompletely": "Skip micro break Completely"
     },
     "habitSkipEasinessVcInfo": {
         "title": "Welcome to Focus Bear",
@@ -1417,7 +1431,8 @@
         "subTitle": "Unlocking your Mac so you can turn off Late No More appointment reminders. You have <TIMELEFT> to turn it off. Enter a password to continue using it until your appointment ends at <TIME>"
     },
     "alertMaxTabLimitVcInfo":{
-        "title": "Max tab count (<COUNT>) exceeded."
+        "title": "Max tab count (<COUNT>) exceeded.",
+        "titleTabsCount": "Number of open tabs:"
     },
     "chooseFrictionLevelVcInfo":{
         "title": "How strict do you want Focus Bear to be?",
@@ -1695,6 +1710,19 @@
         "buttonContinueText": "Continue",
         "subTitle": "Select the habits you want to do in this routine.",
         "checkBoxSelectAllText": "Select / Deselect all"
+    },
+    "confirmRunScriptVcInfo": {
+        "title": "Confirm you want to run a Apple/shell script",
+        "subTitle": "Your settings are configured to run this command before/after this <FOCUSMODE>. Are you sure you want to run this?",
+        "titleAppleScript": "Apple Script:",
+        "titleShellScript": "Shell Script:",
+        "buttonCancelText": "No - this looks scary",
+        "buttonContinueText": "Yup!",
+        "buttonDontShowAgainText": "Don't show this again"
+    },
+    "selectHabitsLaterInfo": {
+        "title": "If you ever decide you want to activate habits in the future, you can open Preferences from the menu bar and click Edit Habits",
+        "buttonContinueText": "Continue"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
