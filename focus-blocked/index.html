@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus Bear</title>
     <link rel="icon" href="favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://focus-bear.github.io/assets/focus-blocked/style.css"
-    />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <div class="container">
@@ -38,6 +35,13 @@
       <a id="cuddlyBearBtn" href="#cuddlyBearMode" class="hideCuddlyBearBtn">
         Oops I actually need this - unblock it for me
       </a>
+      <div id="longTermGoalsContainer">
+        <h4>
+          Every focus session you complete is taking you towards your long term
+          goals
+        </h4>
+        <ul id="goals"></ul>
+      </div>
     </div>
     <div id="cuddlyBearMode" class="overlay">
       <div class="popup">
@@ -57,13 +61,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="https://focus-bear.github.io/assets/focus-blocked/js/constant.js"></script>
-    <script src="https://focus-bear.github.io/assets/focus-blocked/js/storage.js"></script>
-    <script src="https://focus-bear.github.io/assets/focus-blocked/js/messages.js"></script>
-    <script src="https://focus-bear.github.io/assets/focus-blocked/js/init.js"></script>
-    <script
-      defer
-      src="https://focus-bear.github.io/assets/focus-blocked/js/main.js"
-    ></script>
+    <script src="./js/constant.js"></script>
+    <script src="./js/storage.js"></script>
+    <script src="./js/messages.js"></script>
+    <script src="./js/init.js"></script>
+    <script defer src="./js/main.js"></script>
   </body>
 </html>

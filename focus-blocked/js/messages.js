@@ -55,3 +55,30 @@ const getExternalHint = () => {
       return '';
   }
 };
+
+const getFocusTitle = (block_type) => {
+  switch (block_type) {
+    case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS:
+      return {
+        title: 'Nice work',
+        sub_title:
+          "you've been focused for 45 minutes and have already completed 2 focus sessions.",
+        additional_info:
+          'Just 5 minutes to go until the end of your focus session.',
+      };
+    case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER:
+      return {
+        title: 'Well done on finishing your focus session!',
+        sub_title:
+          "You've completed 5 focus sessions today for a grand total of 45 minutes of focused time.",
+        additional_info:
+          "Keep it up and you'll quickly make progress towards your long term goals.",
+      };
+    default:
+      return {
+        title: 'This site is always blocked',
+        sub_title: '',
+        additional_info: '',
+      };
+  }
+};
