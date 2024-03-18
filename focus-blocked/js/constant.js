@@ -13,4 +13,6 @@ const FOCUS_BLOCK_OPTION = {
   FOCUS_BLOCK_INPROGRESS: 'focus_block_inprogress',
   FOCUS_BLOCK_ALWAYS: 'always-block',
   FOCUS_BLOCK_ALWAYS_OLD: 'always-blocked',
+  MORNING: 'morning',
+  EVENING: 'evening',
 };

@@ -1,11 +1,34 @@
-const getBlockedMessage = (block_type) =>
-  block_type?.includes('always-block')
-    ? 'This site is always blocked'
-    : block_type?.includes('morning')
-    ? "Blocked because you're doing your morning routine"
-    : block_type?.includes('evening')
-    ? "Blocked because you're doing your evening routine"
-    : '';
+const getFocusTitle = (block_type, remainingTime) => {
+  switch (block_type) {
+    case FOCUS_BLOCK_OPTION.MORNING:
+      return {
+        title: "Blocked because you're doing your morning routine",
+      };
+    case FOCUS_BLOCK_OPTION.EVENING:
+      return {
+        title: "Blocked because you're doing your evening routine",
+      };
+    case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS:
+      return {
+        title: 'Nice work',
+        sub_title:
+          "you've been focused for 45 minutes and have already completed 2 focus sessions.",
+        additional_info: `Just ${remainingTime} to go until the end of your focus session.`,
+      };
+    case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER:
+      return {
+        title: 'Well done on finishing your focus session!',
+        sub_title:
+          "You've completed 5 focus sessions today for a grand total of 45 minutes of focused time.",
+        additional_info:
+          "Keep it up and you'll quickly make progress towards your long term goals.",
+      };
+    default:
+      return {
+        title: 'This site is always blocked',
+      };
+  }
+};
 
 /* Show the relevant instructions based on the operating system */
 const instructions = ['Macintosh,', 'iPhone', 'iPad'].some((userAgent) =>
@@ -53,32 +76,5 @@ const getExternalHint = () => {
       return "Is this video actually productive? If so, you can add it to your Focus Mode's allow list but block the rest of Youtube.";
     default:
       return '';
-  }
-};
-
-const getFocusTitle = (block_type) => {
-  switch (block_type) {
-    case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS:
-      return {
-        title: 'Nice work',
-        sub_title:
-          "you've been focused for 45 minutes and have already completed 2 focus sessions.",
-        additional_info:
-          'Just 5 minutes to go until the end of your focus session.',
-      };
-    case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER:
-      return {
-        title: 'Well done on finishing your focus session!',
-        sub_title:
-          "You've completed 5 focus sessions today for a grand total of 45 minutes of focused time.",
-        additional_info:
-          "Keep it up and you'll quickly make progress towards your long term goals.",
-      };
-    default:
-      return {
-        title: 'This site is always blocked',
-        sub_title: '',
-        additional_info: '',
-      };
   }
 };

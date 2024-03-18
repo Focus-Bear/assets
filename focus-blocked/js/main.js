@@ -6,8 +6,8 @@ const { focus_tip, focus_tip_old_url } = getFocusTip(
 );
 
 if (block_type) {
-  document.getElementById('focusTitle').innerText = blocked_message;
-
+  document.getElementById('focusTitle').textContent =
+    focus_blocked_message.title;
   if (
     [
       FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
@@ -45,29 +45,34 @@ if (block_type) {
 
   let refreshIntervalId = setInterval(
     () => {
-      console.log(focus_mode_end_time.diff(moment(), 'seconds'));
-      if (focus_mode_end_time.diff(moment(), 'seconds')) {
-        document.getElementById(
-          'progressWrapper'
-        ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
+      focusRemainingSeconds = focus_mode_end_time.diff(moment(), 'seconds');
+      if (focusRemainingSeconds > 0) {
+        const remainingTime = moment
           .duration(focus_mode_end_time.diff(moment()))
-          .humanize(
-            true
-          )}</p> <a href='${current_url}'>Original URL ${old_url}</a>`;
+          .humanize(true);
+        const focusBlockInfo = getFocusTitle(
+          FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS,
+          remainingTime
+        );
+        if (focusBlockInfo?.sub_title) {
+          focusSubtitle.textContent = focusBlockInfo?.sub_title;
+          focusProgressWrapper.appendChild(focusSubtitle);
+        }
+        if (focusBlockInfo?.additional_info) {
+          focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
+          focusProgressWrapper.appendChild(focusAdditionalInfo);
+        }
+        focusBlockedUrl.setAttribute('href', current_url);
+        focusBlockedUrl.textContent = `Original URL ${old_url}`;
       } else {
         clearInterval(refreshIntervalId);
-        // const { title, sub_title, additional_info } = getFocusTitle(
-        //   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER
-        // );
-        // const mainTitle = document.createElement('span');
-        // mainTitle.innerText = title;
-        // const subTitle = document.createElement('span');
-        // subTitle.innerText = sub_title;
-        // const additionalInfo = document.createElement('span');
-        // additional_info && additionalInfo.innerText(additional_info);
-        document.getElementById('focusTitle').innerText('Focus block is over');
-        document.getElementById('progressWrapper').innerHTML =
-          focus_tip_old_url;
+        const focusBlockInfo = getFocusTitle(
+          FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER
+        );
+        focusTitle.textContent = focusBlockInfo.title;
+        focusSubtitle.textContent = focusBlockInfo?.sub_title;
+        focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
+        focusProgressWrapper.innerHTML = focus_tip_old_url;
         Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
           LOCAL_STORAGE.IS_PAGE_RELOADED,
