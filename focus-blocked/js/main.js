@@ -5,6 +5,12 @@ const { focus_tip, focus_tip_old_url } = getFocusTip(
   focus_mode
 );
 
+const url_always_block_instruction = instructions(
+  domain,
+  focusBlocksCompleted,
+  totalFocusBlocksCompleted
+);
+
 if (block_type) {
   document.getElementById('focusTitle').textContent =
     focus_blocked_message.title;
@@ -14,20 +20,10 @@ if (block_type) {
       FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
     ].includes(block_type)
   ) {
-    const imgElement = document.createElement('img');
-    imgElement.src = instructions.image;
-    document.getElementById(
-      'progressWrapper'
-    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to: <br>${instructions.info}</h6></div>`;
-    document.getElementById('progressWrapper').appendChild(imgElement);
+    const instruction = document.createElement('div');
+    instruction.innerHTML = url_always_block_instruction;
+    document.getElementById('progressWrapper').appendChild(instruction);
   } else {
-    document.getElementById(
-      'progressWrapper'
-    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>Back to your plans for world domination! Save ${
-      !block_type.includes(FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS)
-        ? `<a href='${old_url}''>${old_url}</a>`
-        : old_url
-    } for when you've finished boiling the oceans.</h6></div>`;
     document.getElementById(
       'focusTipWrapper'
     ).innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`;
@@ -54,7 +50,10 @@ if (block_type) {
           FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS,
           remainingTime
         );
-        if (focusBlockInfo?.sub_title) {
+        if (
+          (totalFocusBlocksCompleted || focusBlocksCompleted) &&
+          focusBlockInfo?.sub_title
+        ) {
           focusSubtitle.textContent = focusBlockInfo?.sub_title;
           focusProgressWrapper.appendChild(focusSubtitle);
         }
@@ -144,6 +143,7 @@ if (longTermGoals?.length) {
   anchor.append(
     document.createTextNode('Click here to edit your long term goals')
   );
+  anchor.setAttribute('target', '_blank');
   anchor.setAttribute('href', 'https://dashboard.focusbear.io/profile');
   goalsContainer.appendChild(anchor);
 } else {

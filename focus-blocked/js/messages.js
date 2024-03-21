@@ -1,4 +1,9 @@
-const getFocusTitle = (block_type, remainingTime) => {
+const getFocusTitle = (
+  block_type,
+  remainingTime,
+  focus_block_completed,
+  total_focus_blocked
+) => {
   switch (block_type) {
     case FOCUS_BLOCK_OPTION.MORNING:
       return {
@@ -11,15 +16,25 @@ const getFocusTitle = (block_type, remainingTime) => {
     case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS:
       return {
         title: 'Nice work',
-        sub_title:
-          "you've been focused for 45 minutes and have already completed 2 focus sessions.",
+        sub_title: `you've been focused for ${remainingTime} ${
+          focus_block_completed
+            ? `and have already completed ${focus_block_completed} focus sessions.`
+            : ''
+        }`,
         additional_info: `Just ${remainingTime} to go until the end of your focus session.`,
       };
     case FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER:
       return {
         title: 'Well done on finishing your focus session!',
-        sub_title:
-          "You've completed 5 focus sessions today for a grand total of 45 minutes of focused time.",
+        sub_title: `${
+          focus_block_completed
+            ? `You've completed ${focus_block_completed} focus sessions today for `
+            : ''
+        } ${
+          total_focus_blocked
+            ? ` a grand total of ${total_focus_blocked} of focused time.`
+            : ''
+        }`,
         additional_info:
           "Keep it up and you'll quickly make progress towards your long term goals.",
       };
@@ -30,18 +45,8 @@ const getFocusTitle = (block_type, remainingTime) => {
   }
 };
 
-/* Show the relevant instructions based on the operating system */
-const instructions = ['Macintosh,', 'iPhone', 'iPad'].some((userAgent) =>
-  navigator.userAgent.includes(userAgent)
-)
-  ? {
-      info: 'Preferences > Settings > Strictness > Super Distracting Sites',
-      image: 'https://images.focusbear.io/focusbear_blocksites.jpg',
-    }
-  : {
-      info: 'Preferences > Settings > Blocked URLs > Super Distracting Sites',
-      image: 'https://images.focusbear.io/focusbear_blocksites_windows.png',
-    };
+const instructions = (url) =>
+  `<a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps" target="_blank">${url} is configured to be always blocked. Click here for instructions on unblocking it.</a>`;
 
 const getFocusTip = (block_type, old_url, current_url, focus_mode) => ({
   focus_tip_old_url: `<div class='notice-wrapper'>

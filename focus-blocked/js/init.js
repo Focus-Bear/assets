@@ -17,6 +17,8 @@ const blocked_reason = urlParams.get('reason');
 const encouraging_info = JSON.parse(urlParams.get('encouraging_info'));
 const longTermGoals = encouraging_info?.long_term_goals ?? [];
 const focusedTime = encouraging_info?.focused_time ?? 0;
+const focusBlocksCompleted = urlParams.get('focusBlocksCompleted');
+const totalFocusBlocksCompleted = urlParams.get('totalFocusBlocksCompleted');
 
 const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
 const focus_blocked_message = getFocusTitle(block_type);
