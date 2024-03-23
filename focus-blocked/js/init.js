@@ -16,8 +16,6 @@ const cuddlyBearMode = urlParams.get('cuddly_bear_mode');
 const blocked_reason = urlParams.get('reason');
 
 const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
-
-const { focus_tip, focus_tip_old_url } = getFocusTip();
 const blocked_message = getBlockedMessage(block_type);
 const isPageLoaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
 const isPageReloaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED));
