@@ -5,24 +5,25 @@ const { focus_tip, focus_tip_old_url } = getFocusTip(
   focus_mode
 );
 
-if (block_type) {
-  document.getElementById('focusTitle').innerText = blocked_message;
+const url_always_block_instruction = instructions(
+  domain,
+  focusBlocksCompleted,
+  totalFocusBlocksCompleted
+);
 
-  if (['always-block', 'always-blocked'].includes(block_type)) {
-    const imgElement = document.createElement('img');
-    imgElement.src = instructions.image;
-    document.getElementById(
-      'progressWrapper'
-    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to: <br>${instructions.info}</h6></div>`;
-    document.getElementById('progressWrapper').appendChild(imgElement);
+if (block_type) {
+  document.getElementById('focusTitle').textContent =
+    focus_blocked_message.title;
+  if (
+    [
+      FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
+      FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
+    ].includes(block_type)
+  ) {
+    const instruction = document.createElement('div');
+    instruction.innerHTML = url_always_block_instruction;
+    document.getElementById('progressWrapper').appendChild(instruction);
   } else {
-    document.getElementById(
-      'progressWrapper'
-    ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>Back to your plans for world domination! Save ${
-      !block_type.includes('always-block')
-        ? `<a href='${old_url}''>${old_url}</a>`
-        : old_url
-    } for when you've finished boiling the oceans.</h6></div>`;
     document.getElementById(
       'focusTipWrapper'
     ).innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`;
@@ -40,20 +41,37 @@ if (block_type) {
 
   let refreshIntervalId = setInterval(
     () => {
-      if (focus_mode_end_time.diff(moment(), 'seconds') > 0) {
-        document.getElementById(
-          'progressWrapper'
-        ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
+      focusRemainingSeconds = focus_mode_end_time.diff(moment(), 'seconds');
+      if (focusRemainingSeconds > 0) {
+        const remainingTime = moment
           .duration(focus_mode_end_time.diff(moment()))
-          .humanize(
-            true
-          )}</p> <a href='${current_url}'>Original URL ${old_url}</a>`;
+          .humanize(true);
+        const focusBlockInfo = getFocusTitle(
+          FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS,
+          remainingTime
+        );
+        if (
+          (totalFocusBlocksCompleted || focusBlocksCompleted) &&
+          focusBlockInfo?.sub_title
+        ) {
+          focusSubtitle.textContent = focusBlockInfo?.sub_title;
+          focusProgressWrapper.appendChild(focusSubtitle);
+        }
+        if (focusBlockInfo?.additional_info) {
+          focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
+          focusProgressWrapper.appendChild(focusAdditionalInfo);
+        }
+        focusBlockedUrl.setAttribute('href', current_url);
+        focusBlockedUrl.textContent = `Original URL ${old_url}`;
       } else {
         clearInterval(refreshIntervalId);
-        document.getElementById('focusTitle').innerText =
-          'Focus block is over!';
-        document.getElementById('progressWrapper').innerHTML =
-          focus_tip_old_url;
+        const focusBlockInfo = getFocusTitle(
+          FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER
+        );
+        focusTitle.textContent = focusBlockInfo.title;
+        focusSubtitle.textContent = focusBlockInfo?.sub_title;
+        focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
+        focusProgressWrapper.innerHTML = focus_tip_old_url;
         Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
           LOCAL_STORAGE.IS_PAGE_RELOADED,
@@ -110,4 +128,26 @@ if (isExternalHintRequired) {
   setTimeout(() => {
     toast.classList.remove('visible');
   }, 5000);
+}
+
+if (longTermGoals?.length) {
+  longTermGoals.forEach((goal) => {
+    const object = document.createElement('object');
+    object.setAttribute('data', './images/goal.svg');
+    const listItem = document.createElement('li');
+    listItem.append(object);
+    listItem.append(document.createTextNode(goal));
+    goalsContainer.appendChild(listItem);
+  });
+  const anchor = document.createElement('a');
+  anchor.append(
+    document.createTextNode(
+      selected_lang.click_here_to_edit_your_long_term_goals
+    )
+  );
+  anchor.setAttribute('target', '_blank');
+  anchor.setAttribute('href', 'https://dashboard.focusbear.io/profile');
+  goalsContainer.appendChild(anchor);
+} else {
+  document.getElementById('longTermGoalsContainer').style.display = 'none';
 }
