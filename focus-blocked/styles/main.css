@@ -34,8 +34,13 @@
   gap: 1rem;
 }
 
+.focusTitleWrapper > h1 {
+  text-align: center;
+}
+
 .focusTitleWrapper > h3 {
   text-transform: capitalize;
+  text-align: center;
 }
 
 #progressWrapper {

@@ -141,7 +141,9 @@ if (longTermGoals?.length) {
   });
   const anchor = document.createElement('a');
   anchor.append(
-    document.createTextNode('Click here to edit your long term goals')
+    document.createTextNode(
+      selected_lang.click_here_to_edit_your_long_term_goals
+    )
   );
   anchor.setAttribute('target', '_blank');
   anchor.setAttribute('href', 'https://dashboard.focusbear.io/profile');

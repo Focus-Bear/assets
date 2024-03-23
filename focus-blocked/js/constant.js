@@ -16,3 +16,8 @@ const FOCUS_BLOCK_OPTION = {
   MORNING: 'morning',
   EVENING: 'evening',
 };
+
+const LANGUAGE = {
+  EN: 'en',
+  ES: 'es',
+};
