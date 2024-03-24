@@ -1,6 +1,8 @@
-@import url('./root.css');
-@import url('./long_term_goals.css');
-@import url('./toast_popup.css');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 .container {
   width: 100vw;
@@ -9,16 +11,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 25px;
   font-family: fenwick, sans-serif;
   position: relative;
-}
-
-.container > img {
-  width: 40dvw;
-  height: auto;
-  object-fit: cover;
-  padding: 1rem 0;
 }
 
 .container > p {
@@ -26,35 +21,37 @@
   font-weight: 600;
 }
 
-.focusTitleWrapper {
-  width: fit-content;
+.notice-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 10px;
 }
 
-.focusTitleWrapper > h1 {
-  text-align: center;
+.notice-wrapper > h6 {
+  font-size: 14px;
+  width: 70%;
+  margin: 0;
+  text-align: justify;
 }
 
-.focusTitleWrapper > h3 {
-  text-transform: capitalize;
-  text-align: center;
+.notice-wrapper > a {
+  font-weight: bold;
 }
 
 #progressWrapper {
   width: fit-content;
   height: fit-content;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 10px;
 }
 
-#progressWrapper > a {
-  margin-top: 1rem;
+#progressWrapper img {
+  width: auto;
+  height: 380px;
 }
 
 #focusTipWrapper {
@@ -86,7 +83,7 @@
 #privacyContainer {
   width: 100%;
   position: absolute;
-  bottom: 2%;
+  bottom: 4%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -154,6 +151,108 @@
 .showCuddlyBearBtn:hover {
   background-color: blue;
   color: white;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: lavender;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: monospace;
+}
+
+.popup h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.popup .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  max-height: 30%;
+  overflow: auto;
+}
+
+.popup .content > a,
+button {
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.popup .content a {
+  text-decoration: none;
+  background-color: palevioletred;
+}
+
+.popup .content button {
+  background-color: deepskyblue;
+}
+
+.popup .content button:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.popup .content a:hover {
+  background-color: red;
+  color: white;
+}
+
+.toast {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: opacity 500ms, transform 500ms;
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.toast.visible {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .popup .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
