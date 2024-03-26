@@ -68,9 +68,19 @@ if (block_type) {
         const focusBlockInfo = getFocusTitle(
           FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER
         );
-        focusTitle?.textContent = focusBlockInfo.title;
-        focusSubtitle?.textContent = focusBlockInfo?.sub_title;
-        focusAdditionalInfo?.textContent = focusBlockInfo?.additional_info;
+        if(focusBlockInfo.title){
+          focusTitle.textContent = focusBlockInfo.title;
+        }else {
+          //@Description: it supports for older versions of the app
+         focusTitle.innerText =
+          'Focus block is over!';
+        }
+        if(focusSubtitle){
+          focusSubtitle.textContent = focusBlockInfo?.sub_title;
+        }
+        if(focusAdditionalInfo){
+          focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
+        }
         focusProgressWrapper?.innerHTML = focus_tip_old_url;
         Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
