@@ -139,27 +139,27 @@ if (isExternalHintRequired) {
   }, 5000);
 }
 
-if (longTermGoals?.length) {
-  longTermGoals.forEach((goal) => {
-    const object = document.createElement("object");
-    object.setAttribute("data", "./images/goal.svg");
-    const listItem = document.createElement("li");
-    listItem.append(object);
-    listItem.append(document.createTextNode(goal));
-    goalsContainer.appendChild(listItem);
-  });
-  const anchor = document.createElement("a");
-  anchor.append(
-    document.createTextNode(
-      selected_lang.click_here_to_edit_your_long_term_goals
-    )
-  );
-  anchor.setAttribute("target", "_blank");
-  anchor.setAttribute("href", "https://dashboard.focusbear.io/profile");
-  goalsContainer.appendChild(anchor);
-} else {
-  if (longTermGoalsContainer) {
-    //@Description: it supports for older versions of the app
+if (longTermGoalsContainer) {
+  //@Description: it supports for older versions of the app
+  if (longTermGoals?.length) {
+    longTermGoals.forEach((goal) => {
+      const object = document.createElement("object");
+      object.setAttribute("data", "./images/goal.svg");
+      const listItem = document.createElement("li");
+      listItem.append(object);
+      listItem.append(document.createTextNode(goal));
+      goalsContainer.appendChild(listItem);
+    });
+    const anchor = document.createElement("a");
+    anchor.append(
+      document.createTextNode(
+        selected_lang.click_here_to_edit_your_long_term_goals
+      )
+    );
+    anchor.setAttribute("target", "_blank");
+    anchor.setAttribute("href", "https://dashboard.focusbear.io/profile");
+    goalsContainer.appendChild(anchor);
+  } else {
     longTermGoalsContainer.style.display = "none";
   }
 }
