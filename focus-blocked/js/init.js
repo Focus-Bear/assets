@@ -178,7 +178,7 @@ let longTermGoalsTitle = document.getElementById("longTermGoalsTitle");
 
 //@Description: it supports for older versions of the app
 if (!unblockBtn) {
-  unblockBtn = document.getElementById("UnblockBtn");
+  unblockBtn = document.getElementById("unblockBtn");
 }
 
 document.getElementById("privacyNoticeContent").innerHTML =
