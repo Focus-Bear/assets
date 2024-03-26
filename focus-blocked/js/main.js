@@ -81,7 +81,7 @@ if (block_type) {
         if(focusAdditionalInfo){
           focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
         }
-        focusProgressWrapper?.innerHTML = focus_tip_old_url;
+        focusProgressWrapper.innerHTML = focus_tip_old_url;
         Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
           LOCAL_STORAGE.IS_PAGE_RELOADED,
