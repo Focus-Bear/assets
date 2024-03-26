@@ -20,7 +20,7 @@ const focusedTime = encouraging_info?.focused_time ?? 0;
 const focusBlocksCompleted = urlParams.get('focusBlocksCompleted');
 const totalFocusBlocksCompleted = urlParams.get('totalFocusBlocksCompleted');
 const lang = urlParams?.get('lang') === LANGUAGE.ES ? LANGUAGE.ES : LANGUAGE.EN;
-const selected_lang = locale[lang];
+const selected_lang = locale ? locale[lang] : LANGUAGE.EN; // it supports older versions of the apps
 
 const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
 const focus_blocked_message = getFocusTitle(block_type);
