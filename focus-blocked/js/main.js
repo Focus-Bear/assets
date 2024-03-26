@@ -68,10 +68,10 @@ if (block_type) {
         const focusBlockInfo = getFocusTitle(
           FOCUS_BLOCK_OPTION.FOCUS_BLOCK_OVER
         );
-        focusTitle.textContent = focusBlockInfo.title;
-        focusSubtitle.textContent = focusBlockInfo?.sub_title;
-        focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
-        focusProgressWrapper.innerHTML = focus_tip_old_url;
+        focusTitle?.textContent = focusBlockInfo.title;
+        focusSubtitle?.textContent = focusBlockInfo?.sub_title;
+        focusAdditionalInfo?.textContent = focusBlockInfo?.additional_info;
+        focusProgressWrapper?.innerHTML = focus_tip_old_url;
         Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
           LOCAL_STORAGE.IS_PAGE_RELOADED,

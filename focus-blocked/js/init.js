@@ -175,15 +175,17 @@ let focusAdditionalInfo = document.getElementById("focusAdditionalInfo");
 let focusProgressWrapper = document.getElementById("progressWrapper");
 let focusBlockedUrl = document.getElementById("originalUrl");
 
+//@Description: it supports for older versions of the app
+if (!unblockBtn) {
+  unblockBtn = document.getElementById("UnblockBtn");
+}
+
 document.getElementById("privacyNoticeContent").innerHTML =
   selected_lang.privacy_notice;
-document.getElementById("privacyBtn").textContent =
-  selected_lang.privacy_button;
-document.getElementById("cuddlyBearBtn").textContent =
-  selected_lang.oops_i_actually_need_this;
+privacyBtn.textContent = selected_lang.privacy_button;
+cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
 document.getElementById("longTermGoalsTitle").textContent =
   selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
-document.getElementById("popupUnblockBtn").textContent =
-  selected_lang.yes_i_actually_need_it;
+unblockBtn.textContent = selected_lang.yes_i_actually_need_it;
 document.getElementsByClassName("popupClose").textContent =
   selected_lang.you_re_right_get_this_site_away_from_me;
