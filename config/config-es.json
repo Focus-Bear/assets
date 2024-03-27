@@ -70,8 +70,8 @@
         "buttonChooseHabitText": "Elegir otro hábito",
         "titleChooseHabitText": "Elige el siguiente hábito a realizar entre las siguientes opciones:",
         "buttonMoreActionsText": "Más acciones",
-        "buttonSelectHabitsText": "I don't have time for all these habits[NEEDTRANSLATION]",
-        "menuItemSelectHabitsText": "Select the habits to do from the list of all habits[NEEDTRANSLATION]",
+        "buttonSelectHabitsText": "No tengo tiempo para todos estos hábitos",
+        "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos",
         "buttonTutorialText": "Tutorial[NEEDTRANSLATION]"
     },
     "common": {
@@ -427,8 +427,8 @@
         "menuItemToDoListTitle": "Lista de Tareas",
         "nextBreakText": "Siguiente descanso en: <DURATION>",
         "menuItemStartHabitsFirstTimeTitle": "Iniciar Primera Rutina",
-        "focusAlignmentScoreText": "Focus alignment score = <SCORE>[NEEDSTRANSLATION]",
-        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?[NEEDSTRANSLATION]"
+        "focusAlignmentScoreText": "Puntuación de alineación de Enfoque = <SCORE>",
+        "alertNoHabitsFound": "No hay hábitos establecidos para tu cuenta. ¿Quieres establecer hábitos ahora?"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -600,7 +600,7 @@
         "titleBlockedUrlsAndApps": "URLs y Apps Bloqueadas",
         "titleBlockedApps": "Apps Bloqueadas",
         "instructionBlockedApps": "Las Apps aquí serán bloqueadas durante este modo de enfoque. Útil si quieres permitir algunas apps pero bloquear otras. Por ejemplo, puedes tener Safari como aplicación permitida pero bloquear Google Chrome",
-        "focusAlignmentScoreTitle": "Show distracting site popup only when focus alignment score is less than[NEEDTRANSLATION]"
+        "focusAlignmentScoreTitle": "Mostrar ventana emergente de sitio distractor sólo cuando la puntuación de alineación de enfoque es menor que"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactiva el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -712,7 +712,7 @@
         }
     },
     "pomodoroInfo": {
-        "title": "Pomodoro time![NEEDTRANSLATION]",
+        "title": "¡Hora de Pomodoro!",
         "questionFirstText": "¿Qué quieres lograr en esta sesión de pomodoro?",
         "questionSecondText": "¿Qué modo de enfoque quieres usar?",
         "buttonEditFocusModeText": "Editar modos de enfoque",
@@ -1016,103 +1016,103 @@
         "arrayQuote": [
             {
                 "attribution": "Alan Cohen",
-                "quote": "There is virtue in work and there is virtue in rest. Use both and overlook neither.[NEEDTRANSLATION]"
+                "quote": "Hay virtud en el trabajo y hay virtud en el descanso. Utiliza ambos y no pases por alto ninguno."
             },
             {
                 "attribution": "Cynthia Mendenhall",
-                "quote": "No matter how strong or strong-willed you are, you cannot live a stressful, maxed-out life without that pace eventually biting you in the butt. It is necessary to take breaks, set parameters, and be kind to yourself if you want to continue making an impact in your little corner of the world.[NEEDTRANSLATION]"
+                "quote": "No importa lo fuerte o decidido que seas, no puedes vivir una vida estresante y al máximo sin que ese ritmo acabe pasándote factura. Es necesario tomarse descansos, establecer parámetros y ser amable contigo mismo si quieres seguir dejando huella en tu pequeño rincón del mundo."
             },
             {
                 "attribution": "Helen Edwards",
-                "quote": "In this game, everyone needs a break to refuel, recharge, and jump back in full throttle.[NEEDTRANSLATION]"
+                "quote": "En este juego, todos necesitamos un descanso para reponer fuerzas, recargarlas y volver a darlo todo."
             },
             {
                 "attribution": "Louisa May Alcott",
-                "quote": "Have regular hours for work and play; make each day both useful and pleasant, and prove that you understand the worth of time by employing it well.[NEEDTRANSLATION]"
+                "quote": "Ten horas regulares para trabajar y jugar; haz que cada día sea útil y agradable, y demuestra que entiendes el valor del tiempo usándolo bien."
             },
             {
                 "attribution": "Catherine Pulsifer",
-                "quote": "Sometimes we just need a mental vacation. Take a 15-minute break and start planning your next vacation.[NEEDTRANSLATION]"
+                "quote": "A veces sólo necesitamos una vacación mental. Tómate 15 minutos de descanso y empieza a planear tus próximas vacaciones."
             },
             {
                 "attribution": "Emily Griffin",
-                "quote": "I think it's important to try to be present with whatever it is you're doing. And if you can't be present, take a break.[NEEDTRANSLATION]"
+                "quote": "Creo que es importante intentar estar presente en lo que sea que estés haciendo. Y si no puedes estar presente, tómate un descanso."
             },
             {
                 "attribution": "May Sarton",
-                "quote": "The most valuable thing we can do for the psyche, occasionally, is to let it rest, wander, live in the changing light of room, not try to be or do anything whatever.[NEEDTRANSLATION]"
+                "quote": "Lo más valioso que podemos hacer por la psique, ocasionalmente, es dejarla descansar, vagar, vivir en la luz cambiante de la habitación, no intentar ser ni hacer nada de nada."
             },
             {
                 "attribution": "Sall Clarkson",
-                "quote": "Managing our stress and our rest is a sign of living wisely. Refueling as a way to find joy, to create pleasure, and to celebrate life in the midst of all its demands fills our hearts with renewed hope. When we take the time to breathe, listen, and rest from the daily grind to see miracles bubbling up in our lives.[NEEDTRANSLATION]"
+                "quote": "Gestionar nuestro estrés y nuestro descanso es un signo de vivir sabiamente. Recargar energías como forma de encontrar alegría, crear placer y celebrar la vida en medio de todas sus exigencias llena nuestros corazones de esperanza renovada. Cuando nos tomamos tiempo para respirar, escuchar y descansar del ajetreo diario, vemos cómo surgen milagros en nuestras vidas."
             },
             {
                 "attribution": "Izey Victoria Odiase",
-                "quote": "Relax, Recharge and Reflect. Sometimes it’s OK to do nothing.[NEEDTRANSLATION]"
+                "quote": "Relájate, recárgate y reflexiona. A veces está bien no hacer nada."
             },
             {
                 "attribution": "Anne Lamott",
-                "quote": "Almost everything will work again if you unplug it for a few minutes, including you.[NEEDTRANSLATION]"
+                "quote": "Casi todo vuelve a funcionar si lo desenchufas unos minutos, incluso tú."
             },
             {
                 "attribution": "Oprah Winfrey",
-                "quote": "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure.[NEEDTRANSLATION]"
+                "quote": "Respira. Relájate. Y recuerda que este momento es lo único que tienes seguro."
             },
             {
                 "attribution": "Harper Reed",
-                "quote": "The opportunity to step away from everything and take a break is something that shouldn’t be squandered.[NEEDTRANSLATION]"
+                "quote": "La oportunidad de alejarse de todo y tomarse un respiro es algo que no debe desaprovecharse."
             },
             {
                 "attribution": "Sri Sri Ravi Shankar",
-                "quote": "Wisdom is knowing when to have rest, when to have activity, and how much of each to have.[NEEDTRANSLATION]"
+                "quote": "Sabiduría es saber cuándo descansar, cuándo estar activo y cuánto de cada cosa."
             },
             {
                 "attribution": "Anne Lamott",
-                "quote": "When you rest, you catch your breath and it holds you up, like water wings…[NEEDTRANSLATION]"
+                "quote": "Cuando descansas, recuperas el aliento y te sostiene, como alas de agua..."
             },
             {
                 "attribution": "Pico Iyer",
-                "quote": "It’s precisely those who are busiest who most need to give themselves a break.[NEEDTRANSLATION]"
+                "quote": "Precisamente los que están más ocupados son los que más necesitan tomarse un descanso."
             },
             {
                 "attribution": "Banksy",
-                "quote": "If you get tired, learn to rest, not to quit.[NEEDTRANSLATION]"
+                "quote": "Si te cansas, aprende a descansar, no a renunciar."
             },
             {
                 "attribution": "Bryant McGill",
-                "quote": "Your calm mind is the ultimate weapon against your challenges.[NEEDTRANSLATION]"
+                "quote": "Tu mente tranquila es el arma más poderosa contra tus retos."
             },
             {
                 "attribution": "Jennifer Williamson",
-                "quote": "Real rest feels like every cell is thanking you for taking care of you. It’s calm, not full of checklists and chores. It’s simple: not multitasking; not fixing broken things.[NEEDTRANSLATION]"
+                "quote": "El verdadero descanso se siente como si cada célula te diera las gracias por cuidar de ti. Es tranquilo, no está lleno de listas y tareas. Es sencillo: sin multitarea, sin arreglar cosas rotas."
             },
             {
                 "attribution": "Akiroq Brost",
-                "quote": "Do something nice for yourself today. Find some quiet, sit in stillness, breathe. Put your problems on pause. You deserve a break.[NEEDTRANSLATION]"
+                "quote": "Haz algo bueno para ti hoy. Busca un poco de tranquilidad, siéntate en silencio, respira. Pon tus problemas en pausa. Te mereces un descanso."
             },
             {
                 "attribution": "Lailah Gifty Akita",
-                "quote": "Try to pause each day and take a walk to view nature.[NEEDTRANSLATION]"
+                "quote": "Intenta hacer una pausa cada día y dar un paseo para contemplar la naturaleza."
             },
             {
                 "attribution": "Russell Eric Dobda",
-                "quote": "Taking a break can lead to breakthroughs.[NEEDTRANSLATION]"
+                "quote": "Tomar un descanso puede conducir a grandes avances."
             },
             {
                 "attribution": "Giridhar Alwar",
-                "quote": "When things are not happening as planned just stop worrying and take an unplanned break to regain yourself.[NEEDTRANSLATION]"
+                "quote": "Cuando las cosas no sucedan según lo planeado, deja de preocuparte y toma un descanso no planeado para recuperarte."
             },
             {
                 "attribution": "Hiral Nagda",
-                "quote": "Sometimes doing nothing makes way for everything.[NEEDTRANSLATION]"
+                "quote": "A veces, no hacer nada abre paso a todo."
             },
             {
                 "attribution": "Hiral Nagda",
-                "quote": "Don't underestimate the power of resting. It builds you back unlike anything.[NEEDTRANSLATION]"
+                "quote": "No subestimes el poder del descanso. Te ayuda a recuperarte como ninguna otra cosa."
             },
             {
                 "attribution": "Rodolfo Peon",
-                "quote": "For those of us who live in a sunny and hot desert, a cloudy day is sometimes all we need to clear our minds...[NEEDTRANSLATION]"
+                "quote": "Para los que vivimos en un desierto soleado y caluroso, un día nublado es a veces todo lo que necesitamos para despejar la mente..."
             }
         ]
     },
@@ -1136,18 +1136,18 @@
         "checkBoxExerciseMoreText": "Hacer más ejercicio",
         "checkBoxImproveBalanceText": "Mejorar el balance entre vida privada y trabajo",
         "additionalGoalsText": "Metas adicionales:",
-        "titleHowMuchCare": "How much do you care about building habits?[NEEDSTRANSLATION]",
-        "selectOneText": "Select one that apply[NEEDSTRANSLATION]",
-        "buttonDontCareText": "Meh - don't really care[NEEDSTRANSLATION]",
-        "buttonNotCommittedText": "I probably should do habits but am not that committed[NEEDSTRANSLATION]",
-        "buttonCommittedText": "Super committed - this is the main reason i ant to use Focus Bear[NEEDSTRANSLATION]",
-        "subTitle": "Set your Goals and Preferences[NEEDSTRANSLATION]",
-        "resultFocusOnlyText": "Ok no worries. We'll let you focus on focusing![NEEDSTRANSLATION]",
-        "resultNoHabitsText": "Got it. We won't activate the habit features for now but you can activate them later.[NEEDSTRANSLATION]",
-        "resultHabitsText": "Cool. We'll let you set up your habits right away[NEEDSTRANSLATION]",
-        "titleAdditionalGoals": "Are there other goals you want to achieve with Focus Bear?[NEEDSTRANSLATION]",
-        "gladText": "Glad you're as passionate about building routines as we are![NEEDSTRANSLATION]",
-        "selectGoalsText": "Select all that apply[NEEDSTRANSLATION]"
+        "titleHowMuchCare": "¿Cuánto te importa crear hábitos?",
+        "selectOneText": "Elige la que corresponda",
+        "buttonDontCareText": "Meh - realmente no me importa",
+        "buttonNotCommittedText": "Probablemente debería hacer hábitos pero no estoy tan comprometido",
+        "buttonCommittedText": "Súper comprometido - esta es mi razón principal de usar Focus Bear",
+        "subTitle": "Establece tus objetivos y preferencias",
+        "resultFocusOnlyText": "Bien, no te preocupes. Te dejaremos enfocarte en tu enfoque.",
+        "resultNoHabitsText": "Entendido. No activaremos las funciones de hábitos por ahora, pero puedes activarlas más tarde.",
+        "resultHabitsText": "Genial. Te dejaremos configurar tus hábitos de inmediato",
+        "titleAdditionalGoals": "¿Hay otros objetivos que quieras alcanzar con Focus Bear?",
+        "gladText": "¡Nos alegra que te apasione construir una rutina tanto como a nosotros!",
+        "selectGoalsText": "Selecciona todo lo que corresponda"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -1177,7 +1177,7 @@
         "checkboxDonotShowText": "No volver a mostrar esto",
         "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
         "buttonBlockAndAddToRelaxModeText": "Bloquear y guardar para el modo Relajado",
-        "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%[NEEDTRANSLATION]"
+        "focusAlignmentScoreText": "Tu puntuación de alineación de Enfoque es <SCORE>%"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1196,7 +1196,7 @@
         "title": "¿Por que quieres omitir?",
         "buttonAlreadyDidItText": "Ya lo hice",
         "buttonCanNotDoItText": "No puedo hacerlo ahora",
-        "buttonSkipBreaksCompletely": "Skip micro break Completely[NEEDTRANSLATION]"
+        "buttonSkipBreaksCompletely": "Saltar micro descanso Completamente"
     },
     "habitSkipEasinessVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1458,7 +1458,7 @@
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido",
-        "titleTabsCount": "Number of open tabs:[NEEDTRANSLATION]"
+        "titleTabsCount": "Número de pestañas abiertas:"
     },
     "chooseFrictionLevelVcInfo":{
         "title": "¿Qué tan estricto quieres que sea Focus Bear?",
@@ -1536,7 +1536,7 @@
         "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
         "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos",
         "privacyNoteText": "Nota de Privacidad: sólo almacenamos estos datos en tu equipo local, no en nuestros servidores",
-        "timeSpentText": "Total time spent: <TIME>[NEEDTRANSLATION]"
+        "timeSpentText": "Tiempo total empleado: <TIME>"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
@@ -1644,12 +1644,12 @@
         "placeHolderLogsFeedback": "¿Qué ha sucedido?",
         "logsUploadDoneText": "Registros compartidos con éxito.",
         "logsUploadErrorText": "Ha habido algún problema al cargar los registros. Por favor, inténtalo de nuevo.",
-        "tabCommunity": "Community[NEEDTRANSLATION]",
-        "titleCommunity": "Join the Focus Bear discord server to share ideas, set up co-working/body doubling sessions and get help with the app.[NEEDTRANSLATION]",
-        "buttonJoinDiscordText": "Join Discord Server[NEEDTRANSLATION]",
-        "buttonDontUseDiscordText": "I don't use Discord[NEEDTRANSLATION]",
-        "titleChooseCommunity": "What community system would you prefer to use?[NEEDTRANSLATION]",
-        "placeHolderEnterCommunity": "Enter community name[NEEDTRANSLATION]"
+        "tabCommunity": "Comunidad",
+        "titleCommunity": "Únete al servidor de Discord de Focus Bear para compartir ideas, organizar sesiones de trabajo/doblaje de cuerpos y obtener ayuda con la aplicación.",
+        "buttonJoinDiscordText": "Unirse al servidor Discord",
+        "buttonDontUseDiscordText": "No uso Discord",
+        "titleChooseCommunity": "¿Qué sistema de comunidad preferiría usar?",
+        "placeHolderEnterCommunity": "Introducir nombre de comunidad"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -1730,12 +1730,25 @@
         "strictness_Password_UseRelaxFocusMode": "¡Navega libremente con control! Activa esta función para solicitar una contraseña cuando permitas el uso del modo Enfoque Relajado, añadiendo una capa de seguridad a tus sesiones de ocio en Internet."
     },
     "chooseHabitsVCInfo": {
-        "title": "Choose Habits:[NEEDTRANSLATION]",
-        "titleRequiredTime": "Total time required for the selected habits:[NEEDTRANSLATION]",
-        "titleCompletionTime": "Expected completion time:[NEEDTRANSLATION]",
+        "title": "Elegir Hábitos:",
+        "titleRequiredTime": "Tiempo total necesario para los hábitos seleccionados:",
+        "titleCompletionTime": "Tiempo de finalización estimado:",
         "buttonContinueText": "Continuar",
-        "subTitle": "Select the habits you want to do in this routine.[NEEDTRANSLATION]",
-        "checkBoxSelectAllText": "Select / Deselect all[NEEDTRANSLATION]"
+        "subTitle": "Selecciona los hábitos que quieres hacer en esta rutina.",
+        "checkBoxSelectAllText": "Seleccionar / Deseleccionar todo"
+    },
+    "confirmRunScriptVcInfo": {
+        "title": "Confirma que quieres ejecutar un Apple/shell script",
+        "subTitle": "Tus ajustes están configurados para ejecutar este comando antes/después de este <FOCUSMODE>. ¿Estás seguro de que quieres ejecutar esto?",
+        "titleAppleScript": "Apple Script:",
+        "titleShellScript": "Shell Script:",
+        "buttonCancelText": "No - esto da miedo",
+        "buttonContinueText": "¡Sí!",
+        "buttonDontShowAgainText": "No mostrar esto de nuevo"
+    },
+    "selectHabitsLaterInfo": {
+        "title": "Si alguna vez decides que quieres activar hábitos en el futuro, puedes abrir Preferencias en la barra de menús y hacer clic en Editar Hábitos",
+        "buttonContinueText": "Continuar"
     },
     "confirmRunScriptVcInfo": {
         "title": "Confirm you want to run a Apple/shell script[NEEDTRANSLATION]",
