@@ -1,3 +1,7 @@
+const urlParams = new URLSearchParams(window.location.search);
+const lang = urlParams?.get("lang") === LANGUAGE.ES ? LANGUAGE.ES : LANGUAGE.EN;
+const selected_lang = locale[lang];
+
 const getFocusTitle = (
   block_type,
   remainingTime,
