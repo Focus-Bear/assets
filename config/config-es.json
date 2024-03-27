@@ -71,7 +71,8 @@
         "titleChooseHabitText": "Elige el siguiente hábito a realizar entre las siguientes opciones:",
         "buttonMoreActionsText": "Más acciones",
         "buttonSelectHabitsText": "I don't have time for all these habits[NEEDTRANSLATION]",
-        "menuItemSelectHabitsText": "Select the habits to do from the list of all habits[NEEDTRANSLATION]"
+        "menuItemSelectHabitsText": "Select the habits to do from the list of all habits[NEEDTRANSLATION]",
+        "buttonTutorialText": "Tutorial[NEEDTRANSLATION]"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -176,7 +177,15 @@
         "notStartedText": "Sin Iniciar",
         "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos.",
         "comingSoonText": "Muy Pronto",
-        "newBadgeText": "Nuevo"
+        "newBadgeText": "Nuevo",
+        "urlAllowedInFocusModeText": "Url is allowed in focus mode.[NEEDTRANSLATION]",
+        "appAllowedInFocusModeText": "\"<APP>\" is allowed in \"<FOCUSMODE>\" focus mode.[NEEDTRANSLATION]",
+        "appNotAllowedInFocusModeText": "\"<APP>\" is not allowed in \"<FOCUSMODE>\" focus mode.[NEEDTRANSLATION]",
+        "cutOffTimePassedForHabitText": "It's past the cutoff time you set for this habit. Taking you to your next habit.[NEEDTRANSLATION]",
+        "doNotUSeEnoughReasonText": "I don't use it enough[NEEDTRANSLATION]",
+        "tooExpensiveReasonText": "Too expensive[NEEDTRANSLATION]",
+        "missingFeaturesReasonText": "Missing features[NEEDTRANSLATION]",
+        "tooComplicatedReasonText": "Too complicated[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -285,6 +294,14 @@
             "dropDownRelax": {
                 "title": "Quiero relajarme un rato sin restricciones",
                 "description": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto."
+            },
+            "dropDownAppNotWorking": {
+                "title": "App not working properly[NEEDTRANSLATION]",
+                "description": "Oh no! Lo sentimos mucho. Desactivaremos todas las ventanas emergentes. ¿Puedes por favor decirnos qué pasó?",
+                "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto.",
+                "reasonFocusMode": "My focus modes are not working properly[NEEDTRANSLATION]",
+                "reasonHabits": "My habits are not working properly[NEEDTRANSLATION]",
+                "reasonBlocking": "The blocking features are not working properly[NEEDTRANSLATION]"
             }
         },
         "askQuitVcInfo": {
@@ -318,7 +335,10 @@
         "shutOffAbortDoneInfo": {
             "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses tu computadora muy tarde en la noche. Estamos desbloqueando tu computadora ahora. Tu rutina matutina aún se activará a las <STARTTIME>. Espero que puedas recuperar el sueño durante el día.",
             "unlockingText": "Desbloqueo en"
-        }
+        },
+        "titleUpEarly": "Up early?[NEEDTRANSLATION]",
+        "buttonStartMorningRoutineText": "Start morning routine[NEEDTRANSLATION]",
+        "buttonWorkEmergencyText": "Work emergency - start focusing[NEEDTRANSLATION]"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -711,7 +731,11 @@
         "alertExtendPostponeText": "La duración del enfoque es mayor que la duración de posponer el hábito.",
         "alertExtendPostponeDescription": "Es posible que quieras ampliar la duración del aplazamiento para que coincida con la duración de la sesión de enfoque. Haz clic en el botón deseado para iniciar la sesión de enfoque.",
         "buttonExtendPostponeText": "Extender la duración de posponer",
-        "buttonDoNotExtendPostponeText": "No extender la duración de posponer"
+        "buttonDoNotExtendPostponeText": "No extender la duración de posponer",
+        "tourSelectTasks": "Select tasks[NEEDTRANSLATION]",
+        "descriptionSelectTasks": "Choose tasks to focus on from Focus Bear's inbuilt to do list[NEEDTRANSLATION]",
+        "tourIntention": "Freeform intention[NEEDTRANSLATION]",
+        "descriptionIntention": "If you don't want to bother creating tasks, you can write a quick intention for what you'll do during this focus session[NEEDTRANSLATION]"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -1725,6 +1749,21 @@
     "selectHabitsLaterInfo": {
         "title": "If you ever decide you want to activate habits in the future, you can open Preferences from the menu bar and click Edit Habits[NEEDTRANSLATION]",
         "buttonContinueText": "Continuar"
+    },
+    "createTaskVcInfo": {
+        "title": "Focus Bear - Create New Task[NEEDTRANSLATION]",
+        "titleName": "Title[NEEDTRANSLATION]",
+        "titleDescription": "Description[NEEDTRANSLATION]",
+        "titleIntention": "Why do you want to do this task? How will you motivate yourself to do this task?[NEEDTRANSLATION]",
+        "titleDueDate": "Due Date[NEEDTRANSLATION]",
+        "titleElsenhower": "Elsenhower quadrant[NEEDTRANSLATION]",
+        "titleProjects": "Projects[NEEDTRANSLATION]",
+        "elsenhowerQuadrantOptions": ["Urgent and Important[NEEDTRANSLATION]", "Important but not urgent[NEEDTRANSLATION]", "Not important and urgent[NEEDTRANSLATION]", "Not important and not urgent[NEEDTRANSLATION]"],
+        "buttonCreateText": "Create[NEEDTRANSLATION]",
+        "titleCreateTask": "Create a task[NEEDTRANSLATION]",
+        "titleDueDate": "With due date[NEEDTRANSLATION]",
+        "titleDay": "(<NUMBER> Day)[NEEDTRANSLATION]",
+        "titleDays": "(<NUMBER> Days)[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
