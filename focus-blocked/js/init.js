@@ -148,7 +148,12 @@ const focus_mode = urlParams.get("focus_mode");
 const block_type = urlParams.get("block_type");
 const cuddlyBearMode = urlParams.get("cuddly_bear_mode");
 const blocked_reason = urlParams.get("reason");
-const encouraging_info = JSON.parse(urlParams.get("encouraging_info"));
+let encouraging_info = {};
+try {
+  encouraging_info = JSON.parse(urlParams.get("encouraging_info"));
+} catch (e) {
+  console.warn('invalid encouraging_info')
+}
 const longTermGoals = encouraging_info?.long_term_goals ?? [];
 const focusedTime = encouraging_info?.focused_time ?? 0;
 const focusBlocksCompleted = urlParams.get("focusBlocksCompleted");
