@@ -1,3 +1,22 @@
+# v1.6.265 (Mar 28 - 2024)
+## New Features
+- As early as 4 hours before your morning schedule, you have the option to start you morning routine early.  If you have not done your evening routine yet at this time, then you are provided the option to start either your evening routine or your morning routine.
+- A menu tooltip will show whether the app or URL you are accessing is allowed or not.
+- You can set individual cut-off times for each "Must do" activity in your evening routine.
+- You can create a new task by clicking and dragging the Menu icon. The task's due date is defined by how far you drag the line.
+- You can embed a tutorial course as part of a habit activity.
+- Option to completely skip the entire break if you try to skip an activity.
+- Show a popup with the number of tabs open for each browser when you exceed the tab limit of the Browser Tab Limiter feature.
+
+## Bug Fixes/Improvements
+- Optimized for faster menu response.
+- Fix for when a paused activity restarts if it crosses over to the next day.
+- To get better feedback when quitting or uninstalling the app, the options for quit/uninstall reasons have been modified to be more descriptive.
+- The Start Pomodoro screen is shown if you choose to start another focus block at the end of a focus session.
+- UI fixes for smaller screens
+- You can edit the URL in the list of sites/apps that you allowed during a focus mode.
+- Skip Microbreaks option is set by default when starting a focus mode.
+
 # v1.3.257 (Mar 4 - 2024)
 ## New Features
 - When a site has been allowed by AI blocking, you can check the reason why it was allowed by hovering over the Focus Bear icon in the top menu bar.
