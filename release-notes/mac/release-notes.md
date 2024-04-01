@@ -1,6 +1,6 @@
 # v1.6.265 (Mar 28 - 2024)
 ## New Features
-- As early as 4 hours before your morning schedule, you have the option to start you morning routine early.  If you have not done your evening routine yet at this time, then you are provided the option to start either your evening routine or your morning routine.
+- If you start using your Mac early in the morning (4 hours before your morning schedule), you now have the option to start your morning routine early.  If you have not done your evening routine yet at this time, then you are provided the option to start either your evening routine or your morning routine.
 - A menu tooltip will show whether the app or URL you are accessing is allowed or not.
 - You can set individual cut-off times for each "Must do" activity in your evening routine.
 - You can create a new task by clicking and dragging the Menu icon. The task's due date is defined by how far you drag the line.
