@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   font-family: fenwick, sans-serif;
   position: relative;
 }
@@ -58,12 +58,13 @@
 }
 
 #focusTipWrapper {
+  width: 80dvw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 62vh;
+  color: chocolate;
+  text-align: justify;
 }
 
 .tipText {
