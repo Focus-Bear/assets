@@ -114,7 +114,7 @@ const locale = {
   dentro de Focus Bear. Todo lo que hagas en otras aplicaciones es confidencial y
   no guardamos ningún registro de ello. Más información en
   <a href="https://www.focusbear.io/en/privacy-policy" target="_blank"
-    >our privacy policy</a
+    >nuestra política de privacidad</a
   >`,
     privacy_button:
       "🙈 Alerta de privacidad: no rastreamos tu historial de navegación. Más información.",
