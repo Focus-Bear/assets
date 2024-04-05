@@ -10,10 +10,8 @@ const url_always_block_instruction = instructions(
   focusBlocksCompleted,
   totalFocusBlocksCompleted
 );
-
 if (block_type) {
-  document.getElementById('focusTitle').textContent =
-    focus_blocked_message.title;
+  focusTitle.textContent = focus_blocked_message.title;
   if (
     [
       FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
@@ -22,13 +20,17 @@ if (block_type) {
   ) {
     const instruction = document.createElement('div');
     instruction.innerHTML = url_always_block_instruction;
-    document.getElementById('progressWrapper').appendChild(instruction);
+    focusProgressWrapper.appendChild(instruction);
   } else {
-    document.getElementById(
-      'focusTipWrapper'
-    ).innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`;
+    const durationElement = document.createElement('h2');
+    durationElement.innerText = selected_lang.focus_block_duration_subtitle(
+      moment().startOf('date').add(focusedTime, 'seconds').format('HH:mm')
+    );
+
+    focusProgressWrapper.appendChild(durationElement);
+    focusTipWrapper.innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`;
     document.getElementById('showFocusTip').onclick = function () {
-      document.getElementById('focusTipWrapper').innerHTML = focus_tip;
+      focusTipWrapper.innerHTML = focus_tip;
     };
   }
 } else {
@@ -36,8 +38,7 @@ if (block_type) {
     ? Storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
     : Storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
 
-  document.getElementById('focusTitle').innerText =
-    "Let's keep the focus on " + focus_mode;
+  focusTitle.innerText = "Let's keep the focus on " + focus_mode;
 
   let refreshIntervalId = setInterval(
     () => {

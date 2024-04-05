@@ -47,6 +47,7 @@ let focusProgressWrapper = document.getElementById('progressWrapper');
 let focusBlockedUrl = document.getElementById('originalUrl');
 let longTermGoalsTitle = document.getElementById('longTermGoalsTitle');
 let longTermGoalsContainer = document.getElementById('longTermGoalsContainer');
+let focusTipWrapper = document.getElementById('focusTipWrapper');
 
 //@Description: it supports for older versions of the app
 if (!unblockBtn) {
@@ -62,5 +63,5 @@ if (longTermGoalsTitle) {
     selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
 }
 unblockBtn.textContent = selected_lang.yes_i_actually_need_it;
-document.getElementsByClassName('popupClose').textContent =
+document.getElementById('popupClose').textContent =
   selected_lang.you_re_right_get_this_site_away_from_me;

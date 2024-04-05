@@ -15,6 +15,7 @@ const FOCUS_BLOCK_OPTION = {
   FOCUS_BLOCK_ALWAYS_OLD: 'always-blocked',
   MORNING: 'morning',
   EVENING: 'evening',
+  EVENING_HABIT: 'evening-habit',
 };
 
 const LANGUAGE = {

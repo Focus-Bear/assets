@@ -62,12 +62,13 @@ const locale = {
       "Err..you're right - get this site away from me!",
     click_here_to_edit_your_long_term_goals:
       'Click here to edit your long term goals',
+    focus_block_duration_subtitle: (duration) => `Duration: ${duration}`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
-      "Bloqueado porque estás haciendo tu rutina matutina",
+      'Bloqueado porque estás haciendo tu rutina matutina',
     blocked_because_you_are_doing_your_evening_routine:
-      "Bloqueado porque estás haciendo tu rutina nocturna",
+      'Bloqueado porque estás haciendo tu rutina nocturna',
     focus_block_inprogress_title: 'Buen trabajo',
     focus_block_inprogress_subtitle: (remainingTime, focusBlockCompleted) =>
       `te has concentrado durante ${remainingTime} ${
@@ -77,8 +78,7 @@ const locale = {
       }`,
     focus_block_inprogress_additionalInfo: (remainingTime) =>
       `Solo ${remainingTime} para el final de tu sesión de enfoque.`,
-    focus_block_over_title:
-      '¡Felicidades por terminar tu sesión de enfoque!',
+    focus_block_over_title: '¡Felicidades por terminar tu sesión de enfoque!',
     focus_block_over_subtitle: (focusBlockCompleted, totalFocusBlocked) =>
       `${
         focusBlockCompleted
@@ -90,16 +90,16 @@ const locale = {
           : ''
       }`,
     focus_block_over_additionalInfo:
-      "Sigue así y avanzarás rápidamente hacia tus objetivos a largo plazo.",
+      'Sigue así y avanzarás rápidamente hacia tus objetivos a largo plazo.',
     this_site_is_always_blocked: 'Este sitio está siempre bloqueado',
     url_is_configured_to_be_always_blocked: (url) =>
       ` ${url} está configurado para estar siempre bloqueado. Haz clic aquí para obtener instrucciones para desbloquearlo.`,
     click_here_to_re_open_the_original_url: (url) =>
       `Haz clic aquí para volver a abrir la URL original ${url ?? ''}`,
     is_this_sub_reddit_actually_productive:
-      "¿Es este subreddit realmente productivo? Si es así, puedes añadirlo a la lista de permitidos de tu Modo de Enfoque pero seguir bloqueando el resto de Reddit.",
+      '¿Es este subreddit realmente productivo? Si es así, puedes añadirlo a la lista de permitidos de tu Modo de Enfoque pero seguir bloqueando el resto de Reddit.',
     is_this_video_actually_productive:
-      "¿Este vídeo es realmente productivo? Si es así, puedes añadirlo a la lista de permitidos de tu Modo de Enfoque pero bloquear el resto de Youtube.",
+      '¿Este vídeo es realmente productivo? Si es así, puedes añadirlo a la lista de permitidos de tu Modo de Enfoque pero bloquear el resto de Youtube.',
     focus_tip: (
       focus_mode,
       old_url
@@ -117,7 +117,7 @@ const locale = {
     >nuestra política de privacidad</a
   >`,
     privacy_button:
-      "🙈 Alerta de privacidad: no rastreamos tu historial de navegación. Más información.",
+      '🙈 Alerta de privacidad: no rastreamos tu historial de navegación. Más información.',
     oops_i_actually_need_this:
       'Oops en realidad necesito esto - desbloquearlo para mí',
     every_focus_session_you_complete_is_taking_you_towards_long_term_goals:
@@ -125,8 +125,10 @@ const locale = {
     are_you_sure: '¿Estás 100% seguro?',
     yes_i_actually_need_it: 'Sí, realmente lo necesito',
     you_re_right_get_this_site_away_from_me:
-      "Err... tienes razón - ¡aleja este sitio de mí!",
+      'Err... tienes razón - ¡aleja este sitio de mí!',
     click_here_to_edit_your_long_term_goals:
       'Haz clic aquí para editar tus objetivos a largo plazo',
+    focus_block_duration_subtitle: (duration) =>
+      `NEEDS TRANSLATION Duration: ${duration}`,
   },
 };
