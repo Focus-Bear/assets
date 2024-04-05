@@ -62,7 +62,8 @@ const locale = {
       "Err..you're right - get this site away from me!",
     click_here_to_edit_your_long_term_goals:
       'Click here to edit your long term goals',
-    focus_block_duration_subtitle: (duration) => `Duration: ${duration}`,
+    focus_block_duration_subtitle: (duration) =>
+      `You've been doing great - ${duration} already spent focused`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -129,6 +130,6 @@ const locale = {
     click_here_to_edit_your_long_term_goals:
       'Haz clic aquí para editar tus objetivos a largo plazo',
     focus_block_duration_subtitle: (duration) =>
-      `NEEDS TRANSLATION Duration: ${duration}`,
+      `NEEDS TRANSLATION You've been doing great - ${duration} already spent focused`,
   },
 };
