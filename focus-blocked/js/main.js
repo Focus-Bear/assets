@@ -24,7 +24,7 @@ if (block_type) {
   } else {
     const durationElement = document.createElement('h2');
     durationElement.innerText = selected_lang.focus_block_duration_subtitle(
-      moment().startOf('date').add(focusedTime, 'seconds').format('HH:mm')
+      moment().startOf('date').add(focusedTime, 'seconds').format('HH[h]:mm[m]')
     );
 
     focusProgressWrapper.appendChild(durationElement);
