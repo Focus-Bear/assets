@@ -185,7 +185,9 @@
         "doNotUSeEnoughReasonText": "I don't use it enough",
         "tooExpensiveReasonText": "Too expensive",
         "missingFeaturesReasonText": "Missing features",
-        "tooComplicatedReasonText": "Too complicated"
+        "tooComplicatedReasonText": "Too complicated",
+        "tabBlockedListText": "Blocked List",
+        "titleAccountProgress": "Account Progress"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -338,7 +340,8 @@
         },
         "titleUpEarly": "Up early?",
         "buttonStartMorningRoutineText": "Start morning routine",
-        "buttonWorkEmergencyText": "Work emergency - start focusing"
+        "buttonWorkEmergencyText": "Work emergency - start focusing",
+        "buttonCompleteEveningRoutineText": "Complete your evening routine"
     },
     "settings": {
         "title": "Enter settings JSON below:",
@@ -1119,6 +1122,7 @@
         "questionText": "What are your goals?",
         "checkBoxFirstText": "Build healthy habits",
         "checkBoxSecondText": "Stay focused at work",
+        "checkBoxSecondText_study": "Stay focused at study",
         "buttonContinueText": "Continue",
         "titleSelectHabitPack": "Choose a habit pack to get started",
         "morningRoutineText": "Morning routine duration:",
@@ -1138,7 +1142,7 @@
         "selectOneText": "Select one that apply",
         "buttonDontCareText": "Meh - don't really care",
         "buttonNotCommittedText": "I probably should do habits but am not that committed",
-        "buttonCommittedText": "Super committed - this is the main reason i ant to use Focus Bear",
+        "buttonCommittedText": "Super committed - this is the main reason i want to use Focus Bear",
         "subTitle": "Set your Goals and Preferences",
         "resultFocusOnlyText": "Ok no worries. We'll let you focus on focusing!",
         "resultNoHabitsText": "Got it. We won't activate the habit features for now but you can activate them later.",
@@ -1320,12 +1324,17 @@
         "questionText": "When do you want to start and finish work?",
         "questionStartWorkTimeText": "What time do you start work?",
         "questionFinishWorkTimeText": "What time do you finish work?",
+        "questionText_study": "When do you want to start and finish study?",
+        "questionStartWorkTimeText_study": "What time do you start study?",
+        "questionFinishWorkTimeText_study": "What time do you finish study?",
         "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "explanationTextWIN": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "titleTimeText": "Your schedule looks like:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)",
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Work",
+        "prepareToStartWorkTimeText_study": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start study (buffer time)",
+        "workTimeText_study": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Study",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.",
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "questionSleepTimeText": "What time do you want to go to sleep?",
@@ -1762,6 +1771,19 @@
         "titleDueDate": "With due date",
         "titleDay": "(<NUMBER> Day)",
         "titleDays": "(<NUMBER> Days)"
+    },
+    "askOccupationVcInfo": {
+        "subTitle": "Which of the following best describes your occupation?",
+        "description": "This will be used to recommend the most suitable features for your work.",
+        "arrayOccupations": ["University student"," Software dev", "Graphic designer", "Business owner", "Other office work", "Field worker (not in front of computer)", "Parent (setting it up for child)", "Other"]
+    },
+    "geekModeInfo": {
+        "titleGeekMode": "🤓 Geek Mode",
+        "titleSimpleMode": "😎 Simple Mode",
+        "tooltipGeekMode": "Geek Mode active! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode",
+        "tooltipSimpleMode": "Simple Mode active - only basic features shown. Toggle the switch to activate Geek Mode",
+        "alertGeekModeEnabled": "You’ve activated Geek Mode! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode",
+        "alertSimpleModeEnabled": "Simple Mode active - only basic features shown. Focus modes, pomodoros etc. are no longer available. Toggle the switch to go back to Geek Mode."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {

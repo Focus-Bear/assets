@@ -185,7 +185,9 @@
         "doNotUSeEnoughReasonText": "I don't use it enough[NEEDTRANSLATION]",
         "tooExpensiveReasonText": "Too expensive[NEEDTRANSLATION]",
         "missingFeaturesReasonText": "Missing features[NEEDTRANSLATION]",
-        "tooComplicatedReasonText": "Too complicated[NEEDTRANSLATION]"
+        "tooComplicatedReasonText": "Too complicated[NEEDTRANSLATION]",
+        "tabBlockedListText": "Blocked List[NEEDTRANSLATION]",
+        "titleAccountProgress": "Account Progress[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -338,7 +340,8 @@
         },
         "titleUpEarly": "Up early?[NEEDTRANSLATION]",
         "buttonStartMorningRoutineText": "Start morning routine[NEEDTRANSLATION]",
-        "buttonWorkEmergencyText": "Work emergency - start focusing[NEEDTRANSLATION]"
+        "buttonWorkEmergencyText": "Work emergency - start focusing[NEEDTRANSLATION]",
+        "buttonCompleteEveningRoutineText": "Complete your evening routine[NEEDTRANSLATION]"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -1121,6 +1124,7 @@
         "questionText": "¿Cuáles son tus metas?",
         "checkBoxFirstText": "Desarrollar hábitos saludables",
         "checkBoxSecondText": "Estar concentrado/a en el trabajo",
+        "checkBoxSecondText_study": "Stay focused at study[NEEDTRANSLATION]",
         "buttonContinueText": "Continuar",
         "titleSelectHabitPack": "Elige un paquete de hábitos para empezar",
         "morningRoutineText": "Duración de rutina matutina:",
@@ -1322,12 +1326,17 @@
         "questionText": "¿Cuándo quiere empezar y terminar de trabajar?",
         "questionStartWorkTimeText": "¿A qué hora empiezas a trabajar?",
         "questionFinishWorkTimeText": "¿A qué hora terminas de trabajar?",
+        "questionText_study": "When do you want to start and finish study?[NEEDTRANSLATION]",
+        "questionStartWorkTimeText_study": "What time do you start study?[NEEDTRANSLATION]",
+        "questionFinishWorkTimeText_study": "What time do you finish study?[NEEDTRANSLATION]",
         "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "explanationTextWIN": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Hacer Rutina Nocturna.\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "titleTimeText": "Tu horario se ve así:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo",
+        "prepareToStartWorkTimeText_study": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start study (buffer time)[NEEDTRANSLATION]",
+        "workTimeText_study": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Study[NEEDTRANSLATION]",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna",
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
         "questionSleepTimeText": "¿A qué hora te quieres ir a dormir?",
@@ -1750,19 +1759,6 @@
         "title": "Si alguna vez decides que quieres activar hábitos en el futuro, puedes abrir Preferencias en la barra de menús y hacer clic en Editar Hábitos",
         "buttonContinueText": "Continuar"
     },
-    "confirmRunScriptVcInfo": {
-        "title": "Confirm you want to run a Apple/shell script[NEEDTRANSLATION]",
-        "subTitle": "Your settings are configured to run this command before/after this <FOCUSMODE>. Are you sure you want to run this?[NEEDTRANSLATION]",
-        "titleAppleScript": "Apple Script:[NEEDTRANSLATION]",
-        "titleShellScript": "Shell Script:[NEEDTRANSLATION]",
-        "buttonCancelText": "No - this looks scary[NEEDTRANSLATION]",
-        "buttonContinueText": "Yup![NEEDTRANSLATION]",
-        "buttonDontShowAgainText": "Don't show this again[NEEDTRANSLATION]"
-    },
-    "selectHabitsLaterInfo": {
-        "title": "If you ever decide you want to activate habits in the future, you can open Preferences from the menu bar and click Edit Habits[NEEDTRANSLATION]",
-        "buttonContinueText": "Continuar"
-    },
     "createTaskVcInfo": {
         "title": "Focus Bear - Create New Task[NEEDTRANSLATION]",
         "titleName": "Title[NEEDTRANSLATION]",
@@ -1777,6 +1773,19 @@
         "titleDueDate": "With due date[NEEDTRANSLATION]",
         "titleDay": "(<NUMBER> Day)[NEEDTRANSLATION]",
         "titleDays": "(<NUMBER> Days)[NEEDTRANSLATION]"
+    },
+    "askOccupationVcInfo": {
+        "subTitle": "Which of the following best describes your occupation?[NEEDTRANSLATION]",
+        "description": "This will be used to recommend the most suitable features for your work.[NEEDTRANSLATION]",
+        "arrayOccupations": ["University student[NEEDTRANSLATION]"," Software dev[NEEDTRANSLATION]", "Graphic designer[NEEDTRANSLATION]", "Business owner[NEEDTRANSLATION]", "Other office work[NEEDTRANSLATION]", "Field worker (not in front of computer)[NEEDTRANSLATION]", "Parent (setting it up for child)[NEEDTRANSLATION]", "Other[NEEDTRANSLATION]"]
+    },
+    "geekModeInfo": {
+        "titleGeekMode": "🤓 Geek Mode[NEEDTRANSLATION]",
+        "titleSimpleMode": "😎 Simple Mode[NEEDTRANSLATION]",
+        "tooltipGeekMode": "Geek Mode active! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode[NEEDTRANSLATION]",
+        "tooltipSimpleMode": "Simple Mode active - only basic features shown. Toggle the switch to activate Geek Mode[NEEDTRANSLATION]",
+        "alertGeekModeEnabled": "You’ve activated Geek Mode! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode[NEEDTRANSLATION]",
+        "alertSimpleModeEnabled": "Simple Mode active - only basic features shown. Focus modes, pomodoros etc. are no longer available. Toggle the switch to go back to Geek Mode.[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
