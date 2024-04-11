@@ -72,7 +72,7 @@
         "buttonMoreActionsText": "Más acciones",
         "buttonSelectHabitsText": "No tengo tiempo para todos estos hábitos",
         "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos",
-        "buttonTutorialText": "Tutorial[NEEDTRANSLATION]"
+        "buttonTutorialText": "Tutorial"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -90,7 +90,7 @@
         "daysRemainingText": "Versión de prueba - <DAYS> de 7 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
-        "buttonStatusStateCallText": "LLAMAR",
+        "buttonStatusStateCallText": "LLAMADA",
         "uninstallConfirmText": "¿Estás seguro que quieres abandonar todos tus hábitos y desinstalar Focus Bear?",
         "yesText": "Sí",
         "noText": "No",
@@ -178,14 +178,14 @@
         "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos.",
         "comingSoonText": "Muy Pronto",
         "newBadgeText": "Nuevo",
-        "urlAllowedInFocusModeText": "Url is allowed in focus mode.[NEEDTRANSLATION]",
-        "appAllowedInFocusModeText": "\"<APP>\" is allowed in \"<FOCUSMODE>\" focus mode.[NEEDTRANSLATION]",
-        "appNotAllowedInFocusModeText": "\"<APP>\" is not allowed in \"<FOCUSMODE>\" focus mode.[NEEDTRANSLATION]",
-        "cutOffTimePassedForHabitText": "It's past the cutoff time you set for this habit. Taking you to your next habit.[NEEDTRANSLATION]",
-        "doNotUSeEnoughReasonText": "I don't use it enough[NEEDTRANSLATION]",
-        "tooExpensiveReasonText": "Too expensive[NEEDTRANSLATION]",
-        "missingFeaturesReasonText": "Missing features[NEEDTRANSLATION]",
-        "tooComplicatedReasonText": "Too complicated[NEEDTRANSLATION]",
+        "urlAllowedInFocusModeText": "La URL está permitida en el modo de enfoque.",
+        "appAllowedInFocusModeText": "\"<APP>\" está permitido/a en el modo de enfoque \"<FOCUSMODE>\" ",
+        "appNotAllowedInFocusModeText": "\"<APP>\" no está permitido/a en el modo de enfoque \"<FOCUSMODE>\" ",
+        "cutOffTimePassedForHabitText": "Ha pasado la hora límite que fijaste para este hábito. Llevándote a tu siguiente hábito.",
+        "doNotUSeEnoughReasonText": "No lo uso lo suficiente",
+        "tooExpensiveReasonText": "Demasiado caro",
+        "missingFeaturesReasonText": "Ausencia de funciones",
+        "tooComplicatedReasonText": "Demasiado complicado",
         "tabBlockedListText": "Blocked List[NEEDTRANSLATION]",
         "titleAccountProgress": "Account Progress[NEEDTRANSLATION]"
     },
@@ -298,12 +298,12 @@
                 "description": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto."
             },
             "dropDownAppNotWorking": {
-                "title": "App not working properly[NEEDTRANSLATION]",
+                "title": "La app no funciona correctamente",
                 "description": "Oh no! Lo sentimos mucho. Desactivaremos todas las ventanas emergentes. ¿Puedes por favor decirnos qué pasó?",
                 "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto.",
-                "reasonFocusMode": "My focus modes are not working properly[NEEDTRANSLATION]",
-                "reasonHabits": "My habits are not working properly[NEEDTRANSLATION]",
-                "reasonBlocking": "The blocking features are not working properly[NEEDTRANSLATION]"
+                "reasonFocusMode": "Mis modos de enfoque no funcionan correctamente",
+                "reasonHabits": "Mis hábitos no funcionan correctamente",
+                "reasonBlocking": "Las funciones de bloque no funcionan correctamente"
             }
         },
         "askQuitVcInfo": {
@@ -338,9 +338,9 @@
             "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses tu computadora muy tarde en la noche. Estamos desbloqueando tu computadora ahora. Tu rutina matutina aún se activará a las <STARTTIME>. Espero que puedas recuperar el sueño durante el día.",
             "unlockingText": "Desbloqueo en"
         },
-        "titleUpEarly": "Up early?[NEEDTRANSLATION]",
-        "buttonStartMorningRoutineText": "Start morning routine[NEEDTRANSLATION]",
-        "buttonWorkEmergencyText": "Work emergency - start focusing[NEEDTRANSLATION]",
+        "titleUpEarly": "¿Despierto/a temprano?",
+        "buttonStartMorningRoutineText": "Iniciar rutina matutina",
+        "buttonWorkEmergencyText": "Emergencia laboral - iniciar enfoque",
         "buttonCompleteEveningRoutineText": "Complete your evening routine[NEEDTRANSLATION]"
     },
     "settings": {
@@ -735,10 +735,10 @@
         "alertExtendPostponeDescription": "Es posible que quieras ampliar la duración del aplazamiento para que coincida con la duración de la sesión de enfoque. Haz clic en el botón deseado para iniciar la sesión de enfoque.",
         "buttonExtendPostponeText": "Extender la duración de posponer",
         "buttonDoNotExtendPostponeText": "No extender la duración de posponer",
-        "tourSelectTasks": "Select tasks[NEEDTRANSLATION]",
-        "descriptionSelectTasks": "Choose tasks to focus on from Focus Bear's inbuilt to do list[NEEDTRANSLATION]",
-        "tourIntention": "Freeform intention[NEEDTRANSLATION]",
-        "descriptionIntention": "If you don't want to bother creating tasks, you can write a quick intention for what you'll do during this focus session[NEEDTRANSLATION]"
+        "tourSelectTasks": "Elegir tareas",
+        "descriptionSelectTasks": "Elige las tareas en las que deseas centrarte de la lista de tareas incorporada de Focus Bear.",
+        "tourIntention": "Intención libre",
+        "descriptionIntention": "Si no quieres complicarte creando tareas, puedes escribir una intención rápida de lo que harás durante esta sesión de enfoque"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -1760,19 +1760,19 @@
         "buttonContinueText": "Continuar"
     },
     "createTaskVcInfo": {
-        "title": "Focus Bear - Create New Task[NEEDTRANSLATION]",
-        "titleName": "Title[NEEDTRANSLATION]",
-        "titleDescription": "Description[NEEDTRANSLATION]",
-        "titleIntention": "Why do you want to do this task? How will you motivate yourself to do this task?[NEEDTRANSLATION]",
-        "titleDueDate": "Due Date[NEEDTRANSLATION]",
-        "titleElsenhower": "Elsenhower quadrant[NEEDTRANSLATION]",
-        "titleProjects": "Projects[NEEDTRANSLATION]",
-        "elsenhowerQuadrantOptions": ["Urgent and Important[NEEDTRANSLATION]", "Important but not urgent[NEEDTRANSLATION]", "Not important and urgent[NEEDTRANSLATION]", "Not important and not urgent[NEEDTRANSLATION]"],
-        "buttonCreateText": "Create[NEEDTRANSLATION]",
-        "titleCreateTask": "Create a task[NEEDTRANSLATION]",
-        "titleDueDate": "With due date[NEEDTRANSLATION]",
-        "titleDay": "(<NUMBER> Day)[NEEDTRANSLATION]",
-        "titleDays": "(<NUMBER> Days)[NEEDTRANSLATION]"
+        "title": "Focus Bear - Crear Nueva Tarea",
+        "titleName": "Título",
+        "titleDescription": "Descripción",
+        "titleIntention": "¿Por qué quieres hacer esta tarea? ¿Cómo te motivarás para hacer esta tarea?",
+        "titleDueDate": "Fecha límite",
+        "titleElsenhower": "Cuadrante de Elsenhower",
+        "titleProjects": "Proyectos",
+        "elsenhowerQuadrantOptions": ["Urgente e Importante", "Importante pero no urgente", "No importante pero urgente", "No importante y no urgente"],
+        "buttonCreateText": "Crear",
+        "titleCreateTask": "Crear una tarea",
+        "titleDueDate": "Con fecha límite",
+        "titleDay": "(Día <NUMBER>)",
+        "titleDays": "(Días <NUMBER>)"
     },
     "askOccupationVcInfo": {
         "subTitle": "Which of the following best describes your occupation?[NEEDTRANSLATION]",
