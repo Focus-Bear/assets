@@ -940,7 +940,7 @@
         "buttonCancelHabitText": "No, no me interesa ahora"
 
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/profile",
+    "upgradeNowUrl": "https://dashboard.focusbear.io/manage-subscription",
     "customLoginVcInfo": {
         "titleSignIn": "Iniciar sesión",
         "titleSignUp": "Registrarse",
