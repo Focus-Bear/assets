@@ -71,7 +71,8 @@
         "titleChooseHabitText": "Choose the next habit to do from the following options:",
         "buttonMoreActionsText": "More Actions",
         "buttonSelectHabitsText": "I don't have time for all these habits",
-        "menuItemSelectHabitsText": "Select the habits to do from the list of all habits"
+        "menuItemSelectHabitsText": "Select the habits to do from the list of all habits",
+        "buttonTutorialText": "Tutorial"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -176,7 +177,17 @@
         "notStartedText": "Not Started",
         "cutOffTimePassedsubTitle": "Your high priority habits will start after 5 seconds.",
         "comingSoonText": "Coming Soon",
-        "newBadgeText": "New"
+        "newBadgeText": "New",
+        "urlAllowedInFocusModeText": "Url is allowed in focus mode.",
+        "appAllowedInFocusModeText": "\"<APP>\" is allowed in \"<FOCUSMODE>\" focus mode.",
+        "appNotAllowedInFocusModeText": "\"<APP>\" is not allowed in \"<FOCUSMODE>\" focus mode.",
+        "cutOffTimePassedForHabitText": "It's past the cutoff time you set for this habit. Taking you to your next habit.",
+        "doNotUSeEnoughReasonText": "I don't use it enough",
+        "tooExpensiveReasonText": "Too expensive",
+        "missingFeaturesReasonText": "Missing features",
+        "tooComplicatedReasonText": "Too complicated",
+        "tabBlockedListText": "Blocked List",
+        "titleAccountProgress": "Account Progress"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -285,6 +296,14 @@
             "dropDownRelax": {
                 "title": "I want to relax for a while without restrictions",
                 "description": "We hope you will start the habits back soon! See you soon."
+            },
+            "dropDownAppNotWorking": {
+                "title": "App not working properly",
+                "description": "Oh no! We're really sorry. Can you please let us know what happened?﹡",
+                "finalDescription": "Thanks for letting us know. We'll fix it ASAP.",
+                "reasonFocusMode": "My focus modes are not working properly",
+                "reasonHabits": "My habits are not working properly",
+                "reasonBlocking": "The blocking features are not working properly"
             }
         },
         "askQuitVcInfo": {
@@ -318,7 +337,11 @@
         "shutOffAbortDoneInfo": {
             "subTitle": "Sorry to hear that something bad has happened and you absolutely need to use your computer late at night. We’re unlocking your machine now. Your morning routine will still activate at <STARTTIME>. Hope you’re able to catch up on sleep during the day.",
             "unlockingText": "Unlocking in"
-        }
+        },
+        "titleUpEarly": "Up early?",
+        "buttonStartMorningRoutineText": "Start morning routine",
+        "buttonWorkEmergencyText": "Work emergency - start focusing",
+        "buttonCompleteEveningRoutineText": "Complete your evening routine"
     },
     "settings": {
         "title": "Enter settings JSON below:",
@@ -711,7 +734,11 @@
         "alertExtendPostponeText": "Focus duration is longer than habit postpone duration.",
         "alertExtendPostponeDescription": "You may want to extend the postpone duration to match the focus session duration. Click on the desired button to start the focus session.",
         "buttonExtendPostponeText": "Extend postpone duration",
-        "buttonDoNotExtendPostponeText": "Do not extend postpone duration"
+        "buttonDoNotExtendPostponeText": "Do not extend postpone duration",
+        "tourSelectTasks": "Select tasks",
+        "descriptionSelectTasks": "Choose tasks to focus on from Focus Bear's inbuilt to do list",
+        "tourIntention": "Freeform intention",
+        "descriptionIntention": "If you don't want to bother creating tasks, you can write a quick intention for what you'll do during this focus session"
     },
     "logQuantityInfo": {
         "title": "Log Quantity of activity",
@@ -911,7 +938,7 @@
         "buttonOkShowHabitText": "OK fine - show me the habit feature",
         "buttonCancelHabitText": "No I'm not interested right now"
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/profile",
+    "upgradeNowUrl": "https://dashboard.focusbear.io/manage-subscription",
     "customLoginVcInfo": {
         "titleSignIn": "Sign In",
         "titleSignUp": "Sign Up",
@@ -1095,6 +1122,7 @@
         "questionText": "What are your goals?",
         "checkBoxFirstText": "Build healthy habits",
         "checkBoxSecondText": "Stay focused at work",
+        "checkBoxSecondText_study": "Stay focused at study",
         "buttonContinueText": "Continue",
         "titleSelectHabitPack": "Choose a habit pack to get started",
         "morningRoutineText": "Morning routine duration:",
@@ -1114,7 +1142,7 @@
         "selectOneText": "Select one that apply",
         "buttonDontCareText": "Meh - don't really care",
         "buttonNotCommittedText": "I probably should do habits but am not that committed",
-        "buttonCommittedText": "Super committed - this is the main reason i ant to use Focus Bear",
+        "buttonCommittedText": "Super committed - this is the main reason i want to use Focus Bear",
         "subTitle": "Set your Goals and Preferences",
         "resultFocusOnlyText": "Ok no worries. We'll let you focus on focusing!",
         "resultNoHabitsText": "Got it. We won't activate the habit features for now but you can activate them later.",
@@ -1296,12 +1324,17 @@
         "questionText": "When do you want to start and finish work?",
         "questionStartWorkTimeText": "What time do you start work?",
         "questionFinishWorkTimeText": "What time do you finish work?",
+        "questionText_study": "When do you want to start and finish study?",
+        "questionStartWorkTimeText_study": "What time do you start study?",
+        "questionFinishWorkTimeText_study": "What time do you finish study?",
         "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "explanationTextWIN": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "titleTimeText": "Your schedule looks like:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)",
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Work",
+        "prepareToStartWorkTimeText_study": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start study (buffer time)",
+        "workTimeText_study": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Study",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.",
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "questionSleepTimeText": "What time do you want to go to sleep?",
@@ -1723,6 +1756,34 @@
     "selectHabitsLaterInfo": {
         "title": "If you ever decide you want to activate habits in the future, you can open Preferences from the menu bar and click Edit Habits",
         "buttonContinueText": "Continue"
+    },
+    "createTaskVcInfo": {
+        "title": "Focus Bear - Create New Task",
+        "titleName": "Title",
+        "titleDescription": "Description",
+        "titleIntention": "Why do you want to do this task? How will you motivate yourself to do this task?",
+        "titleDueDate": "Due Date",
+        "titleElsenhower": "Elsenhower quadrant",
+        "titleProjects": "Projects",
+        "elsenhowerQuadrantOptions": ["Urgent and Important", "Important but not urgent", "Not important and urgent", "Not important and not urgent"],
+        "buttonCreateText": "Create",
+        "titleCreateTask": "Create a task",
+        "titleDueDate": "With due date",
+        "titleDay": "(<NUMBER> Day)",
+        "titleDays": "(<NUMBER> Days)"
+    },
+    "askOccupationVcInfo": {
+        "subTitle": "Which of the following best describes your occupation?",
+        "description": "This will be used to recommend the most suitable features for your work.",
+        "arrayOccupations": ["University student"," Software dev", "Graphic designer", "Business owner", "Other office work", "Field worker (not in front of computer)", "Parent (setting it up for child)", "Other"]
+    },
+    "geekModeInfo": {
+        "titleGeekMode": "🤓 Geek Mode",
+        "titleSimpleMode": "😎 Simple Mode",
+        "tooltipGeekMode": "Geek Mode active! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode",
+        "tooltipSimpleMode": "Simple Mode active - only basic features shown. Toggle the switch to activate Geek Mode",
+        "alertGeekModeEnabled": "You’ve activated Geek Mode! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode",
+        "alertSimpleModeEnabled": "Simple Mode active - only basic features shown. Focus modes, pomodoros etc. are no longer available. Toggle the switch to go back to Geek Mode."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {

@@ -71,7 +71,8 @@
         "titleChooseHabitText": "Elige el siguiente hábito a realizar entre las siguientes opciones:",
         "buttonMoreActionsText": "Más acciones",
         "buttonSelectHabitsText": "No tengo tiempo para todos estos hábitos",
-        "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos"
+        "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos",
+        "buttonTutorialText": "Tutorial"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -89,7 +90,7 @@
         "daysRemainingText": "Versión de prueba - <DAYS> de 7 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
-        "buttonStatusStateCallText": "LLAMAR",
+        "buttonStatusStateCallText": "LLAMADA",
         "uninstallConfirmText": "¿Estás seguro que quieres abandonar todos tus hábitos y desinstalar Focus Bear?",
         "yesText": "Sí",
         "noText": "No",
@@ -176,7 +177,17 @@
         "notStartedText": "Sin Iniciar",
         "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos.",
         "comingSoonText": "Muy Pronto",
-        "newBadgeText": "Nuevo"
+        "newBadgeText": "Nuevo",
+        "urlAllowedInFocusModeText": "La URL está permitida en el modo de enfoque.",
+        "appAllowedInFocusModeText": "\"<APP>\" está permitido/a en el modo de enfoque \"<FOCUSMODE>\" ",
+        "appNotAllowedInFocusModeText": "\"<APP>\" no está permitido/a en el modo de enfoque \"<FOCUSMODE>\" ",
+        "cutOffTimePassedForHabitText": "Ha pasado la hora límite que fijaste para este hábito. Llevándote a tu siguiente hábito.",
+        "doNotUSeEnoughReasonText": "No lo uso lo suficiente",
+        "tooExpensiveReasonText": "Demasiado caro",
+        "missingFeaturesReasonText": "Ausencia de funciones",
+        "tooComplicatedReasonText": "Demasiado complicado",
+        "tabBlockedListText": "Lista de Bloqueo",
+        "titleAccountProgress": "Progreso de la Cuenta"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -285,6 +296,14 @@
             "dropDownRelax": {
                 "title": "Quiero relajarme un rato sin restricciones",
                 "description": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto."
+            },
+            "dropDownAppNotWorking": {
+                "title": "La app no funciona correctamente",
+                "description": "Oh no! Lo sentimos mucho. Desactivaremos todas las ventanas emergentes. ¿Puedes por favor decirnos qué pasó?",
+                "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto.",
+                "reasonFocusMode": "Mis modos de enfoque no funcionan correctamente",
+                "reasonHabits": "Mis hábitos no funcionan correctamente",
+                "reasonBlocking": "Las funciones de bloque no funcionan correctamente"
             }
         },
         "askQuitVcInfo": {
@@ -318,7 +337,11 @@
         "shutOffAbortDoneInfo": {
             "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses tu computadora muy tarde en la noche. Estamos desbloqueando tu computadora ahora. Tu rutina matutina aún se activará a las <STARTTIME>. Espero que puedas recuperar el sueño durante el día.",
             "unlockingText": "Desbloqueo en"
-        }
+        },
+        "titleUpEarly": "¿Despierto/a temprano?",
+        "buttonStartMorningRoutineText": "Iniciar rutina matutina",
+        "buttonWorkEmergencyText": "Emergencia laboral - iniciar enfoque",
+        "buttonCompleteEveningRoutineText": "Completa tu rutina nocturna"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -711,7 +734,11 @@
         "alertExtendPostponeText": "La duración del enfoque es mayor que la duración de posponer el hábito.",
         "alertExtendPostponeDescription": "Es posible que quieras ampliar la duración del aplazamiento para que coincida con la duración de la sesión de enfoque. Haz clic en el botón deseado para iniciar la sesión de enfoque.",
         "buttonExtendPostponeText": "Extender la duración de posponer",
-        "buttonDoNotExtendPostponeText": "No extender la duración de posponer"
+        "buttonDoNotExtendPostponeText": "No extender la duración de posponer",
+        "tourSelectTasks": "Elegir tareas",
+        "descriptionSelectTasks": "Elige las tareas en las que deseas centrarte de la lista de tareas incorporada de Focus Bear.",
+        "tourIntention": "Intención libre",
+        "descriptionIntention": "Si no quieres complicarte creando tareas, puedes escribir una intención rápida de lo que harás durante esta sesión de enfoque"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -913,7 +940,7 @@
         "buttonCancelHabitText": "No, no me interesa ahora"
 
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/profile",
+    "upgradeNowUrl": "https://dashboard.focusbear.io/manage-subscription",
     "customLoginVcInfo": {
         "titleSignIn": "Iniciar sesión",
         "titleSignUp": "Registrarse",
@@ -1097,6 +1124,7 @@
         "questionText": "¿Cuáles son tus metas?",
         "checkBoxFirstText": "Desarrollar hábitos saludables",
         "checkBoxSecondText": "Estar concentrado/a en el trabajo",
+        "checkBoxSecondText_study": "Concéntrate en estudiar",
         "buttonContinueText": "Continuar",
         "titleSelectHabitPack": "Elige un paquete de hábitos para empezar",
         "morningRoutineText": "Duración de rutina matutina:",
@@ -1298,14 +1326,19 @@
         "questionText": "¿Cuándo quiere empezar y terminar de trabajar?",
         "questionStartWorkTimeText": "¿A qué hora empiezas a trabajar?",
         "questionFinishWorkTimeText": "¿A qué hora terminas de trabajar?",
+        "questionText_study": "¿Cuándo quieres empezar y terminar de estudiar?",
+        "questionStartWorkTimeText_study": "¿A qué hora empiezas a estudiar?",
+        "questionFinishWorkTimeText_study": "¿A qué hora terminas de estudiar?",
         "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "explanationTextWIN": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Hacer Rutina Nocturna.\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "titleTimeText": "Tu horario se ve así:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo",
+        "prepareToStartWorkTimeText_study": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a estudiar (intérvalo de transición)",
+        "workTimeText_study": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Estudiar",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna",
-        "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada ( puedes desbloquearla si lo necesitas)",
+        "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "questionSleepTimeText": "¿A qué hora te quieres ir a dormir?",
         "sleepTimeAlertText": "El tiempo para dormir no puede ser inferior al tiempo de trabajo finalizado.",
         "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada"
@@ -1725,6 +1758,34 @@
     "selectHabitsLaterInfo": {
         "title": "Si alguna vez decides que quieres activar hábitos en el futuro, puedes abrir Preferencias en la barra de menús y hacer clic en Editar Hábitos",
         "buttonContinueText": "Continuar"
+    },
+    "createTaskVcInfo": {
+        "title": "Focus Bear - Crear Nueva Tarea",
+        "titleName": "Título",
+        "titleDescription": "Descripción",
+        "titleIntention": "¿Por qué quieres hacer esta tarea? ¿Cómo te motivarás para hacer esta tarea?",
+        "titleDueDate": "Fecha límite",
+        "titleElsenhower": "Cuadrante de Elsenhower",
+        "titleProjects": "Proyectos",
+        "elsenhowerQuadrantOptions": ["Urgente e Importante", "Importante pero no urgente", "No importante pero urgente", "No importante y no urgente"],
+        "buttonCreateText": "Crear",
+        "titleCreateTask": "Crear una tarea",
+        "titleDueDate": "Con fecha límite",
+        "titleDay": "(Día <NUMBER>)",
+        "titleDays": "(Días <NUMBER>)"
+    },
+    "askOccupationVcInfo": {
+        "subTitle": "¿Cuál de las siguientes opciones describe mejor tu ocupación?",
+        "description": "Esto se usará para recomendar las funciones más adecuadas para tu ocupación.",
+        "arrayOccupations": ["Estudiante universitario"," Desarrollador de Software", "Diseñador gráfico", "Empresario", "Otro trabajo de oficina", "Trabajo de campo (no en computador)", "Padre/Madre (configurándolo para mi hijo)", "Otro"]
+    },
+    "geekModeInfo": {
+        "titleGeekMode": "🤓 Modo Experto",
+        "titleSimpleMode": "😎 Modo Simple",
+        "tooltipGeekMode": "Modo Experto activado. Funciones avanzadas activadas. ¿Abrumante? Activa el interruptor para volver al Modo Sencillo",
+        "tooltipSimpleMode": "Modo Simple activado. Sólo muestra funciones básicas. Pulsa el interruptor para activar el Modo Experto",
+        "alertGeekModeEnabled": "¡Activaste el Modo Experto! Funciones avanzadas activadas. ¿Abrumante? Activa el interruptor para volver al Modo Sencillo",
+        "alertSimpleModeEnabled": "Modo Simple activado. Sólo se muestran funciones básicas. Modos de enfoque, pomodoros, etc. ya no están disponibles. Activa el interruptor para volver al Modo Experto"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {

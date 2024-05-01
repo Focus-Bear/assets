@@ -38,10 +38,15 @@
   list-style: none;
   padding: 0.7rem 0;
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  align-items: end;
+  gap: 1.2rem;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+#longTermGoalsContainer ul li:before {
+  content: '🎯';
+  scale: 1.35;
 }
 
 #longTermGoalsContainer ul li:not(:last-child) {
