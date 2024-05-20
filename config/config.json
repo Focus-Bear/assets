@@ -187,7 +187,8 @@
         "missingFeaturesReasonText": "Missing features",
         "tooComplicatedReasonText": "Too complicated",
         "tabBlockedListText": "Blocked List",
-        "titleAccountProgress": "Account Progress"
+        "titleAccountProgress": "Account Progress",
+        "taskPlayerWindowTitle": "Focus Bear - To Do Player"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -431,7 +432,8 @@
         "nextBreakText": "Next break in: <DURATION>",
         "menuItemStartHabitsFirstTimeTitle": "Start first routine",
         "focusAlignmentScoreText": "Focus alignment score = <SCORE>",
-        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?"
+        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?",
+        "menuItemToDoPlayerTitle": "To Do Player"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -694,7 +696,12 @@
             "totalFocusTimeText": "Total focus time: <TIME>",
             "buttonNeedMoreTimeText": "I need to work for one more minute",
             "buttonStillNeedMoreTimeText": "I still need to work more",
-            "oneMinuteTimerText": "One minute timer ends in"
+            "oneMinuteTimerText": "One minute timer ends in",
+            "titleDaySummary": "Your day summary",
+            "titleTimeSpentDisabledApp": "Time spent with blocking deactivated:",
+            "titleTimeSpentEnableApp": "Time spent with blocking activated:",
+            "titleTotalTimeOnBlockedSItes": "Time spent on super distracting sites:",
+            "titleTotalDistractingSites": "Total distracting sites blocked:"
         },
         "discourageDefaultFocusInfo": {
             "title": "Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
@@ -1179,7 +1186,9 @@
         "checkboxDonotShowText": "Don't show this anymore",
         "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive.",
         "buttonBlockAndAddToRelaxModeText": "Block and save for Relax mode",
-        "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%"
+        "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%",
+        "buttonAllowDomainText": "Allow all URLs from <DOMAIN> for this focus session",
+        "waitingAiText": "Waiting for AI decision..."
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
@@ -1375,7 +1384,7 @@
         "buttonItBlockedText": "It blocked it!",
         "buttonDidNotBlockedText": "It didn't block it 😒",
         "titleWhichBrowser": "Oops! Which browser did you try?",
-        "tryBrowsersBlockText": "Did you use Safari, Google Chrome, Sidekick, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.",
+        "tryBrowsersBlockText": "Did you use Safari, Google Chrome, Sidekick, Brave Browser, Microsoft Edge, Opera, Vivaldi, Arc or Firefox?\nWe can only block if you use those browsers.",
         "tryBrowsersBlockTextWIN": "Did you use Google Chrome, Firefox, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.",
         "buttonStillNotBlockedText": "Still not working",
         "buttonNowBlockedText": "I just tried those browsers and it worked!",
