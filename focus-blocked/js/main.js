@@ -21,14 +21,6 @@ if (block_type) {
     const instruction = document.createElement('div');
     instruction.innerHTML = url_always_block_instruction;
     focusProgressWrapper.appendChild(instruction);
-    const save_page_btn = document.createElement('a');
-    save_page_btn.innerHTML = selected_lang.save_this_page_for_later;
-    save_page_btn.setAttribute(
-      'href',
-      `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${domain}`
-    );
-    save_page_btn.setAttribute('target', '_blank');
-    focusProgressWrapper.appendChild(save_page_btn);
   } else {
     const durationElement = document.createElement('h2');
     durationElement.innerText = selected_lang.focus_block_duration_subtitle(
@@ -41,6 +33,8 @@ if (block_type) {
       focusTipWrapper.innerHTML = focus_tip;
     };
   }
+  focusSubtitle.style.display = 'none';
+  focusAdditionalInfo.style.display = 'none';
 } else {
   !isPageLoaded
     ? Storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
@@ -105,6 +99,18 @@ if (block_type) {
     old_url
   );
 }
+
+const save_page_url_btn = document.createElement('a');
+save_page_url_btn.innerHTML = selected_lang.save_this_page_for_later;
+save_page_url_btn.setAttribute(
+  'href',
+  `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${
+    new URL(old_url).origin
+  }`
+);
+save_page_url_btn.setAttribute('target', '_blank');
+save_page_url_btn.setAttribute('id', 'save_page_url_btn');
+focusProgressWrapper.appendChild(save_page_url_btn);
 
 privacyBtn.addEventListener('click', () => {
   let noticeElement = document.getElementById('privacyNoticeContent');
