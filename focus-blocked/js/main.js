@@ -21,6 +21,14 @@ if (block_type) {
     const instruction = document.createElement('div');
     instruction.innerHTML = url_always_block_instruction;
     focusProgressWrapper.appendChild(instruction);
+    const save_page_btn = document.createElement('a');
+    save_page_btn.innerHTML = selected_lang.save_this_page_for_later;
+    save_page_btn.setAttribute(
+      'href',
+      `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${domain}`
+    );
+    save_page_btn.setAttribute('target', '_blank');
+    focusProgressWrapper.appendChild(save_page_btn);
   } else {
     const durationElement = document.createElement('h2');
     durationElement.innerText = selected_lang.focus_block_duration_subtitle(
@@ -28,7 +36,7 @@ if (block_type) {
     );
 
     focusProgressWrapper.appendChild(durationElement);
-    focusTipWrapper.innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`;
+    focusTipWrapper.innerHTML = `<a id='showFocusTip'>${selected_lang.get_a_tip_for_staying_focused}</a>`;
     document.getElementById('showFocusTip').onclick = function () {
       focusTipWrapper.innerHTML = focus_tip;
     };
@@ -38,7 +46,7 @@ if (block_type) {
     ? Storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
     : Storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
 
-  focusTitle.innerText = "Let's keep the focus on " + focus_mode;
+  focusTitle.innerText = selected_lang.let_keep_the_focus_on(focus_mode);
 
   let refreshIntervalId = setInterval(
     () => {
@@ -63,7 +71,7 @@ if (block_type) {
           focusProgressWrapper.appendChild(focusAdditionalInfo);
         }
         focusBlockedUrl.setAttribute('href', current_url);
-        focusBlockedUrl.textContent = `Original URL ${old_url}`;
+        focusBlockedUrl.textContent = selected_lang.original_url(old_url);
       } else {
         clearInterval(refreshIntervalId);
         const focusBlockInfo = getFocusTitle(
@@ -73,7 +81,7 @@ if (block_type) {
           focusTitle.textContent = focusBlockInfo.title;
         } else {
           //@Description: it supports for older versions of the app
-          focusTitle.innerText = 'Focus block is over!';
+          focusTitle.innerText = selected_lang.focus_block_is_over;
         }
         if (focusSubtitle) {
           focusSubtitle.textContent = focusBlockInfo?.sub_title;
