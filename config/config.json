@@ -185,7 +185,10 @@
         "doNotUSeEnoughReasonText": "I don't use it enough",
         "tooExpensiveReasonText": "Too expensive",
         "missingFeaturesReasonText": "Missing features",
-        "tooComplicatedReasonText": "Too complicated"
+        "tooComplicatedReasonText": "Too complicated",
+        "tabBlockedListText": "Blocked List",
+        "titleAccountProgress": "Account Progress",
+        "taskPlayerWindowTitle": "Focus Bear - To Do Player"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -338,7 +341,8 @@
         },
         "titleUpEarly": "Up early?",
         "buttonStartMorningRoutineText": "Start morning routine",
-        "buttonWorkEmergencyText": "Work emergency - start focusing"
+        "buttonWorkEmergencyText": "Work emergency - start focusing",
+        "buttonCompleteEveningRoutineText": "Complete your evening routine"
     },
     "settings": {
         "title": "Enter settings JSON below:",
@@ -428,7 +432,8 @@
         "nextBreakText": "Next break in: <DURATION>",
         "menuItemStartHabitsFirstTimeTitle": "Start first routine",
         "focusAlignmentScoreText": "Focus alignment score = <SCORE>",
-        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?"
+        "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?",
+        "menuItemToDoPlayerTitle": "To Do Player"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -691,7 +696,12 @@
             "totalFocusTimeText": "Total focus time: <TIME>",
             "buttonNeedMoreTimeText": "I need to work for one more minute",
             "buttonStillNeedMoreTimeText": "I still need to work more",
-            "oneMinuteTimerText": "One minute timer ends in"
+            "oneMinuteTimerText": "One minute timer ends in",
+            "titleDaySummary": "Your day summary",
+            "titleTimeSpentDisabledApp": "Time spent with blocking deactivated:",
+            "titleTimeSpentEnableApp": "Time spent with blocking activated:",
+            "titleTotalTimeOnBlockedSItes": "Time spent on super distracting sites:",
+            "titleTotalDistractingSites": "Total distracting sites blocked:"
         },
         "discourageDefaultFocusInfo": {
             "title": "Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
@@ -935,7 +945,7 @@
         "buttonOkShowHabitText": "OK fine - show me the habit feature",
         "buttonCancelHabitText": "No I'm not interested right now"
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/profile",
+    "upgradeNowUrl": "https://dashboard.focusbear.io/manage-subscription",
     "customLoginVcInfo": {
         "titleSignIn": "Sign In",
         "titleSignUp": "Sign Up",
@@ -1119,6 +1129,7 @@
         "questionText": "What are your goals?",
         "checkBoxFirstText": "Build healthy habits",
         "checkBoxSecondText": "Stay focused at work",
+        "checkBoxSecondText_study": "Stay focused at study",
         "buttonContinueText": "Continue",
         "titleSelectHabitPack": "Choose a habit pack to get started",
         "morningRoutineText": "Morning routine duration:",
@@ -1138,7 +1149,7 @@
         "selectOneText": "Select one that apply",
         "buttonDontCareText": "Meh - don't really care",
         "buttonNotCommittedText": "I probably should do habits but am not that committed",
-        "buttonCommittedText": "Super committed - this is the main reason i ant to use Focus Bear",
+        "buttonCommittedText": "Super committed - this is the main reason i want to use Focus Bear",
         "subTitle": "Set your Goals and Preferences",
         "resultFocusOnlyText": "Ok no worries. We'll let you focus on focusing!",
         "resultNoHabitsText": "Got it. We won't activate the habit features for now but you can activate them later.",
@@ -1175,7 +1186,9 @@
         "checkboxDonotShowText": "Don't show this anymore",
         "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive.",
         "buttonBlockAndAddToRelaxModeText": "Block and save for Relax mode",
-        "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%"
+        "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%",
+        "buttonAllowDomainText": "Allow all URLs from <DOMAIN> for this focus session",
+        "waitingAiText": "Waiting for AI decision..."
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
@@ -1320,12 +1333,17 @@
         "questionText": "When do you want to start and finish work?",
         "questionStartWorkTimeText": "What time do you start work?",
         "questionFinishWorkTimeText": "What time do you finish work?",
+        "questionText_study": "When do you want to start and finish study?",
+        "questionStartWorkTimeText_study": "What time do you start study?",
+        "questionFinishWorkTimeText_study": "What time do you finish study?",
         "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "explanationTextWIN": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relax - block nothing\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "titleTimeText": "Your schedule looks like:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)",
         "workTimeText": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Work",
+        "prepareToStartWorkTimeText_study": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start study (buffer time)",
+        "workTimeText_study": "💪 <START_WORK_TIME> - <END_WORK_TIME> - Study",
         "eveningRoutineTimeText": "🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.",
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)",
         "questionSleepTimeText": "What time do you want to go to sleep?",
@@ -1366,7 +1384,7 @@
         "buttonItBlockedText": "It blocked it!",
         "buttonDidNotBlockedText": "It didn't block it 😒",
         "titleWhichBrowser": "Oops! Which browser did you try?",
-        "tryBrowsersBlockText": "Did you use Safari, Google Chrome, Sidekick, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.",
+        "tryBrowsersBlockText": "Did you use Safari, Google Chrome, Sidekick, Brave Browser, Microsoft Edge, Opera, Vivaldi, Arc or Firefox?\nWe can only block if you use those browsers.",
         "tryBrowsersBlockTextWIN": "Did you use Google Chrome, Firefox, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.",
         "buttonStillNotBlockedText": "Still not working",
         "buttonNowBlockedText": "I just tried those browsers and it worked!",
@@ -1762,6 +1780,19 @@
         "titleDueDate": "With due date",
         "titleDay": "(<NUMBER> Day)",
         "titleDays": "(<NUMBER> Days)"
+    },
+    "askOccupationVcInfo": {
+        "subTitle": "Which of the following best describes your occupation?",
+        "description": "This will be used to recommend the most suitable features for your work.",
+        "arrayOccupations": ["University student"," Software dev", "Graphic designer", "Business owner", "Other office work", "Field worker (not in front of computer)", "Parent (setting it up for child)", "Other"]
+    },
+    "geekModeInfo": {
+        "titleGeekMode": "🤓 Geek Mode",
+        "titleSimpleMode": "😎 Simple Mode",
+        "tooltipGeekMode": "Geek Mode active! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode",
+        "tooltipSimpleMode": "Simple Mode active - only basic features shown. Toggle the switch to activate Geek Mode",
+        "alertGeekModeEnabled": "You’ve activated Geek Mode! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode",
+        "alertSimpleModeEnabled": "Simple Mode active - only basic features shown. Focus modes, pomodoros etc. are no longer available. Toggle the switch to go back to Geek Mode."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
