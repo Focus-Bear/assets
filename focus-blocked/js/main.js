@@ -104,9 +104,9 @@ const save_page_url_btn = document.createElement('a');
 save_page_url_btn.innerHTML = selected_lang.save_this_page_for_later;
 save_page_url_btn.setAttribute(
   'href',
-  `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${
-    new URL(old_url).origin
-  }`
+  `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${encodeURI(
+    old_url
+  )}`
 );
 save_page_url_btn.setAttribute('target', '_blank');
 save_page_url_btn.setAttribute('id', 'save_page_url_btn');
