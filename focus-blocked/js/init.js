@@ -48,6 +48,7 @@ let focusBlockedUrl = document.getElementById('originalUrl');
 let longTermGoalsTitle = document.getElementById('longTermGoalsTitle');
 let longTermGoalsContainer = document.getElementById('longTermGoalsContainer');
 let focusTipWrapper = document.getElementById('focusTipWrapper');
+let focusTitleWrapper = document.getElementById('focusTitleWrapper');
 
 //@Description: it supports for older versions of the app
 if (!unblockBtn) {
