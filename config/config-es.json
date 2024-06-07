@@ -188,7 +188,7 @@
         "tooComplicatedReasonText": "Demasiado complicado",
         "tabBlockedListText": "Lista de Bloqueo",
         "titleAccountProgress": "Progreso de la Cuenta",
-        "taskPlayerWindowTitle": "Focus Bear - To Do Player[NEEDTRANSLATION]"
+        "taskPlayerWindowTitle": "Focus Bear - Reproductor de Tareas Pendientes"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -433,7 +433,7 @@
         "menuItemStartHabitsFirstTimeTitle": "Iniciar Primera Rutina",
         "focusAlignmentScoreText": "Puntuación de alineación de Enfoque = <SCORE>",
         "alertNoHabitsFound": "No hay hábitos establecidos para tu cuenta. ¿Quieres establecer hábitos ahora?",
-        "menuItemToDoPlayerTitle": "To Do Player[NEEDTRANSLATION]"
+        "menuItemToDoPlayerTitle": "Reproductor de Tareas Pendientes"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -697,11 +697,11 @@
             "buttonNeedMoreTimeText": "Necesito trabajar más tiempo",
             "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo",
             "oneMinuteTimerText": "El temporizador de un minuto termina en",
-            "titleDaySummary": "Your day summary[NEEDTRANSLATION]",
-            "titleTimeSpentDisabledApp": "Time spent with blocking deactivated:[NEEDTRANSLATION]",
-            "titleTimeSpentEnableApp": "Time spent with blocking activated:[NEEDTRANSLATION]",
-            "titleTotalTimeOnBlockedSItes": "Time spent on super distracting sites:[NEEDTRANSLATION]",
-            "titleTotalDistractingSites": "Total distracting sites blocked:[NEEDTRANSLATION]"
+            "titleDaySummary": "Resumen de tu día",
+            "titleTimeSpentDisabledApp": "Tiempo con bloqueo desactivado:",
+            "titleTimeSpentEnableApp": "Tiempo con bloqueo activado:",
+            "titleTotalTimeOnBlockedSItes": "Tiempo en sitios super distractores:",
+            "titleTotalDistractingSites": "Total de sitios distractores bloqueados:"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Estás seguro/a? Es bastante fácil distraerte sin usar un modo de enfoque más restrictivo",
@@ -1189,8 +1189,8 @@
         "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
         "buttonBlockAndAddToRelaxModeText": "Bloquear y guardar para el modo Relajado",
         "focusAlignmentScoreText": "Tu puntuación de alineación de Enfoque es <SCORE>%",
-        "buttonAllowDomainText": "Allow all URLs from <DOMAIN> for this focus session[NEEDTRANSLATION]",
-        "waitingAiText": "Waiting for AI decision...[NEEDTRANSLATION]"
+        "buttonAllowDomainText": "Permitir todas las URL de <DOMAIN> para esta sesión de enfoque",
+        "waitingAiText": "Esperando la decisión de la IA..."
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
