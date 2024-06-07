@@ -1,16 +1,16 @@
-# v1.7.282 (May 28 - 2024)
+# v1.8.284 (June 3 - 2024)
 ## New Features
 - New modes added: Simple Mode / Geek Mode, to reduce overwhelm. 
-    - Simple Mode: Only basic features will be shown. Focus Modes and Pomodoros will not be hidden.
-    - Geek mode: Shows all features including Focus Modes and Pomodoros.
+    - Geek mode: Shows all features including Focus Modes and Full Pomodoro.
+    - Simple Mode: Will only show basic features and a Simplified Pomodoro. Focus Modes will be hidden.
     - A selector button is added in the Settings screen in Preferences to switch between modes. If in Simple mode, the selector button is also shown on the menu. An indicator icon is also placed in the Edit Habits screen in Preferences to show which mode is currently active. 
-- Support for blocking on Opera and Vivaldi browsers
-- When starting a new focus mode, a “To Do Player” window will open to allow you to select a task to work on during the session. The “To Do Player” can also be accessed from the menu during an active focus session.
+- To Do Player: When starting a new focus mode, a “To Do Player” window will open to allow you to create or select a task to work on during the session. The “To Do Player” can also be accessed from the menu during an active focus session.
 - If switching to Office Mode, the menu icon changes to a grayscale image.
 - Added an option to allow all URLs in a website in the AI blocking popup window.
 - Added a Strictness setting to require an intention when you postpone a habit activity. This intention will be used the next time you start a Pomodoro or Focus Mode.
 - Added a Pomodoro setting for a Work to Break ratio with a default of 5:1, so everytime you start a Pomodoro, your break duration is automatically set to 1/5th of your work duration.
 - The focus mode end popup window will ask you to rate how focused you were during the session instead of asking if you had any distractions.
+- Support for blocking on Opera and Vivaldi browsers
 
 ## Bug Fixes/Improvements
 - Fixed blocking overlay issues where the blurring does not fully cover the screen when the app or browser is being displayed on a second monitor.
@@ -22,9 +22,11 @@
 - More time allocated to wait for AI response when evaluating if a website/app is safe to use during a focus mode with AI blocking enabled.
 - If you hide the popup window that asks if you want to start a new focus session, it will popup again after 1 minute just in case you forgot to select an option.
 - Fixed an issue where AI blocking is bypassed when an app is maximised.
-- When starting a pomodoro or focus mode, if you write a freeform intention and then decide to choose a task to work on, the selected tasks will replace what is in the freeform intention.
 - Ability to skip the “Get Focused” screen when starting your Morning or Evening routine.
 - If the Start Break screen is ignored and no other computer activity is detected for the entire duration of your break activity, Focus Bear will assume that you are already taking a break and will cancel the break screen.
+- Fix for the Pomodoro break to allow it run the full duration even if the break activity is shorter. A countdown popup window will appear to show the remaining pomodoro break time.
+- Alphabetical sorting of focus modes on the menu.
+- Preloading of To Do player to speed up loading when starting a pomodoro
 
 # v1.6.265 (Mar 28 - 2024)
 ## New Features
