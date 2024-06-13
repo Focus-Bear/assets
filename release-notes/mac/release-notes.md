@@ -1,3 +1,8 @@
+# v1.8.285 (June 13 - 2024)
+## Bug Fixes
+- Fixed issue with To Do Player unable to initialize if the focus mode or pomodoro intention contains a line break.
+- Optimized the loading of the To Do Player when refreshing the view.
+
 # v1.8.284 (June 3 - 2024)
 ## New Features
 - New modes added: Simple Mode / Geek Mode, to reduce overwhelm. 
