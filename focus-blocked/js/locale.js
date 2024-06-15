@@ -64,6 +64,12 @@ const locale = {
       'Click here to edit your long term goals',
     focus_block_duration_subtitle: (duration) =>
       `You've been doing great - ${duration} already spent focused`,
+    save_this_page_for_later: 'Save this page for later',
+    focus_block_is_over: 'Focus block is over!',
+    let_keep_the_focus_on: (focus_mode) =>
+      `Let's keep the focus on ${focus_mode}`,
+    get_a_tip_for_staying_focused: 'Get a tip for staying focused',
+    original_url: (url) => `Original URL ${url}`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -130,6 +136,13 @@ const locale = {
     click_here_to_edit_your_long_term_goals:
       'Haz clic aquí para editar tus objetivos a largo plazo',
     focus_block_duration_subtitle: (duration) =>
-      `NEEDS TRANSLATION You've been doing great - ${duration} already spent focused`,
+      `NEEDSTRANSLATION You've been doing great - ${duration} already spent focused`,
+    save_this_page_for_later: 'NEEDSTRANSLATION Save this page for later',
+    focus_block_is_over: 'NEEDSTRANSLATION Focus block is over!',
+    let_keep_the_focus_on: (focus_mode) =>
+      `NEEDSTRANSLATION Let's keep the focus on ${focus_mode}`,
+    get_a_tip_for_staying_focused:
+      'NEEDSTRANSLATION Get a tip for staying focused',
+    original_url: (url) => `NEEDSTRANSLATION Original URL ${url}`,
   },
 };
