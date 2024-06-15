@@ -64,7 +64,7 @@ const locale = {
       'Click here to edit your long term goals',
     focus_block_duration_subtitle: (duration) =>
       `You've been doing great - ${duration} already spent focused`,
-    save_this_page_for_later: 'Save this page for later',
+    save_this_page_for_later: (hostname) => `Save ${hostname} page for later`,
     focus_block_is_over: 'Focus block is over!',
     let_keep_the_focus_on: (focus_mode) =>
       `Let's keep the focus on ${focus_mode}`,
@@ -137,7 +137,8 @@ const locale = {
       'Haz clic aquí para editar tus objetivos a largo plazo',
     focus_block_duration_subtitle: (duration) =>
       `NEEDSTRANSLATION You've been doing great - ${duration} already spent focused`,
-    save_this_page_for_later: 'NEEDSTRANSLATION Save this page for later',
+    save_this_page_for_later: (hostname) =>
+      `NEEDSTRANSLATION Save ${hostname} page for later`,
     focus_block_is_over: 'NEEDSTRANSLATION Focus block is over!',
     let_keep_the_focus_on: (focus_mode) =>
       `NEEDSTRANSLATION Let's keep the focus on ${focus_mode}`,
