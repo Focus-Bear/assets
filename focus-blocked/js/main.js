@@ -1,4 +1,4 @@
-const { focus_tip, focus_tip_old_url } = getFocusTip(
+const { focus_tip_old_url, focus_tip } = getFocusTip(
   block_type,
   old_url,
   current_url,
@@ -21,24 +21,30 @@ if (block_type) {
     const instruction = document.createElement('div');
     instruction.innerHTML = url_always_block_instruction;
     focusProgressWrapper.appendChild(instruction);
+    focusTipWrapper.style.display = 'none';
   } else {
     const durationElement = document.createElement('h2');
     durationElement.innerText = selected_lang.focus_block_duration_subtitle(
       moment().startOf('date').add(focusedTime, 'seconds').format('HH[h]:mm[m]')
     );
-
+    focusTipWrapper.style.display = 'flex';
     focusProgressWrapper.appendChild(durationElement);
-    focusTipWrapper.innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`;
+    focusTipWrapper.innerHTML = `<a id='showFocusTip'>${selected_lang.get_a_tip_for_staying_focused}</a>`;
     document.getElementById('showFocusTip').onclick = function () {
       focusTipWrapper.innerHTML = focus_tip;
     };
   }
+  focusBlockedOriginalUrl.setAttribute('href', current_url);
+  focusBlockedOriginalUrl.textContent = selected_lang.original_url(old_url);
+  focusSubtitle.style.display = 'none';
+  focusAdditionalInfo.style.display = 'none';
 } else {
+  focusTipWrapper.style.display = 'none';
   !isPageLoaded
     ? Storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
     : Storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
 
-  focusTitle.innerText = "Let's keep the focus on " + focus_mode;
+  focusTitle.innerText = selected_lang.let_keep_the_focus_on(focus_mode);
 
   let refreshIntervalId = setInterval(
     () => {
@@ -62,8 +68,9 @@ if (block_type) {
           focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
           focusProgressWrapper.appendChild(focusAdditionalInfo);
         }
-        focusBlockedUrl.setAttribute('href', current_url);
-        focusBlockedUrl.textContent = `Original URL ${old_url}`;
+        focusBlockedOriginalUrl.setAttribute('href', current_url);
+        focusBlockedOriginalUrl.textContent =
+          selected_lang.original_url(old_url);
       } else {
         clearInterval(refreshIntervalId);
         const focusBlockInfo = getFocusTitle(
@@ -73,7 +80,7 @@ if (block_type) {
           focusTitle.textContent = focusBlockInfo.title;
         } else {
           //@Description: it supports for older versions of the app
-          focusTitle.innerText = 'Focus block is over!';
+          focusTitle.innerText = selected_lang.focus_block_is_over;
         }
         if (focusSubtitle) {
           focusSubtitle.textContent = focusBlockInfo?.sub_title;
@@ -81,7 +88,8 @@ if (block_type) {
         if (focusAdditionalInfo) {
           focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
         }
-        focusProgressWrapper.innerHTML = focus_tip_old_url;
+        focusBlockedOriginalUrl.setAttribute('href', current_url);
+        focusBlockedOriginalUrl.textContent = focus_tip_old_url;
         Storage.clearItems([
           LOCAL_STORAGE.IS_PAGE_LOADED,
           LOCAL_STORAGE.IS_PAGE_RELOADED,
@@ -97,6 +105,20 @@ if (block_type) {
     old_url
   );
 }
+
+const save_page_url_btn = document.createElement('a');
+save_page_url_btn.innerHTML = selected_lang.save_this_page_for_later(
+  new URL(old_url).hostname
+);
+save_page_url_btn.setAttribute(
+  'href',
+  `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${encodeURI(
+    old_url
+  )}`
+);
+save_page_url_btn.setAttribute('target', '_blank');
+save_page_url_btn.setAttribute('id', 'save_page_url_btn');
+focusProgressWrapper.appendChild(save_page_url_btn);
 
 privacyBtn.addEventListener('click', () => {
   let noticeElement = document.getElementById('privacyNoticeContent');
