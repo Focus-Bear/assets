@@ -1,5 +1,38 @@
+/************** sentry **********************/
+Sentry.init({
+  dns: 'https://10feadec83b909ed85197bab5ac9c0b0@sentry.focusbear.io/4',
+  tracesSampleRate: 0.2,
+  debug: true,
+});
+
+/************** sentry **********************/
+
+/************** var **********************/
+
 const urlParams = new URLSearchParams(window.location.search);
+let toast = document.getElementById('toast');
+let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');
+let privacyBtn = document.getElementById('privacyBtn');
+let unblockBtn = document.getElementById('popupUnblockBtn');
+let goalsContainer = document.getElementById('goals');
+let focusRemainingSeconds = 0;
+let focusTitle = document.getElementById('focusTitle');
+let focusSubtitle = document.getElementById('focusSubTitle');
+let focusAdditionalInfo = document.getElementById('focusAdditionalInfo');
+let focusProgressWrapper = document.getElementById('progressWrapper');
+let focusBlockedOriginalUrl = document.getElementById('originalUrl');
+let longTermGoalsTitle = document.getElementById('longTermGoalsTitle');
+let longTermGoalsContainer = document.getElementById('longTermGoalsContainer');
+let focusTipWrapper = document.getElementById('focusTipWrapper');
+let focusTitleWrapper = document.getElementById('focusTitleWrapper');
+let mainContainer = document.getElementById('container');
+const lang = urlParams?.get('lang') === LANGUAGE.ES ? LANGUAGE.ES : LANGUAGE.EN;
+const selected_lang = locale[lang];
+
+/************** var **********************/
+
 let current_url = urlParams.get('old_url');
+if (!current_url) throw Error(`query param old_url:${current_url}`);
 current_url = current_url?.startsWith('http')
   ? current_url
   : `https://${current_url}`;
@@ -24,8 +57,6 @@ const longTermGoals = encouraging_info?.long_term_goals ?? [];
 const focusedTime = encouraging_info?.focused_time ?? 0;
 const focusBlocksCompleted = urlParams.get('focusBlocksCompleted');
 const totalFocusBlocksCompleted = urlParams.get('totalFocusBlocksCompleted');
-const lang = urlParams?.get('lang') === LANGUAGE.ES ? LANGUAGE.ES : LANGUAGE.EN;
-const selected_lang = locale[lang];
 
 const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
 const focus_blocked_message = getFocusTitle(block_type);
@@ -34,21 +65,6 @@ const isPageReloaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED));
 const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
   domain
 );
-let toast = document.getElementById('toast');
-let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');
-let privacyBtn = document.getElementById('privacyBtn');
-let unblockBtn = document.getElementById('popupUnblockBtn');
-let goalsContainer = document.getElementById('goals');
-let focusRemainingSeconds = 0;
-let focusTitle = document.getElementById('focusTitle');
-let focusSubtitle = document.getElementById('focusSubTitle');
-let focusAdditionalInfo = document.getElementById('focusAdditionalInfo');
-let focusProgressWrapper = document.getElementById('progressWrapper');
-let focusBlockedOriginalUrl = document.getElementById('originalUrl');
-let longTermGoalsTitle = document.getElementById('longTermGoalsTitle');
-let longTermGoalsContainer = document.getElementById('longTermGoalsContainer');
-let focusTipWrapper = document.getElementById('focusTipWrapper');
-let focusTitleWrapper = document.getElementById('focusTitleWrapper');
 
 //@Description: it supports for older versions of the app
 if (!unblockBtn) {
