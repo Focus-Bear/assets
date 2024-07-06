@@ -434,8 +434,8 @@
         "focusAlignmentScoreText": "Puntuación de alineación de Enfoque = <SCORE>",
         "alertNoHabitsFound": "No hay hábitos establecidos para tu cuenta. ¿Quieres establecer hábitos ahora?",
         "menuItemToDoPlayerTitle": "Reproductor de Tareas Pendientes",
-        "menuItemStopPomodoroTitle": "Stop Pomodoro Mode[NEEDTRANSLATION]",
-        "focusBreakTimeText": "<MINUTE> minutes of break remaining[NEEDTRANSLATION]"
+        "menuItemStopPomodoroTitle": "Detener Modo Pomodoro",
+        "focusBreakTimeText": "<MINUTE> minutos de descanso restantes"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -586,9 +586,9 @@
         "titleBlockUrlList": "Lista de Bloqueados:",
         "allWebsitesAllowedText": "Todos los sitios web están permitidos",
         "infoAlwaysBlockedUrlsText": "Los sitios súper distractores se bloquean automáticamente",
-        "titleWorkToBreakRatio": "Work to break ratio:[NEEDTRANSLATION]",
-        "descriptionWorkToBreakRatio": "For every <WORKRATIO> minutes you focus, you will have a <BREAKRATIO> minutes break.[NEEDTRANSLATION]",
-        "toText": "to[NEEDTRANSLATION]"
+        "titleWorkToBreakRatio": "Ratio trabajo/descanso:",
+        "descriptionWorkToBreakRatio": "Por cada <WORKRATIO> minutos que te concentres, tendrás un descanso de <BREAKRATIO> minutos.",
+        "toText": "para"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -683,7 +683,7 @@
             "buttonBlockUrlsText": "Bloquear distracciones",
             "buttonCancelText": "Déjame distraerme 😅",
             "pinWindowText": "Puedes anclar esta ventana para que no se te olvide rellenar tus logros después de una sesión de enfoque.",
-            "titleStarRatingText": "How focused were you?[NEEDTRANSLATION]"
+            "titleStarRatingText": "¿ Qué tan concentrado estabas?"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -752,11 +752,11 @@
         "descriptionSelectTasks": "Elige las tareas en las que deseas centrarte de la lista de tareas incorporada de Focus Bear.",
         "tourIntention": "Intención libre",
         "descriptionIntention": "Si no quieres complicarte creando tareas, puedes escribir una intención rápida de lo que harás durante esta sesión de enfoque",
-        "buttonEditRatioText": "Edit[NEEDTRANSLATION]",
-        "workRatioText": "Break duration is based on <WORKRATIO> to <BREAKRATIO> minutes work to break ratio.[NEEDTRANSLATION]",
-        "titleBlockingStyleText": "Blocking Style:[NEEDTRANSLATION]",
-        "buttonBlockingStyleAiText": "AI powered blocking (recommended)[NEEDTRANSLATION]",
-        "buttonBlockingStyleDistractingSitesText": "Just block super distracting sites[NEEDTRANSLATION]"
+        "buttonEditRatioText": "Editar",
+        "workRatioText": "La duración del descanso se basa en la relación de minutos de trabajo/descanso entre <WORKRATIO> y <BREAKRATIO>.",
+        "titleBlockingStyleText": "Estilo de Bloqueo:",
+        "buttonBlockingStyleAiText": "Bloqueo por IA (recomendado)",
+        "buttonBlockingStyleDistractingSitesText": "Bloquear solo sitios súper distractores"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -818,7 +818,7 @@
         "buttonUseRelaxFocusModeText": "Permitir el uso del modo de enfoque relajado",
         "titleSetPasswordOnboarding": "Establecer una contraseña para desbloquear el equipo",
         "descriptionSetPasswordOnboarding": "Para que sea más difícil usar impulsivamente tu computador tarde en la noche o antes de hacer tu rutina matutina, puedes establecer una contraseña. No es la misma que tu contraseña de acceso. Te recomendamos que consigas un compañero de responsabilidad para establecer la contraseña. Así, tendrás que pedirle autorización para usar tu computador en un momento en que probablemente no deberías estar usándolo.",
-        "buttonCircumventingBlocksText": "Changing settings that allow circumventing blocks[NEEDTRANSLATION]"
+        "buttonCircumventingBlocksText": "Cambiar la configuración que permite eludir los bloqueos"
     },
     "blockedUrlsViewInfo": {
         "title": "Sitios Super Distractores",
@@ -1609,8 +1609,8 @@
         "titleSlightlyStrict": "Poco estricto",
         "titleStrict": "Estricto",
         "titleSuperStrict": "Super estricto",
-        "breaksNewSettingTitle": "Breaks[NEEDTRANSLATION]",
-        "toDoListSettingTitle": "To Do List[NEEDTRANSLATION]"
+        "breaksNewSettingTitle": "Descansos",
+        "toDoListSettingTitle": "Lista de Tareas"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1760,8 +1760,8 @@
         "strictness_Password_StopSuperPomodoro": "¡Cuida tu zona de enfoque! Activa este ajuste para requerir una contraseña al detener el modo Super Pomodoro.",
         "strictness_Password_QuitApp": "¡Despedidas seguras! Activa esta opción para requerir una contraseña cuando decidas salir de Focus Bear, añadiendo una capa extra de seguridad a tus salidas intencionadas.",
         "strictness_Password_UseRelaxFocusMode": "¡Navega libremente con control! Activa esta función para solicitar una contraseña cuando permitas el uso del modo Enfoque Relajado, añadiendo una capa de seguridad a tus sesiones de ocio en Internet.",
-        "breaks_EnableBreaks": "Enable taking breaks at regular intervals. Breaks help your productivity, energy levels, and ability to focus.[NEEDTRANSLATION]",
-        "strictness_Password_CircumventingBlocks": "Some settings like \"Show Dock Icon\" and \"Restart after force quit\" can reduce the strictness of blocking. If you tick this box, it will prompt for a password if the setting is changed to the less strict version.[NEEDTRANSLATION]"
+        "breaks_EnableBreaks": "Permitir hacer pausas a intervalos regulares. Las pausas favorecen la productividad, niveles de energía y capacidad de concentración.",
+        "strictness_Password_CircumventingBlocks": "Algunos ajustes como \"Show Dock Icon\" y \"Restart after force quit\" pueden reducir la rigurosidad de bloqueo. Si marcas esta casilla, te pedirá una contraseña si la configuración se cambia a la versión menos estricta."
     },
     "chooseHabitsVCInfo": {
         "title": "Elegir Hábitos:",
@@ -1800,47 +1800,47 @@
         "titleDays": "(Días <NUMBER>)"
     },
     "askOccupationVcInfo": {
-        "subTitle": "Which of the following best describes your occupation?[NEEDTRANSLATION]",
-        "description": "This will be used to recommend the most suitable features for your work.[NEEDTRANSLATION]",
-        "arrayOccupations": ["University student[NEEDTRANSLATION]"," Software dev[NEEDTRANSLATION]", "Graphic designer[NEEDTRANSLATION]", "Business owner[NEEDTRANSLATION]", "Other office work[NEEDTRANSLATION]", "Field worker (not in front of computer)[NEEDTRANSLATION]", "Parent (setting it up for child)[NEEDTRANSLATION]", "Other[NEEDTRANSLATION]"]
+        "subTitle": "¿Cuál de las siguientes opciones describe mejor tu ocupación?",
+        "description": "Esto se utilizará para recomendar las características más adecuadas para tu trabajo.",
+        "arrayOccupations": ["Estudiante Universitario","Desarrollador de Software", "Diseñador Gráfico", "Dueño de Empresa", "Otro trabajo de oficina", "Trabajo de campo (no delante de computador)", "Padre (configurando para niños)", "Otro"]
     },
     "geekModeInfo": {
-        "titleGeekMode": "🤓 Geek Mode[NEEDTRANSLATION]",
-        "titleSimpleMode": "😎 Simple Mode[NEEDTRANSLATION]",
-        "tooltipGeekMode": "Geek Mode active! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode[NEEDTRANSLATION]",
-        "tooltipSimpleMode": "Simple Mode active - only basic features shown. Toggle the switch to activate Geek Mode[NEEDTRANSLATION]",
-        "alertGeekModeEnabled": "You’ve activated Geek Mode! Advanced features activated. Overwhelmed? Toggle the switch to go back to Simple Mode[NEEDTRANSLATION]",
-        "alertSimpleModeEnabled": "Simple Mode active - only basic features shown. Focus modes, pomodoros etc. are no longer available. Toggle the switch to go back to Geek Mode.[NEEDTRANSLATION]"
+        "titleGeekMode": "🤓 Modo Geek",
+        "titleSimpleMode": "😎 Modo Simple",
+        "tooltipGeekMode": "¡Modo Geek activado! Funciones avanzadas activadas. ¿Abrumado? Activa el interruptor para volver al Modo Simple.",
+        "tooltipSimpleMode": "Modo Simple Activado - sólo se muestran funciones básicas. Pulsa el interruptor para activar el Modo Geek",
+        "alertGeekModeEnabled": "¡Has activado el Modo Geek! Funciones avanzadas activadas. ¿Abrumado? Activa el interruptor para volver al Modo Simple",
+        "alertSimpleModeEnabled": "Modo Simple activado - sólo se muestran funciones básicas. Los modos de enfoque, pomodoros, etc. ya no están disponibles. Activa el interruptor para volver al Modo Geek."
     },
     "takeBreaksInfoVcInfo":{
-        "subTitle": "Focus Bear can help you remember to take breaks regularly throughout the day. This will help avoid screen headaches and actually improve your productivity. You can even do microworkouts during the breaks 💪[NEEDTRANSLATION]",
-        "warningText": "Warning: you will get popups asking you to take breaks. Some people find them annoying. You can skip/postpone the breaks but your eyes and body will really appreciate it if you do take breaks![NEEDTRANSLATION]",
-        "titleHowMuchCare": "How much do you care about taking breaks?[NEEDTRANSLATION]",
-        "selectOneText": "Select one that apply[NEEDTRANSLATION]",
-        "buttonDontCareText": "Meh - don't really care[NEEDTRANSLATION]",
-        "buttonNotCommittedText": "I probably should take breaks but am not that committed[NEEDTRANSLATION]",
-        "buttonCommittedText": "Super committed - i vow to take breaks regularly[NEEDTRANSLATION]",
-        "resultDisableBreaksText": "No worries. You can always enable breaks later from Preferences > Breaks > Enable Breaks[NEEDTRANSLATION]",
-        "resultEnableBreaksText": "Cool. We'll let you set up your breaks right away[NEEDTRANSLATION]"
+        "subTitle": "Focus Bear puede ayudarte a recordar tomar descansos regularmente a lo largo del día. Esto ayudará a evitar dolores de cabeza por la pantalla y realmente mejorará tu productividad. Incluso puedes hacer microentrenamientos durante los descansos 💪",
+        "warningText": "Advertencia: aparecerán ventanas emergentes pidiéndote que tomes descansos. A algunas personas les resultan molestos. Puedes saltarlos o posponerlos, pero tus ojos y tu cuerpo agradecerán que sí los hagas.",
+        "titleHowMuchCare": "¿Qué tanto te importa tomar descansos?",
+        "selectOneText": "Seleccione el que corresponda",
+        "buttonDontCareText": "Meh - realmente no me importa",
+        "buttonNotCommittedText": "Probablemente debería tomar descansos, pero no estoy tan comprometido.",
+        "buttonCommittedText": "Súper comprometido - prometo tomar descansos con regularidad",
+        "resultDisableBreaksText": "No te preocupes. Puedes activar las pausas más tarde desde Preferencias > Descansos > Activar descansos",
+        "resultEnableBreaksText": "Genial. Vamos a configurar tus descansos de inmediato"
     },
     "deactivateBreaksVcInfo":{
-        "title": "Do you want to turn breaks off completely?[NEEDTRANSLATION]",
-        "buttonTurnOffForTodayText": "Turn them off for today[NEEDTRANSLATION]",
-        "buttonKeepThemOnText": "Keep them on[NEEDTRANSLATION]",
-        "buttonTurnBreaksOffText": "Turn breaks off completely[NEEDTRANSLATION]"
+        "title": "¿Deseas desactivar completamente los descansos?",
+        "buttonTurnOffForTodayText": "Desactivarlos por hoy",
+        "buttonKeepThemOnText": "Mantenerlos activos",
+        "buttonTurnBreaksOffText": "Desactivarlos completamente"
     },
     "microBreaksSettingsVcInfo":{
-        "enableBreaksText": "Enable Breaks[NEEDTRANSLATION]",
-        "titleDoNotBlockSuperDistractingUrls": "Do not block \"Super Distracting Sites\" during breaks[NEEDTRANSLATION]"
+        "enableBreaksText": "Activar Descansos",
+        "titleDoNotBlockSuperDistractingUrls": "No bloquear \"Super Distracting Sites\" en los descansos"
     },
     "toDoListSettingsVcInfo":{
-        "showToDoPlayerSettingTitle": "Launch To Do player automatically[NEEDTRANSLATION]",
-        "brainDumpSettingTitle": "Start brain dump after morning routine[NEEDTRANSLATION]"
+        "showToDoPlayerSettingTitle": "Iniciar automáticamente el Reproductor de Lista de Tareas",
+        "brainDumpSettingTitle": "Empezar volcado de ideas después de la rutina matutina"
     },
     "toDoPlayerVcInfo":{
-        "alertStopLaunchingToDoPlayer": "Do you want to stop the To Do player from launching automatically?[NEEDTRANSLATION]",
-        "buttonKeepItText": "Keep it[NEEDTRANSLATION]",
-        "buttonDontShowText": "Don't Show it Again[NEEDTRANSLATION]"
+        "alertStopLaunchingToDoPlayer": "¿Deseas evitar que el Reproductor de Lista de Tareas se inicie automáticamente?",
+        "buttonKeepItText": "Conservarlo",
+        "buttonDontShowText": "No volver a mostrar esto"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
