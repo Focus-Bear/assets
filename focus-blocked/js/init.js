@@ -29,8 +29,6 @@ let mainContainer = document.getElementById('container');
 const lang = urlParams?.get('lang') === LANGUAGE.ES ? LANGUAGE.ES : LANGUAGE.EN;
 const selected_lang = locale[lang];
 
-/************** var **********************/
-
 let current_url = urlParams.get('old_url');
 if (!current_url) throw Error(`query param old_url:${current_url}`);
 current_url = current_url?.startsWith('http')
@@ -66,19 +64,4 @@ const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
   domain
 );
 
-//@Description: it supports for older versions of the app
-if (!unblockBtn) {
-  unblockBtn = document.getElementById('unblockBtn');
-}
-
-document.getElementById('privacyNoticeContent').innerHTML =
-  selected_lang.privacy_notice;
-privacyBtn.textContent = selected_lang.privacy_button;
-cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
-if (longTermGoalsTitle) {
-  longTermGoalsTitle.textContent =
-    selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
-}
-unblockBtn.textContent = selected_lang.yes_i_actually_need_it;
-document.getElementById('popupClose').textContent =
-  selected_lang.you_re_right_get_this_site_away_from_me;
+/************** var **********************/

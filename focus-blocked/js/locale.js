@@ -71,7 +71,7 @@ const locale = {
     get_a_tip_for_staying_focused: 'Get a tip for staying focused',
     original_url: (url) => `Original URL ${url}`,
     general_error:
-      'Something went wrong while creating the course. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+      'Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -148,6 +148,6 @@ const locale = {
       'NEEDSTRANSLATION Get a tip for staying focused',
     original_url: (url) => `NEEDSTRANSLATION Original URL ${url}`,
     general_error:
-      'Something went wrong while creating the course. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+      'NEEDSTRANSLATION Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
   },
 };

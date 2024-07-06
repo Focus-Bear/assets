@@ -1,10 +1,20 @@
 try {
-  const { focus_tip_old_url, focus_tip } = getFocusTip(
-    block_type,
-    old_url,
-    current_url,
-    focus_mode
-  );
+  //@Description: it supports for older versions of the app
+  if (!unblockBtn) {
+    unblockBtn = document.getElementById('unblockBtn');
+  }
+
+  document.getElementById('privacyNoticeContent').innerHTML =
+    selected_lang.privacy_notice;
+  privacyBtn.textContent = selected_lang.privacy_button;
+  cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
+  if (longTermGoalsTitle) {
+    longTermGoalsTitle.textContent =
+      selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
+  }
+  unblockBtn.textContent = selected_lang.yes_i_actually_need_it;
+  document.getElementById('popupClose').textContent =
+    selected_lang.you_re_right_get_this_site_away_from_me;
 
   const url_always_block_instruction = instructions(
     domain,
@@ -35,7 +45,8 @@ try {
       focusProgressWrapper.appendChild(durationElement);
       focusTipWrapper.innerHTML = `<a id='showFocusTip'>${selected_lang.get_a_tip_for_staying_focused}</a>`;
       document.getElementById('showFocusTip').onclick = function () {
-        focusTipWrapper.innerHTML = focus_tip;
+        focusTipWrapper.innerText =
+          selected_lang.click_here_to_re_open_the_original_url(old_url);
       };
     }
     focusBlockedOriginalUrl.setAttribute('href', current_url);
@@ -74,7 +85,7 @@ try {
           }
           focusBlockedOriginalUrl.setAttribute('href', current_url);
           focusBlockedOriginalUrl.textContent =
-            selected_lang.original_url(old_url);
+            selected_lang.click_here_to_re_open_the_original_url(old_url);
         } else {
           clearInterval(refreshIntervalId);
           const focusBlockInfo = getFocusTitle(
@@ -93,7 +104,8 @@ try {
             focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
           }
           focusBlockedOriginalUrl.setAttribute('href', current_url);
-          focusBlockedOriginalUrl.textContent = focus_tip_old_url;
+          focusBlockedOriginalUrl.textContent =
+            selected_lang.click_here_to_re_open_the_original_url(old_url);
           Storage.clearItems([
             LOCAL_STORAGE.IS_PAGE_LOADED,
             LOCAL_STORAGE.IS_PAGE_RELOADED,
