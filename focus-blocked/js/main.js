@@ -123,13 +123,12 @@ try {
   }
 
   const save_page_url_btn = document.createElement('a');
-  save_page_url_btn.innerHTML = selected_lang.save_this_page_for_later(
-    new URL(old_url).hostname
-  );
+  save_page_url_btn.innerHTML =
+    selected_lang.save_this_page_for_later(current_url);
   save_page_url_btn.setAttribute(
     'href',
     `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${encodeURI(
-      old_url
+      current_url
     )}`
   );
   save_page_url_btn.setAttribute('target', '_blank');
@@ -150,34 +149,33 @@ try {
     }
   });
 
-  if (cuddlyBearMode) {
+  if (cuddly_bear_mode && !strict_blocking) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
+    unblockBtn.addEventListener('click', () => {
+      if (old_url.includes('?')) {
+        window.open(`${old_url}&focus_bear_temporarily_allow=true`, '_self');
+      } else {
+        window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
+      }
+    });
+
+    if (blocked_reason) {
+      toast.innerHTML = blocked_reason;
+      toast.classList.add('visible');
+      setTimeout(() => {
+        toast.classList.remove('visible');
+      }, 5000);
+    }
+
+    if (isExternalHintRequired) {
+      toast.innerHTML = getExternalHint();
+      toast.classList.add('visible');
+      setTimeout(() => {
+        toast.classList.remove('visible');
+      }, 5000);
+    }
   } else {
     cuddlyBearBtn.className = 'hideCuddlyBearBtn';
-  }
-
-  unblockBtn.addEventListener('click', () => {
-    if (old_url.includes('?')) {
-      window.open(`${old_url}&focus_bear_temporarily_allow=true`, '_self');
-    } else {
-      window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
-    }
-  });
-
-  if (blocked_reason) {
-    toast.innerHTML = blocked_reason;
-    toast.classList.add('visible');
-    setTimeout(() => {
-      toast.classList.remove('visible');
-    }, 5000);
-  }
-
-  if (isExternalHintRequired) {
-    toast.innerHTML = getExternalHint();
-    toast.classList.add('visible');
-    setTimeout(() => {
-      toast.classList.remove('visible');
-    }, 5000);
   }
 
   if (longTermGoalsContainer) {
