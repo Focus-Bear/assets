@@ -72,6 +72,14 @@ const locale = {
     original_url: (url) => `Original URL ${url}`,
     general_error:
       'Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+    intro_oops_i_actually_need_this:
+      "Click here if you accidentally blocked the site and need access to it. This button will be available as long as you didn't activate strict blocking mode.",
+    intro_long_term_goals:
+      "Put in your long term goals to remind yourself why you don't want to access distracting sites.",
+    intro_save_url_later:
+      'If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
+    intro_original_url:
+      'You can copy the URL from here if you need to save it somewhere else.',
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -149,5 +157,13 @@ const locale = {
     original_url: (url) => `NEEDSTRANSLATION Original URL ${url}`,
     general_error:
       'NEEDSTRANSLATION Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+    intro_oops_i_actually_need_this:
+      "NEEDSTRANSLATION Click here if you accidentally blocked the site and need access to it. This button will be available as long as you didn't activate strict blocking mode.",
+    intro_long_term_goals:
+      "NEEDSTRANSLATION Put in your long term goals to remind yourself why you don't want to access distracting sites.",
+    intro_save_url_later:
+      'NEEDSTRANSLATION If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
+    intro_original_url:
+      'NEEDSTRANSLATION You can copy the URL from here if you need to save it somewhere else.',
   },
 };

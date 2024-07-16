@@ -60,10 +60,13 @@ const totalFocusBlocksCompleted = urlParams.get('totalFocusBlocksCompleted');
 
 const focus_mode_end_time = moment(urlParams.get('focus_mode_end_time'));
 const focus_blocked_message = getFocusTitle(block_type);
-const isPageLoaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED));
-const isPageReloaded = Boolean(Storage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED));
+const isPageLoaded = Boolean(
+  localStorage.getItem(LOCAL_STORAGE.IS_PAGE_LOADED)
+);
+const isPageReloaded = Boolean(
+  localStorage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
+);
 const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
   domain
 );
-
 /************** var **********************/

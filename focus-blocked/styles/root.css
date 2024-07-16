@@ -9,3 +9,7 @@
   --gray_300: #e2e8f0;
   --gray_500: #64748b;
 }
+
+body {
+  overflow: hidden;
+}

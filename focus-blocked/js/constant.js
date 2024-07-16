@@ -1,6 +1,7 @@
 const LOCAL_STORAGE = {
   IS_PAGE_LOADED: 'is_page_loaded',
   IS_PAGE_RELOADED: 'is_page_reloaded',
+  IS_INTRO_SHOWED: 'is_intro_showed',
 };
 
 const EXTERNAL_HINT_DOMAINS = {
