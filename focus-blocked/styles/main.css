@@ -1,0 +1,182 @@
+@import url('./root.css');
+@import url('./long_term_goals.css');
+@import url('./toast_popup.css');
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: fenwick, sans-serif;
+  position: relative;
+}
+
+.container > img {
+  width: 28dvw;
+  height: auto;
+  object-fit: cover;
+  padding: 1rem 0;
+}
+
+.container > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.focusTitleWrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.focusTitleWrapper > h1 {
+  text-align: center;
+}
+
+.focusTitleWrapper > h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#progressWrapper {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#progressWrapper > a {
+  margin-top: 1rem;
+}
+
+#focusTipWrapper {
+  width: 80dvw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: chocolate;
+  text-align: justify;
+}
+
+.tipText {
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  text-align: justify;
+}
+
+#showFocusTip {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.centeredText {
+  text-align: center;
+  width: 100% !important;
+}
+
+#privacyContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.privacyNotice {
+  width: 75%;
+  font-size: 16px;
+  text-align: justify;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.privacyNoticeContentArrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid lightgray;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.hidePrivacyNotice {
+  display: none;
+}
+
+#privacyContainer button {
+  width: fit-content;
+  padding: 6px 20px;
+  font-family: fenwick, sans-serif;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#privacyContainer button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.hideCuddlyBearBtn {
+  display: none;
+}
+
+.showCuddlyBearBtn {
+  width: fit-content;
+  padding: 6px 20px;
+  font-family: monospace;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: lightblue;
+  position: fixed;
+  top: 10px;
+  right: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.showCuddlyBearBtn:hover {
+  background-color: blue;
+  color: white;
+}
+
+a#save_page_url_btn {
+  margin: 0;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .privacyNotice {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .privacyNotice {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .privacyNotice {
+    font-size: 20px;
+  }
+}

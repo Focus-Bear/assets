@@ -1,274 +1,434 @@
+/* @Description: it supports older versions of desktops */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  font-family: fenwick, sans-serif;
-  position: relative;
+:root {
+    --white: #ffffff;
+    --gray_300: #e2e8f0;
+    --gray_500: #64748b;
 }
 
-.container > p {
-  font-size: 20px;
-  font-weight: 600;
+#longTermGoalsContainer {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
-.notice-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+#longTermGoalsContainer h4 {
+    text-align: center;
+    background-color: var(--gray_300);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.65rem 1rem;
+    -webkit-box-shadow: 0 0.1rem 0.1rem 0 var(--gray_500);
+    -moz-box-shadow: 0 0.1rem 0.1rem 0 var(--gray_500);
+    box-shadow: 0 0.1rem 0.1rem 0 var(--gray_500);
 }
 
-.notice-wrapper > h6 {
-  font-size: 14px;
-  width: 70%;
-  margin: 0;
-  text-align: justify;
+#longTermGoalsContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+    max-height: inherit;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: var(--gray_300);
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 0.1rem 0.2rem 0 var(--gray_500);
+    -moz-box-shadow: 0 0.1rem 0.2rem 0 var(--gray_500);
+    box-shadow: 0 0.1rem 0.2rem 0px var(--gray_500);
+    scrollbar-width: thin;
+    scrollbar-gutter: stable both-edges;
 }
 
-.notice-wrapper > a {
-  font-weight: bold;
+#longTermGoalsContainer ul li {
+    list-style: none;
+    padding: 0.7rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
-#progressWrapper {
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+#longTermGoalsContainer ul li:not(:last-child) {
+    border-bottom: 0.1rem solid var(--white);
+    padding-bottom: 1rem;
 }
 
-#progressWrapper img {
-  width: auto;
-  height: 380px;
+#longTermGoalsContainer ul a {
+    margin: auto;
 }
 
-#focusTipWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 62vh;
+@media only screen and (max-width: 600px) {
+    #longTermGoalsContainer {
+        width: 95vw;
+    }
+
+    #longTermGoalsContainer h4 {
+        font-size: 0.8rem;
+    }
+
+    #longTermGoalsContainer ul {
+        max-height: 50vh;
+    }
+
+    #longTermGoalsContainer ul li {
+        font-size: 0.75rem;
+    }
+
+    #longTermGoalsContainer ul object {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
 }
 
-.tipText {
-  font-size: 14px;
-  width: 100%;
-  margin: 0;
-  text-align: justify;
+@media only screen and (min-width: 600px) {
+    #longTermGoalsContainer {
+        width: 85vw;
+    }
+
+    #longTermGoalsContainer h4 {
+        font-size: 0.9rem;
+    }
+
+    #longTermGoalsContainer ul {
+        max-height: 55vh;
+    }
+
+    #longTermGoalsContainer ul li {
+        font-size: 0.85rem;
+    }
+
+    #longTermGoalsContainer ul object {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
 }
 
-#showFocusTip {
-  text-decoration: underline;
-  cursor: pointer;
+@media only screen and (min-width: 768px) {
+    #longTermGoalsContainer {
+        width: 70vw;
+    }
+
+    #longTermGoalsContainer h4 {
+        font-size: 1rem;
+    }
+
+    #longTermGoalsContainer ul {
+        max-height: 60vh;
+    }
+
+    #longTermGoalsContainer ul li {
+        font-size: 0.95rem;
+    }
+
+    #longTermGoalsContainer ul object {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 
-.centeredText {
-  text-align: center;
-  width: 100% !important;
+@media only screen and (min-width: 1200px) {
+    #longTermGoalsContainer {
+        width: 50vw;
+    }
+
+    #longTermGoalsContainer h4 {
+        font-size: 1.1rem;
+    }
+
+    #longTermGoalsContainer ul {
+        max-height: 65vh;
+    }
+
+    #longTermGoalsContainer ul li {
+        font-size: 1rem;
+    }
+
+    #longTermGoalsContainer ul object {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
 }
 
-#privacyContainer {
-  width: 100%;
-  position: absolute;
-  bottom: 4%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-}
-
-.privacyNotice {
-  width: 75%;
-  font-size: 16px;
-  text-align: justify;
-  background-color: lightgray;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.privacyNoticeContentArrow {
-  width: 0;
-  height: 0;
-  border-top: 10px solid lightgray;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-}
-
-.hidePrivacyNotice {
-  display: none;
-}
-
-#privacyContainer button {
-  width: fit-content;
-  padding: 6px 20px;
-  font-family: fenwick, sans-serif;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  background-color: lightgray;
-}
-
-#privacyContainer button:hover {
-  background-color: gray;
-  color: white;
-}
-
-.hideCuddlyBearBtn {
-  display: none;
-}
-
-.showCuddlyBearBtn {
-  width: fit-content;
-  padding: 6px 20px;
-  font-family: monospace;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  background-color: lightblue;
-  position: fixed;
-  top: 10px;
-  right: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.showCuddlyBearBtn:hover {
-  background-color: blue;
-  color: white;
-}
 
 .overlay {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.3);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .overlay:target {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: lavender;
-  border-radius: 5px;
-  width: 50%;
-  position: relative;
-  transition: all 5s ease-in-out;
-  font-family: monospace;
+    margin: 70px auto;
+    padding: 20px;
+    background: lavender;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    font-family: monospace;
 }
 
 .popup h1 {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .popup .content {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 30px 0;
-  max-height: 30%;
-  overflow: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    max-height: 30%;
+    overflow: auto;
 }
 
-.popup .content > a,
+.popup .content>a,
 button {
-  width: fit-content;
-  padding: 6px 10px;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  font-weight: 600;
-  color: black;
-  font-family: monospace;
-  font-size: 12px;
+    width: fit-content;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
+    font-family: monospace;
+    font-size: 12px;
 }
 
 .popup .content a {
-  text-decoration: none;
-  background-color: palevioletred;
+    text-decoration: none;
+    background-color: palevioletred;
 }
 
 .popup .content button {
-  background-color: deepskyblue;
+    background-color: deepskyblue;
 }
 
 .popup .content button:hover {
-  background-color: royalblue;
-  color: white;
+    background-color: royalblue;
+    color: white;
 }
 
 .popup .content a:hover {
-  background-color: red;
-  color: white;
+    background-color: red;
+    color: white;
 }
 
 .toast {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  opacity: 0;
-  transition: opacity 500ms, transform 500ms;
-  margin-top: 15px;
-  padding: 15px;
-  font-size: 16px;
-  font-family: monospace;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    opacity: 0;
+    transition: opacity 500ms, transform 500ms;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 .toast.visible {
-  transform: translate(-50%, 0);
-  opacity: 1;
+    transform: translate(-50%, 0);
+    opacity: 1;
 }
 
 @media only screen and (max-width: 1024px) {
-  .popup .content {
+    .popup .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-  }
+    justify-content: center;
+    gap: 2rem;
+    font-family: fenwick, sans-serif;
+    position: relative;
+}
+
+.container>img {
+    width: 40dvw;
+    height: auto;
+    object-fit: cover;
+    padding: 1rem 0;
+}
+
+.container>p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.focusTitleWrapper {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.focusTitleWrapper>h1 {
+    text-align: center;
+}
+
+.focusTitleWrapper>h3 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#progressWrapper {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#progressWrapper>a {
+    margin-top: 1rem;
+}
+
+#focusTipWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 62vh;
+}
+
+.tipText {
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+}
+
+#showFocusTip {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.centeredText {
+    text-align: center;
+    width: 100% !important;
+}
+
+#privacyContainer {
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.privacyNotice {
+    width: 75%;
+    font-size: 16px;
+    text-align: justify;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.privacyNoticeContentArrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid lightgray;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.hidePrivacyNotice {
+    display: none;
+}
+
+#privacyContainer button {
+    width: fit-content;
+    padding: 6px 20px;
+    font-family: fenwick, sans-serif;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#privacyContainer button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.hideCuddlyBearBtn {
+    display: none;
+}
+
+.showCuddlyBearBtn {
+    width: fit-content;
+    padding: 6px 20px;
+    font-family: monospace;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: lightblue;
+    position: fixed;
+    top: 10px;
+    right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.showCuddlyBearBtn:hover {
+    background-color: blue;
+    color: white;
 }
 
 @media only screen and (min-width: 1024px) {
-  .privacyNotice {
-    font-size: 17px;
-  }
+    .privacyNotice {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
-  .privacyNotice {
-    font-size: 18px;
-  }
+    .privacyNotice {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 1366px) {
-  .privacyNotice {
-    font-size: 20px;
-  }
+    .privacyNotice {
+        font-size: 20px;
+    }
 }

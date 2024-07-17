@@ -1,3 +1,194 @@
+# v1.8.285 (June 13 - 2024)
+## Bug Fixes
+- Fixed issue with To Do Player unable to initialize if the focus mode or pomodoro intention contains a line break.
+- Optimized the loading of the To Do Player when refreshing the view.
+
+# v1.8.284 (June 3 - 2024)
+## New Features
+- New modes added: Simple Mode / Geek Mode, to reduce overwhelm. 
+    - Geek mode: Shows all features including Focus Modes and Full Pomodoro.
+    - Simple Mode: Will only show basic features and a Simplified Pomodoro. Focus Modes will be hidden.
+    - A selector button is added in the Settings screen in Preferences to switch between modes. If in Simple mode, the selector button is also shown on the menu. An indicator icon is also placed in the Edit Habits screen in Preferences to show which mode is currently active. 
+- To Do Player: When starting a new focus mode, a “To Do Player” window will open to allow you to create or select a task to work on during the session. The “To Do Player” can also be accessed from the menu during an active focus session.
+- If switching to Office Mode, the menu icon changes to a grayscale image.
+- Added an option to allow all URLs in a website in the AI blocking popup window.
+- Added a Strictness setting to require an intention when you postpone a habit activity. This intention will be used the next time you start a Pomodoro or Focus Mode.
+- Added a Pomodoro setting for a Work to Break ratio with a default of 5:1, so everytime you start a Pomodoro, your break duration is automatically set to 1/5th of your work duration.
+- The focus mode end popup window will ask you to rate how focused you were during the session instead of asking if you had any distractions.
+- Support for blocking on Opera and Vivaldi browsers
+
+## Bug Fixes/Improvements
+- Fixed blocking overlay issues where the blurring does not fully cover the screen when the app or browser is being displayed on a second monitor.
+- If selecting “Student” as your occupation during the onboarding process, the succeeding screens will use “Study” instead of “Work” where appropriate.
+- Simplified the menu items
+- Addressed usability issues with “Click & Drag to create a task” feature by requiring to press the Control key before clicking the menu icon to activate the feature.
+- Remember the preference for skipping microbreaks in the Pomodoro start screen.
+- Other focus modes are hidden from the menu when a focus mode is actively running.
+- More time allocated to wait for AI response when evaluating if a website/app is safe to use during a focus mode with AI blocking enabled.
+- If you hide the popup window that asks if you want to start a new focus session, it will popup again after 1 minute just in case you forgot to select an option.
+- Fixed an issue where AI blocking is bypassed when an app is maximised.
+- Ability to skip the “Get Focused” screen when starting your Morning or Evening routine.
+- If the Start Break screen is ignored and no other computer activity is detected for the entire duration of your break activity, Focus Bear will assume that you are already taking a break and will cancel the break screen.
+- Fix for the Pomodoro break to allow it run the full duration even if the break activity is shorter. A countdown popup window will appear to show the remaining pomodoro break time.
+- Alphabetical sorting of focus modes on the menu.
+- Preloading of To Do player to speed up loading when starting a pomodoro
+
+# v1.6.265 (Mar 28 - 2024)
+## New Features
+- If you start using your Mac early in the morning (4 hours before your morning schedule), you now have the option to start your morning routine early.  If you have not done your evening routine yet at this time, then you are provided the option to start either your evening routine or your morning routine.
+- A menu tooltip will show whether the app or URL you are accessing is allowed or not.
+- You can set individual cut-off times for each "Must do" activity in your evening routine.
+- You can create a new task by clicking and dragging the Menu icon. The task's due date is defined by how far you drag the line.
+- You can embed a tutorial course as part of a habit activity.
+- Option to completely skip the entire break if you try to skip an activity.
+- Show a popup with the number of tabs open for each browser when you exceed the tab limit of the Browser Tab Limiter feature.
+
+## Bug Fixes/Improvements
+- Optimized for faster menu response.
+- Fix for when a paused activity restarts if it crosses over to the next day.
+- To get better feedback when quitting or uninstalling the app, the options for quit/uninstall reasons have been modified to be more descriptive.
+- The Start Pomodoro screen is shown if you choose to start another focus block at the end of a focus session.
+- UI fixes for smaller screens
+- You can edit the URL in the list of sites/apps that you allowed during a focus mode.
+- Skip Microbreaks option is set by default when starting a focus mode.
+
+# v1.3.257 (Mar 4 - 2024)
+## New Features
+- When a site has been allowed by AI blocking, you can check the reason why it was allowed by hovering over the Focus Bear icon in the top menu bar.
+
+## Improvements
+- After the break from a focus mode has ended, the app will show the Pomodoro Start screen so that you can start another focus mode.
+- Made some UI improvements for 13-inch MacBook screens.
+- Updated the Discord invite link in the Community Help tab.
+- General bug fixes and backend improvements.
+
+# v1.3.253 (Feb 22 - 2024)
+## New Features
+- The app calculates your Focus Alignment Score based on how relevant a site is to your focus intention and shows you a warning if the score goes below a certain value during a focus session.
+- Added the ability for you to choose which habits to do during a routine in any order you like.
+
+## Improvements
+- Hide the dock icon by default if the Strictness Level is set to "Strict".
+- Show the "Saved for Later" list if blocking is disabled during breaks.
+- Show quotes about taking breaks in the start break popup.
+
+## Bug Fixes
+- Fix to make Focus Bear an always-allowed app so it doesn't block itself accidentally if added in the blocked apps list.
+- General stability improvements
+
+# v1.1.245 (Feb 6 - 2024)
+## New Features
+- Coming Soon: Community tab in the help section for discussions with other Focus Bear users.
+- Added an alternative way (but still hard enough to deter impulsivity) to bypass password protection when unlocking the computer after finishing your evening routine. 
+- Blocking in firefox now supported
+
+## Bug Fixes/Improvements
+- Removed the countdown timer if you select the "Can’t do it" option when skipping a habit.
+- Display a warning message when you navigate away from the Edit Habits tab with unsaved changes.
+- Fixed the issue for having denied permissions setting for all browsers when reinstalling the app.
+- Password protected the 'Customize Habits' button in the morning/evening routine start screen.
+- Start habits seamlessly after your routine begins.
+- Fixed the issue with Late No More app disrupting your completed routine activities.
+- Added a step to accept the privacy policy during installation.
+- Added tool tips when hovering over the info "i" icons in the settings.
+- Added "New" badges to identify newly added features in the settings.
+- Added icons to menu items to reduce cognitive load for easier navigation.
+- Optimized the UI in the Friction settings.
+- Simplified the Pomodoro start screen UI.
+- Show a slider to adjust the strictness level after finishing the onboarding process.
+- Added a progress indicator in the onboarding process.
+- Added the option to select 25 minutes for the delay duration of habits and activities.
+- Remembers the last focus mode duration when starting a new focus mode.
+- Show a confirmation if you still want to do your habits if you have not yet done them after more than 4 hours have already elapsed since your scheduled routine start time.
+- If you have enabled password protection, we’ve introduced a different friction mechanism for unlocking the computer, in - addition to the password.
+- Removed the 15-second delay countdown when choosing to skip habits.
+- Added the option to extend postpone duration for habits after the postponement countdown is finished.
+- Password protection included for starting the ‘Relax - block nothing’ focus mode.
+- Show the current Friction level setting in the Focus mode start screen.
+- Added ability to extend a focus mode session in the 2-minute warning popup that appears when a focus session is about to end.
+- More websites added to the allowed list in the default Meetings focus mode for better call detection.
+- Added the option to pin the Focus session completion window so it stays on top of other windows on your desktop.
+- Ability to report issues directly from the Report Problem screen.
+- Ability to send logs directly from the app without having to use email.
+- Various minor bug fixes and optimizations.
+
+# v229 (Dec 23 - 2023)
+## Bug Fixes / Improvements
+- Password enabled check added for showing evening routine if app is deactivated
+- Refined onboarding experience
+- Additional event logs
+- Time Tracker: Ability to export logs from the app
+- Improvements to the preference settings
+- Improvements to UI behaviors
+- Various code fixes
+
+# v228 (Dec 21 - 2023)
+## Bug Fixes / Improvements
+- Let user start break immediately instead of waiting 30 seconds
+- Show total time spent on super distracting websites in set intention screen
+- Automatically start habits at cutoff time instead of waiting for user input
+- Prompt to install Late No More implemented, setting adjusted.
+
+# v227 (Dec 16 - 2023)
+## Bug Fixes / Improvements
+- List item text color fixed
+- After Password entered - keep unlocked for 2 minutes
+- TimeTracker: Fix for UI not staying in the same place when performing certain actions
+
+# v226 (Dec 15 - 2023)
+## Bug Fixes / Improvements
+- Allow choosing a different habit to do during routines
+- Update work for time tracker
+
+# v225 (Dec 13 - 2023)
+## Bug Fixes / Improvements
+- Should require a password to unlock Focus Bear when Late No More appointment starts
+- Fix for Pomodoro window showing every 10 minutes, implemented controls in the automatic Super Pomodoro setting
+- Pause blocking of URLs during breaks
+- Time Tracker: Allow creating a new project while logging a call/idle time
+- Alert added regarding URL blocking during breaks
+- Push back standard break if there has been a pomodoro break
+
+# v224 (Dec 7 - 2023)
+## Bug Fixes / Improvements
+- Settings change pusher notification integrated. App will restart automatically if the settings are changed on another device.
+- Changes to onboarding in "How did your hear about Focus Bear" section
+
+# v223 (Dec 6 - 2023)
+## Bug Fixes / Improvements
+- Integrated pusher notifications for Completed-Activity / Skipped Activity in morning / evening routine.
+- Handling of cases for Activity ongoing / postponed / etc.
+
+# v222 (Dec 5 - 2023)
+## Bug Fixes / Improvements
+- Integrated Pusher notifications for Focus Mode start and end events. So if the user is logged in on 2 devices with the same account (one being mac), if the user starts a focus mode in another device like mobile or windows app, mac app will get a notification of Focus mode start/end and will showup accordingly.
+
+# v221 (Dec 1 - 2023)
+## Bug Fixes / Improvements
+- Removed blur from break postpone (second time when 15 sec counter is on)
+## Screen Time Updates
+- Allow creating a new project while logging a call/idle time
+- Remove new project heading 
+- Allow user to split time from idle time / popup 
+- Fixed showing remainder time 
+- Added option to remove a time entry from Chronological view.
+
+# v220 (Nov 27 - 2023)
+## Bug Fixes / Improvements
+- Fixed issue to pass duration to the Task window on Focus Mode End Screen.
+- minor text change for Mac app Focus Mode start screen
+- Screen Time: Show title first and then the URL for all the URLs
+
+# v219 (Nov 23 - 2023)
+## New Feature
+- Focus Bear Time Tracker..new users will see an intro offer to enable Focus Bear Time Tracker on 3rd day of installation after finishing Morning Routine. Existing users will see this offer right after updating to new build and finishing the Morning Routine.
+- Users can also enable Focus Bear Time Tracker from the Advanced section of Focus Bear Preferences.
+
+# v218 (Nov 14 - 2023)
+## Bug Fixes / Improvements
+- Pass habit data to Time Tracker, Screen Time/Time Tracker should always be allowed
+- What's next screen - press enter twice to continue, focus session achievements shouldn't appear as url encoded on end of day screen
+
 # v217 (Nov 3 - 2023)
 ## Bug Fixes / Improvements
 - Fixed issue for activities not recognizing allowed URL keywords

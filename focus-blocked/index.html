@@ -8,45 +8,40 @@
     <link rel="icon" href="favicon.ico" />
     <link
       rel="stylesheet"
-      href="https://focus-bear.github.io/assets/focus-blocked/style.css"
+      href="https://focus-bear.github.io/assets/focus-blocked/styles/main.css"
     />
   </head>
+
   <body>
     <div class="container">
       <img src="logo.svg" alt="Focusbear" />
-      <h1 id="focusTitle"></h1>
+      <div class="focusTitleWrapper">
+        <h1 id="focusTitle"></h1>
+        <h3 id="focusSubTitle"></h3>
+        <p id="focusAdditionalInfo"></p>
+      </div>
       <div id="progressWrapper"></div>
-      <div id="focusTipWrapper"></div>
-      <p id="focusEndNotice"></p>
+
       <div id="privacyContainer">
-        <h6 id="privacyNoticeContent" class="hidePrivacyNotice">
-          We take your privacy seriously. Although we have blocked this website
-          based on your instructions, we don't keep any record of your browsing
-          history or which apps you use. The only things we track are: your
-          habits, the focus modes you complete and other actions you take inside
-          the Focus Bear app. Anything you do in other apps is confidential and
-          we don't keep any records of it. Read more in
-          <a href="https://www.focusbear.io/en/privacy-policy" target="_blank"
-            >our privacy policy</a
-          >
-        </h6>
+        <h6 id="privacyNoticeContent" class="hidePrivacyNotice"></h6>
         <div id="privacyNoticeContentArrow" class="hidePrivacyNotice"></div>
-        <button id="privacyBtn">
-          🙈 Privacy Alert: we don't track your browsing history. Learn More.
-        </button>
+        <button id="privacyBtn"></button>
       </div>
       <a id="cuddlyBearBtn" href="#cuddlyBearMode" class="hideCuddlyBearBtn">
-        Oops I actually need this - unblock it for me
       </a>
+      <div id="longTermGoalsContainer">
+        <h4 id="longTermGoalsTitle"></h4>
+        <ul id="goals"></ul>
+      </div>
+      <a id="originalUrl"></a>
+      <h3 id="focusTipWrapper"></h3>
     </div>
     <div id="cuddlyBearMode" class="overlay">
       <div class="popup">
-        <h1>Are you 100% sure?</h1>
+        <h1 id="popupTitle"></h1>
         <div class="content">
-          <button id="unblockBtn">Yes I actually need it</button>
-          <a class="close" href="#"
-            >Err..you're right - get this site away from me!</a
-          >
+          <button id="popupUnblockBtn"></button>
+          <a id="popupClose" href="#"></a>
         </div>
       </div>
     </div>
@@ -57,11 +52,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="https://focus-bear.github.io/assets/focus-blocked/storage.js"></script>
-    <script src="https://focus-bear.github.io/assets/focus-blocked/messages.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/locale.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/constant.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/storage.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/messages.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/init.js"></script>
     <script
-      src="https://focus-bear.github.io/assets/focus-blocked/script.js"
       defer
+      src="https://focus-bear.github.io/assets/focus-blocked/js/main.js"
     ></script>
   </body>
 </html>
