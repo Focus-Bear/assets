@@ -23,3 +23,20 @@ const LANGUAGE = {
   EN: 'en',
   ES: 'es',
 };
+
+const FONT = {
+  SEGEO_UI: 'SegoeUI',
+  SAN_FRANCISCO: 'SanFrancisco',
+  ARIAL: 'Arial',
+  COMIC_SANS_MS: 'ComicSans',
+  VERDANA: 'Verdana',
+  TAHOMA: 'Tahoma',
+  TREBUCHET_MS: 'TrebuchetMS',
+  HELVETICA: 'Helvetica',
+  INTEL_ONE_MONO: 'IntelOneMono',
+  OPEN_DYSLEXIC: 'OpenDyslexic',
+  CENTURY_GOTHIC: 'CenturyGothic',
+  ROBOTO: 'Roboto',
+  POPPINS: 'Poppins',
+  SANS: 'Sans',
+};

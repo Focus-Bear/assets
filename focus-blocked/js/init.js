@@ -46,6 +46,7 @@ const block_type = urlParams.get('block_type');
 const cuddly_bear_mode = urlParams.get('cuddly_bear_mode');
 const blocked_reason = urlParams.get('reason');
 const strict_blocking = urlParams.get('strict_blocking');
+const font = urlParams.get('font');
 
 let encouraging_info = {};
 try {
@@ -70,3 +71,11 @@ const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
   domain
 );
 /************** var **********************/
+
+/************** font **********************/
+const devicePlatform =
+  window.navigator.userAgent.indexOf('Win') > -1 ? 'win' : 'mac';
+const defaultFont =
+  devicePlatform === 'win' ? FONT.SEGEO_UI : FONT.SAN_FRANCISCO;
+document.body.style.fontFamily = font ?? defaultFont;
+/************** font **********************/
