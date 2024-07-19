@@ -56,8 +56,8 @@ try {
   } else {
     focusTipWrapper.style.display = 'none';
     !isPageLoaded
-      ? Storage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
-      : Storage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
+      ? localStorage.setItem(LOCAL_STORAGE.IS_PAGE_LOADED, true)
+      : localStorage.setItem(LOCAL_STORAGE.IS_PAGE_RELOADED, true);
 
     focusTitle.innerText = selected_lang.let_keep_the_focus_on(focus_mode);
 
@@ -106,10 +106,8 @@ try {
           focusBlockedOriginalUrl.setAttribute('href', current_url);
           focusBlockedOriginalUrl.textContent =
             selected_lang.click_here_to_re_open_the_original_url(old_url);
-          Storage.clearItems([
-            LOCAL_STORAGE.IS_PAGE_LOADED,
-            LOCAL_STORAGE.IS_PAGE_RELOADED,
-          ]);
+          localStorage.removeItem(LOCAL_STORAGE.IS_PAGE_LOADED);
+          localStorage.removeItem(LOCAL_STORAGE.IS_PAGE_RELOADED);
           if (isPageReloaded) {
             window.location.href = old_url;
           }
@@ -158,7 +156,6 @@ try {
         window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
       }
     });
-
     if (blocked_reason) {
       toast.innerHTML = blocked_reason;
       toast.classList.add('visible');
