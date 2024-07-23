@@ -1,27 +1,27 @@
 {
     "welcomeInfo": {
-        "welcomeMessageHeading": "Let’s take a quick 10 second break",
-        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, let’s try out some sample activities (deep breathing/stretching).\n\nWhile you breathe deeply/stretch, think of how awesome you’ll be if you stick to your morning routine every day.",
+        "welcomeMessageHeading": "Let’s do a quick 30 seconds activity",
+        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nLet’s try out some sample habits (deep breathing/stretching).\n\nWhile you breathe deeply/stretch, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "introActivities": [
             {
                 "name": "Deep Breathing",
-                "duration_seconds": 10,
+                "duration_seconds": 30,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=CUre1WgjIyU"
                 ]
             },
             {
                 "name": "Stretching",
-                "duration_seconds": 10,
+                "duration_seconds": 30,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=s5V_sVvagrM"
                 ]
             }
         ],
         "welcomeVideoUrl": "https://youtu.be/2gPiProa-rg",
-        "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 10 seconds of deep breathing.",
-        "titleSelectActivity": "What 10 seconds of activity do you want to do?",
+        "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing.",
+        "titleSelectActivity": "What 30 seconds of activity do you want to do?",
         "titleEnterActivityName": "Enter name of activity",
         "buttonSkipText": "Skip",
         "takingBreaksText": "Taking breaks throughout the day helps with stress and focus.",
@@ -72,7 +72,8 @@
         "buttonMoreActionsText": "More Actions",
         "buttonSelectHabitsText": "I don't have time for all these habits",
         "menuItemSelectHabitsText": "Select the habits to do from the list of all habits",
-        "buttonTutorialText": "Tutorial"
+        "buttonTutorialText": "Tutorial",
+        "questionHowMotivatedText": "How motivated do you feel to do your habits?"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -342,7 +343,8 @@
         "titleUpEarly": "Up early?",
         "buttonStartMorningRoutineText": "Start morning routine",
         "buttonWorkEmergencyText": "Work emergency - start focusing",
-        "buttonCompleteEveningRoutineText": "Complete your evening routine"
+        "buttonCompleteEveningRoutineText": "Complete your evening routine",
+        "buttonShutDownText": "Shut Down"
     },
     "settings": {
         "title": "Enter settings JSON below:",
@@ -435,7 +437,9 @@
         "alertNoHabitsFound": "There are no habits set for your account. Do you want to set habits now?",
         "menuItemToDoPlayerTitle": "To Do Player",
         "menuItemStopPomodoroTitle": "Stop Pomodoro Mode",
-        "focusBreakTimeText": "<MINUTE> minutes of break remaining"
+        "focusBreakTimeText": "<MINUTE> minutes of break remaining",
+        "waitingBreakTimeText": "It's time for a break. Waiting for a good moment",
+        "cantStopFocusModeText": "Super strict mode activated: You cannot stop this focus session until it ends."
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -639,7 +643,15 @@
             "frictionLevelLowText": "low",
             "frictionLevelHighText": "high",
             "tooltipFrictionLevelLowText": "You can stop focusing at any time",
-            "tooltipFrictionLevelHighText": "You need to enter a password to stop focusing"
+            "tooltipFrictionLevelHighText": "You need to enter a password to stop focusing",
+            "strictnessNormalText": "Normal",
+            "strictnessStrictText": "Strict",
+            "strictnessSuperStrictText": "Super strict",
+            "strictnessNormalTooltip": "can pause/stop focus session at any time",
+            "strictnessStrictTooltip": "requires countdown timer before pausing/stopping focus session",
+            "strictnessSuperStrictTooltip": "grizzly mode + immediately block urls + prevents pausing/stopping focus session or opening settings",
+            "titleStrictnessLevel": "Strictness level:",
+            "strictnessSuperStrictClickedText": "I understand I cannot stop this focus session until it ends. I am committed to avoiding distractions and getting a ton of work done."
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
@@ -648,7 +660,10 @@
             "reasonsSecondText": "I have an emergency",
             "reasonsThirdText": "Focus mode is not working properly.",
             "buttonCancelText": "Cancel",
-            "buttonAbortFocusText": "Deactivate Focus Block"
+            "buttonAbortFocusText": "Deactivate Focus Block",
+            "titlePauseText": "Pausing Focus type - <FOCUSTYPE>",
+            "strictModeText": "Strict mode activated: you asked me to show a 15 second countdown timer before you can pause / deactivate",
+            "buttonPauseFocusText": "Pause Focus Block"
         },
         "focusCompletedInfo": {
             "title": "You did it!",
@@ -683,7 +698,8 @@
             "buttonBlockUrlsText": "Block distractions!",
             "buttonCancelText": "Let me get distracted 😅",
             "pinWindowText": "You can pin this window so you don't forget to fill out your achievements after a focus session.",
-            "titleStarRatingText": "How focused were you?"
+            "titleStarRatingText": "How focused were you?",
+            "addTagsInfoText": "Press enter to add the tag"
         },
         "focusSummaryInfo": {
             "title": "You completed <COUNT> focus blocks today.",
@@ -931,7 +947,14 @@
         "subscriptionExpiredText": "Your subscription has expired",
         "toolTipCopyId": "Copy user id",
         "titleUserId": "Your user id:",
-        "toolTipCopied": "Copied"
+        "toolTipCopied": "Copied",
+        "buttonContinueText": "Continue with Basic Version",
+        "titleBasicVersion": "Basic Version allow you access to limited features",
+        "pointSimplePomodoroText": "* Simple Pomodoro",
+        "pointLimitedBlockText": "* Block up to <COUNT> websites & apps",
+        "pointLimitedHabitsText": "* Limited Morning & Evening Routines",
+        "pointLimitedMicroBreaksText": "* Limited Micro-Breaks",
+        "pointNoGeekModeText": "* No access to Geek Mode"
     },
     "onboardingPostponeVcInfo": {
         "title": "If you have something urgent, you can postpone the Onboarding process for a few minutes.",
@@ -1335,7 +1358,8 @@
             "Creating a machine learning algorithm that predicts which coworker will bring donuts to the office next",
             "Writing a script that generates random passwords that only consist of emojis",
             "Designing a user interface for a self-driving unicycle"],
-        "subTitleMeetings": "You're going to focus better on the meeting after this break. Write down any quick thoughts you don't forget."
+        "subTitleMeetings": "You're going to focus better on the meeting after this break. Write down any quick thoughts you don't forget.",
+        "lastWorkText": "I had <WORK> open. I was about to..."
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Startup Time:",
@@ -1679,7 +1703,8 @@
         "buttonJoinDiscordText": "Join Discord Server",
         "buttonDontUseDiscordText": "I don't use Discord",
         "titleChooseCommunity": "What community system would you prefer to use?",
-        "placeHolderEnterCommunity": "Enter community name"
+        "placeHolderEnterCommunity": "Enter community name",
+        "tabCourses": "Courses"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
@@ -1839,6 +1864,56 @@
         "alertStopLaunchingToDoPlayer": "Do you want to stop the To Do player from launching automatically?",
         "buttonKeepItText": "Keep it",
         "buttonDontShowText": "Don't Show it Again"
+    },
+    "breakSurveyVcInfo":{
+        "title": "How was the break?",
+        "questionFirstText": "How refreshed do you feel?",
+        "questionSecondText": "Did the break come at the right time?",
+        "questionThirdText": "Any other feedback?",
+        "buttonContinueText": "Back to work!",
+        "buttonSkipText": "Skip"
+    },
+    "accessibilityPermissionVcInfo":{
+        "title": "Grant accessibility permission to Focus Bear",
+        "subTitle": "In order to interact with other browsers , you need to authorize Focus Bear in the Accessibility section of the Security & Privacy Pane of the System Preferences.",
+        "nextViewInfoText": "On the next screen we will ask permissions to intract with browsers."
+    },
+    "alertLimitedUsageVcInfo":{
+        "title": "You are running the Basic FREE Version of Focus Bear",
+        "subTitle": "Basic version limits the number of habits to <COUNT> per routine. You'll be able to do your first <COUNT> habits. Upgrade to unlock unlimited access and other premium features.",
+        "buttonUpgradeNowText": "Upgrade now",
+        "buttonContinueText": "Continue with Basic Version"
+    },
+    "upgradeToProNagVcInfo":{
+        "title": "You're currently using the Basic version of Focus Bear, which offers limited features. Consider upgrading to the Pro version for access to unlimited blocking, habits, and other premium features to maximize your productivity.",
+        "basicVersionTitle": "Basic",
+        "proVersionTitle": "Pro",
+        "keepRunningText": "To keep you running",
+        "allInProVersionText": "Everything In Basic plus...",
+        "pointSimplePomodoroText": "Simple mode",
+        "pointPomodoroText": "Pomodoro",
+        "pointLimitedBlockText": "Block up to <COUNT> websites & apps",
+        "pointLimitedHabitsText": "Morning & Evening Routines With Limited habits",
+        "pointLimitedMicroBreaksText": "Micro-Breaks with Limited activities",
+        "pointBrowserTabLimiterText": "Browser Tab Limiter",
+        "pointToDoListText": "To-Do List",
+        "freeText": "FREE",
+        "pointGeekModeText": "Geek Mode",
+        "pointSuperPomodoroText": "Super Pomodoro",
+        "pointUnlimitedBlockingText": "Unlimited Blocking",
+        "pointAlBlockingText": "Al Blocking",
+        "pointFocusModesText": "Focus Modes",
+        "pointFocusMusicText": "Focus Music",
+        "pointMeetingDetectionText": "Meeting Detection",
+        "pointPartnerPasswordText": "Partner Password",
+        "pointCustomizableStrictnessText": "Customizable Strictness Levels",
+        "pointAddOnsText": "Other Add-Ons",
+        "buttonContinueText": "Continue with Limited Features",
+        "buttonUpgradeNowText": "Upgrade now",
+        "titleLimitedBlockUrls": "Max 3 blocked urls can be added in Basic version.",
+        "titleLimitedBlockApps": "Max 3 blocked apps can be added in Basic version.",
+        "titleNoAiBlocking": "AI blocking is only supported in Pro edition.",
+        "titleNoGeekMode": "Geek mode is only supported in Pro edition."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
