@@ -1,3 +1,78 @@
+@font-face {
+  font-family: 'Fenwick';
+  src: url('../fonts/Fenwick.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open24Display';
+  src: url('../fonts/Open24DisplaySt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/Segoe_UI.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SanFrancisco';
+  src: url('../fonts/SFUIDisplay.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('../fonts/OpenDyslexic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../fonts/Arial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ComicSans';
+  src: url('../fonts/ComicSans.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('../fonts/Verdana.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../fonts/Tahoma.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TrebuchetMS';
+  src: url('../fonts/TrebuchetMS.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IntelOneMono';
+  src: url('../fonts/Intelone-mono.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothic.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins.otf') format('opentype');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,4 +83,8 @@
   --white: #ffffff;
   --gray_300: #e2e8f0;
   --gray_500: #64748b;
+}
+
+body {
+  overflow: hidden;
 }

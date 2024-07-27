@@ -1,6 +1,7 @@
 const LOCAL_STORAGE = {
   IS_PAGE_LOADED: 'is_page_loaded',
   IS_PAGE_RELOADED: 'is_page_reloaded',
+  IS_INTRO_SHOWED: 'is_intro_showed',
 };
 
 const EXTERNAL_HINT_DOMAINS = {
@@ -21,4 +22,21 @@ const FOCUS_BLOCK_OPTION = {
 const LANGUAGE = {
   EN: 'en',
   ES: 'es',
+};
+
+const FONT = {
+  SEGEO_UI: 'SegoeUI',
+  SAN_FRANCISCO: 'SanFrancisco',
+  ARIAL: 'Arial',
+  COMIC_SANS_MS: 'ComicSans',
+  VERDANA: 'Verdana',
+  TAHOMA: 'Tahoma',
+  TREBUCHET_MS: 'TrebuchetMS',
+  HELVETICA: 'Helvetica',
+  INTEL_ONE_MONO: 'IntelOneMono',
+  OPEN_DYSLEXIC: 'OpenDyslexic',
+  CENTURY_GOTHIC: 'CenturyGothic',
+  ROBOTO: 'Roboto',
+  POPPINS: 'Poppins',
+  SANS: 'Sans',
 };
