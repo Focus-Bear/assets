@@ -652,7 +652,7 @@
             "strictnessStrictTooltip": "requires countdown timer before pausing/stopping focus session[NEEDTRANSLATION]",
             "strictnessSuperStrictTooltip": "grizzly mode + immediately block urls + prevents pausing/stopping focus session or opening settings[NEEDTRANSLATION]",
             "titleStrictnessLevel": "Strictness level:[NEEDTRANSLATION]",
-            "strictnessSuperStrictClickedText": "I understand I cannot stop this focus session until it ends. I am committed to avoiding distractions and getting a ton of work done.[NEEDTRANSLATION]"
+            "strictnessSuperStrictClickedText": "I understand I cannot stop this focus session until it ends. I am committed to avoiding distractions and getting a ton of work done.[NEEDTRANSLATION]",
             "strictnessNormalText": "Normal",
             "strictnessStrictText": "Estricto",
             "strictnessSuperStrictText": "Super estricto",
