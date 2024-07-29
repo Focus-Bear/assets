@@ -1818,13 +1818,13 @@
         "titleName": "Title",
         "titleDescription": "Description",
         "titleIntention": "Why do you want to do this task? How will you motivate yourself to do this task?",
-        "titleDueDate": "Due Date",
+        "titleDueDatePlain": "Due Date",
         "titleElsenhower": "Elsenhower quadrant",
         "titleProjects": "Projects",
         "elsenhowerQuadrantOptions": ["Urgent and Important", "Important but not urgent", "Not important and urgent", "Not important and not urgent"],
         "buttonCreateText": "Create",
         "titleCreateTask": "Create a task",
-        "titleDueDate": "With due date",
+        "titleWithDueDate": "With due date",
         "titleDay": "(<NUMBER> Day)",
         "titleDays": "(<NUMBER> Days)"
     },
@@ -1952,7 +1952,7 @@
         "titleIntention": "Intention",
         "subTitleIntention": "Put in what you hope to achieve during this focus session. Helps avoid getting distracted because you’re clear what your goals are.",
         "titleFrictionLevel": "Friction level",
-        "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time.",
+        "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
