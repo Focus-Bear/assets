@@ -1388,10 +1388,10 @@
         "sleepTimeAlertText": "El tiempo para dormir no puede ser inferior al tiempo de trabajo finalizado.",
         "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada",
         "buttonNextText": "Siguiente",
-        "infoStartTimeText": "Choose the earliest possible time you would want to start work. You’ll do your morning routine before starting work. You can start later than this time if you need to.",
-        "infoFinishTimeText": "When do you typically finish work? You can keep using your computer after this if needed but Focus Bear will nudge you to get off your tech in the evening so you can relax, do your evening routine and sleep well.",
-        "infoSleepTimeText": "When do you want to get to sleep? We’ll nudge you to do your evening routine beforehand so you can wind down and sleep well.",
-        "titleSchedule": "Set your schedule"
+        "infoStartTimeText": "[NEEDSTRANSLATION]Choose the earliest possible time you would want to start work. You’ll do your morning routine before starting work. You can start later than this time if you need to.",
+        "infoFinishTimeText": "[NEEDSTRANSLATION]When do you typically finish work? You can keep using your computer after this if needed but Focus Bear will nudge you to get off your tech in the evening so you can relax, do your evening routine and sleep well.",
+        "infoSleepTimeText": "[NEEDSTRANSLATION]When do you want to get to sleep? We’ll nudge you to do your evening routine beforehand so you can wind down and sleep well.",
+        "titleSchedule": "[NEEDSTRANSLATION]Set your schedule"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear te ayuda a evitar distracciones y desarrollar hábitos saludables.",
