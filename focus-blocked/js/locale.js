@@ -73,7 +73,7 @@ const locale = {
     general_error:
       'Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
     intro_oops_i_actually_need_this:
-      "Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.",
+      'Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.',
     intro_long_term_goals:
       "Put in your long term goals to remind yourself why you don't want to access distracting sites.",
     intro_save_url_later:
@@ -158,7 +158,7 @@ const locale = {
     general_error:
       'NEEDSTRANSLATION Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
     intro_oops_i_actually_need_this:
-      "NEEDSTRANSLATION Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.",
+      'NEEDSTRANSLATION Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.',
     intro_long_term_goals:
       "NEEDSTRANSLATION Put in your long term goals to remind yourself why you don't want to access distracting sites.",
     intro_save_url_later:
