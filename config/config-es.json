@@ -1,27 +1,27 @@
 {
     "welcomeInfo": {
-        "welcomeMessageHeading": "Tomemos un descanso rápido de 10 segundos",
-        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 10 segundos de respiración consciente/estiramento.\n\nMientras respiras profundamente/estiras, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
+        "welcomeMessageHeading": "Hagamos una actividad rápida de 30 seg",
+        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nTe daré una actividad sugerida: 30 segundos de respiración consciente/estiramento.\n\nMientras respiras profundamente/estiras, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "introActivities": [
             {
                 "name": "Respiración profunda",
-                "duration_seconds": 10,
+                "duration_seconds": 30,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=CUre1WgjIyU"
                 ]
             },
             {
                 "name": "Estiramientos",
-                "duration_seconds": 10,
+                "duration_seconds": 30,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=s5V_sVvagrM"
                 ]
             }
         ],
         "welcomeVideoUrl": "https://youtu.be/2gPiProa-rg",
-        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 10 segundos de respiración profunda.",
-        "titleSelectActivity": "¿Qué actividad de 10 segundos quieres hacer?",
+        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
+        "titleSelectActivity": "¿Qué actividad de 30 segundos quieres hacer?",
         "titleEnterActivityName": "Introduce el nombre de la actividad",
         "buttonSkipText": "Omitir",
         "takingBreaksText": "Tomar descansos a lo largo del día ayuda con el estrés y la concentración.",
@@ -72,7 +72,8 @@
         "buttonMoreActionsText": "Más acciones",
         "buttonSelectHabitsText": "No tengo tiempo para todos estos hábitos",
         "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos",
-        "buttonTutorialText": "Tutorial"
+        "buttonTutorialText": "Tutorial",
+        "questionHowMotivatedText": "¿Cuán motivado te sientes para hacer tus hábitos?"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -188,10 +189,10 @@
         "tooComplicatedReasonText": "Demasiado complicado",
         "tabBlockedListText": "Lista de Bloqueo",
         "titleAccountProgress": "Progreso de la Cuenta",
-        "taskPlayerWindowTitle": "Focus Bear - Reproductor de Tareas Pendientes"
+        "taskPlayerWindowTitle": "Focus Bear - Lista de Tareas"
     },
     "abortInfo": {
-        "abortingTitle": "Cancelando..",
+        "abortingTitle": "Cancelando...",
         "abortingCountDownInfo": {
             "subTitle": "¿Estás seguro/a de que quieres renunciar a tus hábitos? Tómate 10 segundos para reflexionar sobre si realmente quieres cancelar.",
             "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque tu rutina era demasiado ambiciosa, piensa en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás desactivando porque la aplicación está dañada ¡lo siento mucho!",
@@ -342,7 +343,8 @@
         "titleUpEarly": "¿Despierto/a temprano?",
         "buttonStartMorningRoutineText": "Iniciar rutina matutina",
         "buttonWorkEmergencyText": "Emergencia laboral - iniciar enfoque",
-        "buttonCompleteEveningRoutineText": "Completa tu rutina nocturna"
+        "buttonCompleteEveningRoutineText": "Completa tu rutina nocturna",
+        "buttonShutDownText": "Apagar"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -435,7 +437,10 @@
         "alertNoHabitsFound": "No hay hábitos establecidos para tu cuenta. ¿Quieres establecer hábitos ahora?",
         "menuItemToDoPlayerTitle": "Reproductor de Tareas Pendientes",
         "menuItemStopPomodoroTitle": "Detener Modo Pomodoro",
-        "focusBreakTimeText": "<MINUTE> minutos de descanso restantes"
+        "focusBreakTimeText": "<MINUTE> minutos de descanso restantes",
+        "waitingBreakTimeText": "Es hora de un descanso. Esperando un buen momento",
+        "cantStopFocusModeText": "Modo superestricto activado: No puedes detener esta sesión de enfoque hasta que termine.",
+        "toolTipPomodoroSessionText": "You may want to Start a Pomodoro session to focus on specific work for a set duration.[NEEDTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -639,7 +644,15 @@
             "frictionLevelLowText": "bajo",
             "frictionLevelHighText": "alto",
             "tooltipFrictionLevelLowText": "Puedes parar el enfoque en cualquier momento",
-            "tooltipFrictionLevelHighText": "Es necesario introducir una contraseña para detener el enfoque"
+            "tooltipFrictionLevelHighText": "Es necesario introducir una contraseña para detener el enfoque",
+            "strictnessNormalText": "Normal",
+            "strictnessStrictText": "Estricto",
+            "strictnessSuperStrictText": "Super estricto",
+            "strictnessNormalTooltip": "puede pausar/detener la sesión de enfoque en cualquier momento",
+            "strictnessStrictTooltip": "requiere temporizador de cuenta atrás antes de pausar/detener la sesión de enfoque",
+            "strictnessSuperStrictTooltip": "modo oso pardo + bloqueo inmediato de urls + impide pausar/detener la sesión de enfoque o abrir la configuración",
+            "titleStrictnessLevel": "Nivel de Rigor:",
+            "strictnessSuperStrictClickedText": "Entiendo que no puedo detener esta sesión de enfoque hasta que termine. Me comprometo a evitar las distracciones y a trabajar mucho."
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -648,7 +661,10 @@
             "reasonsSecondText": "Logré lo que quería demasiado temprano.",
             "reasonsThirdText": "Tengo una emergencia",
             "buttonCancelText": "Cancelar",
-            "buttonAbortFocusText": "Desactivar modo de Enfoque"
+            "buttonAbortFocusText": "Desactivar modo de Enfoque",
+            "titlePauseText": "Pausando tipo de enfoque - <FOCUSTYPE>",
+            "strictModeText": "Modo estricto activado: me pediste que mostrara una cuenta atrás de 15 seg antes de poder pausar/desactivar",
+            "buttonPauseFocusText": "Pausar Bloque de Enfoque"
         },
         "focusCompletedInfo": {
             "title": "¡Lo lograste!",
@@ -683,7 +699,8 @@
             "buttonBlockUrlsText": "Bloquear distracciones",
             "buttonCancelText": "Déjame distraerme 😅",
             "pinWindowText": "Puedes anclar esta ventana para que no se te olvide rellenar tus logros después de una sesión de enfoque.",
-            "titleStarRatingText": "¿ Qué tan concentrado estabas?"
+            "titleStarRatingText": "¿ Qué tan concentrado estabas?",
+            "addTagsInfoText": "Pulsa Enter para añadir la etiqueta"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -703,10 +720,10 @@
             "buttonNeedMoreTimeText": "Necesito trabajar más tiempo",
             "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo",
             "oneMinuteTimerText": "El temporizador de un minuto termina en",
-            "titleDaySummary": "Resumen de tu día",
+            "titleDaySummary": "Resumen del día",
             "titleTimeSpentDisabledApp": "Tiempo con bloqueo desactivado:",
             "titleTimeSpentEnableApp": "Tiempo con bloqueo activado:",
-            "titleTotalTimeOnBlockedSItes": "Tiempo en sitios super distractores:",
+            "titleTotalTimeOnBlockedSItes": "Tiempo en sitios súper distractores:",
             "titleTotalDistractingSites": "Total de sitios distractores bloqueados:"
         },
         "discourageDefaultFocusInfo": {
@@ -780,7 +797,6 @@
         "tabViewPasswordTitle": "Ingresar contraseña",
         "tabViewRandomCharactersTitle": "Escribir caracteres aleatorios",
         "titleRandomCharacters": "Por favor, escribe <NUMBER> caracteres aleatorios para continuar",
-        "incorrectCharactersErrorTitle": "Los caracteres introducidos no coinciden con el número de caracteres requerido. Por favor, inténtalo de nuevo.",
         "incorrectCharactersErrorTitle": "Los caracteres introducidos no coinciden con el número de caracteres requerido. Por favor, inténtalo de nuevo.",
         "titleEnterCharacters": "Para desbloquear tu máquina sin contraseña, introduce estos caracteres. Dijiste que querías que fuera difícil usar tu ordenador impulsivamente 😅"
     },
@@ -932,7 +948,14 @@
         "subscriptionExpiredText": "Tu suscripción ha expirado",
         "toolTipCopyId": "Copiar identificación de usuario",
         "titleUserId": "Identificación de usuario:",
-        "toolTipCopied": "Entendido"
+        "toolTipCopied": "Entendido",
+        "buttonContinueText": "Seguir con la Versión Básica",
+        "titleBasicVersion": "La versión básica permite acceder a funciones limitadas",
+        "pointSimplePomodoroText": "* Pomodoro Simple",
+        "pointLimitedBlockText": "* Bloquea hasta <COUNT> websites & apps",
+        "pointLimitedHabitsText": "* Rutinas matutinas y nocturnas limitadas",
+        "pointLimitedMicroBreaksText": "* Micro-descansos limitados",
+        "pointNoGeekModeText": "* Sin acceso al Modo Geek"
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -1201,8 +1224,8 @@
         "progressInfoText": "Estás enseñando a Focus Bear qué sitios y aplicaciones son productivos para ti. Al principio cuesta un poco, pero en unos días habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
         "buttonBlockAndAddToRelaxModeText": "Bloquear y guardar para el modo Relajado",
         "focusAlignmentScoreText": "Tu puntuación de alineación de Enfoque es <SCORE>%",
-        "buttonAllowDomainText": "Permitir todas las URL de <DOMAIN> para esta sesión de enfoque",
-        "waitingAiText": "Esperando la decisión de la IA..."
+        "buttonAllowDomainText": "Allow all URLs from <DOMAIN> for this focus session[NEEDTRANSLATION]",
+        "waitingAiText": "Waiting for AI decision...[NEEDTRANSLATION]"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1337,7 +1360,8 @@
             "Creando un algoritmo de aprendizaje automático que predice qué compañero de trabajo llevará donas a la oficina la próxima vez",
             "Escribiendo un script que genera contraseñas aleatorias que sólo consisten en emojis",
             "Diseñando una interfaz de usuario para un monociclo autoconducido"],
-        "subTitleMeetings": "Te concentrarás mejor en la reunión después de este descanso. Anota cualquier pensamiento rápido para no olvidarlo."
+        "subTitleMeetings": "Te concentrarás mejor en la reunión después de este descanso. Anota cualquier pensamiento rápido para no olvidarlo.",
+        "lastWorkText": "Tenía <WORK> abierto. Estaba a punto de..."
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Hora de inicio:",
@@ -1362,7 +1386,12 @@
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "questionSleepTimeText": "¿A qué hora te quieres ir a dormir?",
         "sleepTimeAlertText": "El tiempo para dormir no puede ser inferior al tiempo de trabajo finalizado.",
-        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada"
+        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada",
+        "buttonNextText": "Siguiente",
+        "infoStartTimeText": "[NEEDSTRANSLATION]Choose the earliest possible time you would want to start work. You’ll do your morning routine before starting work. You can start later than this time if you need to.",
+        "infoFinishTimeText": "[NEEDSTRANSLATION]When do you typically finish work? You can keep using your computer after this if needed but Focus Bear will nudge you to get off your tech in the evening so you can relax, do your evening routine and sleep well.",
+        "infoSleepTimeText": "[NEEDSTRANSLATION]When do you want to get to sleep? We’ll nudge you to do your evening routine beforehand so you can wind down and sleep well.",
+        "titleSchedule": "[NEEDSTRANSLATION]Set your schedule"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear te ayuda a evitar distracciones y desarrollar hábitos saludables.",
@@ -1681,7 +1710,8 @@
         "buttonJoinDiscordText": "Unirse al servidor Discord",
         "buttonDontUseDiscordText": "No uso Discord",
         "titleChooseCommunity": "¿Qué sistema de comunidad preferiría usar?",
-        "placeHolderEnterCommunity": "Introducir nombre de comunidad"
+        "placeHolderEnterCommunity": "Introducir nombre de comunidad",
+        "tabCourses": "Cursos"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -1789,20 +1819,21 @@
         "titleName": "Título",
         "titleDescription": "Descripción",
         "titleIntention": "¿Por qué quieres hacer esta tarea? ¿Cómo te motivarás para hacer esta tarea?",
-        "titleDueDate": "Fecha límite",
+        "titleDueDatePlain": "Fecha límite",
         "titleElsenhower": "Cuadrante de Elsenhower",
         "titleProjects": "Proyectos",
         "elsenhowerQuadrantOptions": ["Urgente e Importante", "Importante pero no urgente", "No importante pero urgente", "No importante y no urgente"],
         "buttonCreateText": "Crear",
         "titleCreateTask": "Crear una tarea",
-        "titleDueDate": "Con fecha límite",
+        "titleWithDueDate": "Con fecha límite",
         "titleDay": "(Día <NUMBER>)",
         "titleDays": "(Días <NUMBER>)"
     },
     "askOccupationVcInfo": {
         "subTitle": "¿Cuál de las siguientes opciones describe mejor tu ocupación?",
         "description": "Esto se utilizará para recomendar las características más adecuadas para tu trabajo.",
-        "arrayOccupations": ["Estudiante Universitario","Desarrollador de Software", "Diseñador Gráfico", "Dueño de Empresa", "Otro trabajo de oficina", "Trabajo de campo (no delante de computador)", "Padre (configurando para niños)", "Otro"]
+        "arrayOccupations": ["Estudiante Universitario","Desarrollador de Software", "Diseñador Gráfico", "Dueño de Empresa", "Otro trabajo de oficina", "Trabajo de campo (no delante de computador)", "Padre (configurando para niños)", "Otro"],
+        "infoText": "We’ll set up a special focus mode designed for your job that will have websites and apps that are relevant for your work. This information also helps us understand who’s using the app so we can improve the features.[NEEDTRANSLATION]"
     },
     "geekModeInfo": {
         "titleGeekMode": "🤓 Modo Geek",
@@ -1810,7 +1841,12 @@
         "tooltipGeekMode": "¡Modo Geek activado! Funciones avanzadas activadas. ¿Abrumado? Activa el interruptor para volver al Modo Simple.",
         "tooltipSimpleMode": "Modo Simple Activado - sólo se muestran funciones básicas. Pulsa el interruptor para activar el Modo Geek",
         "alertGeekModeEnabled": "¡Has activado el Modo Geek! Funciones avanzadas activadas. ¿Abrumado? Activa el interruptor para volver al Modo Simple",
-        "alertSimpleModeEnabled": "Modo Simple activado - sólo se muestran funciones básicas. Los modos de enfoque, pomodoros, etc. ya no están disponibles. Activa el interruptor para volver al Modo Geek."
+        "alertSimpleModeEnabled": "Modo Simple activado - sólo se muestran funciones básicas. Los modos de enfoque, pomodoros, etc. ya no están disponibles. Activa el interruptor para volver al Modo Geek.",
+        "alertConfirmSwitchGeekMode": "Geek Mode activates a lot more features and can be overwhelming. We recommend you stick with Simple Mode for the first few days.[NEEDTRANSLATION]",
+        "buttonActivateGeekModeText": "Activate Geek Mode[NEEDTRANSLATION]",
+        "buttonStickSimpleModeText": "Stick with Simple Mode[NEEDTRANSLATION]",
+        "buttonDontShowAgainText": "Don't show again[NEEDTRANSLATION]",
+        "alertConfirmSwitchGeekModeDescription": "You can switch the modes from Preferences -> Settings tab[NEEDTRANSLATION]"
     },
     "takeBreaksInfoVcInfo":{
         "subTitle": "Focus Bear puede ayudarte a recordar tomar descansos regularmente a lo largo del día. Esto ayudará a evitar dolores de cabeza por la pantalla y realmente mejorará tu productividad. Incluso puedes hacer microentrenamientos durante los descansos 💪",
@@ -1841,6 +1877,83 @@
         "alertStopLaunchingToDoPlayer": "¿Deseas evitar que el Reproductor de Lista de Tareas se inicie automáticamente?",
         "buttonKeepItText": "Conservarlo",
         "buttonDontShowText": "No volver a mostrar esto"
+    },
+    "breakSurveyVcInfo":{
+        "title": "¿Cómo estuvo el descanso?",
+        "questionFirstText": "¿Cuán renovado te sientes?",
+        "questionSecondText": "¿Llegó el descanso en el momento adecuado?",
+        "questionThirdText": "¿Alguna otra sugerencia?",
+        "buttonContinueText": "¡De vuelta al trabajo!",
+        "buttonSkipText": "Saltar"
+    },
+    "accessibilityPermissionVcInfo":{
+        "title": "Conceder permiso de accesibilidad a Focus Bear",
+        "subTitle": "Para poder interactuar con otros navegadores, es necesario autorizar Focus Bear en la sección Accesibilidad del Panel Seguridad y Privacidad de las Preferencias del Sistema.",
+        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores."
+    },
+    "alertLimitedUsageVcInfo":{
+        "title": "Estás ejecutando la versión básica GRATIS de Focus Bear",
+        "subTitle": "La versión básica limita el número de hábitos a <COUNT> por rutina. Podrás hacer tus primeros <COUNT> hábitos. Actualiza a premium para desbloquear el acceso ilimitado y otras características premium.",
+        "buttonUpgradeNowText": "Mejorar ahora",
+        "buttonContinueText": "Seguir con Versión Básica"
+    },
+    "upgradeToProNagVcInfo":{
+        "title": "Actualmente estás usando la versión Básica de Focus Bear, que ofrece funciones limitadas. Considera actualizar a la versión Pro para acceder a bloqueos ilimitados, hábitos y otras funciones premium para maximizar tu productividad.",
+        "basicVersionTitle": "Básico",
+        "proVersionTitle": "Pro",
+        "keepRunningText": "Para mantenerte en marcha",
+        "allInProVersionText": "Todo en Básico más...",
+        "pointSimplePomodoroText": "Modo Simple",
+        "pointPomodoroText": "Pomodoro",
+        "pointLimitedBlockText": "Bloquea hasta <COUNT> websites & apps",
+        "pointLimitedHabitsText": "Rutinas Matutinas y Nocturnas con hábitos limitados",
+        "pointLimitedMicroBreaksText": "Micro-descansos con actividades limitadas",
+        "pointBrowserTabLimiterText": "Limitador de pestañas del navegador",
+        "pointToDoListText": "Lista de tareas",
+        "freeText": "GRATIS",
+        "pointGeekModeText": "Modo Geek",
+        "pointSuperPomodoroText": "Super Pomodoro",
+        "pointUnlimitedBlockingText": "Bloqueo Ilimitado",
+        "pointAlBlockingText": "Bloqueo con IA",
+        "pointFocusModesText": "Modos de Enfoque",
+        "pointFocusMusicText": "Música de Enfoque",
+        "pointMeetingDetectionText": "Detección de Reunión",
+        "pointPartnerPasswordText": "Compañero de Contraseña",
+        "pointCustomizableStrictnessText": "Niveles de Rigor Personalizables",
+        "pointAddOnsText": "Otros complementos",
+        "buttonContinueText": "Continuar con funciones limitadas",
+        "buttonUpgradeNowText": "Mejorar ahora",
+        "titleLimitedBlockUrls": "Max 3 urls bloqueadas en la versión Básica.",
+        "titleLimitedBlockApps": "Max 3 apps bloqueadas en la versión Básica.",
+        "titleNoAiBlocking": "Bloqueo IA sólo es posible en la edición Pro.",
+        "titleNoGeekMode": "Modo Geek sólo es posible en la edición Pro."
+    },
+    "onboardingFocusExplainVcInfo":{
+        "title": "Get into deep focus[NEEDTRANSLATION]",
+        "subTitle": "Focus Bear can help you get more deep work done by blocking distractions. You tell the app what you want to do and it uses AI to keep you on track.[NEEDTRANSLATION]",
+        "buttonContinueText": "Got it[NEEDTRANSLATION]",
+        "video_url": "https://www.youtube.com/watch?v=ssiLisLbN2o"
+    },
+    "onboardingHabitExplainVcInfo":{
+        "title": "Get your brain and body ready for focus[NEEDTRANSLATION]",
+        "subTitle": "Research indicates that habits like meditation and exercise improve your ability to focus if you have ADHD. Focus Bear guides you through your morning and evening routine to set yourself up for a productive day and a good night’s sleep.[NEEDTRANSLATION]",
+        "buttonContinueText": "Got it[NEEDTRANSLATION]",
+        "video_url": "https://youtu.be/ZRbrfTWa8AI"
+    },
+    "simplePomodoroVcInfo":{
+        "titleTour": "Start Pomodoro Mode[NEEDTRANSLATION]",
+        "titlePomodoroTime": "Pomodoro Time[NEEDTRANSLATION]",
+        "subTitlePomodoroTime": "The Pomodoro technique works well for many ADHDers. You do 25 minutes of work (could be shorter or longer) and then have a 5 minute break. Click on the (i) to learn more about how it works.[NEEDTRANSLATION]",
+        "titleBlockingStyle": "Blocking style[NEEDTRANSLATION]",
+        "subTitleBlockingStyle": "If you enable AI powered blocking, Focus Bear will use AI to check whether each website is relevant for what you’re trying to achieve in this focus session. It’s privacy safe - your identity is not shared with the AI.[NEEDTRANSLATION]",
+        "titleWorkDuration": "Pomodoro mode duration[NEEDTRANSLATION]",
+        "subTitleWorkDuration": "Put in how long you want to focus for[NEEDTRANSLATION]",
+        "titleBreakDuration": "Break duration[NEEDTRANSLATION]",
+        "subTitleBreakDuration": "How long will you have as a break once you finish focusing[NEEDTRANSLATION]",
+        "titleIntention": "Intention[NEEDTRANSLATION]",
+        "subTitleIntention": "Put in what you hope to achieve during this focus session. Helps avoid getting distracted because you’re clear what your goals are.[NEEDTRANSLATION]",
+        "titleFrictionLevel": "Friction level[NEEDTRANSLATION]",
+        "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time.[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "WindowsSpecific": {
