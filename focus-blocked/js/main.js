@@ -147,7 +147,7 @@ try {
     }
   });
 
-  if (cuddly_bear_mode) {
+  if (cuddly_bear_mode && !strict_blocking) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
     unblockBtn.addEventListener('click', () => {
       if (current_url.includes('?')) {
