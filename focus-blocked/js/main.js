@@ -150,11 +150,12 @@ try {
   if (cuddly_bear_mode && !strict_blocking) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
     unblockBtn.addEventListener('click', () => {
-      if (old_url.includes('?')) {
-        window.open(`${old_url}&focus_bear_temporarily_allow=true`, '_self');
-      } else {
-        window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
-      }
+      window.open(
+        `${current_url}${
+          current_url.includes('?') ? '&' : '?'
+        }focus_bear_temporarily_allow=true&unblock_url=true`,
+        '_self'
+      );
     });
     if (blocked_reason) {
       toast.innerHTML = blocked_reason;
