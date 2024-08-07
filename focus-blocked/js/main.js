@@ -147,13 +147,19 @@ try {
     }
   });
 
-  if (cuddly_bear_mode && !strict_blocking) {
+  if (cuddly_bear_mode) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
     unblockBtn.addEventListener('click', () => {
-      if (old_url.includes('?')) {
-        window.open(`${old_url}&focus_bear_temporarily_allow=true`, '_self');
+      if (current_url.includes('?')) {
+        window.open(
+          `${current_url}&focus_bear_temporarily_allow=true&unblock_url=true`,
+          '_self'
+        );
       } else {
-        window.open(`${old_url}?focus_bear_temporarily_allow=true`, '_self');
+        window.open(
+          `${current_url}?focus_bear_temporarily_allow=true&unblock_url=true`,
+          '_self'
+        );
       }
     });
     if (blocked_reason) {
