@@ -351,7 +351,7 @@
         "buttonSaveText": "Save",
         "visitText": "Visit <SETTINGURL> to generate settings",
         "settingUrl": "https://settings.focusbear.io",
-        "schemaError": "Your settings can not be validated.",
+        "schemaError": "Your settings cannot be validated.",
         "buttonOkText": "OK",
         "settingIsNotValidText": "Sorry it seems like your settings aren’t valid. Please generate settings at https://settings.focusbear.io",
         "buttonEditSettingsText": "Edit Habits",
@@ -652,7 +652,8 @@
             "strictnessStrictTooltip": "requires countdown timer before pausing/stopping focus session",
             "strictnessSuperStrictTooltip": "grizzly mode + immediately block urls + prevents pausing/stopping focus session or opening settings",
             "titleStrictnessLevel": "Strictness level:",
-            "strictnessSuperStrictClickedText": "I understand I cannot stop this focus session until it ends. I am committed to avoiding distractions and getting a ton of work done."
+            "strictnessSuperStrictClickedText": "I understand I cannot stop this focus session until it ends. I am committed to avoiding distractions and getting a ton of work done.",
+            "warningDefaultFocusMode": "Heads up: this will not use AI blocking. Focus Bear will only block the sites in your super distracting sites list"
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
@@ -834,7 +835,8 @@
         "buttonUseRelaxFocusModeText": "Allow using relax focus mode",
         "titleSetPasswordOnboarding": "Set a password to unlock the computer",
         "descriptionSetPasswordOnboarding": "To make it harder to impulsively use your computer late at night or before you've done your morning routine, you can set a password. This is not the same as your login password. We recommend that you get an accountability partner to set the password. That way, you have to ask them to use your computer at a time you probably shouldn't be using it.",
-        "buttonCircumventingBlocksText": "Changing settings that allow circumventing blocks"
+        "buttonCircumventingBlocksText": "Changing settings that allow circumventing blocks",
+        "buttonOpenPreferencesAfterCutOffText": "Require password for opening Preferences after cutoff time"
     },
     "blockedUrlsViewInfo": {
         "title": "Super Distracting Sites",
@@ -1433,7 +1435,8 @@
         "emailUsText": "Sorry about that 😓 Any chance you could email us (support@focusbear.io) and we'll try and fix it for you?",
         "descriptionTryIntentionText": "Try opening <BLOCKED_URL>. Focus Bear will help you be more intentional with how you use the site.",
         "buttonItBlockedNewText": "It made me more intentional",
-        "buttonDidNotBlockedNewText": "It didn't stop me at all"
+        "buttonDidNotBlockedNewText": "It didn't stop me at all",
+        "buttonOpenUrlText": "Click here to open <BLOCKED_URL> now"
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "Awesome! We look forward to helping you block distractions.",
@@ -1448,7 +1451,7 @@
     },
     "askAccountVcInfo": {
         "title": "Setting up a Focus Bear Account",
-        "descriptionText": "How about setting up an account so you can sync your block preferences across your devices?",
+        "descriptionText": "Focus Bear works best if you install it on your computer and your phone. Set up an account so your settings will sync across.",
         "tipText": "Setting up an account doesn't cost anything - you still get a 7 day free trial- but it is necessary to enable the more advanced features.",
         "buttonNotRightNowText": "Not right now",
         "buttonSignUpText": "Sure - let me sign up",
@@ -1594,7 +1597,14 @@
         "buttonDontShowAgainForBlockAppText": "Don't ask for intentions - block super distracting apps immediately",
         "confirmUseAgainText": "Are you sure? You already spent <MINUTES> minutes",
         "privacyNoteText": "Privacy note: we only store this data on your local machine not on our servers",
-        "timeSpentText": "Total time spent: <TIME>"
+        "timeSpentText": "Total time spent: <TIME>",
+        "titleTour": "Block distractions",
+        "titleReason": "Reason",
+        "titleDuration": "Duration",
+        "titleBlockIt": "Block it",
+        "subTitleReason": "If you need to access this site, enter the reason why and click on Set Intention button.",
+        "subTitleDuration": "Choose how long you need to access it.",
+        "subTitleBlockIt": "If you don't need it, click here to block the site"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
@@ -1710,7 +1720,10 @@
         "buttonDontUseDiscordText": "I don't use Discord",
         "titleChooseCommunity": "What community system would you prefer to use?",
         "placeHolderEnterCommunity": "Enter community name",
-        "tabCourses": "Courses"
+        "tabCourses": "Tutorials",
+        "arrayCommunityOptions": ["Sub-Reddit", "Facebook Messenger Community", "Facebook Group", "Other"],
+        "titleWhatsAppGroup": "Join the Focus Bear WhatsApp group to exchange ideas, organize co-working/body doubling sessions, and get support with the app!",
+        "buttonJoinWhatsAppGroupText": "Join WhatsApp Group"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
@@ -1955,6 +1968,7 @@
         "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
+    "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",
