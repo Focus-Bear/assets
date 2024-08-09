@@ -652,7 +652,8 @@
             "strictnessStrictTooltip": "requiere temporizador de cuenta atrás antes de pausar/detener la sesión de enfoque",
             "strictnessSuperStrictTooltip": "modo oso pardo + bloqueo inmediato de urls + impide pausar/detener la sesión de enfoque o abrir la configuración",
             "titleStrictnessLevel": "Nivel de Rigor:",
-            "strictnessSuperStrictClickedText": "Entiendo que no puedo detener esta sesión de enfoque hasta que termine. Me comprometo a evitar las distracciones y a trabajar mucho."
+            "strictnessSuperStrictClickedText": "Entiendo que no puedo detener esta sesión de enfoque hasta que termine. Me comprometo a evitar las distracciones y a trabajar mucho.",
+            "warningDefaultFocusMode": "Heads up: this will not use AI blocking. Focus Bear will only block the sites in your super distracting sites list[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -834,7 +835,8 @@
         "buttonUseRelaxFocusModeText": "Permitir el uso del modo de enfoque relajado",
         "titleSetPasswordOnboarding": "Establecer una contraseña para desbloquear el equipo",
         "descriptionSetPasswordOnboarding": "Para que sea más difícil usar impulsivamente tu computador tarde en la noche o antes de hacer tu rutina matutina, puedes establecer una contraseña. No es la misma que tu contraseña de acceso. Te recomendamos que consigas un compañero de responsabilidad para establecer la contraseña. Así, tendrás que pedirle autorización para usar tu computador en un momento en que probablemente no deberías estar usándolo.",
-        "buttonCircumventingBlocksText": "Cambiar la configuración que permite eludir los bloqueos"
+        "buttonCircumventingBlocksText": "Cambiar la configuración que permite eludir los bloqueos",
+        "buttonOpenPreferencesAfterCutOffText": "Require password for opening Preferences after cutoff time[NEEDTRANSLATION]"
     },
     "blockedUrlsViewInfo": {
         "title": "Sitios Super Distractores",
@@ -1434,7 +1436,8 @@
         "emailUsText": "Lo siento 😓 ¿Hay alguna posibilidad de que nos envíes un correo electrónico (support@focusbear.io) e intentaremos solucionarlo?",
         "descriptionTryIntentionText": "Intenta abrir <BLOCKED_URL>. Focus Bear te ayudará a utilizar el sitio de forma más intencional.",
         "buttonItBlockedNewText": "Me hizo más intencional",
-        "buttonDidNotBlockedNewText": "No me detuvo para nada"
+        "buttonDidNotBlockedNewText": "No me detuvo para nada",
+        "buttonOpenUrlText": "Click here to open <BLOCKED_URL> now[NEEDTRANSLATION]"
     },
     "askBuildHabitsVcInfo": {
         "titleBlockedSuccessfully": "¡Genial! Esperamos ayudarte a bloquear las distracciones.",
@@ -1595,7 +1598,14 @@
         "buttonDontShowAgainForBlockAppText": "No pidas intenciones - bloquea inmediatamente aplicaciones súper distractoras",
         "confirmUseAgainText": "¿Está seguro/a? Ya has gastado <MINUTES> minutos",
         "privacyNoteText": "Nota de Privacidad: sólo almacenamos estos datos en tu equipo local, no en nuestros servidores",
-        "timeSpentText": "Tiempo total empleado: <TIME>"
+        "timeSpentText": "Tiempo total empleado: <TIME>",
+        "titleTour": "Block distractions[NEEDTRANSLATION]",
+        "titleReason": "Reason[NEEDTRANSLATION]",
+        "titleDuration": "Duration[NEEDTRANSLATION]",
+        "titleBlockIt": "Block it[NEEDTRANSLATION]",
+        "subTitleReason": "If you need to access this site, enter the reason why and click on Set Intention button.[NEEDTRANSLATION]",
+        "subTitleDuration": "Choose how long you need to access it.[NEEDTRANSLATION]",
+        "subTitleBlockIt": "If you don't need it, click here to block the site[NEEDTRANSLATION]"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
@@ -1711,7 +1721,10 @@
         "buttonDontUseDiscordText": "No uso Discord",
         "titleChooseCommunity": "¿Qué sistema de comunidad preferiría usar?",
         "placeHolderEnterCommunity": "Introducir nombre de comunidad",
-        "tabCourses": "Cursos"
+        "tabCourses": "Cursos",
+        "arrayCommunityOptions": ["Sub-Reddit[NEEDTRANSLATION]", "Facebook Messenger Community[NEEDTRANSLATION]", "Facebook Group[NEEDTRANSLATION]", "Other[NEEDTRANSLATION]"],
+        "titleWhatsAppGroup": "Join the Focus Bear WhatsApp group to exchange ideas, organize co-working/body doubling sessions, and get support with the app![NEEDTRANSLATION]",
+        "buttonJoinWhatsAppGroupText": "Join WhatsApp Group[NEEDTRANSLATION]"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -1956,6 +1969,7 @@
         "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time.[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
+    "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear está funcionando en segundo plano",
