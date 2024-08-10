@@ -440,7 +440,7 @@
         "focusBreakTimeText": "<MINUTE> minutos de descanso restantes",
         "waitingBreakTimeText": "Es hora de un descanso. Esperando un buen momento",
         "cantStopFocusModeText": "Modo superestricto activado: No puedes detener esta sesión de enfoque hasta que termine.",
-        "toolTipPomodoroSessionText": "You may want to Start a Pomodoro session to focus on specific work for a set duration.[NEEDTRANSLATION]"
+        "toolTipPomodoroSessionText": "Start a Pomodoro session to get deep work done.[NEEDTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
