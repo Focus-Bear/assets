@@ -156,7 +156,7 @@ try {
         window.open(
           `${current_url}${
             current_url.includes('?') ? '&' : '?'
-          }focus_bear_temporarily_allow=true&unblock_url=true`,
+          }focus_bear_temporarily_allow=true`,
           '_self'
         );
       }
