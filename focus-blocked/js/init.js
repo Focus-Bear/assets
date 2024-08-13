@@ -70,6 +70,7 @@ const isPageReloaded = Boolean(
 const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
   domain
 );
+const version = urlParams.get('version');
 /************** var **********************/
 
 /************** font **********************/
