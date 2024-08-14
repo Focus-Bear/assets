@@ -21,14 +21,14 @@ try {
     focusBlocksCompleted,
     totalFocusBlocksCompleted
   );
+  const shouldAlwaysBlockFocusMode = [
+    FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
+    FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
+  ].includes(block_type);
+
   if (block_type) {
     focusTitle.textContent = focus_blocked_message.title;
-    if (
-      [
-        FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
-        FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
-      ].includes(block_type)
-    ) {
+    if (shouldAlwaysBlockFocusMode) {
       const instruction = document.createElement('div');
       instruction.innerHTML = url_always_block_instruction;
       focusProgressWrapper.appendChild(instruction);
@@ -147,7 +147,7 @@ try {
     }
   });
 
-  if (cuddly_bear_mode && !strict_blocking) {
+  if (cuddly_bear_mode && !strict_blocking && shouldAlwaysBlockFocusMode) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
     unblockBtn.addEventListener('click', () => {
       if (version) {
@@ -206,7 +206,7 @@ try {
   general_error.innerText = selected_lang.general_error;
   general_error.style.cssText = `
   position: fixed;
-  top: 0;
+  inset: 0;
   width: 100vw;
   height: 100vh;
   display: flex;
