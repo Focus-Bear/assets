@@ -147,7 +147,11 @@ try {
     }
   });
 
-  if (cuddly_bear_mode && !strict_blocking && shouldAlwaysBlockFocusMode) {
+  if (
+    (cuddly_bear_mode &&
+      (shouldAlwaysBlockFocusMode || block_type === grizzly)) ||
+    (!strict_blocking && cuddly_bear_mode)
+  ) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
     unblockBtn.addEventListener('click', () => {
       if (version) {
