@@ -189,7 +189,8 @@
         "tooComplicatedReasonText": "Demasiado complicado",
         "tabBlockedListText": "Lista de Bloqueo",
         "titleAccountProgress": "Progreso de la Cuenta",
-        "taskPlayerWindowTitle": "Focus Bear - Lista de Tareas"
+        "taskPlayerWindowTitle": "Focus Bear - Lista de Tareas",
+        "allowAllUrlsFromDomainText": "Do you want to allow all URLs from <DOMAIN> for this focus session?[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando...",
@@ -344,7 +345,8 @@
         "buttonStartMorningRoutineText": "Iniciar rutina matutina",
         "buttonWorkEmergencyText": "Emergencia laboral - iniciar enfoque",
         "buttonCompleteEveningRoutineText": "Completa tu rutina nocturna",
-        "buttonShutDownText": "Apagar"
+        "buttonShutDownText": "Apagar",
+        "buttonSleepText": "Sleep Mac[NEEDTRANSLATION]"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -584,7 +586,7 @@
         "titleBlockedUrls": "A continuación se muestra la lista de URLs siempre bloqueadas:",
         "checkBoxDoNotDisturbText": "Bloquear notificaciones mientras te concentras",
         "buttonDeleteUrlText": "Borrar URL",
-        "relaxFocusText": "Relajarse - no bloquear nada",
+        "relaxFocusText": "Free time - block nothing[NEEDTRANSLATION]",
         "titleTags": "Etiquetas de Informes:",
         "tagsInfoText": "Agrega etiquetas para poder preparar registros de tiempo para bloques de enfoque específicos. Ejemplos de etiquetas podrían ser: facturable, Jones, cliente, Proyecto 1.",
         "titleAllowUrlList": "Lista de Permitidos:",
@@ -1195,7 +1197,9 @@
         "resultHabitsText": "Genial. Te dejaremos configurar tus hábitos de inmediato",
         "titleAdditionalGoals": "¿Hay otros objetivos que quieras alcanzar con Focus Bear?",
         "gladText": "¡Nos alegra que te apasione construir una rutina tanto como a nosotros!",
-        "selectGoalsText": "Selecciona todo lo que corresponda"
+        "selectGoalsText": "Selecciona todo lo que corresponda",
+        "titleActivateFeatures": "Activate features[NEEDTRANSLATION]",
+        "subTitleActivateFeatures": "We'll do our best to help you achieve your goals 🤩 Which Focus Bear features do you want to activate?[NEEDTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -1377,7 +1381,7 @@
         "questionStartWorkTimeText_study": "¿A qué hora empiezas a estudiar?",
         "questionFinishWorkTimeText_study": "¿A qué hora terminas de estudiar?",
         "explanationText": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Rutina Nocturna\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
-        "explanationTextWIN": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Hacer Rutina Nocturna.\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
+        "explanationTextWIN": "Tu horario se ve así:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Trabajo\n\n🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Tiempo libre - no bloquear nada\n\n<RELAX_END_TIME> - <EVENING_ROUTINE_END_TIME> - Hacer Rutina Nocturna.\n\n😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "titleTimeText": "Tu horario se ve así:",
         "morningRoutineTimeText": "🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Rutina Matutina",
         "prepareToStartWorkTimeText": "💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepárate para comenzar a trabajar (intérvalo de transición)",
@@ -1388,12 +1392,13 @@
         "lockComputerTimeText": "😴 <EVENING_ROUTINE_END_TIME> - Fin de Rutina Nocturna - computadora bloqueada (puedes desbloquearla si lo necesitas)",
         "questionSleepTimeText": "¿A qué hora te quieres ir a dormir?",
         "sleepTimeAlertText": "El tiempo para dormir no puede ser inferior al tiempo de trabajo finalizado.",
-        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Relajarse - no bloquear nada",
+        "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Tiempo libre - no bloquear nada",
         "buttonNextText": "Siguiente",
         "infoStartTimeText": "[NEEDSTRANSLATION]Choose the earliest possible time you would want to start work. You’ll do your morning routine before starting work. You can start later than this time if you need to.",
         "infoFinishTimeText": "[NEEDSTRANSLATION]When do you typically finish work? You can keep using your computer after this if needed but Focus Bear will nudge you to get off your tech in the evening so you can relax, do your evening routine and sleep well.",
         "infoSleepTimeText": "[NEEDSTRANSLATION]When do you want to get to sleep? We’ll nudge you to do your evening routine beforehand so you can wind down and sleep well.",
-        "titleSchedule": "[NEEDSTRANSLATION]Set your schedule"
+        "titleSchedule": "[NEEDSTRANSLATION]Set your schedule",
+        "wakeUpTimeText": "☀️ <WAKEUP_TIME> - Wake up[NEEDSTRANSLATION]"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear te ayuda a evitar distracciones y desarrollar hábitos saludables.",
@@ -1421,7 +1426,11 @@
         "moreDetailText": "Para más información, consulta nuestra política de privacidad o envía un correo electrónico a support@focusbear.io.",
         "buttonViewPrivacyText": "Haz clic aquí para ver la Política de Privacidad",
         "buttonContinueText": "Continuar",
-        "buttonAcceptPrivacyPolicyText": "Acepto la Política de Privacidad"
+        "buttonAcceptPrivacyPolicyText": "Acepto la Política de Privacidad",
+        "buttonViewTermsText": "Click here to view the terms of the software license agreement.[NEEDTRANSLATION]",
+        "buttonAcceptTermsText": "I agree to the terms of the software license agreement.[NEEDTRANSLATION]",
+        "descriptionTermsText": "🤝 To continue using Focus Bear you must agree to the terms of the software license agreement.[NEEDTRANSLATION]",
+        "titleTermsAndConditions": "Terms and Conditions[NEEDTRANSLATION]"
     },
     "tryBlockUrlVcInfo": {
         "titleShieldActivated": "¡Escudo antidistracción activado!",
@@ -1582,7 +1591,8 @@
         "descriptionSetupFocusMode": "Configurar modos de enfoque para profundizar en el trabajo con bloqueo de distracciones. Puedes eliminar los bloqueos si tienes una emergencia.",
         "titleAlertSetupComplete":"¡Instalación completada!",
         "subTitleAlertSetupComplete":"Para empezar a trabajar rápidamente, lee nuestra guía de inicio rápido.",
-        "buttonOkText":"Ilumíname"
+        "buttonOkText":"Ilumíname",
+        "thisIsDemoText": "This is a demo - you can open the menu after the tour is done[NEEDTRANSLATION]"
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",
@@ -1846,7 +1856,21 @@
         "subTitle": "¿Cuál de las siguientes opciones describe mejor tu ocupación?",
         "description": "Esto se utilizará para recomendar las características más adecuadas para tu trabajo.",
         "arrayOccupations": ["Estudiante Universitario","Desarrollador de Software", "Diseñador Gráfico", "Dueño de Empresa", "Otro trabajo de oficina", "Trabajo de campo (no delante de computador)", "Padre (configurando para niños)", "Otro"],
-        "infoText": "We’ll set up a special focus mode designed for your job that will have websites and apps that are relevant for your work. This information also helps us understand who’s using the app so we can improve the features.[NEEDTRANSLATION]"
+        "infoText": "We’ll set up a special focus mode designed for your job that will have websites and apps that are relevant for your work. This information also helps us understand who’s using the app so we can improve the features.[NEEDTRANSLATION]",
+        "titleSelectLevelStudy": "Select level of study:[NEEDTRANSLATION]",
+        "optionSchool": "High school[NEEDTRANSLATION]",
+        "optionUndergraduate": "Undergraduate[NEEDTRANSLATION]",
+        "optionGraduate": "Graduate[NEEDTRANSLATION]",
+        "optionPostgraduate": "Postgraduate[NEEDTRANSLATION]",
+        "titleSelectIndustry": "Select Industry:[NEEDTRANSLATION]",
+        "optionProgrammer": "Programmer[NEEDTRANSLATION]",
+        "optionGraphicDesigner": "Graphic designer[NEEDTRANSLATION]",
+        "optionOtherOfficeWork": "Other office work[NEEDTRANSLATION]",
+        "optionFieldWork": "Field work[NEEDTRANSLATION]",
+        "occupationStudent": "University student[NEEDTRANSLATION]",
+        "occupationBusinessOwner": "Business owner[NEEDTRANSLATION]",
+        "occupationEmployee": "Employee[NEEDTRANSLATION]",
+        "occupationOther": "Other[NEEDTRANSLATION]"
     },
     "geekModeInfo": {
         "titleGeekMode": "🤓 Modo Geek",
@@ -1902,7 +1926,11 @@
     "accessibilityPermissionVcInfo":{
         "title": "Conceder permiso de accesibilidad a Focus Bear",
         "subTitle": "Para poder interactuar con otros navegadores, es necesario autorizar Focus Bear en la sección Accesibilidad del Panel Seguridad y Privacidad de las Preferencias del Sistema.",
-        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores."
+        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores.",
+        "step1Text": "Step 1:[NEEDTRANSLATION]",
+        "step2Text": "Step 2:[NEEDTRANSLATION]",
+        "step3Text": "Step 3:[NEEDTRANSLATION]",
+        "step4Text": "Step 4:[NEEDTRANSLATION]"
     },
     "alertLimitedUsageVcInfo":{
         "title": "Estás ejecutando la versión básica GRATIS de Focus Bear",
@@ -1966,7 +1994,13 @@
         "titleIntention": "Intention[NEEDTRANSLATION]",
         "subTitleIntention": "Put in what you hope to achieve during this focus session. Helps avoid getting distracted because you’re clear what your goals are.[NEEDTRANSLATION]",
         "titleFrictionLevel": "Friction level[NEEDTRANSLATION]",
-        "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time.[NEEDTRANSLATION]"
+        "subTitleFrictionLevel": "If you enable Geek Mode, you can increase how strict Focus Bear is. In low friction mode, you can stop the focus session at any time.[NEEDTRANSLATION]",
+        "toolTipAiBlocking": "When you open a website you haven't specifically blocked or allowed, we'll use AI to check whether the website is relevant or not based on your focus intention. In strict mode, it will block it immediately if it's not relevant. In non strict mode, it will show a popup asking whether you really need it.[NEEDTRANSLATION]"
+    },
+    "achieveWithFocusBearVcInfo":{
+        "title": "What do you want to achieve with Focus Bear?[NEEDTRANSLATION]",
+        "subTitle": "How do you want your life to change from using Focus Bear?[NEEDTRANSLATION]",
+        "buttonContinueText": "Continuar"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
