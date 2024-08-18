@@ -147,7 +147,13 @@ try {
     }
   });
 
-  if ((cuddly_bear_mode || shouldActivateAlwaysBlock) && !strict_blocking) {
+  let focusRemainingSeconds = focus_mode_end_time.diff(moment(), 'seconds');
+  if (
+    (cuddly_bear_mode ||
+      shouldActivateAlwaysBlock ||
+      focusRemainingSeconds <= 0) &&
+    !strict_blocking
+  ) {
     cuddlyBearBtn.className = 'showCuddlyBearBtn';
     unblockBtn.addEventListener('click', () => {
       if (version) {

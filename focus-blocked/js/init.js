@@ -41,7 +41,7 @@ const old_url = current_url.substring(
     : current_url.indexOf('?')
 );
 const domain = new URL(old_url).hostname;
-const focus_mode = urlParams.get('focus_mode');
+const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
 const cuddly_bear_mode = urlParams.get('cuddly_bear_mode') === 'true';
 const blocked_reason = urlParams.get('reason');
