@@ -346,7 +346,7 @@
         "buttonWorkEmergencyText": "Work emergency - start focusing",
         "buttonCompleteEveningRoutineText": "Complete your evening routine",
         "buttonShutDownText": "Shut Down",
-        "buttonSleepText": "Sleep Mac"
+        "buttonSleepText": "Put Mac to sleep"
     },
     "settings": {
         "title": "Enter settings JSON below:",
