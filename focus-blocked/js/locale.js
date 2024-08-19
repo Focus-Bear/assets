@@ -64,12 +64,22 @@ const locale = {
       'Click here to edit your long term goals',
     focus_block_duration_subtitle: (duration) =>
       `You've been doing great - ${duration} already spent focused`,
-    save_this_page_for_later: 'Save this page for later',
+    save_this_page_for_later: (hostname) => `Save ${hostname} for later`,
     focus_block_is_over: 'Focus block is over!',
     let_keep_the_focus_on: (focus_mode) =>
       `Let's keep the focus on ${focus_mode}`,
     get_a_tip_for_staying_focused: 'Get a tip for staying focused',
     original_url: (url) => `Original URL ${url}`,
+    general_error:
+      'Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+    intro_oops_i_actually_need_this:
+      "Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.",
+    intro_long_term_goals:
+      "Put in your long term goals to remind yourself why you don't want to access distracting sites.",
+    intro_save_url_later:
+      'If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
+    intro_original_url:
+      'You can copy the URL from here if you need to save it somewhere else.',
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -137,12 +147,23 @@ const locale = {
       'Haz clic aquí para editar tus objetivos a largo plazo',
     focus_block_duration_subtitle: (duration) =>
       `NEEDSTRANSLATION You've been doing great - ${duration} already spent focused`,
-    save_this_page_for_later: 'NEEDSTRANSLATION Save this page for later',
+    save_this_page_for_later: (hostname) =>
+      `NEEDSTRANSLATION Save ${hostname} for later`,
     focus_block_is_over: 'NEEDSTRANSLATION Focus block is over!',
     let_keep_the_focus_on: (focus_mode) =>
       `NEEDSTRANSLATION Let's keep the focus on ${focus_mode}`,
     get_a_tip_for_staying_focused:
       'NEEDSTRANSLATION Get a tip for staying focused',
     original_url: (url) => `NEEDSTRANSLATION Original URL ${url}`,
+    general_error:
+      'NEEDSTRANSLATION Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+    intro_oops_i_actually_need_this:
+      "NEEDSTRANSLATION Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.",
+    intro_long_term_goals:
+      "NEEDSTRANSLATION Put in your long term goals to remind yourself why you don't want to access distracting sites.",
+    intro_save_url_later:
+      'NEEDSTRANSLATION If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
+    intro_original_url:
+      'NEEDSTRANSLATION You can copy the URL from here if you need to save it somewhere else.',
   },
 };

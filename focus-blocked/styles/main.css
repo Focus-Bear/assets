@@ -10,12 +10,11 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  font-family: fenwick, sans-serif;
   position: relative;
 }
 
 .container > img {
-  width: 40dvw;
+  width: 28dvw;
   height: auto;
   object-fit: cover;
   padding: 1rem 0;

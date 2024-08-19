@@ -47,31 +47,9 @@ const getFocusTitle = (
 };
 
 const instructions = (url) =>
-  `<a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps" target="_blank">${selected_lang.url_is_configured_to_be_always_blocked(
+  `<a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">${selected_lang.url_is_configured_to_be_always_blocked(
     url
   )}</a>`;
-
-const getFocusTip = (block_type, old_url, current_url, focus_mode) => ({
-  focus_tip_old_url: `<div class='notice-wrapper'>
-    ${
-      block_type
-        ? ''
-        : `<a href=${current_url}>${selected_lang.click_here_to_re_open_the_original_url(
-            old_url
-          )}</a>`
-    }
-    </div>`,
-  focus_tip: `<div class='notice-wrapper'>
-    ${
-      block_type
-        ? ''
-        : `<a href=${current_url}>${selected_lang.click_here_to_re_open_the_original_url(
-            old_url
-          )}</a>`
-    }
-    ${selected_lang.focus_tip(focus_mode, old_url)}
-    </div>`,
-});
 
 const getExternalHint = () => {
   switch (domain) {
