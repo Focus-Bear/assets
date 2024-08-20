@@ -1,3 +1,60 @@
+# v1.13.302 (August 17 - 2024)
+## Bug Fixes/Improvements
+- Popup to confirm before switching to Geek Mode from Simpe Mode.
+- Rating your Motivation Level before starting a routine is set as optional.
+- Block Super Distracting sites will not use AI blocking but instead only block those in your Super Distracting Sites/Apps list.
+- Long URLs are shortened for the AI Blocking popup window.
+- Default focus alignment score is set to 90%.
+- Added some more Tooltips and explanations to the different settings.
+- Fixed issue with brain dump not transferring to the To Do player.
+- Fixed issue with some URL staying blocked even after clicking "Unblock this for me".
+- Fixed issue with "Turn off breaks for the day" not working.
+
+## New Features
+- Accountability password rule added to require password for opening Preferences after your evening cut-off time.
+- Button to join WhatsApp group added in Preferences > Help > Community.
+- When allowing a site that was blocked by AI, you are given the option to allow all URLs within that site's domain.
+- Added option for putting your computer to sleep in the "Time to wind down" screen.
+
+
+# v1.12.296 (July 22 - 2024)
+## Bug Fixes/Improvements
+- Excluded some default system app from the Brain dump text prefill.
+- Fix for issues related to the desktop when minimizing the browser.
+- Stability fixes for the Todo Player and Tasks list.
+
+## New Features
+- Free Basic model to allow using limited features of the app for free after the trial expires.
+
+# v1.11.293 (July 12 - 2024)
+## Bug Fixes/Improvements
+- When it is time to take a break, the popup will wait for a moment of inactivity before appearing. 
+- Close button added in the task list window during the Focus mode end screen.
+- Meetings focus mode will run on Normal Strictness level.
+- A wait timer will appear When pausing a focus mode while in Strict mode
+
+## New Features
+- Menu icon changes to show that AI is still checking a site/app and deciding whether to block or not.
+- Shutdown button added in the "Time to wind down" screen so you can turn off your computer without having to quit the app.
+- Strictness Level slider added to the Focus mode start screen so you can change strictness level setting.
+- Notifications are blocked by default when running the Deep Work or Block Super Distracting Sites focus modes.
+
+# v1.10.290 (July 3 - 2024)
+## New Features
+- The brain dump text is prefilled with the last website/app your were on before the break started.
+- Tutorials are made available under Preferences > Help > Tutorials
+
+# v1.9.288 (June 24 - 2024)
+## Bug Fixes/Improvements
+- Show remaining break time when in a Pomodoro break instead of time for the next break.
+- Improvements to the payment experience when subscribing.
+- Updates to the accountability password rules to prevent circumventing password-protected scenarios.
+- Default setting for "Require intention when postponing" is set to off in Preferences > Settings > Strictness > Friction.
+
+## New Features
+- Show the Brain Dump after your morning routine. Setting can be found in Preferences > Settings > To Do List.
+- Option to turn off breaks for the day when postponing a break.
+
 # v1.8.285 (June 13 - 2024)
 ## Bug Fixes
 - Fixed issue with To Do Player unable to initialize if the focus mode or pomodoro intention contains a line break.
