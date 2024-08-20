@@ -1,14 +1,4 @@
 # v1.13.302 (August 17 - 2024)
-## Bug Fixes/Improvements
-- Popup to confirm before switching to Geek Mode from Simpe Mode.
-- Rating your Motivation Level before starting a routine is set as optional.
-- Block Super Distracting sites will not use AI blocking but instead only block those in your Super Distracting Sites/Apps list.
-- Long URLs are shortened for the AI Blocking popup window.
-- Default focus alignment score is set to 90%.
-- Added some more Tooltips and explanations to the different settings.
-- Fixed issue with brain dump not transferring to the To Do player.
-- Fixed issue with some URL staying blocked even after clicking "Unblock this for me".
-- Fixed issue with "Turn off breaks for the day" not working.
 
 ## New Features
 - Accountability password rule added to require password for opening Preferences after your evening cut-off time.
@@ -16,6 +6,18 @@
 - When allowing a site that was blocked by AI, you are given the option to allow all URLs within that site's domain.
 - Added option for putting your computer to sleep in the "Time to wind down" screen.
 
+## Bug Fixes
+- Fixed issue with brain dump not transferring to the To Do player.
+- Fixed issue with some URL staying blocked even after clicking "Unblock this for me".
+- Fixed issue with "Turn off breaks for the day" not working.
+
+## Improvements
+- Popup to confirm before switching to Geek Mode from Simple Mode.
+- Rating your Motivation Level before starting a routine is now optional.
+- Block Super Distracting sites will not use AI blocking but instead only block those in your Super Distracting Sites/Apps list.
+- Long URLs are shortened for the AI Blocking popup window.
+- Default focus alignment score is set to 90%.
+- Added some more Tooltips and explanations to the different settings.
 
 # v1.12.296 (July 22 - 2024)
 ## Bug Fixes/Improvements
