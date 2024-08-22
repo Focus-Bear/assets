@@ -1704,7 +1704,7 @@
         "pointFifthText": "Change the setting - \"accessibility.force_disabled\" to -1 in Firefox to enable distractions in blocking.",
         "buttonActivateFirefoxText": "Open/Activate Firefox",
         "buttonClickHereText": "Click here to watch a video to learn how to edit the setting.",
-        "buttonPreferencesText": "Open System Preferences",
+        "buttonPreferencesText": "Open Accessibility Preferences",
         "buttonContinueText": "Continue",
         "pointFirstNewText": "Open System Preferences > Privacy & Security > Accessibility or use the button below.",
         "step1Text": "Step 1: Grant Accessibility permission to focus bear",
