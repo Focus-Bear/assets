@@ -1750,7 +1750,7 @@
     },
     "confirmEveningRoutineTimeVcInfo": {
         "title": "Confirm your evening routine",
-        "subTitle": "To be super clear, here's what's going to happen in the evening.",
+        "subTitle": "Here's what's going to happen in the evening.",
         "timeText": "At <TIME>:",
         "pointFirstRelaxTimeText": "You'll enter \"Free Time mode\".",
         "pointSecondRelaxTimeText": "You can use any app (including websites that are normally blocked).",
