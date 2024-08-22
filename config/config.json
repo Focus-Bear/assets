@@ -1393,13 +1393,13 @@
         "sleepTimeAlertText": "Sleep time cannot be less than finish work time.",
         "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Free time - block nothing",
         "buttonNextText": "Next",
-        "infoStartTimeText": "Choose the earliest possible time you would want to start work. You’ll do your morning routine before starting work. You can start later than this time if you need to.",
+        "infoStartTimeText": "Choose the normal time you start work. You’ll do your morning routine before starting work. You can skip your morning routine if you have an emergency.",
         "infoFinishTimeText": "When do you typically finish work? You can keep using your computer after this if needed but Focus Bear will nudge you to get off your tech in the evening so you can relax, do your evening routine and sleep well.",
         "infoSleepTimeText": "When do you want to get to sleep? We’ll nudge you to do your evening routine beforehand so you can wind down and sleep well.",
         "titleSchedule": "Set your schedule",
         "wakeUpTimeText": "☀️ <WAKEUP_TIME> - Wake up",
         "questionWakeUpTimeText": "What time do you usually wake up?",
-        "infoWakeUpTimeText": "select or input the time you generally wake up each morning."
+        "infoWakeUpTimeText": "Choose the earliest time you wake up. You can start your morning routine at this time. Before then, your computer will be locked so you can sleep (you can unlock it in an emergency)."
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear helps you avoid distractions and build healthy habits.",
