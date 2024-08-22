@@ -1227,7 +1227,7 @@
         "buttonBadDecisionText": "Bad decision",
         "checkboxDonotShowText": "Don't show this anymore",
         "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive.",
-        "buttonBlockAndAddToRelaxModeText": "Block and save for Relax mode",
+        "buttonBlockAndAddToRelaxModeText": "Block and save for Free Time mode",
         "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%",
         "buttonAllowDomainText": "Allow all URLs from <DOMAIN> for this focus session",
         "waitingAiText": "Waiting for AI decision..."
@@ -1270,7 +1270,7 @@
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
         "categoryOthers": "Others",
-        "blockSitesCountText": "<COUNT> sites will always be blocked. (except when you're in Relax Mode)",
+        "blockSitesCountText": "<COUNT> sites will always be blocked. (except when you're in Free Time mode)",
         "oneSiteBlockText": "1 site will always be blocked."
     },
     "preloadFocusModeAppsVcInfo": {
@@ -1596,7 +1596,7 @@
         "thisIsDemoText": "This is a demo - you can open the menu after the tour is done"
     },
     "relaxModeVcInfo":{
-        "title": "Sites you saved for relax mode:",
+        "title": "Sites you saved for Free Time mode:",
         "toolTipRemoveUrls": "Remove Selected URLs",
         "buttonActivityDoneText": "I'm done relaxing. Start winding down!"
     },
@@ -1752,7 +1752,7 @@
         "title": "Confirm your evening routine",
         "subTitle": "To be super clear, here's what's going to happen in the evening.",
         "timeText": "At <TIME>:",
-        "pointFirstRelaxTimeText": "You'll enter \"Relax mode\".",
+        "pointFirstRelaxTimeText": "You'll enter \"Free Time mode\".",
         "pointSecondRelaxTimeText": "You can use any app (including websites that are normally blocked).",
         "pointThirdRelaxTimeText": "Good for playing games or unrestricted browsing. You've earned it after a hard day of focusing.",
         "pointFirstEveningTimeText": "You'll enter \"Wind Down mode\".",
