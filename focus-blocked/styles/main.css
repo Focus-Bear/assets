@@ -3,8 +3,8 @@
 @import url('./toast_popup.css');
 
 .container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +86,7 @@
 
 #privacyContainer {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
@@ -162,9 +162,27 @@ a#save_page_url_btn {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .privacyNotice {
+    font-size: 17px;
+  }
+  .focusTitleWrapper > h1 {
+    font-size: 1.5rem;
+  }
+  .container > img {
+    width: 70dvw;
+  }
+  #progressWrapper > h2 {
+    font-size: 1.2rem;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .privacyNotice {
     font-size: 17px;
+  }
+  .focusTitleWrapper > h1 {
+    font-size: 2rem;
   }
 }
 
@@ -172,10 +190,16 @@ a#save_page_url_btn {
   .privacyNotice {
     font-size: 18px;
   }
+  .focusTitleWrapper > h1 {
+    font-size: 2.1rem;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
   .privacyNotice {
     font-size: 20px;
+  }
+  .focusTitleWrapper > h1 {
+    font-size: 2.2rem;
   }
 }
