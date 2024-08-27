@@ -1,5 +1,13 @@
-# v1.13.302 (August 17 - 2024)
+# v1.14.304 (August 26 - 2024)
+## Improvements
+- Show "Oops I actually need it" unblock button when a super distracting site is blocked while in Cuddly Bear mode, and if you click it, then you will be asked for your intention for using the site.
+- Leaving the intention blank when skipping a habit will not remove the saved intention for the next pomodoro session.
+- If you ignore the prompt to start another focus session after a break, you will be reminded again after a minute, or after 15 minutes if you close the prompt.
+- You will be asked if you want to skip your morning routine if you deactivate the app after your evening routine.
+- Updated process for downloading Focus Bear Time Tracker.
 
+
+# v1.13.302 (August 17 - 2024)
 ## New Features
 - Accountability password rule added to require password for opening Preferences after your evening cut-off time.
 - Button to join WhatsApp group added in Preferences > Help > Community.
