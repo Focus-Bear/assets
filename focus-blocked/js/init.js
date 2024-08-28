@@ -47,6 +47,7 @@ const cuddly_bear_mode = urlParams.get('cuddly_bear_mode') === 'true';
 const blocked_reason = urlParams.get('reason');
 const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
+const isonboarding = urlParams.get('isonboarding') === 'true';
 
 let encouraging_info = {};
 try {
