@@ -1,6 +1,6 @@
 {
     "welcomeInfo": {
-        "welcomeMessageHeading": "Let’s do a quick 30 seconds activity",
+        "welcomeMessageHeading": "Let’s do a quick 30 seconds microbreak",
         "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nLet’s try out some sample habits (deep breathing/stretching).\n\nWhile you breathe deeply/stretch, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "introActivities": [
@@ -451,6 +451,7 @@
         "toolTipPomodoroSessionText": "Start a Focus session to get deep work done.",
         "menuItemResumeFocusTitle": "Resume Focus Session",
         "menuItemPauseFocusTitle": "Pause Focus Session"
+        "toolTipPomodoroSessionText": "Start a Pomodoro session to get deep work done."
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -1060,7 +1061,7 @@
         "titleSignInSuccessful": "Sign in successful",
         "signinSuccessText": "Great you're all signed in. I'll just give you a few tips before you start using it.",
         "privacyText": "Privacy and Security",
-        "privacyDescription": "We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email support@focusbear.io or refer to our privacy policy:",
+        "privacyDescription": "We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email support@focusbear.io or refer to our privacy policy:",
         "buttonPrivacyText": "Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
@@ -1241,7 +1242,7 @@
         "buttonBadDecisionText": "Bad decision",
         "checkboxDonotShowText": "Don't show this anymore",
         "progressInfoText": "You're teaching Focus Bear what sites and apps are productive for you. It takes a bit of effort at first but within a few days, you'll have taught Focus Bear what apps and websites are productive.",
-        "buttonBlockAndAddToRelaxModeText": "Block and save for Relax mode",
+        "buttonBlockAndAddToRelaxModeText": "Block and save for Free Time mode",
         "focusAlignmentScoreText": "Your Focus alignment score is <SCORE>%",
         "buttonAllowDomainText": "Allow all URLs from <DOMAIN> for this focus session",
         "waitingAiText": "Waiting for AI decision..."
@@ -1284,7 +1285,7 @@
         "categorySocialMedia": "Social Media",
         "categoryNews": "News",
         "categoryOthers": "Others",
-        "blockSitesCountText": "<COUNT> sites will always be blocked. (except when you're in Relax Mode)",
+        "blockSitesCountText": "<COUNT> sites will always be blocked. (except when you're in Free Time mode)",
         "oneSiteBlockText": "1 site will always be blocked."
     },
     "preloadFocusModeAppsVcInfo": {
@@ -1407,13 +1408,13 @@
         "sleepTimeAlertText": "Sleep time cannot be less than finish work time.",
         "relaxTimeText": "🥱 <END_WORK_TIME> - <RELAX_END_TIME> - Free time - block nothing",
         "buttonNextText": "Next",
-        "infoStartTimeText": "Choose the earliest possible time you would want to start work. You’ll do your morning routine before starting work. You can start later than this time if you need to.",
+        "infoStartTimeText": "Choose the normal time you start work. You’ll do your morning routine before starting work. You can skip your morning routine if you have an emergency.",
         "infoFinishTimeText": "When do you typically finish work? You can keep using your computer after this if needed but Focus Bear will nudge you to get off your tech in the evening so you can relax, do your evening routine and sleep well.",
         "infoSleepTimeText": "When do you want to get to sleep? We’ll nudge you to do your evening routine beforehand so you can wind down and sleep well.",
         "titleSchedule": "Set your schedule",
         "wakeUpTimeText": "☀️ <WAKEUP_TIME> - Wake up",
         "questionWakeUpTimeText": "What time do you usually wake up?",
-        "infoWakeUpTimeText": "select or input the time you generally wake up each morning."
+        "infoWakeUpTimeText": "Choose the earliest time you wake up. You can start your morning routine at this time. Before then, your computer will be locked so you can sleep (you can unlock it in an emergency)."
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear helps you avoid distractions and build healthy habits.",
@@ -1614,7 +1615,7 @@
         "thisIsDemoText": "This is a demo - you can open the menu after the tour is done"
     },
     "relaxModeVcInfo":{
-        "title": "Sites you saved for relax mode:",
+        "title": "Sites you saved for Free Time mode:",
         "toolTipRemoveUrls": "Remove Selected URLs",
         "buttonActivityDoneText": "I'm done relaxing. Start winding down!"
     },
@@ -1725,7 +1726,7 @@
         "pointFifthText": "Change the setting - \"accessibility.force_disabled\" to -1 in Firefox to enable distractions in blocking.",
         "buttonActivateFirefoxText": "Open/Activate Firefox",
         "buttonClickHereText": "Click here to watch a video to learn how to edit the setting.",
-        "buttonPreferencesText": "Open System Preferences",
+        "buttonPreferencesText": "Open Accessibility Preferences",
         "buttonContinueText": "Continue",
         "pointFirstNewText": "Open System Preferences > Privacy & Security > Accessibility or use the button below.",
         "step1Text": "Step 1: Grant Accessibility permission to focus bear",
@@ -1772,9 +1773,9 @@
     },
     "confirmEveningRoutineTimeVcInfo": {
         "title": "Confirm your evening routine",
-        "subTitle": "To be super clear, here's what's going to happen in the evening.",
+        "subTitle": "Here's what's going to happen in the evening.",
         "timeText": "At <TIME>:",
-        "pointFirstRelaxTimeText": "You'll enter \"Relax mode\".",
+        "pointFirstRelaxTimeText": "You'll enter \"Free Time mode\".",
         "pointSecondRelaxTimeText": "You can use any app (including websites that are normally blocked).",
         "pointThirdRelaxTimeText": "Good for playing games or unrestricted browsing. You've earned it after a hard day of focusing.",
         "pointFirstEveningTimeText": "You'll enter \"Wind Down mode\".",
@@ -1941,7 +1942,7 @@
         "brainDumpSettingTitle": "Start brain dump after morning routine"
     },
     "toDoPlayerVcInfo":{
-        "alertStopLaunchingToDoPlayer": "Do you want to stop the To Do player from launching automatically?",
+        "alertStopLaunchingToDoPlayer": "Do you want to stop the To Do player from launching automatically when you start a focus session?",
         "buttonKeepItText": "Keep it",
         "buttonDontShowText": "Don't Show it Again"
     },
@@ -1955,8 +1956,8 @@
     },
     "accessibilityPermissionVcInfo":{
         "title": "Grant accessibility permission to Focus Bear",
-        "subTitle": "In order to block distractions, you need to authorize Focus Bear in the Accessibility section of the Security & Privacy Pane of the System Preferences.",
-        "nextViewInfoText": "On the next screen we will ask permissions to block distractions.",
+        "subTitle": "In order to interact with other browsers , you need to authorize Focus Bear in the Accessibility section of the Security & Privacy Pane of the System Preferences.",
+        "nextViewInfoText": "On the next screen we will ask permissions to intract with browsers.",
         "step1Text": "Step 1:",
         "step2Text": "Step 2:",
         "step3Text": "Step 3:",
