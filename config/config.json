@@ -451,7 +451,6 @@
         "toolTipPomodoroSessionText": "Start a Focus session to get deep work done.",
         "menuItemResumeFocusTitle": "Resume Focus Session",
         "menuItemPauseFocusTitle": "Pause Focus Session"
-        "toolTipPomodoroSessionText": "Start a Pomodoro session to get deep work done."
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
