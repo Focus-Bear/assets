@@ -67,7 +67,7 @@ try {
         if (focusRemainingSeconds > 0) {
           const remainingTime = moment
             .duration(focus_mode_end_time.diff(moment()))
-            .humanize(true);
+            .humanize();
           const focusBlockInfo = getFocusTitle(
             FOCUS_BLOCK_OPTION.FOCUS_BLOCK_INPROGRESS,
             remainingTime

@@ -1912,7 +1912,7 @@
         "brainDumpSettingTitle": "Start brain dump after morning routine"
     },
     "toDoPlayerVcInfo":{
-        "alertStopLaunchingToDoPlayer": "Do you want to stop the To Do player from launching automatically?",
+        "alertStopLaunchingToDoPlayer": "Do you want to stop the To Do player from launching automatically when you start a focus session?",
         "buttonKeepItText": "Keep it",
         "buttonDontShowText": "Don't Show it Again"
     },
