@@ -1,3 +1,36 @@
+# v1.14.311 (September 25 - 2024)
+## Improvements
+- Added To-do player at end of activities with an allowed focus mode.
+- Added ability to ask for intention at the start of the habit and then open the to do player, useful in case of habits that have allowed focus mode.
+- Improved the micro break notification and the Focus End Window to allow doing break habits after a focus session.
+- Added option and setting for requiring password when turning off app for a few hours.
+- Removed Focus modes list from the Focus Bear Menu. Now the focus mode can be selected when starting a focus session.
+- Made routines less intimidating by adding a question initially : "How much time do you have for your habits today?" and then added a slider to get user input for time for habits.
+- Improved the AI popup to never move even if the user moves the window.
+- Improved Super distracting popup time amounts for better readability.
+- Removed grainy background effect from all screens.
+- Enhanced Grey text on blocked screen which was hard to read.
+- Reporting tags made hidden by default unless Focus Bear time tracker add-on is installed.
+- Improved Super distracting intention popup to hide after the end of the chosen time.
+- Start first routine button is hidden if the user is running a Focus session.
+- Setting of strictness levels for focus session is made available in Simple mode too.
+- Improvements to AI blocking feature.
+- Popup for seeking confirmation is removed from habits screen to make it less intimidating.
+- Menu improvements for enhancing layout including reduced logo size and removed background.
+- Made the 30 second countdown timer visible in the set intention window that appears for distracting sites to avoid confusion.
+- Added a dedicated blocks section in top menu of Preferences.
+- Added ability to minimize Todo Player but still retaining the top bar so that its less intimidating.
+- Added a minimized view for the To Do Player.
+- Updated the app icon for when in office mode.
+- Added the option to ask for a password to allow using the Relax Focus mode.
+- Added "Lock Focus on current activity" in the list of pomodoro focus modes.
+- Fix for the setting to ask a password when quitting the app.
+- Added strictness slider in pomodoro for simple mode also.
+- Fix to prevent the todo player from closing when the countdown timer is closed.
+
+## New Features
+- Replaced AI chat in the Help section with Get Support to chat with actual support staff.
+
 # v1.14.304 (August 26 - 2024)
 ## Improvements
 - Show "Oops I actually need it" unblock button when a super distracting site is blocked while in Cuddly Bear mode, and if you click it, then you will be asked for your intention for using the site.
