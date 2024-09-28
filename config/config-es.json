@@ -193,7 +193,9 @@
         "tabBlockedListText": "Lista de Bloqueo",
         "titleAccountProgress": "Progreso de la Cuenta",
         "taskPlayerWindowTitle": "Focus Bear - Lista de Tareas",
-        "allowAllUrlsFromDomainText": "¿Deseas permitir todas las URL de <DOMAIN> para esta sesión de enfoque?"
+        "allowAllUrlsFromDomainText": "¿Deseas permitir todas las URL de <DOMAIN> para esta sesión de enfoque?",
+        "buttonContinueText": "Continuar",
+        "tabBlocksText": "Blocks[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando...",
@@ -660,7 +662,7 @@
             "strictnessSuperStrictText": "Super estricto",
             "strictnessNormalTooltip": "puede pausar/detener la sesión de enfoque en cualquier momento",
             "strictnessStrictTooltip": "requiere temporizador de cuenta atrás antes de pausar/detener la sesión de enfoque",
-            "strictnessSuperStrictTooltip": "modo oso pardo + bloqueo inmediato de urls + impide pausar/detener la sesión de enfoque o abrir la configuración",
+            "strictnessSuperStrictTooltip": "bloqueo inmediato de urls + impide pausar/detener la sesión de enfoque o abrir la configuración",
             "titleStrictnessLevel": "Nivel de Rigor:",
             "strictnessSuperStrictClickedText": "Entiendo que no puedo detener esta sesión de enfoque hasta que termine. Me comprometo a evitar las distracciones y a trabajar mucho.",
             "warningDefaultFocusMode": "Atención: esto no utilizará el bloqueo IA. Focus Bear solo bloqueará los sitios de tu lista de sitios superdistractores."
@@ -1286,7 +1288,8 @@
         "categoryNews": "Noticias",
         "categoryOthers": "Otros",
         "blockSitesCountText": "<COUNT> sitios estarán siempre bloqueados (excepto cuando estés en Modo Relajado)",
-        "oneSiteBlockText": "1 sitio estará siempre bloqueado"
+        "oneSiteBlockText": "1 sitio estará siempre bloqueado",
+        "categoryStreamingServices": "Streaming services[NEEDTRANSLATION]"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Listo",
@@ -1681,7 +1684,8 @@
         "breaksNewSettingTitle": "Descansos",
         "toDoListSettingTitle": "Lista de Tareas",
         "titleDownloadTimeTrackerText": "Focus Bear Time Tracker needs to be downloaded and installed as a separate component.[NEEDTRANSLATION]",
-        "buttonDownloadTimeTrackerText": "Download Now[NEEDTRANSLATION]"
+        "buttonDownloadTimeTrackerText": "Download Now[NEEDTRANSLATION]",
+        "blockingScheduleSettingTitle": "Blocking Schedule[NEEDTRANSLATION]"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1758,7 +1762,8 @@
         "tabCourses": "Cursos",
         "arrayCommunityOptions": ["Sub-Reddit", "Comunidad de Facebook Messenger", "Grupo de Facebook", "Otro"],
         "titleWhatsAppGroup": "¡Únete al grupo de WhatsApp de Focus Bear para intercambiar ideas, organizar sesiones de trabajo colaborativo/acompañamiento y recibir apoyo con la app!",
-        "buttonJoinWhatsAppGroupText": "Unirse al grupo de WhatsApp"
+        "buttonJoinWhatsAppGroupText": "Unirse al grupo de WhatsApp",
+        "tabGetSupport": "Get Support[NEEDTRANSLATION]"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -1879,7 +1884,7 @@
         "titleDays": "(Días <NUMBER>)"
     },
     "askOccupationVcInfo": {
-        "subTitle": "¿Cuál de las siguientes opciones describe mejor tu ocupación?",
+        "subTitle": "What type of work do you do?[NEEDTRANSLATION]",
         "description": "Esto se utilizará para recomendar las características más adecuadas para tu trabajo.",
         "arrayOccupations": ["Estudiante Universitario","Desarrollador de Software", "Diseñador Gráfico", "Dueño de Empresa", "Otro trabajo de oficina", "Trabajo de campo (no delante de computador)", "Padre (configurando para niños)", "Otro"],
         "infoText": "Configuraremos un modo de enfoque especial diseñado para tu trabajo que tendrá sitios web y apps relevantes para tu trabajo. Esta información también nos ayuda a saber quién utiliza la app para poder mejorar sus funciones.",
@@ -1888,7 +1893,7 @@
         "optionUndergraduate": "Licenciatura",
         "optionGraduate": "Maestría",
         "optionPostgraduate": "Doctorado",
-        "titleSelectIndustry": "Elegir industria:",
+        "titleSelectIndustry": "Type of work:[NEEDTRANSLATION]",
         "optionProgrammer": "Programador",
         "optionGraphicDesigner": "Diseñador gráfico",
         "optionOtherOfficeWork": "Otro trabajo de oficina",
@@ -1923,9 +1928,10 @@
         "buttonCommittedText": "Súper comprometido - prometo tomar descansos con regularidad",
         "resultDisableBreaksText": "No te preocupes. Puedes activar las pausas más tarde desde Preferencias > Descansos > Activar descansos",
         "resultEnableBreaksText": "Genial. Vamos a configurar tus descansos de inmediato",
-        "warningNewText": "We time breaks so they don't disrupt hyperfocus. Focus Bear will detect when you are less active (based on not typing or moving your mouse) and suggest a break at that time. You can skip/postpone the breaks but your eyes and body will really appreciate it if you do take breaks![NEEDTRANSLATION]",
+        "warningNewText": "We time breaks so they don't disrupt hyperfocus.[NEEDTRANSLATION]",
         "buttonMostlyCommittedText": "Mostly committed - I’ll take breaks most of the time[NEEDTRANSLATION]",
-        "resultMostlyCommittedText": "Got it - you can skip breaks if it comes at a bad time[NEEDTRANSLATION]"
+        "resultMostlyCommittedText": "Got it - you can skip breaks if it comes at a bad time[NEEDTRANSLATION]",
+        "infoText": "Focus Bear will detect when you are less active (based on not typing or moving your mouse) and suggest a break at that time. You can skip/postpone the breaks but your eyes and body will really appreciate it if you do take breaks![NEEDTRANSLATION]"
     },
     "deactivateBreaksVcInfo":{
         "title": "¿Deseas desactivar completamente los descansos?",
@@ -1957,7 +1963,7 @@
     "accessibilityPermissionVcInfo":{
         "title": "Conceder permiso de accesibilidad a Focus Bear",
         "subTitle": "Para poder interactuar con otros navegadores, es necesario autorizar Focus Bear en la sección Accesibilidad del Panel Seguridad y Privacidad de las Preferencias del Sistema.",
-        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores.",
+        "nextViewInfoText": "On the next screen we will ask permissions for System Events.[NEEDTRANSLATION]",
         "step1Text": "Paso 1:",
         "step2Text": "Paso 2:",
         "step3Text": "Paso 3:",
@@ -2046,6 +2052,71 @@
         "title": "We want your feedback[NEEDTRANSLATION]",
         "subTitle": "We're a small independent team, not a faceless mega-corporation. Focus Bear is still a new app and we really want your feedback. If you have suggestions, please email support@focusbear.io.[NEEDTRANSLATION]",
         "buttonContinueText": "Continuar"
+    },
+    "systemEventsPermissionVcInfo":{
+        "title": "Grant Permission for System Events Access[NEEDTRANSLATION]",
+        "subTitle": "Focus Bear requires access to system events to interact with your browser and block distracting websites.[NEEDTRANSLATION]",
+        "buttonGrantPermissionText": "Grant System Events permission now[NEEDTRANSLATION]",
+        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores."
+    },
+    "askProcrastinatingVcInfo":{
+        "title": "Time to do something difficult[NEEDTRANSLATION]",
+        "subTitle": "What's something you've been procrastinating on? Focus Bear will help you get it done right after this.[NEEDTRANSLATION]",
+        "buttonStartText": "Let's do this![NEEDTRANSLATION]",
+        "studentLongTextFirst": "Finally start that essay that’s been staring at you with judgmental eyes.[NEEDTRANSLATION]",
+        "studentShortTextFirst": "Start that essay (finally).[NEEDTRANSLATION]",
+        "studentLongTextSecond": "Wrestle with your lecture notes to see if you can remember anything from last month.[NEEDTRANSLATION]",
+        "studentShortTextSecond": "Review lecture notes.[NEEDTRANSLATION]",
+        "studentLongTextThird": "Pretend you know what’s going on in your group project and get cracking on research.[NEEDTRANSLATION]",
+        "studentShortTextThird": "Take lead in group project.[NEEDTRANSLATION]",
+        "businessOwnerLongTextFirst":  "Start that tax return you’ve been avoiding like it’s a monster under the bed.[NEEDTRANSLATION]",
+        "businessOwnerShortTextFirst":  "Start your tax return.[NEEDTRANSLATION]",
+        "businessOwnerLongTextSecond":  "Finally sort through those old receipts you’ve been pretending don’t exist.[NEEDTRANSLATION]",
+        "businessOwnerShortTextSecond":  "Sort through receipts.[NEEDTRANSLATION]",
+        "businessOwnerLongTextThird":  "Knock out that dreaded 15-minute chore that’s been sitting on your list for days.[NEEDTRANSLATION]",
+        "businessOwnerShortTextThird":  "Do a dreaded chore.[NEEDTRANSLATION]",
+        "employeeLongTextFirst": "Update your portfolio before you forget how awesome your old work is.[NEEDTRANSLATION]",
+        "employeeShortTextFirst": "Update portfolio.[NEEDTRANSLATION]",
+        "employeeLongTextSecond": "Attack your inbox like a boss—your future unread emails are watching.[NEEDTRANSLATION]",
+        "employeeShortTextSecond": "Clear out inbox.[NEEDTRANSLATION]",
+        "employeeLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.[NEEDTRANSLATION]",
+        "employeeShortTextThird": "Start new concept.[NEEDTRANSLATION]",
+        "freelancerLongTextFirst": "Finish the design project that’s been lurking on your desktop like a bad habit.[NEEDTRANSLATION]",
+        "freelancerShortTextFirst": "Finish design.[NEEDTRANSLATION]",
+        "freelancerLongTextSecond": "Update your portfolio before you forget how awesome your old work is.[NEEDTRANSLATION]",
+        "freelancerShortTextSecond": "Update portfolio.[NEEDTRANSLATION]",
+        "freelancerLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.[NEEDTRANSLATION]",
+        "freelancerShortTextThird": "Start new concept.[NEEDTRANSLATION]",
+        "genericSuggestionsLongTextFirst": "Start that tax return you’ve been avoiding like it’s a monster under the bed.[NEEDTRANSLATION]",
+        "genericSuggestionsShortTextFirst": "Start your tax return.[NEEDTRANSLATION]",
+        "genericSuggestionsLongTextSecond": "Finally sort through those old receipts you’ve been pretending don’t exist.[NEEDTRANSLATION]",
+        "genericSuggestionsShortTextSecond": "Sort through receipts.[NEEDTRANSLATION]",
+        "genericSuggestionsLongTextThird": "Knock out that dreaded 15-minute chore that’s been sitting on your list for days.[NEEDTRANSLATION]",
+        "genericSuggestionsShortTextThird": "Do a dreaded chore.[NEEDTRANSLATION]",
+        "programmerLongTextFirst": "Hunt down that bug that’s been hiding from you like it’s in witness protection.[NEEDTRANSLATION]",
+        "programmerShortTextFirst": "Fix the sneaky bug.[NEEDTRANSLATION]",
+        "programmerLongTextSecond ": "Face the spaghetti code you created and somehow didn’t regret until now.[NEEDTRANSLATION]",
+        "programmerShortTextSecond": "Refactor that mess.[NEEDTRANSLATION]",
+        "programmerLongTextThird": "Write those unit tests your future self will thank you for (but probably never run).[NEEDTRANSLATION]",
+        "programmerShortTextThird": "Write unit tests (ugh).[NEEDTRANSLATION]",
+        "graphicDesignerLongTextFirst": "Finish the design project that’s been lurking on your desktop like a bad habit.[NEEDTRANSLATION]",
+        "graphicDesignerShortTextFirst": "Finish design.[NEEDTRANSLATION]",
+        "graphicDesignerLongTextSecond": "Update your portfolio before you forget how awesome your old work is.[NEEDTRANSLATION]",
+        "graphicDesignerShortTextSecond": "Update portfolio.[NEEDTRANSLATION]",
+        "graphicDesignerLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.[NEEDTRANSLATION]",
+        "graphicDesignerShortTextThird": "Start new concept.[NEEDTRANSLATION]",
+        "officeWorkLongTextFirst": "Attack your inbox like a boss—your future unread emails are watching.[NEEDTRANSLATION]",
+        "officeWorkShortTextFirst": "Clear out inbox.[NEEDTRANSLATION]",
+        "officeWorkLongTextSecond": "Write that report before your boss reminds you (again... and again).[NEEDTRANSLATION]",
+        "officeWorkShortTextSecond": "Finish the report.[NEEDTRANSLATION]",
+        "officeWorkLongTextThird": "Declutter your desk like you’re about to star in an episode of Office Hoarders.[NEEDTRANSLATION]",
+        "officeWorkShortTextThird": "Declutter your desk.[NEEDTRANSLATION]",
+        "fieldWorkLongTextFirst": "Finish the design project that’s been lurking on your desktop like a bad habit.[NEEDTRANSLATION]",
+        "fieldWorkShortTextFirst": "Finish design.[NEEDTRANSLATION]",
+        "fieldWorkLongTextSecond": "Update your portfolio before you forget how awesome your old work is.[NEEDTRANSLATION]",
+        "fieldWorkShortTextSecond": "Update portfolio.[NEEDTRANSLATION]",
+        "fieldWorkLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.[NEEDTRANSLATION]",
+        "fieldWorkShortTextThird": "Start new concept.[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
