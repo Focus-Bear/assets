@@ -163,7 +163,7 @@
         "noHighPriorityActivityText": "No activities with high Priority found.",
         "focusEndsText": "Focus mode ends in",
         "postponeEndsText": "Habit resumes in",
-        "tabStatsText": "Stats",
+        "tabStatsText": "Motivation",
         "askExtendFocusText": "Still in the flow? Extend the session",
         "extendFocusMinutesText": "Select minutes to extend:",
         "buttonExtendText": "Extend",
@@ -333,6 +333,12 @@
             "titleSkipMorningHabit": "Do you want to do your morning routine later today or skip it?",
             "buttonSkipMorningHabitText": "Skip my morning routine",
             "buttonWillDoMorningHabitText": "I'll do my morning routine"
+        },
+        "initialQuitFeedbackVcInfo": {
+            "title": "Sorry that Focus Bear didn't meet your expectations 😭",
+            "subTitle": "You were hoping that Focus Bear would do this - \"<GOALS>\". It obviously hasn't delivered on that expectation.",
+            "description": "Can you let us know what went wrong so we can improve the app?",
+            "buttonQuitText": "Turn Focus Bear off"
         }
     },
     "shutOffTimeInfo": {
@@ -2020,7 +2026,7 @@
     "simplePomodoroVcInfo":{
         "titleTour": "Start Focus Session",
         "titlePomodoroTime": "Focus Time",
-        "subTitlePomodoroTime": "The Pomodoro technique works well for many ADHDers. You do 25 minutes of work (could be shorter or longer) and then have a 5 minute break. Click on the (i) to learn more about how it works.",
+        "subTitlePomodoroTime": "You do 25 minutes of work (could be shorter or longer) and then have a 5 minute break. Click on the (i) to learn more about how it works.",
         "titleBlockingStyle": "Blocking style",
         "subTitleBlockingStyle": "If you enable AI powered blocking, Focus Bear will use AI to check whether each website is relevant for what you’re trying to achieve in this focus session. It’s privacy safe - your identity is not shared with the AI.",
         "titleWorkDuration": "Focus session duration",
@@ -2045,7 +2051,8 @@
         "buttonContinueText": "Continue",
         "alertDoOneHabitText": "Are you sure? Can you make time for just one habit so you keep the routine going?",
         "alertDoAllHabitsText": "Awesome - you'll get through all your habits!",
-        "alertDoSomeHabitsText": "Nice - even though you won't get through all your habits, you're still going to make progress."
+        "alertDoSomeHabitsText": "Nice - even though you won't get through all your habits, you're still going to make progress.",
+        "buttonLetsDoItText": "Let's do it"
     },
     "onboardingFeedbackVcInfo":{
         "title": "We want your feedback",
@@ -2054,9 +2061,12 @@
     },
     "systemEventsPermissionVcInfo":{
         "title": "Grant Permission for System Events Access",
-        "subTitle": "Focus Bear requires access to system events to interact with your browser and block distracting websites.",
+        "subTitle": "Focus Bear requires access to System events to block distracting websites.",
         "buttonGrantPermissionText": "Grant System Events permission now",
-        "nextViewInfoText": "On the next screen we will ask permissions to intract with browsers."
+        "nextViewInfoText": "On the next screen we will ask permissions to block distractions in browsers.",
+        "buttonCantGrantPermissionText": "I can't grant System Events Permissions",
+        "titlePermissionsNotGranted": "Got it! We'll look into this for you.",
+        "titlePermissionsGranted": "Great, you just allowed System Events permissions."
     },
     "askProcrastinatingVcInfo":{
         "title": "Time to do something difficult",
@@ -2068,24 +2078,24 @@
         "studentShortTextSecond": "Review lecture notes.",
         "studentLongTextThird": "Pretend you know what’s going on in your group project and get cracking on research.",
         "studentShortTextThird": "Take lead in group project.",
-        "businessOwnerLongTextFirst":  "Start that tax return you’ve been avoiding like it’s a monster under the bed.",
-        "businessOwnerShortTextFirst":  "Start your tax return.",
-        "businessOwnerLongTextSecond":  "Finally sort through those old receipts you’ve been pretending don’t exist.",
-        "businessOwnerShortTextSecond":  "Sort through receipts.",
-        "businessOwnerLongTextThird":  "Knock out that dreaded 15-minute chore that’s been sitting on your list for days.",
-        "businessOwnerShortTextThird":  "Do a dreaded chore.",
+        "businessOwnerLongTextFirst":  "Tackle those overdue invoices—it’s time to get paid for all your hard work!",
+        "businessOwnerShortTextFirst":  "Chase overdue invoices.",
+        "businessOwnerLongTextSecond":  "Review your financials before the numbers scare you in your sleep.",
+        "businessOwnerShortTextSecond":  "Review financials.",
+        "businessOwnerLongTextThird":  "Finally respond to those client emails that have been sitting in your inbox for way too long.",
+        "businessOwnerShortTextThird":  "Respond to client emails.",
         "employeeLongTextFirst": "Update your portfolio before you forget how awesome your old work is.",
         "employeeShortTextFirst": "Update portfolio.",
         "employeeLongTextSecond": "Attack your inbox like a boss—your future unread emails are watching.",
         "employeeShortTextSecond": "Clear out inbox.",
         "employeeLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.",
         "employeeShortTextThird": "Start new concept.",
-        "freelancerLongTextFirst": "Finish the design project that’s been lurking on your desktop like a bad habit.",
-        "freelancerShortTextFirst": "Finish design.",
-        "freelancerLongTextSecond": "Update your portfolio before you forget how awesome your old work is.",
+        "freelancerLongTextFirst": "Finish that client project you’ve been “almost done with” for days.",
+        "freelancerShortTextFirst": "Finish client project.",
+        "freelancerLongTextSecond": "Update your portfolio before you forget what awesome work you’ve done.",
         "freelancerShortTextSecond": "Update portfolio.",
-        "freelancerLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.",
-        "freelancerShortTextThird": "Start new concept.",
+        "freelancerLongTextThird": "Get around to sending that proposal you’ve been ‘fine-tuning’ forever.",
+        "freelancerShortTextThird": "Send proposal.",
         "genericSuggestionsLongTextFirst": "Start that tax return you’ve been avoiding like it’s a monster under the bed.",
         "genericSuggestionsShortTextFirst": "Start your tax return.",
         "genericSuggestionsLongTextSecond": "Finally sort through those old receipts you’ve been pretending don’t exist.",
