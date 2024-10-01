@@ -333,6 +333,12 @@
             "titleSkipMorningHabit": "¿Quieres hacer tu rutina matutina hoy más tarde o saltártela?",
             "buttonSkipMorningHabitText": "Omitir mi rutina matutina",
             "buttonWillDoMorningHabitText": "Sí haré mi rutina matutina"
+        },
+        "initialQuitFeedbackVcInfo": {
+            "title": "Sorry that Focus Bear didn't meet your expectations 😭[NEEDTRANSLATION]",
+            "subTitle": "You were hoping that Focus Bear would do this - \"<GOALS>\". It obviously hasn't delivered on that expectation.[NEEDTRANSLATION]",
+            "description": "Can you let us know what went wrong so we can improve the app?[NEEDTRANSLATION]",
+            "buttonQuitText": "Turn Focus Bear off[NEEDTRANSLATION]"
         }
     },
     "shutOffTimeInfo": {
@@ -2046,7 +2052,8 @@
         "buttonContinueText": "Continuar",
         "alertDoOneHabitText": "¿Estás seguro? ¿Puedes sacar tiempo para un solo hábito y así mantener la rutina?",
         "alertDoAllHabitsText": "Genial, ¡lograrás cumplir todos tus hábitos!",
-        "alertDoSomeHabitsText": "Bien, aunque no consigas cumplir todos tus hábitos, seguirás progresando."
+        "alertDoSomeHabitsText": "Bien, aunque no consigas cumplir todos tus hábitos, seguirás progresando.",
+        "buttonLetsDoItText": "Let's do it[NEEDTRANSLATION]"
     },
     "onboardingFeedbackVcInfo":{
         "title": "Queremos tu opinión",
@@ -2057,7 +2064,10 @@
         "title": "Grant Permission for System Events Access[NEEDTRANSLATION]",
         "subTitle": "Focus Bear requires access to system events to interact with your browser and block distracting websites.[NEEDTRANSLATION]",
         "buttonGrantPermissionText": "Grant System Events permission now[NEEDTRANSLATION]",
-        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores."
+        "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores.",
+        "buttonCantGrantPermissionText": "I can't grant System Events Permissions[NEEDTRANSLATION]",
+        "titlePermissionsNotGranted": "Got it! We'll look into this for you.[NEEDTRANSLATION]",
+        "titlePermissionsGranted": "Great, you just allowed System Events permissions.[NEEDTRANSLATION]"
     },
     "askProcrastinatingVcInfo":{
         "title": "Time to do something difficult[NEEDTRANSLATION]",

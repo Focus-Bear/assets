@@ -163,7 +163,7 @@
         "noHighPriorityActivityText": "No activities with high Priority found.",
         "focusEndsText": "Focus mode ends in",
         "postponeEndsText": "Habit resumes in",
-        "tabStatsText": "Stats",
+        "tabStatsText": "Motivation",
         "askExtendFocusText": "Still in the flow? Extend the session",
         "extendFocusMinutesText": "Select minutes to extend:",
         "buttonExtendText": "Extend",
@@ -333,6 +333,12 @@
             "titleSkipMorningHabit": "Do you want to do your morning routine later today or skip it?",
             "buttonSkipMorningHabitText": "Skip my morning routine",
             "buttonWillDoMorningHabitText": "I'll do my morning routine"
+        },
+        "initialQuitFeedbackVcInfo": {
+            "title": "Sorry that Focus Bear didn't meet your expectations 😭",
+            "subTitle": "You were hoping that Focus Bear would do this - \"<GOALS>\". It obviously hasn't delivered on that expectation.",
+            "description": "Can you let us know what went wrong so we can improve the app?",
+            "buttonQuitText": "Turn Focus Bear off"
         }
     },
     "shutOffTimeInfo": {
@@ -2020,7 +2026,7 @@
     "simplePomodoroVcInfo":{
         "titleTour": "Start Focus Session",
         "titlePomodoroTime": "Focus Time",
-        "subTitlePomodoroTime": "The Pomodoro technique works well for many ADHDers. You do 25 minutes of work (could be shorter or longer) and then have a 5 minute break. Click on the (i) to learn more about how it works.",
+        "subTitlePomodoroTime": "You do 25 minutes of work (could be shorter or longer) and then have a 5 minute break. Click on the (i) to learn more about how it works.",
         "titleBlockingStyle": "Blocking style",
         "subTitleBlockingStyle": "If you enable AI powered blocking, Focus Bear will use AI to check whether each website is relevant for what you’re trying to achieve in this focus session. It’s privacy safe - your identity is not shared with the AI.",
         "titleWorkDuration": "Focus session duration",
@@ -2045,7 +2051,8 @@
         "buttonContinueText": "Continue",
         "alertDoOneHabitText": "Are you sure? Can you make time for just one habit so you keep the routine going?",
         "alertDoAllHabitsText": "Awesome - you'll get through all your habits!",
-        "alertDoSomeHabitsText": "Nice - even though you won't get through all your habits, you're still going to make progress."
+        "alertDoSomeHabitsText": "Nice - even though you won't get through all your habits, you're still going to make progress.",
+        "buttonLetsDoItText": "Let's do it"
     },
     "onboardingFeedbackVcInfo":{
         "title": "We want your feedback",
@@ -2054,9 +2061,12 @@
     },
     "systemEventsPermissionVcInfo":{
         "title": "Grant Permission for System Events Access",
-        "subTitle": "Focus Bear requires access to system events to interact with your browser and block distracting websites.",
+        "subTitle": "Focus Bear requires access to System events to block distracting websites.",
         "buttonGrantPermissionText": "Grant System Events permission now",
-        "nextViewInfoText": "On the next screen we will ask permissions to intract with browsers."
+        "nextViewInfoText": "On the next screen we will ask permissions to block distractions in browsers.",
+        "buttonCantGrantPermissionText": "I can't grant System Events Permissions",
+        "titlePermissionsNotGranted": "Got it! We'll look into this for you.",
+        "titlePermissionsGranted": "Great, you just allowed System Events permissions."
     },
     "askProcrastinatingVcInfo":{
         "title": "Time to do something difficult",
