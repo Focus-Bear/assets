@@ -2062,7 +2062,7 @@
     },
     "systemEventsPermissionVcInfo":{
         "title": "Grant Permission for System Events Access[NEEDTRANSLATION]",
-        "subTitle": "Focus Bear requires access to System events to block distracting websites.[NEEDTRANSLATION]",
+        "subTitle": "Focus Bear requires access to system events to interact with your browser and block distracting websites.[NEEDTRANSLATION]",
         "buttonGrantPermissionText": "Grant System Events permission now[NEEDTRANSLATION]",
         "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores.",
         "buttonCantGrantPermissionText": "I can't grant System Events Permissions[NEEDTRANSLATION]",
