@@ -195,7 +195,9 @@
         "taskPlayerWindowTitle": "Focus Bear - To Do Player",
         "allowAllUrlsFromDomainText": "Do you want to allow all URLs from <DOMAIN> for this focus session?",
         "buttonContinueText": "Continue",
-        "tabBlocksText": "Blocks"
+        "tabBlocksText": "Blocks",
+        "titleActivatingBlockingProgress": "Set up distraction blocking",
+        "titleSettingHabitsProgress": "Activate Features"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -949,7 +951,7 @@
         "buttonCloseText": "Close"
     },
     "askLogInVcInfo": {
-        "title": "Save your habits to your account.",
+        "title": "Create an account to sync your blocked app list and other settings to all your devices.",
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up",
@@ -1690,7 +1692,8 @@
         "toDoListSettingTitle": "To Do List",
         "titleDownloadTimeTrackerText": "Focus Bear Time Tracker needs to be downloaded and installed as a separate component.",
         "buttonDownloadTimeTrackerText": "Download Now",
-        "blockingScheduleSettingTitle": "Blocking Schedule"
+        "blockingScheduleSettingTitle": "Blocking Schedule",
+        "buttonReleaseNotesText": "Release notes"
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -1903,12 +1906,13 @@
         "optionGraphicDesigner": "Graphic designer",
         "optionOtherOfficeWork": "Other work from office",
         "optionFieldWork": "Non desk based work",
-        "occupationStudent": "University student",
+        "occupationStudent": "Student",
         "occupationBusinessOwner": "Business owner",
         "occupationEmployee": "Employee",
         "occupationOther": "Other",
         "occupationFreelancer": "Freelancer",
-        "titleFreelancerType": "Type of work:"
+        "titleFreelancerType": "Type of work:",
+        "studentInfoText": "FYI your university might be able to pay for premium access to Focus Bear. Email support@focusbear.io for details."
     },
     "geekModeInfo": {
         "titleGeekMode": "🤓 Geek Mode",
@@ -1924,8 +1928,8 @@
         "alertConfirmSwitchGeekModeDescription": "You can switch the modes from Preferences -> Settings tab"
     },
     "takeBreaksInfoVcInfo":{
-        "subTitle": "Focus Bear can help you remember to take breaks regularly throughout the day. This will help avoid screen headaches and actually improve your productivity. You can even do microworkouts during the breaks 💪",
-        "warningText": "Warning: you will get popups asking you to take breaks. Some people find them annoying. You can skip/postpone the breaks but your eyes and body will really appreciate it if you do take breaks!",
+        "subTitle": "Focus Bear can help you remember to take short breaks (30s to 2 minutes) regularly throughout the day. This will help avoid screen headaches and actually improve your productivity. You can even do microworkouts during the breaks 💪",
+        "warningText": "Warning: you will get popups asking you to take breaks. You can skip/postpone the breaks but your eyes and body will really appreciate it if you do take breaks!",
         "titleHowMuchCare": "How much do you care about taking breaks?",
         "selectOneText": "Select one that apply",
         "buttonDontCareText": "Meh - don't really care",
@@ -2042,9 +2046,10 @@
         "subTitleStrictnessLevel": "Adjust the slider to increase the strictness of your Focus session."
     },
     "achieveWithFocusBearVcInfo":{
-        "title": "What do you want to achieve with Focus Bear?",
-        "subTitle": "How do you want your life to change from using Focus Bear?",
-        "buttonContinueText": "Continue"
+        "title": "What would you like to improve in your life by using Focus Bear?",
+        "subTitle": "",
+        "buttonContinueText": "Continue",
+        "infoText": "We’ll save this as a long term goal for you - it will also help us understand what you’re expecting so we can improve the app"
     },
     "confirmRoutineDurationVcInfo":{
         "title": "How much time do you have for your habits today?",
@@ -2126,6 +2131,25 @@
         "fieldWorkShortTextSecond": "Update portfolio.",
         "fieldWorkLongTextThird": "Brainstorm that \"brilliant\" new concept that’ll either be genius or a creative dumpster fire.",
         "fieldWorkShortTextThird": "Start new concept."
+    },
+    "explainingPermissionsVcInfo":{
+        "title": "Grant permissions for distraction blocking",
+        "subTitle": "Focus Bear needs system permissions to enable distraction blocking:",
+        "pointAccessibilityPermission": "Accessibility permissions:",
+        "descriptionAccessibilityPermission": "needed for Firefox support and to block distractions while a browser is in full screen mode.",
+        "pointSystemEventPermission": "System events permission:",
+        "descriptionSystemEventPermission": "needed to blur out distractions",
+        "pointBrowserPermission": "Browser specific permissions:",
+        "descriptionBrowserPermission": "needed to redirect the browser to the blocked page when you visit a distracting site",
+        "infoBannerText": "Your privacy is preserved (more on the next screen)"
+    },
+    "webViewLoadFailedVcInfo":{
+        "title": "Failed to load. Please check your connection.",
+        "buttonReloadText": "Reload"
+    },
+    "taskPlayerVcInfo":{
+        "toolTipSnapLeft": "Snap to left",
+        "toolTipSnapRight": "Snap to right"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",

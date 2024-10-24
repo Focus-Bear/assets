@@ -195,7 +195,9 @@
         "taskPlayerWindowTitle": "Focus Bear - Lista de Tareas",
         "allowAllUrlsFromDomainText": "¿Deseas permitir todas las URL de <DOMAIN> para esta sesión de enfoque?",
         "buttonContinueText": "Continuar",
-        "tabBlocksText": "Bloques"
+        "tabBlocksText": "Bloques",
+        "titleActivatingBlockingProgress": "Set up distraction blocking[NEEDTRANSLATION]",
+        "titleSettingHabitsProgress": "Activate Features[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando...",
@@ -949,7 +951,7 @@
         "buttonCloseText": "Cerrar"
     },
     "askLogInVcInfo": {
-        "title": "Guarda tus hábitos en tu cuenta.",
+        "title": "Create an account to sync your blocked app list and other settings to all your devices.[NEEDTRANSLATION]",
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate",
@@ -1691,7 +1693,8 @@
         "toDoListSettingTitle": "Lista de Tareas",
         "titleDownloadTimeTrackerText": "Focus Bear Time Tracker debe descargarse e instalarse como un componente independiente.",
         "buttonDownloadTimeTrackerText": "Descargar Ahora",
-        "blockingScheduleSettingTitle": "Horario de Bloqueo"
+         "blockingScheduleSettingTitle": "Horario de Bloqueo",
+        "buttonReleaseNotesText": "Release notes[NEEDTRANSLATION]"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1904,12 +1907,13 @@
         "optionGraphicDesigner": "Diseñador gráfico",
         "optionOtherOfficeWork": "Otro trabajo de oficina",
         "optionFieldWork": "Trabajo de campo",
-        "occupationStudent": "Estudiante universitario",
+        "occupationStudent": "Estudiante",
         "occupationBusinessOwner": "Dueño de empresa",
         "occupationEmployee": "Empleado",
         "occupationOther": "Otro",
         "occupationFreelancer": "Freelancer",
-        "titleFreelancerType": "Tipo de Trabajo:"
+        "titleFreelancerType": "Tipo de Trabajo:",
+        "studentInfoText": "FYI your university might be able to pay for premium access to Focus Bear. Email support@focusbear.io for details.[NEEDTRANSLATION]"
     },
     "geekModeInfo": {
         "titleGeekMode": "🤓 Modo Geek",
@@ -1925,8 +1929,8 @@
         "alertConfirmSwitchGeekModeDescription": "Puedes cambiar los modos desde Preferencias -> Configuración"
     },
     "takeBreaksInfoVcInfo":{
-        "subTitle": "Focus Bear puede ayudarte a recordar tomar descansos regularmente a lo largo del día. Esto ayudará a evitar dolores de cabeza por la pantalla y realmente mejorará tu productividad. Incluso puedes hacer microentrenamientos durante los descansos 💪",
-        "warningText": "Advertencia: aparecerán ventanas emergentes pidiéndote que tomes descansos. A algunas personas les resultan molestos. Puedes saltarlos o posponerlos, pero tus ojos y tu cuerpo agradecerán que sí los hagas.",
+        "subTitle": "Focus Bear can help you remember to take short breaks (30s to 2 minutes) regularly throughout the day. This will help avoid screen headaches and actually improve your productivity. You can even do microworkouts during the breaks 💪[NEEDTRANSLATION]",
+        "warningText": "Advertencia: aparecerán ventanas emergentes pidiéndote que tomes descansos. Puedes saltarlos o posponerlos, pero tus ojos y tu cuerpo agradecerán que sí los hagas.",
         "titleHowMuchCare": "¿Qué tanto te importa tomar descansos?",
         "selectOneText": "Seleccione el que corresponda",
         "buttonDontCareText": "Meh - realmente no me importa",
@@ -2043,9 +2047,10 @@
         "subTitleStrictnessLevel": "Ajusta el deslizable para aumentar la rigidez de tu sesión de Enfoque."
     },
     "achieveWithFocusBearVcInfo":{
-        "title": "¿Qué quieres lograr con Focus Bear?",
-        "subTitle": "¿Cómo quieres que cambie tu vida con el uso de Focus Bear?",
-        "buttonContinueText": "Continuar"
+        "title": "What would you like to improve in your life by using Focus Bear?[NEEDTRANSLATION]",
+        "subTitle": "",
+        "buttonContinueText": "Continuar",
+        "infoText": "We’ll save this as a long term goal for you - it will also help us understand what you’re expecting so we can improve the app[NEEDTRANSLATION]"
     },
     "confirmRoutineDurationVcInfo":{
         "title": "¿Cuánto tiempo tienes para tus hábitos hoy?",
@@ -2127,6 +2132,25 @@
         "fieldWorkShortTextSecond": "Actualizar portafolio.",
         "fieldWorkLongTextThird": "Lluvia de ideas de ese nuevo concepto \"brilliant\" que será una genialidad o un desastre creativo.",
         "fieldWorkShortTextThird": "Iniciar nuevo concepto."
+    },
+    "explainingPermissionsVcInfo":{
+        "title": "Grant permissions for distraction blocking[NEEDTRANSLATION]",
+        "subTitle": "Focus Bear needs system permissions to enable distraction blocking:[NEEDTRANSLATION]",
+        "pointAccessibilityPermission": "Accessibility permissions:[NEEDTRANSLATION]",
+        "descriptionAccessibilityPermission": "needed for Firefox support and to block distractions while a browser is in full screen mode.[NEEDTRANSLATION]",
+        "pointSystemEventPermission": "System events permission:[NEEDTRANSLATION]",
+        "descriptionSystemEventPermission": "needed to blur out distractions[NEEDTRANSLATION]",
+        "pointBrowserPermission": "Browser specific permissions:[NEEDTRANSLATION]",
+        "descriptionBrowserPermission": "needed to redirect the browser to the blocked page when you visit a distracting site[NEEDTRANSLATION]",
+        "infoBannerText": "Your privacy is preserved (more on the next screen)[NEEDTRANSLATION]"
+    },
+    "webViewLoadFailedVcInfo":{
+        "title": "Failed to load. Please check your connection.[NEEDTRANSLATION]",
+        "buttonReloadText": "Reload[NEEDTRANSLATION]"
+    },
+    "taskPlayerVcInfo":{
+        "toolTipSnapLeft": "Snap to left[NEEDTRANSLATION]",
+        "toolTipSnapRight": "Snap to right[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
