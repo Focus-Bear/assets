@@ -83,6 +83,18 @@
   --white: #ffffff;
   --gray_300: #e2e8f0;
   --gray_500: #64748b;
+  --sunRayFirst: #e9902c;
+  --sunRaySecond: #f3a650;
+  --sunRayThird: #fab363;
+  --sunRayFourth: #ffc88b;
+  --sunRayFifth: #ffe4c6;
+  --sunRaySixth: #fff4e9;
+  --whiteLaceFirst: #fffcf6;
+  --whiteLaceSecond: #d5c1a9;
+  --whiteLaceThird: #e3d5c3;
+  --whiteLaceFourth: #f1e9dd;
+  --whiteLaceFifth: #f8f3ea;
+  --whiteLaceSixth: #fcf8f0;
 }
 
 body {
@@ -91,4 +103,5 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   padding: 2rem 1rem;
+  background-color: var(--sunRaySixth);
 }
