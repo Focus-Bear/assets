@@ -149,7 +149,6 @@ try {
 
   let focusRemainingSeconds = focus_mode_end_time.diff(moment(), 'seconds');
 
-  console.log(focusRemainingSeconds, shouldActivateAlwaysBlock);
   if (focusRemainingSeconds <= 0 && !shouldActivateAlwaysBlock) {
     cuddlyBearBtn.className = 'hideCuddlyBearBtn';
   }
