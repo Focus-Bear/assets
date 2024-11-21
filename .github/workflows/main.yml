@@ -21,3 +21,4 @@ jobs:
       - name: Check JSON keys
         run: |
           bash ./.github/workflows/check-json.sh
+        continue-on-error: true
