@@ -460,7 +460,10 @@
         "cantStopFocusModeText": "Modo superestricto activado: No puedes detener esta sesión de enfoque hasta que termine.",
         "toolTipPomodoroSessionText": "Inicia una sesión Pomodoro para trabajar en profundidad.",
         "menuItemResumeFocusTitle": "Reanudar Sesión de Enfoque",
-        "menuItemPauseFocusTitle": "Pausar Sesión de Enfoque"
+        "menuItemPauseFocusTitle": "Pausar Sesión de Enfoque",
+        "menuItemBlockingDisabledTitle": "Limited blocking[NEEDTRANSLATION]",
+        "toolTipBlockingDisabled": "Blocking disabled because you chose to only activate blocks during focus sessions.[NEEDTRANSLATION]",
+        "toolTipButtonEditBlockingSchedule": "Edit blocking schedule[NEEDTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -1960,7 +1963,11 @@
     "toDoPlayerVcInfo":{
         "alertStopLaunchingToDoPlayer": "¿Deseas evitar que el Reproductor de Lista de Tareas se inicie automáticamente?",
         "buttonKeepItText": "Conservarlo",
-        "buttonDontShowText": "No volver a mostrar esto"
+        "buttonDontShowText": "No volver a mostrar esto",
+        "titleUseToDoList": "Do you want to use Focus Bear for your to do list for this focus session?[NEEDTRANSLATION]",
+        "buttonTryItText": "Try it out[NEEDTRANSLATION]",
+        "buttonNoThanksText": "No thanks[NEEDTRANSLATION]",
+        "titleEnableToDoListFuture": "If you want to try it out in the future, enable the To Do player setting under Preferences - Settings - To Do List[NEEDTRANSLATION]"
     },
     "breakSurveyVcInfo":{
         "title": "¿Cómo estuvo el descanso?",
@@ -2062,17 +2069,28 @@
     },
     "onboardingFeedbackVcInfo":{
         "title": "Queremos tu opinión",
-        "subTitle": "Somos un pequeño equipo independiente, no una megacorporación sin rostro. Focus Bear es todavía una app nueva y queremos conocer tu opinión. Si tienes alguna sugerencia, envía un correo electrónico a support@focusbear.io.",
+        "subTitle": "We're a small independent team, not a faceless mega-corporation. Focus Bear is still a new app and we really want your feedback. If you have suggestions, please click the 📣 icon (bottom left) at any point.[NEEDTRANSLATION]",
         "buttonContinueText": "Continuar"
     },
     "systemEventsPermissionVcInfo":{
+<<<<<<< Updated upstream
         "title": "Grant Permission for System Events Access[NEEDTRANSLATION]",
+=======
+        "title": "Grant permissions to block distractions[NEEDTRANSLATION]",
+>>>>>>> Stashed changes
         "subTitle": "Focus Bear requires access to System events to block distracting websites.[NEEDTRANSLATION]",
         "buttonGrantPermissionText": "Grant System Events permission now[NEEDTRANSLATION]",
         "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores.",
         "buttonCantGrantPermissionText": "I can't grant System Events Permissions[NEEDTRANSLATION]",
         "titlePermissionsNotGranted": "Got it! We'll look into this for you.[NEEDTRANSLATION]",
+<<<<<<< Updated upstream
         "titlePermissionsGranted": "Great, you just allowed System Events permissions.[NEEDTRANSLATION]"
+=======
+        "titlePermissionsGranted": "Great, you just allowed System Events permissions.[NEEDTRANSLATION]",
+        "toolTipText": "We need System Events permission to: block distractions from full screen apps and to show a blur over distracting sites[NEEDTRANSLATION]",
+        "descriptionNewOs":"If you've previously denied permission for system events, please open System Preferences, locate the Focus Bear icon under System Preferences > Privacy & Security > Automation, and toggle its checkbox on.[NEEDTRANSLATION]",
+        "descriptionOldOs":"If you've previously denied permission for system events, please open System Preferences, locate the Focus Bear icon under System Preferences > Security & Privacy > Privacy > Automation, and toggle its checkbox on.[NEEDTRANSLATION]"
+>>>>>>> Stashed changes
     },
     "askProcrastinatingVcInfo":{
         "title": "Time to do something difficult[NEEDTRANSLATION]",
@@ -2151,6 +2169,22 @@
     "taskPlayerVcInfo":{
         "toolTipSnapLeft": "Snap to left[NEEDTRANSLATION]",
         "toolTipSnapRight": "Snap to right[NEEDTRANSLATION]"
+    },
+    "onboardingBlockingScheduleVcInfo":{
+        "title": "Blocking Schedule[NEEDTRANSLATION]",
+        "subTitle": "When do you want to block distracting sites?[NEEDTRANSLATION]",
+        "radioBtnFirstText": "Until I finish work[NEEDTRANSLATION]",
+        "descriptionFirstText": "Focus Bear will block the distracting sites for most of the day until you finish work. You'll get some free time before it's time for bed and then distractions will be blocked again while you're sleeping.[NEEDTRANSLATION]",
+        "radioBtnSecondText": "When I tell you to[NEEDTRANSLATION]",
+        "descriptionSecondText": "Focus Bear will only block distracting sites when you start a focus session[NEEDTRANSLATION]",
+        "radioBtnThirdText": "On a custom schedule[NEEDTRANSLATION]",
+        "descriptionThirdText": "Coming soon[NEEDTRANSLATION]"
+    },
+    "bellSuggestionsVcInfo":{
+        "title": "Please share your feedback or if you have suggestions please write below.[NEEDTRANSLATION]",
+        "buttonShareLogsText": "Share feedback[NEEDTRANSLATION]",
+        "alertSuccessText": "Feedback and logs successfully shared.[NEEDTRANSLATION]",
+        "toolTipBellIcon": "Share your feedback or suggestions[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
