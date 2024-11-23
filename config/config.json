@@ -2173,7 +2173,7 @@
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "bellSuggestionsVcInfo":{
-        "title": "Please share your feedback or if you have suggestions please write below.".
+        "title": "Please share your feedback or if you have suggestions please write below.",
         "buttonShareLogsText": "Share feedback",
         "alertSuccessText": "Feedback and logs successfully shared.",
         "toolTipBellIcon": "Share your feedback or suggestions"
