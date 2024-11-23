@@ -17,7 +17,7 @@
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: lavender;
+  background: var(--sunRayFifth);
   border-radius: 5px;
   width: 50%;
   position: relative;

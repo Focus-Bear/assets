@@ -26,5 +26,7 @@ tour.finishTour().then(() => {
   localStorage.setItem(LOCAL_STORAGE.IS_INTRO_SHOWED, 'DONE');
 });
 
-(isonboarding || !localStorage.getItem(LOCAL_STORAGE.IS_INTRO_SHOWED)) &&
+(isonboarding ||
+  show_tour ||
+  !localStorage.getItem(LOCAL_STORAGE.IS_INTRO_SHOWED)) &&
   tour.start();

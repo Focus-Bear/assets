@@ -80,6 +80,8 @@ const locale = {
       'If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
     intro_original_url:
       'You can copy the URL from here if you need to save it somewhere else.',
+    super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
+      `You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -165,5 +167,7 @@ const locale = {
       'NEEDSTRANSLATION If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
     intro_original_url:
       'NEEDSTRANSLATION You can copy the URL from here if you need to save it somewhere else.',
+    super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
+      `NEEDSTRANSLATION You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
   },
 };

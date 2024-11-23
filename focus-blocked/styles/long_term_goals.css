@@ -7,7 +7,7 @@
 
 #longTermGoalsContainer h4 {
   text-align: center;
-  background-color: var(--gray_300);
+  background-color: var(--sunRayFifth);
   border-radius: 0.5rem;
   font-size: 1.2rem;
   padding: 0.65rem 1rem;
@@ -25,7 +25,7 @@
   max-height: inherit;
   overflow-y: auto;
   padding: 1rem;
-  background-color: var(--gray_300);
+  background-color: var(--sunRayFifth);
   border-radius: 0.5rem;
   -webkit-box-shadow: 0 0.1rem 0.2rem 0 var(--gray_500);
   -moz-box-shadow: 0 0.1rem 0.2rem 0 var(--gray_500);
@@ -50,7 +50,7 @@
 }
 
 #longTermGoalsContainer ul li:not(:last-child) {
-  border-bottom: 0.1rem solid var(--white);
+  border-bottom: 0.1rem solid var(--sunRaySixth);
   padding-bottom: 1rem;
 }
 

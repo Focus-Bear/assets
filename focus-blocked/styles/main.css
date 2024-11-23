@@ -136,7 +136,7 @@
   display: none;
 }
 
-.showCuddlyBearBtn {
+.cuddlyBearBtn {
   width: fit-content;
   padding: 6px 20px;
   font-family: monospace;
@@ -152,7 +152,7 @@
   text-decoration: none;
 }
 
-.showCuddlyBearBtn:hover {
+.cuddlyBearBtn:hover {
   background-color: blue;
   color: white;
 }
