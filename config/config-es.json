@@ -463,7 +463,9 @@
         "menuItemPauseFocusTitle": "Pausar Sesión de Enfoque",
         "menuItemBlockingDisabledTitle": "Limited blocking[NEEDTRANSLATION]",
         "toolTipBlockingDisabled": "Blocking disabled because you chose to only activate blocks during focus sessions.[NEEDTRANSLATION]",
-        "toolTipButtonEditBlockingSchedule": "Edit blocking schedule[NEEDTRANSLATION]"
+        "toolTipButtonEditBlockingSchedule": "Edit blocking schedule[NEEDTRANSLATION]",
+        "menuItemStartMorningHabitsFirstTimeTitle": "Start morning routine[NEEDTRANSLATION]",
+        "menuItemStartEveningHabitsFirstTimeTitle": "Start evening routine[NEEDTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -958,7 +960,7 @@
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate",
-        "descriptionText": "¡Casi listo! Veamos algunos detalles para guardar tus hábitos.",
+        "descriptionText": "Learn why this is needed[NEEDTRANSLATION]",
         "buttonSignInEmailText": "Registrarse con Email",
         "buttonSignInGoogleText": "Registrarse con Google",
         "buttonSignInAppleText": "Registrarse con Apple",
@@ -1626,7 +1628,9 @@
         "titleAlertSetupComplete":"¡Instalación completada!",
         "subTitleAlertSetupComplete":"Para empezar a trabajar rápidamente, lee nuestra guía de inicio rápido.",
         "buttonOkText":"Ilumíname",
-        "thisIsDemoText": "Esto es una demostración - puedes abrir el menú al terminar el recorrido"
+        "thisIsDemoText": "Esto es una demostración - puedes abrir el menú al terminar el recorrido",
+        "descriptionMorningRoutine": "Your morning routine does not start automatically on the first day. Click Start morning routine to kick off your first routine.[NEEDTRANSLATION]",
+        "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine.[NEEDTRANSLATION]"
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",
