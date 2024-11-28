@@ -72,6 +72,7 @@ const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
   domain
 );
 const version = urlParams.get('version');
+const show_tour = urlParams.get('show_tour') === 'true';
 /************** var **********************/
 
 /************** font **********************/

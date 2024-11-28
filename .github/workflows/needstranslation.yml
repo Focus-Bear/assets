@@ -19,3 +19,4 @@ jobs:
           else
             echo "config-es.json does not need translation"
           fi
+        continue-on-error: true

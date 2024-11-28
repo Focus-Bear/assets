@@ -148,42 +148,55 @@ try {
   });
 
   let focusRemainingSeconds = focus_mode_end_time.diff(moment(), 'seconds');
-  if (
-    (cuddly_bear_mode ||
-      shouldActivateAlwaysBlock ||
-      focusRemainingSeconds <= 0) &&
-    !strict_blocking
-  ) {
-    cuddlyBearBtn.className = 'showCuddlyBearBtn';
-    unblockBtn.addEventListener('click', () => {
-      if (version) {
-        window.location.href = `${window.location.href}&unblock_it=true`;
-      } else {
-        window.open(
-          `${current_url}${
-            current_url.includes('?') ? '&' : '?'
-          }focus_bear_temporarily_allow=true`,
-          '_self'
-        );
-      }
-    });
-    if (blocked_reason) {
-      toast.innerHTML = blocked_reason;
-      toast.classList.add('visible');
-      setTimeout(() => {
-        toast.classList.remove('visible');
-      }, 5000);
-    }
 
-    if (isExternalHintRequired) {
-      toast.innerHTML = getExternalHint();
+  if (focusRemainingSeconds <= 0 && !shouldActivateAlwaysBlock) {
+    cuddlyBearBtn.className = 'hideCuddlyBearBtn';
+  }
+
+  cuddlyBearBtn.addEventListener('click', (event) => {
+    if (strict_blocking && focusRemainingSeconds > 0) {
+      event.preventDefault();
+      toast.innerHTML =
+        selected_lang.super_strict_focus_mode_cuddly_off_message(
+          moment.duration(focusRemainingSeconds, 'seconds').humanize(true)
+        );
+      toast.style.backgroundColor = '#E9902C';
+      toast.style.height = 'fit-content';
+      toast.style.setProperty('text-align', 'center');
       toast.classList.add('visible');
       setTimeout(() => {
         toast.classList.remove('visible');
-      }, 5000);
+      }, 3000);
     }
-  } else {
-    cuddlyBearBtn.className = 'hideCuddlyBearBtn';
+  });
+
+  unblockBtn.addEventListener('click', () => {
+    if (version) {
+      window.location.href = `${window.location.href}&unblock_it=true`;
+    } else {
+      window.open(
+        `${current_url}${
+          current_url.includes('?') ? '&' : '?'
+        }focus_bear_temporarily_allow=true`,
+        '_self'
+      );
+    }
+  });
+
+  if (blocked_reason) {
+    toast.innerHTML = blocked_reason;
+    toast.classList.add('visible');
+    setTimeout(() => {
+      toast.classList.remove('visible');
+    }, 5000);
+  }
+
+  if (isExternalHintRequired) {
+    toast.innerHTML = getExternalHint();
+    toast.classList.add('visible');
+    setTimeout(() => {
+      toast.classList.remove('visible');
+    }, 4000);
   }
 
   if (longTermGoalsContainer) {
