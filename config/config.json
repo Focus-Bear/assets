@@ -463,7 +463,9 @@
         "menuItemPauseFocusTitle": "Pause Focus Session",
         "menuItemBlockingDisabledTitle": "Limited blocking",
         "toolTipBlockingDisabled": "Blocking disabled because you chose to only activate blocks during focus sessions.",
-        "toolTipButtonEditBlockingSchedule": "Edit blocking schedule"
+        "toolTipButtonEditBlockingSchedule": "Edit blocking schedule",
+        "menuItemStartMorningHabitsFirstTimeTitle": "Start morning routine",
+        "menuItemStartEveningHabitsFirstTimeTitle": "Start evening routine"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -958,7 +960,7 @@
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up",
-        "descriptionText": "Nearly done! Let's grab a few details to save your habits.",
+        "descriptionText": "Learn why this is needed",
         "buttonSignInEmailText": "Sign In with Email",
         "buttonSignInGoogleText": "Sign In with Google",
         "buttonSignInAppleText": "Sign In with Apple",
@@ -1625,7 +1627,9 @@
         "titleAlertSetupComplete":"Setup complete!",
         "subTitleAlertSetupComplete":"To get up and running quickly, have a read of our quick start guide.",
         "buttonOkText":"Enlighten me",
-        "thisIsDemoText": "This is a demo - you can open the menu after the tour is done"
+        "thisIsDemoText": "This is a demo - you can open the menu after the tour is done",
+        "descriptionMorningRoutine": "Your morning routine does not start automatically on the first day. Click Start morning routine to kick off your first routine.",
+        "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine."
     },
     "relaxModeVcInfo":{
         "title": "Sites you saved for Free Time mode:",
