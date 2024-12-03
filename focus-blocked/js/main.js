@@ -147,9 +147,10 @@ try {
     }
   });
 
-  let focusRemainingSeconds = focus_mode_end_time.diff(moment(), 'seconds');
+  let focusRemainingSeconds =
+    focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
-  if (focusRemainingSeconds <= 0 && !shouldActivateAlwaysBlock) {
+  if (focusRemainingSeconds > 0 || strict_blocking) {
     cuddlyBearBtn.className = 'hideCuddlyBearBtn';
   }
 
