@@ -461,11 +461,11 @@
         "toolTipPomodoroSessionText": "Inicia una sesión Pomodoro para trabajar en profundidad.",
         "menuItemResumeFocusTitle": "Reanudar Sesión de Enfoque",
         "menuItemPauseFocusTitle": "Pausar Sesión de Enfoque",
-        "menuItemBlockingDisabledTitle": "Limited blocking[NEEDTRANSLATION]",
-        "toolTipBlockingDisabled": "Blocking disabled because you chose to only activate blocks during focus sessions.[NEEDTRANSLATION]",
-        "toolTipButtonEditBlockingSchedule": "Edit blocking schedule[NEEDTRANSLATION]",
-        "menuItemStartMorningHabitsFirstTimeTitle": "Start morning routine[NEEDTRANSLATION]",
-        "menuItemStartEveningHabitsFirstTimeTitle": "Start evening routine[NEEDTRANSLATION]"
+        "menuItemBlockingDisabledTitle": "Bloqueo Limitado",
+        "toolTipBlockingDisabled": "Bloqueo desactivado porque elegiste activar los bloqueos sólo durante las sesiones de enfoque.",
+        "toolTipButtonEditBlockingSchedule": "Editar horario de bloqueo",
+        "menuItemStartMorningHabitsFirstTimeTitle": "Iniciar rutina matutina",
+        "menuItemStartEveningHabitsFirstTimeTitle": "Iniciar rutina nocturna"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -960,7 +960,7 @@
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate",
-        "descriptionText": "Learn why this is needed[NEEDTRANSLATION]",
+        "descriptionText": "Descubre por qué es necesario",
         "buttonSignInEmailText": "Registrarse con Email",
         "buttonSignInGoogleText": "Registrarse con Google",
         "buttonSignInAppleText": "Registrarse con Apple",
@@ -1629,8 +1629,8 @@
         "subTitleAlertSetupComplete":"Para empezar a trabajar rápidamente, lee nuestra guía de inicio rápido.",
         "buttonOkText":"Ilumíname",
         "thisIsDemoText": "Esto es una demostración - puedes abrir el menú al terminar el recorrido",
-        "descriptionMorningRoutine": "Your morning routine does not start automatically on the first day. Click Start morning routine to kick off your first routine.[NEEDTRANSLATION]",
-        "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine.[NEEDTRANSLATION]"
+        "descriptionMorningRoutine": "Tu rutina matutina no inicia automáticamente el primer día. Haz clic en Iniciar rutina matutina para activar tu primera rutina.",
+        "descriptionEveningRoutine": "Tu rutina nocturna no inicia automáticamente el primer día. Haz clic en Iniciar rutina nocturna para activar tu primera rutina."
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",
@@ -1968,10 +1968,10 @@
         "alertStopLaunchingToDoPlayer": "¿Deseas evitar que el Reproductor de Lista de Tareas se inicie automáticamente?",
         "buttonKeepItText": "Conservarlo",
         "buttonDontShowText": "No volver a mostrar esto",
-        "titleUseToDoList": "Do you want to use Focus Bear for your to do list for this focus session?[NEEDTRANSLATION]",
-        "buttonTryItText": "Try it out[NEEDTRANSLATION]",
-        "buttonNoThanksText": "No thanks[NEEDTRANSLATION]",
-        "titleEnableToDoListFuture": "If you want to try it out in the future, enable the To Do player setting under Preferences - Settings - To Do List[NEEDTRANSLATION]"
+        "titleUseToDoList": "¿Quieres usar Focus Bear en tu lista de tareas para esta sesión de enfoque?",
+        "buttonTryItText": "Probar",
+        "buttonNoThanksText": "No, gracias",
+        "titleEnableToDoListFuture": "Si quieres probarlo en el futuro, activa el reproductor de Tareas en Preferencias - Ajustes - Lista de Tareas"
     },
     "breakSurveyVcInfo":{
         "title": "¿Cómo estuvo el descanso?",
@@ -2073,20 +2073,20 @@
     },
     "onboardingFeedbackVcInfo":{
         "title": "Queremos tu opinión",
-        "subTitle": "We're a small independent team, not a faceless mega-corporation. Focus Bear is still a new app and we really want your feedback. If you have suggestions, please click the 📣 icon (bottom left) at any point.[NEEDTRANSLATION]",
+        "subTitle": "Somos un pequeño equipo independiente, no una megacorporación sin rostro. Focus Bear aún es una app nueva y nos interesa mucho tu opinión. Si tienes alguna sugerencia, haz clic en el icono 📣 (abajo a la izquierda) en cualquier momento.",
         "buttonContinueText": "Continuar"
     },
   "systemEventsPermissionVcInfo": {
-        "title": "Grant Permission for System Events Access[NEEDTRANSLATION]",
+        "title": "Conceder Permiso de Acceso a Eventos del Sistema",
         "subTitle": "Focus Bear necesita acceso a los eventos del sistema para interactuar con tu navegador y bloquear sitios distractores.",
         "buttonGrantPermissionText": "Conceder permiso de Eventos del Sistema ahora",
         "nextViewInfoText": "En la siguiente pantalla te pediremos permisos para interactuar con los navegadores.",
         "buttonCantGrantPermissionText": "No puedo conceder permisos a Eventos del Sistema",
         "titlePermissionsNotGranted": "¡Entendido! Veremos esto por ti.",
         "titlePermissionsGranted": "Genial, acabas de dar permisos a Eventos del Sistema.",
-        "toolTipText": "We need System Events permission to: block distractions from full screen apps and to show a blur over distracting sites[NEEDTRANSLATION]",
-        "descriptionNewOs": "If you've previously denied permission for system events, please open System Preferences, locate the Focus Bear icon under System Preferences > Privacy & Security > Automation, and toggle its checkbox on.[NEEDTRANSLATION]",
-        "descriptionOldOs": "If you've previously denied permission for system events, please open System Preferences, locate the Focus Bear icon under System Preferences > Security & Privacy > Privacy > Automation, and toggle its checkbox on.[NEEDTRANSLATION]"
+        "toolTipText": "Necesitamos permiso de Eventos del Sistema para: bloquear distracciones de las apps a pantalla completa y mostrar un desenfoque sobre los sitios distractores",
+        "descriptionNewOs": "Si previamente denegaste el permiso para eventos del sistema, abre las Preferencias del Sistema, busca el icono de Focus Bear en Preferencias del Sistema > Privacidad y Seguridad > Automatización, y activa su casilla de verificación.",
+        "descriptionOldOs": "Si previamente denegaste permiso para eventos del sistema, abre las Preferencias del Sistema, busca el icono de Focus Bear en Preferencias del Sistema > Seguridad y Privacidad > Privacidad > Automatización, y activa su casilla de verificación."
   },
     "askProcrastinatingVcInfo":{
         "title": "Hora de hacer algo difícil",
@@ -2167,20 +2167,20 @@
         "toolTipSnapRight": "Ajustar a la derecha"
     },
     "onboardingBlockingScheduleVcInfo":{
-        "title": "Blocking Schedule[NEEDTRANSLATION]",
-        "subTitle": "When do you want to block distracting sites?[NEEDTRANSLATION]",
-        "radioBtnFirstText": "Until I finish work[NEEDTRANSLATION]",
-        "descriptionFirstText": "Focus Bear will block the distracting sites for most of the day until you finish work. You'll get some free time before it's time for bed and then distractions will be blocked again while you're sleeping.[NEEDTRANSLATION]",
-        "radioBtnSecondText": "When I tell you to[NEEDTRANSLATION]",
-        "descriptionSecondText": "Focus Bear will only block distracting sites when you start a focus session[NEEDTRANSLATION]",
-        "radioBtnThirdText": "On a custom schedule[NEEDTRANSLATION]",
-        "descriptionThirdText": "Coming soon[NEEDTRANSLATION]"
+        "title": "Horario de Bloqueo",
+        "subTitle": "¿Cuándo quieres bloquear los sitios distractores?",
+        "radioBtnFirstText": "Hasta que termine de trabajar",
+        "descriptionFirstText": "Focus Bear bloqueará tus sitios distractores la mayor parte del día hasta que termines de trabajar. Tendrás algo de tiempo libre antes de que llegue la hora de ir a dormir y entonces las distracciones se bloquearán de nuevo mientras duermes.",
+        "radioBtnSecondText": "Cuando yo te diga",
+        "descriptionSecondText": "Focus Bear sólo bloqueará los sitios distractores cuando inicies una sesión de enfoque",
+        "radioBtnThirdText": "En un horario personalizado",
+        "descriptionThirdText": "Muy Pronto"
     },
     "bellSuggestionsVcInfo":{
-        "title": "Please share your feedback or if you have suggestions please write below.[NEEDTRANSLATION]",
-        "buttonShareLogsText": "Share feedback[NEEDTRANSLATION]",
-        "alertSuccessText": "Feedback and logs successfully shared.[NEEDTRANSLATION]",
-        "toolTipBellIcon": "Share your feedback or suggestions[NEEDTRANSLATION]"
+        "title": "Por favor, comparte tu opinión o si tienes alguna sugerencia, escribe a continuación.",
+        "buttonShareLogsText": "Compartir Opinión",
+        "alertSuccessText": "Comentarios y registros compartidos con éxito.",
+        "toolTipBellIcon": "Comparte tu opinión o sugerencias"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
