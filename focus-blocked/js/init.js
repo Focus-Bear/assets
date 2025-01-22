@@ -87,6 +87,8 @@ const isPageReloaded = Boolean(
 );
 const version = urlParams.get('version');
 const show_tour = urlParams.get('show_tour') === 'true';
+const confirmSuperDistracting =
+  urlParams.get('confirm_super_distracting') === 'true';
 /************** var **********************/
 
 /************** font **********************/

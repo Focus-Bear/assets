@@ -1,0 +1,118 @@
+/* Base Styles */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Variants */
+
+/* Primary */
+.btn-primary {
+  color: var(--white);
+  background-color: var(--sunRayFirst);
+}
+
+.btn-primary:hover {
+  color: var(--sunRayFirst);
+  background-color: var(--sunRayFourth);
+}
+
+.btn-primary:active {
+  color: var(--white);
+  background-color: var(--sunRaySecond);
+}
+
+.btn-primary:disabled {
+  color: var(--white);
+  background-color: var(--sunRayFifth);
+}
+
+/* Secondary */
+.btn-secondary {
+  color: var(--sunRayFirst);
+  background-color: var(--sunRayFifth);
+  border: 1px inset var(--sunRayFirst);
+}
+
+.btn-secondary:hover {
+  color: var(--sunRaySecond);
+  border-color: var(--sunRayFourth);
+}
+
+.btn-secondary:active {
+  color: var(--sunRaySecond);
+}
+
+.btn-secondary:disabled {
+  color: var(--sunRayFourth);
+  background-color: var(--sunRayFifth);
+  border-color: var(--sunRayFourth);
+}
+
+/* Tertiary */
+.btn-tertiary {
+  color: var(--sunRayFirst);
+  background-color: var(--sunRaySixth);
+}
+
+.btn-tertiary:hover {
+  color: var(--sunRayFourth);
+}
+
+.btn-tertiary:disabled {
+  color: var(--sunRaySecond);
+  background-color: var(--white);
+}
+
+/* Link */
+.btn-link {
+  color: var(--sunRayFourth);
+  background: none;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: var(--sunRayFirst);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Sizes */
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn-medium {
+  font-size: 1rem;
+}
+
+.btn-large {
+  font-size: 1.25rem;
+}
+
+/* Dark Mode */
+.dark .btn:not(.link) {
+  color: var(--white);
+  background-color: var(--gray_700);
+}
+
+.dark .btn:disabled {
+  background-color: rgba(107, 114, 128, 0.3);
+  color: rgba(209, 213, 219, 0.3);
+}
+
+.dark .btn-link {
+  color: var(--gray_300);
+}
+
+.dark .btn-link:hover {
+  color: var(--white);
+}

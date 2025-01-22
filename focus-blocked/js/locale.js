@@ -82,6 +82,12 @@ const locale = {
       'You can copy the URL from here if you need to save it somewhere else.',
     super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
       `You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
+    temporarily_allow_access_to_url: (url) =>
+      `Temporarily allow access to ${url}`,
+    what_do_you_plan_to_achieve_here: 'What do you plan to achieve here?',
+    how_much_time_do_you_need: 'How much time do you need?',
+    unlock_for_minutes_minutes: (minutes) => `Unlock for ${minutes} minutes`,
+    minutes: 'minutes',
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -169,5 +175,13 @@ const locale = {
       'NEEDSTRANSLATION You can copy the URL from here if you need to save it somewhere else.',
     super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
       `NEEDSTRANSLATION You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
+    temporarily_allow_access_to_url: (url) =>
+      `NEEDSTRANSLATION Temporarily allow access to ${url}`,
+    what_do_you_plan_to_achieve_here:
+      'NEEDSTRANSLATION What do you plan to achieve here?',
+    how_much_time_do_you_need: 'NEEDSTRANSLATION How much time do you need?',
+    unlock_for_minutes_minutes: (minutes) =>
+      `NEEDSTRANSLATION Unlock for ${minutes} minutes`,
+    minutes: 'NEEDSTRANSLATION minutes',
   },
 };
