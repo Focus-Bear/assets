@@ -23,20 +23,20 @@
         <h1 id="focusTitle"></h1>
         <h3 id="focusSubTitle"></h3>
         <p id="focusAdditionalInfo"></p>
-        <div class="confirmation-super-distracting-actions-wrapper">
-          <button onclick="openConfirmationModal()" class="btn btn-primary">
-            Temporarily allow access
-          </button>
-          <button class="btn btn-secondary">
-            Bock access - I don't need it
-          </button>
+        <div id="confirmation-distracting-actions" class="hide">
+          <button
+            id="temp-allow-access-btn"
+            onclick="openDistractionConfirmationModal()"
+            class="btn btn-primary"
+          ></button>
+          <button id="block-access-btn" class="btn btn-secondary"></button>
         </div>
       </div>
       <div id="progressWrapper"></div>
 
       <div id="privacyContainer">
-        <h6 id="privacyNoticeContent" class="hidePrivacyNotice"></h6>
-        <div id="privacyNoticeContentArrow" class="hidePrivacyNotice"></div>
+        <h6 id="privacyNoticeContent" class="hide"></h6>
+        <div id="privacyNoticeContentArrow" class="hide"></div>
         <button id="privacyBtn"></button>
       </div>
       <a id="cuddlyBearBtn" href="#cuddlyBearMode" class="cuddlyBearBtn"> </a>
@@ -57,11 +57,16 @@
       </div>
     </div>
     <div id="toast" class="toast"></div>
+
     <div class="modal-overlay" id="super-distracting-confirmation-modal">
       <div class="modal">
         <div class="modal-header">
-          <h2 class="modal-title" id="confirmation-modal-title"></h2>
-          <button class="modal-close" onclick="closeConfirmationModal()">
+          <h2 class="modal-title ellipsis" id="confirmation-modal-title"></h2>
+          <h3 class="modal-sub-title" id="confirmation-modal-sub-title"></h3>
+          <button
+            class="modal-close"
+            onclick="closeDistractionConfirmationModal()"
+          >
             ×
           </button>
         </div>
@@ -73,7 +78,7 @@
             ></label>
             <textarea
               id="input-achievement"
-              rows="5"
+              rows="4"
               class="input input-primary"
             ></textarea>
           </div>
@@ -89,6 +94,8 @@
                 value="2"
                 class="input input-primary"
                 min="1"
+                step="1"
+                autofocus="false"
               />
               <p id="confirmation-modal-input-time-unit-label"></p>
             </div>

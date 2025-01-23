@@ -106,3 +106,9 @@ body {
   padding: 2rem 1rem;
   background-color: var(--sunRaySixth);
 }
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

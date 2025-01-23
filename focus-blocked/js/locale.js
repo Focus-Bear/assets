@@ -83,11 +83,21 @@ const locale = {
     super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
       `You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
     temporarily_allow_access_to_url: (url) =>
-      `Temporarily allow access to ${url}`,
+      `Temporarily allow access to <span class='url'>${url}<span>`,
     what_do_you_plan_to_achieve_here: 'What do you plan to achieve here?',
     how_much_time_do_you_need: 'How much time do you need?',
-    unlock_for_minutes_minutes: (minutes) => `Unlock for ${minutes} minutes`,
+    unlock_for_minutes_minutes: (minutes) =>
+      `Unlock for ${minutes} minute${minutes !== 1 ? 's' : ''}`,
     minutes: 'minutes',
+    temporarily_allow_access: 'Temporarily allow access',
+    block_access_i_dont_need_it: "Block access - I don't need it",
+    focus_bear_ai_thinks: (domain) =>
+      `Focus Bear's AI thinks ${domain} is distracting`,
+    your_focus_intention_is_intention_and_domain_doesnt_seem_relevant: (
+      focusIntention,
+      domain
+    ) =>
+      `Your focus intention is <span>${focusIntention}</span> and <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -176,12 +186,24 @@ const locale = {
     super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
       `NEEDSTRANSLATION You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
     temporarily_allow_access_to_url: (url) =>
-      `NEEDSTRANSLATION Temporarily allow access to ${url}`,
+      `NEEDSTRANSLATION Temporarily allow access to <span class='url'>${url}<span>`,
     what_do_you_plan_to_achieve_here:
       'NEEDSTRANSLATION What do you plan to achieve here?',
     how_much_time_do_you_need: 'NEEDSTRANSLATION How much time do you need?',
     unlock_for_minutes_minutes: (minutes) =>
-      `NEEDSTRANSLATION Unlock for ${minutes} minutes`,
+      `NEEDSTRANSLATION Unlock for ${minutes} minute${
+        minutes !== 1 ? 's' : ''
+      }`,
     minutes: 'NEEDSTRANSLATION minutes',
+    temporarily_allow_access: 'NEEDSTRANSLATION Temporarily allow access',
+    block_access_i_dont_need_it:
+      "NEEDSTRANSLATION Block access - I don't need it",
+    focus_bear_ai_thinks: (domain) =>
+      `NEEDSTRANSLATION Focus Bear's AI thinks ${domain} is distracting`,
+    your_focus_intention_is_intention_and_domain_doesnt_seem_relevant: (
+      focusIntention,
+      domain
+    ) =>
+      `NEEDSTRANSLATION Your focus intention is <span>${focusIntention}</span> and <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
   },
 };

@@ -26,6 +26,17 @@
 }
 
 #input-number-wrapper input {
-  flex: 0.4;
+  flex: 0.3;
   outline: none;
+  text-align: center;
+}
+
+.url {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.modal-header span {
+  font-style: italic;
+  font-weight: bold;
 }

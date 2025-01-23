@@ -89,6 +89,13 @@ const version = urlParams.get('version');
 const show_tour = urlParams.get('show_tour') === 'true';
 const confirmSuperDistracting =
   urlParams.get('confirm_super_distracting') === 'true';
+const confirmAIDistractingURL =
+  urlParams.get('confirm_ai_distracting_url') === 'true';
+const focusModeIntention = urlParams.get('focus_mode_intention') ?? '';
+const shouldActivateSuperDistractionBlock = [
+  FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
+  FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
+].includes(block_type);
 /************** var **********************/
 
 /************** font **********************/

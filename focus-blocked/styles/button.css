@@ -72,7 +72,6 @@
   background-color: var(--white);
 }
 
-/* Link */
 .btn-link {
   color: var(--sunRayFourth);
   background: none;
@@ -85,7 +84,6 @@
   text-underline-offset: 2px;
 }
 
-/* Sizes */
 .btn-small {
   font-size: 0.875rem;
 }
@@ -98,7 +96,6 @@
   font-size: 1.25rem;
 }
 
-/* Dark Mode */
 .dark .btn:not(.link) {
   color: var(--white);
   background-color: var(--gray_700);

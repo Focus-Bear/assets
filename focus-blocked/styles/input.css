@@ -18,9 +18,6 @@
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Input Variants */
-
-/* Primary Input */
 .input-primary {
   border-color: var(--sunRayFirst);
 }
@@ -30,7 +27,6 @@
   box-shadow: 0 0 0 3px rgba(249, 199, 79, 0.3);
 }
 
-/* Secondary Input */
 .input-secondary {
   border-color: var(--sunRayFifth);
   background-color: var(--sunRayFifth);
@@ -41,7 +37,6 @@
   box-shadow: 0 0 0 3px rgba(248, 150, 30, 0.3);
 }
 
-/* Tertiary Input */
 .input-tertiary {
   border-color: var(--sunRaySixth);
   background-color: var(--sunRaySixth);
