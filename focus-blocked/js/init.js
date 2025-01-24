@@ -1,3 +1,12 @@
+/************** sentry **********************/ // function isValidUrl(string) {
+//   try {
+//     new URL(string);
+//     return true;
+//   } catch (_) {
+//     return false;
+//   }
+// }
+
 /************** sentry **********************/
 Sentry.init({
   dns: 'https://10feadec83b909ed85197bab5ac9c0b0@sentry.focusbear.io/4',
@@ -34,11 +43,12 @@ let domain = '';
 
 let current_url = urlParams.get('old_url') || '';
 
-if (!isValidUrl(current_url)) {
-  Sentry.captureMessage('Invalid value for old_url query param', {
-    level: 'error',
-    extra: { old_url: current_url },
-  });
+if (typeof isValidUrl !== 'undefined') {
+  !isValidUrl(current_url) &&
+    Sentry.captureMessage('Invalid value for old_url query param', {
+      level: 'error',
+      extra: { old_url: current_url },
+    });
 } else {
   current_url = current_url?.startsWith('http')
     ? current_url
