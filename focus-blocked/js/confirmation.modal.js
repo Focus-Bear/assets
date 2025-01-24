@@ -1,3 +1,4 @@
+const confirmationModal = document.getElementById('confirmation-modal');
 let confirmationModalTitle = document.getElementById(
   'confirmation-modal-title'
 );
@@ -32,17 +33,20 @@ let blockAccessBtn = document.getElementById('block-access-btn');
 let unlockDurationMinutes = 2;
 let distractionIntention = '';
 
+confirmationModalTimeInput.style.fontFamily = defaultFont;
+confirmationModalAchievementInput.style.fontFamily = defaultFont;
+confirmationModal.style.fontFamily = defaultFont;
+
 if (
   shouldActivateSuperDistractionBlock &&
   (confirmSuperDistracting || confirmAIDistractingURL)
 ) {
-  confirmationDistractionActions.className =
-    'confirmation-super-distracting-actions-wrapper';
-
+  confirmationDistractionActions.classList.replace(
+    'hide',
+    'confirmation-super-distracting-actions-wrapper'
+  );
   tempAllowAccessBtn.innerText = selected_lang.temporarily_allow_access;
   blockAccessBtn.innerText = selected_lang.block_access_i_dont_need_it;
-  confirmationModalTitle.innerHTML =
-    selected_lang.temporarily_allow_access_to_url(old_url);
   confirmationModalAchievementLabel.innerText =
     selected_lang.what_do_you_plan_to_achieve_here;
   confirmationModalTimeLabel.innerText =
@@ -52,11 +56,16 @@ if (
     selected_lang.unlock_for_minutes_minutes(unlockDurationMinutes);
 
   if (confirmAIDistractingURL) {
+    confirmationModalTitle.innerText =
+      selected_lang.focus_bear_ai_thinks(domain);
     confirmationModalSubTitle.innerHTML =
       selected_lang.your_focus_intention_is_intention_and_domain_doesnt_seem_relevant(
         focusModeIntention ? focusModeIntention : focus_mode,
         domain
       );
+  } else {
+    confirmationModalTitle.innerHTML =
+      selected_lang.temporarily_allow_access_to_url(old_url);
   }
 } else {
   confirmationDistractionActions.className = 'hide';
@@ -95,16 +104,12 @@ blockAccessBtn.addEventListener('click', () => {
   confirmationDistractionActions.className = 'hide';
 });
 
-function openDistractionConfirmationModal() {
-  document.getElementById(
-    'super-distracting-confirmation-modal'
-  ).style.display = 'flex';
+function openConfirmationModal() {
+  confirmationModal.style.display = 'flex';
 }
 
-function closeDistractionConfirmationModal() {
-  document.getElementById(
-    'super-distracting-confirmation-modal'
-  ).style.display = 'none';
+function closeConfirmationModal() {
+  confirmationModal.style.display = 'none';
 }
 
 function removeQueryParam(param) {

@@ -26,7 +26,7 @@
         <div id="confirmation-distracting-actions" class="hide">
           <button
             id="temp-allow-access-btn"
-            onclick="openDistractionConfirmationModal()"
+            onclick="openConfirmationModal()"
             class="btn btn-primary"
           ></button>
           <button id="block-access-btn" class="btn btn-secondary"></button>
@@ -58,15 +58,12 @@
     </div>
     <div id="toast" class="toast"></div>
 
-    <div class="modal-overlay" id="super-distracting-confirmation-modal">
+    <div class="modal-overlay" id="confirmation-modal">
       <div class="modal">
         <div class="modal-header">
           <h2 class="modal-title ellipsis" id="confirmation-modal-title"></h2>
           <h3 class="modal-sub-title" id="confirmation-modal-sub-title"></h3>
-          <button
-            class="modal-close"
-            onclick="closeDistractionConfirmationModal()"
-          >
+          <button class="modal-close" onclick="closeConfirmationModal()">
             ×
           </button>
         </div>
