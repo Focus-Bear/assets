@@ -1,12 +1,3 @@
-/************** sentry **********************/ // function isValidUrl(string) {
-//   try {
-//     new URL(string);
-//     return true;
-//   } catch (_) {
-//     return false;
-//   }
-// }
-
 /************** sentry **********************/
 Sentry.init({
   dns: 'https://10feadec83b909ed85197bab5ac9c0b0@sentry.focusbear.io/4',
