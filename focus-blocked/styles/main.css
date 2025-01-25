@@ -1,6 +1,10 @@
 @import url('./root.css');
+@import url('./button.css');
+@import url('./input.css');
+@import url('./modal.css');
 @import url('./long_term_goals.css');
 @import url('./toast_popup.css');
+@import url('./confirmation_modal.css');
 
 .container {
   width: 100%;
@@ -113,7 +117,7 @@
   border-right: 5px solid transparent;
 }
 
-.hidePrivacyNotice {
+.hide {
   display: none;
 }
 
@@ -130,10 +134,6 @@
 #privacyContainer button:hover {
   background-color: gray;
   color: white;
-}
-
-.hideCuddlyBearBtn {
-  display: none;
 }
 
 .cuddlyBearBtn {
