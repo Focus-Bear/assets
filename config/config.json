@@ -467,7 +467,9 @@
         "toolTipButtonEditBlockingSchedule": "Edit blocking schedule",
         "menuItemStartMorningHabitsFirstTimeTitle": "Start morning routine",
         "menuItemStartEveningHabitsFirstTimeTitle": "Start evening routine",
-        "lastBreakTimeText": "Time since last break: <TIME>"
+        "lastBreakTimeText": "Time since last break: <TIME>",
+        "toolTipPopoverDisable": "Show Focus Bear menu as floating window",
+        "toolTipPopoverEnable": "Show Focus Bear menu as popover"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -553,7 +555,10 @@
         "descriptionSettingRequireIntention": "If this is set, when you try to postpone, Focus Bear will ask you to type in your plans for what you will do while postponing your habits. You must enter at least 10 characters.",
         "accountabilityBuddiesText": "Accountability buddies",
         "alertWarningBrowserPermissionsTitle": "Browser Permissions Required",
-        "alertWarningBrowserPermissionsInfo": "To enable the Browser Tab Limiter, permissions to manage browser tabs are required. Would you like to grant these permissions now?"
+        "alertWarningBrowserPermissionsInfo": "To enable the Browser Tab Limiter, permissions to manage browser tabs are required. Would you like to grant these permissions now?",
+        "switchButtonEnablePopoverMenuText": "Show Focus Bear menu as popover",
+        "switchButtonAdvanceAanalyticsText": "Need advanced analytics while using focus mode",
+        "descriptionAdvanceAanalytics": "Track the exact time you spend on each app and browser tab during focus mode. Gain deeper insights into your productivity by understanding how your attention is distributed."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -734,7 +739,26 @@
             "buttonStartFocusSessionText": "Start new focus session",
             "buttonDoBreakActivitiesText": "Do break habits",
             "buttonRelaxText": "Relax for 5 minutes",
-            "buttonRelaxOneMinuteText": "Relax for 1 minute"
+            "buttonRelaxOneMinuteText": "Relax for 1 minute",
+            "titleStats": "Stats",
+            "titleFocusAlignmentScore": "Focus Alignment Score",
+            "titleDeepWorkTime": "Deep work time this session",
+            "titleDeepWorkTimeToday": "Total deep work time today",
+            "titleTimeSpentPerTab": "Average Time Spent per Tab",
+            "titleTabCount": "Average tab count",
+            "titleAppOrSite": "App or site",
+            "titleTime": "Time",
+            "buttonEnableAdvancedAnalyticsText": "Enable advanced analytics",
+            "enableAdvancedAnalyticsSettingText": "Enable the Advanced analytics setting to view detailed data about app and browser tab usage during focus mode. You can turn this on in Preferences > Settings > Advanced > Privacy (Geek mode required).",
+            "tabTasksText": "Tasks",
+            "buttonExtendSessionText": "Extend Session",
+            "buttonEndFocusSessionText": "End focus session",
+            "extendFocusMinutesText": "Select minutes to extend:",
+            "askExtendFocusText": "Still in the flow? Extend the session",
+            "titleExtendFocusMode": "You are doing well!",
+            "intentionText": "Your intention for this focus mode was:- \"<INTENTION>\"",
+            "settingNotAvailableText": "This option is available in Geek mode only",
+            "tasksSavedText": "Your tasks have been saved."
         },
         "focusSummaryInfo": {
             "title": "You completed <COUNT> focus blocks today.",
@@ -1666,7 +1690,10 @@
         "titleBlockIt": "Block it",
         "subTitleReason": "If you need to access this site, enter the reason why and click on Set Intention button.",
         "subTitleDuration": "Choose how long you need to access it.",
-        "subTitleBlockIt": "If you don't need it, click here to block the site"
+        "subTitleBlockIt": "If you don't need it, click here to block the site",
+        "titleDistracting": "You said <SITE> is super distracting for you.",
+        "titleSetIntention": "What do you want to achieve during your time here?",
+        "buttonAllowText": "Allow Temporarily"
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
@@ -1872,7 +1899,8 @@
         "strictness_Password_QuitApp": "Secure goodbyes! Enable this setting to require a password when you decide to quit the Focus Bear, adding an extra layer of security to your intentional exits.",
         "strictness_Password_UseRelaxFocusMode": "Browse freely with control! Enable this feature to require a password when allowing the use of Relax Focus mode, adding a security layer to your leisurely internet sessions.",
         "breaks_EnableBreaks": "Enable taking breaks at regular intervals. Breaks help your productivity, energy levels, and ability to focus.",
-        "strictness_Password_CircumventingBlocks": "Some settings like \"Show Dock Icon\" and \"Restart after force quit\" can reduce the strictness of blocking. If you tick this box, it will prompt for a password if the setting is changed to the less strict version."
+        "strictness_Password_CircumventingBlocks": "Some settings like \"Show Dock Icon\" and \"Restart after force quit\" can reduce the strictness of blocking. If you tick this box, it will prompt for a password if the setting is changed to the less strict version.",
+        "ui_EnablePopoverMenu": "Enable this option to display the Focus Bear menu as a popover."
     },
     "chooseHabitsVCInfo": {
         "title": "Choose Habits:",
