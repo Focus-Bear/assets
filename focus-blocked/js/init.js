@@ -28,19 +28,37 @@ let focusTitleWrapper = document.getElementById('focusTitleWrapper');
 let mainContainer = document.getElementById('container');
 const lang = urlParams?.get('lang') === LANGUAGE.ES ? LANGUAGE.ES : LANGUAGE.EN;
 const selected_lang = locale[lang];
+let isExternalHintRequired = false;
+let old_url = '';
+let domain = '';
 
-let current_url = urlParams.get('old_url');
-if (!current_url) throw Error(`query param old_url:${current_url}`);
-current_url = current_url?.startsWith('http')
-  ? current_url
-  : `https://${current_url}`;
-const old_url = current_url.substring(
-  0,
-  current_url.indexOf('?') === -1
-    ? current_url.length
-    : current_url.indexOf('?')
-);
-const domain = new URL(decodeURIComponent(old_url)).hostname;
+let current_url = urlParams.get('old_url') || '';
+
+if (typeof isValidUrl !== 'undefined') {
+  !isValidUrl(current_url) &&
+    Sentry.captureMessage('Invalid value for old_url query param', {
+      level: 'error',
+      extra: { old_url: current_url },
+    });
+} else {
+  current_url = current_url?.startsWith('http')
+    ? current_url
+    : `https://${current_url}`;
+
+  old_url = current_url?.substring(
+    0,
+    current_url.indexOf('?') === -1
+      ? current_url.length
+      : current_url.indexOf('?')
+  );
+
+  domain = new URL(decodeURIComponent(old_url)).hostname;
+
+  isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
+    domain
+  );
+}
+
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
 const cuddly_bear_mode = urlParams.get('cuddly_bear_mode') === 'true';
@@ -68,11 +86,17 @@ const isPageLoaded = Boolean(
 const isPageReloaded = Boolean(
   localStorage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
 );
-const isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
-  domain
-);
 const version = urlParams.get('version');
 const show_tour = urlParams.get('show_tour') === 'true';
+const confirmSuperDistracting =
+  urlParams.get('confirm_super_distracting') === 'true';
+const confirmAIDistractingURL =
+  urlParams.get('confirm_ai_distracting_url') === 'true';
+const focusModeIntention = urlParams.get('focus_mode_intention') ?? '';
+const shouldActivateSuperDistractionBlock = [
+  FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
+  FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
+].includes(block_type);
 /************** var **********************/
 
 /************** font **********************/

@@ -23,12 +23,20 @@
         <h1 id="focusTitle"></h1>
         <h3 id="focusSubTitle"></h3>
         <p id="focusAdditionalInfo"></p>
+        <div id="confirmation-distracting-actions" class="hide">
+          <button
+            id="temp-allow-access-btn"
+            onclick="openConfirmationModal()"
+            class="btn btn-primary"
+          ></button>
+          <button id="block-access-btn" class="btn btn-secondary"></button>
+        </div>
       </div>
       <div id="progressWrapper"></div>
 
       <div id="privacyContainer">
-        <h6 id="privacyNoticeContent" class="hidePrivacyNotice"></h6>
-        <div id="privacyNoticeContentArrow" class="hidePrivacyNotice"></div>
+        <h6 id="privacyNoticeContent" class="hide"></h6>
+        <div id="privacyNoticeContentArrow" class="hide"></div>
         <button id="privacyBtn"></button>
       </div>
       <a id="cuddlyBearBtn" href="#cuddlyBearMode" class="cuddlyBearBtn"> </a>
@@ -49,6 +57,55 @@
       </div>
     </div>
     <div id="toast" class="toast"></div>
+
+    <div class="modal-overlay" id="confirmation-modal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2 class="modal-title ellipsis" id="confirmation-modal-title"></h2>
+          <h3 class="modal-sub-title" id="confirmation-modal-sub-title"></h3>
+          <button class="modal-close" onclick="closeConfirmationModal()">
+            ×
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group">
+            <label
+              for="input-achievement"
+              id="confirmation-modal-achievement-label"
+            ></label>
+            <textarea
+              id="input-achievement"
+              rows="4"
+              class="input input-primary"
+            ></textarea>
+          </div>
+          <div class="input-group">
+            <label
+              for="input-number-wrapper"
+              id="confirmation-modal-input-time-label"
+            ></label>
+            <div id="input-number-wrapper">
+              <input
+                id="confirmation-modal-time-input"
+                type="number"
+                value="2"
+                class="input input-primary"
+                min="1"
+                step="1"
+                autofocus="false"
+              />
+              <p id="confirmation-modal-input-time-unit-label"></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            class="btn btn-primary"
+            id="confirmation-modal-unlock-btn"
+          ></button>
+        </div>
+      </div>
+    </div>
     <script
       src="https://sentry.focusbear.io/js-sdk-loader/10feadec83b909ed85197bab5ac9c0b0.min.js"
       crossorigin="anonymous"
@@ -64,11 +121,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/utils.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/locale.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/constant.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/messages.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/init.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/main.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/intro.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/confirmation.modal.js"></script>
   </body>
 </html>

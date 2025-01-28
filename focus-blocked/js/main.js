@@ -21,14 +21,10 @@ try {
     focusBlocksCompleted,
     totalFocusBlocksCompleted
   );
-  const shouldActivateAlwaysBlock = [
-    FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
-    FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
-  ].includes(block_type);
 
   if (block_type) {
     focusTitle.textContent = focus_blocked_message.title;
-    if (shouldActivateAlwaysBlock) {
+    if (shouldActivateSuperDistractionBlock) {
       const instruction = document.createElement('div');
       instruction.innerHTML = url_always_block_instruction;
       focusProgressWrapper.appendChild(instruction);
@@ -138,12 +134,12 @@ try {
     let noticeElementArrow = document.getElementById(
       'privacyNoticeContentArrow'
     );
-    if (noticeElement.className === 'hidePrivacyNotice') {
+    if (noticeElement.className === 'hide') {
       noticeElement.className = 'privacyNotice';
       noticeElementArrow.className = 'privacyNoticeContentArrow';
     } else {
-      noticeElement.className = 'hidePrivacyNotice';
-      noticeElementArrow.className = 'hidePrivacyNotice';
+      noticeElement.className = 'hide';
+      noticeElementArrow.className = 'hide';
     }
   });
 
@@ -151,7 +147,7 @@ try {
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
   if (strict_blocking) {
-    cuddlyBearBtn.className = 'hideCuddlyBearBtn';
+    cuddlyBearBtn.className = 'hide';
   }
 
   cuddlyBearBtn.addEventListener('click', (event) => {
