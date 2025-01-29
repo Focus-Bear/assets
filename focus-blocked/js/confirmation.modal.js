@@ -60,7 +60,6 @@ if (
       selected_lang.focus_bear_ai_thinks(domain);
     confirmationModalSubTitle.innerHTML =
       selected_lang.your_focus_intention_is_intention_and_domain_doesnt_seem_relevant(
-        focusModeIntention ? focusModeIntention : focus_mode,
         domain
       );
   } else {
@@ -71,21 +70,29 @@ if (
   confirmationDistractionActions.className = 'hide';
 }
 
+function validateInputs() {
+  confirmationModalUnlockBtn.disabled =
+    !unlockDurationMinutes || !distractionIntention;
+}
+
+validateInputs();
+
 confirmationModalTimeInput.addEventListener('input', (event) => {
   const minute = parseInt(event.target.value, 10);
   const isMinuteValid = !isNaN(minute) && Boolean(minute);
-  confirmationModalUnlockBtn.disabled = !isMinuteValid;
   if (!isMinuteValid) {
     event.target.value = '';
   }
   unlockDurationMinutes = minute;
   confirmationModalUnlockBtn.innerText =
     selected_lang.unlock_for_minutes_minutes(event.target.value);
+  validateInputs();
 });
 
 confirmationModalAchievementInput.addEventListener('input', (event) => {
   const value = event.target.value;
   distractionIntention = value;
+  validateInputs();
 });
 
 confirmationModalUnlockBtn.addEventListener('click', () => {
@@ -93,7 +100,7 @@ confirmationModalUnlockBtn.addEventListener('click', () => {
   window.open(
     `${current_href}&unlock_duration_minutes=${unlockDurationMinutes}&distraction_intention=${encodeURIComponent(
       distractionIntention
-    )}`,
+    )}&unblock_it=true`,
     '_self'
   );
 });

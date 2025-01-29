@@ -146,7 +146,7 @@ try {
   let focusRemainingSeconds =
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
-  if (strict_blocking) {
+  if (strict_blocking || confirmSuperDistracting || confirmAIDistractingURL) {
     cuddlyBearBtn.className = 'hide';
   }
 
@@ -196,7 +196,9 @@ try {
     }, 4000);
   }
 
-  if (longTermGoalsContainer) {
+  if (confirmSuperDistracting || confirmAIDistractingURL) {
+    longTermGoalsContainer.style.display = 'none';
+  } else {
     //@Description: it supports for older versions of the app
     if (longTermGoals?.length && longTermGoals.every(Boolean)) {
       longTermGoals.forEach((goal) => {
@@ -213,8 +215,6 @@ try {
       anchor.setAttribute('target', '_blank');
       anchor.setAttribute('href', 'https://dashboard.focusbear.io/profile');
       goalsContainer.appendChild(anchor);
-    } else {
-      longTermGoalsContainer.style.display = 'none';
     }
   }
 } catch (error) {

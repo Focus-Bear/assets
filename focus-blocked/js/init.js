@@ -11,7 +11,6 @@ Sentry.init({
 
 const urlParams = new URLSearchParams(window.location.search);
 let toast = document.getElementById('toast');
-let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');
 let privacyBtn = document.getElementById('privacyBtn');
 let unblockBtn = document.getElementById('popupUnblockBtn');
 let goalsContainer = document.getElementById('goals');
@@ -35,28 +34,29 @@ let domain = '';
 let current_url = urlParams.get('old_url') || '';
 
 if (typeof isValidUrl !== 'undefined') {
-  !isValidUrl(current_url) &&
+  if (isValidUrl(current_url)) {
+    current_url = current_url?.startsWith('http')
+      ? current_url
+      : `https://${current_url}`;
+
+    old_url = current_url?.substring(
+      0,
+      current_url.indexOf('?') === -1
+        ? current_url.length
+        : current_url.indexOf('?')
+    );
+
+    domain = new URL(decodeURIComponent(old_url)).hostname;
+
+    isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
+      domain
+    );
+  } else {
     Sentry.captureMessage('Invalid value for old_url query param', {
       level: 'error',
       extra: { old_url: current_url },
     });
-} else {
-  current_url = current_url?.startsWith('http')
-    ? current_url
-    : `https://${current_url}`;
-
-  old_url = current_url?.substring(
-    0,
-    current_url.indexOf('?') === -1
-      ? current_url.length
-      : current_url.indexOf('?')
-  );
-
-  domain = new URL(decodeURIComponent(old_url)).hostname;
-
-  isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
-    domain
-  );
+  }
 }
 
 const focus_mode = urlParams.get('focus_mode') ?? null;
