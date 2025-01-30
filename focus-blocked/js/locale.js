@@ -94,10 +94,9 @@ const locale = {
     focus_bear_ai_thinks: (domain) =>
       `Focus Bear's AI thinks ${domain} is distracting`,
     your_focus_intention_is_intention_and_domain_doesnt_seem_relevant: (
-      focusIntention,
       domain
     ) =>
-      `Your focus intention is <span>${focusIntention}</span> and <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
+      `<span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -201,9 +200,8 @@ const locale = {
     focus_bear_ai_thinks: (domain) =>
       `NEEDSTRANSLATION Focus Bear's AI thinks ${domain} is distracting`,
     your_focus_intention_is_intention_and_domain_doesnt_seem_relevant: (
-      focusIntention,
       domain
     ) =>
-      `NEEDSTRANSLATION Your focus intention is <span>${focusIntention}</span> and <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
+      `NEEDSTRANSLATION <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
   },
 };
