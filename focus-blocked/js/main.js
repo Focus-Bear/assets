@@ -196,7 +196,11 @@ try {
     }, 4000);
   }
 
-  if (confirmSuperDistracting || confirmAIDistractingURL) {
+  if (
+    !longTermGoals.length ||
+    confirmSuperDistracting ||
+    confirmAIDistractingURL
+  ) {
     longTermGoalsContainer.style.display = 'none';
   } else {
     //@Description: it supports for older versions of the app

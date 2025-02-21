@@ -4,7 +4,11 @@ const getFocusTitle = (
   focus_block_completed,
   total_focus_blocked
 ) => {
-  if (block_type === FOCUS_BLOCK_OPTION.MORNING) {
+  if (
+    [FOCUS_BLOCK_OPTION.MORNING, FOCUS_BLOCK_OPTION.MORNING_HABIT].includes(
+      block_type
+    )
+  ) {
     return {
       title: selected_lang.blocked_because_you_are_doing_your_morning_routine,
     };
