@@ -97,6 +97,12 @@ const shouldActivateSuperDistractionBlock = [
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
 ].includes(block_type);
+const isMorningOrEveningBlock = [
+  FOCUS_BLOCK_OPTION.MORNING,
+  FOCUS_BLOCK_OPTION.MORNING_HABIT,
+  FOCUS_BLOCK_OPTION.EVENING,
+  FOCUS_BLOCK_OPTION.EVENING_HABIT,
+].includes(block_type);
 /************** var **********************/
 
 /************** font **********************/

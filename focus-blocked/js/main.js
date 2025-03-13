@@ -146,7 +146,12 @@ try {
   let focusRemainingSeconds =
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
-  if (strict_blocking || confirmSuperDistracting || confirmAIDistractingURL) {
+  if (
+    strict_blocking ||
+    confirmSuperDistracting ||
+    confirmAIDistractingURL ||
+    isMorningOrEveningBlock
+  ) {
     cuddlyBearBtn.className = 'hide';
   }
 
