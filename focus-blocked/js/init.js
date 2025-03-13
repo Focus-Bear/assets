@@ -34,11 +34,11 @@ let domain = '';
 let current_url = urlParams.get('old_url') || '';
 
 if (typeof isValidUrl !== 'undefined') {
-  if (isValidUrl(current_url)) {
-    current_url = current_url?.startsWith('http')
-      ? current_url
-      : `https://${current_url}`;
+  current_url = current_url?.startsWith('http')
+    ? current_url
+    : `https://${current_url}`;
 
+  if (isValidUrl(current_url)) {
     old_url = current_url?.substring(
       0,
       current_url.indexOf('?') === -1
@@ -47,7 +47,6 @@ if (typeof isValidUrl !== 'undefined') {
     );
 
     domain = new URL(decodeURIComponent(old_url)).hostname;
-
     isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
       domain
     );

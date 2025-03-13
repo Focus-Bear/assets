@@ -50,11 +50,6 @@ const getFocusTitle = (
   }
 };
 
-const instructions = (url) =>
-  `<a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">${selected_lang.url_is_configured_to_be_always_blocked(
-    url
-  )}</a>`;
-
 const getExternalHint = () => {
   switch (domain) {
     case EXTERNAL_HINT_DOMAINS.REDDIT:

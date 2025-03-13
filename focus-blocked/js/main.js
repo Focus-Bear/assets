@@ -8,6 +8,7 @@ try {
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
   cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
+
   if (longTermGoalsTitle) {
     longTermGoalsTitle.textContent =
       selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
@@ -16,17 +17,12 @@ try {
   document.getElementById('popupClose').textContent =
     selected_lang.you_re_right_get_this_site_away_from_me;
 
-  const url_always_block_instruction = instructions(
-    domain,
-    focusBlocksCompleted,
-    totalFocusBlocksCompleted
-  );
-
   if (block_type) {
     focusTitle.textContent = focus_blocked_message.title;
     if (shouldActivateSuperDistractionBlock) {
       const instruction = document.createElement('div');
-      instruction.innerHTML = url_always_block_instruction;
+      instruction.innerHTML =
+        selected_lang.this_site_is_set_as_super_distracting_instructions;
       focusProgressWrapper.appendChild(instruction);
       focusTipWrapper.style.display = 'none';
     } else {
@@ -150,9 +146,13 @@ try {
     strict_blocking ||
     confirmSuperDistracting ||
     confirmAIDistractingURL ||
-    isMorningOrEveningBlock
+    isMorningOrEveningBlock ||
+    shouldActivateSuperDistractionBlock
   ) {
     cuddlyBearBtn.className = 'hide';
+    if (shouldActivateSuperDistractionBlock) {
+      focusTitle.innerText = selected_lang.this_is_a_super_distracting_site;
+    }
   }
 
   cuddlyBearBtn.addEventListener('click', (event) => {

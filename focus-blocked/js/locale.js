@@ -27,8 +27,7 @@ const locale = {
     focus_block_over_additionalInfo:
       "Keep it up and you'll quickly make progress towards your long term goals.",
     this_site_is_always_blocked: 'This site is always blocked',
-    url_is_configured_to_be_always_blocked: (url) =>
-      `${url} is configured to be always blocked. Click here for instructions on unblocking it.`,
+    this_site_is_set_as_super_distracting_instructions: `<div class="supper-distraction-wrapper"><p>This site is set as super distracting</p> <a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">Click here for instructions on unblocking it.</a></div>`,
     click_here_to_re_open_the_original_url: (url) =>
       `Click here to re-open the original URL ${url ?? ''}`,
     is_this_sub_reddit_actually_productive:
@@ -97,6 +96,7 @@ const locale = {
       domain
     ) =>
       `<span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
+    this_is_a_super_distracting_site: 'This is a super distracting site.',
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -126,8 +126,7 @@ const locale = {
     focus_block_over_additionalInfo:
       'Sigue así y avanzarás rápidamente hacia tus objetivos a largo plazo.',
     this_site_is_always_blocked: 'Este sitio está siempre bloqueado',
-    url_is_configured_to_be_always_blocked: (url) =>
-      ` ${url} está configurado para estar siempre bloqueado. Haz clic aquí para obtener instrucciones para desbloquearlo.`,
+    this_site_is_set_as_super_distracting_instructions: `NEEDSTRANSLATION <div class="supper-distraction-wrapper"><p>This site is set as super distracting</p> <a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">Click here for instructions on unblocking it.</a></div>`,
     click_here_to_re_open_the_original_url: (url) =>
       `Haz clic aquí para volver a abrir la URL original ${url ?? ''}`,
     is_this_sub_reddit_actually_productive:
@@ -203,5 +202,7 @@ const locale = {
       domain
     ) =>
       `NEEDSTRANSLATION <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
+    this_is_a_super_distracting_site:
+      'NEEDSTRANSLATION This is a super distracting site.',
   },
 };
