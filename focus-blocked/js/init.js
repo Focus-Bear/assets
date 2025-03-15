@@ -1,10 +1,9 @@
 /************** sentry **********************/
-Sentry.init({
-  dns: 'https://10feadec83b909ed85197bab5ac9c0b0@sentry.focusbear.io/4',
-  tracesSampleRate: 0.2,
-  debug: true,
-});
-
+window.sentryOnLoad = function () {
+  Sentry?.init({
+    tracesSampleRate: 0.2,
+  });
+};
 /************** sentry **********************/
 
 /************** var **********************/
@@ -51,7 +50,7 @@ if (typeof isValidUrl !== 'undefined') {
       domain
     );
   } else {
-    Sentry.captureMessage('Invalid value for old_url query param', {
+    Sentry?.captureMessage('Invalid value for old_url query param', {
       level: 'error',
       extra: { old_url: current_url },
     });
@@ -102,6 +101,7 @@ const isMorningOrEveningBlock = [
   FOCUS_BLOCK_OPTION.EVENING,
   FOCUS_BLOCK_OPTION.EVENING_HABIT,
 ].includes(block_type);
+const flags = urlParams.get('flags') ?? [];
 /************** var **********************/
 
 /************** font **********************/

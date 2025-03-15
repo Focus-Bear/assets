@@ -150,8 +150,21 @@ try {
     shouldActivateSuperDistractionBlock
   ) {
     cuddlyBearBtn.className = 'hide';
+
     if (shouldActivateSuperDistractionBlock) {
-      focusTitle.innerText = selected_lang.this_is_a_super_distracting_site;
+      title = selected_lang.this_is_a_super_distracting_site;
+      if (flags.includes(FLAGS.MORNING_ROUTINE_IN_PROGRESS)) {
+        title =
+          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+            true
+          );
+      } else if (flags.includes(FLAGS.EVENING_ROUTINE_IN_PROGRESS)) {
+        title =
+          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+            false
+          );
+      }
+      focusTitle.innerText = title;
     }
   }
 
@@ -241,5 +254,5 @@ try {
   background: #FFE4C6be;
 `;
   document.body.appendChild(general_error);
-  Sentry.captureException(JSON.stringify(error));
+  Sentry?.captureException(JSON.stringify(error));
 }

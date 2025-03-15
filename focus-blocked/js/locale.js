@@ -97,6 +97,12 @@ const locale = {
     ) =>
       `<span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
     this_is_a_super_distracting_site: 'This is a super distracting site.',
+    you_re_currently_doing_your_routine_super_distracting_sites_are_blocked: (
+      isMorningRoutine
+    ) =>
+      `You're currently doing your ${
+        isMorningRoutine ? 'morning' : 'evening'
+      } routine - super distracting sites are blocked`,
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -204,5 +210,11 @@ const locale = {
       `NEEDSTRANSLATION <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
     this_is_a_super_distracting_site:
       'NEEDSTRANSLATION This is a super distracting site.',
+    you_re_currently_doing_your_routine_super_distracting_sites_are_blocked: (
+      isMorningRoutine
+    ) =>
+      `NEEDSTRANSLATION You're currently doing your ${
+        isMorningRoutine ? 'morning' : 'evening'
+      } routine - super distracting sites are blocked`,
   },
 };
