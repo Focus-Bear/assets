@@ -8,6 +8,7 @@ try {
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
   cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
+
   if (longTermGoalsTitle) {
     longTermGoalsTitle.textContent =
       selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
@@ -16,17 +17,12 @@ try {
   document.getElementById('popupClose').textContent =
     selected_lang.you_re_right_get_this_site_away_from_me;
 
-  const url_always_block_instruction = instructions(
-    domain,
-    focusBlocksCompleted,
-    totalFocusBlocksCompleted
-  );
-
   if (block_type) {
     focusTitle.textContent = focus_blocked_message.title;
     if (shouldActivateSuperDistractionBlock) {
       const instruction = document.createElement('div');
-      instruction.innerHTML = url_always_block_instruction;
+      instruction.innerHTML =
+        selected_lang.this_site_is_set_as_super_distracting_instructions;
       focusProgressWrapper.appendChild(instruction);
       focusTipWrapper.style.display = 'none';
     } else {
@@ -146,8 +142,30 @@ try {
   let focusRemainingSeconds =
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
-  if (strict_blocking || confirmSuperDistracting || confirmAIDistractingURL) {
+  if (
+    strict_blocking ||
+    confirmSuperDistracting ||
+    confirmAIDistractingURL ||
+    isMorningOrEveningBlock ||
+    shouldActivateSuperDistractionBlock
+  ) {
     cuddlyBearBtn.className = 'hide';
+
+    if (shouldActivateSuperDistractionBlock) {
+      title = selected_lang.this_is_a_super_distracting_site;
+      if (flags.includes(FLAGS.MORNING_ROUTINE_IN_PROGRESS)) {
+        title =
+          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+            true
+          );
+      } else if (flags.includes(FLAGS.EVENING_ROUTINE_IN_PROGRESS)) {
+        title =
+          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+            false
+          );
+      }
+      focusTitle.innerText = title;
+    }
   }
 
   cuddlyBearBtn.addEventListener('click', (event) => {
@@ -236,5 +254,5 @@ try {
   background: #FFE4C6be;
 `;
   document.body.appendChild(general_error);
-  Sentry.captureException(JSON.stringify(error));
+  Sentry?.captureException(JSON.stringify(error));
 }

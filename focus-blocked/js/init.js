@@ -1,10 +1,9 @@
 /************** sentry **********************/
-Sentry.init({
-  dns: 'https://10feadec83b909ed85197bab5ac9c0b0@sentry.focusbear.io/4',
-  tracesSampleRate: 0.2,
-  debug: true,
-});
-
+window.sentryOnLoad = function () {
+  Sentry?.init({
+    tracesSampleRate: 0.2,
+  });
+};
 /************** sentry **********************/
 
 /************** var **********************/
@@ -34,11 +33,11 @@ let domain = '';
 let current_url = urlParams.get('old_url') || '';
 
 if (typeof isValidUrl !== 'undefined') {
-  if (isValidUrl(current_url)) {
-    current_url = current_url?.startsWith('http')
-      ? current_url
-      : `https://${current_url}`;
+  current_url = current_url?.startsWith('http')
+    ? current_url
+    : `https://${current_url}`;
 
+  if (isValidUrl(current_url)) {
     old_url = current_url?.substring(
       0,
       current_url.indexOf('?') === -1
@@ -47,12 +46,11 @@ if (typeof isValidUrl !== 'undefined') {
     );
 
     domain = new URL(decodeURIComponent(old_url)).hostname;
-
     isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
       domain
     );
   } else {
-    Sentry.captureMessage('Invalid value for old_url query param', {
+    Sentry?.captureMessage('Invalid value for old_url query param', {
       level: 'error',
       extra: { old_url: current_url },
     });
@@ -97,6 +95,13 @@ const shouldActivateSuperDistractionBlock = [
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
 ].includes(block_type);
+const isMorningOrEveningBlock = [
+  FOCUS_BLOCK_OPTION.MORNING,
+  FOCUS_BLOCK_OPTION.MORNING_HABIT,
+  FOCUS_BLOCK_OPTION.EVENING,
+  FOCUS_BLOCK_OPTION.EVENING_HABIT,
+].includes(block_type);
+const flags = urlParams.get('flags') ?? [];
 /************** var **********************/
 
 /************** font **********************/
