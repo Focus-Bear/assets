@@ -59,7 +59,6 @@ if (typeof isValidUrl !== 'undefined') {
 
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
-const cuddly_bear_mode = urlParams.get('cuddly_bear_mode') === 'true';
 const blocked_reason = urlParams.get('reason');
 const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
@@ -102,6 +101,10 @@ const isMorningOrEveningBlock = [
   FOCUS_BLOCK_OPTION.EVENING_HABIT,
 ].includes(block_type);
 const flags = urlParams.get('flags') ?? [];
+const focusBlockMode =
+  urlParams.get('block_mode') === FOCUS_BLOCK_MODE.CUDDLY
+    ? FOCUS_BLOCK_MODE.CUDDLY
+    : FOCUS_BLOCK_MODE.GRIZZLY;
 /************** var **********************/
 
 /************** font **********************/

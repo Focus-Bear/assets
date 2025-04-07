@@ -143,10 +143,11 @@ try {
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
   if (
-    strict_blocking ||
-    confirmSuperDistracting ||
-    confirmAIDistractingURL ||
-    isMorningOrEveningBlock ||
+    (focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY ||
+      strict_blocking ||
+      confirmSuperDistracting ||
+      confirmAIDistractingURL ||
+      isMorningOrEveningBlock) &&
     shouldActivateSuperDistractionBlock
   ) {
     cuddlyBearBtn.className = 'hide';
