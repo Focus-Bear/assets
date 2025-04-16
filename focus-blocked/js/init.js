@@ -1,17 +1,15 @@
 /************** sentry **********************/
-Sentry.init({
-  dns: 'https://10feadec83b909ed85197bab5ac9c0b0@sentry.focusbear.io/4',
-  tracesSampleRate: 0.2,
-  debug: true,
-});
-
+window.sentryOnLoad = function () {
+  Sentry?.init({
+    tracesSampleRate: 0.2,
+  });
+};
 /************** sentry **********************/
 
 /************** var **********************/
 
 const urlParams = new URLSearchParams(window.location.search);
 let toast = document.getElementById('toast');
-let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');
 let privacyBtn = document.getElementById('privacyBtn');
 let unblockBtn = document.getElementById('popupUnblockBtn');
 let goalsContainer = document.getElementById('goals');
@@ -35,33 +33,32 @@ let domain = '';
 let current_url = urlParams.get('old_url') || '';
 
 if (typeof isValidUrl !== 'undefined') {
-  !isValidUrl(current_url) &&
-    Sentry.captureMessage('Invalid value for old_url query param', {
-      level: 'error',
-      extra: { old_url: current_url },
-    });
-} else {
   current_url = current_url?.startsWith('http')
     ? current_url
     : `https://${current_url}`;
 
-  old_url = current_url?.substring(
-    0,
-    current_url.indexOf('?') === -1
-      ? current_url.length
-      : current_url.indexOf('?')
-  );
+  if (isValidUrl(current_url)) {
+    old_url = current_url?.substring(
+      0,
+      current_url.indexOf('?') === -1
+        ? current_url.length
+        : current_url.indexOf('?')
+    );
 
-  domain = new URL(decodeURIComponent(old_url)).hostname;
-
-  isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
-    domain
-  );
+    domain = new URL(decodeURIComponent(old_url)).hostname;
+    isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
+      domain
+    );
+  } else {
+    Sentry?.captureMessage('Invalid value for old_url query param', {
+      level: 'error',
+      extra: { old_url: current_url },
+    });
+  }
 }
 
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
-const cuddly_bear_mode = urlParams.get('cuddly_bear_mode') === 'true';
 const blocked_reason = urlParams.get('reason');
 const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
@@ -97,6 +94,17 @@ const shouldActivateSuperDistractionBlock = [
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS,
 ].includes(block_type);
+const isMorningOrEveningBlock = [
+  FOCUS_BLOCK_OPTION.MORNING,
+  FOCUS_BLOCK_OPTION.MORNING_HABIT,
+  FOCUS_BLOCK_OPTION.EVENING,
+  FOCUS_BLOCK_OPTION.EVENING_HABIT,
+].includes(block_type);
+const flags = urlParams.get('flags') ?? [];
+const focusBlockMode =
+  urlParams.get('block_mode') === FOCUS_BLOCK_MODE.CUDDLY
+    ? FOCUS_BLOCK_MODE.CUDDLY
+    : FOCUS_BLOCK_MODE.GRIZZLY;
 /************** var **********************/
 
 /************** font **********************/

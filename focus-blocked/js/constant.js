@@ -15,6 +15,7 @@ const FOCUS_BLOCK_OPTION = {
   FOCUS_BLOCK_ALWAYS: 'always-block',
   FOCUS_BLOCK_ALWAYS_OLD: 'always-blocked',
   MORNING: 'morning',
+  MORNING_HABIT: 'morning-habit',
   EVENING: 'evening',
   EVENING_HABIT: 'evening-habit',
 };
@@ -39,4 +40,14 @@ const FONT = {
   ROBOTO: 'Roboto',
   POPPINS: 'Poppins',
   SANS: 'Sans',
+};
+
+const FLAGS = {
+  MORNING_ROUTINE_IN_PROGRESS: 'MORNING_ROUTINE_IN_PROGRESS',
+  EVENING_ROUTINE_IN_PROGRESS: 'EVENING_ROUTINE_IN_PROGRESS',
+};
+
+const FOCUS_BLOCK_MODE = {
+  CUDDLY: 'cuddly',
+  GRIZZLY: 'grizzly',
 };

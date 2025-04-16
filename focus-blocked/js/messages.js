@@ -4,7 +4,11 @@ const getFocusTitle = (
   focus_block_completed,
   total_focus_blocked
 ) => {
-  if (block_type === FOCUS_BLOCK_OPTION.MORNING) {
+  if (
+    [FOCUS_BLOCK_OPTION.MORNING, FOCUS_BLOCK_OPTION.MORNING_HABIT].includes(
+      block_type
+    )
+  ) {
     return {
       title: selected_lang.blocked_because_you_are_doing_your_morning_routine,
     };
@@ -45,11 +49,6 @@ const getFocusTitle = (
     };
   }
 };
-
-const instructions = (url) =>
-  `<a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">${selected_lang.url_is_configured_to_be_always_blocked(
-    url
-  )}</a>`;
 
 const getExternalHint = () => {
   switch (domain) {
