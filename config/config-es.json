@@ -853,7 +853,10 @@
         "buttonBlockingStyleDistractingSitesText": "Bloquear solo sitios súper distractores",
         "titleBreaksOff": "Micro-breaks off[NEEDTRANSLATION]",
         "titleBreaksOn": "Micro-breaks on[NEEDTRANSLATION]",
-        "toggleBreaksTooltip": "Activate micro-breaks for eye health and stretch reminders during your focus session. Every <BREAK_FREQUENCY> minutes, Focus Bear will ask you to take a short break. Then at the end of your focus session, you’ll get a longer break of <BREAK_DURATION> minutes[NEEDTRANSLATION]"
+        "toggleBreaksTooltip": "Activate micro-breaks for eye health and stretch reminders during your focus session. Every <BREAK_FREQUENCY> minutes, Focus Bear will ask you to take a short break. Then at the end of your focus session, you’ll get a longer break of <BREAK_DURATION> minutes[NEEDTRANSLATION]",
+        "pomodoroModeDurationText": "Focus duration:[NEEDTRANSLATION]",
+        "unpinWindowText": "Click to unpin the window (disable stay-on-top)[NEEDTRANSLATION]",
+        "pinWindowText": "Click to pin the window (keep on top)[NEEDTRANSLATION]"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -2169,8 +2172,8 @@
         "descriptionOldOs": "Si previamente denegaste permiso para eventos del sistema, abre las Preferencias del Sistema, busca el icono de Focus Bear en Preferencias del Sistema > Seguridad y Privacidad > Privacidad > Automatización, y activa su casilla de verificación."
   },
     "askProcrastinatingVcInfo":{
-        "title": "Hora de hacer algo difícil",
-        "subTitle": "¿Qué has estado procrastinando? Focus Bear te ayudará a conseguirlo justo después de esto.",
+        "title": "Start your first focus challenge[NEEDTRANSLATION]",
+        "subTitle": "¿Qué has estado procrastinando?",
         "buttonStartText": "¡Hagámoslo!",
         "studentLongTextFirst": "Por fin empezar ese ensayo que te ha estado mirando fíjamente.",
         "studentShortTextFirst": "Iniciar ese ensayo (por fin).",
@@ -2225,7 +2228,9 @@
         "fieldWorkLongTextSecond": "Actualizar tu portafolio antes de que olvides lo fantástico que es tu viejo trabajo.",
         "fieldWorkShortTextSecond": "Actualizar portafolio.",
         "fieldWorkLongTextThird": "Lluvia de ideas de ese nuevo concepto \"brilliant\" que será una genialidad o un desastre creativo.",
-        "fieldWorkShortTextThird": "Iniciar nuevo concepto."
+        "fieldWorkShortTextThird": "Iniciar nuevo concepto",
+        "buttonSomethingElseText": "Something else[NEEDTRANSLATION]",
+        "titleIntention": "Intention:[NEEDTRANSLATION]"
     },
     "explainingPermissionsVcInfo":{
         "title": "Conceder permisos para bloquear distracciones",
@@ -2317,6 +2322,10 @@
             "Back in the groove—stay with it.[NEEDTRANSLATION]"
         ],
         "focusAlignmentScoreText": "Focus Alignment Score: <SCORE>%[NEEDTRANSLATION]"
+    },
+    "nudgeStartAnotherFocusSessionVcInfo":{
+        "title": "Want to start another focus session?[NEEDTRANSLATION]",
+        "buttonStartFocusText": "Start a Focus Fiesta[NEEDTRANSLATION]"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
