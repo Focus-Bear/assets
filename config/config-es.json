@@ -77,7 +77,7 @@
         "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos",
         "buttonTutorialText": "Tutorial",
         "questionHowMotivatedText": "¿Cuán motivado te sientes para hacer tus hábitos?",
-        "startCustomRoutineTitleText": "Your personalized routine is waiting! Take one step at a time and make the most of your day.[NEEDTRANSLATION]"
+        "startCustomRoutineTitleText": "¡Tu rutina personalizada te está esperando! Da un paso a la vez y saca el máximo partido a tu día."
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -200,7 +200,7 @@
         "titleActivatingBlockingProgress": "Establecer bloqueo de distracciones",
         "titleSettingHabitsProgress": "Activar Funciones",
         "toolTipMeetingsText": "Hemos detectado que estás en una videollamada y no mostraremos descansos durante este tiempo",
-        "unblockNotAvailableText": "You're in super strict mode - change your settings to unblock[NEEDTRANSLATION]"
+        "unblockNotAvailableText": "Estás en modo superestricto - cambia tu configuración para desbloquear"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando...",
@@ -472,8 +472,8 @@
         "lastBreakTimeText": "Tiempo desde el último descanso: <TIME>",
         "toolTipPopoverDisable": "Mostrar el menú Focus Bear como ventana flotante",
         "toolTipPopoverEnable": "Mostrar el menú Focus Bear como ventana emergente",
-        "menuItemStartCustomRoutineTitle": "Start Custom Routine[NEEDTRANSLATION]",
-        "permissionsNotSetText": "Grant Focus Bear permissions to block.[NEEDTRANSLATION]"
+        "menuItemStartCustomRoutineTitle": "Iniciar rutina personalizada",
+        "permissionsNotSetText": "Conceder permisos a Focus Bear para bloquear."
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -563,9 +563,9 @@
         "switchButtonEnablePopoverMenuText": "Mostrar el menú Focus Bear como ventana emergente",
         "switchButtonAdvanceAanalyticsText": "Requiere análisis avanzados al usar el modo de enfoque",
         "descriptionAdvanceAanalytics": "Registra el tiempo exacto que pasas en cada app y pestaña de navegador durante el modo de enfoque. Obtén información más detallada sobre tu productividad sabiendo cómo se distribuye tu atención.",
-        "switchButtonFocusVisualIndicatoText": "Show focus visual indicator[NEEDTRANSLATION]",
-        "descriptionFocusVisualIndicatorText": "Display a visual indicator when the focus alignment score drops.[NEEDTRANSLATION]",
-        "privacyAdvanceAanalytics": "Data is only stored on your computer and not sent to our servers.[NEEDTRANSLATION]"
+        "switchButtonFocusVisualIndicatoText": "Mostrar indicador visual de enfoque",
+        "descriptionFocusVisualIndicatorText": "Mostrar un indicador visual cuando baje la puntuación de alineación de enfoque.",
+        "privacyAdvanceAanalytics": "Los datos sólo se almacenan en tu computador y no se envían a nuestros servidores."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -766,16 +766,16 @@
             "intentionText": "Tu intención para este modo de enfoque era:- \"<INTENTION>\"",
             "settingNotAvailableText": "Esta opción está disponible sólo en modo Geek",
             "tasksSavedText": "Tus tareas han sido guardadas.",
-            "tooltipAppOrSite": "This shows your top 5 apps/sites during this focus session. Data is only stored locally on your computer.[NEEDTRANSLATION]",
-            "tooltipFocusAlignmentScoreAi": "The % of the focus session that you spent on productive sites/apps based on Focus Bear's AI.[NEEDTRANSLATION]",
-            "tooltipFocusAlignmentScore": "The % of the focus session that you spent on productive sites/apps based on your list of blocked/allowed sites.[NEEDTRANSLATION]",
-            "tooltipDeepWotkTimeThisSession": "We multiply the focus session duration by the focus alignment score to get your deep work time[NEEDTRANSLATION]",
-            "tooltipTotalWotkTimeToday": "Total deep work time accumulated from all focus sessions today, calculated using session duration and focus alignment score.[NEEDTRANSLATION]",
-            "tooltipAverageTimePerTab": "Focus Bear keeps track of how much time you spend in each browser tab. If you are constantly changing tabs, it indicates that you're probably multi tasking rather than sticking to one task.[NEEDTRANSLATION]",
-            "tooltipAverageTabCount": "If you have a lot of tabs open, you're likely to get distracted by half finished work. Put the tasks in your to do list instead. Use Focus Bear's tab limiter feature to help avoid tab overwhelm.[NEEDTRANSLATION]",
-            "askEnableTimeTrackerText": "Want to get even deeper analytics?[NEEDTRANSLATION]",
-            "buttonActivateTimeTrackerText": "Activate Focus Bear Time Tracker[NEEDTRANSLATION]",
-            "titleNextSessionIntention": "What do you plan to do next?[NEEDTRANSLATION]"
+            "tooltipAppOrSite": "Esto muestra tus 5 apps/sitios favoritos durante esta sesión de enfoque. Estos datos solo se almacenan localmente en tu computador.",
+            "tooltipFocusAlignmentScoreAi": "El % de la sesión de enfoque que pasaste en sitios/apps productivos basados en la IA de Focus Bear.",
+            "tooltipFocusAlignmentScore": "El % de la sesión de enfoque que pasaste en sitios/apps productivos basados en tu lista de sitios bloqueados/permitidos.",
+            "tooltipDeepWotkTimeThisSession": "Multiplicamos la duración de la sesión de enfoque por la puntuación de alineación de enfoque para obtener el tiempo de trabajo profundo.",
+            "tooltipTotalWotkTimeToday": "Tiempo total de trabajo profundo acumulado de todas las sesiones de enfoque de hoy, calculado usando duración de sesión y puntuación de alineación de enfoque.",
+            "tooltipAverageTimePerTab": "Focus Bear hace seguimiento del tiempo que pasas en cada pestaña del navegador. Si cambias constantemente de pestaña, indica que probablemente haces varias tareas en lugar de concentrarte en una sola.",
+            "tooltipAverageTabCount": "Si tienes muchas pestañas abiertas, es probable que te distraigas con trabajos a medio terminar. Mejor, pon las tareas en tu lista de pendientes. Usa la función de limitación de pestañas de Focus Bear para evitar la saturación.",
+            "askEnableTimeTrackerText": "¿ Quieres estadísticas aún más detalladas?",
+            "buttonActivateTimeTrackerText": "Activar Focus Bear Time Tracker",
+            "titleNextSessionIntention": "¿Qué planeas hacer después?"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -851,9 +851,9 @@
         "titleBlockingStyleText": "Estilo de Bloqueo:",
         "buttonBlockingStyleAiText": "Bloqueo por IA (recomendado)",
         "buttonBlockingStyleDistractingSitesText": "Bloquear solo sitios súper distractores",
-        "titleBreaksOff": "Micro-breaks off[NEEDTRANSLATION]",
-        "titleBreaksOn": "Micro-breaks on[NEEDTRANSLATION]",
-        "toggleBreaksTooltip": "Activate micro-breaks for eye health and stretch reminders during your focus session. Every <BREAK_FREQUENCY> minutes, Focus Bear will ask you to take a short break. Then at the end of your focus session, you’ll get a longer break of <BREAK_DURATION> minutes[NEEDTRANSLATION]"
+        "titleBreaksOff": "Micro-descansos Apagado",
+        "titleBreaksOn": "Micro-descansos Encendido",
+        "toggleBreaksTooltip": "Activa micro-descansos para tu salud visual y recordatorios de estiramientos durante tu sesión de enfoque. Cada <BREAK_FREQUENCY> minutos, Focus Bear te indicará que tomes un breve descanso. Luego, al final de tu sesión de enfoque, tendrás un descanso más largo de <BREAK_DURATION> minutos."
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -1314,14 +1314,14 @@
         "focusAlignmentScoreText": "Tu puntuación de alineación de Enfoque es <SCORE>%",
         "buttonAllowDomainText": "Permitir todas las URL de <DOMAIN> para esta sesión de enfoque",
         "waitingAiText": "Esperando la decisión IA...",
-        "aiRelevanceScoreText": "AI relevance score for this site: <SCORE>%[NEEDTRANSLATION]",
-        "stillDistractingTitle": "AI still thinks this site is distracting[NEEDTRANSLATION]",
-        "stillDistractingDescription": "Focus Bear's AI still thinks <URL> isn't relevant for what you're trying to achieve. Are you sure you need it?[NEEDTRANSLATION]",
-        "convinceAiTitle": "Convince the AI why it's necessary[NEEDTRANSLATION]",
-        "convinceAiDescription": "Give more info to the AI to explain why you need to use this site[NEEDTRANSLATION]",
-        "buttonConvinceText": "Convince the AI[NEEDTRANSLATION]",
-        "setIntentionText": "What do you want to achieve during your time here?[NEEDTRANSLATION]",
-        "buttonSetIntentionText": "Set Intention[NEEDTRANSLATION]"
+        "aiRelevanceScoreText": "Puntuación de relevancia IA para este sitio: <SCORE>%",
+        "stillDistractingTitle": "IA sigue pensando que este sitio es distractor",
+        "stillDistractingDescription": "La IA de Focus Bear sigue pensando que <URL> no es relevante para lo que intentas conseguir. ¿Estás seguro que lo necesitas?",
+        "convinceAiTitle": "Convence a la IA de por qué es necesario",
+        "convinceAiDescription": "Dar más información a la IA para explicar por qué necesitas usar este sitio",
+        "buttonConvinceText": "Convencer a la IA",
+        "setIntentionText": "¿Qué quieres conseguir durante tu tiempo aquí?",
+        "buttonSetIntentionText": "Establecer intención"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -2134,8 +2134,8 @@
         "alertWarningSetDistractionsInfo": "Puedes bloquear sitios web y apps que te distraen. Tendrás que conceder permisos para bloquear sitios web distractores.",
         "buttonBlockText": "¡Sí, bloquéalos!",
         "buttonNoText": "No, gracias",
-        "tipPermissionsFirst": "Want to block distractions during this focus session? Grant Focus Bear permissions to block.[NEEDTRANSLATION]",
-        "tipPermissionsSecond": "Distraction blocking inactive: Focus Bear doesn’t have permissions for any of your browsers.[NEEDTRANSLATION]"
+        "tipPermissionsFirst": "¿Quieres bloquear distracciones durante esta sesión de enfoque? Concede a Focus Bear permisos para bloquear.",
+        "tipPermissionsSecond": "Bloqueo de distracción inactivo: Focus Bear no tiene permisos para ninguno de tus navegadores."
     },
     "achieveWithFocusBearVcInfo":{
         "title": "¿Qué te gustaría mejorar en tu vida usando Focus Bear?",
@@ -2277,46 +2277,46 @@
         "tipText": "Por si tienes curiosidad, no rastreamos las apps que usas."
     },
     "reportBadAIResponseVcInfo":{
-        "title": "Report bad AI blocking decision[NEEDTRANSLATION]",
-        "titleIssue": "What was wrong?[NEEDTRANSLATION]",
-        "checkBoxShareData": "Share URL and focus intention with Focus Bear team[NEEDTRANSLATION]",
-        "titleUrl": "URL:[NEEDTRANSLATION]",
-        "buttonReportText": "Report issue[NEEDTRANSLATION]"
+        "title": "Reportar mala decisión de bloqueo IA",
+        "titleIssue": "¿Qué ha fallado?",
+        "checkBoxShareData": "Comparte la URL y la intención de enfoque con el equipo de Focus Bear",
+        "titleUrl": "URL:",
+        "buttonReportText": "Reportar Error"
     },
     "customRoutineTimeVcInfo":{
-        "title": "Your <ROUTINE> starts in[NEEDTRANSLATION]",
+        "title": "Tu <ROUTINE> comienza en",
         "selectMinutesText": "Selecciona cuántos minutos deseas posponerlo:",
         "buttonSkipText": "Saltar",
         "buttonPostponeText": "Posponer",
-        "descriptionText": "You’ve got this! Follow your custom routine and check off each step as you go.[NEEDTRANSLATION]",
-        "buttonStartRoutineText": "Start <ROUTINE> now[NEEDTRANSLATION]"
+        "descriptionText": "¡Ya lo tienes! Sigue tu rutina personalizada y marca cada paso a medida que avanzas.",
+        "buttonStartRoutineText": "Iniciar <ROUTINE> ahora"
     },
     "nudgeFocusAlignmentScoreDippingVcInfo":{
         "arrayAlignmentScoreDown": [
-            "Drifting off track—let’s bring it back.[NEEDTRANSLATION]",
-            "That’s a detour, but your focus is still within reach.[NEEDTRANSLATION]",
-            "Distraction’s creeping in—time to reset.[NEEDTRANSLATION]",
-            "Looks like your attention is slipping—let’s refocus.[NEEDTRANSLATION]",
-            "That wasn’t part of the plan—time to lock back in.[NEEDTRANSLATION]",
-            "Your momentum’s slowing—time to get back in the zone.[NEEDTRANSLATION]",
-            "A little off course, but you can still steer it back.[NEEDTRANSLATION]",
-            "Your focus is wavering—let’s steady it.[NEEDTRANSLATION]",
-            "Distractions are pulling you away—let’s get back on track.[NEEDTRANSLATION]",
-            "That’s not where your attention needs to be—time to reset[NEEDTRANSLATION]."
+            "Nos desviamos del tema, volvamos a él.",
+            "Es un desvío, pero tu objetivo aún está a tu alcance.",
+            "La distracción está entrando, hora de reiniciar.",
+            "Parece que tu atención se está desviando, reconcentrémonos.",
+            "Eso no formaba parte del plan, hora de regresar.",
+            "Tu impulso está disminuyendo, es hora de volver a la zona.",
+            "Un poco fuera de curso, pero todavía puedes dirigirlo de vuelta.",
+            "Tu enfoque está vacilando, vamos a estabilizarlo.",
+            "Las distracciones te están alejando, volvamos al buen camino.",
+            "Ahí no debe estar tu atención, es hora de restablecerla."
         ],
         "arrayAlignmentScoreUp": [
-            "Solid comeback—back in the zone.[NEEDTRANSLATION]",
-            "That’s the way—focus mode activated.[NEEDTRANSLATION]",
-            "You’re locked in again—keep it going.[NEEDTRANSLATION]",
-            "Momentum restored—great job.[NEEDTRANSLATION]",
-            "That’s how it’s done—keep crushing it.[NEEDTRANSLATION]",
-            "Smooth recovery—right back on track.[NEEDTRANSLATION]",
-            "You snapped back into focus—love to see it.[NEEDTRANSLATION]",
-            "Distraction defeated—you’re in control.[NEEDTRANSLATION]",
-            "Nice reset—you’re making progress again.[NEEDTRANSLATION]",
-            "Back in the groove—stay with it.[NEEDTRANSLATION]"
+            "Sólido regreso, de vuelta en la zona.",
+            "Ese es el camino, modo de enfoque activado.",
+            "Estás concetrado de nuevo, sigue así.",
+            "Impulso restaurado, gran trabajo.",
+            "Así se hace, sigue dándolo todo.",
+            "Buena recuperación, de vuelta al buen camino.",
+            "Volviste a concentrarte, me encanta verlo.",
+            "Distracción vencida, tú tienes el control.",
+            "Buen reajuste, estás progresando de nuevo.",
+            "Vuelve a la rutina, sigue así."
         ],
-        "focusAlignmentScoreText": "Focus Alignment Score: <SCORE>%[NEEDTRANSLATION]"
+        "focusAlignmentScoreText": "Puntuación de alineación de enfoque: <SCORE>%"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
