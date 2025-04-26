@@ -32,7 +32,7 @@ let domain = '';
 
 let current_url = urlParams.get('old_url') || '';
 
-if (typeof isValidUrl !== 'undefined') {
+if (current_url && isValidUrl !== 'undefined') {
   current_url = current_url?.startsWith('http')
     ? current_url
     : `https://${current_url}`;
@@ -50,10 +50,7 @@ if (typeof isValidUrl !== 'undefined') {
       domain
     );
   } else {
-    Sentry?.captureMessage('Invalid value for old_url query param', {
-      level: 'error',
-      extra: { old_url: current_url },
-    });
+    logSentryError({ old_url: current_url });
   }
 }
 
@@ -67,8 +64,8 @@ const isonboarding = urlParams.get('isonboarding') === 'true';
 let encouraging_info = {};
 try {
   encouraging_info = JSON.parse(urlParams.get('encouraging_info'));
-} catch (e) {
-  console.warn('invalid encouraging_info');
+} catch (error) {
+  logSentryError(error, 'invalid encouraging_info', 'warning');
 }
 const longTermGoals = encouraging_info?.long_term_goals ?? [];
 const focusedTime = encouraging_info?.focused_time ?? 0;
