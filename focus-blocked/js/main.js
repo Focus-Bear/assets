@@ -129,7 +129,7 @@ try {
       old_url
     );
   }
-  console.log(current_url);
+
   if (current_url) {
     const save_page_url_btn = document.createElement('a');
     save_page_url_btn.innerHTML =

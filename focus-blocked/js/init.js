@@ -32,7 +32,7 @@ let domain = '';
 
 let current_url = urlParams.get('old_url') || '';
 
-if (current_url && isValidUrl !== 'undefined') {
+if (current_url && typeof isValidUrl !== 'undefined') {
   current_url = current_url?.startsWith('http')
     ? current_url
     : `https://${current_url}`;
