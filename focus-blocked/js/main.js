@@ -7,7 +7,13 @@ try {
   document.getElementById('privacyNoticeContent').innerHTML =
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
-  cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
+
+  if (old_url) {
+    cuddlyBearBtn.style.display = 'inline-block';
+    cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
+  } else {
+    cuddlyBearBtn.style.display = 'none';
+  }
 
   if (longTermGoalsTitle) {
     longTermGoalsTitle.textContent =
@@ -41,8 +47,14 @@ try {
           selected_lang.click_here_to_re_open_the_original_url(old_url);
       };
     }
-    focusBlockedOriginalUrl.setAttribute('href', current_url);
-    focusBlockedOriginalUrl.textContent = selected_lang.original_url(old_url);
+    if (old_url) {
+      focusBlockedOriginalUrl.style.display = 'inline-block';
+      focusBlockedOriginalUrl.setAttribute('href', current_url);
+      focusBlockedOriginalUrl.textContent = selected_lang.original_url(old_url);
+    } else {
+      focusBlockedOriginalUrl.style.display = 'none';
+    }
+
     focusSubtitle.style.display = 'none';
     focusAdditionalInfo.style.display = 'none';
   } else {
@@ -75,9 +87,15 @@ try {
             focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
             focusProgressWrapper.appendChild(focusAdditionalInfo);
           }
-          focusBlockedOriginalUrl.setAttribute('href', current_url);
-          focusBlockedOriginalUrl.textContent =
-            selected_lang.click_here_to_re_open_the_original_url(old_url);
+
+          if (old_url) {
+            focusBlockedOriginalUrl.style.display = 'inline-block';
+            focusBlockedOriginalUrl.setAttribute('href', current_url);
+            focusBlockedOriginalUrl.textContent =
+              selected_lang.click_here_to_re_open_the_original_url(old_url);
+          } else {
+            focusBlockedOriginalUrl.style.display = 'none';
+          }
         } else {
           clearInterval(refreshIntervalId);
           const focusBlockInfo = getFocusTitle(
@@ -112,18 +130,20 @@ try {
     );
   }
 
-  const save_page_url_btn = document.createElement('a');
-  save_page_url_btn.innerHTML =
-    selected_lang.save_this_page_for_later(current_url);
-  save_page_url_btn.setAttribute(
-    'href',
-    `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${encodeURI(
-      current_url
-    )}`
-  );
-  save_page_url_btn.setAttribute('target', '_blank');
-  save_page_url_btn.setAttribute('id', 'save_page_url_btn');
-  focusProgressWrapper.appendChild(save_page_url_btn);
+  if (current_url) {
+    const save_page_url_btn = document.createElement('a');
+    save_page_url_btn.innerHTML =
+      selected_lang.save_this_page_for_later(current_url);
+    save_page_url_btn.setAttribute(
+      'href',
+      `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${encodeURI(
+        current_url
+      )}`
+    );
+    save_page_url_btn.setAttribute('target', '_blank');
+    save_page_url_btn.setAttribute('id', 'save_page_url_btn');
+    focusProgressWrapper.appendChild(save_page_url_btn);
+  }
 
   privacyBtn.addEventListener('click', () => {
     let noticeElement = document.getElementById('privacyNoticeContent');
@@ -255,5 +275,5 @@ try {
   background: #FFE4C6be;
 `;
   document.body.appendChild(general_error);
-  Sentry?.captureException(JSON.stringify(error));
+  logSentryError(error, 'An unknown exception occurred');
 }
