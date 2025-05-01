@@ -51,3 +51,11 @@ const FOCUS_BLOCK_MODE = {
   CUDDLY: 'cuddly',
   GRIZZLY: 'grizzly',
 };
+
+const FOCUS_VERIFY_MODAL = {
+  INITIAL_QUESTION: 'initial-question',
+  LOW_RELEVANCE: 'low-relevance',
+  CONVINCE_AI: 'convince-ai',
+  AI_RESPONSE: 'ai-response',
+  SET_TIME_LIMIT: 'set-time-limit',
+};

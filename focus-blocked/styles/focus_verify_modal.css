@@ -1,0 +1,150 @@
+.focus-verify-modal {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: var(--sunRayFifth);
+  width: 100%;
+  max-width: 450px;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.focus-verify-modal h2 {
+  background-color: var(--sunRayFirst);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.focus-verify-modal-content {
+  padding: 25px;
+}
+
+.focus-verify-modal-actions {
+  padding: 0 25px 25px 25px;
+}
+
+.focus-verify-modal-state {
+  display: none;
+}
+
+.focus-verify-modal-state.active {
+  display: block;
+}
+
+.focus-verify-modal-buttons {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.focus-verify-modal-buttons.active {
+  display: flex;
+}
+
+.focus-verify-modal-state .intention {
+  font-style: italic;
+  margin: 15px 0;
+  color: var(--light-text);
+}
+
+.focus-verify-modal-state .timer {
+  font-size: 0.9rem;
+  color: var(--light-text);
+  margin: 15px 0;
+  text-align: right;
+}
+
+.focus-verify-modal-state .timer {
+  font-size: 0.9rem;
+  color: var(--light-text);
+  margin: 15px 0;
+  text-align: right;
+}
+
+.question {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.website {
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.explanation {
+  color: var(--light-text);
+  font-size: 0.9rem;
+  margin: 15px 0;
+  line-height: 1.4;
+}
+
+.relevance-score {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: var(--light-text);
+  font-size: 0.9rem;
+}
+
+.convince-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.convince-section {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  min-height: 80px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  outline: none;
+}
+
+.time-selection {
+  margin-top: 20px;
+}
+
+.time-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.time-option {
+  padding: 8px 12px;
+  background-color: var(--sunRaySixth);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.time-option:hover,
+.time-option.selected {
+  background-color: var(--sunRayFirst);
+  color: white;
+}
+
+.score-bar {
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  flex-grow: 1;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  background-color: var(--sunRayThird);
+}

@@ -102,6 +102,39 @@ const focusBlockMode =
   urlParams.get('block_mode') === FOCUS_BLOCK_MODE.CUDDLY
     ? FOCUS_BLOCK_MODE.CUDDLY
     : FOCUS_BLOCK_MODE.GRIZZLY;
+
+const initialQuestionYesBtn = document.getElementById('yes-btn');
+const initialQuestionNoBtn = document.getElementById('no-btn');
+const yesLowRelevanceBtn = document.getElementById('yes-low-relevance-btn');
+const noLowRelevanceBtn = document.getElementById('no-low-relevance-btn');
+const convinceSubmitBtn = document.getElementById('convince-submit-btn');
+const cancelConvinceBtn = document.getElementById('cancel-convince-btn');
+const yesAiResponseBtn = document.getElementById('yes-ai-response-btn');
+const noAiResponseBtn = document.getElementById('no-ai-response-btn');
+const setIntentionBtn = document.getElementById('set-intention-btn');
+const cancelTimeLimitBtn = document.getElementById('cancel-time-limit-btn');
+const convinceReason = document.getElementById('convince-reason');
+const timeOptions = document.querySelectorAll('.time-option');
+
+const initialQuestionState = document.getElementById('initial-question-state');
+const lowRelevanceState = document.getElementById('low-relevance-state');
+const convinceAiState = document.getElementById('convince-ai-state');
+const aiResponseState = document.getElementById('ai-response-state');
+const setTimeLimitState = document.getElementById('set-time-limit-state');
+
+const initialQuestionButtons = document.getElementById(
+  'initial-question-buttons'
+);
+const lowRelevanceButtons = document.getElementById('low-relevance-buttons');
+const convinceAiButtons = document.getElementById('convince-ai-buttons');
+const aiResponseButtons = document.getElementById('ai-response-buttons');
+const setTimeLimitButtons = document.getElementById('set-time-limit-buttons');
+
+const timerInitialQuestion = document.getElementById('timer-initial-question');
+const timerLowRelevance = document.getElementById('timer-low-relevance');
+const timerConvinceAi = document.getElementById('timer-convince-ai');
+const timerAiResponse = document.getElementById('timer-ai-response');
+const timerSetTimeLimit = document.getElementById('timer-set-time-limit');
 /************** var **********************/
 
 /************** font **********************/

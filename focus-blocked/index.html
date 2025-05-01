@@ -105,6 +105,137 @@
         </div>
       </div>
     </div>
+
+    <div class="focus-verify-modal">
+      <h2>Focus Bear</h2>
+      <div class="focus-verify-modal-content">
+        <div class="focus-verify-modal-state" id="initial-question-state">
+          <div class="question">
+            Do you need to use <span class="website">apple.com/in/</span> when
+            you're focusing on <span class="intention">deep work</span>?
+          </div>
+          <p>Yor intention was "deep work"</p>
+          <div class="timer" id="timer-initial-question">00:15</div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="low-relevance-state">
+          <div class="question">
+            Do you need to use <span class="website">apple.com/in/</span> when
+            you're focusing on <span class="intention">deep work</span>?
+          </div>
+          <div class="explanation">
+            The website is a search engine, which can be distracting and may
+            lead to browsing unrelated content, making it unsuitable for deep
+            work.
+          </div>
+          <p></p>
+          <div class="relevance-score">
+            AI relevance score for this site:
+            <div class="score-bar">
+              <div class="score-fill" style="width: 20%"></div>
+            </div>
+            20%
+          </div>
+          <p class="intention">Yor intention was "deep work"</p>
+          <div class="timer" id="timer-low-relevance">00:15</div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="convince-ai-state">
+          <h3>Convince the AI why it's necessary</h3>
+          <div class="explanation">
+            Give more info to the AI to explain why you need to use this site
+          </div>
+          <textarea
+            id="convince-reason"
+            placeholder="Explain why you need this site for deep work..."
+            class="input input-primary convince-section"
+          ></textarea>
+          <div class="timer" id="timer-convince-ai">00:59</div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="ai-response-state">
+          <h3>AI still thinks this site is distracting</h3>
+          <h5>AI relevance score for this site: 10%</h5>
+          <div class="explanation">
+            Focus bears ai still thinks weather/today/i/abc isn't relevant for
+            what you're trying to achieve. Are your sure you need it?
+          </div>
+          <div class="timer" id="timer-ai-response">00:15</div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="set-time-limit-state">
+          <div class="question">
+            What do you want to achieve during your time here?
+          </div>
+          <textarea
+            id="reason"
+            placeholder="Your intention..."
+            class="input input-primary convince-section"
+          ></textarea>
+          <div class="time-selection">
+            <div>Select minutes to use this site?</div>
+            <div class="time-options">
+              <div class="time-option" data-minutes="0.5">30s</div>
+              <div class="time-option" data-minutes="1">1m</div>
+              <div class="time-option" data-minutes="5">5m</div>
+              <div class="time-option" data-minutes="10">10m</div>
+              <div class="time-option" data-minutes="15">15m</div>
+              <div class="time-option" data-minutes="25">25m</div>
+              <div class="time-option" data-minutes="30">30m</div>
+            </div>
+          </div>
+          <div class="timer" id="timer-set-time-limit">00:15</div>
+        </div>
+      </div>
+      <div class="focus-verify-modal-actions">
+        <div class="focus-verify-modal-buttons" id="initial-question-buttons">
+          <button class="btn btn-primary btn-medium" id="yes-btn">Yes</button>
+          <button class="btn btn-secondary btn-medium" id="no-btn">
+            No - I was getting distracted
+          </button>
+        </div>
+
+        <div class="focus-verify-modal-buttons" id="low-relevance-buttons">
+          <button class="btn btn-primary btn-medium" id="yes-low-relevance-btn">
+            Yes
+          </button>
+          <button
+            class="btn btn-secondary btn-medium"
+            id="no-low-relevance-btn"
+          >
+            No - I was getting distracted
+          </button>
+        </div>
+
+        <div class="focus-verify-modal-buttons" id="convince-ai-buttons">
+          <button class="btn btn-primary btn-medium" id="convince-submit-btn">
+            Convince the AI
+          </button>
+          <button class="btn btn-secondary btn-medium" id="cancel-convince-btn">
+            Cancel
+          </button>
+        </div>
+
+        <div class="focus-verify-modal-buttons" id="ai-response-buttons">
+          <button class="btn btn-primary btn-medium" id="yes-ai-response-btn">
+            Yes
+          </button>
+          <button class="btn btn-secondary btn-medium" id="no-ai-response-btn">
+            No
+          </button>
+        </div>
+
+        <div class="focus-verify-modal-buttons" id="set-time-limit-buttons">
+          <button class="btn btn-primary" id="set-intention-btn">
+            Set Intention
+          </button>
+          <button class="btn btn-secondary" id="cancel-time-limit-btn">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://js.sentry-cdn.com/8b33ad393d38fc72d06eab2fd40446be.min.js"
       crossorigin="anonymous"
@@ -119,5 +250,6 @@
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/main.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/intro.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/confirmation.modal.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/focus_verify_modal.js"></script>
   </body>
 </html>

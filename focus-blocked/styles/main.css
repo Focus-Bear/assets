@@ -6,6 +6,7 @@
 @import url('./long_term_goals.css');
 @import url('./toast_popup.css');
 @import url('./confirmation_modal.css');
+@import url('./focus_verify_modal.css');
 
 .container {
   width: 100%;
