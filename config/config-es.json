@@ -412,7 +412,7 @@
         "activationErrorSubTitle": "Introduzca una clave de licencia válida."
     },
     "menuInfo": {
-        "menuItemReactivateTitle": "Reactivar",
+        "menuItemReactivateTitle": "Activar bloqueo de distracciones",
         "menuItemEnterLicenseKeyTitle": "Introduce la clave de la licencia",
         "menuItemPreferencesTitle": "Preferencias",
         "menuItemExportStatisticsTitle": "Exportar Datos",
@@ -851,12 +851,12 @@
         "titleBlockingStyleText": "Estilo de Bloqueo:",
         "buttonBlockingStyleAiText": "Bloqueo por IA (recomendado)",
         "buttonBlockingStyleDistractingSitesText": "Bloquear solo sitios súper distractores",
-        "titleBreaksOff": "Micro-breaks off[NEEDTRANSLATION]",
-        "titleBreaksOn": "Micro-breaks on[NEEDTRANSLATION]",
-        "toggleBreaksTooltip": "Activate micro-breaks for eye health and stretch reminders during your focus session. Every <BREAK_FREQUENCY> minutes, Focus Bear will ask you to take a short break. Then at the end of your focus session, you’ll get a longer break of <BREAK_DURATION> minutes[NEEDTRANSLATION]",
-        "pomodoroModeDurationText": "Focus duration:[NEEDTRANSLATION]",
-        "unpinWindowText": "Click to unpin the window (disable stay-on-top)[NEEDTRANSLATION]",
-        "pinWindowText": "Click to pin the window (keep on top)[NEEDTRANSLATION]"
+        "titleBreaksOff": "Micro-descansos Apagado",
+        "titleBreaksOn": "Micro-descansos Encendido",
+        "toggleBreaksTooltip": "Activa micro-descansos para tu salud visual y recordatorios de estiramientos durante tu sesión de enfoque. Cada <BREAK_FREQUENCY> minutos, Focus Bear te indicará que tomes un breve descanso. Luego, al final de tu sesión de enfoque, tendrás un descanso más largo de <BREAK_DURATION> minutos.",
+        "pomodoroModeDurationText": "Duración del enfoque:",
+        "unpinWindowText": "Haz clic para desanclar la ventana (desactivar siempre encima)",
+        "pinWindowText": "Haz clic para anclar la ventana (mantener encima)"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -974,7 +974,12 @@
         "logoutAlertText": "¿Estás seguro de que deseas cerrar la sesión?",
         "titleUserIdText": "Identificación de usuario:",
         "restoreText": "Si ya compraste una suscripción a Focus Bear, haz clic en Sincronizar estado de pago para activarlo aquí.",
-        "buttonRestoreText": "Sincronizar estado de pago"
+        "buttonRestoreText": "Sincronizar estado de pago",
+        "buttonResetPasswordText": "Restablecer contraseña",
+        "linkSentTitle": "Enlace de restablecimiento enviado",
+        "linkSentDescription": "Hemos enviado un enlace para restablecer la contraseña a tu correo. Revisa tu bandeja de entrada.",
+        "linkSendFailedTitle": "No se pudo enviar el correo de restablecimiento",
+        "linkSendFailedDescription": "Algo salió mal al enviar el enlace de restablecimiento. Revisa tu conexión a internet e intenta de nuevo."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -2172,7 +2177,7 @@
         "descriptionOldOs": "Si previamente denegaste permiso para eventos del sistema, abre las Preferencias del Sistema, busca el icono de Focus Bear en Preferencias del Sistema > Seguridad y Privacidad > Privacidad > Automatización, y activa su casilla de verificación."
   },
     "askProcrastinatingVcInfo":{
-        "title": "Start your first focus challenge[NEEDTRANSLATION]",
+        "title": "Hora de hacer algo difícil",
         "subTitle": "¿Qué has estado procrastinando?",
         "buttonStartText": "¡Hagámoslo!",
         "studentLongTextFirst": "Por fin empezar ese ensayo que te ha estado mirando fíjamente.",
@@ -2229,8 +2234,8 @@
         "fieldWorkShortTextSecond": "Actualizar portafolio.",
         "fieldWorkLongTextThird": "Lluvia de ideas de ese nuevo concepto \"brilliant\" que será una genialidad o un desastre creativo.",
         "fieldWorkShortTextThird": "Iniciar nuevo concepto",
-        "buttonSomethingElseText": "Something else[NEEDTRANSLATION]",
-        "titleIntention": "Intention:[NEEDTRANSLATION]"
+        "buttonSomethingElseText": "Algo más",
+        "titleIntention": "Intención:"
     },
     "explainingPermissionsVcInfo":{
         "title": "Conceder permisos para bloquear distracciones",
@@ -2326,6 +2331,18 @@
     "nudgeStartAnotherFocusSessionVcInfo":{
         "title": "Want to start another focus session?[NEEDTRANSLATION]",
         "buttonStartFocusText": "Start a Focus Fiesta[NEEDTRANSLATION]"
+    },
+    "nudgeStartAnotherFocusSessionVcInfo":{
+        "title": "¿Quieres comenzar otra sesión de enfoque?",
+        "buttonStartFocusText": "Empieza una Fiesta de Enfoque"
+    },
+    "unverifiedEmailVcInfo":{
+        "title": "Tu dirección de correo aún no ha sido verificada. Revisa tu bandeja de entrada para encontrar el correo de confirmación o haz clic abajo para reenviarlo.",
+        "buttonResendEmailText": "Reenviar correo de confirmación",
+        "titleEmailSent": "Correo de verificación enviado",
+        "descriptionEmailSent": "Hemos enviado un enlace de verificación a tu correo. Revisa tu bandeja de entrada para verificar tu cuenta.",
+        "titleEmailFailed": "No se pudo enviar el correo de verificación",
+        "descriptionEmailFailed": "Algo salió mal al enviar el correo de verificación. Por favor, intenta de nuevo más tarde."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",

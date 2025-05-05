@@ -412,7 +412,7 @@
         "activationErrorSubTitle": "Please enter a valid License key."
     },
     "menuInfo": {
-        "menuItemReactivateTitle": "Reactivate",
+        "menuItemReactivateTitle": "Activate Distraction Blocking",
         "menuItemEnterLicenseKeyTitle": "Enter License Key",
         "menuItemPreferencesTitle": "Preferences",
         "menuItemExportStatisticsTitle": "Export Data",
@@ -974,7 +974,12 @@
         "logoutAlertText": "Are you sure you want to logout?",
         "titleUserIdText": "User Id:",
         "restoreText": "If you've already purchased Focus Bear subscription, you can restore that purchase.",
-        "buttonRestoreText": "Sync Payment Status"
+        "buttonRestoreText": "Sync Payment Status",
+        "buttonResetPasswordText": "Reset Password",
+        "linkSentTitle": "Reset Link Sent",
+        "linkSentDescription": "We've sent a password reset link to your email. Please check your inbox.",
+        "linkSendFailedTitle": "Unable to Send Reset Email",
+        "linkSendFailedDescription": "Something went wrong while sending the reset link. Please check your internet connection and try again."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
@@ -2326,6 +2331,14 @@
     "nudgeStartAnotherFocusSessionVcInfo":{
         "title": "Want to start another focus session?",
         "buttonStartFocusText": "Start a Focus Fiesta"
+    },
+    "unverifiedEmailVcInfo":{
+        "title": "Your email address hasn’t been verified yet. Please check your inbox for the confirmation email, or click below to resend it.",
+        "buttonResendEmailText": "Resend confirmation email",
+        "titleEmailSent": "Verification Email Sent",
+        "descriptionEmailSent": "We've sent a verification link to your email. Please check your inbox to verify your account.",
+        "titleEmailFailed": "Failed to Send Verification Email",
+        "descriptionEmailFailed": "Something went wrong while sending the verification email. Please try again later."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
