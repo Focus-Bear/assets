@@ -2329,10 +2329,6 @@
         "focusAlignmentScoreText": "Puntuación de alineación de enfoque: <SCORE>%"
     },
     "nudgeStartAnotherFocusSessionVcInfo":{
-        "title": "Want to start another focus session?[NEEDTRANSLATION]",
-        "buttonStartFocusText": "Start a Focus Fiesta[NEEDTRANSLATION]"
-    },
-    "nudgeStartAnotherFocusSessionVcInfo":{
         "title": "¿Quieres comenzar otra sesión de enfoque?",
         "buttonStartFocusText": "Empieza una Fiesta de Enfoque"
     },
