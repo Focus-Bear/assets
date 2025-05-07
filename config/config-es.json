@@ -412,7 +412,7 @@
         "activationErrorSubTitle": "Introduzca una clave de licencia válida."
     },
     "menuInfo": {
-        "menuItemReactivateTitle": "Reactivar",
+        "menuItemReactivateTitle": "Activar bloqueo de distracciones",
         "menuItemEnterLicenseKeyTitle": "Introduce la clave de la licencia",
         "menuItemPreferencesTitle": "Preferencias",
         "menuItemExportStatisticsTitle": "Exportar Datos",
@@ -853,7 +853,10 @@
         "buttonBlockingStyleDistractingSitesText": "Bloquear solo sitios súper distractores",
         "titleBreaksOff": "Micro-descansos Apagado",
         "titleBreaksOn": "Micro-descansos Encendido",
-        "toggleBreaksTooltip": "Activa micro-descansos para tu salud visual y recordatorios de estiramientos durante tu sesión de enfoque. Cada <BREAK_FREQUENCY> minutos, Focus Bear te indicará que tomes un breve descanso. Luego, al final de tu sesión de enfoque, tendrás un descanso más largo de <BREAK_DURATION> minutos."
+        "toggleBreaksTooltip": "Activa micro-descansos para tu salud visual y recordatorios de estiramientos durante tu sesión de enfoque. Cada <BREAK_FREQUENCY> minutos, Focus Bear te indicará que tomes un breve descanso. Luego, al final de tu sesión de enfoque, tendrás un descanso más largo de <BREAK_DURATION> minutos.",
+        "pomodoroModeDurationText": "Duración del enfoque:",
+        "unpinWindowText": "Haz clic para desanclar la ventana (desactivar siempre encima)",
+        "pinWindowText": "Haz clic para anclar la ventana (mantener encima)"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -971,7 +974,12 @@
         "logoutAlertText": "¿Estás seguro de que deseas cerrar la sesión?",
         "titleUserIdText": "Identificación de usuario:",
         "restoreText": "Si ya compraste una suscripción a Focus Bear, haz clic en Sincronizar estado de pago para activarlo aquí.",
-        "buttonRestoreText": "Sincronizar estado de pago"
+        "buttonRestoreText": "Sincronizar estado de pago",
+        "buttonResetPasswordText": "Restablecer contraseña",
+        "linkSentTitle": "Enlace de restablecimiento enviado",
+        "linkSentDescription": "Hemos enviado un enlace para restablecer la contraseña a tu correo. Revisa tu bandeja de entrada.",
+        "linkSendFailedTitle": "No se pudo enviar el correo de restablecimiento",
+        "linkSendFailedDescription": "Algo salió mal al enviar el enlace de restablecimiento. Revisa tu conexión a internet e intenta de nuevo."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -2170,7 +2178,7 @@
   },
     "askProcrastinatingVcInfo":{
         "title": "Hora de hacer algo difícil",
-        "subTitle": "¿Qué has estado procrastinando? Focus Bear te ayudará a conseguirlo justo después de esto.",
+        "subTitle": "¿Qué has estado procrastinando?",
         "buttonStartText": "¡Hagámoslo!",
         "studentLongTextFirst": "Por fin empezar ese ensayo que te ha estado mirando fíjamente.",
         "studentShortTextFirst": "Iniciar ese ensayo (por fin).",
@@ -2225,7 +2233,9 @@
         "fieldWorkLongTextSecond": "Actualizar tu portafolio antes de que olvides lo fantástico que es tu viejo trabajo.",
         "fieldWorkShortTextSecond": "Actualizar portafolio.",
         "fieldWorkLongTextThird": "Lluvia de ideas de ese nuevo concepto \"brilliant\" que será una genialidad o un desastre creativo.",
-        "fieldWorkShortTextThird": "Iniciar nuevo concepto."
+        "fieldWorkShortTextThird": "Iniciar nuevo concepto",
+        "buttonSomethingElseText": "Algo más",
+        "titleIntention": "Intención:"
     },
     "explainingPermissionsVcInfo":{
         "title": "Conceder permisos para bloquear distracciones",
@@ -2317,6 +2327,18 @@
             "Vuelve a la rutina, sigue así."
         ],
         "focusAlignmentScoreText": "Puntuación de alineación de enfoque: <SCORE>%"
+    },
+    "nudgeStartAnotherFocusSessionVcInfo":{
+        "title": "¿Quieres comenzar otra sesión de enfoque?",
+        "buttonStartFocusText": "Empieza una Fiesta de Enfoque"
+    },
+    "unverifiedEmailVcInfo":{
+        "title": "Tu dirección de correo aún no ha sido verificada. Revisa tu bandeja de entrada para encontrar el correo de confirmación o haz clic abajo para reenviarlo.",
+        "buttonResendEmailText": "Reenviar correo de confirmación",
+        "titleEmailSent": "Correo de verificación enviado",
+        "descriptionEmailSent": "Hemos enviado un enlace de verificación a tu correo. Revisa tu bandeja de entrada para verificar tu cuenta.",
+        "titleEmailFailed": "No se pudo enviar el correo de verificación",
+        "descriptionEmailFailed": "Algo salió mal al enviar el correo de verificación. Por favor, intenta de nuevo más tarde."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
