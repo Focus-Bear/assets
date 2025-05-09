@@ -52,10 +52,16 @@ const FOCUS_BLOCK_MODE = {
   GRIZZLY: 'grizzly',
 };
 
-const FOCUS_VERIFY_MODAL = {
+const FOCUS_VERIFY_STATE = {
   INITIAL_QUESTION: 'initial-question',
   LOW_RELEVANCE: 'low-relevance',
   CONVINCE_AI: 'convince-ai',
   AI_RESPONSE: 'ai-response',
   SET_TIME_LIMIT: 'set-time-limit',
+  VERIFICATION_COMPLETED: 'verification-completed',
+};
+
+const FOCUS_VERIFY_TIMEOUTS = {
+  DEFAULT: 15,
+  CONVINCE_AI: 59,
 };
