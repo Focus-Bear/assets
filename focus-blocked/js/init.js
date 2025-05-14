@@ -102,6 +102,32 @@ const focusBlockMode =
   urlParams.get('block_mode') === FOCUS_BLOCK_MODE.CUDDLY
     ? FOCUS_BLOCK_MODE.CUDDLY
     : FOCUS_BLOCK_MODE.GRIZZLY;
+
+const aiFocusBlock = urlParams.get('ai-focus-block') === 'true';
+const aiRelevanceScore = urlParams.get('ai-relevance-score') || 0;
+const aiRelevanceExplanation = urlParams.get('ai-relevance-explanation') || '';
+const aiConvinceResponse = urlParams.get('ai-convince-response') || '';
+
+const focusVerifyModal = document.getElementById('focus-verify-modal');
+const aiFocusBlockConfirmActionBtn =
+  document.getElementById('confirm-action-btn');
+const aiFocusBlockCancelActionBtn =
+  document.getElementById('cancel-action-btn');
+const convinceReason = document.getElementById('convince-reason');
+const setTimeLimitReason = document.getElementById('limit-time-reason');
+const timeOptions = document.querySelectorAll('.time-option');
+
+const initialQuestionState = document.getElementById('initial-question-state');
+const lowRelevanceState = document.getElementById('low-relevance-state');
+const convinceAiState = document.getElementById('convince-ai-state');
+const aiResponseState = document.getElementById('ai-response-state');
+const setTimeLimitState = document.getElementById('set-time-limit-state');
+
+const timerInitialQuestion = document.getElementById('timer-initial-question');
+const timerLowRelevance = document.getElementById('timer-low-relevance');
+const timerConvinceAi = document.getElementById('timer-convince-ai');
+const timerAiResponse = document.getElementById('timer-ai-response');
+const timerSetTimeLimit = document.getElementById('timer-set-time-limit');
 /************** var **********************/
 
 /************** font **********************/

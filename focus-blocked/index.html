@@ -105,6 +105,76 @@
         </div>
       </div>
     </div>
+
+    <div id="focus-verify-modal" class="focus-verify-modal hide">
+      <h2>Focus Bear</h2>
+      <div class="focus-verify-modal-content">
+        <div class="focus-verify-modal-state" id="initial-question-state">
+          <p class="question"></p>
+          <p class="intention-info"></p>
+          <div class="timer" id="timer-initial-question"></div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="low-relevance-state">
+          <p class="question"></p>
+          <p class="explanation"></p>
+          <div class="relevance-score"></div>
+          <div class="timer" id="timer-low-relevance"></div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="convince-ai-state">
+          <h3></h3>
+          <div class="explanation"></div>
+          <textarea
+            id="convince-reason"
+            class="input input-primary convince-section"
+          ></textarea>
+          <div class="timer" id="timer-convince-ai"></div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="ai-response-state">
+          <h3></h3>
+          <h5></h5>
+          <div class="ai-convince-response"></div>
+          <div class="explanation"></div>
+          <div class="timer" id="timer-ai-response"></div>
+        </div>
+
+        <div class="focus-verify-modal-state" id="set-time-limit-state">
+          <p class="question"></p>
+          <textarea
+            id="limit-time-reason"
+            class="input input-primary convince-section"
+          ></textarea>
+          <div class="time-selection">
+            <label></label>
+            <div class="time-options">
+              <div class="time-option" data-minutes="0.5">30s</div>
+              <div class="time-option" data-minutes="1">1m</div>
+              <div class="time-option" data-minutes="5">5m</div>
+              <div class="time-option" data-minutes="10">10m</div>
+              <div class="time-option" data-minutes="15">15m</div>
+              <div class="time-option" data-minutes="25">25m</div>
+              <div class="time-option" data-minutes="30">30m</div>
+            </div>
+          </div>
+          <div class="timer" id="timer-set-time-limit"></div>
+        </div>
+      </div>
+      <div class="focus-verify-modal-actions">
+        <div class="focus-verify-modal-buttons">
+          <button
+            class="btn btn-primary btn-medium"
+            id="confirm-action-btn"
+          ></button>
+          <button
+            class="btn btn-secondary btn-medium"
+            id="cancel-action-btn"
+          ></button>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://js.sentry-cdn.com/8b33ad393d38fc72d06eab2fd40446be.min.js"
       crossorigin="anonymous"
@@ -119,5 +189,6 @@
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/main.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/intro.js"></script>
     <script src="https://focus-bear.github.io/assets/focus-blocked/js/confirmation.modal.js"></script>
+    <script src="https://focus-bear.github.io/assets/focus-blocked/js/focus_verify_modal.js"></script>
   </body>
 </html>
