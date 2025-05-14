@@ -4,6 +4,7 @@ let seconds;
 let allowed_time = null;
 let convince_reason = '';
 let intention_reason = '';
+const modalClassNames = focusVerifyModal.classList;
 
 const stateElements = {
   [FOCUS_VERIFY_STATE.INITIAL_QUESTION]: initialQuestionState,
@@ -23,8 +24,15 @@ const timerElements = {
 
 function setState(state) {
   if (state === FOCUS_VERIFY_STATE.VERIFICATION_COMPLETED) {
+    updateQueryParamsAndReload(
+      [
+        { [FOCUS_VERIFY_PARAMS.WANT_ACHIEVE]: intention_reason },
+        { [FOCUS_VERIFY_PARAMS.WANT_ACHIEVE_TIME]: allowed_time },
+      ],
+      [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+    );
     clearInterval(timerIntervalId);
-    focusVerifyModal.classList.add('hide');
+    modalClassNames.add('hide');
     convince_reason = '';
     intention_reason = '';
     allowed_time = null;
@@ -66,8 +74,28 @@ function updateTimerDisplay() {
   }
 }
 
+function updateQueryParamsAndReload(params = [], keysToRemove = []) {
+  const url = new URL(window.location.href);
+
+  for (const key of keysToRemove) {
+    url.searchParams.delete(key);
+  }
+
+  params.forEach((param) => {
+    for (const [key, value] of Object.entries(param)) {
+      url.searchParams.set(key, value);
+    }
+  });
+
+  window.location.href = url.toString();
+}
+
 function handleNoClick() {
-  focusVerifyModal.classList.add('hide');
+  modalClassNames.add('hide');
+  updateQueryParamsAndReload(
+    [{ [FOCUS_VERIFY_PARAMS.BLOCK_IT]: true }],
+    [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+  );
 }
 
 function updateConfirmActionBtnState(value) {
@@ -90,16 +118,21 @@ function setupEventListeners() {
   aiFocusBlockConfirmActionBtn.addEventListener('click', () => {
     let nextState = FOCUS_VERIFY_STATE.COMPLETED;
     if (currentState === FOCUS_VERIFY_STATE.INITIAL_QUESTION) {
-      nextState = FOCUS_VERIFY_STATE.LOW_RELEVANCE;
+      updateQueryParamsAndReload(
+        [{ [FOCUS_VERIFY_PARAMS.YES_I_NEED]: true }],
+        [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+      );
     } else if (currentState === FOCUS_VERIFY_STATE.LOW_RELEVANCE) {
       aiFocusBlockConfirmActionBtn.innerText = selected_lang.convince_the_ai;
       aiFocusBlockCancelActionBtn.innerText = selected_lang.cancel;
-      updateConfirmActionBtnState(convince_reason);
       nextState = FOCUS_VERIFY_STATE.CONVINCE_AI;
     } else if (currentState === FOCUS_VERIFY_STATE.CONVINCE_AI) {
+      updateQueryParamsAndReload(
+        [{ [FOCUS_VERIFY_PARAMS.CONVINCE_AI_INTENTION]: convince_reason }],
+        [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+      );
       aiFocusBlockConfirmActionBtn.innerText = selected_lang.yes;
       aiFocusBlockCancelActionBtn.innerText = selected_lang.no;
-      nextState = FOCUS_VERIFY_STATE.AI_RESPONSE;
     } else if (currentState === FOCUS_VERIFY_STATE.AI_RESPONSE) {
       updateConfirmActionBtnState(intention_reason);
       aiFocusBlockConfirmActionBtn.innerText = selected_lang.set_intention;
@@ -135,8 +168,16 @@ function initUI() {
       current_url,
       focusModeIntention
     );
-  initialQuestionState.querySelector('.intention-info').innerHTML =
-    selected_lang.yor_intention_was_intention(focusModeIntention);
+
+  const initialIntentionInfoDiv =
+    initialQuestionState.querySelector('.intention-info');
+  if (focusModeIntention) {
+    initialIntentionInfoDiv.style.display = 'inline-flex';
+    initialIntentionInfoDiv.innerHTML =
+      selected_lang.yor_intention_was_intention(focusModeIntention);
+  } else {
+    initialIntentionInfoDiv.style.display = 'none';
+  }
 
   lowRelevanceState.querySelector('.question').innerHTML =
     selected_lang.do_you_need_to_user_url_when_you_are_focusing(
@@ -161,6 +202,17 @@ function initUI() {
     selected_lang.ai_still_thinks_this_site_is_distracting;
   aiResponseState.querySelector('h5').textContent =
     selected_lang.ai_relevance_score_for_this_site_score(aiRelevanceScore);
+
+  const aiConvinceResponseDiv = aiResponseState.querySelector(
+    '.ai-convince-response'
+  );
+  if (aiConvinceResponse) {
+    aiConvinceResponseDiv.textContent = aiConvinceResponse;
+    aiConvinceResponseDiv.style.display = 'inline-flex';
+  } else {
+    aiConvinceResponseDiv.style.display = 'none';
+  }
+
   aiResponseState.querySelector('.explanation').textContent =
     selected_lang.focus_bears_ai_still_thinks_url_isn_t_relevant(current_url);
 
@@ -172,12 +224,15 @@ function initUI() {
 }
 
 if (aiFocusBlock && current_url) {
-  focusVerifyModal.classList.contains('hide') &&
-    focusVerifyModal.classList.remove('hide');
+  modalClassNames.contains('hide') && modalClassNames.remove('hide');
   initUI();
   setupEventListeners();
-  setState(FOCUS_VERIFY_STATE.INITIAL_QUESTION);
+  let initState = aiRelevanceExplanation
+    ? FOCUS_VERIFY_STATE.LOW_RELEVANCE
+    : aiConvinceResponse
+    ? FOCUS_VERIFY_STATE.AI_RESPONSE
+    : FOCUS_VERIFY_STATE.INITIAL_QUESTION;
+  setState(initState);
 } else {
-  !focusVerifyModal.classList.contains('hide') &&
-    focusVerifyModal.classList.add('hide');
+  !modalClassNames.contains('hide') && modalClassNames.add('hide');
 }

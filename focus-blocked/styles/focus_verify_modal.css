@@ -79,6 +79,7 @@
   word-break: break-all;
 }
 
+.ai-convince-response,
 .explanation {
   color: var(--light-text);
   font-size: 0.9rem;

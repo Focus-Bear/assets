@@ -12,8 +12,8 @@ function logSentryError(
   message = 'Invalid value for old_url query param',
   level = 'error'
 ) {
-  // Sentry?.captureMessage(message, {
-  //   level,
-  //   extra: data,
-  // });
+  Sentry?.captureMessage(message, {
+    level,
+    extra: data,
+  });
 }

@@ -65,3 +65,12 @@ const FOCUS_VERIFY_TIMEOUTS = {
   DEFAULT: 15,
   CONVINCE_AI: 59,
 };
+
+const FOCUS_VERIFY_PARAMS = {
+  AI_FOCUS_BLOCK: 'ai-focus-block',
+  WANT_ACHIEVE: 'want-achieve',
+  WANT_ACHIEVE_TIME: 'want-achieve-time',
+  BLOCK_IT: 'block-it',
+  CONVINCE_AI_INTENTION: 'convince-ai-intention',
+  YES_I_NEED: 'yes-i-need',
+};

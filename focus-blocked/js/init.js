@@ -106,6 +106,7 @@ const focusBlockMode =
 const aiFocusBlock = urlParams.get('ai-focus-block') === 'true';
 const aiRelevanceScore = urlParams.get('ai-relevance-score') || 0;
 const aiRelevanceExplanation = urlParams.get('ai-relevance-explanation') || '';
+const aiConvinceResponse = urlParams.get('ai-convince-response') || '';
 
 const focusVerifyModal = document.getElementById('focus-verify-modal');
 const aiFocusBlockConfirmActionBtn =
