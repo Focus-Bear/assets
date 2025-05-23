@@ -67,7 +67,9 @@ const FOCUS_VERIFY_TIMEOUTS = {
 };
 
 const FOCUS_VERIFY_PARAMS = {
-  AI_FOCUS_BLOCK: 'ai-focus-block',
+  AI_FOCUS_BLOCK_ENABLED: 'ai-focus-block-enabled',
+  AI_FOCUS_BLOCK_VERIFICATION_ENABLED: 'ai-focus-block-verification-enabled',
+  AI_RELEVANCE_EXPLANATION: 'ai-relevance-explanation',
   WANT_ACHIEVE: 'want-achieve',
   WANT_ACHIEVE_TIME: 'want-achieve-time',
   BLOCK_IT: 'block-it',

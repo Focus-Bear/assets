@@ -29,7 +29,10 @@ function setState(state) {
         { [FOCUS_VERIFY_PARAMS.WANT_ACHIEVE]: intention_reason },
         { [FOCUS_VERIFY_PARAMS.WANT_ACHIEVE_TIME]: allowed_time },
       ],
-      [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+      [
+        FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK_VERIFICATION_ENABLED,
+        FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK_ENABLED,
+      ]
     );
     clearInterval(timerIntervalId);
     modalClassNames.add('hide');
@@ -94,7 +97,7 @@ function handleNoClick() {
   modalClassNames.add('hide');
   updateQueryParamsAndReload(
     [{ [FOCUS_VERIFY_PARAMS.BLOCK_IT]: true }],
-    [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+    [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK_VERIFICATION_ENABLED]
   );
 }
 
@@ -120,7 +123,7 @@ function setupEventListeners() {
     if (currentState === FOCUS_VERIFY_STATE.INITIAL_QUESTION) {
       updateQueryParamsAndReload(
         [{ [FOCUS_VERIFY_PARAMS.YES_I_NEED]: true }],
-        [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+        [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK_VERIFICATION_ENABLED]
       );
     } else if (currentState === FOCUS_VERIFY_STATE.LOW_RELEVANCE) {
       aiFocusBlockConfirmActionBtn.innerText = selected_lang.convince_the_ai;
@@ -129,7 +132,10 @@ function setupEventListeners() {
     } else if (currentState === FOCUS_VERIFY_STATE.CONVINCE_AI) {
       updateQueryParamsAndReload(
         [{ [FOCUS_VERIFY_PARAMS.CONVINCE_AI_INTENTION]: convince_reason }],
-        [FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK]
+        [
+          FOCUS_VERIFY_PARAMS.AI_RELEVANCE_EXPLANATION,
+          FOCUS_VERIFY_PARAMS.AI_FOCUS_BLOCK_VERIFICATION_ENABLED,
+        ]
       );
       aiFocusBlockConfirmActionBtn.innerText = selected_lang.yes;
       aiFocusBlockCancelActionBtn.innerText = selected_lang.no;
@@ -223,16 +229,22 @@ function initUI() {
   setTimeLimitReason.placeholder = selected_lang.your_intention;
 }
 
-if (aiFocusBlock && current_url) {
-  modalClassNames.contains('hide') && modalClassNames.remove('hide');
+if (current_url && aiFocusBlockVerificationEnabled) {
+  let initState = FOCUS_VERIFY_STATE.INITIAL_QUESTION;
   initUI();
   setupEventListeners();
-  let initState = aiRelevanceExplanation
-    ? FOCUS_VERIFY_STATE.LOW_RELEVANCE
-    : aiConvinceResponse
-    ? FOCUS_VERIFY_STATE.AI_RESPONSE
-    : FOCUS_VERIFY_STATE.INITIAL_QUESTION;
+  if (aiFocusBlockEnabled) {
+    initState = aiRelevanceExplanation
+      ? FOCUS_VERIFY_STATE.LOW_RELEVANCE
+      : aiConvinceResponse
+      ? FOCUS_VERIFY_STATE.AI_RESPONSE
+      : aiReaskIntent
+      ? FOCUS_VERIFY_STATE.SET_TIME_LIMIT
+      : FOCUS_VERIFY_STATE.VERIFICATION_COMPLETED;
+  }
+  updateConfirmActionBtnState(intention_reason);
   setState(initState);
+  modalClassNames.contains('hide') && modalClassNames.remove('hide');
 } else {
   !modalClassNames.contains('hide') && modalClassNames.add('hide');
 }

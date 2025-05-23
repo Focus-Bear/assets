@@ -103,10 +103,13 @@ const focusBlockMode =
     ? FOCUS_BLOCK_MODE.CUDDLY
     : FOCUS_BLOCK_MODE.GRIZZLY;
 
-const aiFocusBlock = urlParams.get('ai-focus-block') === 'true';
+const aiFocusBlockVerificationEnabled =
+  urlParams.get('ai-focus-block-verification-enabled') === 'true';
+const aiFocusBlockEnabled = urlParams.get('ai-focus-block-enabled') === 'true';
 const aiRelevanceScore = urlParams.get('ai-relevance-score') || 0;
 const aiRelevanceExplanation = urlParams.get('ai-relevance-explanation') || '';
 const aiConvinceResponse = urlParams.get('ai-convince-response') || '';
+const aiReaskIntent = urlParams.get('ai-reask-intention') === 'true';
 
 const focusVerifyModal = document.getElementById('focus-verify-modal');
 const aiFocusBlockConfirmActionBtn =
