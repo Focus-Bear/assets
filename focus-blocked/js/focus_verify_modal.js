@@ -47,6 +47,11 @@ function setState(state) {
       state === FOCUS_VERIFY_STATE.CONVINCE_AI
         ? FOCUS_VERIFY_TIMEOUTS.CONVINCE_AI
         : FOCUS_VERIFY_TIMEOUTS.DEFAULT;
+    if (state === FOCUS_VERIFY_STATE.SET_TIME_LIMIT) {
+      updateConfirmActionBtnState(intention_reason);
+      aiFocusBlockConfirmActionBtn.innerText = selected_lang.set_intention;
+      aiFocusBlockCancelActionBtn.innerText = selected_lang.cancel;
+    }
     startTimer();
   }
 }
@@ -145,6 +150,7 @@ function setupEventListeners() {
       aiFocusBlockCancelActionBtn.innerText = selected_lang.cancel;
       nextState = FOCUS_VERIFY_STATE.SET_TIME_LIMIT;
     } else {
+      updateQueryParamsAndReload([], [FOCUS_VERIFY_PARAMS.AI_REASK_INTENTION]);
       nextState = FOCUS_VERIFY_STATE.VERIFICATION_COMPLETED;
     }
     setState(nextState);
@@ -242,7 +248,6 @@ if (current_url && aiFocusBlockVerificationEnabled) {
       ? FOCUS_VERIFY_STATE.SET_TIME_LIMIT
       : FOCUS_VERIFY_STATE.VERIFICATION_COMPLETED;
   }
-  updateConfirmActionBtnState(intention_reason);
   setState(initState);
   modalClassNames.contains('hide') && modalClassNames.remove('hide');
 } else {
