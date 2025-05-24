@@ -9,10 +9,10 @@ try {
   privacyBtn.textContent = selected_lang.privacy_button;
 
   if (old_url) {
-    cuddlyBearBtn.style.display = 'inline-block';
+    cuddlyBearBtn.classList.add('btn');
     cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
   } else {
-    cuddlyBearBtn.style.display = 'none';
+    cuddlyBearBtn.classList.remove('btn');
   }
 
   if (longTermGoalsTitle) {
@@ -170,7 +170,7 @@ try {
       isMorningOrEveningBlock) &&
     shouldActivateSuperDistractionBlock
   ) {
-    cuddlyBearBtn.className = 'hide';
+    cuddlyBearBtn.classList.remove('btn');
 
     if (shouldActivateSuperDistractionBlock) {
       title = selected_lang.this_is_a_super_distracting_site;

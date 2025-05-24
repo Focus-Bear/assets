@@ -10,6 +10,7 @@ window.sentryOnLoad = function () {
 
 const urlParams = new URLSearchParams(window.location.search);
 let toast = document.getElementById('toast');
+let cuddlyBearBtn = document.getElementById('cuddlyBearBtn');
 let privacyBtn = document.getElementById('privacyBtn');
 let unblockBtn = document.getElementById('popupUnblockBtn');
 let goalsContainer = document.getElementById('goals');
