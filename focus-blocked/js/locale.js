@@ -103,6 +103,36 @@ const locale = {
       `You're currently doing your ${
         isMorningRoutine ? 'morning' : 'evening'
       } routine - super distracting sites are blocked`,
+    do_you_need_to_user_url_when_you_are_focusing: (
+      url,
+      intention
+    ) => `Do you need to use <span class="website">${url}</span> when
+            you're focusing on <span class="intention">${intention}</span>?`,
+    yor_intention_was_intention: (intention) =>
+      `Yor intention was "${intention}"`,
+    ai_relevance_score_for_this_site: (score) =>
+      `AI relevance score for this site: <div class="score-bar"><div class="score-fill" style="width: ${score}%"></div></div>${score}%`,
+    convince_the_ai_why_its_necessary: "Convince the AI why it's necessary",
+    give_more_info_to_the_ai_to_explain_why_you_need_to_use_this_site:
+      'Give more info to the AI to explain why you need to use this site',
+    explain_why_you_need_this_site_for_intention: (intention) =>
+      `Explain why you need this site for ${intention}...`,
+    ai_still_thinks_this_site_is_distracting:
+      'AI still thinks this site is distracting',
+    ai_relevance_score_for_this_site_score: (score) =>
+      `AI relevance score for this site: ${score}%`,
+    focus_bears_ai_still_thinks_url_isn_t_relevant: (url) =>
+      `Focus bears ai still thinks ${url} isn't relevant for what you're trying to achieve. Are your sure you need it?`,
+    what_do_you_want_to_achieve_during_your_time_here:
+      'What do you want to achieve during your time here?',
+    your_intention: 'Your intention...',
+    select_minutes_to_use_this_site: 'Select minutes to use this site?',
+    yes: 'Yes',
+    no_i_was_getting_distracted: 'No - I was getting distracted',
+    convince_the_ai: 'Convince the AI',
+    cancel: 'Cancel',
+    set_intention: 'Set Intention',
+    no: 'No',
   },
   es: {
     blocked_because_you_are_doing_your_morning_routine:
@@ -168,53 +198,76 @@ const locale = {
     click_here_to_edit_your_long_term_goals:
       'Haz clic aquí para editar tus objetivos a largo plazo',
     focus_block_duration_subtitle: (duration) =>
-      `NEEDSTRANSLATION You've been doing great - ${duration} already spent focused`,
+      `¡Vas muy bien! Ya llevas ${duration} concentrad@`,
     save_this_page_for_later: (hostname) =>
-      `NEEDSTRANSLATION Save ${hostname} for later`,
-    focus_block_is_over: 'NEEDSTRANSLATION Focus block is over!',
+      `Guardar ${hostname} para más tarde`,
+    focus_block_is_over: '¡Se terminó el bloque de enfoque!',
     let_keep_the_focus_on: (focus_mode) =>
-      `NEEDSTRANSLATION Let's keep the focus on ${focus_mode}`,
+      `Sigamos concentrad@s en ${focus_mode}`,
     get_a_tip_for_staying_focused:
-      'NEEDSTRANSLATION Get a tip for staying focused',
-    original_url: (url) => `NEEDSTRANSLATION Original URL ${url}`,
+      'Recibe un consejo para mantener la concentración',
+    original_url: (url) => `URL original: ${url}`,
     general_error:
-      'NEEDSTRANSLATION Something went wrong. Very sorry. Please email support@focusbear.io and tell us what led to this error',
+      'Algo salió mal. Lo sentimos mucho. Por favor, envía un correo a support@focusbear.io y cuéntanos qué ocurrió.',
     intro_oops_i_actually_need_this:
-      'NEEDSTRANSLATION Click here if you accidentally blocked the site and need access to it. This button will be accessible for the duration that the Cuddly Bear Mode is active.',
+      'Haz clic aquí si bloqueaste este sitio por error y necesitas acceder. Este botón estará disponible mientras esté activo el Modo Osito Cariñoso.',
     intro_long_term_goals:
-      "NEEDSTRANSLATION Put in your long term goals to remind yourself why you don't want to access distracting sites.",
+      'Escribe tus metas a largo plazo para recordarte por qué no quieres entrar a sitios que distraen.',
     intro_save_url_later:
-      'NEEDSTRANSLATION If you want to look at this page later during your relax time, click here to add it to your anti to-do list.',
+      '¿Quieres ver esta página más tarde durante tu tiempo de descanso? Haz clic aquí para guardarla en tu lista anti-pendientes.',
     intro_original_url:
-      'NEEDSTRANSLATION You can copy the URL from here if you need to save it somewhere else.',
+      'Puedes copiar la URL desde aquí si necesitas guardarla en otro lugar.',
     super_strict_focus_mode_cuddly_off_message: (remaining_minutes) =>
-      `NEEDSTRANSLATION You can't unlock this site because you are in super strict blocking mode. Your focus session ends ${remaining_minutes}`,
+      `No puedes desbloquear este sitio porque estás en modo de bloqueo súper estricto. Tu sesión de enfoque termina en ${remaining_minutes}`,
     temporarily_allow_access_to_url: (url) =>
-      `NEEDSTRANSLATION Temporarily allow access to <span class='url'>${url}<span>`,
-    what_do_you_plan_to_achieve_here:
-      'NEEDSTRANSLATION What do you plan to achieve here?',
-    how_much_time_do_you_need: 'NEEDSTRANSLATION How much time do you need?',
+      `Permitir acceso temporal a <span class='url'>${url}<span>`,
+    what_do_you_plan_to_achieve_here: '¿Qué planeas lograr aquí?',
+    how_much_time_do_you_need: '¿Cuánto tiempo necesitas?',
     unlock_for_minutes_minutes: (minutes) =>
-      `NEEDSTRANSLATION Unlock for ${minutes} minute${
-        minutes !== 1 ? 's' : ''
-      }`,
-    minutes: 'NEEDSTRANSLATION minutes',
-    temporarily_allow_access: 'NEEDSTRANSLATION Temporarily allow access',
-    block_access_i_dont_need_it:
-      "NEEDSTRANSLATION Block access - I don't need it",
+      `Desbloquear por ${minutes} minuto${minutes !== 1 ? 's' : ''}`,
+    minutes: 'minutos',
+    temporarily_allow_access: 'Permitir acceso temporal',
+    block_access_i_dont_need_it: 'Bloquear acceso - no lo necesito',
     focus_bear_ai_thinks: (domain) =>
-      `NEEDSTRANSLATION Focus Bear's AI thinks ${domain} is distracting`,
+      `La IA de Focus Bear cree que ${domain} es una distracción`,
     your_focus_intention_is_intention_and_domain_doesnt_seem_relevant: (
       domain
     ) =>
-      `NEEDSTRANSLATION <span>${domain}</span> doesn't seem relevant. Are you sure you need it?`,
-    this_is_a_super_distracting_site:
-      'NEEDSTRANSLATION This is a super distracting site.',
+      `<span>${domain}</span> no parece relevante. ¿Estás segur@ de que lo necesitas?`,
+    this_is_a_super_distracting_site: 'Este sitio distrae muchísimo.',
     you_re_currently_doing_your_routine_super_distracting_sites_are_blocked: (
       isMorningRoutine
     ) =>
-      `NEEDSTRANSLATION You're currently doing your ${
-        isMorningRoutine ? 'morning' : 'evening'
-      } routine - super distracting sites are blocked`,
+      `Estás haciendo tu rutina de ${
+        isMorningRoutine ? 'mañana' : 'noche'
+      } - los sitios súper distractores están bloqueados`,
+    do_you_need_to_user_url_when_you_are_focusing: (url, intention) =>
+      `¿Necesitas usar <span class="website">${url}</span> mientras te concentras en <span class="intention">${intention}</span>?`,
+    yor_intention_was_intention: (intention) =>
+      `Tu intención era "${intention}"`,
+    ai_relevance_score_for_this_site: (score) =>
+      `Nivel de relevancia según la IA para este sitio: <div class="score-bar"><div class="score-fill" style="width: ${score}%"></div></div>${score}%`,
+    convince_the_ai_why_its_necessary:
+      'Convencé a la IA de por qué es necesario',
+    give_more_info_to_the_ai_to_explain_why_you_need_to_use_this_site:
+      'Dale más información a la IA para explicar por qué necesitas usar este sitio',
+    explain_why_you_need_this_site_for_intention: (intention) =>
+      `Explica por qué necesitas este sitio para ${intention}...`,
+    ai_still_thinks_this_site_is_distracting:
+      'La IA sigue pensando que este sitio distrae',
+    ai_relevance_score_for_this_site_score: (score) =>
+      `Relevancia según la IA para este sitio: ${score}%`,
+    focus_bears_ai_still_thinks_url_isn_t_relevant: (url) =>
+      `Focus Bears todavía cree que ${url} no es relevante para lo que querés lograr. ¿Estás segur@ de que lo necesitás?`,
+    what_do_you_want_to_achieve_during_your_time_here:
+      '¿Qué querés lograr durante tu tiempo acá?',
+    your_intention: 'Tu intención...',
+    select_minutes_to_use_this_site: '¿Cuántos minutos querés usar este sitio?',
+    yes: 'Sí',
+    no_i_was_getting_distracted: 'No, me estaba distrayendo',
+    convince_the_ai: 'Convencela',
+    cancel: 'Cancelar',
+    set_intention: 'Definir intención',
+    no: 'No',
   },
 };
