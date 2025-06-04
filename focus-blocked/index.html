@@ -14,7 +14,12 @@
 
   <body>
     <div id="container" class="container">
-      <img src="logo.svg" alt="Focusbear" />
+      <picture>
+        <source srcset="images/FocusBearLogo.svg" type="image/svg+xml" />
+        <source srcset="images/FocusBearLogo.webp" type="image/webp" />
+        <source srcset="images/FocusBearLogo.png" type="image/png" />
+        <img src="images/FocusBearLogo.png" alt="Focus Bear" />
+      </picture>
       <div class="focusTitleWrapper">
         <h1 id="focusTitle"></h1>
         <h3 id="focusSubTitle"></h3>
