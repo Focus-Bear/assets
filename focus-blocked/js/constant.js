@@ -51,3 +51,29 @@ const FOCUS_BLOCK_MODE = {
   CUDDLY: 'cuddly',
   GRIZZLY: 'grizzly',
 };
+
+const FOCUS_VERIFY_STATE = {
+  INITIAL_QUESTION: 'initial-question',
+  LOW_RELEVANCE: 'low-relevance',
+  CONVINCE_AI: 'convince-ai',
+  AI_RESPONSE: 'ai-response',
+  SET_TIME_LIMIT: 'set-time-limit',
+  VERIFICATION_COMPLETED: 'verification-completed',
+};
+
+const FOCUS_VERIFY_TIMEOUTS = {
+  DEFAULT: 15,
+  CONVINCE_AI: 59,
+};
+
+const FOCUS_VERIFY_PARAMS = {
+  AI_FOCUS_BLOCK_ENABLED: 'ai-focus-block-enabled',
+  AI_FOCUS_BLOCK_VERIFICATION_ENABLED: 'ai-focus-block-verification-enabled',
+  AI_RELEVANCE_EXPLANATION: 'ai-relevance-explanation',
+  AI_REASK_INTENTION: 'ai-reask-intention',
+  WANT_ACHIEVE: 'want-achieve',
+  WANT_ACHIEVE_TIME: 'want-achieve-time',
+  BLOCK_IT: 'block-it',
+  CONVINCE_AI_INTENTION: 'convince-ai-intention',
+  YES_I_NEED: 'yes-i-need',
+};
