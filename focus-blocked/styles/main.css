@@ -139,24 +139,13 @@ picture > img {
 }
 
 .cuddlyBearBtn {
-  width: fit-content;
-  padding: 6px 20px;
-  font-family: monospace;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  background-color: lightblue;
   position: fixed;
-  top: 10px;
-  right: 8px;
-  font-size: 14px;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.125rem;
   font-weight: 600;
   text-decoration: none;
-}
-
-.cuddlyBearBtn:hover {
-  background-color: blue;
-  color: white;
+  vertical-align: middle;
 }
 
 a#save_page_url_btn {
