@@ -131,6 +131,8 @@ picture > img {
   border: 0;
   cursor: pointer;
   background-color: lightgray;
+  width: fit-content;
+  max-width: 90vw;
 }
 
 #privacyContainer button:hover {
@@ -143,9 +145,11 @@ picture > img {
   top: 1rem;
   left: 1rem;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   vertical-align: middle;
+  width: fit-content;
+  max-width: 90vw;
 }
 
 a#save_page_url_btn {
@@ -164,17 +168,23 @@ a#originalUrl {
 }
 
 @media only screen and (max-width: 1024px) {
+  .container {
+    gap: 0.25rem;
+  }
+
   .privacyNotice {
-    font-size: 17px;
+    width: 90%;
+    font-size: 12px;
+    font-weight: 400;
   }
   .focusTitleWrapper > h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   picture > img {
     width: 70dvw;
   }
   #progressWrapper > h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
