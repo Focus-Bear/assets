@@ -17,8 +17,8 @@
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: var(--sunRayFifth);
-  border-radius: 5px;
+  background: var(--sunRaySixth);
+  border-radius: 8px;
   width: 50%;
   position: relative;
   transition: all 5s ease-in-out;
@@ -41,36 +41,8 @@
   overflow: auto;
 }
 
-.popup .content > a,
-button {
-  width: fit-content;
-  padding: 6px 10px;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  font-weight: 600;
-  color: black;
-  font-family: monospace;
-  font-size: 12px;
-}
-
 .popup .content a {
   text-decoration: none;
-  background-color: palevioletred;
-}
-
-.popup .content button {
-  background-color: deepskyblue;
-}
-
-.popup .content button:hover {
-  background-color: royalblue;
-  color: white;
-}
-
-.popup .content a:hover {
-  background-color: red;
-  color: white;
 }
 
 .toast {
@@ -95,9 +67,13 @@ button {
 }
 
 @media only screen and (max-width: 1024px) {
+  .popup {
+    width: 90%;
+  }
+
   .popup .content {
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
   }
 }
