@@ -18,6 +18,7 @@
 .btn-primary {
   color: var(--white);
   background-color: var(--sunRayFirst);
+  border: 1px inset var(--sunRaySecond);
 }
 
 .btn-primary:hover {
