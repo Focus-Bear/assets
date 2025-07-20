@@ -58,9 +58,9 @@ if (current_url && typeof isValidUrl !== 'undefined') {
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
 const blocked_reason = urlParams.get('reason');
-const strict_blocking = urlParams.get('strict_blocking') === 'true';
+const strict_blocking = urlParams.get('strict_blocking') === URL_TRUE;
 const font = urlParams.get('font');
-const isonboarding = urlParams.get('isonboarding') === 'true';
+const isonboarding = urlParams.get('isonboarding') === URL_TRUE;
 
 let encouraging_info = {};
 try {
@@ -82,11 +82,11 @@ const isPageReloaded = Boolean(
   localStorage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
 );
 const version = urlParams.get('version');
-const show_tour = urlParams.get('show_tour') === 'true';
+const show_tour = urlParams.get('show_tour') === URL_TRUE;
 const confirmSuperDistracting =
-  urlParams.get('confirm_super_distracting') === 'true';
+  urlParams.get('confirm_super_distracting') === URL_TRUE;
 const confirmAIDistractingURL =
-  urlParams.get('confirm_ai_distracting_url') === 'true';
+  urlParams.get('confirm_ai_distracting_url') === URL_TRUE;
 const focusModeIntention = urlParams.get('focus_mode_intention') ?? '';
 const shouldActivateSuperDistractionBlock = [
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
@@ -105,12 +105,13 @@ const focusBlockMode =
     : FOCUS_BLOCK_MODE.GRIZZLY;
 
 const aiFocusBlockVerificationEnabled =
-  urlParams.get('ai-focus-block-verification-enabled') === 'true';
-const aiFocusBlockEnabled = urlParams.get('ai-focus-block-enabled') === 'true';
+  urlParams.get('ai-focus-block-verification-enabled') === URL_TRUE;
+const aiFocusBlockEnabled =
+  urlParams.get('ai-focus-block-enabled') === URL_TRUE;
 const aiRelevanceScore = urlParams.get('ai-relevance-score') || 0;
 const aiRelevanceExplanation = urlParams.get('ai-relevance-explanation') || '';
 const aiConvinceResponse = urlParams.get('ai-convince-response') || '';
-const aiReaskIntent = urlParams.get('ai-reask-intention') === 'true';
+const aiReaskIntent = urlParams.get('ai-reask-intention') === URL_TRUE;
 
 const focusVerifyModal = document.getElementById('focus-verify-modal');
 const aiFocusBlockConfirmActionBtn =
@@ -132,6 +133,8 @@ const timerLowRelevance = document.getElementById('timer-low-relevance');
 const timerConvinceAi = document.getElementById('timer-convince-ai');
 const timerAiResponse = document.getElementById('timer-ai-response');
 const timerSetTimeLimit = document.getElementById('timer-set-time-limit');
+
+const isBrainDumpMode = urlParams.get('braindump') === URL_TRUE;
 /************** var **********************/
 
 /************** font **********************/
