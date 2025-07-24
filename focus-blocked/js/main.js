@@ -8,11 +8,36 @@ try {
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
 
-  if (old_url) {
+  const shouldSkipUnblockPrompt =
+    focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY ||
+    strict_blocking ||
+    confirmSuperDistracting ||
+    confirmAIDistractingURL ||
+    isMorningOrEveningBlock ||
+    shouldActivateSuperDistractionBlock ||
+    isBrainDumpMode;
+
+  if (!old_url || shouldSkipUnblockPrompt) {
+    cuddlyBearBtn.classList.remove('btn');
+  } else {
     cuddlyBearBtn.classList.add('btn');
     cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
-  } else {
-    cuddlyBearBtn.classList.remove('btn');
+  }
+
+  if (shouldSkipUnblockPrompt && shouldActivateSuperDistractionBlock) {
+    title = selected_lang.this_is_a_super_distracting_site;
+    if (flags.includes(FLAGS.MORNING_ROUTINE_IN_PROGRESS)) {
+      title =
+        selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+          true
+        );
+    } else if (flags.includes(FLAGS.EVENING_ROUTINE_IN_PROGRESS)) {
+      title =
+        selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+          false
+        );
+    }
+    focusTitle.innerText = title;
   }
 
   if (longTermGoalsTitle) {
@@ -161,33 +186,6 @@ try {
 
   let focusRemainingSeconds =
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
-
-  if (
-    (focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY ||
-      strict_blocking ||
-      confirmSuperDistracting ||
-      confirmAIDistractingURL ||
-      isMorningOrEveningBlock) &&
-    shouldActivateSuperDistractionBlock
-  ) {
-    cuddlyBearBtn.classList.remove('btn');
-
-    if (shouldActivateSuperDistractionBlock) {
-      title = selected_lang.this_is_a_super_distracting_site;
-      if (flags.includes(FLAGS.MORNING_ROUTINE_IN_PROGRESS)) {
-        title =
-          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
-            true
-          );
-      } else if (flags.includes(FLAGS.EVENING_ROUTINE_IN_PROGRESS)) {
-        title =
-          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
-            false
-          );
-      }
-      focusTitle.innerText = title;
-    }
-  }
 
   cuddlyBearBtn.addEventListener('click', (event) => {
     if (strict_blocking && focusRemainingSeconds > 0) {
