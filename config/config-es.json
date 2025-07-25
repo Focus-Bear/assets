@@ -369,7 +369,15 @@
         "buttonCompleteEveningRoutineText": "Completa tu rutina nocturna",
         "buttonShutDownText": "Apagar",
         "buttonSleepText": "Poner Mac a dormir",
-        "selectUnlockMinutesText": "Selecciona la duración del desbloqueo:"
+        "selectUnlockMinutesText": "Selecciona la duración del desbloqueo:",
+        "alreadyUnlockedText": "Ya desbloqueaste por <DURATION> minutos.",
+        "unlockingFirstTimeText": "Desbloqueando por 30 minutos.",
+        "buttonMoreOptionsText": "Más estadísticas",
+        "buttonAccordionMoreOptionsText": "Reflexiona sobre la sesión",
+        "tourTitleStarRating": "Califica tu sesión",
+        "tourSubTitleStarRating": "Guardado en tu registro de sesiones de enfoque para que puedas revisar lo que lograste.",
+        "tourTitleNextGoal": "Objetivo de la próxima sesión",
+        "tourSubTitleNextGoal": "Establece tu objetivo de enfoque para la próxima sesión"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -1339,7 +1347,15 @@
         "appNotVerifiedText": "No se pudo verificar el estado de esta app.",
         "appStillDistractingTitle": "La IA sigue considerando que esta app es una distracción.",
         "appConvinceAiDescription": "Dale más información a la IA para explicar por qué necesitas usar esta app",
-        "selectMinutesForAppText": "Selecciona los minutos para usar esta app"
+        "selectMinutesForAppText": "Selecciona los minutos para usar esta app",
+        "distractingForCurrentTaskDescription": "La IA de Focus Bear sigue considerando que <URL> no es relevante para tu tarea actual \"<TASK>\". ¿Estás segur@ de que la necesitas?",
+        "reportBadAiTooltip": "Reportar decisión incorrecta de la IA",
+        "titleAskIntentionText": "¿Qué quieres hacer mientras estás aquí?",
+        "titleSelectMinutesToUse": "¿Cuánto tiempo necesitas?",
+        "buttonBlockUrlText": "Bloquear esta página",
+        "buttonBlockAppText": "Bloquear esta app",
+        "infoTemporaryAllow": "Este sitio ha sido marcado como una distracción 🧠❗Puedes desbloquearlo por ahora, pero se registrará como tiempo no productivo en tu informe.",
+        "currentTaskText": "La tarea actual es \"<TASK>\""
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -2159,7 +2175,16 @@
         "buttonBlockText": "¡Sí, bloquéalos!",
         "buttonNoText": "No, gracias",
         "tipPermissionsFirst": "¿Quieres bloquear distracciones durante esta sesión de enfoque? Concede a Focus Bear permisos para bloquear.",
-        "tipPermissionsSecond": "Bloqueo de distracción inactivo: Focus Bear no tiene permisos para ninguno de tus navegadores."
+        "tipPermissionsSecond": "Bloqueo de distracción inactivo: Focus Bear no tiene permisos para ninguno de tus navegadores.",
+        "titleNormalMode": "Modo relax",
+        "descriptionNormalMode": "Deja de enfocarte cuando quieras, sin preguntas.",
+        "toolTipNormalMode": "Ideal para días de enfoque suave. Sin barreras para pausar o detener una sesión.",
+        "titleStrictMode": "Espera un momento…",
+        "descriptionStrictMode": "Retraso de 15 segundos antes de que puedas detenerte",
+        "toolTipStrictMode": "Agrega una cuenta regresiva de 15 segundos antes de que puedas pausar o detenerte. Ideal para frenar decisiones impulsivas.",
+        "titleSuperStrictMode": "Enfoque de Hierro",
+        "descriptionSuperStrictMode": "Una vez que empiezas, no puedes parar.",
+        "toolTipSuperStrictMode": "Una vez que empiezas, no hay marcha atrás. Ideal para sesiones profundas y sin distracciones."
     },
     "achieveWithFocusBearVcInfo":{
         "title": "¿Qué te gustaría mejorar en tu vida usando Focus Bear?",
@@ -2309,7 +2334,9 @@
         "titleIssue": "¿Qué ha fallado?",
         "checkBoxShareData": "Comparte la URL y la intención de enfoque con el equipo de Focus Bear",
         "titleUrl": "URL:",
-        "buttonReportText": "Reportar Error"
+        "buttonReportText": "Reportar Error",
+        "checkBoxShareAppData": "Compartir el nombre de la app y la intención de enfoque con el equipo de Focus Bear",
+        "titleApp": "App:"
     },
     "customRoutineTimeVcInfo":{
         "title": "Tu <ROUTINE> comienza en",
@@ -2361,6 +2388,31 @@
     "researchSettingsVcInfo":{
         "titleDataCollectionMode": "Modo de recopilación de datos",
         "descriptionDataCollectionMode": "Todas las intervenciones están desactivadas por motivos de investigación"
+    },
+    "popUpFocusGoalConfirmationVcInfo":{
+        "titleGoalAndTask": "¿Sigues trabajando en \"<TASK>\" como parte de tu objetivo de enfoque: \"<GOAL>\"?",
+        "titleGoal": "¿Tu objetivo de enfoque sigue siendo: \"<GOAL>\"?",
+        "buttonAppRelevantText": "Sí, y esta app es relevante",
+        "buttonSiteRelevantText": "Sí, y este sitio es relevante",
+        "buttonWorkingSomethingElseText": "No, ahora estoy trabajando en otra cosa"
+    },
+    "popUpAddNewFocusGoalVcInfo":{
+        "title": "¿Cuál es tu nuevo objetivo de enfoque?",
+        "titleGoal": "Objetivo de enfoque:",
+        "titleTask": "Tarea actual:",
+        "buttonSaveText": "Guardar",
+        "fetchingTaskText": "Obteniendo tareas...",
+        "SavingTaskText": "Guardando tarea...",
+        "buttonMarkCurrentTaskAsCompleted": "Marcar la tarea anterior como completada",
+        "titleNewTask": "Nueva tarea:",
+        "titlePreviousTask": "Tarea anterior:"
+    },
+    "popUpSaveThisTaskForLaterVcInfo":{
+        "title": "¿Quieres guardar esto como una tarea para más tarde?",
+        "buttonYesText": "Sí, por favor",
+        "buttonJustBlockItText": "No, solo bloquéalo",
+        "titleTask": "Título de la tarea:",
+        "taskNameString": "Para trabajar en: <URL>"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
