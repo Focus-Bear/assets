@@ -8,11 +8,24 @@ try {
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
 
-  if (old_url) {
+  const isGrizzlyMode = focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY;
+  const isConfirmedDistraction =
+    confirmSuperDistracting || confirmAIDistractingURL;
+  const isBrainDumpBlock =
+    isBrainDumpMode &&
+    (isMorningOrEveningBlock || shouldActivateSuperDistractionBlock);
+
+  const shouldSkipUnblockPrompt =
+    isGrizzlyMode ||
+    strict_blocking ||
+    isConfirmedDistraction ||
+    isBrainDumpBlock;
+
+  if (!old_url || shouldSkipUnblockPrompt) {
+    cuddlyBearBtn.classList.remove('btn');
+  } else {
     cuddlyBearBtn.classList.add('btn');
     cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
-  } else {
-    cuddlyBearBtn.classList.remove('btn');
   }
 
   if (longTermGoalsTitle) {
@@ -275,5 +288,5 @@ try {
   background: #FFE4C6be;
 `;
   document.body.appendChild(general_error);
-  logSentryError(error, 'An unknown exception occurred');
+  logError(error, 'An unknown exception occurred');
 }

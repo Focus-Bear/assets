@@ -7,13 +7,10 @@ function isValidUrl(string) {
   }
 }
 
-function logSentryError(
+function logError(
   data,
   message = 'Invalid value for old_url query param',
   level = 'error'
 ) {
-  Sentry?.captureMessage(message, {
-    level,
-    extra: data,
-  });
+  //TODO: implement postHog
 }
