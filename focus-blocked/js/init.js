@@ -124,6 +124,8 @@ const timerLowRelevance = document.getElementById('timer-low-relevance');
 const timerConvinceAi = document.getElementById('timer-convince-ai');
 const timerAiResponse = document.getElementById('timer-ai-response');
 const timerSetTimeLimit = document.getElementById('timer-set-time-limit');
+
+const isBrainDumpMode = urlParams.get('braindump') === URL_TRUE;
 /************** var **********************/
 
 /************** font **********************/

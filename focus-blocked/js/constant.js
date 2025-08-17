@@ -77,3 +77,6 @@ const FOCUS_VERIFY_PARAMS = {
   CONVINCE_AI_INTENTION: 'convince-ai-intention',
   YES_I_NEED: 'yes-i-need',
 };
+
+const URL_TRUE = String(true);
+const URL_FALSE = String(false);
