@@ -100,9 +100,9 @@ const isMorningOrEveningBlock = [
 ].includes(block_type);
 const flags = urlParams.get('flags') ?? [];
 const focusBlockMode =
-  urlParams.get('block_mode') === FOCUS_BLOCK_MODE.CUDDLY
-    ? FOCUS_BLOCK_MODE.CUDDLY
-    : FOCUS_BLOCK_MODE.GRIZZLY;
+  urlParams.get('block_mode') === FOCUS_BLOCK_MODE.GRIZZLY
+    ? FOCUS_BLOCK_MODE.GRIZZLY
+    : FOCUS_BLOCK_MODE.CUDDLY;
 
 const aiFocusBlockVerificationEnabled =
   urlParams.get('ai-focus-block-verification-enabled') === URL_TRUE;

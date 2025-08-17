@@ -8,14 +8,18 @@ try {
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
 
+  const isGrizzlyMode = focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY;
+  const isConfirmedDistraction =
+    confirmSuperDistracting || confirmAIDistractingURL;
+  const isBrainDumpBlock =
+    isBrainDumpMode &&
+    (isMorningOrEveningBlock || shouldActivateSuperDistractionBlock);
+
   const shouldSkipUnblockPrompt =
-    focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY ||
+    isGrizzlyMode ||
     strict_blocking ||
-    confirmSuperDistracting ||
-    confirmAIDistractingURL ||
-    isMorningOrEveningBlock ||
-    shouldActivateSuperDistractionBlock ||
-    isBrainDumpMode;
+    isConfirmedDistraction ||
+    isBrainDumpBlock;
 
   if (!old_url || shouldSkipUnblockPrompt) {
     cuddlyBearBtn.classList.remove('btn');
