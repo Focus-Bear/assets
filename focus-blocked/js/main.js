@@ -28,22 +28,6 @@ try {
     cuddlyBearBtn.textContent = selected_lang.oops_i_actually_need_this;
   }
 
-  if (shouldSkipUnblockPrompt && shouldActivateSuperDistractionBlock) {
-    title = selected_lang.this_is_a_super_distracting_site;
-    if (flags.includes(FLAGS.MORNING_ROUTINE_IN_PROGRESS)) {
-      title =
-        selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
-          true
-        );
-    } else if (flags.includes(FLAGS.EVENING_ROUTINE_IN_PROGRESS)) {
-      title =
-        selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
-          false
-        );
-    }
-    focusTitle.innerText = title;
-  }
-
   if (longTermGoalsTitle) {
     longTermGoalsTitle.textContent =
       selected_lang.every_focus_session_you_complete_is_taking_you_towards_long_term_goals;
@@ -191,6 +175,33 @@ try {
   let focusRemainingSeconds =
     focus_mode_end_time?.diff(moment(), 'seconds') ?? 0;
 
+  if (
+    (focusBlockMode === FOCUS_BLOCK_MODE.GRIZZLY ||
+      strict_blocking ||
+      confirmSuperDistracting ||
+      confirmAIDistractingURL ||
+      isMorningOrEveningBlock) &&
+    shouldActivateSuperDistractionBlock
+  ) {
+    cuddlyBearBtn.classList.remove('btn');
+
+    if (shouldActivateSuperDistractionBlock) {
+      title = selected_lang.this_is_a_super_distracting_site;
+      if (flags.includes(FLAGS.MORNING_ROUTINE_IN_PROGRESS)) {
+        title =
+          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+            true
+          );
+      } else if (flags.includes(FLAGS.EVENING_ROUTINE_IN_PROGRESS)) {
+        title =
+          selected_lang.you_re_currently_doing_your_routine_super_distracting_sites_are_blocked(
+            false
+          );
+      }
+      focusTitle.innerText = title;
+    }
+  }
+
   cuddlyBearBtn.addEventListener('click', (event) => {
     if (strict_blocking && focusRemainingSeconds > 0) {
       event.preventDefault();
@@ -277,5 +288,5 @@ try {
   background: #FFE4C6be;
 `;
   document.body.appendChild(general_error);
-  logSentryError(error, 'An unknown exception occurred');
+  logError(error, 'An unknown exception occurred');
 }

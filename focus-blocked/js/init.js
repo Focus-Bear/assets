@@ -1,11 +1,3 @@
-/************** sentry **********************/
-window.sentryOnLoad = function () {
-  Sentry?.init({
-    tracesSampleRate: 0.2,
-  });
-};
-/************** sentry **********************/
-
 /************** var **********************/
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -51,22 +43,22 @@ if (current_url && typeof isValidUrl !== 'undefined') {
       domain
     );
   } else {
-    logSentryError({ old_url: current_url });
+    logError({ old_url: current_url });
   }
 }
 
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
 const blocked_reason = urlParams.get('reason');
-const strict_blocking = urlParams.get('strict_blocking') === URL_TRUE;
+const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
-const isonboarding = urlParams.get('isonboarding') === URL_TRUE;
+const isonboarding = urlParams.get('isonboarding') === 'true';
 
 let encouraging_info = {};
 try {
   encouraging_info = JSON.parse(urlParams.get('encouraging_info'));
 } catch (error) {
-  logSentryError(error, 'invalid encouraging_info', 'warning');
+  logError(error, 'invalid encouraging_info', 'warning');
 }
 const longTermGoals = encouraging_info?.long_term_goals ?? [];
 const focusedTime = encouraging_info?.focused_time ?? 0;
@@ -82,11 +74,11 @@ const isPageReloaded = Boolean(
   localStorage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
 );
 const version = urlParams.get('version');
-const show_tour = urlParams.get('show_tour') === URL_TRUE;
+const show_tour = urlParams.get('show_tour') === 'true';
 const confirmSuperDistracting =
-  urlParams.get('confirm_super_distracting') === URL_TRUE;
+  urlParams.get('confirm_super_distracting') === 'true';
 const confirmAIDistractingURL =
-  urlParams.get('confirm_ai_distracting_url') === URL_TRUE;
+  urlParams.get('confirm_ai_distracting_url') === 'true';
 const focusModeIntention = urlParams.get('focus_mode_intention') ?? '';
 const shouldActivateSuperDistractionBlock = [
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
@@ -105,13 +97,12 @@ const focusBlockMode =
     : FOCUS_BLOCK_MODE.CUDDLY;
 
 const aiFocusBlockVerificationEnabled =
-  urlParams.get('ai-focus-block-verification-enabled') === URL_TRUE;
-const aiFocusBlockEnabled =
-  urlParams.get('ai-focus-block-enabled') === URL_TRUE;
+  urlParams.get('ai-focus-block-verification-enabled') === 'true';
+const aiFocusBlockEnabled = urlParams.get('ai-focus-block-enabled') === 'true';
 const aiRelevanceScore = urlParams.get('ai-relevance-score') || 0;
 const aiRelevanceExplanation = urlParams.get('ai-relevance-explanation') || '';
 const aiConvinceResponse = urlParams.get('ai-convince-response') || '';
-const aiReaskIntent = urlParams.get('ai-reask-intention') === URL_TRUE;
+const aiReaskIntent = urlParams.get('ai-reask-intention') === 'true';
 
 const focusVerifyModal = document.getElementById('focus-verify-modal');
 const aiFocusBlockConfirmActionBtn =
@@ -133,8 +124,6 @@ const timerLowRelevance = document.getElementById('timer-low-relevance');
 const timerConvinceAi = document.getElementById('timer-convince-ai');
 const timerAiResponse = document.getElementById('timer-ai-response');
 const timerSetTimeLimit = document.getElementById('timer-set-time-limit');
-
-const isBrainDumpMode = urlParams.get('braindump') === URL_TRUE;
 /************** var **********************/
 
 /************** font **********************/
