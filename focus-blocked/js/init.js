@@ -1,11 +1,3 @@
-/************** sentry **********************/
-window.sentryOnLoad = function () {
-  Sentry?.init({
-    tracesSampleRate: 0.2,
-  });
-};
-/************** sentry **********************/
-
 /************** var **********************/
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -51,7 +43,7 @@ if (current_url && typeof isValidUrl !== 'undefined') {
       domain
     );
   } else {
-    logSentryError({ old_url: current_url });
+    logError({ old_url: current_url });
   }
 }
 
@@ -66,7 +58,7 @@ let encouraging_info = {};
 try {
   encouraging_info = JSON.parse(urlParams.get('encouraging_info'));
 } catch (error) {
-  logSentryError(error, 'invalid encouraging_info', 'warning');
+  logError(error, 'invalid encouraging_info', 'warning');
 }
 const longTermGoals = encouraging_info?.long_term_goals ?? [];
 const focusedTime = encouraging_info?.focused_time ?? 0;
@@ -100,9 +92,9 @@ const isMorningOrEveningBlock = [
 ].includes(block_type);
 const flags = urlParams.get('flags') ?? [];
 const focusBlockMode =
-  urlParams.get('block_mode') === FOCUS_BLOCK_MODE.CUDDLY
-    ? FOCUS_BLOCK_MODE.CUDDLY
-    : FOCUS_BLOCK_MODE.GRIZZLY;
+  urlParams.get('block_mode') === FOCUS_BLOCK_MODE.GRIZZLY
+    ? FOCUS_BLOCK_MODE.GRIZZLY
+    : FOCUS_BLOCK_MODE.CUDDLY;
 
 const aiFocusBlockVerificationEnabled =
   urlParams.get('ai-focus-block-verification-enabled') === 'true';
@@ -132,6 +124,8 @@ const timerLowRelevance = document.getElementById('timer-low-relevance');
 const timerConvinceAi = document.getElementById('timer-convince-ai');
 const timerAiResponse = document.getElementById('timer-ai-response');
 const timerSetTimeLimit = document.getElementById('timer-set-time-limit');
+
+const isBrainDumpMode = urlParams.get('braindump') === URL_TRUE;
 /************** var **********************/
 
 /************** font **********************/
