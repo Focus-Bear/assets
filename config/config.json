@@ -863,6 +863,7 @@
         "questionSecondText": "Which focus mode do you want to use?",
         "buttonEditFocusModeText": "Edit focus modes",
         "buttonLetsDoItText": "Start Session",
+        "moreOptionsText": "More Options",
         "buttonHardcorePomodoroText": "Use Super Focus Session (lock in the focus mode for multiple focus sessions)",
         "howManyPomodoroText": "How many focus sessions you want to focus for:",
         "chooseTheFocusModeText": "Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minute break)",
@@ -928,7 +929,7 @@
         "infoText": "You can reset the password at any time (but it has a 24hr cooling off period before it resets to stop you from cheating yourself). You'll need to provide the password when you cancel your morning/evening routine or super focus session. You can reset the password at any time - you just have to wait 24hrs.",
         "buttonSetPasswordText": "Set Password",
         "buttonChangePasswordText": "Change Password",
-        "passwordNotSetText": "If you're struggling to stick to your habits, get a housemate/partner to set a password. You won't be able to skip habits without the password. (This is different from your login Password)",
+        "passwordNotSetText": "If you're struggling to stick to your habits, get a housemate/partner to set a password. You won't be able to skip habits without the password.",
         "passwordSetText": "Extra accountability: you have an active password set and can't skip your habits without getting a friend to enter the password.",
         "passwordBlankAlertTitle": "Password cannot be blank.",
         "passwordBlankAlertSubTitle": "Please enter a valid password.",
@@ -1151,7 +1152,7 @@
         "buttonCopyPasswordText": "Copy",
         "explainCreateAccountText": "Create an account to sync your habit + block settings across all your devices.",
         "tooltipShowPassword": "Show Password",
-        "tooltipHidePassword": "Hide Password",
+		"tooltipHidePassword": "Hide Password",
         "passwordGenerateText": "We generated a password for you"
     },
     "loginHelpVcInfo": {
@@ -2462,7 +2463,8 @@
         "shutoffAbortedText": "Shutoff aborted. Your computer is now accessible again.",
         "nextRoutineText": "Great job staying on track! Your next scheduled routine (<ROUTINE>) is set for <TIME>. Be ready to jump back in and continue building those healthy habits. You've got this!",
         "buttonBeginCustomRoutine": "Begin On-Demand Routine",
-        "titleEveningRoutine": "Evening Routine"
+        "titleEveningRoutine": "Evening Routine",
+        "titleAppDisabled": "Distraction Blocking is currently paused. You can turn it back on anytime to stay focused."
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Enable Breaks",
