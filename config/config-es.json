@@ -571,7 +571,7 @@
         "checkBoxTabLimiterText": "Evita que el usuario abra más pestañas del navegador",
         "alertTabCountText": "El número de pestañas no puede ser 0",
         "titleFullScreen": "Vista de Pantalla Completa:",
-        "checkBoxFullScreenEnabledText": "Reproducir actividades en modo pantalla completa",
+    	"checkBoxFullScreenEnabledText": "Reproducir hábitos en modo pantalla completa",
         "titleDarkMode": "Modo Oscuro:",
         "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro"],
         "titleAnnouncement": "Anuncio:",
@@ -1153,7 +1153,8 @@
         "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos.",
         "tooltipShowPassword": "Mostrar Contraseña",
 		"tooltipHidePassword": "Ocultar Contraseña",
-        "passwordGenerateText": "Hemos generado una contraseña para ti"
+        "passwordGenerateText": "Hemos generado una contraseña para ti",
+        "makeSureSaveText": "Asegúrate de guardarla en un lugar seguro"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puedes iniciar sesión o registrarte. Si no la ves, intenta abrir Safari manualmente. Si aún no puedes verla:",

@@ -562,7 +562,7 @@
         "checkBoxTabLimiterText": "Prevent user from opening more browser tabs",
         "alertTabCountText": "Tab count can not be 0.",
         "titleFullScreen": "Full Screen View:",
-        "checkBoxFullScreenEnabledText": "Play activities in full screen mode",
+    	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
         "titleDarkMode": "Dark Mode:",
         "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode"],
         "titleAnnouncement": "Announcement:",
@@ -1153,7 +1153,8 @@
         "explainCreateAccountText": "Create an account to sync your habit + block settings across all your devices.",
         "tooltipShowPassword": "Show Password",
 		"tooltipHidePassword": "Hide Password",
-        "passwordGenerateText": "We generated a password for you"
+        "passwordGenerateText": "We generated a password for you",
+        "makeSureSaveText": "Make sure you save it somewhere safe"
     },
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
