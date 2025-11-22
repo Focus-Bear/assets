@@ -927,7 +927,8 @@
         "tabViewRandomCharactersTitle": "Escribir caracteres aleatorios",
         "titleRandomCharacters": "Por favor, escribe <NUMBER> caracteres aleatorios para continuar",
         "incorrectCharactersErrorTitle": "Los caracteres introducidos no coinciden con el número de caracteres requerido. Por favor, inténtalo de nuevo.",
-        "titleEnterCharacters": "Para desbloquear tu máquina sin contraseña, introduce estos caracteres. Dijiste que querías que fuera difícil usar tu ordenador impulsivamente 😅"
+        "titleEnterCharacters": "Para desbloquear tu máquina sin contraseña, introduce estos caracteres. Dijiste que querías que fuera difícil usar tu ordenador impulsivamente 😅",
+        "tabViewAccountabilityBuddyTitle": "Compañer@ de responsabilidad"
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Configurar la contraseña",
@@ -2568,6 +2569,20 @@
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausando horario personalizado - <SCHEDULE>",
         "buttonAbortFocus": "Pausar horario personalizado"
+    },
+    "accountabilityBuddyInfo":{
+        "titleNoBuddyFound": "Sin compañer@ para solicitudes de desbloqueo",
+        "subTitleNoBuddyFound": "Necesitas un compañer@ de responsabilidad para crear solicitudes de desbloqueo.",
+        "buttonAddBuddy": "Agregar nuev@ compañer@",
+        "buttonRefreshBuddiesList": "Actualizar",
+        "titleCreateRequest": "Crear solicitud de desbloqueo",
+        "titleRequestTo": "Solicitando desbloqueo de",
+        "reasonTitle": "Motivo (opcional)",
+        "unlockDurationTitle": "Duración del desbloqueo (opcional)",
+        "durationRange": "Mín: 1 minuto • Máx: 24 horas (1440 minutos)",
+        "buttonCreateRequest": "Crear solicitud",
+        "buttonRefreshStatus": "Actualizar estado de la solicitud de desbloqueo",
+        "placeHolderString": "Explica por qué necesitas este desbloqueo...."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",

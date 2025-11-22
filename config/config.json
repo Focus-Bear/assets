@@ -927,7 +927,8 @@
         "tabViewRandomCharactersTitle": "Type random characters",
         "titleRandomCharacters": "Please type <NUMBER> random characters to continue",
         "incorrectCharactersErrorTitle": "Entered characters does not match the required number of characters. Please try again.",
-        "titleEnterCharacters": "To unlock your machine without a password, enter these characters. You said you wanted it to be hard to use your computer impulsively 😅"
+        "titleEnterCharacters": "To unlock your machine without a password, enter these characters. You said you wanted it to be hard to use your computer impulsively 😅",
+        "tabViewAccountabilityBuddyTitle": "Accountability Buddy"
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Set Password",
@@ -2568,6 +2569,20 @@
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausing Custom schedule - <SCHEDULE>",
         "buttonAbortFocus": "Pause Custom Schedule"
+    },
+    "accountabilityBuddyInfo":{
+        "titleNoBuddyFound": "No buddy for unlock requests",
+        "subTitleNoBuddyFound": "You need an accountability buddy to create unlock requests.",
+        "buttonAddBuddy": "Add a new Buddy",
+        "buttonRefreshBuddiesList": "Refresh",
+        "titleCreateRequest": "Create Unlock Request",
+        "titleRequestTo": "Requesting unlock from",
+        "reasonTitle": "Reason (optional)",
+        "unlockDurationTitle": "Unlock Duration (optional)",
+        "durationRange": "Min: 1 minutes • Max: 24 hours (1440 minutes)",
+        "buttonCreateRequest": "Create Request",
+        "buttonRefreshStatus": "Refresh Unlock Request's Status",
+        "placeHolderString": "Explain why you need this unlock...."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
