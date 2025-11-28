@@ -79,7 +79,10 @@
         "questionHowMotivatedText": "¿Cuán motivado te sientes para hacer tus hábitos?",
         "startCustomRoutineTitleText": "¡Tu rutina personalizada te está esperando! Da un paso a la vez y saca el máximo partido a tu día.",
         "menuItemCustomRoutineText": "Cambiar a otra rutina - <ROUTINE>",
-        "canNotDoCustomRoutineText": "No puedes realizar esta rutina en este momento porque no es la hora programada o ya la completaste."
+        "canNotDoCustomRoutineText": "No puedes realizar esta rutina en este momento porque no es la hora programada o ya la completaste.",
+        "actionBarItemPlay": "Reproducir",
+        "actionBarItemDone": "Hecho",
+        "actionBarItemSkip": "Saltar"
     },
     "common": {
         "emailId": "support@focusbear.io",
@@ -383,7 +386,8 @@
         "tourSubTitleNextGoal": "Establece tu objetivo de enfoque para la próxima sesión",
         "focusModeFocusedTitles": ["¡Lo lograste!", "¡Estuviste en tu zona!", "¡Trabajo profundo logrado!"],
         "focusModeDecentTitles": ["Nada mal", "Sesión decente"],
-        "focusModeDistractedTitles": ["Se colaron algunas distracciones", "Concéntrate al máximo en la próxima sesión"]
+        "focusModeDistractedTitles": ["Se colaron algunas distracciones", "Concéntrate al máximo en la próxima sesión"],
+        "buttonContinueMicroBreak": "Continuar descanso"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -396,13 +400,14 @@
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
         "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzado haz clic en \"Avanzado\"para ver o editar la configuración JSON",
-        "settingIsValidText": "¡Guardado! Reiniciando la aplicación ahora.",
+        "settingIsValidText": "¡Guardado! Reiniciando la app para que tu nuevo horario de hábitos funcione.",
         "settingsEditedButNotSavedText": "Has hecho cambios en tus hábitos/descansos pero aún no los has guardado. Se recomienda revisar y guardar los cambios (la aplicación se reiniciará)",
         "buttonReviewSettingsText": "Revisaré y Guardaré",
         "downloadReportText": "Visita el panel de control de Focus Bear en tu navegador web para descargar el informe.",
         "buttonVisitDashboardText": "Haz clic aquí para visitar el panel de control",
-        "tokenErrorText": "¡Sesión expirada! Por favor, inicia sesión de nuevo.",
-        "settingUrlNew": "https://dashboard.focusbear.io"
+        "tokenErrorText": "Sesión expirada. Por favor, inicia sesión de nuevo.",
+        "settingUrlNew": "https://dashboard.focusbear.io",
+        "buttonRestartNow": "Reiniciar ahora"
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -571,7 +576,7 @@
         "checkBoxTabLimiterText": "Evita que el usuario abra más pestañas del navegador",
         "alertTabCountText": "El número de pestañas no puede ser 0",
         "titleFullScreen": "Vista de Pantalla Completa:",
-        "checkBoxFullScreenEnabledText": "Reproducir actividades en modo pantalla completa",
+    	"checkBoxFullScreenEnabledText": "Reproducir hábitos en modo pantalla completa",
         "titleDarkMode": "Modo Oscuro:",
         "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro"],
         "titleAnnouncement": "Anuncio:",
@@ -669,7 +674,10 @@
         "buttonBackToCustomBlocking": "Volver al horario de bloqueo",
         "buttonAddBlockListText": "Agregar lista de bloqueos",
         "titleBlockList": "Usa listas de bloqueos para mantenerte enfocado en un tipo de trabajo.",
-        "descriptionForCustomBlocking": "Cuando uses esta lista de bloqueos, todos los sitios web estarán permitidos excepto tus URLs siempre bloqueadas."
+        "descriptionForCustomBlocking": "Cuando uses esta lista de bloqueos, todos los sitios web estarán permitidos excepto tus URLs siempre bloqueadas.",
+        "alertScheduleUsingFocusMode": "No puedes eliminar este modo de enfoque porque está asignado actualmente al horario de bloqueo \"<SCHEDULE>\". Por favor, edita ese horario primero y elige un modo de enfoque diferente.",
+        "buttonEditBlockingSchedule": "Editar horario de bloqueo",
+        "titleUseBlockList": "Usa las listas de bloqueo para mantenerte concentrad@ en un tipo de trabajo. Inicia una sesión de enfoque desde el menú de Focus Bear o configura un horario de bloqueo."
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -894,7 +902,9 @@
         "pomodoroModeDurationText": "Duración del enfoque:",
         "unpinWindowText": "Haz clic para desanclar la ventana (desactivar siempre encima)",
         "pinWindowText": "Haz clic para anclar la ventana (mantener encima)",
-        "titleAfterPostpone": "¿Qué quieres hacer en lugar de tus hábitos?"
+        "titleAfterPostpone": "¿Qué quieres hacer en lugar de tus hábitos?",
+        "buttonEditBlockListsText": "Editar listas de bloqueo",
+        "titleSelectBlockList": "¿Qué lista de bloqueo quieres usar?"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -919,7 +929,8 @@
         "tabViewRandomCharactersTitle": "Escribir caracteres aleatorios",
         "titleRandomCharacters": "Por favor, escribe <NUMBER> caracteres aleatorios para continuar",
         "incorrectCharactersErrorTitle": "Los caracteres introducidos no coinciden con el número de caracteres requerido. Por favor, inténtalo de nuevo.",
-        "titleEnterCharacters": "Para desbloquear tu máquina sin contraseña, introduce estos caracteres. Dijiste que querías que fuera difícil usar tu ordenador impulsivamente 😅"
+        "titleEnterCharacters": "Para desbloquear tu máquina sin contraseña, introduce estos caracteres. Dijiste que querías que fuera difícil usar tu ordenador impulsivamente 😅",
+        "tabViewAccountabilityBuddyTitle": "Compañer@ de responsabilidad"
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Configurar la contraseña",
@@ -1153,7 +1164,8 @@
         "explainCreateAccountText": "Crea una cuenta para sincronizar tu configuración de hábitos + bloqueos en todos tus dispositivos.",
         "tooltipShowPassword": "Mostrar Contraseña",
 		"tooltipHidePassword": "Ocultar Contraseña",
-        "passwordGenerateText": "Hemos generado una contraseña para ti"
+        "passwordGenerateText": "Hemos generado una contraseña para ti",
+        "makeSureSaveText": "Asegúrate de guardarla en un lugar seguro"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puedes iniciar sesión o registrarte. Si no la ves, intenta abrir Safari manualmente. Si aún no puedes verla:",
@@ -1363,7 +1375,7 @@
         "buttonAllowDomainText": "Permitir todas las URL de <DOMAIN> para esta sesión de enfoque",
         "waitingAiText": "Esperando la decisión IA...",
         "aiRelevanceScoreText": "Puntuación de relevancia IA para este sitio: <SCORE>%",
-        "stillDistractingTitle": "IA sigue pensando que este sitio es distractor",
+        "stillDistractingTitle": "Focus Bear sigue pensando que este sitio es una distracción",
         "stillDistractingDescription": "La IA de Focus Bear sigue pensando que <URL> no es relevante para lo que intentas conseguir. ¿Estás seguro que lo necesitas?",
         "convinceAiTitle": "Convence a la IA de por qué es necesario",
         "convinceAiDescription": "Dar más información a la IA para explicar por qué necesitas usar este sitio",
@@ -1372,7 +1384,7 @@
         "buttonSetIntentionText": "Acceso temporal",
         "aiRelevanceScoreAppText": "Puntaje de relevancia de IA para esta app: <SCORE>%",
         "appNotVerifiedText": "No se pudo verificar el estado de esta app.",
-        "appStillDistractingTitle": "La IA sigue considerando que esta app es una distracción.",
+        "appStillDistractingTitle": "Focus Bear sigue pensando que esta app es una distracción",
         "appConvinceAiDescription": "Dale más información a la IA para explicar por qué necesitas usar esta app",
         "selectMinutesForAppText": "Selecciona los minutos para usar esta app",
         "distractingForCurrentTaskDescription": "La IA de Focus Bear sigue considerando que <URL> no es relevante para tu tarea actual \"<TASK>\". ¿Estás segur@ de que la necesitas?",
@@ -1522,7 +1534,9 @@
             "Escribiendo un script que genera contraseñas aleatorias que sólo consisten en emojis",
             "Diseñando una interfaz de usuario para un monociclo autoconducido"],
         "subTitleMeetings": "Te concentrarás mejor en la reunión después de este descanso. Anota cualquier pensamiento rápido para no olvidarlo.",
-        "lastWorkText": "Tenía <WORK> abierto. Estaba a punto de..."
+        "lastWorkText": "Tenía <WORK> abierto. Estaba a punto de...",
+        "titleSelectTask": "Antes de empezar tu micro-pausa, ¿en qué tarea estás trabajando ahora? Te la recordaré cuando vuelvas.",
+        "titleCurrentTask": "Tarea actual:"
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Hora de inicio:",
@@ -1576,7 +1590,10 @@
         "alertOpenPreferencesText": "No se puede obtener la URL de <APPNAME>. Por favor, revisa los permisos. ¿Quiere Abrir Preferencias del Sistema -> Privacidad y Seguridad y comprobar si <APPNAME> puede ser accedido por Focus Bear bajo Automatización?",
         "alertOpenPreferencesLatestOsText": "No se puede obtener la URL de <APPNAME>. Por favor, revisa los permisos. ¿Quiere abrir Preferencias del Sistema -> Seguridad y Privacidad > Privacidad y comprobar si <APPNAME> puede ser accedido por Focus Bear bajo Automatización?",
         "buttonLearnMoreText": "Más información",
-        "permissionNotGrantedText": "No has otorgado permiso a ningún navegador, lo que podría causar problemas de bloqueo. ¿Quieres continuar sin dar permiso?"
+        "permissionNotGrantedText": "No has otorgado permiso a ningún navegador, lo que podría causar problemas de bloqueo. ¿Quieres continuar sin dar permiso?",
+        "descriptionFirefoxExtensiont": "Instala la extensión Focus Bear Blocker en Firefox.",
+        "buttonAddFirefoxExtensiont": "Agregar extensión de Firefox",
+        "toolTipFirefoxExtensiont": "Firefox no puede detectar en qué sitio estás a menos que instales la extensión Focus Bear. Perdón por el paso extra; otros navegadores no lo requieren."
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacidad y Seguridad",
@@ -1837,7 +1854,8 @@
         "buttonDownloadTimeTrackerText": "Descargar Ahora",
          "blockingScheduleSettingTitle": "Horario de Bloqueo",
         "buttonReleaseNotesText": "Notas de Publicación",
-        "researchSettingTitle": "Investigación"
+        "researchSettingTitle": "Investigación",
+        "titleBlockLists": "Listas de bloqueo"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -1921,7 +1939,10 @@
         "titleWhatsAppGroup": "¡Únete al grupo de WhatsApp de Focus Bear para intercambiar ideas, organizar sesiones de trabajo colaborativo/acompañamiento y recibir apoyo con la app!",
         "buttonJoinWhatsAppGroupText": "Unirse al grupo de WhatsApp",
         "tabGetSupport": "Obtener Ayuda",
-        "titleAddScreenshots": "Arrastra y suelta aquí las capturas de pantalla que quieras compartir"
+        "titleAddScreenshots": "Arrastra y suelta aquí las capturas de pantalla que quieras compartir",
+        "buttonSelectScreenshots": "Seleccionar capturas de pantalla",
+        "titleSelectScreenshots": "Elige una o más capturas de pantalla que quieras compartir.",
+        "buttonSelect": "Seleccionar"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -2003,7 +2024,9 @@
         "breaks_EnableBreaks": "Permitir hacer pausas a intervalos regulares. Las pausas favorecen la productividad, niveles de energía y capacidad de concentración.",
         "strictness_Password_CircumventingBlocks": "Algunos ajustes como \"Show Dock Icon\" y \"Restart after force quit\" pueden reducir la rigurosidad de bloqueo. Si marcas esta casilla, te pedirá una contraseña si la configuración se cambia a la versión menos estricta.",
         "ui_EnablePopoverMenu": "Activa esta opción para mostrar el menú Focus Bear como una ventana emergente.",
-        "breaks_NaturalBreaks": "Te avisa cuando se detecta una pausa natural tras estar inactivo por más de 10 minutos, ayudándote a mantener el enfoque y la productividad."
+        "breaks_NaturalBreaks": "Te avisa cuando se detecta una pausa natural tras estar inactivo por más de 10 minutos, ayudándote a mantener el enfoque y la productividad.",
+        "strictness_Block_Lists": "Usa las listas de bloqueo para mantenerte enfocad@ en un tipo de trabajo. Inicia una sesión de enfoque desde el menú de Focus Bear o crea un horario de bloqueo.",
+        "strictness_Blocking_Schedules": "Crea tus propios horarios para bloquear distracciones automáticamente. Elige los días y horas en que quieres que se bloqueen las distracciones. Mantente enfocad@ sin tener que activar el bloqueo manualmente."
     },
     "chooseHabitsVCInfo": {
         "title": "Elegir Hábitos:",
@@ -2464,7 +2487,9 @@
         "nextRoutineText": "¡Buen trabajo manteniéndote en camino! Tu próxima rutina programada (<ROUTINE>) está fijada para <TIME>. Prepárate para retomarla y seguir construyendo esos hábitos saludables. ¡Tú puedes!",
         "buttonBeginCustomRoutine": "Iniciar rutina bajo demanda",
         "titleEveningRoutine": "Rutina nocturna",
-        "titleAppDisabled": "El bloqueo de distracciones está en pausa. Puedes volver a activarlo en cualquier momento para mantenerte enfocado."
+        "titleAppDisabled": "El bloqueo de distracciones está en pausa. Puedes volver a activarlo en cualquier momento para mantenerte enfocado.",
+        "freeTimeText": "¡Bien hecho! Tienes tiempo libre hasta las <CUTOFFTIME>.",
+        "buttonChangeTiming": "Cambiar horario"
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Activar descansos",
@@ -2490,7 +2515,7 @@
         "menuBrainDump": "Volcado de ideas",
         "menuFocusMusic": "Música de enfoque",
         "menuFocusPreferences": "Enfoque",
-        "menuBlocksPreferences": "Bloqueos",
+        "menuBlocksPreferences": "Bloqueo",
         "menuSettings": "Ajustes",
         "menuEditHabits": "Editar hábitos",
         "menuMotivation": "Motivación",
@@ -2541,11 +2566,30 @@
         "alertSelectDay": "Por favor, selecciona al menos un día para este horario.",
         "alertScheduleActive": "El horario está activo",
         "descriptionScheduleActive": "Este horario se está ejecutando actualmente. ¿Seguro que quieres eliminarlo? El bloqueo se detendrá de inmediato.",
-        "buttonAddNewBlock": "Agregar nuevo bloqueo"
+        "buttonAddNewBlock": "Agregar nuevo bloqueo",
+        "errorBlockListMissing": "Actualizar lista de bloqueo ⚠️",
+        "alertSelectBlockList": "Por favor, selecciona una lista de bloqueo.",
+        "titleScheduleOverlapAlert": "Se detectó un solapamiento de horarios.",
+        "subTitleScheduleOverlapAlert": "El horario de bloqueo se superpone con uno existente. ¿Quieres guardarlo de todos modos?",
+        "buttonSaveBlockAnyway": "Guardar de todos modos"
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausando horario personalizado - <SCHEDULE>",
         "buttonAbortFocus": "Pausar horario personalizado"
+    },
+    "accountabilityBuddyInfo":{
+        "titleNoBuddyFound": "Sin compañer@ para solicitudes de desbloqueo",
+        "subTitleNoBuddyFound": "Necesitas un compañer@ de responsabilidad para crear solicitudes de desbloqueo.",
+        "buttonAddBuddy": "Agregar nuev@ compañer@",
+        "buttonRefreshBuddiesList": "Actualizar",
+        "titleCreateRequest": "Crear solicitud de desbloqueo",
+        "titleRequestTo": "Solicitando desbloqueo de",
+        "reasonTitle": "Motivo (opcional)",
+        "unlockDurationTitle": "Duración del desbloqueo (opcional)",
+        "durationRange": "Mín: 1 minuto • Máx: 24 horas (1440 minutos)",
+        "buttonCreateRequest": "Crear solicitud",
+        "buttonRefreshStatus": "Actualizar estado de la solicitud de desbloqueo",
+        "placeHolderString": "Explica por qué necesitas este desbloqueo...."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
