@@ -1174,7 +1174,7 @@
         "buttonCopyPasswordText": "Copiar",
         "explainCreateAccountText": "Crea una cuenta para sincronizar tus ajustes en todos tus dispositivos.",
         "tooltipShowPassword": "Mostrar Contraseña",
-		"tooltipHidePassword": "Ocultar Contraseña",
+		    "tooltipHidePassword": "Ocultar Contraseña",
         "passwordGenerateText": "Hemos generado una contraseña para ti",
         "makeSureSaveText": "Asegúrate de guardarla en un lugar seguro",
         "orText": "O",
