@@ -499,7 +499,8 @@
         "statePaused": "Paused",
         "buttonAddBlockingSchedule": "Add blocking schedule",
         "addBlockingScheduleInfo": "Blocking is off because no custom blocking schedules have been added.",
-        "titleBlockingSchedule": "Blocking Schedule"
+        "titleBlockingSchedule": "Blocking Schedule",
+        "buttonEditFocusModeDuration": "Click here to update duration, intention and current task"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -728,7 +729,7 @@
             "titleStrictnessLevel": "Strictness level:",
             "strictnessSuperStrictClickedText": "I understand I cannot stop this focus session until it ends. I am committed to avoiding distractions and getting a ton of work done.",
             "warningDefaultFocusMode": "Heads up: this will not use AI blocking. Focus Bear will only block the sites in your super distracting sites list",
-            "strictnessSuperStrictClickedNewText": "I understand I cannot stop this focus session without a password. I am committed to avoiding distractions and getting a ton of work done."
+            "strictnessSuperStrictClickedNewText": "I understand I cannot stop this focus session. I am committed to avoiding distractions and getting a ton of work done."
         },
         "abortingFocusModeInfo": {
             "title": "Deactivating Focus Block - <FOCUSTYPE>",
@@ -1029,7 +1030,11 @@
         "linkSentTitle": "Reset Link Sent",
         "linkSentDescription": "We've sent a password reset link to your email. Please check your inbox.",
         "linkSendFailedTitle": "Unable to Send Reset Email",
-        "linkSendFailedDescription": "Something went wrong while sending the reset link. Please check your internet connection and try again."
+        "linkSendFailedDescription": "Something went wrong while sending the reset link. Please check your internet connection and try again.",
+        "subscriptionDetails": "Subscription Details",
+        "status": "Status:",
+        "emailNotVerified": "Email not Verified",
+        "buttonResendConfirmation": "Resend Confirmation Email"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
@@ -1068,7 +1073,7 @@
         "buttonOwnUrlBrainDumpText": "Use your own system for brain dump"
     },
     "askLogInVcInfo": {
-        "title": "Create an account to sync your blocked app list and other settings to all your devices.",
+        "title": "Create an account to sync your settings to all your devices.",
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up",
@@ -1077,7 +1082,13 @@
         "buttonSignInGoogleText": "Sign In with Google",
         "buttonSignInAppleText": "Sign In with Apple",
         "loginComingSoonTitle": "Coming Soon - for now register again with a password to link your existing account.",
-        "loginComingSoonDescription": "We don't have support for single sign on yet on desktop. If you've already registered for an account via Google/Apple on mobile, you'll need to register again with an email and password and it will link to the existing account you have."
+        "loginComingSoonDescription": "We don't have support for single sign on yet on desktop. If you've already registered for an account via Google/Apple on mobile, you'll need to register again with an email and password and it will link to the existing account you have.",
+        "buttonSignUpWithGoogle": "Sign Up with Google",
+        "buttonSignUpWithApple": "Sign Up with Apple",
+        "buttonSignUpWithEmail": "Sign Up with email",
+        "buttonSignInOldAccountText": "Already have a Focus Bear account? Sign In",
+        "buttonCreateAccount": "Create Your Account",
+        "orText": "OR"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Personalized habit routines",
@@ -1111,7 +1122,7 @@
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText": "A bit later please",
         "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022-2025 Focus Bear All Rights Reserved.",
+        "allRightsReservedText": "© 2022-2026 Focus Bear All Rights Reserved.",
         "confirmText": "Double checking that you have 2 minutes now.",
         "buttonConfirmLetsDoItText": "Yes, I have 2 minutes",
         "buttonNeedMoreTimeText": "Not Now",
@@ -1161,11 +1172,17 @@
         "tooltipCopyPassword": "Copy password",
         "checkBoxPasswordSavedText": "I saved the password somewhere safe",
         "buttonCopyPasswordText": "Copy",
-        "explainCreateAccountText": "Create an account to sync your habit + block settings across all your devices.",
+        "explainCreateAccountText": "Create an account to sync your settings across all your devices.",
         "tooltipShowPassword": "Show Password",
-		"tooltipHidePassword": "Hide Password",
+		    "tooltipHidePassword": "Hide Password",
         "passwordGenerateText": "We generated a password for you",
-        "makeSureSaveText": "Make sure you save it somewhere safe"
+        "makeSureSaveText": "Make sure you save it somewhere safe",
+        "orText": "OR",
+        "titleSignInAccount": "Already have an account?",
+        "buttonContinueWithGoogle": "Continue with Google",
+        "buttonContinueWithApple": "Continue with Apple",
+        "titleDontHaveAccount": "Don't have an account?",
+        "subTitleSignIn": "Sign In with a Focus Bear account"
     },
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
@@ -1341,7 +1358,10 @@
         "gladText": "Glad you're as passionate about building routines as we are!",
         "selectGoalsText": "Select all that apply",
         "titleActivateFeatures": "Activate features",
-        "subTitleActivateFeatures": "We'll do our best to help you achieve your goals 🤩 Which Focus Bear features do you want to activate?"
+        "subTitleActivateFeatures": "We'll do our best to help you achieve your goals 🤩 Which Focus Bear features do you want to activate?",
+        "titleSetHabits": "Do you want to set up habits now? (takes 5 minutes)",
+        "buttonDoItLater": "Uhh I’ll do it later",
+        "buttonSetHabits": "Yup! Habits are my middle name"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -1841,7 +1861,7 @@
         "lateNoMoreAlreadyInstalledText": "Late No More already installed",
         "descriptionGetLateNoMore": "Late No More gives notifications that escalate in intensity as it gets closer to the meetings start time. If you ignore the popups, you'll get verbal alerts (or a song).",
         "permissionsSettingTitle": "Permissions",
-        "descriptionPermissions": "System-wide access is essential for Focus Bear to effectively prevent distractions in web browsers. The following outlines the current permission status for installed browsers.",
+        "descriptionPermissions": "To help you stay focused, Focus Bear needs permission to work with your web browsers. This lets the app gently keep distractions at bay while you're in the zone.",
         "titleStrictnessLevel": "Strictness level:",
         "titleSuperGentle": "Super gentle",
         "titleGentle": "Gentle",
@@ -2049,7 +2069,8 @@
     },
     "selectHabitsLaterInfo": {
         "title": "If you ever decide you want to activate habits in the future, you can open Preferences from the menu bar and click Edit Habits",
-        "buttonContinueText": "Continue"
+        "buttonContinueText": "Continue",
+        "titleNew": "If you ever decide to activate habits in the future, you can click Edit Habits in the left menu of the main window."
     },
     "createTaskVcInfo": {
         "title": "Focus Bear - Create New Task",
@@ -2087,7 +2108,8 @@
         "occupationOther": "Other",
         "occupationFreelancer": "Freelancer",
         "titleFreelancerType": "Type of work:",
-        "studentInfoText": "FYI your university might be able to pay for premium access to Focus Bear. Email support@focusbear.io for details."
+        "studentInfoText": "FYI your university might be able to pay for premium access to Focus Bear. Email support@focusbear.io for details.",
+        "titleBlockingProfile": "Create your distraction blocking profile"
     },
     "geekModeInfo": {
         "titleGeekMode": "🤓 Geek Mode",
@@ -2243,7 +2265,9 @@
         "toolTipStrictMode": "Adds a 15s countdown before you can pause/stop. Great for catching impulsive decisions.",
         "titleSuperStrictMode": "Iron Focus",
         "descriptionSuperStrictMode": "Once you start, you can't stop",
-        "toolTipSuperStrictMode": "Once you start, there’s no backing out. Best for deep, distraction-free sessions."
+        "toolTipSuperStrictMode": "Once you start, there’s no backing out. Best for deep, distraction-free sessions.",
+        "enterFirstTask": "What do you want to work on first?",
+        "toolTipFirstTask": "Add the first task you’ll work on in this focus session. Starting with a clear task helps you stay on track."
     },
     "achieveWithFocusBearVcInfo":{
         "title": "What would you like to improve in your life by using Focus Bear?",
@@ -2341,11 +2365,11 @@
         "title": "Grant permissions for distraction blocking",
         "subTitle": "Focus Bear needs system permissions to enable distraction blocking:",
         "pointAccessibilityPermission": "Accessibility permissions:",
-        "descriptionAccessibilityPermission": "needed for Firefox support and to block distractions while a browser is in full screen mode.",
+        "descriptionAccessibilityPermission": "Needed for Firefox support and to block distractions while a browser is in full screen mode.",
         "pointSystemEventPermission": "System events permission:",
-        "descriptionSystemEventPermission": "needed to blur out distractions",
+        "descriptionSystemEventPermission": "Needed to blur out distractions.",
         "pointBrowserPermission": "Browser specific permissions:",
-        "descriptionBrowserPermission": "needed to redirect the browser to the blocked page when you visit a distracting site",
+        "descriptionBrowserPermission": "Needed to redirect the browser to the blocked page when you visit a distracting site.",
         "infoBannerText": "Your privacy is preserved (more on the next screen)"
     },
     "webViewLoadFailedVcInfo":{
@@ -2459,7 +2483,10 @@
         "titleGoal": "Is your focus goal still: \"<GOAL>\"?",
         "buttonAppRelevantText": "Yes and this app is relevant",
         "buttonSiteRelevantText": "Yes and this site is relevant",
-        "buttonWorkingSomethingElseText": "No I'm working on something else now"
+        "buttonWorkingSomethingElseText": "No I'm working on something else now",
+        "buttonNoCurrentTaskAdded": "No current task - let me quickly enter one",
+        "buttonSetTask": "Set Task",
+        "titleSelectTask": "No current task, select a task to proceed."
     },
     "popUpAddNewFocusGoalVcInfo":{
         "title": "What's your new focus goal?",
@@ -2480,8 +2507,8 @@
         "taskNameString": "To work on: <URL>"
     },
     "habitsStateVcInfo":{
-        "morningRoutinePostponedText": "Morning routine postponed. Resume it now by clicking 'Resume Habit'.",
-        "eveningRoutinePostponedText": "Evening routine postponed. Resume it now by clicking 'Resume Habit'.",
+        "morningRoutinePostponedText": "Morning routine postponed. Resume it now by clicking 'Resume Habits'.",
+        "eveningRoutinePostponedText": "Evening routine postponed. Resume it now by clicking 'Resume Habits'.",
         "buttonResumeHabits": "Resume Habits",
         "shutoffAbortedText": "Shutoff aborted. Your computer is now accessible again.",
         "nextRoutineText": "Great job staying on track! Your next scheduled routine (<ROUTINE>) is set for <TIME>. Be ready to jump back in and continue building those healthy habits. You've got this!",
@@ -2489,7 +2516,8 @@
         "titleEveningRoutine": "Evening Routine",
         "titleAppDisabled": "Distraction Blocking is currently paused. You can turn it back on anytime to stay focused.",
         "freeTimeText": "Well done! You've got free time until <CUTOFFTIME>",
-        "buttonChangeTiming": "Change timing"
+        "buttonChangeTiming": "Change timing",
+        "resumeAfterCall": "Morning routine will resume after the call ends."
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Enable Breaks",
@@ -2497,7 +2525,8 @@
         "titleEnableBreaks": "Breaks are currently disabled. Enable taking breaks at regular intervals to boost your productivity, energy levels, and focus.",
         "pausedBreaksText": "You’ve paused breaks for today. They’ll be back tomorrow to help you recharge and focus.",
         "shutoffTimeText": "App is in shutoff state",
-        "noBreakScheduledText": "No upcoming break has been scheduled yet."
+        "noBreakScheduledText": "No upcoming break has been scheduled yet.",
+        "noBreakAddedText": "No break activities added yet."
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
@@ -2571,7 +2600,11 @@
         "alertSelectBlockList": "Please select block list.",
         "titleScheduleOverlapAlert": "Time Overlap Detected",
         "subTitleScheduleOverlapAlert": "This blocking schedule's time overlaps with an existing one. Do you want to save it anyway?",
-        "buttonSaveBlockAnyway": "Save Anyway"
+        "buttonSaveBlockAnyway": "Save Anyway",
+        "permissionsMessageText": "Allow permissions to block distracting websites and apps",
+        "permissionsInformativeText": "You will need to allow permissions to block distracting websites and distracting apps.",
+        "permissionsButtonGrantPermissions": "Grant permissions",
+        "permissionsButtonNo": "No thanks"
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausing Custom schedule - <SCHEDULE>",
@@ -2590,6 +2623,38 @@
         "buttonCreateRequest": "Create Request",
         "buttonRefreshStatus": "Refresh Unlock Request's Status",
         "placeHolderString": "Explain why you need this unlock...."
+    },
+    "focusStateVcInfo":{
+        "titleIntention": "Focus Goal:",
+        "titleTask": "Current task:",
+        "toolTipIncreaseDuration": "Increase duration by 1 minute",
+        "toolTipDecreaseDuration": "Decrease duration by 1 minute"
+    },
+    "enableAIBlockingVcInfo": {
+        "title": "Do you want to use AI to block distractions?",
+        "subTitle": "Focus Bear can use AI to detect if you’re getting distracted and guide you back on track.",
+        "headingFirstPoint": "Anonymous:",
+        "descriptionFirstPoint": "we don’t tell the AI who you are",
+        "headingSecondPoint": "Private:",
+        "descriptionSecondPoint": "we don’t track your website usage or let the AI provider train models based on your data",
+        "headingThirdPoint": "Opt out at any time:",
+        "descriptionThirdPoint": "you can stop using AI at any point",
+        "buttonNoThanks": "No thanks",
+        "buttonContinue": "Make me indistractible"
+    },
+    "confirmBlockingScheduleCreationVcInfo": {
+        "title": "Do you want to set up scheduled distraction blocking?",
+        "subTitle": "You can have distracting sites and apps blocked during work hours/at night",
+        "buttonNo": "No thanks",
+        "buttonYes": "Yes! Save my focus"
+    },
+    "createBlockingProfileVcInfo": {
+        "title": "Create your distraction blocking profile",
+        "subTitle": "Give the AI a little more context so it’s better at detecting distractions",
+        "headingFirst": "What type of sites are relevant for your work?",
+        "exampleFirst": "(Eg. Project management tools, Code repositories)",
+        "headingSecond": "What type of things are distracting?",
+        "exampleSecond": "(Eg. Social media, Video streaming)"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
