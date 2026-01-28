@@ -1174,7 +1174,7 @@
         "buttonCopyPasswordText": "Copy",
         "explainCreateAccountText": "Create an account to sync your settings across all your devices.",
         "tooltipShowPassword": "Show Password",
-		"tooltipHidePassword": "Hide Password",
+		    "tooltipHidePassword": "Hide Password",
         "passwordGenerateText": "We generated a password for you",
         "makeSureSaveText": "Make sure you save it somewhere safe",
         "orText": "OR",
