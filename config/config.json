@@ -84,6 +84,11 @@
         "actionBarItemDone": "Done",
         "actionBarItemSkip": "Skip"
     },
+    "focusProgressInfo": {
+        "pauseText": "Pause",
+        "resumeText": "Resume",
+        "endFocusSessionText": "End Session"
+    },
     "common": {
         "emailId": "support@focusbear.io",
         "unlockMachineButtonText": "Unlock the machine",
@@ -1088,7 +1093,8 @@
         "buttonSignUpWithEmail": "Sign Up with email",
         "buttonSignInOldAccountText": "Already have a Focus Bear account? Sign In",
         "buttonCreateAccount": "Create Your Account",
-        "orText": "OR"
+        "orText": "OR",
+        "continueInBrowser": "Continue in your browser"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Personalized habit routines",
@@ -1174,7 +1180,7 @@
         "buttonCopyPasswordText": "Copy",
         "explainCreateAccountText": "Create an account to sync your settings across all your devices.",
         "tooltipShowPassword": "Show Password",
-		    "tooltipHidePassword": "Hide Password",
+		"tooltipHidePassword": "Hide Password",
         "passwordGenerateText": "We generated a password for you",
         "makeSureSaveText": "Make sure you save it somewhere safe",
         "orText": "OR",
@@ -1948,6 +1954,7 @@
         "buttonContinueText": "Continue"
     },
     "helpVcInfo": {
+        "shareLogsValidationText": "Please describe the issue you’re experiencing so our developers can investigate it properly. Logs without context cannot be processed.",
         "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
         "buttonShareLogsText": "Share logs with Focus Bear Support Team",
         "placeHolderLogsFeedback": "What happened?",
@@ -2663,6 +2670,10 @@
         "exampleFirst": "(Eg. Project management tools, Code repositories)",
         "headingSecond": "What type of things are distracting?",
         "exampleSecond": "(Eg. Social media, Video streaming)"
+    },
+    "alwaysAllowedAppsViewInfo": {
+        "title": "Always Allowed Apps",
+        "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
