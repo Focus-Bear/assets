@@ -911,10 +911,8 @@
         "titleAfterPostpone": "¿Qué quieres hacer en lugar de tus hábitos?",
         "buttonEditBlockListsText": "Editar listas de bloqueo",
         "titleSelectBlockList": "¿Qué lista de bloqueo quieres usar?",
-        "strictBlockingActiveMessage": "Hay un horario de bloqueo activo. Deberás pausarlo para usar una lista de bloqueo diferente.",
-        "superStrictBlockingActiveMessage": "Hay un horario de bloqueo super estricto activo. Deberás pausarlo para usar una lista diferente.",
-        "simpleBlockingActiveMessage": "Hay un horario de bloqueo activo. Se usará su lista de bloqueo.",
-        "simpleSuperStrictBlockingActiveMessage": "El horario de bloqueo super estricto está activo. No puedes iniciar una sesión de enfoque ahora."
+        "superStrictBlockingActiveMessage": "Hay un horario de bloqueo super estricto activo. Deberás pausarlo para usar una lista de bloqueo diferente.",
+        "simpleSuperStrictBlockingActiveMessage": "Hay un horario de bloqueo super estricto activo. Deberas pausarlo para iniciar una sesion."
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
