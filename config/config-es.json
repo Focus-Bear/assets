@@ -494,7 +494,7 @@
         "toolTipPomodoroSessionText": "Inicia una sesión Pomodoro para trabajar en profundidad.",
         "menuItemResumeFocusTitle": "Reanudar Sesión de Enfoque",
         "menuItemPauseFocusTitle": "Pausar Sesión de Enfoque",
-        "menuItemBlockingDisabledTitle": "Bloqueo Limitado",
+        "menuItemBlockingDisabledTitle": "Bloqueo desactivado",
         "toolTipBlockingDisabled": "Bloqueo desactivado porque elegiste activar los bloqueos sólo durante las sesiones de enfoque.",
         "toolTipButtonEditBlockingSchedule": "Editar horario de bloqueo",
         "menuItemStartMorningHabitsFirstTimeTitle": "Iniciar rutina matutina",
@@ -515,7 +515,15 @@
         "buttonAddBlockingSchedule": "Agregar horario de bloqueo",
         "addBlockingScheduleInfo": "El bloqueo está desactivado porque no se han agregado horarios de bloqueo personalizados.",
         "titleBlockingSchedule": "Horario de bloqueo",
-        "buttonEditFocusModeDuration": "Haz clic aquí para actualizar la duración, la intención y la tarea actual"
+        "buttonEditFocusModeDuration": "Haz clic aquí para actualizar la duración, la intención y la tarea actual",
+        "buttonEnable": "Activar",
+        "microBreaksTurnedOff": "Las micro-pausas están actualmente desactivadas.",
+        "microBreaksDisabledForToday": "Las micro-pausas están deshabilitadas por hoy.",
+        "breaksDisabledFocusSessionRunning": "La sesión de enfoque está en curso. Descansos deshabilitados.",
+        "breaksDisabledSuperFocusSessionRunning": "La sesión de súper enfoque está en curso. Descansos deshabilitados.",
+        "breaksDisabledBlockingScheduleActive": "El horario de bloqueo está activo. Descansos deshabilitados.",
+        "breaksDisabledRoutinePostponed": "La rutina está pospuesta. Descansos deshabilitados.",
+        "breaksDisabledHabitInProgress": "Un hábito está en curso. Descansos deshabilitados."
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -1849,6 +1857,10 @@
         "addBrowserAlertText": "Lo sentimos, no puedes elegir aplicaciones de navegador aquí. En su lugar, pon los sitios web que te distraen en la sección URLs superdistractoras.",
         "subTitleTextNew": "¿En qué apps pierdes tiempo? Focus Bear te ayudará a usar estas apps de manera más intencional. Se bloquearán durante las sesiones de enfoque y los horarios de bloqueo."
     },
+    "alwaysAllowedAppsViewInfo": {
+        "title": "Aplicaciones Siempre Permitidas",
+        "subTitleText": "Las aplicaciones añadidas aquí nunca serán bloqueadas, independientemente del modo de enfoque, los horarios de bloqueo o la configuración de restricción. Usa esto para aplicaciones esenciales a las que siempre necesitas acceso."
+    },
     "settingsNew": {
         "uiSettingTitle": "IU",
         "accessibilitySettingTitle": "Accesibilidad",
@@ -2279,7 +2291,8 @@
         "descriptionSuperStrictMode": "Una vez que empiezas, no puedes parar.",
         "toolTipSuperStrictMode": "Una vez que empiezas, no hay marcha atrás. Ideal para sesiones profundas y sin distracciones.",
         "enterFirstTask": "¿En qué quieres trabajar primero?",
-        "toolTipFirstTask": "Agrega la primera tarea en la que trabajarás en esta sesión de enfoque. Empezar con una tarea clara te ayuda a mantenerte en el camino."
+        "toolTipFirstTask": "Agrega la primera tarea en la que trabajarás en esta sesión de enfoque. Empezar con una tarea clara te ayuda a mantenerte en el camino.",
+        "focusSettingsText": "Configuración de enfoque"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "¿Qué te gustaría mejorar en tu vida usando Focus Bear?",
@@ -2532,7 +2545,9 @@
         "buttonChangeTiming": "Cambiar horario",
         "resumeAfterCall": "La rutina matutina se reanudará después de que termine la llamada.",
         "setSleepTime": "No tienes configurado un horario de sueño.",
-        "buttonSetTiming": "Configurar horario"
+        "buttonSetTiming": "Configurar horario",
+        "shutoffAbortedTextNew": "Tu rutina matutina comienza a las <TIME> — es hora de desconectarte y descansar.",
+        "freeTimeTextNew": "¡Bien hecho al terminar tu rutina nocturna 👏Tu hora de dormir es a las <CUTOFFTIME>.\nTu próxima rutina matutina comienza a las <STARTTIME>.\nDescansa bien y recarga energías para empezar fuerte mañana 💪"
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Activar descansos",
