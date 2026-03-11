@@ -1446,7 +1446,8 @@
         "title": "Why do you want to skip?",
         "buttonAlreadyDidItText": "I already did it",
         "buttonCanNotDoItText": "Can't do it today",
-        "buttonSkipBreaksCompletely": "Skip micro break Completely"
+        "buttonSkipBreaksCompletely": "Skip micro break Completely",
+        "reasonPlaceholderText": "Optional: add a reason (e.g. feeling unwell)"
     },
     "habitSkipEasinessVcInfo": {
         "title": "Welcome to Focus Bear",

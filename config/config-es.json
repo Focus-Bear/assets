@@ -1446,7 +1446,8 @@
         "title": "¿Por que quieres omitir?",
         "buttonAlreadyDidItText": "Ya lo hice",
         "buttonCanNotDoItText": "No puedo hacerlo ahora",
-        "buttonSkipBreaksCompletely": "Saltar micro descanso Completamente"
+        "buttonSkipBreaksCompletely": "Saltar micro descanso Completamente",
+        "reasonPlaceholderText": "Opcional: agrega un motivo (ej. me siento mal)"
     },
     "habitSkipEasinessVcInfo": {
         "title": "Bienvenido a Focus Bear",
