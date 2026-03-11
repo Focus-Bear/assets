@@ -82,7 +82,8 @@
         "canNotDoCustomRoutineText": "You can't perform this routine right now because either it's not the scheduled time or you've already completed it.",
         "actionBarItemPlay": "Play",
         "actionBarItemDone": "Done",
-        "actionBarItemSkip": "Skip"
+        "actionBarItemSkip": "Skip",
+        "habitsRemovedWarningText": "Some habits which are past the cutoff time you set have been removed from the list."
     },
     "focusProgressInfo": {
         "pauseText": "Pause",
@@ -130,6 +131,7 @@
         "andText": "and",
         "tabAccountsText": "Account",
         "checkInternetText": "Unable to connect to server. Please check your internet connection.",
+        "customizingText": "Customizing Focus Bear per your needs. Please wait..",
         "uninstallingText": "Uninstalling..",
         "askUninstallReasonText": "Can you share why you're uninstalling?",
         "buttonSelectReasonText": "Select a reason",
@@ -214,7 +216,13 @@
         "unblockNotAvailableForFocusBlockedUrlText": "You can't unblock this site because it's currently listed under the blocked URLs for your focus session",
         "buttonEndFocusSessionText": "I'm done, End focus session",
         "syncErrorAlertText": "Failed to renew token. Please check your network or try again later. If you are definitely online and are getting this error, please contact support@focusbear.io",
-        "focusSessionPausedText": "Focus Session is paused."
+        "focusSessionPausedText": "Focus Session is paused.",
+        "trayIconTooltipText": "Focus Bear",
+        "trayIconBalloonText": "Focus Bear"
+    },
+    "callNotifier": {
+        "micUsageText": "is using your microphone",
+        "webcamUsageText": "is using your webcam"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -673,7 +681,8 @@
         "descriptionForCustomBlocking": "When you use this block list, all websites will be allowed except for your Always Blocked URLs",
         "alertScheduleUsingFocusMode": "You can’t delete this focus mode because it’s currently assigned to the blocking schedule \"<SCHEDULE>\". Please edit that schedule first and choose a different focus mode.",
         "buttonEditBlockingSchedule": "Edit blocking schedule",
-        "titleUseBlockList": "Use Block Lists to stay focused on a certain type of work. Start a focus session from the focus bear menu or use a blocking schedule."
+        "titleUseBlockList": "Use Block Lists to stay focused on a certain type of work. Start a focus session from the focus bear menu or use a blocking schedule.",
+        "deepWorkText": "Deep Work"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Run apple script before starting focus mode.",
@@ -696,6 +705,13 @@
         "titleBlockedApps": "Blocked Apps",
         "instructionBlockedApps": "The Apps here will be blocked during this focus mode. Useful if you want to allow some apps but block others. For example, you could have Safari as an allowed app but block Google Chrome",
         "focusAlignmentScoreTitle": "Show distracting site popup only when focus alignment score is less than"
+    },
+    "focusModesInfo": {
+        "normalText": "Normal",
+        "strictText": "Strict",
+        "superStrictText": "Super Strict",
+        "everydayText": "Everyday",
+        "updateBlockListText": "Update block list ⚠️"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "A focus mode is already running. Please deactivate the running focus mode to start a new one.",
@@ -869,7 +885,9 @@
             "buttonDisableText": "Disable meeting detection",
             "buttonGotItText": "Got it",
             "buttonCheckBoxText": "Don't show this again when I join meetings"
-        }
+        },
+        "musicDownloadFailedText": "Download failed or corrupted file.",
+        "musicDownloadIncompleteText": "Incomplete download. Retrying..."
     },
     "pomodoroInfo": {
         "title": "Focus time!",
@@ -1368,7 +1386,8 @@
         "subTitleActivateFeatures": "We'll do our best to help you achieve your goals 🤩 Which Focus Bear features do you want to activate?",
         "titleSetHabits": "Do you want to set up habits now? (takes 5 minutes)",
         "buttonDoItLater": "Uhh I’ll do it later",
-        "buttonSetHabits": "Yup! Habits are my middle name"
+        "buttonSetHabits": "Yup! Habits are my middle name",
+        "titleSetGoals": "Set your Goals and Preferences"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -2540,7 +2559,8 @@
         "pausedBreaksText": "You’ve paused breaks for today. They’ll be back tomorrow to help you recharge and focus.",
         "shutoffTimeText": "App is in shutoff state",
         "noBreakScheduledText": "No upcoming break has been scheduled yet.",
-        "noBreakAddedText": "No break activities added yet."
+        "noBreakAddedText": "No break activities added yet.",
+        "buttonChangeTiming": "Change Timing"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
@@ -2629,6 +2649,7 @@
         "subTitleNoBuddyFound": "You need an accountability buddy to create unlock requests.",
         "buttonAddBuddy": "Add a new Buddy",
         "buttonRefreshBuddiesList": "Refresh",
+        "noAcceptedBuddiesText": "No accepted accountability buddies available.",
         "titleCreateRequest": "Create Unlock Request",
         "titleRequestTo": "Requesting unlock from",
         "reasonTitle": "Reason (optional)",
