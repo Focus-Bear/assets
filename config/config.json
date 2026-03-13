@@ -1908,7 +1908,9 @@
         "buttonReleaseNotesText": "Release notes",
         "researchSettingTitle": "Research",
         "titleBlockLists": "Block Lists",
-        "tabLimitDescText": "Set the maximum number of browser tabs you want open at once. Focus Bear will alert you when you exceed this limit. Set to 0 to disable."
+        "tabLimitDescText": "Set the maximum number of browser tabs you want open at once. Focus Bear will alert you when you exceed this limit. Set to 0 to disable.",
+        "disableNotificationSoundsText": "Disable notification sounds",
+        "disableNotificationSoundsDescText": "When enabled, Focus Bear will not play any notification sounds (habit complete, routine start/end, focus mode). Focus music is not affected."
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",

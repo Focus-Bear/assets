@@ -1908,7 +1908,9 @@
         "buttonReleaseNotesText": "Notas de Publicación",
         "researchSettingTitle": "Investigación",
         "titleBlockLists": "Listas de bloqueo",
-        "tabLimitDescText": "Establece el número máximo de pestañas del navegador que quieres tener abiertas a la vez. Focus Bear te avisará cuando lo superes. Pon 0 para desactivarlo."
+        "tabLimitDescText": "Establece el número máximo de pestañas del navegador que quieres tener abiertas a la vez. Focus Bear te avisará cuando lo superes. Pon 0 para desactivarlo.",
+        "disableNotificationSoundsText": "Desactivar sonidos de notificaciones",
+        "disableNotificationSoundsDescText": "Cuando está activado, Focus Bear no reproducirá ningún sonido de notificación (hábito completado, inicio/fin de rutina, modo de enfoque). La música de enfoque no se ve afectada."
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
