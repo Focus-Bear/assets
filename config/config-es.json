@@ -1907,7 +1907,8 @@
          "blockingScheduleSettingTitle": "Horario de Bloqueo",
         "buttonReleaseNotesText": "Notas de Publicación",
         "researchSettingTitle": "Investigación",
-        "titleBlockLists": "Listas de bloqueo"
+        "titleBlockLists": "Listas de bloqueo",
+        "tabLimitDescText": "Establece el número máximo de pestañas del navegador que quieres tener abiertas a la vez. Focus Bear te avisará cuando lo superes. Pon 0 para desactivarlo."
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",

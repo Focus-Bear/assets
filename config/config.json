@@ -1907,7 +1907,8 @@
         "blockingScheduleSettingTitle": "Blocking Schedule",
         "buttonReleaseNotesText": "Release notes",
         "researchSettingTitle": "Research",
-        "titleBlockLists": "Block Lists"
+        "titleBlockLists": "Block Lists",
+        "tabLimitDescText": "Set the maximum number of browser tabs you want open at once. Focus Bear will alert you when you exceed this limit. Set to 0 to disable."
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
