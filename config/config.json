@@ -1352,7 +1352,9 @@
             }
         ],
         "buttonPostponeNewText": "Postpone",
-        "buttonSkipText": "Skip"
+        "buttonSkipText": "Skip",
+        "buttonExtendBreakText": "Extend break (+5 min)",
+        "buttonEndBreakText": "End break early"
     },
     "askAppWorkVcInfo": {
         "title": "Welcome to Focus Bear",
