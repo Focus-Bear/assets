@@ -208,6 +208,8 @@
         "taskPlayerWindowTitle": "Focus Bear - Lista de Tareas",
         "allowAllUrlsFromDomainText": "¿Deseas permitir todas las URL de <DOMAIN> para esta sesión de enfoque?",
         "buttonContinueText": "Continuar",
+        "warning": "Advertencia",
+        "editHabitsCloseWarningText": "Estás a punto de cerrar el menú Editar hábitos. Si realizaste algún cambio, por favor toca el botón \"Guardar hábitos\".",
         "tabBlocksText": "Bloques",
         "titleActivatingBlockingProgress": "Establecer bloqueo de distracciones",
         "titleSettingHabitsProgress": "Activar Funciones",
@@ -2593,7 +2595,8 @@
         "disableReasonFocusSummary": "Desactivado porque tu resumen de todo el día está visible.",
         "disableReasonShutoffTime": "Desactivado porque es tu hora de apagado.",
         "disableReasonMircoBreaks": "Desactivado porque tu micro descanso está en progreso.",
-        "disableReasonCustomRoutine": "Desactivado porque tu rutina personalizada está en progreso."
+        "disableReasonCustomRoutine": "Desactivado porque tu rutina personalizada está en progreso.",
+        "superStrictNeedPasswordText": "Estás en modo Super Estricto y no tienes contraseña configurada. Necesitarás establecer una contraseña para pausar este horario personalizado."
     },
     "browsersTabAuditVcInfo":{
         "title": "Auditoría de pestañas",
@@ -2660,7 +2663,10 @@
         "durationRange": "Mín: 1 minuto • Máx: 24 horas (1440 minutos)",
         "buttonCreateRequest": "Crear solicitud",
         "buttonRefreshStatus": "Actualizar estado de la solicitud de desbloqueo",
-        "placeHolderString": "Explica por qué necesitas este desbloqueo...."
+        "placeHolderString": "Explica por qué necesitas este desbloqueo....",
+        "pleaseWaitText": "Por favor espera a que tu compañer@ acepte la invitación antes de crear una solicitud de desbloqueo.",
+        "callBuddyText": "Te sugerimos que llames a tu compañer@ {0} y les pidas que te desbloqueen. Recibirán un correo con las instrucciones.",
+        "requestFailedText": "Error al crear la solicitud. Por favor, inténtalo más tarde."
     },
     "focusStateVcInfo":{
         "titleIntention": "Objetivo de enfoque:",

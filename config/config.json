@@ -208,6 +208,8 @@
         "taskPlayerWindowTitle": "Focus Bear - To Do Player",
         "allowAllUrlsFromDomainText": "Do you want to allow all URLs from <DOMAIN> for this focus session?",
         "buttonContinueText": "Continue",
+        "warning": "Warning",
+        "editHabitsCloseWarningText": "You are about to close the Edit habits menu. If you have made any changes, please tap the \"Save Habits\" button.",
         "tabBlocksText": "Blocks",
         "titleActivatingBlockingProgress": "Set up distraction blocking",
         "titleSettingHabitsProgress": "Activate Features",
@@ -2593,7 +2595,8 @@
         "disableReasonFocusSummary": "Disabled because your all-day summary is visible.",
         "disableReasonShutoffTime": "Disabled because it’s your shutoff time.",
         "disableReasonMircoBreaks": "Disabled because your micro break is in progress.",
-        "disableReasonCustomRoutine": "Disabled because your custom routine is in progress."
+        "disableReasonCustomRoutine": "Disabled because your custom routine is in progress.",
+        "superStrictNeedPasswordText": "You're running in Super Strict mode and no password is set. You will need to set a password to pause this custom schedule."
     },
     "browsersTabAuditVcInfo":{
         "title": "Tab Audit",
@@ -2660,7 +2663,10 @@
         "durationRange": "Min: 1 minutes • Max: 24 hours (1440 minutes)",
         "buttonCreateRequest": "Create Request",
         "buttonRefreshStatus": "Refresh Unlock Request's Status",
-        "placeHolderString": "Explain why you need this unlock...."
+        "placeHolderString": "Explain why you need this unlock....",
+        "pleaseWaitText": "Please wait for your buddy to accept the invitation before creating an unlock request.",
+        "callBuddyText": "We suggest you call your buddy {0} and ask them to unlock. They'll have an email with instructions.",
+        "requestFailedText": "Request Unlock Failed -  Please try again later"
     },
     "focusStateVcInfo":{
         "titleIntention": "Focus Goal:",
