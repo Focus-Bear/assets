@@ -932,7 +932,9 @@
         "buttonEditBlockListsText": "Editar listas de bloqueo",
         "titleSelectBlockList": "¿Qué lista de bloqueo quieres usar?",
         "superStrictBlockingActiveMessage": "Hay un horario de bloqueo super estricto activo. Deberás pausarlo para usar una lista de bloqueo diferente.",
-        "simpleSuperStrictBlockingActiveMessage": "Hay un horario de bloqueo super estricto activo. Deberas pausarlo para iniciar una sesion."
+        "simpleSuperStrictBlockingActiveMessage": "Hay un horario de bloqueo super estricto activo. Deberas pausarlo para iniciar una sesion.",
+        "selectedTasksTitle": "Tareas seleccionadas:",
+        "buttonShowFocusProgressText": "Mostrar estado de enfoque al finalizar la sesión"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -958,6 +960,7 @@
         "titleRandomCharacters": "Por favor, escribe <NUMBER> caracteres aleatorios para continuar",
         "incorrectCharactersErrorTitle": "Los caracteres introducidos no coinciden con el número de caracteres requerido. Por favor, inténtalo de nuevo.",
         "titleEnterCharacters": "Para desbloquear tu máquina sin contraseña, introduce estos caracteres. Dijiste que querías que fuera difícil usar tu ordenador impulsivamente 😅",
+        "tabPasswordTitle": "Contraseña",
         "tabViewAccountabilityBuddyTitle": "Compañer@ de responsabilidad"
     },
     "passwordPreferencesInfo": {
@@ -1912,7 +1915,8 @@
         "titleBlockLists": "Listas de bloqueo",
         "tabLimitDescText": "Establece el número máximo de pestañas del navegador que quieres tener abiertas a la vez. Focus Bear te avisará cuando lo superes. Pon 0 para desactivarlo.",
         "disableNotificationSoundsText": "Desactivar sonidos de notificaciones",
-        "disableNotificationSoundsDescText": "Cuando está activado, Focus Bear no reproducirá ningún sonido de notificación (hábito completado, inicio/fin de rutina, modo de enfoque). La música de enfoque no se ve afectada."
+        "disableNotificationSoundsDescText": "Cuando está activado, Focus Bear no reproducirá ningún sonido de notificación (hábito completado, inicio/fin de rutina, modo de enfoque). La música de enfoque no se ve afectada.",
+        "alwaysAllowedAppsTitle": "Aplicaciones siempre permitidas"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -2644,7 +2648,8 @@
         "permissionsMessageText": "Permite los permisos para bloquear sitios web y apps distractoras.",
         "permissionsInformativeText": "Necesitarás permitir los permisos para bloquear sitios web y apps distractoras.",
         "permissionsButtonGrantPermissions": "Conceder permisos",
-        "permissionsButtonNo": "No, gracias"
+        "permissionsButtonNo": "No, gracias",
+        "titleMissingBlockList": "Lista de bloqueo faltante"
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausando horario personalizado - <SCHEDULE>",
