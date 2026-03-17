@@ -494,7 +494,7 @@
         "toolTipPomodoroSessionText": "Start a Focus session to get deep work done.",
         "menuItemResumeFocusTitle": "Resume Focus Session",
         "menuItemPauseFocusTitle": "Pause Focus Session",
-        "menuItemBlockingDisabledTitle": "Limited blocking",
+        "menuItemBlockingDisabledTitle": "Blocking turned off",
         "toolTipBlockingDisabled": "Blocking disabled because you chose to only activate blocks during focus sessions.",
         "toolTipButtonEditBlockingSchedule": "Edit blocking schedule",
         "menuItemStartMorningHabitsFirstTimeTitle": "Start morning routine",
@@ -515,7 +515,15 @@
         "buttonAddBlockingSchedule": "Add blocking schedule",
         "addBlockingScheduleInfo": "Blocking is off because no custom blocking schedules have been added.",
         "titleBlockingSchedule": "Blocking Schedule",
-        "buttonEditFocusModeDuration": "Click here to update duration, intention and current task"
+        "buttonEditFocusModeDuration": "Click here to update duration, intention and current task",
+        "buttonEnable": "Enable",
+        "microBreaksTurnedOff": "Micro Breaks are currently turned off.",
+        "microBreaksDisabledForToday": "Micro Breaks are disabled for today.",
+        "breaksDisabledFocusSessionRunning": "Focus session is running. Breaks disabled.",
+        "breaksDisabledSuperFocusSessionRunning": "Super Focus session is running. Breaks disabled.",
+        "breaksDisabledBlockingScheduleActive": "Blocking schedule is active. Breaks disabled.",
+        "breaksDisabledRoutinePostponed": "Routine is postponed. Breaks disabled.",
+        "breaksDisabledHabitInProgress": "A habit is in progress. Breaks disabled."
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -1118,7 +1126,8 @@
         "buttonSignUpWithEmail": "Sign Up with email",
         "buttonSignInOldAccountText": "Already have a Focus Bear account? Sign In",
         "buttonCreateAccount": "Create Your Account",
-        "orText": "OR"
+        "orText": "OR",
+        "continueInBrowser": "Continue in your browser"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Personalized habit routines",
@@ -1204,7 +1213,7 @@
         "buttonCopyPasswordText": "Copy",
         "explainCreateAccountText": "Create an account to sync your settings across all your devices.",
         "tooltipShowPassword": "Show Password",
-		    "tooltipHidePassword": "Hide Password",
+		"tooltipHidePassword": "Hide Password",
         "passwordGenerateText": "We generated a password for you",
         "makeSureSaveText": "Make sure you save it somewhere safe",
         "orText": "OR",
@@ -1877,6 +1886,10 @@
         "addBrowserAlertText": "Sorry you can't choose browser apps here. Instead put distracting websites in the Super Distracting URLs section.",
         "subTitleTextNew": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions and blocking schedules."
     },
+    "alwaysAllowedAppsViewInfo": {
+        "title": "Always Allowed Apps",
+        "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
+    },
     "settingsNew": {
         "uiSettingTitle": "UI",
         "accessibilitySettingTitle": "Accessibility",
@@ -1986,6 +1999,7 @@
         "buttonContinueText": "Continue"
     },
     "helpVcInfo": {
+        "shareLogsValidationText": "Please describe the issue you’re experiencing so our developers can investigate it properly. Logs without context cannot be processed.",
         "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
         "buttonShareLogsText": "Share logs with Focus Bear Support Team",
         "placeHolderLogsFeedback": "What happened?",
@@ -2310,7 +2324,8 @@
         "descriptionSuperStrictMode": "Once you start, you can't stop",
         "toolTipSuperStrictMode": "Once you start, there’s no backing out. Best for deep, distraction-free sessions.",
         "enterFirstTask": "What do you want to work on first?",
-        "toolTipFirstTask": "Add the first task you’ll work on in this focus session. Starting with a clear task helps you stay on track."
+        "toolTipFirstTask": "Add the first task you’ll work on in this focus session. Starting with a clear task helps you stay on track.",
+        "focusSettingsText": "Focus Settings"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "What would you like to improve in your life by using Focus Bear?",
@@ -2561,7 +2576,12 @@
         "titleAppDisabled": "Distraction Blocking is currently paused. You can turn it back on anytime to stay focused.",
         "freeTimeText": "Well done! You've got free time until <CUTOFFTIME>",
         "buttonChangeTiming": "Change timing",
-        "resumeAfterCall": "Morning routine will resume after the call ends."
+        "resumeAfterCall": "Morning routine will resume after the call ends.",
+        "setSleepTime": "You do not have sleep time set.",
+        "buttonSetTiming": "Set timing",
+        "shutoffAbortedTextNew": "Your morning routine starts at <TIME> — time to log off and rest.",
+        "freeTimeTextNew": "Well done finishing your evening routine 👏\nYour sleep time is <CUTOFFTIME>.\nYour next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪"
+        
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Enable Breaks",
@@ -2706,6 +2726,10 @@
         "exampleFirst": "(Eg. Project management tools, Code repositories)",
         "headingSecond": "What type of things are distracting?",
         "exampleSecond": "(Eg. Social media, Video streaming)"
+    },
+    "alwaysAllowedAppsViewInfo": {
+        "title": "Always Allowed Apps",
+        "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
