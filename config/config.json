@@ -1361,7 +1361,9 @@
             }
         ],
         "buttonPostponeNewText": "Postpone",
-        "buttonSkipText": "Skip"
+        "buttonSkipText": "Skip",
+        "buttonExtendBreakText": "Extend break (+5 min)",
+        "buttonEndBreakText": "End break early"
     },
     "askAppWorkVcInfo": {
         "title": "Welcome to Focus Bear",
@@ -1777,7 +1779,8 @@
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Max tab count (<COUNT>) exceeded.",
-        "titleTabsCount": "Number of open tabs:"
+        "titleTabsCount": "Number of open tabs:",
+        "buttonCloseText": "Close"
     },
     "chooseFrictionLevelVcInfo":{
         "title": "How strict do you want Focus Bear to be?",
@@ -2724,10 +2727,6 @@
         "exampleFirst": "(Eg. Project management tools, Code repositories)",
         "headingSecond": "What type of things are distracting?",
         "exampleSecond": "(Eg. Social media, Video streaming)"
-    },
-    "alwaysAllowedAppsViewInfo": {
-        "title": "Always Allowed Apps",
-        "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
