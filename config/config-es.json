@@ -1780,7 +1780,7 @@
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido",
         "titleTabsCount": "Número de pestañas abiertas:",
-        "buttonOKText": "OK"
+        "buttonCloseText": "Cerrar"
     },
     "chooseFrictionLevelVcInfo":{
         "title": "¿Qué tan estricto quieres que sea Focus Bear?",

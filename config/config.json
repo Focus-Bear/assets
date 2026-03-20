@@ -1780,7 +1780,7 @@
     "alertMaxTabLimitVcInfo":{
         "title": "Max tab count (<COUNT>) exceeded.",
         "titleTabsCount": "Number of open tabs:",
-        "buttonOKText": "OK"
+        "buttonCloseText": "Close"
     },
     "chooseFrictionLevelVcInfo":{
         "title": "How strict do you want Focus Bear to be?",
