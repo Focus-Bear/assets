@@ -1780,7 +1780,16 @@
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido",
         "titleTabsCount": "Número de pestañas abiertas:",
-        "buttonCloseText": "Cerrar"
+        "countdownText": "Cerrando en <SECONDS> segundos (o cierra una pestaña existente)",
+        "buttonCloseText": "Cerrar",
+        "browserNames": {
+            "chrome": "Chrome",
+            "msedge": "Edge",
+            "firefox": "Firefox",
+            "brave": "Brave",
+            "vivaldi": "Vivaldi",
+            "opera": "Opera"
+        }
     },
     "chooseFrictionLevelVcInfo":{
         "title": "¿Qué tan estricto quieres que sea Focus Bear?",

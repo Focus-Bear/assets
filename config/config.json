@@ -1780,7 +1780,16 @@
     "alertMaxTabLimitVcInfo":{
         "title": "Max tab count (<COUNT>) exceeded.",
         "titleTabsCount": "Number of open tabs:",
-        "buttonCloseText": "Close"
+        "countdownText": "Closing in <SECONDS> seconds (or close an existing tab)",
+        "buttonCloseText": "Close",
+        "browserNames": {
+            "chrome": "Chrome",
+            "msedge": "Edge",
+            "firefox": "Firefox",
+            "brave": "Brave",
+            "vivaldi": "Vivaldi",
+            "opera": "Opera"
+        }
     },
     "chooseFrictionLevelVcInfo":{
         "title": "How strict do you want Focus Bear to be?",
