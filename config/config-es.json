@@ -1361,7 +1361,9 @@
             }
         ],
         "buttonPostponeNewText": "Posponer",
-        "buttonSkipText": "Omitir"
+        "buttonSkipText": "Omitir",
+        "buttonExtendBreakText": "Ampliar descanso (+5 min)",
+        "buttonEndBreakText": "Terminar descanso antes"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1777,7 +1779,17 @@
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido",
-        "titleTabsCount": "Número de pestañas abiertas:"
+        "titleTabsCount": "Número de pestañas abiertas:",
+        "countdownText": "Cerrando en <SECONDS> segundos (o cierra una pestaña existente)",
+        "buttonCloseText": "Cerrar",
+        "browserNames": {
+            "chrome": "Chrome",
+            "msedge": "Edge",
+            "firefox": "Firefox",
+            "brave": "Brave",
+            "vivaldi": "Vivaldi",
+            "opera": "Opera"
+        }
     },
     "chooseFrictionLevelVcInfo":{
         "title": "¿Qué tan estricto quieres que sea Focus Bear?",
@@ -2723,10 +2735,6 @@
         "exampleFirst": "(P. ej., herramientas de gestión de proyectos, repositorios de código)",
         "headingSecond": "¿Qué tipo de cosas te distraen?",
         "exampleSecond": "(P. ej., redes sociales, streaming de video)"
-    },
-    "alwaysAllowedAppsViewInfo": {
-        "title": "Apps siempre permitidas",
-        "subTitleText": "Las apps agregadas aquí nunca serán bloqueadas, sin importar el modo de enfoque, los horarios de bloqueo o la configuración de estrictitud. Úsalo para apps esenciales a las que siempre necesitas acceso."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
