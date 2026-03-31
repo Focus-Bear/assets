@@ -593,7 +593,7 @@
         "checkBoxAutoCloseAfterRoutineText": "Automatically close window after completing, skipping or postponing a routine",
     	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
         "titleDarkMode": "Dark Mode:",
-        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode"],
+        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode, Automatically"],
         "titleAnnouncement": "Announcement:",
         "checkBoxAnnouncementText": "Announcement after each activity",
         "checkBoxShowBreaksInCallText": "Show breaks while in call or in presentation mode",
