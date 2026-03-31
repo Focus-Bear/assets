@@ -590,6 +590,7 @@
         "checkBoxTabLimiterText": "Prevent user from opening more browser tabs",
         "alertTabCountText": "Tab count can not be 0.",
         "titleFullScreen": "Full Screen View:",
+        "checkBoxAutoCloseAfterRoutineText": "Automatically close window after completing, skipping or postponing a routine",
     	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
         "titleDarkMode": "Dark Mode:",
         "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode"],
@@ -2053,6 +2054,7 @@
         "descriptionBlockUrlsDuringMeetings": "Avoid awkward screensharing moments. Turn this setting off if you don’t want blocking to happen while you’re in meetings."
     },
     "tooltips": {
+        "ui_AutoCloseAfterRoutine": "When enabled, the app window will automatically close after you complete, skip or postpone a morning or evening routine. When disabled, the app will stay open so you can start a focus session straight away.",
         "ui_ActivitiesFullScreen": "Minimize distractions by doing your habits in full screen mode so you can’t see notifications or other apps while you’re doing your routines. If you enable this setting, you won’t be able to switch to other apps via cmd-tab. You can still deactivate Focus Bear if you have an emergency.",
         "ui_ShowDockIcon": "Enable this setting to show the Focus Bear app icon in your Dock. If you click on the dock icon, it will open the Focus Bear menu.",
         "ui_SelectLanguage": "We’ve translated the app into a few languages. Choose your preferred language here. Let us know if you need a different language by emailing support@focusbear.io",
