@@ -173,6 +173,10 @@ a#originalUrl {
   cursor: pointer;
 }
 
+a#originalUrl:empty {
+  display: none;
+}
+
 .supper-distraction-wrapper {
   display: flex;
   gap: 4px;
