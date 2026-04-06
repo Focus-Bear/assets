@@ -1838,6 +1838,7 @@
         ],
         "tourMenu": "Focus Bear",
         "descriptionMenu": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!",
+        "descriptionFocusBearTour": "Focus Bear permanece ejecutándose en la bandeja del sistema. Haga clic en el icono para abrir el menú de Focus Bear.",
         "tourFirstRoutine": "Iniciar primera rutina",
         "descriptionFirstRoutine": "Tu primera rutina matutina no empieza automáticamente el primer día. Haz clic en Iniciar Primera Rutina para iniciarla.",
         "tourPreferences": "Preferencias",

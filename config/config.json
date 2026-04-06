@@ -1838,6 +1838,7 @@
         ],
         "tourMenu": "Focus Bear",
         "descriptionMenu": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!",
+        "descriptionFocusBearTour": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu.",
         "tourFirstRoutine": "Start first routine",
         "descriptionFirstRoutine": "Your morning/evening routine does not start automatically on the first day. Click Start first routine to kick off your first routine.",
         "tourPreferences": "Preferences",
