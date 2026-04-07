@@ -592,7 +592,7 @@
         "titleFullScreen": "Full Screen View:",
     	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
         "titleDarkMode": "Dark Mode:",
-        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode"],
+        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode, Automatically"],
         "titleAnnouncement": "Announcement:",
         "checkBoxAnnouncementText": "Announcement after each activity",
         "checkBoxShowBreaksInCallText": "Show breaks while in call or in presentation mode",
@@ -1072,7 +1072,18 @@
         "subscriptionDetails": "Subscription Details",
         "status": "Status:",
         "emailNotVerified": "Email not Verified",
-        "buttonResendConfirmation": "Resend Confirmation Email"
+        "buttonResendConfirmation": "Resend Confirmation Email",
+        "buttonDeleteAccountText": "Delete Account",
+        "deleteAccountAlertTitle": "Delete Account",
+        "deleteAccountAlertText": "Are you sure you want to permanently delete your account? This action cannot be undone and all your data will be removed.",
+        "deleteAccountConfirmTitle": "Confirm Account Deletion",
+        "deleteAccountConfirmText": "Type DELETE to confirm",
+        "deleteAccountConfirmPlaceholder": "DELETE",
+        "deleteAccountConfirmMismatch": "Please type DELETE (in capitals) to confirm.",
+        "deleteAccountSuccessTitle": "Account Deleted",
+        "deleteAccountSuccessText": "Your account has been successfully deleted.",
+        "deleteAccountFailedTitle": "Unable to Delete Account",
+        "deleteAccountFailedText": "Something went wrong while deleting your account. Please check your internet connection and try again."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
@@ -1361,7 +1372,9 @@
             }
         ],
         "buttonPostponeNewText": "Postpone",
-        "buttonSkipText": "Skip"
+        "buttonSkipText": "Skip",
+        "buttonExtendBreakText": "Extend break (+5 min)",
+        "buttonEndBreakText": "End break early"
     },
     "askAppWorkVcInfo": {
         "title": "Welcome to Focus Bear",
@@ -1777,7 +1790,17 @@
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Max tab count (<COUNT>) exceeded.",
-        "titleTabsCount": "Number of open tabs:"
+        "titleTabsCount": "Number of open tabs:",
+        "countdownText": "Closing in <SECONDS> seconds (or close an existing tab)",
+        "buttonCloseText": "Close",
+        "browserNames": {
+            "chrome": "Chrome",
+            "msedge": "Edge",
+            "firefox": "Firefox",
+            "brave": "Brave",
+            "vivaldi": "Vivaldi",
+            "opera": "Opera"
+        }
     },
     "chooseFrictionLevelVcInfo":{
         "title": "How strict do you want Focus Bear to be?",
@@ -1826,6 +1849,7 @@
         ],
         "tourMenu": "Focus Bear",
         "descriptionMenu": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!",
+        "descriptionFocusBearTour": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu.",
         "tourFirstRoutine": "Start first routine",
         "descriptionFirstRoutine": "Your morning/evening routine does not start automatically on the first day. Click Start first routine to kick off your first routine.",
         "tourPreferences": "Preferences",
@@ -2724,10 +2748,6 @@
         "exampleFirst": "(Eg. Project management tools, Code repositories)",
         "headingSecond": "What type of things are distracting?",
         "exampleSecond": "(Eg. Social media, Video streaming)"
-    },
-    "alwaysAllowedAppsViewInfo": {
-        "title": "Always Allowed Apps",
-        "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
