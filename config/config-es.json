@@ -1072,7 +1072,18 @@
         "subscriptionDetails": "Detalles de la suscripción",
         "status": "Estado:",
         "emailNotVerified": "Correo no verificado",
-        "buttonResendConfirmation": "Reenviar correo de confirmación"
+        "buttonResendConfirmation": "Reenviar correo de confirmación",
+        "buttonDeleteAccountText": "Eliminar cuenta",
+        "deleteAccountAlertTitle": "Eliminar cuenta",
+        "deleteAccountAlertText": "¿Estás seguro de que deseas eliminar permanentemente tu cuenta? Esta acción no se puede deshacer y todos tus datos serán eliminados.",
+        "deleteAccountConfirmTitle": "Confirmar eliminación de cuenta",
+        "deleteAccountConfirmText": "Escribe ELIMINAR para confirmar",
+        "deleteAccountConfirmPlaceholder": "ELIMINAR",
+        "deleteAccountConfirmMismatch": "Por favor escribe ELIMINAR (en mayúsculas) para confirmar.",
+        "deleteAccountSuccessTitle": "Cuenta eliminada",
+        "deleteAccountSuccessText": "Tu cuenta ha sido eliminada exitosamente.",
+        "deleteAccountFailedTitle": "No se pudo eliminar la cuenta",
+        "deleteAccountFailedText": "Algo salió mal al eliminar tu cuenta. Revisa tu conexión a internet e intenta de nuevo."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",

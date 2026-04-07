@@ -1072,7 +1072,18 @@
         "subscriptionDetails": "Subscription Details",
         "status": "Status:",
         "emailNotVerified": "Email not Verified",
-        "buttonResendConfirmation": "Resend Confirmation Email"
+        "buttonResendConfirmation": "Resend Confirmation Email",
+        "buttonDeleteAccountText": "Delete Account",
+        "deleteAccountAlertTitle": "Delete Account",
+        "deleteAccountAlertText": "Are you sure you want to permanently delete your account? This action cannot be undone and all your data will be removed.",
+        "deleteAccountConfirmTitle": "Confirm Account Deletion",
+        "deleteAccountConfirmText": "Type DELETE to confirm",
+        "deleteAccountConfirmPlaceholder": "DELETE",
+        "deleteAccountConfirmMismatch": "Please type DELETE (in capitals) to confirm.",
+        "deleteAccountSuccessTitle": "Account Deleted",
+        "deleteAccountSuccessText": "Your account has been successfully deleted.",
+        "deleteAccountFailedTitle": "Unable to Delete Account",
+        "deleteAccountFailedText": "Something went wrong while deleting your account. Please check your internet connection and try again."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
