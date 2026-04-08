@@ -96,6 +96,13 @@
   --whiteLaceFourth: #f1e9dd;
   --whiteLaceFifth: #f8f3ea;
   --whiteLaceSixth: #fcf8f0;
+  --url-pill-bg: rgba(0, 0, 0, 0.07);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --url-pill-bg: rgba(255, 255, 255, 0.15);
+  }
 }
 
 body {
