@@ -539,13 +539,14 @@
         "breaksDisabledRoutinePostponed": "La rutina está pospuesta. Descansos deshabilitados.",
         "breaksDisabledHabitInProgress": "Un hábito está en curso. Descansos deshabilitados.",
         "focusedTodayLabel": "ENFOCAD@ HOY",
-		    "remainingText": "restante",
-		    "titleBlockingDisabled": "Saca el máximo provecho de Focus Bear",
-		    "descriptionBlockingDisabled": "Configura un horario de bloqueo para bloquear automáticamente sitios web y apps durante tu tiempo de enfoque.",
-		    "buttonSetBlockingSchedule": "Configurar bloqueo",
-		    "buttonSetLaterBlockingSchedule": "Lo haré más tarde",
-		    "blockingOff": "🚫 Sin bloqueo",
-		    "buttonEnableBlockingSchedule": "ACTIVAR"
+		"remainingText": "restante",
+		"titleBlockingDisabled": "Saca el máximo provecho de Focus Bear",
+		"descriptionBlockingDisabled": "Configura un horario de bloqueo para bloquear automáticamente sitios web y apps durante tu tiempo de enfoque.",
+		"buttonSetBlockingSchedule": "Configurar bloqueo",
+		"buttonSetLaterBlockingSchedule": "Lo haré más tarde",
+		"blockingOff": "🚫 Sin bloqueo",
+		"buttonEnableBlockingSchedule": "ACTIVAR",
+        "habitPostponedState": "✋Pospuesto"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -2871,13 +2872,20 @@
         "successSubTitle": "Se han concedido los permisos de Accesibilidad."
     },
     "alertStartWorkFocusMode": {
-		"title": "Estás usando un sitio web permitido para el modo de enfoque de trabajo.",
+		"title": "Estás usando actualmente un sitio web permitido para el modo de enfoque <WORK>.",
 		"subTitle": "¿Quieres iniciar el modo de enfoque ahora?",
 		"buttonYes": "Sí, empezar",
 		"buttonNotNow": "Ahora no"
     },
     "installHabitPacksVcInfo": {
         "bubbleText": "Prueba a buscar un objetivo o una palabra clave"
+    },
+    "startSetUpHabitsVcInfo": {
+        "title": "¿Necesitas ideas nuevas para hábitos?",
+        "subTitle": "Si tienes tu propia lista de hábitos, también puedes importarla.",
+        "buttonNo": "No — ya tengo algunos hábitos",
+        "buttonGiveMeHabits": "¡Sí — dame algunas ideas, capitán!",
+        "bubbleText": "¿Quieres que añada algunos hábitos nuevos?"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
