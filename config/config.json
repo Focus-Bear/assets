@@ -535,7 +535,8 @@
         "buttonSetBlockingSchedule": "Set Up Blocking",
         "buttonSetLaterBlockingSchedule": "I'll do this later",
         "blockingOff": "🚫 No blocking",
-        "buttonEnableBlockingSchedule": "ENABLE"
+        "buttonEnableBlockingSchedule": "ENABLE",
+        "habitPostponedState": "✋Postponed"
     },
     "preferencesInfo": {
         "titlePomodoro": "Pomodoro Mode:",
@@ -2874,13 +2875,20 @@
         "successSubTitle": "Accessibility permissions have been granted."
     },
     "alertStartWorkFocusMode": {
-        "title": "You’re currently using a website allowed for Work Focus Mode.",
+        "title": "You’re currently using a website allowed for <WORK> Focus Mode.",
         "subTitle": "Would you like to start Focus Mode now?",
         "buttonYes": "Yes, Start",
         "buttonNotNow": "Not Now"
     },
     "installHabitPacksVcInfo": {
         "bubbleText": "Try searching for a goal or a keyword"
+    },
+    "startSetUpHabitsVcInfo": {
+        "title": "Need some fresh ideas for habits?",
+        "subTitle": "If you have your own habit list, you can import them too.",
+        "buttonNo": "Nay - I already have some habits",
+        "buttonGiveMeHabits": "Aye - Give me some ideas, Cap’n",
+        "bubbleText": "Want me to bring aboard some new habits?"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
