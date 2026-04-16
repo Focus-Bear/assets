@@ -1496,7 +1496,14 @@
         "buttonAlreadyDidItText": "Ya lo hice",
         "buttonCanNotDoItText": "No puedo hacerlo ahora",
         "buttonSkipBreaksCompletely": "Saltar micro descanso Completamente",
-        "reasonPlaceholderText": "Opcional: agrega un motivo (ej. me siento mal)"
+        "reasonPlaceholderText": "Opcional: agrega un motivo (ej. me siento mal)",
+        "presetReasons": {
+            "tired": "😴 Cansado",
+            "time_ran_out": "⏰ Se acabó el tiempo",
+            "unexpected_event": "🔥 Evento inesperado",
+            "forgot": "🤔 Olvidé",
+            "low_energy": "🔋 Poca energía"
+        }
     },
     "habitSkipEasinessVcInfo": {
         "title": "Bienvenido a Focus Bear",

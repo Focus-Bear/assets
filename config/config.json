@@ -1496,7 +1496,14 @@
         "buttonAlreadyDidItText": "I already did it",
         "buttonCanNotDoItText": "Can't do it today",
         "buttonSkipBreaksCompletely": "Skip micro break Completely",
-        "reasonPlaceholderText": "Optional: add a reason (e.g. feeling unwell)"
+        "reasonPlaceholderText": "Optional: add a reason (e.g. feeling unwell)",
+        "presetReasons": {
+            "tired": "😴 Tired",
+            "time_ran_out": "⏰ Time ran out",
+            "unexpected_event": "🔥 Unexpected event",
+            "forgot": "🤔 Forgot",
+            "low_energy": "🔋 Low energy"
+        }
     },
     "habitSkipEasinessVcInfo": {
         "title": "Welcome to Focus Bear",
