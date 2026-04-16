@@ -64,6 +64,7 @@ try {
       focusBlockedOriginalUrl.style.display = 'inline-block';
       focusBlockedOriginalUrl.setAttribute('href', current_url);
       focusBlockedOriginalUrl.textContent = selected_lang.original_url(old_url);
+      focusBlockedOriginalUrl.setAttribute('title', old_url);
     } else {
       focusBlockedOriginalUrl.style.display = 'none';
     }
@@ -106,6 +107,7 @@ try {
             focusBlockedOriginalUrl.setAttribute('href', current_url);
             focusBlockedOriginalUrl.textContent =
               selected_lang.click_here_to_re_open_the_original_url(old_url);
+            focusBlockedOriginalUrl.setAttribute('title', old_url);
           } else {
             focusBlockedOriginalUrl.style.display = 'none';
           }
@@ -126,9 +128,13 @@ try {
           if (focusAdditionalInfo) {
             focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
           }
+          focusBlockedOriginalUrl.style.display = old_url
+            ? 'inline-block'
+            : 'none';
           focusBlockedOriginalUrl.setAttribute('href', current_url);
           focusBlockedOriginalUrl.textContent =
             selected_lang.click_here_to_re_open_the_original_url(old_url);
+          focusBlockedOriginalUrl.setAttribute('title', old_url);
           localStorage.removeItem(LOCAL_STORAGE.IS_PAGE_LOADED);
           localStorage.removeItem(LOCAL_STORAGE.IS_PAGE_RELOADED);
           if (isPageReloaded) {

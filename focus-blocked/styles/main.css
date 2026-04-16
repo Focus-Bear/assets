@@ -159,7 +159,22 @@ a#save_page_url_btn {
 }
 
 a#originalUrl {
+  display: inline-block;
+  max-width: 80vw;
   text-align: center;
+  background-color: var(--url-pill-bg);
+  border-radius: 999px;
+  padding: 0.3rem 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+a#originalUrl:empty {
+  display: none;
 }
 
 .supper-distraction-wrapper {
