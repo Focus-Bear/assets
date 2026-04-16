@@ -615,7 +615,7 @@
         "titleFullScreen": "Vista de Pantalla Completa:",
         "checkBoxFullScreenEnabledText": "Reproducir hábitos en modo pantalla completa",
         "titleDarkMode": "Modo Oscuro:",
-        "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro"],
+        "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro, Automáticamente"],
         "titleAnnouncement": "Anuncio:",
         "checkBoxAnnouncementText": "Anuncio después de cada actividad",
         "checkBoxShowBreaksInCallText": "Mostrar descansos durante llamadas",
@@ -1087,7 +1087,18 @@
         "subscriptionDetails": "Detalles de la suscripción",
         "status": "Estado:",
         "emailNotVerified": "Correo no verificado",
-        "buttonResendConfirmation": "Reenviar correo de confirmación"
+        "buttonResendConfirmation": "Reenviar correo de confirmación",
+        "buttonDeleteAccountText": "Eliminar cuenta",
+        "deleteAccountAlertTitle": "Eliminar cuenta",
+        "deleteAccountAlertText": "¿Estás seguro de que deseas eliminar permanentemente tu cuenta? Esta acción no se puede deshacer y todos tus datos serán eliminados.",
+        "deleteAccountConfirmTitle": "Confirmar eliminación de cuenta",
+        "deleteAccountConfirmText": "Escribe ELIMINAR para confirmar",
+        "deleteAccountConfirmPlaceholder": "ELIMINAR",
+        "deleteAccountConfirmMismatch": "Por favor escribe ELIMINAR (en mayúsculas) para confirmar.",
+        "deleteAccountSuccessTitle": "Cuenta eliminada",
+        "deleteAccountSuccessText": "Tu cuenta ha sido eliminada exitosamente.",
+        "deleteAccountFailedTitle": "No se pudo eliminar la cuenta",
+        "deleteAccountFailedText": "Algo salió mal al eliminar tu cuenta. Revisa tu conexión a internet e intenta de nuevo."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -1377,7 +1388,9 @@
             }
         ],
         "buttonPostponeNewText": "Posponer",
-        "buttonSkipText": "Omitir"
+        "buttonSkipText": "Omitir",
+        "buttonExtendBreakText": "Ampliar descanso (+5 min)",
+        "buttonEndBreakText": "Terminar descanso antes"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1496,7 +1509,14 @@
         "buttonAlreadyDidItText": "Ya lo hice",
         "buttonCanNotDoItText": "No puedo hacerlo ahora",
         "buttonSkipBreaksCompletely": "Saltar micro descanso Completamente",
-        "reasonPlaceholderText": "Opcional: agrega un motivo (ej. me siento mal)"
+        "reasonPlaceholderText": "Opcional: agrega un motivo (ej. me siento mal)",
+        "presetReasons": {
+            "tired": "😴 Cansado",
+            "time_ran_out": "⏰ Se acabó el tiempo",
+            "unexpected_event": "🔥 Evento inesperado",
+            "forgot": "🤔 Olvidé",
+            "low_energy": "🔋 Poca energía"
+        }
     },
     "habitSkipEasinessVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -1820,7 +1840,17 @@
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Número máximo de pestañas (<COUNT>) excedido",
-        "titleTabsCount": "Número de pestañas abiertas:"
+        "titleTabsCount": "Número de pestañas abiertas:",
+        "countdownText": "Cerrando en <SECONDS> segundos (o cierra una pestaña existente)",
+        "buttonCloseText": "Cerrar",
+        "browserNames": {
+            "chrome": "Chrome",
+            "msedge": "Edge",
+            "firefox": "Firefox",
+            "brave": "Brave",
+            "vivaldi": "Vivaldi",
+            "opera": "Opera"
+        }
     },
     "chooseFrictionLevelVcInfo":{
         "title": "¿Qué tan estricto quieres que sea Focus Bear?",
@@ -1869,6 +1899,7 @@
         ],
         "tourMenu": "Focus Bear",
         "descriptionMenu": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!",
+        "descriptionFocusBearTour": "Focus Bear permanece ejecutándose en la bandeja del sistema. Haga clic en el icono para abrir el menú de Focus Bear.",
         "tourFirstRoutine": "Iniciar primera rutina",
         "descriptionFirstRoutine": "Tu primera rutina matutina no empieza automáticamente el primer día. Haz clic en Iniciar Primera Rutina para iniciarla.",
         "tourPreferences": "Preferencias",
@@ -2662,7 +2693,7 @@
         "menuHabits": "Hábitos",
         "menuCustomRoutine": "Rutina personalizada",
         "menuStartFocusSession": "Iniciar sesión de enfoque",
-        "menuStopFocusSession": "Detener sesión de enfoquen",
+        "menuStopFocusSession": "Detener sesión de enfoque",
         "menuResumeFocusSession": "Reanudar sesión de enfoque",
         "menuStopSuperFocusSession": "Detener sesión de super enfoque",
         "menuStartMicroBreak": "Iniciar micro descanso",
