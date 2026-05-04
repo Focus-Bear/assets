@@ -404,7 +404,9 @@
         "focusModeFocusedTitles": ["¡Lo lograste!", "¡Estuviste en tu zona!", "¡Trabajo profundo logrado!"],
         "focusModeDecentTitles": ["Nada mal", "Sesión decente"],
         "focusModeDistractedTitles": ["Se colaron algunas distracciones", "Concéntrate al máximo en la próxima sesión"],
-        "buttonContinueMicroBreak": "Continuar descanso"
+        "buttonContinueMicroBreak": "Continuar descanso",
+        "subtitleNew": "Bloque de enfoque completado: ¡registra tu logro para hacer seguimiento de tu progreso!",
+        "buttonAccordionAchievement": "✨ Registra tu logro"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -539,13 +541,12 @@
         "breaksDisabledRoutinePostponed": "La rutina está pospuesta. Descansos deshabilitados.",
         "breaksDisabledHabitInProgress": "Un hábito está en curso. Descansos deshabilitados.",
         "focusedTodayLabel": "ENFOCAD@ HOY",
-        "remainingText": "restante",
-        "titleBlockingDisabled": "Saca el máximo provecho de Focus Bear",
-        "descriptionBlockingDisabled": "Configura un horario de bloqueo para bloquear automáticamente sitios web y apps durante tu tiempo de enfoque.",
-        "buttonSetBlockingSchedule": "Configurar bloqueo",
-        "buttonSetLaterBlockingSchedule": "Lo haré más tarde",
-        "blockingOff": "🚫 Sin bloqueo",
-        "buttonEnableBlockingSchedule": "ACTIVAR",
+		"titleBlockingDisabled": "Saca el máximo provecho de Focus Bear",
+		"descriptionBlockingDisabled": "Configura un horario de bloqueo para bloquear automáticamente sitios web y apps durante tu tiempo de enfoque.",
+		"buttonSetBlockingSchedule": "Configurar bloqueo",
+		"buttonSetLaterBlockingSchedule": "Lo haré más tarde",
+		"blockingOff": "🚫 Sin bloqueo",
+		"buttonEnableBlockingSchedule": "ACTIVAR",
         "habitPostponedState": "✋Pospuesto"
     },
     "preferencesInfo": {
@@ -2060,7 +2061,8 @@
         "titleAddScreenshots": "Arrastra y suelta aquí las capturas de pantalla que quieras compartir",
         "buttonSelectScreenshots": "Seleccionar capturas de pantalla",
         "titleSelectScreenshots": "Elige una o más capturas de pantalla que quieras compartir.",
-        "buttonSelect": "Seleccionar"
+        "buttonSelect": "Seleccionar",
+        "tabDebugLogs": "Registros de depuración"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -2805,7 +2807,10 @@
     "holdOnVcInfo": {
         "titleText": "¡Espera un momento!",
         "buttonContinueText": "Está bien...",
-        "bubbleText": "Arr… si quieres concentrarte mejor, primero debes poner tus hábitos en orden."
+        "bubbleText": "Arr… si quieres concentrarte mejor, primero debes poner tus hábitos en orden.",
+        "alertTitleLogout": "¿Quieres cerrar sesión y empezar de nuevo?",
+        "buttonLogout": "Sí, cerrar sesión",
+        "buttonNo": "Ups, no"
     },
     "setUpHabitsVcInfo": {
         "titleText": "Configura hábitos para concentrarte mejor",
@@ -2886,6 +2891,29 @@
         "buttonNo": "No — ya tengo algunos hábitos",
         "buttonGiveMeHabits": "¡Sí — dame algunas ideas, capitán!",
         "bubbleText": "¿Quieres que añada algunos hábitos nuevos?"
+    },
+    "debugLogsVcInfo": {
+        "title": "Registros de bloqueo de IA",
+        "columnType": "Tipo",
+        "columnUrlApp": "URL / App",
+        "columnInput": "Parámetros de entrada",
+        "columnScore": "Puntuación",
+        "columnReason": "Motivo",
+        "noLogsYet": "Todavía no hay registros de bloqueo de IA. Los registros aparecerán aquí cuando la IA evalúe URLs o aplicaciones durante una sesión de concentración.",
+        "entryApp": "App",
+        "entryUrl": "URL",
+        "inputFocus": "Enfoque:",
+        "inputIntention": "Intención:",
+        "inputTask": "Tarea:",
+        "buttonBadAiToolTip": "Reportar una mala decisión de la IA"
+    },
+    "keyboardShortcutsSettingsVcInfo": {
+        "keyboardShortcutsSettingTitle": "Atajos de teclado",
+        "recordingPlaceholder": "Asignar atajo",
+        "descriptionText": "Configura atajos de teclado globales para abrir al instante Brain Dump, Focus Music o la lista de tareas desde cualquier lugar de tu Mac.",
+        "brainDumpTitle": "Abrir Brain Dump:",
+        "focusMusicTitle": "Abrir Focus Music:",
+        "taskListTitle": "Abrir lista de tareas:"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
