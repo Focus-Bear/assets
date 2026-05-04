@@ -1918,7 +1918,8 @@
         "descriptionMorningRoutine": "Tu rutina matutina no inicia automáticamente el primer día. Haz clic en Iniciar rutina matutina para activar tu primera rutina.",
         "descriptionEveningRoutine": "Tu rutina nocturna no inicia automáticamente el primer día. Haz clic en Iniciar rutina nocturna para activar tu primera rutina.",
         "tourTools": "Herramientas",
-        "descriptionTools": "Una colección de herramientas útiles, incluyendo Brain Dump, Lista de tareas/Reproductor de tareas, música para enfocarte y más."
+        "descriptionTools": "Una colección de herramientas útiles, incluyendo Brain Dump, Lista de tareas/Reproductor de tareas, música para enfocarte y más.",
+        "descriptionSystemTray": "Focus Bear sigue ejecutándose en la bandeja del sistema. Haz clic en el ícono para abrir el Menú de Focus Bear."
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",

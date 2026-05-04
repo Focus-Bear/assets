@@ -1920,7 +1920,8 @@
         "descriptionMorningRoutine": "Your morning routine does not start automatically on the first day. Click Start morning routine to kick off your first routine.",
         "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine.",
         "tourTools": "Tools",
-        "descriptionTools": "A collection of helpful tools including Brain Dump, To-Do List/To-Do Player, focus music, and more."
+        "descriptionTools": "A collection of helpful tools including Brain Dump, To-Do List/To-Do Player, focus music, and more.",
+        "descriptionSystemTray": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu."
     },
     "relaxModeVcInfo":{
         "title": "Sites you saved for Free Time mode:",
