@@ -529,7 +529,6 @@
         "breaksDisabledRoutinePostponed": "Routine is postponed. Breaks disabled.",
         "breaksDisabledHabitInProgress": "A habit is in progress. Breaks disabled.",
         "focusedTodayLabel": "FOCUSED TODAY",
-        "remainingText": "remaining",
         "titleBlockingDisabled": "Get the most out of Focus Bear",
         "descriptionBlockingDisabled": "Set up a blocking schedule to automatically block websites and apps during your focus time.",
         "buttonSetBlockingSchedule": "Set Up Blocking",
@@ -866,7 +865,9 @@
             "focusModeFocusedTitles": ["You crushed it!", "You were in the zone!", "Deep work accomplished!"],
             "focusModeDecentTitles": ["Not bad", "Decent session"],
             "focusModeDistractedTitles": ["A few distractions crept in", "Lock in your focus for the next one"],
-            "buttonContinueMicroBreak": "Continue Break"
+            "buttonContinueMicroBreak": "Continue Break",
+            "subtitleNew": "Focus block complete – log your achievement to track progress!",
+            "buttonAccordionAchievement": "✨ Log your Achievement"
         },
         "focusSummaryInfo": {
             "title": "You completed <COUNT> focus blocks today.",
@@ -2062,7 +2063,8 @@
         "titleAddScreenshots": "Drag and drop screenshots here that you want to share",
         "buttonSelectScreenshots": "Select Screenshots",
         "titleSelectScreenshots": "Choose one or more screenshots you want to share.",
-        "buttonSelect": "Select"
+        "buttonSelect": "Select",
+        "tabDebugLogs": "Debug Logs"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
@@ -2808,7 +2810,10 @@
     "holdOnVcInfo": {
         "titleText": "Hold on a minute!",
         "buttonContinueText": "Okay...",
-        "bubbleText": "Arr… if you want to focus better, you’ve got to get your habits shipshape first."
+        "bubbleText": "Arr… if you want to focus better, you’ve got to get your habits shipshape first.",
+        "alertTitleLogout": "Do you want to log out and start again?",
+        "buttonLogout": "Yes - logout",
+        "buttonNo": "Oops no"
     },
     "setUpHabitsVcInfo": {
         "titleText": "Set up habits to focus better",
@@ -2889,6 +2894,29 @@
         "buttonNo": "Nay - I already have some habits",
         "buttonGiveMeHabits": "Aye - Give me some ideas, Cap’n",
         "bubbleText": "Want me to bring aboard some new habits?"
+    },
+    "debugLogsVcInfo": {
+        "title": "AI Blocking Logs",
+        "columnType": "Type",
+        "columnUrlApp": "URL / App",
+        "columnInput": "Input Parameters",
+        "columnScore": "Score",
+        "columnReason": "Reason",
+        "noLogsYet": "No AI blocking logs yet. Logs will appear here when AI evaluates URLs or apps during a focus session.",
+        "entryApp": "App",
+        "entryUrl": "URL",
+        "inputFocus": "Focus:",
+        "inputIntention": "Intention:",
+        "inputTask": "Task:",
+        "buttonBadAiToolTip": "Report bad AI decision"
+    },
+    "keyboardShortcutsSettingsVcInfo": {
+        "keyboardShortcutsSettingTitle": "Keyboard Shortcuts",
+        "recordingPlaceholder": "Record Shortcut",
+        "descriptionText": "Set global keyboard shortcuts to instantly open Brain Dump, Focus Music, or Task List from anywhere on your Mac.",
+        "brainDumpTitle": "Open Brain Dump:",
+        "focusMusicTitle": "Open Focus Music:",
+        "taskListTitle": "Open Task List:"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
