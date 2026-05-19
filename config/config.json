@@ -114,6 +114,7 @@
         "buttonUninstallText": "Uninstall Focus Bear",
         "shutdownNotificationTitle": "It's time to wrap up for the day. Your shutdown time is in 5 minutes.",
         "appBlockNotificationTitle": "<APP_NAME> isn't allowed in the <FOCUS_NAME> focus mode.",
+        "superDistractingAppBlockedText": "<APP_NAME> is a Super distracting app.",
         "focusBreakNotificationTitle": "Your break ends in",
         "tabGeneralText": "General",
         "tabFocusText": "Focus",
