@@ -1800,7 +1800,8 @@
         "buttonWrongDetectionText": "You're wrong! I wasn't on a break",
         "titleTakeBreak": "Ok do you want to take a break now 😅?",
         "buttonStartBreakText": "Yup I need a break now",
-        "buttonTakeBreakLaterText": "No - I'll take later"
+        "buttonTakeBreakLaterText": "No - I'll take later",
+        "checkboxDontShowNaturalBreaksText": "Don't show this again"
     },
     "inspirations": ["I'm feeling energized - time to begin my habits",
         "Let's kick things off - I'm motivated to start my habits",

@@ -1799,7 +1799,8 @@
         "buttonWrongDetectionText": "¡Te equivocas! No estaba en un descanso",
         "titleTakeBreak": "Ok ¿quieres tomar un descanso ahora 😅?",
         "buttonStartBreakText": "Sí, necesito un descanso ahora",
-        "buttonTakeBreakLaterText": "No - Lo tomaré luego"
+        "buttonTakeBreakLaterText": "No - Lo tomaré luego",
+        "checkboxDontShowNaturalBreaksText": "No volver a mostrar"
     },
     "inspirations": ["Me siento con energía - es hora de empezar mis hábitos",
         "Arranquemos - estoy motivado/a para empezar mis hábitos.",
