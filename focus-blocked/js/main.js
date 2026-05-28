@@ -128,6 +128,9 @@ try {
           if (focusAdditionalInfo) {
             focusAdditionalInfo.textContent = focusBlockInfo?.additional_info;
           }
+          focusBlockedOriginalUrl.style.display = old_url
+            ? 'inline-block'
+            : 'none';
           focusBlockedOriginalUrl.setAttribute('href', current_url);
           focusBlockedOriginalUrl.textContent =
             selected_lang.click_here_to_re_open_the_original_url(old_url);
