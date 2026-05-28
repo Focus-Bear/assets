@@ -1954,7 +1954,8 @@
         "subTitleBlockIt": "Si no lo necesitas, haz clic aquí para bloquear el sitio",
         "titleDistracting": "Dijiste que <SITE> es super distractor para ti.",
         "titleSetIntention": "¿Qué quieres conseguir durante tu tiempo aquí?",
-        "buttonAllowText": "Permitir Temporalmente"
+        "buttonAllowText": "Permitir Temporalmente",
+        "dailyCapReachedText": "Límite diario de extensiones alcanzado."
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Tu intención para <SITE>",
