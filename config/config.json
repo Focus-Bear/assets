@@ -114,6 +114,7 @@
         "buttonUninstallText": "Uninstall Focus Bear",
         "shutdownNotificationTitle": "It's time to wrap up for the day. Your shutdown time is in 5 minutes.",
         "appBlockNotificationTitle": "<APP_NAME> isn't allowed in the <FOCUS_NAME> focus mode.",
+        "superDistractingAppBlockedText": "<APP_NAME> is a Super distracting app.",
         "focusBreakNotificationTitle": "Your break ends in",
         "tabGeneralText": "General",
         "tabFocusText": "Focus",
@@ -603,6 +604,7 @@
         "alertTabCountText": "Tab count can not be 0.",
         "titleFullScreen": "Full Screen View:",
     	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
+        "checkBoxAutoCloseAfterRoutineText": "Automatically close window after completing, skipping or postponing a routine",
         "titleDarkMode": "Dark Mode:",
         "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode, Automatically"],
         "titleAnnouncement": "Announcement:",
@@ -697,6 +699,10 @@
         "titleWorkToBreakRatio": "Work to break ratio:",
         "descriptionWorkToBreakRatio": "For every <WORKRATIO> minutes you focus, you will have a <BREAKRATIO> minutes break.",
         "toText": "to",
+        "workRatioEmptyErrorText": "Work to break ratio can not be empty.",
+        "breakRatioEmptyErrorText": "Break ratio can not be empty.",
+        "workRatioInvalidErrorText": "Work ratio must be a number greater than 0.",
+        "breakRatioInvalidErrorText": "Break ratio must be a number greater than 0.",
         "buttonBackToCustomBlocking": "Back to blocking schedule",
         "buttonAddBlockListText": "Add Block List",
         "titleBlockList": "Use Block Lists to stay focused on a certain type of work.",
@@ -1794,7 +1800,8 @@
         "buttonWrongDetectionText": "You're wrong! I wasn't on a break",
         "titleTakeBreak": "Ok do you want to take a break now 😅?",
         "buttonStartBreakText": "Yup I need a break now",
-        "buttonTakeBreakLaterText": "No - I'll take later"
+        "buttonTakeBreakLaterText": "No - I'll take later",
+        "checkboxDontShowNaturalBreaksText": "Don't show this again"
     },
     "inspirations": ["I'm feeling energized - time to begin my habits",
         "Let's kick things off - I'm motivated to start my habits",
@@ -1948,7 +1955,8 @@
         "subTitleBlockIt": "If you don't need it, click here to block the site",
         "titleDistracting": "You said <SITE> is super distracting for you.",
         "titleSetIntention": "What do you want to achieve during your time here?",
-        "buttonAllowText": "Allow Temporarily"
+        "buttonAllowText": "Allow Temporarily",
+        "dailyCapReachedText": "Daily extension limit reached."
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
@@ -2135,6 +2143,7 @@
         "ui_ActivitiesFullScreen": "Minimize distractions by doing your habits in full screen mode so you can’t see notifications or other apps while you’re doing your routines. If you enable this setting, you won’t be able to switch to other apps via cmd-tab. You can still deactivate Focus Bear if you have an emergency.",
         "ui_ShowDockIcon": "Enable this setting to show the Focus Bear app icon in your Dock. If you click on the dock icon, it will open the Focus Bear menu.",
         "ui_SelectLanguage": "We’ve translated the app into a few languages. Choose your preferred language here. Let us know if you need a different language by emailing support@focusbear.io",
+        "ui_AutoCloseAfterRoutine": "When enabled, the app window will automatically close after you complete, skip or postpone a morning or evening routine. When disabled, the app will stay open so you can start a focus session straight away.",
         "ui_DarkMode": "Eye-friendly option! Opt for Dark Mode to reduce screen brightness and eye strain.",
         "ui_HideDockInAllowedAppActivities": "Distraction-free mode! Sometimes app icons in the dock are distracting. Toggle this setting on to hide the dock while you’re doing habits with allowed apps. For example, you could have a journaling habit that only gives you access to your journaling app. If you enable this setting, you won’t see the dock with all its temptations.",
         "accessibility_ReduceMotion": "We show animated Bear GIFs after you complete habits. If you don’t like these animations or experience physical discomfort, you can turn off the animations.",
