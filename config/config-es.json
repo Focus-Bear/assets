@@ -2770,6 +2770,7 @@
         "buttonAddNewBlock": "Agregar nuevo bloqueo",
         "errorBlockListMissing": "Actualizar lista de bloqueo ⚠️",
         "alertSelectBlockList": "Por favor, selecciona una lista de bloqueo.",
+        "alertInvalidTime": "Por favor, ingresa una hora completa, incluyendo AM o PM, en los campos De y Hasta antes de guardar.",
         "titleScheduleOverlapAlert": "Se detectó un solapamiento de horarios.",
         "subTitleScheduleOverlapAlert": "El horario de bloqueo se superpone con uno existente. ¿Quieres guardarlo de todos modos?",
         "buttonSaveBlockAnyway": "Guardar de todos modos",
