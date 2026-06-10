@@ -116,6 +116,7 @@
         "buttonUninstallText": "Uninstall Focus Bear",
         "shutdownNotificationTitle": "It's time to wrap up for the day. Your shutdown time is in 5 minutes.",
         "appBlockNotificationTitle": "<APP_NAME> isn't allowed in the <FOCUS_NAME> focus mode.",
+        "superDistractingAppBlockedText": "<APP_NAME> is a Super distracting app.",
         "focusBreakNotificationTitle": "Your break ends in",
         "tabGeneralText": "General",
         "tabFocusText": "Focus",
@@ -606,8 +607,9 @@
         "alertTabCountText": "Tab count can not be 0.",
         "titleFullScreen": "Full Screen View:",
     	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
+        "checkBoxAutoCloseAfterRoutineText": "Automatically close window after completing, skipping or postponing a routine",
         "titleDarkMode": "Dark Mode:",
-        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode"],
+        "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode, Automatically"],
         "titleAnnouncement": "Announcement:",
         "checkBoxAnnouncementText": "Announcement after each activity",
         "checkBoxShowBreaksInCallText": "Show breaks while in call or in presentation mode",
@@ -701,6 +703,10 @@
         "titleWorkToBreakRatio": "Work to break ratio:",
         "descriptionWorkToBreakRatio": "For every <WORKRATIO> minutes you focus, you will have a <BREAKRATIO> minutes break.",
         "toText": "to",
+        "workRatioEmptyErrorText": "Work to break ratio can not be empty.",
+        "breakRatioEmptyErrorText": "Break ratio can not be empty.",
+        "workRatioInvalidErrorText": "Work ratio must be a number greater than 0.",
+        "breakRatioInvalidErrorText": "Break ratio must be a number greater than 0.",
         "buttonBackToCustomBlocking": "Back to blocking schedule",
         "buttonAddBlockListText": "Add Block List",
         "titleBlockList": "Use Block Lists to stay focused on a certain type of work.",
@@ -1092,7 +1098,18 @@
         "subscriptionDetails": "Subscription Details",
         "status": "Status:",
         "emailNotVerified": "Email not Verified",
-        "buttonResendConfirmation": "Resend Confirmation Email"
+        "buttonResendConfirmation": "Resend Confirmation Email",
+        "buttonDeleteAccountText": "Delete Account",
+        "deleteAccountAlertTitle": "Delete Account",
+        "deleteAccountAlertText": "Are you sure you want to permanently delete your account? This action cannot be undone and all your data will be removed.",
+        "deleteAccountConfirmTitle": "Confirm Account Deletion",
+        "deleteAccountConfirmText": "Type DELETE to confirm",
+        "deleteAccountConfirmPlaceholder": "DELETE",
+        "deleteAccountConfirmMismatch": "Please type DELETE (in capitals) to confirm.",
+        "deleteAccountSuccessTitle": "Account Deleted",
+        "deleteAccountSuccessText": "Your account has been successfully deleted.",
+        "deleteAccountFailedTitle": "Unable to Delete Account",
+        "deleteAccountFailedText": "Something went wrong while deleting your account. Please check your internet connection and try again."
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
@@ -1382,7 +1399,9 @@
             }
         ],
         "buttonPostponeNewText": "Postpone",
-        "buttonSkipText": "Skip"
+        "buttonSkipText": "Skip",
+        "buttonExtendBreakText": "Extend break (+5 min)",
+        "buttonEndBreakText": "End break early"
     },
     "askAppWorkVcInfo": {
         "title": "Welcome to Focus Bear",
@@ -1501,7 +1520,14 @@
         "buttonAlreadyDidItText": "I already did it",
         "buttonCanNotDoItText": "Can't do it today",
         "buttonSkipBreaksCompletely": "Skip micro break Completely",
-        "reasonPlaceholderText": "Optional: add a reason (e.g. feeling unwell)"
+        "reasonPlaceholderText": "Optional: add a reason (e.g. feeling unwell)",
+        "presetReasons": {
+            "tired": "😴 Tired",
+            "time_ran_out": "⏰ Time ran out",
+            "unexpected_event": "🔥 Unexpected event",
+            "forgot": "🤔 Forgot",
+            "low_energy": "🔋 Low energy"
+        }
     },
     "habitSkipEasinessVcInfo": {
         "title": "Welcome to Focus Bear",
@@ -1779,7 +1805,8 @@
         "buttonWrongDetectionText": "You're wrong! I wasn't on a break",
         "titleTakeBreak": "Ok do you want to take a break now 😅?",
         "buttonStartBreakText": "Yup I need a break now",
-        "buttonTakeBreakLaterText": "No - I'll take later"
+        "buttonTakeBreakLaterText": "No - I'll take later",
+        "checkboxDontShowNaturalBreaksText": "Don't show this again"
     },
     "inspirations": ["I'm feeling energized - time to begin my habits",
         "Let's kick things off - I'm motivated to start my habits",
@@ -1828,7 +1855,17 @@
     },
     "alertMaxTabLimitVcInfo":{
         "title": "Max tab count (<COUNT>) exceeded.",
-        "titleTabsCount": "Number of open tabs:"
+        "titleTabsCount": "Number of open tabs:",
+        "countdownText": "Closing in <SECONDS> seconds (or close an existing tab)",
+        "buttonCloseText": "Close",
+        "browserNames": {
+            "chrome": "Chrome",
+            "msedge": "Edge",
+            "firefox": "Firefox",
+            "brave": "Brave",
+            "vivaldi": "Vivaldi",
+            "opera": "Opera"
+        }
     },
     "chooseFrictionLevelVcInfo":{
         "title": "How strict do you want Focus Bear to be?",
@@ -1877,6 +1914,7 @@
         ],
         "tourMenu": "Focus Bear",
         "descriptionMenu": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!",
+        "descriptionFocusBearTour": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu.",
         "tourFirstRoutine": "Start first routine",
         "descriptionFirstRoutine": "Your morning/evening routine does not start automatically on the first day. Click Start first routine to kick off your first routine.",
         "tourPreferences": "Preferences",
@@ -1895,7 +1933,8 @@
         "descriptionMorningRoutine": "Your morning routine does not start automatically on the first day. Click Start morning routine to kick off your first routine.",
         "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine.",
         "tourTools": "Tools",
-        "descriptionTools": "A collection of helpful tools including Brain Dump, To-Do List/To-Do Player, focus music, and more."
+        "descriptionTools": "A collection of helpful tools including Brain Dump, To-Do List/To-Do Player, focus music, and more.",
+        "descriptionSystemTray": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu."
     },
     "relaxModeVcInfo":{
         "title": "Sites you saved for Free Time mode:",
@@ -1921,7 +1960,8 @@
         "subTitleBlockIt": "If you don't need it, click here to block the site",
         "titleDistracting": "You said <SITE> is super distracting for you.",
         "titleSetIntention": "What do you want to achieve during your time here?",
-        "buttonAllowText": "Allow Temporarily"
+        "buttonAllowText": "Allow Temporarily",
+        "dailyCapReachedText": "Daily extension limit reached."
     },
     "intentionBlockedUrlsVcInfo":{
         "title": "Your intention for <SITE>",
@@ -2111,6 +2151,7 @@
         "ui_ActivitiesFullScreen": "Minimize distractions by doing your habits in full screen mode so you can’t see notifications or other apps while you’re doing your routines. If you enable this setting, you won’t be able to switch to other apps via cmd-tab. You can still deactivate Focus Bear if you have an emergency.",
         "ui_ShowDockIcon": "Enable this setting to show the Focus Bear app icon in your Dock. If you click on the dock icon, it will open the Focus Bear menu.",
         "ui_SelectLanguage": "We’ve translated the app into a few languages. Choose your preferred language here. Let us know if you need a different language by emailing support@focusbear.io",
+        "ui_AutoCloseAfterRoutine": "When enabled, the app window will automatically close after you complete, skip or postpone a morning or evening routine. When disabled, the app will stay open so you can start a focus session straight away.",
         "ui_DarkMode": "Eye-friendly option! Opt for Dark Mode to reduce screen brightness and eye strain.",
         "ui_HideDockInAllowedAppActivities": "Distraction-free mode! Sometimes app icons in the dock are distracting. Toggle this setting on to hide the dock while you’re doing habits with allowed apps. For example, you could have a journaling habit that only gives you access to your journaling app. If you enable this setting, you won’t see the dock with all its temptations.",
         "accessibility_ReduceMotion": "We show animated Bear GIFs after you complete habits. If you don’t like these animations or experience physical discomfort, you can turn off the animations.",
