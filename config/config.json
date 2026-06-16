@@ -570,6 +570,8 @@
         "titleAppMode": "Focus bear mode:",
         "checkBoxCuddlyBearText": "Cuddly Bear mode",
         "descriptionCuddlyBearText": "Cuddly Bear mode: kind and gentle - gives you the benefit of the doubt when you open a non-allowed URL. Lets you temporarily allow blocked URLs during a focus mode.",
+        "titleCuddlyDailyCap": "Daily limit for distracting sites (minutes):",
+        "descriptionCuddlyDailyCap": "The maximum total time per day you can temporarily unblock distracting sites in Cuddly Bear mode. Once you reach it, those sites stay blocked until the next day.",
         "checkBoxGrizzlyBearText": "Grizzly Bear mode",
         "descriptionGrizzlyBearText": "Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over.",
         "pomodoroDescriptionText": "Focus Sessions (pomodoro mode) cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
