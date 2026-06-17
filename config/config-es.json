@@ -2699,6 +2699,28 @@
         "noBreakAddedText": "Aún no se han agregado actividades de descanso.",
         "buttonChangeTiming": "Cambiar horario"
     },
+    "scheduleViewInfo":{
+        "morningRoutineHabits": "Hábitos de la rutina matutina",
+        "eveningRoutineHabits": "Hábitos de la rutina nocturna",
+        "habitsSuffix": "hábitos",
+        "play": "Iniciar",
+        "done": "Hecho",
+        "skip": "Saltar",
+        "habitsDone": "Hábitos completados",
+        "meeting": "reunión",
+        "meetingDefaultTitle": "Reunión",
+        "deepWork": "Trabajo profundo",
+        "deepWorkNoRoom": "Trabajo profundo (sin espacio para el siguiente hábito)",
+        "sleep": "Dormir",
+        "eveningRoutine": "Rutina nocturna",
+        "morningRoutine": "Rutina matutina",
+        "noHabitsLeft": "No quedan hábitos por ahora: ¡disfruta tu tiempo libre! 🎉",
+        "nothingScheduled": "Nada programado para este día.",
+        "calendarBanner": "Conecta tu calendario para ver reuniones y tiempo libre para trabajo profundo.",
+        "grantAccess": "Conceder acceso",
+        "removingFullScreen": "Quitando pantalla completa durante 30 segundos para conceder permisos de calendario",
+        "today": "Hoy"
+    },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
         "titleTools": "HERRAMIENTAS",

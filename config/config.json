@@ -2701,6 +2701,28 @@
         "noBreakAddedText": "No break activities added yet.",
         "buttonChangeTiming": "Change Timing"
     },
+    "scheduleViewInfo":{
+        "morningRoutineHabits": "Morning routine habits",
+        "eveningRoutineHabits": "Evening routine habits",
+        "habitsSuffix": "habits",
+        "play": "Play",
+        "done": "Done",
+        "skip": "Skip",
+        "habitsDone": "Habits done",
+        "meeting": "meeting",
+        "meetingDefaultTitle": "Meeting",
+        "deepWork": "Deep work",
+        "deepWorkNoRoom": "Deep work (no room for next habit)",
+        "sleep": "Sleep",
+        "eveningRoutine": "Evening routine",
+        "morningRoutine": "Morning routine",
+        "noHabitsLeft": "No habits left for now — enjoy your free time! 🎉",
+        "nothingScheduled": "Nothing scheduled for this day.",
+        "calendarBanner": "Connect your calendar to see meetings and free time for deep work.",
+        "grantAccess": "Grant access",
+        "removingFullScreen": "Removing full screen for 30 seconds to grant calendar permissions",
+        "today": "Today"
+    },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
         "titleTools": "TOOLS",
