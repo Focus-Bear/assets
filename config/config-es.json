@@ -222,7 +222,8 @@
         "focusSessionPausedText": "La sesión de enfoque está en pausa.",
         "trayIconTooltipText": "Focus Bear",
         "trayIconBalloonText": "Focus Bear",
-        "unblockNotAvailableNewText": "Estás en modo Oso Grizzly — cambia tu configuración para desbloquear"
+        "unblockNotAvailableNewText": "Estás en modo Oso Grizzly — cambia tu configuración para desbloquear",
+        "taskCreated": "Tarea \"<TASK>\" creada exitosamente."
     },
     "callNotifier": {
         "micUsageText": "está usando tu micrófono",

@@ -222,7 +222,8 @@
         "focusSessionPausedText": "Focus Session is paused.",
         "trayIconTooltipText": "Focus Bear",
         "trayIconBalloonText": "Focus Bear",
-        "unblockNotAvailableNewText": "You're in Grizzly Bear mode - change your settings to unblock"
+        "unblockNotAvailableNewText": "You're in Grizzly Bear mode - change your settings to unblock",
+        "taskCreated": "\"<TASK>\" task created successfully."
     },
     "callNotifier": {
         "micUsageText": "is using your microphone",
