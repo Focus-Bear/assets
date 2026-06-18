@@ -2728,7 +2728,10 @@
         "eventEndsLabel": "Termina",
         "eventSave": "Guardar",
         "eventCancel": "Cancelar",
-        "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo."
+        "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
+        "showEarlierEvents": "Mostrar eventos anteriores de hoy",
+        "hideEarlierEvents": "Ocultar eventos anteriores de hoy",
+        "viewTomorrow": "Ver el horario de mañana"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",

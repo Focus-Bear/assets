@@ -2730,7 +2730,10 @@
         "eventEndsLabel": "Ends",
         "eventSave": "Save",
         "eventCancel": "Cancel",
-        "eventSaveError": "Couldn't save the event. Check calendar access and try again."
+        "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
+        "showEarlierEvents": "Show events from earlier today",
+        "hideEarlierEvents": "Hide events from earlier today",
+        "viewTomorrow": "View tomorrow's schedule"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
