@@ -2719,7 +2719,8 @@
         "calendarBanner": "Conecta tu calendario para ver reuniones y tiempo libre para trabajo profundo.",
         "grantAccess": "Conceder acceso",
         "removingFullScreen": "Quitando pantalla completa durante 30 segundos para conceder permisos de calendario",
-        "today": "Hoy"
+        "today": "Hoy",
+        "backToToday": "Volver a hoy"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",

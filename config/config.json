@@ -2721,7 +2721,8 @@
         "calendarBanner": "Connect your calendar to see meetings and free time for deep work.",
         "grantAccess": "Grant access",
         "removingFullScreen": "Removing full screen for 30 seconds to grant calendar permissions",
-        "today": "Today"
+        "today": "Today",
+        "backToToday": "Back to today"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
