@@ -2720,7 +2720,15 @@
         "grantAccess": "Conceder acceso",
         "removingFullScreen": "Quitando pantalla completa durante 30 segundos para conceder permisos de calendario",
         "today": "Hoy",
-        "backToToday": "Volver a hoy"
+        "backToToday": "Volver a hoy",
+        "addEvent": "Añadir evento",
+        "eventTitlePlaceholder": "Título del evento",
+        "eventCalendarLabel": "Calendario",
+        "eventStartsLabel": "Empieza",
+        "eventEndsLabel": "Termina",
+        "eventSave": "Guardar",
+        "eventCancel": "Cancelar",
+        "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo."
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",

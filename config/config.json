@@ -2722,7 +2722,15 @@
         "grantAccess": "Grant access",
         "removingFullScreen": "Removing full screen for 30 seconds to grant calendar permissions",
         "today": "Today",
-        "backToToday": "Back to today"
+        "backToToday": "Back to today",
+        "addEvent": "Add event",
+        "eventTitlePlaceholder": "Event title",
+        "eventCalendarLabel": "Calendar",
+        "eventStartsLabel": "Starts",
+        "eventEndsLabel": "Ends",
+        "eventSave": "Save",
+        "eventCancel": "Cancel",
+        "eventSaveError": "Couldn't save the event. Check calendar access and try again."
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
