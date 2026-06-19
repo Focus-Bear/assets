@@ -2739,13 +2739,21 @@
         "repeatNone": "No se repite",
         "repeatDaily": "Cada día",
         "repeatWeekly": "Cada semana",
-        "repeatMonthly": "Cada mes"
+        "repeatMonthly": "Cada mes",
+        "tasksForToday": "Tareas de hoy",
+        "tasksAddNew": "Añadir tarea",
+        "tasksAddFromList": "De la lista de tareas",
+        "tasksEmpty": "Aún no hay tareas. Añade una desde cero o desde tu lista de tareas.",
+        "tasksSearchPlaceholder": "Buscar tareas…",
+        "tasksAllProjects": "Todos los proyectos",
+        "tasksAddSelected": "Añadir"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
         "titleTools": "HERRAMIENTAS",
         "titlePreferences": "PREFERENCIAS",
-        "menuHabits": "Plan del día",
+        "menuHabits": "Hábitos",
+        "menuDayPlan": "Plan del día",
         "menuCustomRoutine": "Rutina personalizada",
         "menuStartFocusSession": "Iniciar sesión de enfoque",
         "menuStopFocusSession": "Detener sesión de enfoque",

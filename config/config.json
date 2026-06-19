@@ -2741,13 +2741,21 @@
         "repeatNone": "Does not repeat",
         "repeatDaily": "Daily",
         "repeatWeekly": "Weekly",
-        "repeatMonthly": "Monthly"
+        "repeatMonthly": "Monthly",
+        "tasksForToday": "Tasks for today",
+        "tasksAddNew": "Add task",
+        "tasksAddFromList": "From to-do list",
+        "tasksEmpty": "No tasks yet. Add one from scratch or from your to-do list.",
+        "tasksSearchPlaceholder": "Search tasks…",
+        "tasksAllProjects": "All projects",
+        "tasksAddSelected": "Add"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
         "titleTools": "TOOLS",
         "titlePreferences": "PREFERENCES",
-        "menuHabits": "Day Plan",
+        "menuHabits": "Habits",
+        "menuDayPlan": "Day Plan",
         "menuCustomRoutine": "Custom Routine",
         "menuStartFocusSession": "Start Focus Session",
         "menuStopFocusSession": "Stop Focus Session",
