@@ -398,7 +398,10 @@
         "buttonSleepText": "Put Mac to sleep",
         "selectUnlockMinutesText": "Select duration for unlock:",
         "alreadyUnlockedText": "You already unlocked for <DURATION> minutes",
-        "unlockingFirstTimeText": "Unlocking for 30 minutes."
+        "unlockingFirstTimeText": "Unlocking for 30 minutes.",
+        "cancelledEveningRoutineReminderText": "(By the way, you cancelled your evening routine. if you changed your mind and want to do your evening habits click resume evening routine)",
+        "buttonResumeEveningRoutine": "Resume evening routine",
+        "buttonUnlockComputer": "Unlock computer"
     },
     "settings": {
         "title": "Enter settings JSON below:",
@@ -718,7 +721,7 @@
         "titleUseBlockList": "Use Block Lists to stay focused on a certain type of work. Start a focus session from the focus bear menu or use a blocking schedule.",
         "deepWorkText": "Deep Work",
         "workFocusModeText": "Work",
-        "checkBoxSuggestWorkFocusMode": "Automatically suggest starting this focus mode when any allowed URL is opened"
+        "checkBoxSuggestWorkFocusMode": "Automatically suggest starting this focus mode when any allowed URL/App is opened"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Run apple script before starting focus mode.",
@@ -2701,7 +2704,14 @@
         "freeTimeTextNew": "Well done finishing your evening routine 👏\nYour sleep time is <CUTOFFTIME>.\nYour next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪",
         "freeTimeCancelledEveningRoutine": "You cancelled your evening routine for today. \nYour sleep time is <CUTOFFTIME>.\nYour next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪",
         "setSleepTimeCancelledEveningRoutine": "You cancelled your evening routine habits for today.\nYou do not have sleep time set.",
-        "nextRoutineTimeCancelledMorninigRoutine": "You cancelled your morning routine for today.\nYour next scheduled routine (<ROUTINE>) is set for <TIME>. Be ready to jump back in and continue building those healthy habits. You've got this!"
+        "nextRoutineTimeCancelledMorninigRoutine": "You cancelled your morning routine for today.\nYour next scheduled routine (<ROUTINE>) is set for <TIME>. Be ready to jump back in and continue building those healthy habits. You've got this!",
+        "buttonUncancelEveningRoutine": "Uncancel my evening routine",
+        "buttonUncancelMorningRoutine": "Uncancel my morning routine",
+        "restoreRoutineFailedText": "We couldn't restore your routine right now. Please try again.",
+        "setSleepTimeCancelledEveningRoutineWithUndo": "You do not have sleep time set.\n\n(By the way, you cancelled your evening routine. if you changed your mind and want to do your evening habits click Uncancel my evening routine)",
+        "sleepTimeCancelledEveningRoutineWithUndo": "Your sleep time is <CUTOFFTIME>.\n\n(By the way, you cancelled your evening routine. if you changed your mind and want to do your evening habits click Uncancel my evening routine)",
+        "nextMorningRoutineStartText": "Your next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪",
+        "nextRoutineTimeCancelledMorningRoutineWithUndo": "Your next scheduled routine (<ROUTINE>) is set for <TIME>. Be ready to jump back in and continue building those healthy habits. You've got this!\n\n(By the way, you cancelled your morning routine. if you changed your mind and want to do your morning habits click Uncancel my morning routine)"
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Enable Breaks",
@@ -2992,7 +3002,11 @@
         "title": "You’re currently using a website allowed for <WORK> Focus Mode.",
         "subTitle": "Would you like to start Focus Mode now?",
         "buttonYes": "Yes, Start",
-        "buttonNotNow": "Not Now"
+        "buttonNotNow": "Not Now",
+        "titleApp": "You’re currently using a app allowed for <WORK> Focus Mode.",
+        "focusDurationLabel": "Focus duration:",
+        "focusDurationUnit": "minutes",
+        "sessionGoal": "What do you want to achieve in this focus session?"
     },
     "installHabitPacksVcInfo": {
         "bubbleText": "Try searching for a goal or a keyword"
