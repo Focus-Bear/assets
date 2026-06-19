@@ -2712,6 +2712,7 @@
         "meeting": "meeting",
         "meetingDefaultTitle": "Meeting",
         "deepWork": "Deep work",
+        "breakSprint": "Break",
         "deepWorkNoRoom": "Deep work (no room for next habit)",
         "sleep": "Sleep",
         "eveningRoutine": "Evening routine",
