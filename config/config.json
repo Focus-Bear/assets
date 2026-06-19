@@ -2734,7 +2734,14 @@
         "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
         "showEarlierEvents": "Show events from earlier today",
         "hideEarlierEvents": "Hide events from earlier today",
-        "viewTomorrow": "View tomorrow's schedule"
+        "viewTomorrow": "View tomorrow's schedule",
+        "editEventTitle": "Edit event",
+        "eventRepeatLabel": "Repeat",
+        "eventColorLabel": "Colour",
+        "repeatNone": "Does not repeat",
+        "repeatDaily": "Daily",
+        "repeatWeekly": "Weekly",
+        "repeatMonthly": "Monthly"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",

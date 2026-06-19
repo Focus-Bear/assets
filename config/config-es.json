@@ -2732,7 +2732,14 @@
         "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
         "showEarlierEvents": "Mostrar eventos anteriores de hoy",
         "hideEarlierEvents": "Ocultar eventos anteriores de hoy",
-        "viewTomorrow": "Ver el horario de mañana"
+        "viewTomorrow": "Ver el horario de mañana",
+        "editEventTitle": "Editar evento",
+        "eventRepeatLabel": "Repetir",
+        "eventColorLabel": "Color",
+        "repeatNone": "No se repite",
+        "repeatDaily": "Cada día",
+        "repeatWeekly": "Cada semana",
+        "repeatMonthly": "Cada mes"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
