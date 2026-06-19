@@ -2912,8 +2912,8 @@
     },
     "accessibilityPermissionVcInfoNew": {
         "title": "Grant Accessibility Permissions",
-        "subTitleMacOS13": "In order to interact with other browsers, you need to authorise Focus Bear through System Preferences:\nSystem Preferences > Privacy & Security > Accessibility",
-        "subTitleLegacy": "In order to interact with other browsers, you need to authorise Focus Bear through System Preferences:\nSystem Preferences > Security & Privacy > Privacy > Accessibility",
+        "subTitleMacOS13": "In order to block distractions, you need to authorise Focus Bear through System Preferences:\nSystem Preferences > Privacy & Security > Accessibility",
+        "subTitleLegacy": "In order to block distractions, you need to authorise Focus Bear through System Preferences:\nSystem Preferences > Security & Privacy > Privacy > Accessibility",
         "description": "Toggle Focus Bear on.",
         "buttonContinue": "Proceed",
         "buttonSkip": "Skip",

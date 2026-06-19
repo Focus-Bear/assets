@@ -2910,8 +2910,8 @@
     },
     "accessibilityPermissionVcInfoNew": {
         "title": "Concede permisos de Accesibilidad",
-        "subTitleMacOS13": "Para interactuar con otros navegadores, necesitas autorizar Focus Bear desde Preferencias del Sistema:\nPreferencias del Sistema > Privacidad y seguridad > Accesibilidad",
-        "subTitleLegacy": "Para interactuar con otros navegadores, necesitas autorizar Focus Bear desde Preferencias del Sistema:\nPreferencias del Sistema > Seguridad y privacidad > Privacidad > Accesibilidad",
+        "subTitleMacOS13": "Para bloquear distracciones, necesitas autorizar Focus Bear desde Preferencias del Sistema:\nPreferencias del Sistema > Privacidad y seguridad > Accesibilidad",
+        "subTitleLegacy": "Para bloquear distracciones, necesitas autorizar Focus Bear desde Preferencias del Sistema:\nPreferencias del Sistema > Seguridad y privacidad > Privacidad > Accesibilidad",
         "description": "Activa Focus Bear.",
         "buttonContinue": "Continuar",
         "buttonSkip": "Omitir",
