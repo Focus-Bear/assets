@@ -2751,7 +2751,9 @@
         "tasksAddSelected": "Add",
         "tasksNamePlaceholder": "Task name",
         "tasksDragHint": "Drag onto a block to schedule it",
-        "tasksReturnToPanel": "Move back to tasks"
+        "tasksReturnToPanel": "Move back to tasks",
+        "tasksTimeBoxed": "Time boxed",
+        "tasksNotTimeBoxed": "Not yet time boxed"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",

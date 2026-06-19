@@ -2749,7 +2749,9 @@
         "tasksAddSelected": "Añadir",
         "tasksNamePlaceholder": "Nombre de la tarea",
         "tasksDragHint": "Arrastra a un bloque para programarla",
-        "tasksReturnToPanel": "Devolver a tareas"
+        "tasksReturnToPanel": "Devolver a tareas",
+        "tasksTimeBoxed": "Con tiempo asignado",
+        "tasksNotTimeBoxed": "Sin tiempo asignado"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
