@@ -2747,7 +2747,9 @@
         "tasksSearchPlaceholder": "Buscar tareas…",
         "tasksAllProjects": "Todos los proyectos",
         "tasksAddSelected": "Añadir",
-        "tasksNamePlaceholder": "Nombre de la tarea"
+        "tasksNamePlaceholder": "Nombre de la tarea",
+        "tasksDragHint": "Arrastra a un bloque para programarla",
+        "tasksReturnToPanel": "Devolver a tareas"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",

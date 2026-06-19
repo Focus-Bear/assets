@@ -2749,7 +2749,9 @@
         "tasksSearchPlaceholder": "Search tasks…",
         "tasksAllProjects": "All projects",
         "tasksAddSelected": "Add",
-        "tasksNamePlaceholder": "Task name"
+        "tasksNamePlaceholder": "Task name",
+        "tasksDragHint": "Drag onto a block to schedule it",
+        "tasksReturnToPanel": "Move back to tasks"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",
