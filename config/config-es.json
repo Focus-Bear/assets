@@ -2751,7 +2751,13 @@
         "tasksDragHint": "Arrastra a un bloque para programarla",
         "tasksReturnToPanel": "Devolver a tareas",
         "tasksTimeBoxed": "Con tiempo asignado",
-        "tasksNotTimeBoxed": "Sin tiempo asignado"
+        "tasksNotTimeBoxed": "Sin tiempo asignado",
+        "tasksSnoozeHint": "Posponer — mover a otro día",
+        "tasksSnoozeTitle": "Mover tarea a…",
+        "tasksSnoozePlaceholder": "p. ej. 2d, 2w, tue, tom",
+        "tasksSnoozeHelp": "2d = en 2 días · 2w = en 2 semanas · tue = próximo martes · tom = mañana",
+        "tasksSnoozeConfirm": "Mover",
+        "tasksSnoozeCancel": "Cancelar"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
