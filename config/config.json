@@ -83,7 +83,9 @@
         "actionBarItemPlay": "Play",
         "actionBarItemDone": "Done",
         "actionBarItemSkip": "Skip",
-        "habitsRemovedWarningText": "Some habits which are past the cutoff time you set have been removed from the list."
+        "habitsRemovedWarningText": "Some habits which are past the cutoff time you set have been removed from the list.",
+        "titleMorningRoutinePostponed": "Morning routine postponed. Begin a habit to resume the morning routine.",
+        "titleEveningRoutinePostponed": "Evening routine postponed. Begin a habit to resume the evening routine."
     },
     "focusProgressInfo": {
         "pauseText": "Pause",
@@ -222,7 +224,8 @@
         "focusSessionPausedText": "Focus Session is paused.",
         "trayIconTooltipText": "Focus Bear",
         "trayIconBalloonText": "Focus Bear",
-        "unblockNotAvailableNewText": "You're in Grizzly Bear mode - change your settings to unblock"
+        "unblockNotAvailableNewText": "You're in Grizzly Bear mode - change your settings to unblock",
+        "taskCreated": "\"<TASK>\" task created successfully."
     },
     "callNotifier": {
         "micUsageText": "is using your microphone",
@@ -629,7 +632,8 @@
         "descriptionAdvanceAanalytics": "Track the exact time you spend on each app and browser tab during focus mode. Gain deeper insights into your productivity by understanding how your attention is distributed.",
         "switchButtonFocusVisualIndicatoText": "Show focus visual indicator",
         "descriptionFocusVisualIndicatorText": "Display a visual indicator when the focus alignment score drops.",
-        "privacyAdvanceAanalytics": "Data is only stored on your computer and not sent to our servers."
+        "privacyAdvanceAanalytics": "Data is only stored on your computer and not sent to our servers.",
+        "subTitleTabLimiter": "Works only during active Focus Sessions or active Blocking Schedules."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Block Lists to stay focused on a certain type of work.Start a focus session from the focus bear menu or use a blocking schedule.",
@@ -1725,7 +1729,8 @@
         "descriptionNew": "Click on ‘Request Permission’ to view the prompt on the browser. Then, select the ‘Allow’ option:",
         "buttonProceed": "Proceed",
         "buttonSkip": "Skip",
-        "bubbleText": "We need this to redirect the browser to the blocked page when you visit a distracting site"
+        "bubbleText": "We need this to redirect the browser to the blocked page when you visit a distracting site",
+        "buttonOpenPreferences": "Open Automation Preferences"
     },
     "onboardingPrivacyTipVcInfo": {
         "title": "Privacy and Security",
@@ -2015,7 +2020,10 @@
         "tabLimitDescText": "Set the maximum number of browser tabs you want open at once. Focus Bear will alert you when you exceed this limit. Set to 0 to disable.",
         "disableNotificationSoundsText": "Disable notification sounds",
         "disableNotificationSoundsDescText": "When enabled, Focus Bear will not play any notification sounds (habit complete, routine start/end, focus mode). Focus music is not affected.",
-        "alwaysAllowedAppsTitle": "Always Allowed Apps"
+        "alwaysAllowedAppsTitle": "Always Allowed Apps",
+        "titleFocusButton": "Focus Button",
+        "descriptionFocusButton": "The FocusButton device connects to your computer using a USB cable and works together with the app to help manage focus sessions and actions. Once connected, the app automatically detects the device and establishes communication with it.",
+        "buttonConnectFocusButton": "Connect"
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -2084,7 +2092,7 @@
     },
     "helpVcInfo": {
         "shareLogsValidationText": "Please describe the issue you’re experiencing so our developers can investigate it properly. Logs without context cannot be processed.",
-        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
+        "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at support@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
         "buttonShareLogsText": "Share logs with Focus Bear Support Team",
         "placeHolderLogsFeedback": "What happened?",
         "logsUploadDoneText": "Logs successfully shared.",
@@ -2688,8 +2696,10 @@
         "setSleepTime": "You do not have sleep time set.",
         "buttonSetTiming": "Set timing",
         "shutoffAbortedTextNew": "Your morning routine starts at <TIME> — time to log off and rest.",
-        "freeTimeTextNew": "Well done finishing your evening routine 👏\nYour sleep time is <CUTOFFTIME>.\nYour next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪"
-        
+        "freeTimeTextNew": "Well done finishing your evening routine 👏\nYour sleep time is <CUTOFFTIME>.\nYour next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪",
+        "freeTimeCancelledEveningRoutine": "You cancelled your evening routine for today. \nYour sleep time is <CUTOFFTIME>.\nYour next morning routine starts at <STARTTIME>.\nRest well and recharge for a strong start tomorrow 💪",
+        "setSleepTimeCancelledEveningRoutine": "You cancelled your evening routine habits for today.\nYou do not have sleep time set.",
+        "nextRoutineTimeCancelledMorninigRoutine": "You cancelled your morning routine for today.\nYour next scheduled routine (<ROUTINE>) is set for <TIME>. Be ready to jump back in and continue building those healthy habits. You've got this!"
     },
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Enable Breaks",
@@ -2724,12 +2734,12 @@
         "menuHelpAndSupport": "Help & Support",
         "menuUpgradeNow": "Upgrade Now",
         "menuTabAudit": "Tab Audit",
-        "disableReasonMorningRoutine": "Disabled because your morning routine is in progress.",
-        "disableReasonEveningRoutine": "Disabled because your evening routine is in progress.",
-        "disableReasonFocusSummary": "Disabled because your all-day summary is visible.",
-        "disableReasonShutoffTime": "Disabled because it’s your shutoff time.",
-        "disableReasonMircoBreaks": "Disabled because your micro break is in progress.",
-        "disableReasonCustomRoutine": "Disabled because your custom routine is in progress.",
+        "disableReasonMorningRoutine": "Disabled because your morning routine is in progress. Go to the Habits tab to continue.",
+        "disableReasonEveningRoutine": "Disabled because your evening routine is in progress. Go to the Habits tab to continue.",
+        "disableReasonFocusSummary": "Disabled because your all-day summary is visible. Go to the Habits tab to continue.",
+        "disableReasonShutoffTime": "Disabled because it’s your shutoff time. Go to the Habits tab to continue.",
+        "disableReasonMircoBreaks": "Disabled because your micro break is in progress. Go to the Micro Break tab to continue.",
+        "disableReasonCustomRoutine": "Disabled because your custom routine is in progress. Go to the Custom Routine tab to continue.",
         "superStrictNeedPasswordText": "You're running in Super Strict mode and no password is set. You will need to set a password to pause this custom schedule."
     },
     "browsersTabAuditVcInfo":{
@@ -2958,7 +2968,8 @@
         "descriptionText": "Set global keyboard shortcuts to instantly open Brain Dump, Focus Music, or Task List from anywhere on your Mac.",
         "brainDumpTitle": "Open Brain Dump:",
         "focusMusicTitle": "Open Focus Music:",
-        "taskListTitle": "Open Task List:"
+        "taskListTitle": "Open Task List:",
+        "focusSessionTitle": "Start focus session:"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
