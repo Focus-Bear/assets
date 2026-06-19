@@ -585,6 +585,8 @@
         "titleAppMode": "Modo de Focus Bear:",
         "checkBoxCuddlyBearText": "Modo Osito de Peluche",
         "descriptionCuddlyBearText": "Modo Osito de Peluche: amable y gentil: te da el beneficio de la duda cuando abres una URL no permitida. Te deja permitir temporalmente las URL bloqueadas durante un modo de enfoque.",
+        "titleCuddlyDailyCap": "Límite diario para sitios distractores (minutos):",
+        "descriptionCuddlyDailyCap": "El tiempo total máximo por día que puedes desbloquear temporalmente sitios distractores en el modo Osito de Peluche. Una vez que lo alcanzas, esos sitios permanecen bloqueados hasta el día siguiente.",
         "checkBoxGrizzlyBearText": "Modo Oso Pardo",
         "descriptionGrizzlyBearText": "Modo Oso Pardo: súper estricto: bloquea inmediatamente las URL que no están permitidas y no se permite habilitarlas hasta que finalices el modo de enfoque.",
         "pomodoroDescriptionText": "Las Sesiones de Enfoque (modo pomodoro) alternan entre bloques de trabajo profundo en los que se activa el modo de enfoque (y se desactivan las distracciones) y periodos de descanso.",
