@@ -225,7 +225,7 @@
         "trayIconTooltipText": "Focus Bear",
         "trayIconBalloonText": "Focus Bear",
         "unblockNotAvailableNewText": "Estás en modo Oso Grizzly — cambia tu configuración para desbloquear",
-        "taskCreated": "La tarea “<TASK>” se creó correctamente."
+        "taskCreated": "Tarea \"<TASK>\" creada exitosamente."
     },
     "callNotifier": {
         "micUsageText": "está usando tu micrófono",
