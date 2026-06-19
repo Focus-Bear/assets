@@ -2746,7 +2746,8 @@
         "tasksEmpty": "Aún no hay tareas. Añade una desde cero o desde tu lista de tareas.",
         "tasksSearchPlaceholder": "Buscar tareas…",
         "tasksAllProjects": "Todos los proyectos",
-        "tasksAddSelected": "Añadir"
+        "tasksAddSelected": "Añadir",
+        "tasksNamePlaceholder": "Nombre de la tarea"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
