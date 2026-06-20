@@ -2783,7 +2783,11 @@
         "tasksSnoozeConfirm": "Move",
         "tasksSnoozeCancel": "Cancel",
         "tasksNoProject": "No project",
-        "tasksProjectHint": "Type #project to group this task"
+        "tasksProjectHint": "Type #project to group this task",
+        "customRoutinesTitle": "Custom routines",
+        "customRoutinesEmpty": "No on-demand routines",
+        "tabCustomRoutine": "Custom routine",
+        "tabDayPlan": "Day Plan"
     },
     "leftMenuVcInfo":{
         "titleMain": "MAIN",

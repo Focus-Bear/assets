@@ -2781,7 +2781,11 @@
         "tasksSnoozeConfirm": "Mover",
         "tasksSnoozeCancel": "Cancelar",
         "tasksNoProject": "Sin proyecto",
-        "tasksProjectHint": "Escribe #proyecto para agrupar esta tarea"
+        "tasksProjectHint": "Escribe #proyecto para agrupar esta tarea",
+        "customRoutinesTitle": "Rutinas personalizadas",
+        "customRoutinesEmpty": "No hay rutinas a demanda",
+        "tabCustomRoutine": "Rutina personalizada",
+        "tabDayPlan": "Plan del día"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
