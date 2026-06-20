@@ -2784,6 +2784,7 @@
         "tasksProjectHint": "Escribe #proyecto para agrupar esta tarea",
         "customRoutinesTitle": "Rutinas personalizadas",
         "customRoutinesEmpty": "No hay rutinas a demanda",
+        "customRoutinesAfterCutoff": "Las rutinas personalizadas a demanda se desactivan hasta mañana por la mañana: es hora de ir terminando",
         "tabCustomRoutine": "Rutina personalizada",
         "tabDayPlan": "Plan del día"
     },
