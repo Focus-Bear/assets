@@ -429,6 +429,8 @@
         "settingIsValidText": "¡Guardado! Reiniciando la app para que tu nuevo horario de hábitos funcione.",
         "settingsEditedButNotSavedText": "Has hecho cambios en tus hábitos/descansos pero aún no los has guardado. Se recomienda revisar y guardar los cambios (la aplicación se reiniciará)",
         "buttonReviewSettingsText": "Revisaré y Guardaré",
+        "buttonDiscardChangesText": "Descartar cambios",
+        "settingsChangesNotSavedText": "Has hecho cambios en tus ajustes pero aún no los has guardado. ¿Quieres revisarlos y guardarlos?",
         "downloadReportText": "Visita el panel de control de Focus Bear en tu navegador web para descargar el informe.",
         "buttonVisitDashboardText": "Haz clic aquí para visitar el panel de control",
         "tokenErrorText": "Sesión expirada. Por favor, inicia sesión de nuevo.",
