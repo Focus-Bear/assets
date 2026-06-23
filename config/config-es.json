@@ -2773,7 +2773,20 @@
         "tasksDragHint": "Arrastra a un bloque para programarla",
         "tasksReturnToPanel": "Devolver a tareas",
         "tasksTimeBoxed": "Con tiempo asignado",
-        "tasksNotTimeBoxed": "Sin tiempo asignado"
+        "tasksNotTimeBoxed": "Sin tiempo asignado",
+        "tasksSnoozeHint": "Posponer — mover a otro día",
+        "tasksSnoozeTitle": "Mover tarea a…",
+        "tasksSnoozePlaceholder": "p. ej. 2d, 2w, tue, tom",
+        "tasksSnoozeHelp": "2d = en 2 días · 2w = en 2 semanas · tue = próximo martes · tom = mañana",
+        "tasksSnoozeConfirm": "Mover",
+        "tasksSnoozeCancel": "Cancelar",
+        "tasksNoProject": "Sin proyecto",
+        "tasksProjectHint": "Escribe #proyecto para agrupar esta tarea",
+        "customRoutinesTitle": "Rutinas personalizadas",
+        "customRoutinesEmpty": "No hay rutinas a demanda",
+        "customRoutinesAfterCutoff": "Las rutinas personalizadas a demanda se desactivan hasta mañana por la mañana: es hora de ir terminando",
+        "tabCustomRoutine": "Rutina personalizada",
+        "tabDayPlan": "Plan del día"
     },
     "leftMenuVcInfo":{
         "titleMain": "PRINCIPAL",
