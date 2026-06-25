@@ -2845,7 +2845,7 @@
         "tasksForDay": "Tareas del %@",
         "tasksShowCompleted": "Mostrar completadas",
         "tasksShowCompletedCount": "Mostrar completadas (%d)",
-        "tasksExpand": "Expandir",
+        "tasksExpand": "Detalles",
         "tasksSnooze": "Posponer",
         "tasksRemove": "Eliminar",
         "tasksDetailsTitle": "Detalles de la tarea",
