@@ -2864,7 +2864,7 @@
         "tasksSnoozeHint": "Snooze — move to another day",
         "tasksSnoozeTitle": "Move task to…",
         "tasksSnoozePlaceholder": "e.g. 2d, 2w, tue, tom",
-        "tasksSnoozeHelp": "2d = in 2 days · 2w = in 2 weeks · tue = next Tuesday · tom = tomorrow",
+        "tasksSnoozeHelp": "2d = in 2 days · 2w = in 2 weeks · tue = next Tuesday · tom = tomorrow · 1 Jul = a date",
         "tasksSnoozeConfirm": "Move",
         "tasksSnoozeCancel": "Cancel",
         "tasksNoProject": "No project",
