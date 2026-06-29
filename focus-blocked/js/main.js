@@ -63,7 +63,9 @@ try {
     if (old_url) {
       focusBlockedOriginalUrl.style.display = 'inline-block';
       focusBlockedOriginalUrl.setAttribute('href', current_url);
-      focusBlockedOriginalUrl.textContent = selected_lang.original_url(old_url);
+      focusBlockedOriginalUrl.textContent = selected_lang.original_url(
+        truncateUrlForDisplay(old_url)
+      );
       focusBlockedOriginalUrl.setAttribute('title', old_url);
     } else {
       focusBlockedOriginalUrl.style.display = 'none';
@@ -106,7 +108,9 @@ try {
             focusBlockedOriginalUrl.style.display = 'inline-block';
             focusBlockedOriginalUrl.setAttribute('href', current_url);
             focusBlockedOriginalUrl.textContent =
-              selected_lang.click_here_to_re_open_the_original_url(old_url);
+              selected_lang.click_here_to_re_open_the_original_url(
+                truncateUrlForDisplay(old_url)
+              );
             focusBlockedOriginalUrl.setAttribute('title', old_url);
           } else {
             focusBlockedOriginalUrl.style.display = 'none';
@@ -133,7 +137,9 @@ try {
             : 'none';
           focusBlockedOriginalUrl.setAttribute('href', current_url);
           focusBlockedOriginalUrl.textContent =
-            selected_lang.click_here_to_re_open_the_original_url(old_url);
+            selected_lang.click_here_to_re_open_the_original_url(
+              truncateUrlForDisplay(old_url)
+            );
           focusBlockedOriginalUrl.setAttribute('title', old_url);
           localStorage.removeItem(LOCAL_STORAGE.IS_PAGE_LOADED);
           localStorage.removeItem(LOCAL_STORAGE.IS_PAGE_RELOADED);
@@ -151,8 +157,10 @@ try {
 
   if (current_url) {
     const save_page_url_btn = document.createElement('a');
-    save_page_url_btn.innerHTML =
-      selected_lang.save_this_page_for_later(current_url);
+    save_page_url_btn.innerHTML = selected_lang.save_this_page_for_later(
+      truncateUrlForDisplay(current_url)
+    );
+    save_page_url_btn.setAttribute('title', current_url);
     save_page_url_btn.setAttribute(
       'href',
       `https://dashboard.focusbear.io/todo?tab=procrastinate&url=${encodeURI(
