@@ -629,7 +629,7 @@
         "checkBoxFullScreenEnabledText": "Reproducir hábitos en modo pantalla completa",
         "checkBoxAutoCloseAfterRoutineText": "Cerrar ventana automáticamente al completar, omitir o posponer una rutina",
         "titleDarkMode": "Modo Oscuro:",
-        "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro, Automáticamente"],
+        "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro", "Automáticamente"],
         "titleAnnouncement": "Anuncio:",
         "checkBoxAnnouncementText": "Anuncio después de cada actividad",
         "checkBoxShowBreaksInCallText": "Mostrar descansos durante llamadas",
