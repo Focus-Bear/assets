@@ -2108,6 +2108,7 @@
         "placeHolderLogsFeedback": "What happened?",
         "logsUploadDoneText": "Logs successfully shared.",
         "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.",
+        "logsUploadErrorConnectionText": "There was a problem with your Internet connection while uploading the logs. Please check your connection and try again.",
         "tabCommunity": "Community",
         "titleCommunity": "Join the Focus Bear discord server to share ideas, set up co-working/body doubling sessions and get help with the app.",
         "buttonJoinDiscordText": "Join Discord Server",

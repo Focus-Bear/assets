@@ -2106,6 +2106,7 @@
         "placeHolderLogsFeedback": "¿Qué ha sucedido?",
         "logsUploadDoneText": "Registros compartidos con éxito.",
         "logsUploadErrorText": "Ha habido algún problema al cargar los registros. Por favor, inténtalo de nuevo.",
+        "logsUploadErrorConnectionText": "Se ha producido un problema con tu conexión a Internet al enviar los registros. Comprueba tu conexión e inténtalo de nuevo.",
         "tabCommunity": "Comunidad",
         "titleCommunity": "Únete al servidor de Discord de Focus Bear para compartir ideas, organizar sesiones de trabajo/doblaje de cuerpos y obtener ayuda con la aplicación.",
         "buttonJoinDiscordText": "Unirse al servidor Discord",
