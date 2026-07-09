@@ -2729,6 +2729,9 @@
         "buttonChangeTiming": "Cambiar horario"
     },
     "scheduleViewInfo":{
+        "showDismissedEvents": "Mostrar eventos descartados",
+        "showEventAgain": "Mostrar este evento de nuevo",
+        "hideEvent": "Ocultar este evento",
         "morningRoutineHabits": "Hábitos de la rutina matutina",
         "eveningRoutineHabits": "Hábitos de la rutina nocturna",
         "habitsSuffix": "hábitos",
@@ -3103,5 +3106,15 @@
         "downloadingUpdate": "Descargando Actualización",
         "downloadProgress": "Descargando Actualización: {0} de {1}",
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
+    },
+    "focusButtonInfo":{
+        "focusSessionEmoji": "Emoji de la sesión de concentración",
+        "focusEmojiHint": "Elige hasta 5 emojis: el botón muestra uno al azar como protagonista cuando inicias una sesión de concentración.",
+        "save": "Guardar",
+        "habitIconsLabel": "Iconos de hábitos",
+        "focusIconsLabel": "Iconos de la sesión de concentración",
+        "iconsUpToDate": "actualizados",
+        "checkingHabitIcons": "Comprobando iconos de hábitos…",
+        "checkingFocusIcons": "Comprobando iconos de concentración…"
     }
 }
