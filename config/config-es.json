@@ -2729,6 +2729,10 @@
         "buttonChangeTiming": "Cambiar horario"
     },
     "scheduleViewInfo":{
+        "cancelRoutineTitle": "¿Cancelar rutina?",
+        "cancelRoutineMessage": "Si cambias de opinión más tarde, puedes hacer clic en el botón «<BUTTON>» para restaurar la rutina.",
+        "cancelRoutineOk": "Aceptar",
+        "cancelRoutineCancel": "Cancelar",
         "morningRoutineHabits": "Hábitos de la rutina matutina",
         "eveningRoutineHabits": "Hábitos de la rutina nocturna",
         "habitsSuffix": "hábitos",
