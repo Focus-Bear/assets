@@ -2731,6 +2731,10 @@
         "buttonChangeTiming": "Change Timing"
     },
     "scheduleViewInfo":{
+        "cancelRoutineTitle": "Cancel Routine?",
+        "cancelRoutineMessage": "If you change your mind later, you can click the \"<BUTTON>\" button to restore the routine.",
+        "cancelRoutineOk": "OK",
+        "cancelRoutineCancel": "Cancel",
         "morningRoutineHabits": "Morning routine habits",
         "eveningRoutineHabits": "Evening routine habits",
         "habitsSuffix": "habits",
