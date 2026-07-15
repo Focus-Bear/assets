@@ -2294,6 +2294,12 @@
         "buttonDontShowAgainText": "No volver a mostrar",
         "alertConfirmSwitchGeekModeDescription": "Puedes cambiar los modos desde Preferencias -> Configuración"
     },
+    "focusMusicPromptInfo": {
+        "title": "¿Quieres poner música de enfoque?",
+        "buttonYesText": "Sí, reproducir música",
+        "buttonNoText": "No, gracias",
+        "buttonDontAskAgainText": "No volver a preguntar"
+    },
     "takeBreaksInfoVcInfo":{
         "subTitle": "Focus Bear puede ayudarte a tomar pequeños descansos (de 30s a 2min) durante el día. Esto ayudará a evitar dolores de cabeza por la pantalla y, de hecho, mejorará tu productividad. Incluso puedes hacer microentrenamientos en los descansos 💪.",
         "warningText": "Advertencia: aparecerán ventanas emergentes pidiéndote que tomes descansos. Puedes saltarlos o posponerlos, pero tus ojos y tu cuerpo agradecerán que sí los hagas.",

@@ -2296,6 +2296,12 @@
         "buttonDontShowAgainText": "Don't show again",
         "alertConfirmSwitchGeekModeDescription": "You can switch the modes from Preferences -> Settings tab"
     },
+    "focusMusicPromptInfo": {
+        "title": "Want to play some focus music?",
+        "buttonYesText": "Yes, play music",
+        "buttonNoText": "No thanks",
+        "buttonDontAskAgainText": "Don't ask again"
+    },
     "takeBreaksInfoVcInfo":{
         "subTitle": "Focus Bear can help you remember to take short breaks (30s to 2 minutes) regularly throughout the day. This will help avoid screen headaches and actually improve your productivity. You can even do microworkouts during the breaks 💪",
         "warningText": "Warning: you will get popups asking you to take breaks. You can skip/postpone the breaks but your eyes and body will really appreciate it if you do take breaks!",
