@@ -2951,7 +2951,9 @@
         "unlockRequestFailedBody": "Something went wrong while sending your unlock request. Please try again.",
         "defaultSessionName": "Class focus session",
         "breakBlockedTitle": "Class focus session in progress",
-        "breakBlockedBody": "You can't start a break during a class focus session. It resumes automatically when your teacher ends the session."
+        "breakBlockedBody": "You can't start a break during a class focus session. It resumes automatically when your teacher ends the session.",
+        "resumeHabitsBlockedTitle": "Class focus session in progress",
+        "resumeHabitsBlockedBody": "You can't resume your habits during a class focus session. They'll resume automatically when your teacher ends the session."
     },
     "focusStateVcInfo":{
         "titleIntention": "Focus Goal:",

@@ -2949,7 +2949,9 @@
         "unlockRequestFailedBody": "Algo salió mal al enviar tu solicitud de desbloqueo. Por favor, inténtalo de nuevo.",
         "defaultSessionName": "Sesión de enfoque de clase",
         "breakBlockedTitle": "Sesión de enfoque de clase en curso",
-        "breakBlockedBody": "No puedes iniciar un descanso durante una sesión de enfoque de clase. Se reanudará automáticamente cuando tu profesor finalice la sesión."
+        "breakBlockedBody": "No puedes iniciar un descanso durante una sesión de enfoque de clase. Se reanudará automáticamente cuando tu profesor finalice la sesión.",
+        "resumeHabitsBlockedTitle": "Sesión de enfoque de clase en curso",
+        "resumeHabitsBlockedBody": "No puedes reanudar tus hábitos durante una sesión de enfoque de clase. Se reanudarán automáticamente cuando tu profesor finalice la sesión."
     },
     "focusStateVcInfo":{
         "titleIntention": "Objetivo de enfoque:",
