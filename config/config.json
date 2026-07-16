@@ -1639,6 +1639,25 @@
         "titleVolumeText": "Volume:",
         "downloadButtonText": "Download"
     },
+    "focusMusicPromptInfo": {
+        "title": "Want to play some focus music?",
+        "buttonYesText": "Yes, play music",
+        "buttonNoText": "No thanks",
+        "buttonDontAskAgainText": "Remember my choice"
+    },
+    "focusMusicInfo": {
+        "sectionTitleSpotify": "Spotify",
+        "sectionTitleYouTubeMusic": "YouTube Music",
+        "sectionTitleLibrary": "Focus Music Library",
+        "spotifyAddPlaceholder": "Paste a Spotify track/album/playlist link",
+        "youtubeAddPlaceholder": "Paste a music.youtube.com link",
+        "addButtonText": "Add",
+        "youtubeHintText": "Add a music.youtube.com video or playlist link to play it here.",
+        "addOwnMusicButtonText": "Add my own music",
+        "spotifyInvalidLinkError": "That doesn't look like a Spotify track/album/playlist link.",
+        "spotifyNotInstalledError": "Spotify isn't installed on this Mac.",
+        "youtubeInvalidLinkError": "That doesn't look like a music.youtube.com link."
+    },
     "setUpVcInfo": {
         "title": "Setup",
         "customiseFocusModeText": "Customise a focus mode",

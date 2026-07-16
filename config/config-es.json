@@ -1638,6 +1638,25 @@
         "titleVolumeText": "Volumen:",
         "downloadButtonText": "Descargar"
     },
+    "focusMusicPromptInfo": {
+        "title": "¿Quieres poner música de enfoque?",
+        "buttonYesText": "Sí, reproducir música",
+        "buttonNoText": "No, gracias",
+        "buttonDontAskAgainText": "Recordar mi elección"
+    },
+    "focusMusicInfo": {
+        "sectionTitleSpotify": "Spotify",
+        "sectionTitleYouTubeMusic": "YouTube Music",
+        "sectionTitleLibrary": "Biblioteca de música de enfoque",
+        "spotifyAddPlaceholder": "Pega un enlace de una canción, álbum o playlist de Spotify",
+        "youtubeAddPlaceholder": "Pega un enlace de music.youtube.com",
+        "addButtonText": "Añadir",
+        "youtubeHintText": "Añade un enlace de video o playlist de music.youtube.com para reproducirlo aquí.",
+        "addOwnMusicButtonText": "Añadir mi propia música",
+        "spotifyInvalidLinkError": "Eso no parece un enlace de una canción, álbum o playlist de Spotify.",
+        "spotifyNotInstalledError": "Spotify no está instalado en este Mac.",
+        "youtubeInvalidLinkError": "Eso no parece un enlace de music.youtube.com."
+    },
     "setUpVcInfo": {
         "title": "Configuración",
         "customiseFocusModeText": "Personalizar un modo de enfoque",
