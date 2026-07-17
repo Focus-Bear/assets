@@ -2767,6 +2767,9 @@
         "eventSave": "Save",
         "eventCancel": "Cancel",
         "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
+        "showDismissedEvents": "Show dismissed events",
+        "showEventAgain": "Show this event again",
+        "hideEvent": "Hide this event",
         "showEarlierEvents": "Show events from earlier today",
         "hideEarlierEvents": "Hide events from earlier today",
         "viewTomorrow": "View tomorrow's schedule",
@@ -3111,5 +3114,15 @@
         "downloadingUpdate": "Downloading Update",
         "downloadProgress": "Downloading Update: {0} of {1}",
         "allWebsitesAllowed": "All websites are allowed"
+    },
+    "focusButtonInfo":{
+        "focusSessionEmoji": "Focus session emoji",
+        "focusEmojiHint": "Pick up to 5 emoji — the button shows a random one as the hero when you start a focus session.",
+        "save": "Save",
+        "habitIconsLabel": "Habit icons",
+        "focusIconsLabel": "Focus session icons",
+        "iconsUpToDate": "up to date",
+        "checkingHabitIcons": "Checking habit icons…",
+        "checkingFocusIcons": "Checking focus icons…"
     }
 }

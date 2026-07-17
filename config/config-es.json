@@ -2765,6 +2765,9 @@
         "eventSave": "Guardar",
         "eventCancel": "Cancelar",
         "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
+        "showDismissedEvents": "Mostrar eventos descartados",
+        "showEventAgain": "Volver a mostrar este evento",
+        "hideEvent": "Ocultar este evento",
         "showEarlierEvents": "Mostrar eventos anteriores de hoy",
         "hideEarlierEvents": "Ocultar eventos anteriores de hoy",
         "viewTomorrow": "Ver el horario de mañana",
@@ -3109,5 +3112,15 @@
         "downloadingUpdate": "Descargando Actualización",
         "downloadProgress": "Descargando Actualización: {0} de {1}",
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
+    },
+    "focusButtonInfo":{
+        "focusSessionEmoji": "Emoji de la sesión de concentración",
+        "focusEmojiHint": "Elige hasta 5 emojis: el botón muestra uno al azar como protagonista cuando inicias una sesión de concentración.",
+        "save": "Guardar",
+        "habitIconsLabel": "Iconos de hábitos",
+        "focusIconsLabel": "Iconos de la sesión de concentración",
+        "iconsUpToDate": "actualizados",
+        "checkingHabitIcons": "Comprobando iconos de hábitos…",
+        "checkingFocusIcons": "Comprobando iconos de concentración…"
     }
 }
