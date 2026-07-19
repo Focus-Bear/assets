@@ -1,4 +1,17 @@
 {
+    "talkingClockSettingsInfo":{
+        "title": "Talking Clock",
+        "back": "Back",
+        "enableTitle": "Enable talking clock",
+        "enableSubtitle": "Announce the current time at regular intervals to help you stay time-aware.",
+        "announceEvery": "Announce every",
+        "minutes": "minutes",
+        "quietHours": "Quiet hours (no announcements between these times)",
+        "start": "Start:",
+        "end": "End:",
+        "suppressTitle": "Suppress during meetings",
+        "suppressSubtitle": "Don't announce the time when you're in a meeting focus mode."
+    },
     "focusButtonInfo":{
         "focusSessionEmoji": "Focus session emoji",
         "focusEmojiHint": "Pick up to 5 emoji — the button shows a random one as the hero when you start a focus session.",

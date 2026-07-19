@@ -1,4 +1,17 @@
 {
+    "talkingClockSettingsInfo":{
+        "title": "Reloj parlante",
+        "back": "Atrás",
+        "enableTitle": "Activar reloj parlante",
+        "enableSubtitle": "Anuncia la hora actual a intervalos regulares para ayudarte a mantener la conciencia del tiempo.",
+        "announceEvery": "Anunciar cada",
+        "minutes": "minutos",
+        "quietHours": "Horas de silencio (sin anuncios entre estas horas)",
+        "start": "Inicio:",
+        "end": "Fin:",
+        "suppressTitle": "Silenciar durante reuniones",
+        "suppressSubtitle": "No anunciar la hora cuando estás en un modo de enfoque de reunión."
+    },
     "focusButtonInfo":{
         "focusSessionEmoji": "Emoji de sesión de enfoque",
         "focusEmojiHint": "Elige hasta 5 emoji: el botón muestra uno al azar como protagonista cuando inicias una sesión de enfoque.",
