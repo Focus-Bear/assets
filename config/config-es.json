@@ -2566,7 +2566,9 @@
         "toolTipSnapLeft": "Ajustar a la izquierda",
         "toolTipSnapRight": "Ajustar a la derecha",
         "playFocusMusicTooltip": "Reproducir música de enfoque",
-        "endFocusSessionTooltip": "Finalizar sesión de enfoque"
+        "endFocusSessionTooltip": "Finalizar sesión de enfoque",
+        "changeTrackTooltip": "Cambiar música de enfoque",
+        "stopFocusSessionLabel": "Detener sesión de enfoque"
     },
     "onboardingBlockingScheduleVcInfo":{
         "title": "Horario de Bloqueo",

@@ -2568,7 +2568,9 @@
         "toolTipSnapLeft": "Snap to left",
         "toolTipSnapRight": "Snap to right",
         "playFocusMusicTooltip": "Play focus music",
-        "endFocusSessionTooltip": "End focus session"
+        "endFocusSessionTooltip": "End focus session",
+        "changeTrackTooltip": "Change focus music",
+        "stopFocusSessionLabel": "Stop focus session"
     },
     "onboardingBlockingScheduleVcInfo":{
         "title": "Blocking Schedule",
