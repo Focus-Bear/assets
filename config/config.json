@@ -1,4 +1,43 @@
 {
+    "focusButtonInfo":{
+        "focusSessionEmoji": "Focus session emoji",
+        "focusEmojiHint": "Pick up to 5 emoji — the button shows a random one as the hero when you start a focus session.",
+        "save": "Save",
+        "habitIconsLabel": "Habit icons",
+        "focusIconsLabel": "Focus session icons",
+        "iconsUpToDate": "up to date",
+        "checkingHabitIcons": "Checking habit icons…",
+        "checkingFocusIcons": "Checking focus icons…"
+    },
+    "officeModeSettingsVcInfo":{
+        "settingTitle": "Office Mode",
+        "descriptionText": "During office mode, Focus Bear will only give you office friendly break habits (e.g. stretching vs pushups).",
+        "officeModeOptionText": "Office Mode",
+        "wfhModeOptionText": "WFH Mode",
+        "autoSwitchSectionTitle": "Switch automatically using Wi-Fi networks",
+        "autoSwitchDescription": "Focus Bear defaults to Office mode and switches to WFH mode only on the Wi-Fi networks you mark as WFH below (e.g. your home network).",
+        "addBtnTitle": "Add",
+        "addCurrentBtnTitle": "Use Current Network",
+        "removeBtnTitle": "Remove Selected",
+        "colSSIDTitle": "Wi-Fi Network (SSID)",
+        "colProfileTitle": "Mode (WFH / Office)",
+        "alertAddTitle": "Add Wi-Fi Profile Mapping",
+        "alertAddInfo": "Enter the Wi-Fi network name (SSID) and the mode to switch to.",
+        "alertSSIDPlaceholder": "Wi-Fi network name (SSID)",
+        "alertModeLabel": "Mode:",
+        "alertBtnAdd": "Add",
+        "alertBtnCancel": "Cancel",
+        "alertNotConnectedTitle": "Not Connected",
+        "alertNotConnectedMessage": "Focus Bear couldn't read your current Wi-Fi network. Make sure Location Services are enabled for Focus Bear.",
+        "permissionWarningText": "⚠️ Location permission required to read Wi-Fi network name. Enable it in System Settings → Privacy & Security → Location Services."
+    },
+    "eveningShutdownInfo":{
+        "title": "Well done on finishing your evening routine",
+        "subtitle": "Have a restful sleep",
+        "buttonSleepText": "Sleep",
+        "buttonShutDownText": "Shut Down",
+        "buttonNotNowText": "Not now"
+    },
     "welcomeInfo": {
         "welcomeMessageHeading": "Let’s do a quick 30 seconds microbreak",
         "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nLet’s try out some sample habits (deep breathing/stretching).\n\nWhile you breathe deeply/stretch, think of how awesome you’ll be if you stick to your morning routine every day.",
@@ -454,6 +493,7 @@
         "activationErrorSubTitle": "Please enter a valid License key."
     },
     "menuInfo": {
+        "menuItemMeetingDetectionBreaksOnTooltip": "Breaks are still on during this meeting because you've turned on \"Show breaks in call\". You can turn that off in Settings if you'd rather not be interrupted while presenting.",
         "menuItemReactivateTitle": "Activate Distraction Blocking",
         "menuItemEnterLicenseKeyTitle": "Enter License Key",
         "menuItemPreferencesTitle": "Preferences",
@@ -548,6 +588,9 @@
         "habitPostponedState": "✋Postponed"
     },
     "preferencesInfo": {
+        "checkBoxFocusMusicText": "Automatically play focus music when a session starts",
+        "switchButtonFocusGlowBorderText": "Show glow border during focus sessions",
+        "descriptionFocusGlowBorderText": "Display a soft glowing border around your screen while a focus session is running.",
         "titlePomodoro": "Pomodoro Mode:",
         "checkBoxPomodoroText": "Enter Focus session after completing morning routine",
         "titleReduceMotion": "Reduce motion:",
@@ -1006,6 +1049,7 @@
         "tabViewAccountabilityBuddyTitle": "Accountability Buddy"
     },
     "passwordPreferencesInfo": {
+        "buttonPostponeEveningHabitAfterCutOffText": "Postponing evening routine after cutoff time",
         "titleSetPassword": "Set Password",
         "titleChangePassword": "Change Password",
         "newPasswordPlaceholderText": "New Password",
@@ -1092,6 +1136,8 @@
         "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "accountVcInfo": {
+        "titleLeaderboardUsernameText": "Leaderboard Username:",
+        "leaderboardUsernamePlaceholder": "Not set — update your leaderboard username in the web app",
         "title": "Your Account Information",
         "titleNameText": "Name:",
         "titleEmailIdText": "Email Id:",
@@ -1646,6 +1692,7 @@
         "buttonDontAskAgainText": "Remember my choice"
     },
     "focusMusicInfo": {
+        "nowPlayingLabelText": "Now Playing",
         "sectionTitleSpotify": "Spotify",
         "sectionTitleYouTubeMusic": "YouTube Music",
         "sectionTitleLibrary": "Focus Music Library",
@@ -2181,6 +2228,10 @@
         "descriptionBlockUrlsDuringMeetings": "Avoid awkward screensharing moments. Turn this setting off if you don’t want blocking to happen while you’re in meetings."
     },
     "tooltips": {
+        "accessibility_FocusMusicPrompt": "Turn this on to automatically play focus music whenever you start a focus session.",
+        "strictness_Password_PostponeMorningHabit": "Enable this to require your password when postponing your morning routine, so the choice stays intentional.",
+        "strictness_Password_PostponeEveningHabit": "Enable this to require your password when postponing your evening routine, so the choice stays intentional.",
+        "strictness_Password_PostponeEveningHabitAfterCutOffTime": "Enable this to require your password when postponing your evening routine after the cutoff time, so the choice stays intentional.",
         "ui_ActivitiesFullScreen": "Minimize distractions by doing your habits in full screen mode so you can’t see notifications or other apps while you’re doing your routines. If you enable this setting, you won’t be able to switch to other apps via cmd-tab. You can still deactivate Focus Bear if you have an emergency.",
         "ui_ShowDockIcon": "Enable this setting to show the Focus Bear app icon in your Dock. If you click on the dock icon, it will open the Focus Bear menu.",
         "ui_SelectLanguage": "We’ve translated the app into a few languages. Choose your preferred language here. Let us know if you need a different language by emailing support@focusbear.io",
@@ -2578,6 +2629,8 @@
         "buttonReloadText": "Reload"
     },
     "taskPlayerVcInfo":{
+        "changeTrackTooltip": "Change focus music",
+        "stopFocusSessionLabel": "Stop focus session",
         "toolTipSnapLeft": "Snap to left",
         "toolTipSnapRight": "Snap to right",
         "playFocusMusicTooltip": "Play focus music",
@@ -2752,6 +2805,20 @@
         "buttonChangeTiming": "Change Timing"
     },
     "scheduleViewInfo":{
+        "showDismissedEvents": "Show dismissed events",
+        "showEventAgain": "Show this event again",
+        "hideEvent": "Hide this event",
+        "dismissRepeatingTitle": "This is a repeating event.",
+        "dismissRepeatingInfo": "Would you like to hide all events in the series or just the one for today?",
+        "dismissRepeatingJustThisOne": "Just this one",
+        "dismissRepeatingAllSeries": "All events in series",
+        "dismissRepeatingCancel": "Cancel",
+        "pastHabitComplete": "Complete",
+        "pastHabitCompleteHint": "I actually did it but forgot to log it 😅",
+        "tasksDetailsLabel": "Details",
+        "tasksImportanceLabel": "Importance",
+        "tasksImportanceUnset": "Not set",
+        "tasksImportanceTooltip": "Importance %d (%@)",
         "cancelRoutineTitle": "Cancel Routine?",
         "cancelRoutineMessage": "If you change your mind later, you can click the \"<BUTTON>\" button to restore the routine.",
         "cancelRoutineOk": "OK",
@@ -2843,6 +2910,14 @@
         "tabDayPlan": "Day Plan"
     },
     "leftMenuVcInfo":{
+        "menuStats": "Stats",
+        "menuFocusButton": "Focus Button",
+        "menuTimeTracker": "Time Tracker",
+        "menuLateNoMore": "Late No More",
+        "restoreHiddenToolsTitle": "Hidden tools",
+        "restoreHiddenToolsEmpty": "Nothing hidden — hover a tool and click ✕ to hide it.",
+        "restoreButton": "Restore",
+        "hideToolTooltip": "Hide this tool",
         "titleMain": "MAIN",
         "titleTools": "TOOLS",
         "titlePreferences": "PREFERENCES",
