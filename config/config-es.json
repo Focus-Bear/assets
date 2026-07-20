@@ -685,6 +685,8 @@
         "checkBoxFullScreenEnabledText": "Reproducir hábitos en modo pantalla completa",
         "checkBoxAutoCloseAfterRoutineText": "Cerrar ventana automáticamente al completar, omitir o posponer una rutina",
         "titleDarkMode": "Modo Oscuro:",
+        "titleEnableShortCuts": "Habilitar/Deshabilitar accesos directos",
+        "titleBrainDumpShortcut": "Acceso directo para abrir el volcado de ideas:",
         "appAppearanceOptions": ["Copiar Preferencias del Sistema", "Siempre en Modo Oscuro", "Nunca en Modo Oscuro", "Automáticamente"],
         "titleAnnouncement": "Anuncio:",
         "checkBoxAnnouncementText": "Anuncio después de cada actividad",
@@ -2299,7 +2301,8 @@
         "breaks_NaturalBreaks": "Te avisa cuando se detecta una pausa natural tras estar inactivo por más de 10 minutos, ayudándote a mantener el enfoque y la productividad.",
         "strictness_Block_Lists": "Usa las listas de bloqueo para mantenerte enfocad@ en un tipo de trabajo. Inicia una sesión de enfoque desde el menú de Focus Bear o crea un horario de bloqueo.",
         "strictness_Blocking_Schedules": "Crea tus propios horarios para bloquear distracciones automáticamente. Elige los días y horas en que quieres que se bloqueen las distracciones. Mantente enfocad@ sin tener que activar el bloqueo manualmente.",
-        "strictness_AlwaysAllowedApps": "Las apps que añadas aquí nunca se bloquearán, sin importar el modo de enfoque, los horarios de bloqueo o el nivel de restricción. Úsalo para apps esenciales a las que siempre necesitas acceder."
+        "strictness_AlwaysAllowedApps": "Las apps que añadas aquí nunca se bloquearán, sin importar el modo de enfoque, los horarios de bloqueo o el nivel de restricción. Úsalo para apps esenciales a las que siempre necesitas acceder.",
+        "shortcutsToggleInfo": "Activar o desactivar atajos por ventana"
     },
     "chooseHabitsVCInfo": {
         "title": "Elegir Hábitos:",

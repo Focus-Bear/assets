@@ -673,6 +673,8 @@
     	"checkBoxFullScreenEnabledText": "Play habits in full screen mode",
         "checkBoxAutoCloseAfterRoutineText": "Automatically close window after completing, skipping or postponing a routine",
         "titleDarkMode": "Dark Mode:",
+        "titleEnableShortCuts": "Enable/Disable shortcuts",
+        "titleBrainDumpShortcut": "Shortcut to open brain dump:",
         "appAppearanceOptions": ["Copy system preferences", "Always Dark Mode", "Never Dark Mode", "Automatically"],
         "titleAnnouncement": "Announcement:",
         "checkBoxAnnouncementText": "Announcement after each activity",
@@ -2301,7 +2303,8 @@
         "breaks_NaturalBreaks": "Notifies you when a natural break is detected after being idle for more than 10 minutes, helping you maintain focus and productivity.",
         "strictness_Block_Lists": "Use Block Lists to stay focused on a certain type of work. Start a focus session from the focus bear menu or use a blocking schedule.",
         "strictness_Blocking_Schedules": "Create your own schedules to automatically block distractions. Pick the days and times when distractions should be blocked. Stay focused without needing to start blocking manually.",
-        "strictness_AlwaysAllowedApps": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
+        "strictness_AlwaysAllowedApps": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to.",
+        "shortcutsToggleInfo": "Enable or disable shortcuts per window"
     },
     "chooseHabitsVCInfo": {
         "title": "Choose Habits:",
