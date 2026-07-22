@@ -3279,6 +3279,7 @@
         "focusIconsLabel": "Iconos de la sesión de concentración",
         "iconsUpToDate": "actualizados",
         "checkingHabitIcons": "Comprobando iconos de hábitos…",
-        "checkingFocusIcons": "Comprobando iconos de concentración…"
+        "checkingFocusIcons": "Comprobando iconos de concentración…",
+        "focusIconsSyncIncomplete": "⚠️ No se pudieron sincronizar todos los iconos de enfoque — inténtalo de nuevo"
     }
 }
