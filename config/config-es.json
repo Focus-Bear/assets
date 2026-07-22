@@ -2934,7 +2934,21 @@
         "customRoutinesEmpty": "No hay rutinas a demanda",
         "customRoutinesAfterCutoff": "Las rutinas personalizadas a demanda se desactivan hasta mañana por la mañana: es hora de ir terminando",
         "tabCustomRoutine": "Rutina personalizada",
-        "tabDayPlan": "Plan del día"
+        "tabDayPlan": "Plan del día",
+        "cancel": "Cancelar",
+        "skipRoutineForToday": "Saltar la rutina por hoy",
+        "importanceLow": "Baja",
+        "importanceNormal": "Normal",
+        "importanceHigh": "Alta",
+        "importanceCritical": "Crítica",
+        "tasksTotalToDo": "≈ %@ de tareas por hacer",
+        "tasksLoading": "Cargando…",
+        "tasksPickerAllAdded": "Todas tus tareas pendientes ya están en este día.",
+        "tasksPickerNone": "No se encontraron tareas pendientes. Agrega tareas en tu lista primero.",
+        "tasksNoProjectsYet": "Aún no hay proyectos: escribe uno arriba.",
+        "tasksAddToProject": "Agregar una tarea a este proyecto",
+        "tasksMovesTo": "Se mueve a %@",
+        "tasksMoveUnrecognised": "No reconozco esa fecha"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",
