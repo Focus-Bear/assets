@@ -2962,6 +2962,8 @@
         "menuTodoList": "Todo List",
         "menuBrainDump": "Brain Dump",
         "menuFocusMusic": "Focus Music",
+        "menuPlayMusic": "Play music",
+        "menuPauseMusic": "Pause music",
         "menuFocusPreferences": "Focus",
         "menuBlocksPreferences": "Blocking",
         "menuSettings": "Settings",

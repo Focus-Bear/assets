@@ -2960,6 +2960,8 @@
         "menuTodoList": "Lista de tareas",
         "menuBrainDump": "Volcado de ideas",
         "menuFocusMusic": "Música de enfoque",
+        "menuPlayMusic": "Reproducir música",
+        "menuPauseMusic": "Pausar música",
         "menuFocusPreferences": "Enfoque",
         "menuBlocksPreferences": "Bloqueo",
         "menuSettings": "Ajustes",
