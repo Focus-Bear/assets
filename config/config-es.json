@@ -2936,6 +2936,10 @@
         "tabCustomRoutine": "Rutina personalizada",
         "tabDayPlan": "Plan del día"
     },
+    "menuView":{
+        "menuPlayMusic": "Reproducir música",
+        "menuPauseMusic": "Pausar música"
+    },
     "leftMenuVcInfo":{
         "menuStats": "Estadísticas",
         "menuFocusButton": "Botón de enfoque",
@@ -2960,8 +2964,6 @@
         "menuTodoList": "Lista de tareas",
         "menuBrainDump": "Volcado de ideas",
         "menuFocusMusic": "Música de enfoque",
-        "menuPlayMusic": "Reproducir música",
-        "menuPauseMusic": "Pausar música",
         "menuFocusPreferences": "Enfoque",
         "menuBlocksPreferences": "Bloqueo",
         "menuSettings": "Ajustes",

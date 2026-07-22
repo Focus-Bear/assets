@@ -2938,6 +2938,10 @@
         "tabCustomRoutine": "Custom routine",
         "tabDayPlan": "Day Plan"
     },
+    "menuView":{
+        "menuPlayMusic": "Play music",
+        "menuPauseMusic": "Pause music"
+    },
     "leftMenuVcInfo":{
         "menuStats": "Stats",
         "menuFocusButton": "Focus Button",
@@ -2962,8 +2966,6 @@
         "menuTodoList": "Todo List",
         "menuBrainDump": "Brain Dump",
         "menuFocusMusic": "Focus Music",
-        "menuPlayMusic": "Play music",
-        "menuPauseMusic": "Pause music",
         "menuFocusPreferences": "Focus",
         "menuBlocksPreferences": "Blocking",
         "menuSettings": "Settings",
