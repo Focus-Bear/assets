@@ -2948,7 +2948,13 @@
         "tasksNoProjectsYet": "Aún no hay proyectos: escribe uno arriba.",
         "tasksAddToProject": "Agregar una tarea a este proyecto",
         "tasksMovesTo": "Se mueve a %@",
-        "tasksMoveUnrecognised": "No reconozco esa fecha"
+        "tasksMoveUnrecognised": "No reconozco esa fecha",
+        "habitSkippedTag": "saltado",
+        "meetingDismiss": "Ocultar esta reunión por hoy",
+        "meetingRestore": "Mostrar esta reunión de nuevo",
+        "meetingsShowDismissedCount": "Mostrar reuniones ocultas (%d)",
+        "meetingColour": "Color de la reunión",
+        "meetingColourDefault": "Predeterminado"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",

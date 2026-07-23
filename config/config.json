@@ -2950,7 +2950,13 @@
         "tasksNoProjectsYet": "No projects yet — type one above.",
         "tasksAddToProject": "Add a task to this project",
         "tasksMovesTo": "Moves to %@",
-        "tasksMoveUnrecognised": "Not a date I recognise"
+        "tasksMoveUnrecognised": "Not a date I recognise",
+        "habitSkippedTag": "skipped",
+        "meetingDismiss": "Hide this meeting for today",
+        "meetingRestore": "Show this meeting again",
+        "meetingsShowDismissedCount": "Show hidden meetings (%d)",
+        "meetingColour": "Meeting colour",
+        "meetingColourDefault": "Default"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Time Tracker",
