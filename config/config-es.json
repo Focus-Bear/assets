@@ -2911,6 +2911,8 @@
         "tasksShowCompleted": "Mostrar completadas",
         "tasksShowCompletedCount": "Mostrar completadas (%d)",
         "tasksExpand": "Expandir",
+        "tasksNewProjectPrompt": "Crear nuevo proyecto:",
+        "tasksNewProjectSave": "Guardar",
         "tasksSnooze": "Posponer",
         "tasksRemove": "Eliminar",
         "tasksDetailsTitle": "Detalles de la tarea",

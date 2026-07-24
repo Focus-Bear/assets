@@ -2913,6 +2913,8 @@
         "tasksShowCompleted": "Show completed",
         "tasksShowCompletedCount": "Show completed (%d)",
         "tasksExpand": "Expand",
+        "tasksNewProjectPrompt": "Create new project:",
+        "tasksNewProjectSave": "Save",
         "tasksSnooze": "Snooze",
         "tasksRemove": "Remove",
         "tasksDetailsTitle": "Task details",
