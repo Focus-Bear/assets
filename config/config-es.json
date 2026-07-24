@@ -20,7 +20,8 @@
         "focusIconsLabel": "Iconos de sesión de enfoque",
         "iconsUpToDate": "actualizado",
         "checkingHabitIcons": "Comprobando iconos de hábitos…",
-        "checkingFocusIcons": "Comprobando iconos de enfoque…"
+        "checkingFocusIcons": "Comprobando iconos de enfoque…",
+        "focusIconsSyncIncomplete": "⚠️ No se pudieron sincronizar todos los iconos de enfoque — inténtalo de nuevo"
     },
     "officeModeSettingsVcInfo":{
         "settingTitle": "Modo oficina",
@@ -3345,15 +3346,5 @@
         "downloadingUpdate": "Descargando Actualización",
         "downloadProgress": "Descargando Actualización: {0} de {1}",
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
-    },
-    "focusButtonInfo":{
-        "focusSessionEmoji": "Emoji de la sesión de concentración",
-        "focusEmojiHint": "Elige hasta 5 emojis: el botón muestra uno al azar como protagonista cuando inicias una sesión de concentración.",
-        "save": "Guardar",
-        "habitIconsLabel": "Iconos de hábitos",
-        "focusIconsLabel": "Iconos de la sesión de concentración",
-        "iconsUpToDate": "actualizados",
-        "checkingHabitIcons": "Comprobando iconos de hábitos…",
-        "checkingFocusIcons": "Comprobando iconos de concentración…"
     }
 }
