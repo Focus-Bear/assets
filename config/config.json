@@ -2990,6 +2990,8 @@
         "menuPause": "Pause",
         "menuResume": "Resume",
         "menuStopSession": "Stop session",
+        "menuPauseSession": "Pause session",
+        "menuResumeSession": "Resume session",
         "menuSessionRunning": "Session running",
         "menuRemaining": "remaining",
         "menuFocusedToday": "Focused today",
