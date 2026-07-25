@@ -1206,6 +1206,13 @@
         "buttonDontHaveTimeText": "I don't have time",
         "buttonInTheOffIceText": "I'm in the offIce"
     },
+    "breakFrequencyVcInfo": {
+        "title": "Want to make breaks less frequent?",
+        "currentFrequencyText": "Your current break frequency is every %d minutes",
+        "buttonChangeText": "Change Break Frequency",
+        "buttonKeepText": "Keep as is",
+        "newFrequencyLabel": "New frequency (min):"
+    },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Brain dump",
         "titleIntentionText": "Focus Block intention:",
