@@ -2798,7 +2798,7 @@
         "taskNameString": "To work on: <URL>"
     },
     "dragAwayPostponeVcInfo":{
-        "titleText": "I noticed you dragged the morning routine window away. Do you want to postpone it?",
+        "titleText": "I noticed you moved the routine window away. Do you want to postpone it?",
         "buttonPostponeText": "Postpone",
         "buttonKeepGoingText": "Keep going"
     },
