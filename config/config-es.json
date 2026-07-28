@@ -2123,7 +2123,20 @@
         "alwaysAllowedAppsTitle": "Aplicaciones siempre permitidas",
         "titleFocusButton": "Botón de enfoque",
         "descriptionFocusButton": "El dispositivo FocusButton se conecta a tu computadora mediante un cable USB y funciona junto con la app para ayudarte a gestionar sesiones de enfoque y acciones. Una vez conectado, la app detecta automáticamente el dispositivo y establece comunicación con él.",
-        "buttonConnectFocusButton": "Conectar"
+        "buttonConnectFocusButton": "Conectar",
+        "focusButtonStateConnectedText": "CONECTADO",
+        "focusButtonStateConnectingText": "CONECTANDO…",
+        "focusButtonStateDisconnectedText": "DESCONECTADO",
+        "focusButtonNoDeviceTitle": "¿No tienes un dispositivo Focus Button?",
+        "buttonGetFocusButtonDeviceText": "Consigue un dispositivo Focus Button",
+        "focusButtonInstalledFirmwareTitle": "FIRMWARE INSTALADO",
+        "focusButtonVersionLabel": "Versión: ",
+        "buttonCheckForFirmwareUpdatesText": "Buscar actualizaciones",
+        "focusButtonUpdateAvailableText": "Hay una nueva versión disponible. Haz clic en Actualizar Firmware para descargar e instalar la última versión del firmware en el dispositivo",
+        "buttonFlashFirmwareText": "Actualizar Firmware",
+        "focusButtonFirmwareDownloadedText": "Se descargaron nuevas actualizaciones de firmware. Haz clic en el botón \"Actualizar Firmware\" para instalar la última versión en el dispositivo. Este proceso reinicia el dispositivo en modo bootloader, verifica que la imagen coincida con el chip y lo reinicia — la configuración y los hábitos guardados en NVS se mantienen. La conexión serial se libera durante la actualización y se restablece al finalizar.",
+        "focusButtonFlashCompleteText": "Actualización completa — el dispositivo se está reiniciando.",
+        "focusButtonNotDetectedText": "No detectado — haz clic en \"Buscar actualizaciones\" para instalar el firmware"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -3124,6 +3137,7 @@
         "titleSetTabLimit": "Configura un límite de pestañas para no volver a sentirte abrumad@.",
         "titleTabLimitCount": "Límite máximo de pestañas:",
         "buttonSave": "Guardar",
+        "buttonSaved": "¡Guardado!",
         "buttonCancel": "Cancelar"
     },
     "blockingScheduleEditorVcInfo":{

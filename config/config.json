@@ -2125,7 +2125,20 @@
         "alwaysAllowedAppsTitle": "Always Allowed Apps",
         "titleFocusButton": "Focus Button",
         "descriptionFocusButton": "The FocusButton device connects to your computer using a USB cable and works together with the app to help manage focus sessions and actions. Once connected, the app automatically detects the device and establishes communication with it.",
-        "buttonConnectFocusButton": "Connect"
+        "buttonConnectFocusButton": "Connect",
+        "focusButtonStateConnectedText": "CONNECTED",
+        "focusButtonStateConnectingText": "CONNECTING…",
+        "focusButtonStateDisconnectedText": "DISCONNECTED",
+        "focusButtonNoDeviceTitle": "Do not have a Focus Button Device?",
+        "buttonGetFocusButtonDeviceText": "Get a Focus Button Device",
+        "focusButtonInstalledFirmwareTitle": "INSTALLED FIRMWARE",
+        "focusButtonVersionLabel": "Version: ",
+        "buttonCheckForFirmwareUpdatesText": "Check for Updates",
+        "focusButtonUpdateAvailableText": "A new version is available. Click Flash Firmware to download and install the latest Firmware on the device",
+        "buttonFlashFirmwareText": "Flash Firmware",
+        "focusButtonFirmwareDownloadedText": "New Firmware updates downloaded. Click on \"Flash Firmware\" button to install the latest firmware on the device. Flashing reboots the device into its bootloader, verifies the image matches the chip, and restarts — settings and habits in NVS are kept. The serial connection is released during flashing and restored afterwards.",
+        "focusButtonFlashCompleteText": "Flash complete — device is rebooting.",
+        "focusButtonNotDetectedText": "Not detected — click \"Check for Updates\" to install firmware"
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -3126,6 +3139,7 @@
         "titleSetTabLimit": "Set a tab limit so you don't get overwhelmed with tabs again",
         "titleTabLimitCount": "Max tab limit:",
         "buttonSave": "Save",
+        "buttonSaved": "Saved!",
         "buttonCancel": "Cancel"
     },
     "blockingScheduleEditorVcInfo":{
