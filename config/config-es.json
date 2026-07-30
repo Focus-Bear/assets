@@ -1204,7 +1204,10 @@
         "buttonSkipCompletelyText": "Saltar completamente",
         "titleAskOfficeMode": "¿No tienes tiempo para un descanso en este momento o estas en la oficina y no es apropiado hacer <ACTIVITY>?",
         "buttonDontHaveTimeText": "No tengo tiempo",
-        "buttonInTheOffIceText": "Estoy en la oficina"
+        "buttonInTheOffIceText": "Estoy en la oficina",
+        "eveningHoldInstruction": "Mantén pulsado para elegir cuánto tiempo posponer: cuanto más tiempo mantengas, más largo será el aplazamiento. Suelta para confirmar.",
+        "eveningHoldLiveText": "Posponer <MIN> min…",
+        "eveningHoldIdleText": "Mantén pulsado para posponer"
     },
     "breakFrequencyVcInfo": {
         "title": "¿Quieres que los descansos sean menos frecuentes?",
