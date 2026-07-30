@@ -3068,7 +3068,18 @@
         "menuLastBreak": "Último descanso",
         "menuAgo": "atrás",
         "dayPlanStartsAt": "empieza a las",
-        "dayPlanIn": "en"
+        "dayPlanIn": "en",
+        "menuDayPlanSubtitle": "Consulta tu día",
+        "menuLastHabit": "Este es el último hábito",
+        "menuBreaksOff": "Los descansos están desactivados",
+        "menuBreaksOffBody": "Activa los descansos en los ajustes para descansar con regularidad.",
+        "menuNextBreakIn": "Próximo descanso en %d min",
+        "menuNextBreakAt": "Tu próximo descanso es a las %@.",
+        "menuBreakDueNow": "Descanso pendiente ahora",
+        "menuBreakDueNowBody": "Es hora de un descanso.",
+        "menuTakeBreakSubtitle": "Tómate un descanso",
+        "menuTakeBreakBody": "Tómate un descanso cuando lo necesites.",
+        "menuOpenFocusScreen": "Abre la pantalla de enfoque completa"
     },
     "leftMenuVcInfo":{
         "menuStats": "Estadísticas",
