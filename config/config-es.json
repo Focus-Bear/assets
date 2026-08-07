@@ -2914,6 +2914,7 @@
         "showEventAgain": "Volver a mostrar este evento",
         "hideEvent": "Ocultar este evento",
         "showEarlierEvents": "Mostrar eventos anteriores de hoy",
+        "hideHabitBlocks": "Ocultar hábitos",
         "hideEarlierEvents": "Ocultar eventos anteriores de hoy",
         "viewTomorrow": "Ver el horario de mañana",
         "editEventTitle": "Editar evento",

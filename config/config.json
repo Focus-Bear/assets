@@ -2916,6 +2916,7 @@
         "showEventAgain": "Show this event again",
         "hideEvent": "Hide this event",
         "showEarlierEvents": "Show events from earlier today",
+        "hideHabitBlocks": "Hide habits",
         "hideEarlierEvents": "Hide events from earlier today",
         "viewTomorrow": "View tomorrow's schedule",
         "editEventTitle": "Edit event",
