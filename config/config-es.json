@@ -2892,6 +2892,8 @@
         "eveningRoutine": "Rutina nocturna",
         "morningRoutine": "Rutina matutina",
         "noHabitsLeft": "No quedan hábitos por ahora: ¡disfruta tu tiempo libre! 🎉",
+        "dayPlanNotEnoughTimeHeading": "⏰ No hay tiempo libre suficiente hoy",
+        "dayPlanNotEnoughTime": "Tus reuniones ocupan el resto del día, así que no hay tiempo libre suficiente para toda tu rutina. Aun así puedes empezarla abajo o posponerla.",
         "nothingScheduled": "Nada programado para este día.",
         "calendarBanner": "Conecta tu calendario para ver reuniones y tiempo libre para trabajo profundo.",
         "grantAccess": "Conceder acceso",
