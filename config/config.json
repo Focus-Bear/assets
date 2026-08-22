@@ -2866,7 +2866,11 @@
         "noBreakScheduledText": "No upcoming break has been scheduled yet.",
         "noBreakAddedText": "No break activities added yet.",
         "buttonAddBreakActivity": "Add break activity",
-        "buttonChangeTiming": "Change Timing"
+        "buttonChangeTiming": "Change Timing",
+        "unsavedFrequencyMessage": "You changed how often you'd like a break but haven't turned breaks on yet. Turn breaks on with the new interval?",
+        "unsavedFrequencyTurnOnButton": "Turn breaks on",
+        "unsavedFrequencyDiscardButton": "Discard change",
+        "unsavedFrequencyCancelButton": "Cancel"
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Show dismissed events",

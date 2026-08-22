@@ -2864,7 +2864,11 @@
         "noBreakScheduledText": "Aún no se ha programado ningún descanso próximo.",
         "noBreakAddedText": "Aún no se han agregado actividades de descanso.",
         "buttonAddBreakActivity": "Agregar actividad de descanso",
-        "buttonChangeTiming": "Cambiar horario"
+        "buttonChangeTiming": "Cambiar horario",
+        "unsavedFrequencyMessage": "Cambiaste la frecuencia de los descansos pero aún no los has activado. ¿Quieres activar los descansos con el nuevo intervalo?",
+        "unsavedFrequencyTurnOnButton": "Activar descansos",
+        "unsavedFrequencyDiscardButton": "Descartar cambio",
+        "unsavedFrequencyCancelButton": "Cancelar"
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Mostrar eventos descartados",
