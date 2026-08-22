@@ -2851,6 +2851,10 @@
     "breakStateVcInfo":{
         "buttonEnableBreaks": "Activar descansos",
         "buttonStartBreak": "Iniciar descanso",
+        "breakFrequencyTitleText": "Los descansos están desactivados",
+        "breakFrequencyDescriptionText": "Los descansos regulares mantienen tu energía, concentración y postura. Elige con qué frecuencia quieres uno y vuelve a activar los descansos.",
+        "breakFrequencyEveryText": "Un descanso cada <MINUTES> minutos",
+        "breakFrequencyEnableButtonText": "Activar descansos",
         "titleEnableBreaks": "Los descansos están desactivados. Activa los descansos a intervalos regulares para aumentar tu productividad, energía y enfoque.",
         "pausedBreaksText": "Has pausado los descansos por hoy. Mañana volverán para ayudarte a recargar energías y mantener el enfoque.",
         "shutoffTimeText": "La app está en estado de apagado",
