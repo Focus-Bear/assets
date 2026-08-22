@@ -3222,6 +3222,8 @@
         "pleaseWaitText": "Por favor espera a que tu compañer@ acepte la invitación antes de crear una solicitud de desbloqueo.",
         "callBuddyText": "Te sugerimos que llames a tu compañer@ {0} y les pidas que te desbloqueen. Recibirán un correo con las instrucciones.",
         "requestFailedText": "Error al crear la solicitud. Por favor, inténtalo más tarde.",
+        "noPendingRequestText": "Primero crea una solicitud de desbloqueo y espera a que tu compañer@ la apruebe antes de actualizar.",
+        "noApprovedRequestText": "Todavía no hay una solicitud aprobada. Espera a que tu compañer@ la apruebe e inténtalo de nuevo.",
         "aiBuddyWindowTitle": "Compañero de responsabilidad",
         "aiBuddyHeader": "Compañero de responsabilidad",
         "aiBuddyChecking": "Comprobando si vale la pena posponer tus hábitos…",

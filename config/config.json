@@ -3224,6 +3224,8 @@
         "pleaseWaitText": "Please wait for your buddy to accept the invitation before creating an unlock request.",
         "callBuddyText": "We suggest you call your buddy {0} and ask them to unlock. They'll have an email with instructions.",
         "requestFailedText": "Request Unlock Failed -  Please try again later",
+        "noPendingRequestText": "Please create an unlock request first, then wait for your buddy to approve it before refreshing.",
+        "noApprovedRequestText": "No approved request found yet. Please wait for your buddy to approve, then try again.",
         "aiBuddyWindowTitle": "Accountability Buddy",
         "aiBuddyHeader": "Accountability buddy",
         "aiBuddyChecking": "Checking whether that's worth postponing your habits…",
