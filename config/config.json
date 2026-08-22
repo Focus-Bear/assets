@@ -1636,6 +1636,8 @@
         "blockSitesCountText": "<COUNT> websites selected (you can change this later)",
         "oneSiteBlockText": "1 website selected (you can change this later)",
         "categoryStreamingServices": "Streaming services",
+        "categoryDating": "Dating",
+        "categoryRealEstate": "Real estate",
         "titleNew": "Choose websites to block",
         "buttonProceedText": "Proceed",
         "textFieldPlaceholder": "Enter URL or keyword to block",

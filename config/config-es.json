@@ -1636,6 +1636,8 @@
         "blockSitesCountText": "<COUNT> sitios web seleccionados (puedes cambiarlos más tarde)",
         "oneSiteBlockText": "1 sitio web seleccionado (puedes cambiarlo más tarde)",
         "categoryStreamingServices": "Servicios de Streaming",
+        "categoryDating": "Citas",
+        "categoryRealEstate": "Inmobiliaria",
         "titleNew": "Elige los sitios web a bloquear",
         "buttonProceedText": "Continuar",
         "textFieldPlaceholder": "Ingresa la URL o palabra clave a bloquear",
