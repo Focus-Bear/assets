@@ -4,6 +4,8 @@ try {
     unblockBtn = document.getElementById('unblockBtn');
   }
 
+  renderRandomQuote();
+
   document.getElementById('privacyNoticeContent').innerHTML =
     selected_lang.privacy_notice;
   privacyBtn.textContent = selected_lang.privacy_button;
@@ -39,10 +41,11 @@ try {
   if (block_type) {
     focusTitle.textContent = focus_blocked_message.title;
     if (shouldActivateSuperDistractionBlock) {
-      const instruction = document.createElement('div');
-      instruction.innerHTML =
+      // Render the instruction between the title and the action buttons to
+      // match the blocked-page design (title → subtitle → buttons).
+      focusAdditionalInfo.innerHTML =
         selected_lang.this_site_is_set_as_super_distracting_instructions;
-      focusProgressWrapper.appendChild(instruction);
+      focusAdditionalInfo.style.display = 'block';
       focusTipWrapper.style.display = 'none';
     } else {
       const durationElement = document.createElement('h2');
@@ -72,7 +75,9 @@ try {
     }
 
     focusSubtitle.style.display = 'none';
-    focusAdditionalInfo.style.display = 'none';
+    if (!shouldActivateSuperDistractionBlock) {
+      focusAdditionalInfo.style.display = 'none';
+    }
   } else {
     focusTipWrapper.style.display = 'none';
     !isPageLoaded

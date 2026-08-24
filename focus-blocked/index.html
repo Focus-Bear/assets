@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,29 +14,23 @@
 
   <body>
     <div id="container" class="container">
+      <figure id="quoteBlock" class="quote-block hide">
+        <span class="quote-mark quote-mark-open" aria-hidden="true">“</span>
+        <blockquote class="quote-content">
+          <p id="quoteText" class="quote-text"></p>
+        </blockquote>
+        <figcaption
+          id="quoteAttribution"
+          class="quote-attribution"
+        ></figcaption>
+        <span class="quote-mark quote-mark-close" aria-hidden="true">”</span>
+      </figure>
       <a id="originalUrl"></a>
       <picture>
-        <source
-          srcset="
-            https://focus-bear.github.io/assets/focus-blocked/images/FocusBearLogo.svg
-          "
-          type="image/svg+xml"
-        />
-        <source
-          srcset="
-            https://focus-bear.github.io/assets/focus-blocked/images/FocusBearLogo.webp
-          "
-          type="image/webp"
-        />
-        <source
-          srcset="
-            https://focus-bear.github.io/assets/focus-blocked/images/FocusBearLogo.png
-          "
-          type="image/png"
-        />
         <img
-          src="https://focus-bear.github.io/assets/focus-blocked/images/FocusBearLogo.png"
-          alt="Focus Bear"
+          src="https://focus-bear.github.io/assets/focus-blocked/images/distraction-swatter-bear.png"
+          alt="Focus Bear shooing away distractions"
+          class="blockedMascot"
         />
       </picture>
       <div class="focusTitleWrapper">

@@ -1,5 +1,46 @@
 const locale = {
   en: {
+    quotes: [
+      {
+        quote: 'An ounce of practice is worth more than tons of preaching.',
+        attribution: 'Mahatma Gandhi',
+      },
+      {
+        quote:
+          'The successful warrior is the average man, with laser-like focus.',
+        attribution: 'Bruce Lee',
+      },
+      {
+        quote:
+          "Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus.",
+        attribution: 'Alexander Graham Bell',
+      },
+      {
+        quote:
+          'It is not enough to be busy. The question is: what are we busy about?',
+        attribution: 'Henry David Thoreau',
+      },
+      {
+        quote:
+          'You will never reach your destination if you stop to throw stones at every dog that barks.',
+        attribution: 'Winston Churchill',
+      },
+      {
+        quote:
+          'We are what we repeatedly do. Excellence, then, is not an act, but a habit.',
+        attribution: 'Aristotle',
+      },
+      {
+        quote:
+          'One reason so few of us achieve what we truly want is that we never direct our focus; we never concentrate our power.',
+        attribution: 'Tony Robbins',
+      },
+      {
+        quote:
+          "Focus is a matter of deciding what things you're not going to do.",
+        attribution: 'John Carmack',
+      },
+    ],
     blocked_because_you_are_doing_your_morning_routine:
       "Blocked because you're doing your morning routine",
     blocked_because_you_are_doing_your_evening_routine:
@@ -39,8 +80,8 @@ const locale = {
       old_url
     ) => `<h6>Want to reprogram your brain so you stay on task during focus blocks?
       <a href="https://journals.sagepub.com/doi/abs/10.1177/1539449219876877?journalCode=otjb&">Research into breaking bad habits</a> indicates that if you take a positive action immediately after doing a bad habit, you'll start to disrupt the neural triggers for the bad habit. For example, you just opened ${old_url} when you were intending to focus${
-      focus_mode ? ` on ${focus_mode}` : ``
-    }. Try doing some deep breathing for 5 seconds, get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty). If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.</h6>`,
+        focus_mode ? ` on ${focus_mode}` : ``
+      }. Try doing some deep breathing for 5 seconds, get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty). If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.</h6>`,
     privacy_notice: `We take your privacy seriously. Although we have blocked this website
     based on your instructions, we don't keep any record of your browsing
     history or which apps you use. The only things we track are: your
@@ -135,6 +176,46 @@ const locale = {
     no: 'No',
   },
   es: {
+    quotes: [
+      {
+        quote: 'Una onza de práctica vale más que toneladas de predicación.',
+        attribution: 'Mahatma Gandhi',
+      },
+      {
+        quote:
+          'El guerrero exitoso es el hombre común, con un enfoque preciso como un láser.',
+        attribution: 'Bruce Lee',
+      },
+      {
+        quote:
+          'Concentra todos tus pensamientos en la tarea que tienes entre manos. Los rayos del sol no queman hasta que se enfocan.',
+        attribution: 'Alexander Graham Bell',
+      },
+      {
+        quote:
+          'No basta con estar ocupado. La pregunta es: ¿en qué estamos ocupados?',
+        attribution: 'Henry David Thoreau',
+      },
+      {
+        quote:
+          'Nunca llegarás a tu destino si te detienes a tirarle piedras a cada perro que ladra.',
+        attribution: 'Winston Churchill',
+      },
+      {
+        quote:
+          'Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.',
+        attribution: 'Aristóteles',
+      },
+      {
+        quote:
+          'Una razón por la que tan pocos logramos lo que de verdad queremos es que nunca dirigimos nuestro enfoque; nunca concentramos nuestro poder.',
+        attribution: 'Tony Robbins',
+      },
+      {
+        quote: 'El enfoque consiste en decidir qué cosas no vas a hacer.',
+        attribution: 'John Carmack',
+      },
+    ],
     blocked_because_you_are_doing_your_morning_routine:
       'Bloqueado porque estás haciendo tu rutina matutina',
     blocked_because_you_are_doing_your_evening_routine:
@@ -162,7 +243,7 @@ const locale = {
     focus_block_over_additionalInfo:
       'Sigue así y avanzarás rápidamente hacia tus objetivos a largo plazo.',
     this_site_is_always_blocked: 'Este sitio está siempre bloqueado',
-    this_site_is_set_as_super_distracting_instructions: `NEEDSTRANSLATION <div class="supper-distraction-wrapper"><p>This site is set as super distracting</p> <a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">Click here for instructions on unblocking it.</a></div>`,
+    this_site_is_set_as_super_distracting_instructions: `<div class="supper-distraction-wrapper"><p>Este sitio está configurado como súper distractor</p> <a href="https://support.focusbear.io/portal/en/kb/articles/setting-up-always-blocked-sites-and-apps-in-focus-bear" target="_blank">Haz clic aquí para ver las instrucciones para desbloquearlo.</a></div>`,
     click_here_to_re_open_the_original_url: (url) =>
       `Haz clic aquí para volver a abrir la URL original ${url ?? ''}`,
     is_this_sub_reddit_actually_productive:

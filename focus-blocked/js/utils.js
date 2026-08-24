@@ -14,9 +14,7 @@ function truncateUrlForDisplay(url, maxLength = 60) {
   if (!url) return '';
   let display = url;
   try {
-    const parsed = new URL(
-      url.startsWith('http') ? url : `https://${url}`
-    );
+    const parsed = new URL(url.startsWith('http') ? url : `https://${url}`);
     // Drop the query string and hash; keep origin + path.
     display = `${parsed.origin}${parsed.pathname}`;
   } catch (_) {
@@ -27,6 +25,25 @@ function truncateUrlForDisplay(url, maxLength = 60) {
     display = `${display.substring(0, maxLength - 1)}…`;
   }
   return display;
+}
+
+// Picks a random attributed quote for the current language and renders it into
+// the quote block. The block stays hidden if no quotes are available so older
+// app versions (which don't ship quote data) degrade gracefully.
+function renderRandomQuote() {
+  const quotes = selected_lang.quotes;
+  if (!quotes?.length) return;
+
+  const quoteBlock = document.getElementById('quoteBlock');
+  const quoteText = document.getElementById('quoteText');
+  const quoteAttribution = document.getElementById('quoteAttribution');
+  if (!quoteBlock || !quoteText || !quoteAttribution) return;
+
+  const { quote, attribution } =
+    quotes[Math.floor(Math.random() * quotes.length)];
+  quoteText.textContent = quote;
+  quoteAttribution.textContent = attribution;
+  quoteBlock.classList.remove('hide');
 }
 
 function logError(
