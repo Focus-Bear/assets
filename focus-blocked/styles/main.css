@@ -19,10 +19,11 @@
   position: relative;
 }
 
-/* Rotating motivational quote card */
+/* Rotating motivational quote card. The width leaves ~2.5rem of breathing
+   room on each side so the flanking quotation marks never clip off-screen. */
 .quote-block {
   position: relative;
-  width: 100%;
+  width: calc(100% - 5rem);
   max-width: var(--content-max-width);
   margin: 0 auto 2.75rem;
   padding: 2.25rem 3rem 2.5rem;
@@ -64,20 +65,20 @@
 .quote-mark {
   position: absolute;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
   color: var(--quote-mark-color);
   pointer-events: none;
 }
 
 .quote-mark-open {
-  top: -0.5rem;
-  left: -2.75rem;
+  top: -0.75rem;
+  left: -1.75rem;
 }
 
 .quote-mark-close {
-  bottom: -1.75rem;
-  right: -2.75rem;
+  bottom: -1.5rem;
+  right: -1.75rem;
 }
 
 picture > img {
@@ -335,13 +336,15 @@ a#originalUrl:empty {
     font-size: 1.2rem;
   }
   .quote-mark {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
   }
   .quote-mark-open {
-    left: -1.5rem;
+    top: -0.5rem;
+    left: -1.25rem;
   }
   .quote-mark-close {
-    right: -1.5rem;
+    bottom: -1rem;
+    right: -1.25rem;
   }
   .blockedMascot {
     max-width: 240px;
