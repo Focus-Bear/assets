@@ -19,11 +19,78 @@
   position: relative;
 }
 
+/* Rotating motivational quote card */
+.quote-block {
+  position: relative;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto 2.75rem;
+  padding: 2.25rem 3rem 2.5rem;
+  background-color: var(--quote-card-bg);
+  border-radius: 60px;
+  text-align: center;
+}
+
+.quote-content {
+  margin: 0;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.35;
+  color: inherit;
+}
+
+.quote-attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  padding: 0.5rem 1.5rem;
+  background-color: var(--brand-orange);
+  color: var(--attribution-text);
+  border-radius: 16px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  max-width: calc(100% - 2rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.quote-mark {
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--quote-mark-color);
+  pointer-events: none;
+}
+
+.quote-mark-open {
+  top: -0.5rem;
+  left: -2.75rem;
+}
+
+.quote-mark-close {
+  bottom: -1.75rem;
+  right: -2.75rem;
+}
+
 picture > img {
   width: 40dvw;
   height: auto;
   object-fit: cover;
   padding: 1rem 0;
+}
+
+.blockedMascot {
+  width: auto;
+  max-width: 320px;
+  max-height: 320px;
 }
 
 .container > p {
@@ -32,7 +99,8 @@ picture > img {
 }
 
 .focusTitleWrapper {
-  width: fit-content;
+  width: 100%;
+  max-width: var(--content-max-width);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,11 +110,71 @@ picture > img {
 
 .focusTitleWrapper > h1 {
   text-align: center;
+  font-weight: 600;
 }
 
 .focusTitleWrapper > h3 {
   text-transform: capitalize;
   text-align: center;
+}
+
+.focusTitleWrapper > p,
+#progressWrapper .supper-distraction-wrapper {
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+/* Inline "click here for instructions" link matches the brand orange */
+.supper-distraction-wrapper {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.supper-distraction-wrapper a {
+  color: var(--brand-orange);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Full-width stacked action buttons (super distracting site) */
+.confirmation-super-distracting-actions-wrapper {
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--content-max-width);
+  gap: 0.75rem;
+  padding: 0.5rem 0 0;
+}
+
+.confirmation-super-distracting-actions-wrapper .btn {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+#temp-allow-access-btn.btn-primary {
+  background-color: var(--brand-orange);
+  border: 2px solid rgba(255, 249, 242, 0.4);
+  color: var(--white);
+}
+
+#temp-allow-access-btn.btn-primary:hover {
+  background-color: #c56600;
+  color: var(--white);
+}
+
+#block-access-btn.btn-secondary {
+  background-color: var(--btn-secondary-block-bg);
+  border: 2px solid rgba(255, 249, 242, 0.4);
+  color: inherit;
+}
+
+#block-access-btn.btn-secondary:hover {
+  background-color: rgba(113, 113, 122, 0.32);
+  color: inherit;
 }
 
 #progressWrapper {
@@ -156,6 +284,8 @@ a#save_page_url_btn {
   margin: 0;
   padding: 1rem;
   text-align: center;
+  color: var(--brand-orange);
+  text-underline-offset: 2px;
 }
 
 a#originalUrl {
@@ -172,6 +302,8 @@ a#originalUrl {
   text-overflow: ellipsis;
   vertical-align: middle;
   cursor: pointer;
+  color: inherit;
+  text-decoration: none;
 }
 
 a#originalUrl:empty {
@@ -194,13 +326,26 @@ a#originalUrl:empty {
     font-weight: 400;
   }
   .focusTitleWrapper > h1 {
-    font-size: 1.25rem;
-  }
-  picture > img {
-    width: 70dvw;
+    font-size: 1.75rem;
   }
   #progressWrapper > h2 {
     font-size: 1rem;
+  }
+  .quote-text {
+    font-size: 1.2rem;
+  }
+  .quote-mark {
+    font-size: 3.5rem;
+  }
+  .quote-mark-open {
+    left: -1.5rem;
+  }
+  .quote-mark-close {
+    right: -1.5rem;
+  }
+  .blockedMascot {
+    max-width: 240px;
+    max-height: 240px;
   }
 }
 
@@ -209,7 +354,7 @@ a#originalUrl:empty {
     font-size: 17px;
   }
   .focusTitleWrapper > h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -218,7 +363,7 @@ a#originalUrl:empty {
     font-size: 18px;
   }
   .focusTitleWrapper > h1 {
-    font-size: 2.1rem;
+    font-size: 2.75rem;
   }
 }
 
@@ -227,6 +372,6 @@ a#originalUrl:empty {
     font-size: 20px;
   }
   .focusTitleWrapper > h1 {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 }
