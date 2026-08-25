@@ -147,6 +147,7 @@
     },
     "common": {
         "emailId": "support@focusbear.io",
+        "appBlockNotificationAllowButton": "Ups, sí que lo necesito",
         "unlockMachineButtonText": "Desbloquear la computadora",
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK! - Mantente concentrado/a durante todo el día!",
@@ -2883,6 +2884,7 @@
         "cancelRoutineOk": "Aceptar",
         "cancelRoutineCancel": "Cancelar",
         "morningRoutineHabits": "Hábitos de la rutina matutina",
+        "routineCompleted": "Completado",
         "eveningRoutineHabits": "Hábitos de la rutina nocturna",
         "habitsSuffix": "hábitos",
         "play": "Iniciar",
@@ -2918,6 +2920,7 @@
         "eventSave": "Guardar",
         "eventCancel": "Cancelar",
         "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
+        "eventNotOwnedWarning": "Advertencia: no eres el propietario de este evento. Los cambios solo se reflejarán en tu plan del día.",
         "showDismissedEvents": "Mostrar eventos descartados",
         "showEventAgain": "Volver a mostrar este evento",
         "hideEvent": "Ocultar este evento",
