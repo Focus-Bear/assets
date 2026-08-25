@@ -1820,6 +1820,8 @@
         "descriptionText": "Configura el bloqueo en todos tus navegadores para evitar distracciones por completo",
         "buttonPermissionGrantedText": "Continuar",
         "buttonRequestPermissionText": "Solicitar Permiso",
+        "buttonIDontUseThisText": "No uso este",
+        "buttonIUseThisText": "Sí uso este",
         "enabledText": "✅  ¡Activado!",
         "buttonDidNotWorkText": "No funcionó",
         "accessibilityPermissionText": "(Permiso de accesibilidad concedido)",
