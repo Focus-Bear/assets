@@ -147,6 +147,7 @@
     },
     "common": {
         "emailId": "support@focusbear.io",
+        "appBlockNotificationAllowButton": "Oops I actually need it",
         "unlockMachineButtonText": "Unlock the machine",
         "wrapupButtonText": "Let's wrap up for the day",
         "stayFocusedText": "OK - Stay focused throughout the day!",
@@ -2895,6 +2896,7 @@
         "cancelRoutineOk": "OK",
         "cancelRoutineCancel": "Cancel",
         "morningRoutineHabits": "Morning routine habits",
+        "routineCompleted": "Completed",
         "eveningRoutineHabits": "Evening routine habits",
         "habitsSuffix": "habits",
         "play": "Play",
@@ -2930,6 +2932,7 @@
         "eventSave": "Save",
         "eventCancel": "Cancel",
         "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
+        "eventNotOwnedWarning": "Warning: You don't own this event. Changes will only be reflected on your day plan.",
         "showDismissedEvents": "Show dismissed events",
         "showEventAgain": "Show this event again",
         "hideEvent": "Hide this event",
