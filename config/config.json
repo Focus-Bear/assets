@@ -1158,6 +1158,9 @@
     "accountVcInfo": {
         "titleLeaderboardUsernameText": "Leaderboard Username:",
         "leaderboardUsernamePlaceholder": "Not set — update your leaderboard username in the web app",
+        "buttonUpdateUsernameText": "Update",
+        "editUsernameTooltip": "Edit",
+        "cancelUsernameTooltip": "Undo",
         "title": "Your Account Information",
         "titleNameText": "Name:",
         "titleEmailIdText": "Email Id:",

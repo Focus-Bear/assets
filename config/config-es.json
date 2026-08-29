@@ -1158,6 +1158,9 @@
     "accountVcInfo": {
         "titleLeaderboardUsernameText": "Nombre de usuario en la clasificación:",
         "leaderboardUsernamePlaceholder": "Sin establecer: actualiza tu nombre de usuario en la clasificación en la aplicación web",
+        "buttonUpdateUsernameText": "Actualizar",
+        "editUsernameTooltip": "Editar",
+        "cancelUsernameTooltip": "Deshacer",
         "title": "Información de tu cuenta",
         "titleNameText": "Nombre:",
         "titleEmailIdText": "Correo electrónico:",
