@@ -3385,7 +3385,6 @@
         "buttonSkip": "Omitir",
         "textFieldPlaceholder": "Agrega una URL o palabra clave",
         "bubbleText": "Cuando visites uno de estos sitios, iniciaré una sesión de concentración para ti",
-        "checkBoxSelectAllText": "Seleccionar / Deseleccionar todo",
         "textChangeLaterText": "Puedes cambiar esto más tarde"
     },
     "createFirstBlockingScheduleVcInfo": {

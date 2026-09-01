@@ -3387,7 +3387,6 @@
         "buttonSkip": "Skip",
         "textFieldPlaceholder": "Add a URL or keyword",
         "bubbleText": "when you go to one of these sites, i'll start a focus session for you",
-        "checkBoxSelectAllText": "Select / Deselect all",
         "textChangeLaterText": "You can change this later"
     },
     "createFirstBlockingScheduleVcInfo": {
