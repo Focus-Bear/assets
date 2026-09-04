@@ -810,7 +810,8 @@
         "titleBlockedUrlsAndApps": "URLs y Apps Bloqueadas",
         "titleBlockedApps": "Apps Bloqueadas",
         "instructionBlockedApps": "Las Apps aquí serán bloqueadas durante este modo de enfoque. Útil si quieres permitir algunas apps pero bloquear otras. Por ejemplo, puedes tener Safari como aplicación permitida pero bloquear Google Chrome",
-        "focusAlignmentScoreTitle": "Mostrar ventana emergente de sitio distractor sólo cuando la puntuación de alineación de enfoque es menor que"
+        "focusAlignmentScoreTitle": "Mostrar ventana emergente de sitio distractor sólo cuando la puntuación de alineación de enfoque es menor que",
+        "checkBoxUseAiForBlockListText": "Usar IA para esta lista de bloqueo"
     },
     "focusModesInfo": {
         "normalText": "Normal",

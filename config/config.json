@@ -810,7 +810,8 @@
         "titleBlockedUrlsAndApps": "Blocked URLs and Apps",
         "titleBlockedApps": "Blocked Apps",
         "instructionBlockedApps": "The Apps here will be blocked during this focus mode. Useful if you want to allow some apps but block others. For example, you could have Safari as an allowed app but block Google Chrome",
-        "focusAlignmentScoreTitle": "Show distracting site popup only when focus alignment score is less than"
+        "focusAlignmentScoreTitle": "Show distracting site popup only when focus alignment score is less than",
+        "checkBoxUseAiForBlockListText": "Use AI for this block list"
     },
     "focusModesInfo": {
         "normalText": "Normal",
