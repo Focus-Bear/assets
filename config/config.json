@@ -1437,6 +1437,8 @@
         "descriptionText": "Micro breaks help keep your energy + alertness levels consistent throughout the day and have positive impacts on your posture (no more screen headaches).",
         "descriptionMeetingsText": "Micro breaks can help you stay focused in meetings.",
         "titleMeetings": "Your <DURATION> mid meeting break starts in",
+        "durationMinutesUnit": "min",
+        "durationSecondsUnit": "sec",
         "buttonStartBreakNowText": "Start micro break now",
         "arrayQuote": [
             {

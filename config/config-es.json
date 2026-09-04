@@ -1437,6 +1437,8 @@
         "descriptionText": "Los micro descansos ayudan a mantener los niveles de energía y alerta constantes a lo largo del día y tienen efectos positivos en la postura (no más dolores de cabeza por la pantalla).",
         "descriptionMeetingsText": "Los microdescansos pueden ayudarte a mantenerte concentrado/a en las reuniones.",
         "titleMeetings": "Tu segundo descanso en mitad de la reunión de <DURATION> comienza en",
+        "durationMinutesUnit": "min",
+        "durationSecondsUnit": "seg",
         "buttonStartBreakNowText": "Iniciar microdescanso ahora",
         "arrayQuote": [
             {
