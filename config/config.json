@@ -430,6 +430,17 @@
             "subTitle": "You were hoping that Focus Bear would do this - \"<GOALS>\". It obviously hasn't delivered on that expectation.",
             "description": "Can you let us know what went wrong so we can improve the app?",
             "buttonQuitText": "Turn Focus Bear off"
+        },
+        "quitPopupInfo": {
+            "reportBugButton": "🐞 Report a bug",
+            "pauseTitle": "What features do you want to turn off?",
+            "pauseForLabel": "Pause for",
+            "offUntilTomorrowButton": "Turn everything off until tomorrow",
+            "uninstallHint": "To uninstall, go to Settings > Uninstall",
+            "featureBreaks": "Break reminders",
+            "featureMeetings": "Meeting-detected alerts",
+            "featureBlocking": "Blocking & distraction pop-ups",
+            "featureHabits": "Habit reminders"
         }
     },
     "shutOffTimeInfo": {
