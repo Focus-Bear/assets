@@ -430,6 +430,17 @@
             "subTitle": "Esperabas que Focus Bear hiciera esto: \"<GOALS>\". Obviamente, no ha cumplido esas expectativas.",
             "description": "¿Puedes decirnos qué falló para que podamos mejorar la app?",
             "buttonQuitText": "Apagar Focus Bear"
+        },
+        "quitPopupInfo": {
+            "reportBugButton": "🐞 Reportar un error",
+            "pauseTitle": "¿Qué funciones quieres desactivar?",
+            "pauseForLabel": "Pausar durante",
+            "offUntilTomorrowButton": "Apagar todo hasta mañana",
+            "uninstallHint": "Para desinstalar, ve a Ajustes > Desinstalar",
+            "featureBreaks": "Recordatorios de descansos",
+            "featureMeetings": "Alertas de reunión detectada",
+            "featureBlocking": "Bloqueo y ventanas emergentes de distracción",
+            "featureHabits": "Recordatorios de hábitos"
         }
     },
     "shutOffTimeInfo": {
