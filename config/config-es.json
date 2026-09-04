@@ -3070,6 +3070,8 @@
         "menuFocus": "Enfoque",
         "menuAdvancedFocus": "Avanzado",
         "menuSelectFocusMode": "Seleccionar modo de enfoque",
+        "menuBlockListPlaceholder": "Lista de bloqueo",
+        "menuBlockListFilterPlaceholder": "Escribe para filtrar…",
         "menuStartFocus": "INICIAR SESIÓN DE ENFOQUE",
         "menuFocusMinutes": "%d MIN",
         "menuChangeTimeHint": "CAMBIA EL TIEMPO CON + Y -",

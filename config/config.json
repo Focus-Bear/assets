@@ -3072,6 +3072,8 @@
         "menuFocus": "Focus",
         "menuAdvancedFocus": "Advanced",
         "menuSelectFocusMode": "Select Focus Mode",
+        "menuBlockListPlaceholder": "Block list",
+        "menuBlockListFilterPlaceholder": "Type to filter…",
         "menuStartFocus": "START FOCUS SESSION",
         "menuFocusMinutes": "%d MIN",
         "menuChangeTimeHint": "CHANGE THE TIME WITH + AND -",
