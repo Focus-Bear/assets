@@ -3156,6 +3156,7 @@
         "membersCountText": "<COUNT> miembros",
         "tasksCountText": "<COUNT> tareas",
         "memberBadgeText": "Miembro",
+        "syncedProjectText": "Proyecto sincronizado",
         "projectSearchPlaceholder": "Buscar proyectos…",
         "projectStatusActiveText": "Activos",
         "projectStatusCompletedText": "Completados",

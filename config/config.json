@@ -3158,6 +3158,7 @@
         "membersCountText": "<COUNT> members",
         "tasksCountText": "<COUNT> tasks",
         "memberBadgeText": "Member",
+        "syncedProjectText": "Synced project",
         "projectSearchPlaceholder": "Search projects…",
         "projectStatusActiveText": "Active",
         "projectStatusCompletedText": "Completed",
