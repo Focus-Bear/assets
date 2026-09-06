@@ -1370,6 +1370,8 @@
             "factual": "factual"
         },
         "pepTalkUnavailableText": "We couldn't generate a personalized message today. Please try again later.",
+        "motivationalStyleText": "Motivational Style",
+        "motivationalNoticeText": "Your routine streak and your routine activities will be sent to Open AI. No other details will be shared, but if anything in your habit titles would identify you, we recommend you remove it.",
         "sortByText": "Sort by",
         "morningStreakText": "Morning Streak",
         "breakStreakText": "Break Streak",

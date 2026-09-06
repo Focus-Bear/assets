@@ -1370,6 +1370,8 @@
             "factual": "objetivo"
         },
         "pepTalkUnavailableText": "Hoy no pudimos generar un mensaje personalizado. Inténtalo de nuevo más tarde.",
+        "motivationalStyleText": "Estilo motivacional",
+        "motivationalNoticeText": "Tu racha de rutinas y las actividades de tus rutinas se enviarán a Open AI. No se compartirá ningún otro dato, pero si algo en los títulos de tus hábitos pudiera identificarte, te recomendamos quitarlo.",
         "sortByText": "Ordenar por",
         "morningStreakText": "Racha matutina",
         "breakStreakText": "Racha de pausas",
