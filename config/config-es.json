@@ -3559,6 +3559,8 @@
         "customRoutinesTitle": "Rutinas personalizadas",
         "customRoutinesEmpty": "No hay rutinas a demanda",
         "customRoutinesAfterCutoff": "Las rutinas personalizadas a demanda se desactivan hasta mañana por la mañana: es hora de ir terminando",
+        "habitTasksTab": "Tareas",
+        "habitTasksTitle": "Tareas para este hábito",
         "tabCustomRoutine": "Rutina personalizada",
         "tabDayPlan": "Plan del día",
         "cancel": "Cancelar",
