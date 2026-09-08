@@ -3647,7 +3647,6 @@
         "habitInvalidVideo": "Los enlaces de vídeo deben ser URL de YouTube o Vimeo.",
         "habitInvalidQuestions": "Cada pregunta necesita texto y el mínimo debe ser menor que el máximo.",
         "habitInvalidTags": "Las etiquetas solo pueden contener letras, espacios, guiones bajos, paréntesis, comas, & y -.",
-        "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
         "habitEditUnavailable": "No se encontró este hábito en tus ajustes. Edítalo desde Ajustes › Editar hábitos.",
         "routineMoreActions": "Opciones de la rutina",
         "editRoutineTiming": "Editar horario de la rutina",
