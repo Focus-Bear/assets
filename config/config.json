@@ -3561,6 +3561,8 @@
         "customRoutinesTitle": "Custom routines",
         "customRoutinesEmpty": "No on-demand routines",
         "customRoutinesAfterCutoff": "On demand custom routines deactivated until tomorrow morning - time to wind down now",
+        "habitTasksTab": "Tasks",
+        "habitTasksTitle": "Tasks for this habit",
         "tabCustomRoutine": "Custom routine",
         "tabDayPlan": "Day Plan",
         "cancel": "Cancel",
