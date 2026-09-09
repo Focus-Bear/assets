@@ -4121,7 +4121,9 @@
         "labelNoTasksToPick": "Nothing planned for today yet",
         "labelPickerFromDayPlan": "From today's Day Plan",
         "labelPickerFromToDoList": "From your to-do list",
-        "labelPickerFromSearch": "Searching all your to-dos"
+        "labelPickerFromSearch": "Searching all your to-dos",
+        "labelTimeOnTask": "Working for <TIME>",
+        "labelSessionProgress": "<ELAPSED> of <TOTAL>"
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",
