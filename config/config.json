@@ -4111,7 +4111,12 @@
         "labelDaysFromToday": "<COUNT> days",
         "buttonAddFilters": "Add <COUNT> filters",
         "buttonAddSingleFilter": "Add 1 filter",
-        "labelTopScoreBadge": "TOP: <SCORE>"
+        "labelTopScoreBadge": "TOP: <SCORE>",
+        "labelFocusMusic": "FOCUS MUSIC",
+        "labelNotes": "NOTES",
+        "labelBrainDump": "BRAINDUMP",
+        "placeholderBrainDump": "Make a quick braindump",
+        "buttonSeeOtherNotes": "See other notes"
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",

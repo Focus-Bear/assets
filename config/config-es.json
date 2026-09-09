@@ -4090,7 +4090,12 @@
         "labelDaysFromToday": "<COUNT> días",
         "buttonAddFilters": "Añadir <COUNT> filtros",
         "buttonAddSingleFilter": "Añadir 1 filtro",
-        "labelTopScoreBadge": "TOP: <SCORE>"
+        "labelTopScoreBadge": "TOP: <SCORE>",
+        "labelFocusMusic": "MÚSICA DE ENFOQUE",
+        "labelNotes": "NOTAS",
+        "labelBrainDump": "LLUVIA DE IDEAS",
+        "placeholderBrainDump": "Anota tus ideas rápidamente",
+        "buttonSeeOtherNotes": "Ver otras notas"
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",
