@@ -3094,6 +3094,9 @@
         "unsavedFrequencyCancelButton": "Cancel"
     },
     "toDoListViewInfo":{
+        "archiveConfirmText": "Archive this project? It will be hidden from your active list and portfolio.",
+        "markCompleteConfirmText": "Mark this project as completed? It will be hidden from your active list and portfolio.",
+        "restoreConfirmText": "Restore this project to your active list?",
         "tabTasksText": "Tasks",
         "tabProjectsText": "Projects",
         "closeText": "Close",
