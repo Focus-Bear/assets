@@ -3683,6 +3683,18 @@
         "ttUpgradeButton": "Mejorar a Pro"
     },
     "menuView":{
+        "blockingOffTitle": "El bloqueo está desactivado",
+        "blockingOffWhy": "¿Por qué?",
+        "blockingOffDeactivated": "Focus Bear está desactivado, así que no se está bloqueando nada.",
+        "blockingOffPermissions": "A Focus Bear le faltan los permisos de macOS que necesita para bloquear sitios web y aplicaciones.",
+        "blockingOffNoSchedule": "Todavía no has configurado un horario de bloqueo.",
+        "blockingOffPaused": "Tu horario de bloqueo está en pausa.",
+        "blockingOffNoScheduleNow": "Ningún horario de bloqueo cubre este momento y no hay ninguna sesión de enfoque en curso.",
+        "blockingOffFixDeactivated": "Reactivar Focus Bear",
+        "blockingOffFixPermissions": "Conceder permisos",
+        "blockingOffFixNoSchedule": "Configurar el bloqueo",
+        "blockingOffFixPaused": "Reanudar el bloqueo",
+        "blockingOffFixNoScheduleNow": "Editar horarios de bloqueo",
         "blockingBannerTitle": "Configura el bloqueo de distracciones para proteger tu sesión de enfoque",
         "blockingBannerTask": "TAREA DE 3 MIN",
         "menuFocusTools": "Herramientas de enfoque",
