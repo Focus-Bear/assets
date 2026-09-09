@@ -2835,7 +2835,13 @@
         "summaryMinutes": "<COUNT> mins",
         "summaryUntimed": "Untimed",
         "summaryBreaks": "<COUNT> breaks",
-        "summaryBreakSingular": "<COUNT> break"
+        "summaryBreakSingular": "<COUNT> break",
+        "titleBreakSettings": "Break settings",
+        "explainerMicroBreaks": "Micro-breaks are short pauses that run during your focus session.",
+        "summaryBreakDuration": "<COUNT> min breaks",
+        "summaryMicroBreaksOn": "Micro-breaks on",
+        "summaryMicroBreaksOff": "Micro-breaks off",
+        "placeholderBlockList": "Type to search block lists"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "What would you like to improve in your life by using Focus Bear?",

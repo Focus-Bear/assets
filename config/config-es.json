@@ -2833,7 +2833,13 @@
         "summaryMinutes": "<COUNT> min",
         "summaryUntimed": "Sin límite de tiempo",
         "summaryBreaks": "<COUNT> descansos",
-        "summaryBreakSingular": "<COUNT> descanso"
+        "summaryBreakSingular": "<COUNT> descanso",
+        "titleBreakSettings": "Configuración de descansos",
+        "explainerMicroBreaks": "Las micropausas son pausas breves que ocurren durante tu sesión de enfoque.",
+        "summaryBreakDuration": "Descansos de <COUNT> min",
+        "summaryMicroBreaksOn": "Micropausas activadas",
+        "summaryMicroBreaksOff": "Micropausas desactivadas",
+        "placeholderBlockList": "Escribe para buscar listas de bloqueo"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "¿Qué te gustaría mejorar en tu vida usando Focus Bear?",
