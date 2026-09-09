@@ -126,6 +126,11 @@
         "buttonChooseHabitText": "Elegir otro hábito",
         "titleChooseHabitText": "Elige el siguiente hábito a realizar entre las siguientes opciones:",
         "buttonMoreActionsText": "Más acciones",
+        "buttonPauseActivityText": "Pausar",
+        "buttonResumeActivityText": "Reanudar",
+        "buttonStartBreakActivityText": "Empezar descanso",
+        "breakReadyToStartText": "Tu descanso está listo cuando tú lo estés.",
+        "breakBrainDumpHintText": "Anota aquí una idea para poder soltarla durante el descanso: se guarda en tu volcado de ideas.",
         "buttonSelectHabitsText": "No tengo tiempo para todos estos hábitos",
         "menuItemSelectHabitsText": "Seleccione los hábitos para hacer de la lista de todos los hábitos",
         "buttonTutorialText": "Tutorial",
@@ -2547,6 +2552,7 @@
         "strictness_Password_CircumventingBlocks": "Algunos ajustes como \"Show Dock Icon\" y \"Restart after force quit\" pueden reducir la rigurosidad de bloqueo. Si marcas esta casilla, te pedirá una contraseña si la configuración se cambia a la versión menos estricta.",
         "ui_EnablePopoverMenu": "Activa esta opción para mostrar el menú Focus Bear como una ventana emergente.",
         "breaks_NaturalBreaks": "Te avisa cuando se detecta una pausa natural tras estar inactivo por más de 10 minutos, ayudándote a mantener el enfoque y la productividad.",
+        "breaks_AutoStartBreaks": "Cuando está activado, la actividad del descanso inicia su temporizador y su vídeo en cuanto se abre la pantalla del descanso. Si lo dejas desactivado, la pantalla del descanso espera a que pulses Empezar, así un descanso nunca te interrumpe a media idea.",
         "strictness_Block_Lists": "Usa las listas de bloqueo para mantenerte enfocad@ en un tipo de trabajo. Inicia una sesión de enfoque desde el menú de Focus Bear o crea un horario de bloqueo.",
         "strictness_Blocking_Schedules": "Crea tus propios horarios para bloquear distracciones automáticamente. Elige los días y horas en que quieres que se bloqueen las distracciones. Mantente enfocad@ sin tener que activar el bloqueo manualmente.",
         "strictness_AlwaysAllowedApps": "Las apps que añadas aquí nunca se bloquearán, sin importar el modo de enfoque, los horarios de bloqueo o el nivel de restricción. Úsalo para apps esenciales a las que siempre necesitas acceder.",
@@ -2660,7 +2666,8 @@
     "microBreaksSettingsVcInfo":{
         "enableBreaksText": "Activar Descansos",
         "titleDoNotBlockSuperDistractingUrls": "No bloquear \"Super Distracting Sites\" en los descansos",
-        "titleNaturalBreaks": "Detectar pausas naturales"
+        "titleNaturalBreaks": "Detectar pausas naturales",
+        "titleAutoStartBreaks": "Iniciar los descansos automáticamente"
     },
     "toDoListSettingsVcInfo":{
         "showToDoPlayerSettingTitle": "Iniciar automáticamente el Reproductor de Lista de Tareas",
