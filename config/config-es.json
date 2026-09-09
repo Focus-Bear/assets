@@ -4096,7 +4096,11 @@
         "labelNotes": "NOTAS",
         "labelBrainDump": "LLUVIA DE IDEAS",
         "placeholderBrainDump": "Anota tus ideas rápidamente",
-        "buttonSeeOtherNotes": "Ver otras notas"
+        "buttonSeeOtherNotes": "Ver otras notas",
+        "labelNoTasksToPick": "Aún no hay nada planificado para hoy",
+        "labelPickerFromDayPlan": "Del plan de hoy",
+        "labelPickerFromToDoList": "De tu lista de tareas",
+        "labelPickerFromSearch": "Buscando en todas tus tareas"
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",
