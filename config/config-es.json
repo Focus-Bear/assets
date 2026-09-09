@@ -3811,7 +3811,8 @@
         "disableReasonMircoBreaks": "Desactivado porque tu microdescanso está en curso. Ve a la pestaña Microdescanso para continuar.",
         "disableReasonCustomRoutine": "Desactivado porque tu rutina personalizada está en curso. Ve a la pestaña Rutina personalizada para continuar.",
         "superStrictNeedPasswordText": "Estás en modo Super Estricto y no tienes contraseña configurada. Necesitarás establecer una contraseña para pausar este horario personalizado.",
-        "menuNotes": "Notas"
+        "menuNotes": "Notas",
+        "menuFocusingTimeLeft": "Enfocado (quedan <MINUTES> min)"
     },
     "browsersTabAuditVcInfo":{
         "title": "Auditoría de pestañas",
