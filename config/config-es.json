@@ -3717,6 +3717,10 @@
         "ttUpgradeButton": "Mejorar a Pro"
     },
     "menuView":{
+        "blockingAttentionTitle": "El bloqueo necesita atención",
+        "blockingPermissionsLimited": "Algunas funciones de bloqueo pueden no estar disponibles porque falta un permiso de macOS. Otras formas de bloqueo pueden seguir funcionando.",
+        "blockingAccessibilityLimited": "macOS indica que falta el permiso de Accesibilidad. El bloqueo de ventanas a pantalla completa puede verse afectado; el bloqueo del navegador puede seguir funcionando.",
+        "blockingSystemEventsLimited": "macOS indica que falta el permiso de Eventos del Sistema. Algunos controles de ventanas pueden verse afectados; el bloqueo del navegador puede seguir funcionando.",
         "blockingBannerTitle": "Configura el bloqueo de distracciones para proteger tu sesión de enfoque",
         "blockingBannerTask": "TAREA DE 3 MIN",
         "menuFocusTools": "Herramientas de enfoque",

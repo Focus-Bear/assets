@@ -3719,6 +3719,10 @@
         "ttUpgradeButton": "Upgrade to Pro"
     },
     "menuView":{
+        "blockingAttentionTitle": "Blocking needs attention",
+        "blockingPermissionsLimited": "Some blocking features may be unavailable because a macOS permission is missing. Other blocking can continue.",
+        "blockingAccessibilityLimited": "macOS reports that Accessibility access is missing. Full-screen window blocking may be affected; browser blocking can still work.",
+        "blockingSystemEventsLimited": "macOS reports that System Events access is missing. Some window controls may be affected; browser blocking can still work.",
         "blockingBannerTitle": "Set up distraction blocking to protect your focus session",
         "blockingBannerTask": "3 MIN TASK",
         "menuFocusTools": "Focus Tools",
