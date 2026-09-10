@@ -4424,6 +4424,14 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
   "localForecastViewInfo": {
+        "capacitySettings": "Tiempo disponible para trabajar",
+        "sleep": "Sueño",
+        "sleepStarts": "Inicio del sueño",
+        "sleepEnds": "Fin del sueño",
+        "additionalSelfCare": "Cuidado personal adicional",
+        "settingsExplanation": "El tiempo de sueño superpuesto se cuenta una sola vez. El cuidado personal adicional empieza en cero; añade solo tiempo que no figure en tu calendario o hábitos. Hoy usa el tiempo que queda. La configuración se aplica a esta cuenta en este Mac.",
+        "settingsInvalid": "Elige horas distintas para el inicio y el fin del sueño.",
+        "saveSettings": "Guardar y recalcular",
         "loadingProjects": "Cargando proyectos",
         "loadingTasks": "Cargando tareas",
         "loadingCalendar": "Leyendo los eventos del calendario…",
