@@ -3799,6 +3799,8 @@
         "ttUpgradeButton": "Mejorar a Pro"
     },
     "localReportStatus": {
+      "showFixedReports": "Mostrar informes corregidos",
+      "noOpenReports": "No hay informes sin confirmar para mostrar.",
       "title": "Tus informes locales",
       "explanation": "El progreso de los informes guardados en este Mac.",
       "refresh": "Actualizar",
