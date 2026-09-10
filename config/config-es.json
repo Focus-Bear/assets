@@ -4323,5 +4323,25 @@
         "downloadingUpdate": "Descargando Actualización",
         "downloadProgress": "Descargando Actualización: {0} de {1}",
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
+    },
+    "focusStartVcInfo": {
+        "labelEnableMicroBreaks": "Activar micropausas:",
+        "labelBreakFrequency": "Frecuencia de pausas:",
+        "summaryBreakFrequency": "Micropausas cada <COUNT> min",
+        "buttonUseGoal": "Usar este objetivo",
+        "buttonRemoveTask": "Quitar tarea de esta sesión",
+        "buttonClearSearch": "Borrar búsqueda",
+        "buttonMoreTasks": "Mostrar más tareas",
+        "noMatchingTasks": "No hay tareas pendientes que coincidan",
+        "workChoicesUnavailable": "No se pudieron cargar los proyectos o las tareas. Inténtalo de nuevo.",
+        "buttonRetryWorkChoices": "Intentar de nuevo",
+        "buttonChangeGoal": "Cambiar objetivo",
+        "buttonClearGoal": "Borrar objetivo",
+        "buttonAddMoreTasks": "Añadir más tareas",
+        "noMatchingBlockLists": "No hay listas de bloqueo que coincidan",
+        "titleGoalCard": "¿Qué te gustaría lograr?",
+        "placeholderGoal": "Añade un objetivo o busca un proyecto",
+        "placeholderTask": "Buscar tareas",
+        "labelChooseBlockList": "Elige una lista de bloqueo:"
     }
 }
