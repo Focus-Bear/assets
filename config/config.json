@@ -3513,6 +3513,7 @@
         "showInTaskListText": "Show in task list"
     },
     "scheduleViewInfo":{
+        "habitInvalidCutoff": "The cutoff must fall between the evening routine start and the morning routine start.",
         "showDismissedEvents": "Show dismissed events",
         "showEventAgain": "Show this event again",
         "hideEvent": "Hide this event",

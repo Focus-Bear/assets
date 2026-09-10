@@ -3511,6 +3511,7 @@
         "showInTaskListText": "Ver en la lista de tareas"
     },
     "scheduleViewInfo":{
+        "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
         "showDismissedEvents": "Mostrar eventos descartados",
         "showEventAgain": "Mostrar este evento de nuevo",
         "hideEvent": "Ocultar este evento",
