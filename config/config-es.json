@@ -3961,6 +3961,16 @@
         "offlineHoldButton": "Mantén pulsado para desbloquear"
     },
     "accountabilityBuddyInfo":{
+        "aiBuddyRecoveryTitle": "Elige cómo posponer tus hábitos",
+        "aiBuddyRecoveryExplanation": "Tu compañero no pudo responder. Tus hábitos no se han pospuesto. Elige una duración y mantén pulsado para confirmar, vuelve a intentarlo o haz tu hábito ahora.",
+        "aiBuddyRecoveryDuration": "Posponer durante",
+        "aiBuddyRecoveryChooseDuration": "Elige una duración",
+        "aiBuddyRecoveryMinutes": "{minutes} minutos",
+        "aiBuddyRecoveryHold": "Mantén pulsado 10 segundos para posponer los hábitos",
+        "aiBuddyRecoveryHolding": "Sigue pulsando: quedan {seconds} segundos",
+        "aiBuddyRecoveryHoldHelp": "Mantén pulsado aquí o enfoca este botón y mantén pulsada la barra espaciadora o Intro. Si sueltas o sales del botón, la espera de 10 segundos vuelve a empezar.",
+        "aiBuddyRecoveryRetry": "Volver a intentar con el compañero",
+        "aiBuddyStartForMinutes": "Iniciar sesión de concentración · {minutes} minutos",
         "titleNoBuddyFound": "Sin compañer@ para solicitudes de desbloqueo",
         "subTitleNoBuddyFound": "Necesitas un compañer@ de responsabilidad para crear solicitudes de desbloqueo.",
         "buttonAddBuddy": "Agregar nuev@ compañer@",
