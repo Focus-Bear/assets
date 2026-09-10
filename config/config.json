@@ -4445,6 +4445,9 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
   "localForecastViewInfo": {
+        "unfinishedUnavailable": "Unfinished-task forecasting is not available on the server yet. Try again after the server update.",
+        "remainingLikelihood": "<PERCENT>% of remaining work fits by the deadline",
+        "remainingLikelihoodInHorizon": "<PERCENT>% of remaining work fits within this forecast",
         "capacitySettings": "Time available for work",
         "sleep": "Sleep",
         "sleepStarts": "Sleep starts",

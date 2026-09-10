@@ -4424,6 +4424,9 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
   "localForecastViewInfo": {
+        "unfinishedUnavailable": "La previsión de tareas pendientes aún no está disponible en el servidor. Vuelve a intentarlo después de la actualización del servidor.",
+        "remainingLikelihood": "El <PERCENT>% del trabajo pendiente cabe antes de la fecha límite",
+        "remainingLikelihoodInHorizon": "El <PERCENT>% del trabajo pendiente cabe dentro de esta previsión",
         "capacitySettings": "Tiempo disponible para trabajar",
         "sleep": "Sueño",
         "sleepStarts": "Inicio del sueño",
