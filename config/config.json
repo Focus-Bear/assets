@@ -3963,6 +3963,16 @@
         "offlineHoldButton": "Hold to unlock"
     },
     "accountabilityBuddyInfo":{
+        "aiBuddyRecoveryTitle": "Choose a deliberate postpone",
+        "aiBuddyRecoveryExplanation": "Your buddy could not respond. Your habits have not been postponed. Choose a duration and hold to confirm, retry, or do your habit now.",
+        "aiBuddyRecoveryDuration": "Postpone for",
+        "aiBuddyRecoveryChooseDuration": "Choose a duration",
+        "aiBuddyRecoveryMinutes": "{minutes} minutes",
+        "aiBuddyRecoveryHold": "Hold for 10 seconds to postpone habits",
+        "aiBuddyRecoveryHolding": "Keep holding — {seconds} seconds left",
+        "aiBuddyRecoveryHoldHelp": "Keep the pointer pressed here, or focus this button and hold Space or Return. Releasing or leaving the button resets the 10-second hold.",
+        "aiBuddyRecoveryRetry": "Retry buddy",
+        "aiBuddyStartForMinutes": "Start focus session · {minutes} minutes",
         "titleNoBuddyFound": "No buddy for unlock requests",
         "subTitleNoBuddyFound": "You need an accountability buddy to create unlock requests.",
         "buttonAddBuddy": "Add a new Buddy",
