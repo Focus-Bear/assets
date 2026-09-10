@@ -84,6 +84,11 @@
         "descriptionHabitsText": "Cada hábito tiene un cronómetro y, si tiene sentido, un vídeo de Youtube adjunto. Puedes editar tus hábitos después."
     },
     "activityInfo": {
+        "buttonSwitchToFullMovementBreak": "Cambiar a una pausa de movimiento completo",
+        "buttonSwitchToSeatedBreak": "Cambiar a una pausa con ejercicios sentados",
+        "breakModeSwitchHelp": "Tu actividad actual y tu progreso se mantienen. Las actividades restantes de la pausa usan el modo seleccionado.",
+        "breakModeSwitchNoRemainingHelp": "Tu actividad actual continúa. No quedan más actividades en esta pausa; el modo seleccionado se aplicará a tu próxima pausa.",
+        "breakModeSwitchMeetingHelp": "Esta pausa usa ejercicios sentados mientras tu reunión está en curso. Puedes cambiar de modo cuando termine la reunión.",
         "startMorningHabitTitleText": "¡Buenos días! Aquí están los hábitos para empezar un día increíble.",
         "startEveningHabitTitleText": "¡Buenas noches! Hagamos tu rutina de relajación.",
         "startActivityButtonText": "Empieza <TIME> <NAME>",
@@ -3809,11 +3814,11 @@
       "signedOut": "Inicia sesión para ver tus informes locales.",
       "readFailed": "No se pudieron leer tus informes locales. Intenta actualizar.",
       "untitled": "Informe sin descripción",
-      "queued": "Pendiente de revisión",
+      "queued": "En cola",
       "notesAvailable": "Hay notas de revisión",
       "readyForQA": "Listo para que lo revises",
       "needsClarification": "Bloqueado o necesita información",
-      "queuedDetail": "Todavía no se ha registrado el resultado de una revisión.",
+      "queuedDetail": "Este informe está esperando a ser investigado.",
       "notesAvailableDetail": "Hay notas de revisión. Ábrelas para ver el último resultado.",
       "readyForQADetail": "El trabajo está preparado para que lo compruebes. Esto no confirma que la corrección se haya publicado.",
       "needsClarificationDetail": "Este informe está pendiente de una decisión, más información u otro cambio.",
@@ -3836,7 +3841,11 @@
       "markConfirmedFixed": "Marcar como solucionado",
       "undoConfirmation": "Deshacer confirmación",
       "confirmationFailed": "No se pudo actualizar el estado de este informe. Actualiza e inténtalo de nuevo.",
-      "confirmedAt": "Confirmado"
+      "confirmedAt": "Confirmado",
+      "investigating": "En investigación",
+      "investigatingDetail": "Se está investigando este informe.",
+      "notesReadFailed": "No se pudieron leer estas notas. Actualiza los informes e inténtalo de nuevo.",
+      "close": "Cerrar"
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",

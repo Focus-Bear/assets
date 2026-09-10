@@ -84,6 +84,11 @@
         "descriptionHabitsText": "Each habit has a countdown timer and if it makes sense, an embedded Youtube video. You can edit your habits later."
     },
     "activityInfo": {
+        "buttonSwitchToFullMovementBreak": "Switch to full movement break",
+        "buttonSwitchToSeatedBreak": "Switch to seated break",
+        "breakModeSwitchHelp": "Your current activity and progress stay unchanged. Remaining break activities use the selected mode.",
+        "breakModeSwitchNoRemainingHelp": "Your current activity continues. No other activities remain in this break; the selected mode applies to your next break.",
+        "breakModeSwitchMeetingHelp": "This break uses seated activities while your meeting is in progress. You can switch modes after the meeting.",
         "startMorningHabitTitleText": "Good Morning! Here are the habits to kick off an awesome day.",
         "startEveningHabitTitleText": "Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText": "Start <TIME> <NAME>",
@@ -3811,11 +3816,11 @@
       "signedOut": "Sign in to see your local reports.",
       "readFailed": "Couldn't read your local reports. Try refreshing.",
       "untitled": "Report without a description",
-      "queued": "Waiting for review",
+      "queued": "Queued",
       "notesAvailable": "Review notes available",
       "readyForQA": "Ready for your review",
       "needsClarification": "Blocked or needs input",
-      "queuedDetail": "No review outcome has been recorded yet.",
+      "queuedDetail": "This report is waiting to be investigated.",
       "notesAvailableDetail": "Review notes exist. Open them for the latest outcome.",
       "readyForQADetail": "Work has been prepared for you to check. This does not confirm a released fix.",
       "needsClarificationDetail": "This report is waiting on a decision, more information, or another change.",
@@ -3838,7 +3843,11 @@
       "markConfirmedFixed": "Mark as confirmed fixed",
       "undoConfirmation": "Undo confirmation",
       "confirmationFailed": "Couldn't update this report's status. Refresh and try again.",
-      "confirmedAt": "Confirmed"
+      "confirmedAt": "Confirmed",
+      "investigating": "Investigating",
+      "investigatingDetail": "This report is being investigated.",
+      "notesReadFailed": "Couldn't read these notes. Refresh the reports and try again.",
+      "close": "Close"
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
