@@ -3590,6 +3590,7 @@
         "meetingColour": "Meeting colour",
         "meetingColourDefault": "Default",
         "notEnoughTimeToday": "Not enough time today",
+        "notEnoughTimeThisDay": "Not enough time on this day",
         "editHabit": "Edit",
         "editHabitTitle": "Edit habit",
         "habitFieldName": "Habit name",
