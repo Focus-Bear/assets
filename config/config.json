@@ -3830,7 +3830,13 @@
       "instructionsSaved": "Instructions saved to this report.",
       "instructionsFailed": "Couldn't save your instructions. Refresh the reports and try again.",
       "instructionsLimit": "Use up to 4,000 characters.",
-      "yourInstructions": "Your latest instructions"
+      "yourInstructions": "Your latest instructions",
+      "confirmedFixed": "Confirmed fixed",
+      "confirmedFixedDetail": "You confirmed that this issue is fixed.",
+      "markConfirmedFixed": "Mark as confirmed fixed",
+      "undoConfirmation": "Undo confirmation",
+      "confirmationFailed": "Couldn't update this report's status. Refresh and try again.",
+      "confirmedAt": "Confirmed"
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
