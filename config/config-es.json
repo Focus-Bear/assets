@@ -3092,6 +3092,9 @@
         "unsavedFrequencyCancelButton": "Cancelar"
     },
     "toDoListViewInfo":{
+        "syncedSourceUnavailableText": "Proyecto sincronizado · origen no disponible",
+        "projectTaskCompletionText": "<PERCENT>% completado (<DONE>/<TOTAL> tareas)",
+        "projectAlphabeticalSubsetText": "Los proyectos cargados se muestran alfabéticamente. Carga más para incluir el resto.",
         "tabTasksText": "Tareas",
         "tabProjectsText": "Proyectos",
         "closeText": "Cerrar",
