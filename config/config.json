@@ -3718,6 +3718,28 @@
         "ttUpgradeBody": "Upgrade to Focus Bear Pro to get automated time tracking.",
         "ttUpgradeButton": "Upgrade to Pro"
     },
+    "projectNoteEditor": {
+      "loading": "Loading note…",
+      "saved": "Saved",
+      "saving": "Saving…",
+      "offline": "Live connection interrupted. Edits are saved locally while reconnecting.",
+      "saveFailed": "Could not save to the server. Your edits are saved on this Mac.",
+      "localSaveFailed": "Could not save your edits locally. Keep this note open and retry.",
+      "loadFailed": "Could not load this note. Retry to enable editing.",
+      "unavailable": "You no longer have access to this note. Unsaved edits remain on this Mac.",
+      "error": "This note contains content this editor cannot safely edit. Open it on the web.",
+      "retry": "Retry",
+      "readOnly": "Read only",
+      "bold": "Bold",
+      "italic": "Italic",
+      "bulletList": "Bulleted list",
+      "orderedList": "Numbered list",
+      "heading": "Heading",
+      "undo": "Undo",
+      "redo": "Redo",
+      "taskEmbed": "Linked task",
+      "taskListEmbed": "Task list"
+    },
     "menuView":{
         "blockingAttentionTitle": "Blocking needs attention",
         "blockingPermissionsLimited": "Some blocking features may be unavailable because a macOS permission is missing. Other blocking can continue.",

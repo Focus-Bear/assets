@@ -3716,6 +3716,28 @@
         "ttUpgradeBody": "Mejora a Focus Bear Pro para obtener el seguimiento de tiempo automático.",
         "ttUpgradeButton": "Mejorar a Pro"
     },
+    "projectNoteEditor": {
+      "loading": "Cargando nota…",
+      "saved": "Guardado",
+      "saving": "Guardando…",
+      "offline": "Se ha interrumpido la conexión en directo. Los cambios se guardan en este Mac mientras se restablece.",
+      "saveFailed": "No se pudo guardar en el servidor. Tus cambios están guardados en este Mac.",
+      "localSaveFailed": "No se pudieron guardar tus cambios en este Mac. Mantén esta nota abierta y vuelve a intentarlo.",
+      "loadFailed": "No se pudo cargar esta nota. Vuelve a intentarlo para poder editarla.",
+      "unavailable": "Ya no tienes acceso a esta nota. Los cambios sin guardar permanecen en este Mac.",
+      "error": "Esta nota contiene elementos que este editor no puede editar de forma segura. Ábrela en la web.",
+      "retry": "Reintentar",
+      "readOnly": "Solo lectura",
+      "bold": "Negrita",
+      "italic": "Cursiva",
+      "bulletList": "Lista con viñetas",
+      "orderedList": "Lista numerada",
+      "heading": "Encabezado",
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "taskEmbed": "Tarea vinculada",
+      "taskListEmbed": "Lista de tareas"
+    },
     "menuView":{
         "blockingAttentionTitle": "El bloqueo necesita atención",
         "blockingPermissionsLimited": "Algunas funciones de bloqueo pueden no estar disponibles porque falta un permiso de macOS. Otras formas de bloqueo pueden seguir funcionando.",
