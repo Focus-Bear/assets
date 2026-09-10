@@ -4344,5 +4344,21 @@
         "downloadingUpdate": "Downloading Update",
         "downloadProgress": "Downloading Update: {0} of {1}",
         "allWebsitesAllowed": "All websites are allowed"
+    },
+    "focusStartVcInfo": {
+        "labelEnableMicroBreaks": "Enable micro-breaks:",
+        "labelBreakFrequency": "Break frequency:",
+        "summaryBreakFrequency": "Micro-breaks every <COUNT> mins",
+        "buttonUseGoal": "Use this goal",
+        "buttonRemoveTask": "Remove task from this session",
+        "buttonClearSearch": "Clear search",
+        "buttonMoreTasks": "Show more tasks",
+        "noMatchingTasks": "No matching unfinished tasks",
+        "workChoicesUnavailable": "Projects or tasks could not be loaded. Please try again.",
+        "buttonRetryWorkChoices": "Try again",
+        "titleGoalCard": "What would you like to achieve?",
+        "placeholderGoal": "Add a new goal or search for a project",
+        "placeholderTask": "Search for tasks",
+        "labelChooseBlockList": "Choose a blocklist:"
     }
 }
