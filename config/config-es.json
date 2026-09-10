@@ -3661,6 +3661,7 @@
         "meetingColour": "Color de la reunión",
         "meetingColourDefault": "Predeterminado",
         "notEnoughTimeToday": "No hay tiempo suficiente hoy",
+        "notEnoughTimeThisDay": "No hay tiempo suficiente ese día",
         "editHabit": "Editar",
         "habitStats": "Estadísticas",
         "editHabitTitle": "Editar hábito",

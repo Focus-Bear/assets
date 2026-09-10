@@ -3663,6 +3663,7 @@
         "meetingColour": "Meeting colour",
         "meetingColourDefault": "Default",
         "notEnoughTimeToday": "Not enough time today",
+        "notEnoughTimeThisDay": "Not enough time on this day",
         "editHabit": "Edit",
         "habitStats": "Stats",
         "editHabitTitle": "Edit habit",
