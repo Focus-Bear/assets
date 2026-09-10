@@ -4346,6 +4346,7 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
   "localForecastViewInfo": {
+        "meetingTimeOnce": "Meeting time: <DURATION> (overlapping events counted once)",
         "currentOutcome": "Current: <VALUE>",
     "tab": "Time forecast",
     "introduction": "Calculated locally from your Day Plan. Select a day to see where the time goes.",
