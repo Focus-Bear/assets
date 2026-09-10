@@ -126,6 +126,10 @@
         "buttonChooseHabitText": "Choose another habit",
         "titleChooseHabitText": "Choose the next habit to do from the following options:",
         "buttonMoreActionsText": "More Actions",
+        "breakModeChairExercisesText": "🪑 Chair exercises",
+        "breakModeFullMovementText": "🙆‍♂️ Full movement exercises",
+        "breakAutoStartCheckboxText": "Start break habits automatically next time",
+        "breakBrainDumpHintText": "Park a thought here so you can let it go for the break — it saves to your brain dump.",
         "buttonSelectHabitsText": "I don't have time for all these habits",
         "menuItemSelectHabitsText": "Select the habits to do from the list of all habits",
         "buttonTutorialText": "Tutorial",
@@ -2549,6 +2553,7 @@
         "strictness_Password_CircumventingBlocks": "Some settings like \"Show Dock Icon\" and \"Restart after force quit\" can reduce the strictness of blocking. If you tick this box, it will prompt for a password if the setting is changed to the less strict version.",
         "ui_EnablePopoverMenu": "Enable this option to display the Focus Bear menu as a popover.",
         "breaks_NaturalBreaks": "Notifies you when a natural break is detected after being idle for more than 10 minutes, helping you maintain focus and productivity.",
+        "breaks_AutoStartBreaks": "When this is on, the break screen counts down for five seconds and then starts your break habits by itself. Leave it off and the screen waits for you to press Start, so a break never yanks you out mid-thought.",
         "strictness_Block_Lists": "Use Block Lists to stay focused on a certain type of work. Start a focus session from the focus bear menu or use a blocking schedule.",
         "strictness_Blocking_Schedules": "Create your own schedules to automatically block distractions. Pick the days and times when distractions should be blocked. Stay focused without needing to start blocking manually.",
         "strictness_AlwaysAllowedApps": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to.",
@@ -2662,7 +2667,8 @@
     "microBreaksSettingsVcInfo":{
         "enableBreaksText": "Enable Breaks",
         "titleDoNotBlockSuperDistractingUrls": "Do not block \"Super Distracting Sites\" during breaks",
-        "titleNaturalBreaks": "Detect natual breaks"
+        "titleNaturalBreaks": "Detect natual breaks",
+        "titleAutoStartBreaks": "Start breaks automatically"
     },
     "toDoListSettingsVcInfo":{
         "showToDoPlayerSettingTitle": "Launch To Do player automatically",
