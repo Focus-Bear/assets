@@ -4346,6 +4346,12 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
   "localForecastViewInfo": {
+        "loadingProjects": "Loading projects",
+        "loadingTasks": "Loading tasks",
+        "loadingCalendar": "Reading calendar events…",
+        "preparingDays": "Preparing planning days",
+        "calculating": "Calculating the forecast…",
+        "progressCount": "<STAGE>: <COUNT> of <TOTAL> (<PERCENT>)",
         "meetingTimeOnce": "Meeting time: <DURATION> (overlapping events counted once)",
         "currentOutcome": "Current: <VALUE>",
     "tab": "Time forecast",

@@ -4325,6 +4325,12 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
   "localForecastViewInfo": {
+        "loadingProjects": "Cargando proyectos",
+        "loadingTasks": "Cargando tareas",
+        "loadingCalendar": "Leyendo los eventos del calendario…",
+        "preparingDays": "Preparando los días del plan",
+        "calculating": "Calculando la previsión…",
+        "progressCount": "<STAGE>: <COUNT> de <TOTAL> (<PERCENT>)",
         "meetingTimeOnce": "Tiempo en reuniones: <DURATION> (los eventos superpuestos se cuentan una sola vez)",
         "currentOutcome": "Actual: <VALUE>",
     "tab": "Previsión de tiempo",
