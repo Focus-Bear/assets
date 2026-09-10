@@ -4325,6 +4325,7 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
   "localForecastViewInfo": {
+        "currentOutcome": "Actual: <VALUE>",
     "tab": "Previsión de tiempo",
     "introduction": "Calculado en este dispositivo a partir de tu plan diario. Selecciona un día para ver cómo se distribuye el tiempo.",
     "horizon": "Periodo de planificación",

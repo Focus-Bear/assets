@@ -4346,6 +4346,7 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
   "localForecastViewInfo": {
+        "currentOutcome": "Current: <VALUE>",
     "tab": "Time forecast",
     "introduction": "Calculated locally from your Day Plan. Select a day to see where the time goes.",
     "horizon": "Planning horizon",
