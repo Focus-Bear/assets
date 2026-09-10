@@ -4333,7 +4333,7 @@
         "checkingTitle": "Comprobando este sitio web",
         "retry": "Volver a intentar",
         "appealSending": "Revisando tu solicitud…",
-        "appealDenied": "La revisión de seguridad mantuvo el bloqueo.",
+        "appealDenied": "La revisión de seguridad no ha aprobado el acceso. El sitio web sigue bloqueado.",
         "appealReview": "Una persona adulta debe revisar este sitio web.",
         "appealApproved": "La revisión aprobó un acceso limitado. El sitio web se está comprobando de nuevo.",
         "reasonBlockedCategory": "Bloqueado por una categoría configurada",
@@ -4407,6 +4407,16 @@
             "weapons": "Armas",
             "web_advertisements": "Publicidad web",
             "web_based_email": "Correo electrónico web"
-        }
+        },
+        "accountMismatch": "Este dispositivo sigue supervisado por su cuenta escolar anterior. Vuelve a iniciar sesión en esa cuenta para restablecer los controles verificados.",
+        "returnToSupervisedSignIn": "Volver al inicio de sesión de la cuenta supervisada",
+        "expiredException": "Excepción vencida",
+        "permissionUnknown": "Aún no se ha verificado el acceso al navegador.",
+        "malformedWebsite": "No se ha podido clasificar de forma segura la dirección de un sitio web. Se ha bloqueado el acceso, pero no se ha podido sincronizar este intento.",
+        "recheckWebsite": "Volver a conectar y comprobar",
+        "browserUnsupported": "Este navegador no puede confirmar el bloqueo de sitios web administrado. Comprueba sus permisos y utiliza un navegador compatible.",
+        "firefoxUpgradeRequired": "Actualiza la extensión de Focus Bear para Firefox para utilizar el bloqueo de sitios web del centro educativo y vuelve a conectar Firefox.",
+        "appealAllowed": "Este sitio web ha superado la revisión de seguridad. Se está verificando de nuevo el acceso antes de volver a abrirlo.",
+        "appealReviewRequired": "Esta solicitud necesita la revisión de tu centro educativo o de tu madre, padre o tutor. El sitio web sigue bloqueado."
     }
 }

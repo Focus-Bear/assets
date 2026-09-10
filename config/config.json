@@ -4354,7 +4354,7 @@
         "checkingTitle": "Checking this website",
         "retry": "Try again",
         "appealSending": "Reviewing your request…",
-        "appealDenied": "The safety review upheld the block.",
+        "appealDenied": "The safety review did not approve access. The website remains blocked.",
         "appealReview": "An adult needs to review this website.",
         "appealApproved": "The review approved limited access. The website is being checked again.",
         "categories": {
@@ -4428,6 +4428,16 @@
         "parentSetupRequired": "Reconnect and ask your school to finish parent setup first.",
         "approvalRequired": "Reconnect and request parent approval first.",
         "policyNowAllows": "The current policy now allows this page. Return to the browser to recheck access.",
-        "policyChanging": "The policy is changing. Refresh before asking for a review."
+        "policyChanging": "The policy is changing. Refresh before asking for a review.",
+        "accountMismatch": "This device is still supervised by its previous school account. Sign back in to that account to restore verified controls.",
+        "returnToSupervisedSignIn": "Return to supervised sign-in",
+        "expiredException": "Expired exception",
+        "permissionUnknown": "Browser access has not been verified yet.",
+        "malformedWebsite": "A website address could not be safely classified. Access was blocked, but this attempt could not be synced.",
+        "recheckWebsite": "Reconnect and recheck",
+        "browserUnsupported": "This browser cannot confirm managed website blocking. Check browser permissions and use a supported browser.",
+        "firefoxUpgradeRequired": "Update the Focus Bear Firefox extension to use school website blocking, then reconnect Firefox.",
+        "appealAllowed": "This website passed the safety review. Access is being verified again before reopening it.",
+        "appealReviewRequired": "This request needs review by your school or parent. The website remains blocked."
     }
 }
