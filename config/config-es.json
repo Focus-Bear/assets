@@ -4358,7 +4358,8 @@
         "buttonSkip": "Omitir",
         "buttonGrantPermissions": "Conceder permisos",
         "titleBlockingScheduleSkipped": "Vamos a configurar los permisos.",
-        "bubbleText": "¡Dame permisos para que esas distracciones no se cuelen de nuevo! 🐾"
+        "bubbleText": "¡Dame permisos para que esas distracciones no se cuelen de nuevo! 🐾",
+        "subTitleBlockingNotConfigured": "Focus Bear necesita permisos de Eventos del Sistema, Accesibilidad y Navegador antes de poder bloquear nada. Concédelos ahora y el bloqueo funcionará en cuanto lo actives."
     },
     "allSetVcInfo": {
         "title": "¡Fantástico! Ya está todo listo.",

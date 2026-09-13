@@ -4379,7 +4379,8 @@
         "buttonSkip": "Skip",
         "buttonGrantPermissions": "Grant permissions",
         "titleBlockingScheduleSkipped": "Let's sort permissions.",
-        "bubbleText": "Grant me powers so those distractions don't sneak back in! 🐾"
+        "bubbleText": "Grant me powers so those distractions don't sneak back in! 🐾",
+        "subTitleBlockingNotConfigured": "Focus Bear needs System Events, Accessibility, and Browser permissions before it can block anything. Grant them now and blocking will work the moment you switch it on."
     },
     "allSetVcInfo": {
         "title": "Fantastic! We are all set.",
