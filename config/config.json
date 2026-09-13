@@ -1449,7 +1449,8 @@
         "finishInFutureText": "Finish time cannot be in the future",
         "durationHoursText": "Duration (hours)",
         "filterPlaceholder": "Filter",
-        "sessionSaveFailedText": "Could not save the focus session"
+        "sessionSaveFailedText": "Could not save the focus session",
+        "focusLogTimeText": "Time"
     },
     "askLogInVcInfo": {
         "title": "Create an account to sync your settings to all your devices.",
@@ -3381,7 +3382,7 @@
         "topScoreTooltip": "TOP ranks which task to do next. Higher means more urgent and valuable relative to effort.",
         "dueWithDateText": "Due: <DATE>",
         "setDueDateText": "Set due date",
-        "requiredHoursText": "<DURATION> project effort",
+        "requiredHoursText": "<DURATION> left",
         "recommendedDailyText": "<DURATION>/day to finish",
         "recommendedDailyTooltip": "Work about <DURATION> each day to finish by the due date",
         "recommendedTodayTitle": "Today's pace to stay on track",
@@ -3510,7 +3511,23 @@
         "couldNotDeleteNoteText": "Could not delete the note",
         "couldNotCreateNoteText": "Could not create the note",
         "emptyNoteText": "This note is empty.",
-        "showInTaskListText": "Show in task list"
+        "showInTaskListText": "Show in task list",
+        "mergeProjectText": "Merge into another project…",
+        "mergeProjectTitleText": "Merge <PROJECT> into…",
+        "mergeProjectExplanationText": "Every task moves to the project you pick, and <PROJECT> is archived once it's empty. Tasks synced from another tool stay where they are.",
+        "mergeProjectSearchText": "Search projects...",
+        "mergeProjectConfirmText": "Merge",
+        "mergeProjectRunningText": "Moving tasks…",
+        "mergeProjectNoDestinationsText": "No other active project to merge into.",
+        "projectMergeMovedText": "Moved <COUNT> tasks into <PROJECT>",
+        "projectMergeSkippedText": "<COUNT> synced tasks stayed with their own tool",
+        "projectMergeFailedText": "<COUNT> tasks could not be moved",
+        "projectMergeArchivedText": "<PROJECT> is empty and has been archived",
+        "couldNotMergeProjectText": "Could not merge the project. Nothing was changed.",
+        "couldNotLoadProjectsText": "Could not load your projects",
+        "showAllProjectsText": "Show all <COUNT>",
+        "showFewerProjectsText": "Show fewer",
+        "requiredHoursTooltipText": "Time still to do on this project. Finished tasks aren't counted."
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Show dismissed events",
@@ -3782,7 +3799,10 @@
         "draftSaveFailedTitle": "Couldn't save your routine changes",
         "draftSaveFailedMessage": "The server didn't accept the changes (status %d). Your draft is still here — check your connection and try again.",
         "draftSaveFailedOk": "OK",
-        "draftSaveFailedServerSaid": "The server said:"
+        "draftSaveFailedServerSaid": "The server said:",
+        "routineCutoffLabel": "Evening cutoff time",
+        "routineCutoffHint": "Optional evening habits stop at this time; must-do habits keep their own late cutoffs.",
+        "routineCutoffInvalid": "Choose a cutoff between the evening routine start and the next morning routine start."
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Time Tracker",
@@ -3893,7 +3913,9 @@
         "menuTakeBreakBody": "Take a break whenever you need one.",
         "menuOpenFocusScreen": "Open the full focus screen",
         "menuNotes": "Notes",
-        "menuFocusToolsSubtitleNotes": "Music, notes & to-dos"
+        "menuFocusToolsSubtitleNotes": "Music, notes & to-dos",
+        "blockingOffBrowserNotResponding": "Your browser has stopped telling Focus Bear which page is open, so websites aren't being checked. Quitting and reopening the browser usually fixes it.",
+        "blockingOffFixBrowserNotResponding": "Check browser setup"
     },
     "leftMenuVcInfo":{
         "menuStats": "Stats",
@@ -4115,7 +4137,15 @@
         "aiBuddyButtonTryAgain": "Try a different goal",
         "aiBuddyErrorMessage": "Something went wrong. You can try again, or just do your habit.",
         "aiBuddyInputPlaceholder": "Type your reason…",
-        "aiBuddyButtonSend": "Send"
+        "aiBuddyButtonSend": "Send",
+        "aiBuddyRecoveryTitle": "Need to push your habits back?",
+        "aiBuddyRecoveryExplanation": "Your buddy didn't answer, so nothing has been postponed yet. Try again, do the habit now, or pick how long you need and hold the button to push it back.",
+        "aiBuddyRecoveryDuration": "Push back by",
+        "aiBuddyRecoveryChooseDuration": "Pick how long",
+        "aiBuddyRecoveryHold": "Hold for 10 seconds to postpone",
+        "aiBuddyRecoveryHolding": "Almost there — {seconds} seconds to go",
+        "aiBuddyRecoveryHoldHelp": "Keep it pressed, or focus the button and hold Space or Return. Let go and the 10 seconds start again.",
+        "aiBuddyRecoveryRetry": "Try my buddy again"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Your teacher started a class focus session",
@@ -4252,7 +4282,8 @@
         "labelPickerFromToDoList": "From your to-do list",
         "labelPickerFromSearch": "Searching all your to-dos",
         "labelTimeOnTask": "Working for <TIME>",
-        "labelSessionProgress": "<ELAPSED> of <TOTAL>"
+        "labelSessionProgress": "<ELAPSED> of <TOTAL>",
+        "errorTaskServerUpdateRequired": "The server has not provided the details needed to edit this task safely. This needs a service update; reconnecting will not fix it. You can keep working on the task."
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",
@@ -4348,7 +4379,8 @@
         "buttonSkip": "Skip",
         "buttonGrantPermissions": "Grant permissions",
         "titleBlockingScheduleSkipped": "Let's sort permissions.",
-        "bubbleText": "Grant me powers so those distractions don't sneak back in! 🐾"
+        "bubbleText": "Grant me powers so those distractions don't sneak back in! 🐾",
+        "subTitleBlockingNotConfigured": "Focus Bear needs System Events, Accessibility, and Browser permissions before it can block anything. Grant them now and blocking will work the moment you switch it on."
     },
     "allSetVcInfo": {
         "title": "Fantastic! We are all set.",
