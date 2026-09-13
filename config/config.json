@@ -2234,8 +2234,8 @@
                 "description": "Let's get you familiar with the Focus Bear Menu and we will have you up and running in no time!"
             },
             {
-                "title": "Preferences",
-                "description": "Click on \"Preferences\" to",
+                "title": "Settings",
+                "description": "Click on the \"gear icon\" (Preferences) to",
                 "arrayListItems": [
                     "Edit activities for your morning routine, evening routine, breaks throughout the day.",
                     "Setup or change Password.",
