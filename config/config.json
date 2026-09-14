@@ -4367,7 +4367,13 @@
         "aiBuddyRecoveryHold": "Hold for 10 seconds to postpone",
         "aiBuddyRecoveryHolding": "Almost there — {seconds} seconds to go",
         "aiBuddyRecoveryHoldHelp": "Keep it pressed, or focus the button and hold Space or Return. Let go and the 10 seconds start again.",
-        "aiBuddyRecoveryRetry": "Try my buddy again"
+        "aiBuddyRecoveryRetry": "Try my buddy again",
+        "titleExtendReason": "Why do you need more time?",
+        "subTitleExtendReason": "Before you get another {0} minutes, tell your AI accountability buddy what you still need to finish.",
+        "placeHolderExtendReason": "e.g. The report is nearly done and I need to proofread it",
+        "helpExtendReason": "Your answer becomes the focus intention for the extra time, so AI blocking keeps you on that specific task.",
+        "buttonExtendReasonContinue": "Extend my session",
+        "buttonExtendReasonSkip": "Skip"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Your teacher started a class focus session",
