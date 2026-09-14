@@ -4115,7 +4115,13 @@
         "aiBuddyButtonTryAgain": "Try a different goal",
         "aiBuddyErrorMessage": "Something went wrong. You can try again, or just do your habit.",
         "aiBuddyInputPlaceholder": "Type your reason…",
-        "aiBuddyButtonSend": "Send"
+        "aiBuddyButtonSend": "Send",
+        "titleExtendReason": "Why do you need more time?",
+        "subTitleExtendReason": "Before you get another {0} minutes, tell your AI accountability buddy what you still need to finish.",
+        "placeHolderExtendReason": "e.g. The report is nearly done and I need to proofread it",
+        "helpExtendReason": "Your answer becomes the focus intention for the extra time, so AI blocking keeps you on that specific task.",
+        "buttonExtendReasonContinue": "Extend my session",
+        "buttonExtendReasonSkip": "Skip"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Your teacher started a class focus session",
