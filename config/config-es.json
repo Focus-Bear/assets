@@ -4094,7 +4094,13 @@
         "aiBuddyButtonTryAgain": "Probar otro objetivo",
         "aiBuddyErrorMessage": "Algo salió mal. Puedes intentarlo de nuevo o simplemente hacer tu hábito.",
         "aiBuddyInputPlaceholder": "Escribe tu motivo…",
-        "aiBuddyButtonSend": "Enviar"
+        "aiBuddyButtonSend": "Enviar",
+        "titleExtendReason": "¿Por qué necesitas más tiempo?",
+        "subTitleExtendReason": "Antes de darte otros {0} minutos, cuéntale a tu compañer@ de responsabilidad con IA qué te falta terminar.",
+        "placeHolderExtendReason": "p. ej. El informe está casi listo y necesito revisarlo",
+        "helpExtendReason": "Tu respuesta se convierte en la intención de enfoque del tiempo extra, para que el bloqueo con IA te mantenga en esa tarea concreta.",
+        "buttonExtendReasonContinue": "Extender mi sesión",
+        "buttonExtendReasonSkip": "Omitir"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Tu profesor(a) ha iniciado una sesión de enfoque de clase",
