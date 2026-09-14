@@ -1855,7 +1855,6 @@
         "searchPlaceholder": "Add a new URL to this blocklist",
         "searchPlaceholderForCategory": "Add a new URL to <CATEGORY>",
         "addEntry": "Add",
-        "saveChanges": "Save Changes",
         "editBlockList": "Edit this block list",
         "filterAll": "All",
         "back": "Back",
