@@ -4002,7 +4002,14 @@
       "investigating": "Investigating",
       "investigatingDetail": "This report is being investigated.",
       "notesReadFailed": "Couldn't read these notes. Refresh the reports and try again.",
-      "close": "Close"
+      "close": "Close",
+      "noteOriginal": "Original note",
+      "noteUpdate": "Update",
+      "noteUpdateHeading": "Update <NUMBER> of <COUNT>",
+      "noteUpdateCount": "<COUNT> updates",
+      "noteLatest": "Latest",
+      "noteNewestFirst": "Newest update first.",
+      "latestUpdate": "Latest update"
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
