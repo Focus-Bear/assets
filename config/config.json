@@ -3782,6 +3782,7 @@
         "tasksMoveToProjectedDay": "Move to %@",
         "tasksNoProject": "No project",
         "tasksProjectHint": "Type #project to group this task",
+        "tasksNameNeeded": "Add a name for this task. Tags like #project and *priority go after the name.",
         "customRoutinesTitle": "Custom routines",
         "customRoutinesEmpty": "No on-demand routines",
         "customRoutinesAfterCutoff": "On demand custom routines deactivated until tomorrow morning - time to wind down now",

@@ -3780,6 +3780,7 @@
         "tasksMoveToProjectedDay": "Mover al %@",
         "tasksNoProject": "Sin proyecto",
         "tasksProjectHint": "Escribe #proyecto para agrupar esta tarea",
+        "tasksNameNeeded": "Añade un nombre para esta tarea. Las etiquetas como #proyecto y *prioridad van después del nombre.",
         "customRoutinesTitle": "Rutinas personalizadas",
         "customRoutinesEmpty": "No hay rutinas a demanda",
         "customRoutinesAfterCutoff": "Las rutinas personalizadas a demanda se desactivan hasta mañana por la mañana: es hora de ir terminando",
