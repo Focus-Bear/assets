@@ -3512,6 +3512,9 @@
         "emptyNoteText": "This note is empty.",
         "showInTaskListText": "Show in task list"
     },
+    "localForecastViewInfo": {
+        "allWorkComplete": "All tasks in this project are complete"
+    },
     "scheduleViewInfo":{
         "showDismissedEvents": "Show dismissed events",
         "showEventAgain": "Show this event again",

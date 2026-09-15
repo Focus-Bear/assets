@@ -3510,6 +3510,9 @@
         "emptyNoteText": "Esta nota está vacía.",
         "showInTaskListText": "Ver en la lista de tareas"
     },
+    "localForecastViewInfo": {
+        "allWorkComplete": "Todas las tareas de este proyecto están completadas"
+    },
     "scheduleViewInfo":{
         "showDismissedEvents": "Mostrar eventos descartados",
         "showEventAgain": "Mostrar este evento de nuevo",
