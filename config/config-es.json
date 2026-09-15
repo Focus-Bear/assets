@@ -1454,7 +1454,8 @@
         "finishInFutureText": "La hora de fin no puede estar en el futuro",
         "durationHoursText": "Duración (horas)",
         "filterPlaceholder": "Filtrar",
-        "sessionSaveFailedText": "No se pudo guardar la sesión de enfoque"
+        "sessionSaveFailedText": "No se pudo guardar la sesión de enfoque",
+        "focusLogTimeText": "Hora"
     },
     "askLogInVcInfo": {
         "title": "Crea una cuenta para sincronizar tus ajustes en todos tus dispositivos.",
@@ -3388,7 +3389,7 @@
         "topScoreTooltip": "TOP ordena qué tarea hacer a continuación. Cuanto mayor, más urgente y valiosa en relación con el esfuerzo.",
         "dueWithDateText": "Vence: <DATE>",
         "setDueDateText": "Fijar fecha límite",
-        "requiredHoursText": "<DURATION> de esfuerzo del proyecto",
+        "requiredHoursText": "<DURATION> restantes",
         "recommendedDailyText": "<DURATION>/día para terminar",
         "recommendedDailyTooltip": "Trabaja unas <DURATION> cada día para terminar antes de la fecha límite",
         "recommendedTodayTitle": "Ritmo de hoy para mantenerte al día",
@@ -3517,7 +3518,23 @@
         "couldNotDeleteNoteText": "No se pudo eliminar la nota",
         "couldNotCreateNoteText": "No se pudo crear la nota",
         "emptyNoteText": "Esta nota está vacía.",
-        "showInTaskListText": "Ver en la lista de tareas"
+        "showInTaskListText": "Ver en la lista de tareas",
+        "mergeProjectText": "Combinar con otro proyecto…",
+        "mergeProjectTitleText": "Combinar <PROJECT> con…",
+        "mergeProjectExplanationText": "Todas las tareas pasan al proyecto que elijas y <PROJECT> se archiva cuando queda vacío. Las tareas sincronizadas desde otra herramienta se quedan donde están.",
+        "mergeProjectSearchText": "Buscar proyectos...",
+        "mergeProjectConfirmText": "Combinar",
+        "mergeProjectRunningText": "Moviendo tareas…",
+        "mergeProjectNoDestinationsText": "No hay otro proyecto activo con el que combinar.",
+        "projectMergeMovedText": "Se movieron <COUNT> tareas a <PROJECT>",
+        "projectMergeSkippedText": "<COUNT> tareas sincronizadas se quedaron en su propia herramienta",
+        "projectMergeFailedText": "No se pudieron mover <COUNT> tareas",
+        "projectMergeArchivedText": "<PROJECT> está vacío y se ha archivado",
+        "couldNotMergeProjectText": "No se pudo combinar el proyecto. No se cambió nada.",
+        "couldNotLoadProjectsText": "No se pudieron cargar tus proyectos",
+        "showAllProjectsText": "Ver los <COUNT>",
+        "showFewerProjectsText": "Ver menos",
+        "requiredHoursTooltipText": "Tiempo que queda por dedicar a este proyecto. Las tareas terminadas no se cuentan."
     },
     "scheduleViewInfo":{
         "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
@@ -3790,7 +3807,10 @@
         "draftSaveFailedTitle": "No se pudieron guardar los cambios de la rutina",
         "draftSaveFailedMessage": "El servidor no aceptó los cambios (estado %d). Tu borrador sigue aquí: revisa tu conexión e inténtalo de nuevo.",
         "draftSaveFailedOk": "OK",
-        "draftSaveFailedServerSaid": "El servidor respondió:"
+        "draftSaveFailedServerSaid": "El servidor respondió:",
+        "routineCutoffLabel": "Hora límite de la rutina nocturna",
+        "routineCutoffHint": "Los hábitos nocturnos opcionales se detienen a esta hora; los obligatorios mantienen sus propias horas límite.",
+        "routineCutoffInvalid": "Elige una hora límite entre el inicio de la rutina nocturna y el inicio de la siguiente rutina matutina."
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",
@@ -3971,7 +3991,9 @@
         "menuTakeBreakBody": "Tómate un descanso cuando lo necesites.",
         "menuOpenFocusScreen": "Abre la pantalla de enfoque completa",
         "menuNotes": "Notas",
-        "menuFocusToolsSubtitleNotes": "Música, notas y tareas"
+        "menuFocusToolsSubtitleNotes": "Música, notas y tareas",
+        "blockingOffBrowserNotResponding": "Tu navegador ha dejado de indicarle a Focus Bear qué página está abierta, así que no se están comprobando los sitios web. Normalmente se soluciona cerrando y volviendo a abrir el navegador.",
+        "blockingOffFixBrowserNotResponding": "Revisar la configuración del navegador"
     },
     "leftMenuVcInfo":{
         "menuStats": "Estadísticas",
@@ -4184,7 +4206,15 @@
         "aiBuddyButtonTryAgain": "Probar otro objetivo",
         "aiBuddyErrorMessage": "Algo salió mal. Puedes intentarlo de nuevo o simplemente hacer tu hábito.",
         "aiBuddyInputPlaceholder": "Escribe tu motivo…",
-        "aiBuddyButtonSend": "Enviar"
+        "aiBuddyButtonSend": "Enviar",
+        "aiBuddyRecoveryTitle": "¿Necesitas aplazar tus hábitos?",
+        "aiBuddyRecoveryExplanation": "Tu compañero no respondió, así que todavía no se ha pospuesto nada. Vuelve a intentarlo, haz el hábito ahora o elige cuánto tiempo necesitas y mantén pulsado el botón para aplazarlo.",
+        "aiBuddyRecoveryDuration": "Aplazar",
+        "aiBuddyRecoveryChooseDuration": "Elige cuánto tiempo",
+        "aiBuddyRecoveryHold": "Mantén pulsado 10 segundos para aplazar",
+        "aiBuddyRecoveryHolding": "Ya casi: quedan {seconds} segundos",
+        "aiBuddyRecoveryHoldHelp": "Mantenlo pulsado, o enfoca el botón y mantén la barra espaciadora o Intro. Si lo sueltas, los 10 segundos empiezan de nuevo.",
+        "aiBuddyRecoveryRetry": "Intentar otra vez con mi compañero"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Tu profesor(a) ha iniciado una sesión de enfoque de clase",
@@ -4339,7 +4369,8 @@
         "labelPickerFromToDoList": "De tu lista de tareas",
         "labelPickerFromSearch": "Buscando en todas tus tareas",
         "labelTimeOnTask": "Trabajando desde hace <TIME>",
-        "labelSessionProgress": "<ELAPSED> de <TOTAL>"
+        "labelSessionProgress": "<ELAPSED> de <TOTAL>",
+        "errorTaskServerUpdateRequired": "El servidor no ha proporcionado los detalles necesarios para editar esta tarea de forma segura. Esto requiere una actualización del servicio; volver a conectarte no lo solucionará. Puedes seguir trabajando en la tarea."
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",
@@ -4435,7 +4466,8 @@
         "buttonSkip": "Omitir",
         "buttonGrantPermissions": "Conceder permisos",
         "titleBlockingScheduleSkipped": "Vamos a configurar los permisos.",
-        "bubbleText": "¡Dame permisos para que esas distracciones no se cuelen de nuevo! 🐾"
+        "bubbleText": "¡Dame permisos para que esas distracciones no se cuelen de nuevo! 🐾",
+        "subTitleBlockingNotConfigured": "Focus Bear necesita permisos de Eventos del Sistema, Accesibilidad y Navegador antes de poder bloquear nada. Concédelos ahora y el bloqueo funcionará en cuanto lo actives."
     },
     "allSetVcInfo": {
         "title": "¡Fantástico! Ya está todo listo.",
