@@ -1,4 +1,32 @@
 {
+    "localReportStatus": {
+        "areaBlocking": "Bloqueo",
+        "areaDayPlan": "Plan del día",
+        "areaFilterAll": "Todas las áreas",
+        "areaFilterLabel": "Parte de la app",
+        "areaFocusSession": "Sesión de enfoque",
+        "areaMenuBar": "Barra de menús",
+        "areaOther": "Otros",
+        "areaReportsFeedback": "Informes",
+        "areaRoutinesBreaks": "Rutinas y descansos",
+        "areaStats": "Estadísticas",
+        "areaTasksProjects": "Tareas y proyectos",
+        "blockedOnBackend": "Esperando una versión del servidor",
+        "blockedOnBackendDetail": "La parte de Mac está lista, pero no se puede probar hasta que se fusione y despliegue un cambio en el servidor.",
+        "noSearchMatches": "Ningún informe coincide con tu búsqueda.",
+        "openInPreview": "Abrir en Vista Previa",
+        "pasteImage": "Pegar imagen",
+        "pasteImageFailed": "No se pudo adjuntar esa imagen. Cópiala de nuevo e inténtalo.",
+        "pasteImageHint": "Copia una captura y pégala aquí.",
+        "reworkNeeded": "Necesita revisión",
+        "reworkNeededDetail": "Añadiste comentarios después de la última revisión, así que vuelve a estar con nosotros.",
+        "screenshotOpenFailed": "No se pudo abrir esa captura. Actualiza los informes e inténtalo de nuevo.",
+        "screenshots": "Capturas de pantalla",
+        "searchPlaceholder": "Buscar informes"
+    },
+    "localForecastViewInfo": {
+        "outcomeUnavailable": "Todavía no se puede guardar el resultado de un proyecto: requiere una actualización del servidor. Usa la fecha de entrega y la importancia por ahora."
+    },
     "talkingClockSettingsInfo":{
         "title": "Reloj parlante",
         "back": "Atrás",
@@ -1267,6 +1295,8 @@
         "buttonOwnUrlBrainDumpText": "Usa tu propio sistema de volcado de cerebro"
     },
     "notesViewInfo": {
+        "projectFilterAll": "Todos los proyectos",
+        "projectFilterHelp": "Mostrar solo las notas de un proyecto",
         "brainDumpTitle": "Volcado de ideas",
         "brainDumpInfoText": "Usa el volcado de ideas para captar ideas al momento. Las notas que guardes al crearlas o editarlas aparecen en la lista de abajo.",
         "brainDumpPlaceholder": "Empieza a escribir tus ideas...",
@@ -3159,6 +3189,8 @@
         "unsavedFrequencyCancelButton": "Cancelar"
     },
     "toDoListViewInfo":{
+        "projectIconPickText": "Elige un emoji…",
+        "tasksToDoCountText": "<COUNT> por hacer",
         "archiveConfirmText": "¿Archivar este proyecto? Se ocultará de tu lista activa y del portafolio.",
         "markCompleteConfirmText": "¿Marcar este proyecto como completado? Se ocultará de tu lista activa y del portafolio.",
         "restoreConfirmText": "¿Restaurar este proyecto a tu lista activa?",
@@ -3511,6 +3543,12 @@
         "showInTaskListText": "Ver en la lista de tareas"
     },
     "scheduleViewInfo":{
+        "eventScopeFuture": "Todos los eventos futuros",
+        "eventScopeMessage": "¿Cambiar solo esta repetición o esta y todas las siguientes?",
+        "eventScopeThis": "Solo este evento",
+        "eventScopeTitle": "Este es un evento que se repite",
+        "habitSkipAhead": "Omitir",
+        "habitUnskipAhead": "No omitir",
         "showDismissedEvents": "Mostrar eventos descartados",
         "showEventAgain": "Mostrar este evento de nuevo",
         "hideEvent": "Ocultar este evento",
@@ -4013,6 +4051,9 @@
         "buttonAbortFocus": "Pausar horario personalizado"
     },
     "aiBlockBuddyInfo":{
+        "reportBadAiPlaceholder": "Esto es relevante porque…",
+        "reportBadAiPrompt": "¿En qué se equivocó?",
+        "reportBadAiSend": "Enviar informe",
         "couldWaitTitle": "Parece que esto puede esperar...",
         "lowerPriority": "Oye — parece que estás trabajando en algo de menor prioridad ({0}).",
         "topTasksIntro": "Un recordatorio de las tareas principales de tu Plan del día:",
@@ -4147,6 +4188,7 @@
         "pactBackToJoinLink": "Mejor me uno"
     },
     "focusStateVcInfo":{
+        "changeBlockList": "Cambiar la lista de bloqueo de esta sesión",
         "titleIntention": "Objetivo de enfoque:",
         "titleTask": "Tarea actual:",
         "toolTipIncreaseDuration": "Aumentar la duración en 1 minuto",
