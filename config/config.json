@@ -1869,6 +1869,8 @@
         "noEntries": "Nothing is blocked in this list yet.",
         "noEntriesForCategory": "Nothing in this category yet. Add a site above.",
         "allowListNotice": "This block list uses an allow list: everything is blocked except the sites and apps below.",
+        "syncFailed": "Saved on this Mac only — “<NAME>” couldn’t be synced, so these changes won’t reach your other devices yet.",
+        "dismiss": "Dismiss",
         "categoryGaming": "Gaming",
         "categoryPorn": "Adult",
         "categoryGambling": "Gambling"
