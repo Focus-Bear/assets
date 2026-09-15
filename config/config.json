@@ -3569,6 +3569,8 @@
         "eventCalendarLabel": "Calendar",
         "eventStartsLabel": "Starts",
         "eventEndsLabel": "Ends",
+        "eventTimePlaceholder": "e.g. 7:30 am",
+        "habitInvalidCutoff": "The cutoff must fall between the evening routine start and the morning routine start.",
         "eventSave": "Save",
         "eventCancel": "Cancel",
         "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
