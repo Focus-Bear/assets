@@ -1508,6 +1508,7 @@
         "toolTipCopyId": "Copiar identificación de usuario",
         "titleUserId": "Identificación de usuario:",
         "toolTipCopied": "Entendido",
+        "toolTipCloseText": "Cerrar",
         "buttonContinueText": "Seguir con la Versión Básica",
         "titleBasicVersion": "La versión básica permite acceder a funciones limitadas",
         "pointSimplePomodoroText": "* Sesión de Enfoque Simple",
