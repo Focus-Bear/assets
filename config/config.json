@@ -3515,9 +3515,17 @@
     "localForecastViewInfo": {
         "generatePlan": "Reschedule tasks",
         "reviewPlan": "Reschedule plan",
-        "reviewExplanation": "Tick the date changes you want to apply. Each slider says how far that task may be pushed back — set one to a hard deadline and it leaves this list.",
+        "reviewExplanation": "Tick the date changes you want to apply. Each slider says how far that task may be pushed back — set one to a hard deadline and it leaves this list. Tasks in a hard-deadline project inherit its deadline: only their order is yours to change, and none can be pushed past the project’s end date.",
         "conflictsHeading": "Can’t be rescheduled",
-        "calendarMissing": "Calendar access is unavailable. Meeting time is missing, so these estimates are incomplete and rescheduling cannot be applied."
+        "projectEndDate": "This would land after the project’s end date, so the date has not been moved.",
+        "fixedByProjectHeading": "Fixed by their project — order only",
+        "fixedByProjectExplanation": "These tasks inherit their project’s hard deadline, so their dates can’t move. Choose which one gets done first.",
+        "inheritedFromProject": "Deadline set by <PROJECT>",
+        "projectEndsOn": "Project ends <DATE>",
+        "projectHasNoEndDate": "Project has no end date",
+        "moveEarlier": "Do this one earlier",
+        "moveLater": "Do this one later",
+        "reorderNotSaved": "Couldn’t change the order — reloading from the server.",        "calendarMissing": "Calendar access is unavailable. Meeting time is missing, so these estimates are incomplete and rescheduling cannot be applied."
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Show dismissed events",

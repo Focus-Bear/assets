@@ -3513,9 +3513,17 @@
     "localForecastViewInfo": {
         "generatePlan": "Reprogramar tareas",
         "reviewPlan": "Plan de reprogramación",
-        "reviewExplanation": "Marca los cambios de fecha que quieras aplicar. Cada control deslizante indica cuánto se puede aplazar esa tarea: si eliges fecha límite inamovible, la tarea sale de esta lista.",
+        "reviewExplanation": "Marca los cambios de fecha que quieras aplicar. Cada control deslizante indica cuánto se puede aplazar esa tarea: si eliges fecha límite inamovible, la tarea sale de esta lista. Las tareas de un proyecto con fecha límite inamovible heredan esa fecha límite: solo puedes cambiar su orden y ninguna puede aplazarse más allá de la fecha de finalización del proyecto.",
         "conflictsHeading": "No se pueden reprogramar",
-        "calendarMissing": "No hay acceso al calendario. Falta el tiempo de reuniones, por lo que estas estimaciones están incompletas y no se puede aplicar la reprogramación."
+        "projectEndDate": "Esto quedaría después de la fecha de finalización del proyecto, así que la fecha no se ha movido.",
+        "fixedByProjectHeading": "Fijadas por su proyecto: solo el orden",
+        "fixedByProjectExplanation": "Estas tareas heredan la fecha límite inamovible de su proyecto, así que sus fechas no se pueden mover. Elige cuál se hace primero.",
+        "inheritedFromProject": "Fecha límite definida por <PROJECT>",
+        "projectEndsOn": "El proyecto termina el <DATE>",
+        "projectHasNoEndDate": "El proyecto no tiene fecha de finalización",
+        "moveEarlier": "Hacer esta antes",
+        "moveLater": "Hacer esta después",
+        "reorderNotSaved": "No se pudo cambiar el orden: recargando desde el servidor.",        "calendarMissing": "No hay acceso al calendario. Falta el tiempo de reuniones, por lo que estas estimaciones están incompletas y no se puede aplicar la reprogramación."
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Mostrar eventos descartados",
