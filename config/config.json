@@ -3598,6 +3598,9 @@
         "showFewerProjectsText": "Show fewer",
         "requiredHoursTooltipText": "Time still to do on this project. Finished tasks aren't counted."
     },
+    "localForecastViewInfo": {
+        "allWorkComplete": "All tasks in this project are complete"
+    },
     "scheduleViewInfo":{
         "habitInvalidCutoff": "The cutoff must fall between the evening routine start and the morning routine start.",
         "showDismissedEvents": "Show dismissed events",

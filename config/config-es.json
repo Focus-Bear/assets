@@ -3596,6 +3596,9 @@
         "showFewerProjectsText": "Ver menos",
         "requiredHoursTooltipText": "Tiempo que queda por dedicar a este proyecto. Las tareas terminadas no se cuentan."
     },
+    "localForecastViewInfo": {
+        "allWorkComplete": "Todas las tareas de este proyecto están completadas"
+    },
     "scheduleViewInfo":{
         "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
         "showDismissedEvents": "Mostrar eventos descartados",
