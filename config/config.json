@@ -4411,6 +4411,15 @@
         "taskListTitle": "Open Task List:",
         "focusSessionTitle": "Open Focus Session:"
     },
+    "localReportStatus": {
+        "noteOriginal": "Original note",
+        "noteUpdate": "Update",
+        "noteUpdateHeading": "Update <NUMBER> of <COUNT>",
+        "noteUpdateCount": "<COUNT> updates",
+        "noteLatest": "Latest",
+        "noteNewestFirst": "Newest update first.",
+        "latestUpdate": "Latest update"
+    },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
