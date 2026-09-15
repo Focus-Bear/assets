@@ -1,4 +1,32 @@
 {
+    "localReportStatus": {
+        "areaBlocking": "Blocking",
+        "areaDayPlan": "Day Plan",
+        "areaFilterAll": "All areas",
+        "areaFilterLabel": "Part of the app",
+        "areaFocusSession": "Focus session",
+        "areaMenuBar": "Menu bar",
+        "areaOther": "Other",
+        "areaReportsFeedback": "Reports",
+        "areaRoutinesBreaks": "Routines & breaks",
+        "areaStats": "Stats",
+        "areaTasksProjects": "Tasks & projects",
+        "blockedOnBackend": "Waiting on a backend release",
+        "blockedOnBackendDetail": "The Mac side is done, but this cannot be tested until a backend change is merged and deployed.",
+        "noSearchMatches": "No reports match your search.",
+        "openInPreview": "Open in Preview",
+        "pasteImage": "Paste image",
+        "pasteImageFailed": "Couldn't attach that image. Copy it again and retry.",
+        "pasteImageHint": "Copy a screenshot, then paste it here.",
+        "reworkNeeded": "Rework needed",
+        "reworkNeededDetail": "You added feedback after the last review, so this is back with us.",
+        "screenshotOpenFailed": "Couldn't open that screenshot. Refresh the reports and try again.",
+        "screenshots": "Screenshots",
+        "searchPlaceholder": "Search reports"
+    },
+    "localForecastViewInfo": {
+        "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now."
+    },
     "talkingClockSettingsInfo":{
         "title": "Talking Clock",
         "back": "Back",
@@ -1267,6 +1295,8 @@
         "buttonOwnUrlBrainDumpText": "Use your own system for brain dump"
     },
     "notesViewInfo": {
+        "projectFilterAll": "All projects",
+        "projectFilterHelp": "Show notes from one project only",
         "brainDumpTitle": "Brain Dump",
         "brainDumpInfoText": "Use Brain Dump to capture ideas fast. Saved notes you've added or edited appear in the list below.",
         "brainDumpPlaceholder": "Start typing your thoughts...",
@@ -3161,6 +3191,8 @@
         "unsavedFrequencyCancelButton": "Cancel"
     },
     "toDoListViewInfo":{
+        "projectIconPickText": "Pick an emoji…",
+        "tasksToDoCountText": "<COUNT> to do",
         "archiveConfirmText": "Archive this project? It will be hidden from your active list and portfolio.",
         "markCompleteConfirmText": "Mark this project as completed? It will be hidden from your active list and portfolio.",
         "restoreConfirmText": "Restore this project to your active list?",
@@ -3513,6 +3545,12 @@
         "showInTaskListText": "Show in task list"
     },
     "scheduleViewInfo":{
+        "eventScopeFuture": "All future events",
+        "eventScopeMessage": "Change only this occurrence, or this one and every later one?",
+        "eventScopeThis": "Only this event",
+        "eventScopeTitle": "This is a repeating event",
+        "habitSkipAhead": "Skip",
+        "habitUnskipAhead": "Unskip",
         "showDismissedEvents": "Show dismissed events",
         "showEventAgain": "Show this event again",
         "hideEvent": "Hide this event",
@@ -4015,6 +4053,9 @@
         "buttonAbortFocus": "Pause Custom Schedule"
     },
     "aiBlockBuddyInfo":{
+        "reportBadAiPlaceholder": "This is relevant because…",
+        "reportBadAiPrompt": "What did it get wrong?",
+        "reportBadAiSend": "Send report",
         "couldWaitTitle": "This looks like it could wait...",
         "lowerPriority": "Hey — it looks like you might be working on something lower priority ({0}).",
         "topTasksIntro": "Here's a reminder of the top tasks in your day plan:",
@@ -4168,6 +4209,7 @@
         "pactBackToJoinLink": "Actually, I'll join"
     },
     "focusStateVcInfo":{
+        "changeBlockList": "Change the block list for this session",
         "titleIntention": "Focus Goal:",
         "titleTask": "Current task:",
         "toolTipIncreaseDuration": "Increase duration by 1 minute",
