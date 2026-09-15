@@ -3977,6 +3977,7 @@
         "titleBlockingSchedule": "Blocking schedule",
         "titleFromTime": "From",
         "titleTillTime": "Till",
+        "titleBlockingTime": "Blocking time",
         "titleFocusMode": "Block list",
         "buttonEditBlockList": "Edit block list",
         "buttonSkipMicrobreaks": "Skip microbreaks",
