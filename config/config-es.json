@@ -4392,7 +4392,10 @@
     },
     "localForecastViewInfo": {
         "dayOverCapacity": "<DATE> ya está <DURATION> por encima de su capacidad. Fecha sugerida: <SUGGESTED_DATE>",
-        "dayNotEnoughRoom": "<DATE> solo tiene <DURATION> libres, que no bastan para esta tarea. Fecha sugerida: <SUGGESTED_DATE>"
+        "dayNotEnoughRoom": "<DATE> solo tiene <DURATION> libres, que no bastan para esta tarea. Fecha sugerida: <SUGGESTED_DATE>",
+        "plannedTotal": "<DURATION> de tareas planificadas",
+        "bufferTotal": "<BUFFER> de margen",
+        "notEnoughTimeForTasks": "No hay tiempo suficiente para todas las tareas (te pasas por <DURATION>)"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
