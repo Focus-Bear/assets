@@ -4151,6 +4151,7 @@
         "titleBlockingSchedule": "Horario de bloqueo",
         "titleFromTime": "Desde",
         "titleTillTime": "Hasta",
+        "titleBlockingTime": "Tiempo de bloqueo",
         "titleFocusMode": "Lista de bloqueo",
         "buttonEditBlockList": "Editar lista de bloqueos",
         "buttonSkipMicrobreaks": "Omitir micro descansos",
