@@ -3516,6 +3516,8 @@
         "columnDoneText": "Hecho",
         "noTasksInColumnText": "Sin tareas",
         "moveToText": "Mover a",
+        "dropMarksCompleteText": "Completa esta tarea",
+        "dropReopensText": "Reabre esta tarea",
         "inviteMemberText": "Invitar miembro",
         "emailPlaceholder": "Introduce una dirección de correo",
         "invalidEmailText": "Introduce una dirección de correo válida.",

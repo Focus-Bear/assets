@@ -3518,6 +3518,8 @@
         "columnDoneText": "Done",
         "noTasksInColumnText": "No tasks",
         "moveToText": "Move to",
+        "dropMarksCompleteText": "Completes this task",
+        "dropReopensText": "Reopens this task",
         "inviteMemberText": "Invite Member",
         "emailPlaceholder": "Enter email address",
         "invalidEmailText": "Please enter a valid email address.",
