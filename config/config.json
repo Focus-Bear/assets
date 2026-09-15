@@ -3311,6 +3311,7 @@
         "attachmentTooLargeText": "Files must be 20 MB or smaller.",
         "attachmentLimitReachedText": "A task can hold 20 attachments.",
         "attachmentsAfterSavingText": "Save the task first, then you can attach files to it.",
+        "attachmentsNeedTodoText": "Files are stored on this task's to-do. It hasn't synced to your to-do list yet, so nothing can be attached — reopen these details once it has.",
         "previewAttachmentText": "Preview this file",
         "attachmentPreviewUnavailableText": "Focus Bear can't show this kind of file. Save a copy to open it yourself.",
         "attachmentSaveCopyText": "Save a copy…",

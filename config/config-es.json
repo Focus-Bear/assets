@@ -3309,6 +3309,7 @@
         "attachmentTooLargeText": "Los archivos deben pesar 20 MB o menos.",
         "attachmentLimitReachedText": "Una tarea admite 20 adjuntos.",
         "attachmentsAfterSavingText": "Guarda la tarea primero y luego podrás adjuntar archivos.",
+        "attachmentsNeedTodoText": "Los archivos se guardan en la tarea pendiente asociada. Todavía no se ha sincronizado con tu lista de tareas, así que no se puede adjuntar nada: vuelve a abrir estos detalles cuando se haya sincronizado.",
         "previewAttachmentText": "Previsualizar este archivo",
         "attachmentPreviewUnavailableText": "Focus Bear no puede mostrar este tipo de archivo. Guarda una copia para abrirlo tú mismo.",
         "attachmentSaveCopyText": "Guardar una copia…",
