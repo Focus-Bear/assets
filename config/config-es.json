@@ -2238,8 +2238,8 @@
                 "description": "¡Vamos a familiarizarte con el menú de Focus Bear y lo tendrás funcionando en un instante!"
             },
             {
-                "title": "Preferencias",
-                "description": "Haz clic en \"Preferences\" para",
+                "title": "Configuración",
+                "description": "Haz clic en el \"ícono de engranaje\" (preferencias) para",
                 "arrayListItems": [
                     "Editar actividades para tu rutina matutina, nocturna y descansos a lo largo del día.",
                     "Configurar o cambiar contraseña.",
