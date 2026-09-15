@@ -4391,8 +4391,8 @@
         "focusSessionTitle": "Abrir sesión de enfoque:"
     },
     "localForecastViewInfo": {
-        "dayShortfall": "-<DURATION> disponible el <DATE>. Fecha sugerida: <SUGGESTED_DATE>",
-        "dayShortfallNoSuggestion": "-<DURATION> disponible el <DATE>. Ningún día de tu previsión tiene espacio para esta tarea."
+        "dayOverCapacity": "<DATE> ya está <DURATION> por encima de su capacidad. Fecha sugerida: <SUGGESTED_DATE>",
+        "dayNotEnoughRoom": "<DATE> solo tiene <DURATION> libres, que no bastan para esta tarea. Fecha sugerida: <SUGGESTED_DATE>"
     },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
