@@ -3654,6 +3654,8 @@
         "eventCalendarLabel": "Calendario",
         "eventStartsLabel": "Empieza",
         "eventEndsLabel": "Termina",
+        "eventTimePlaceholder": "p. ej. 7:30",
+        "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
         "eventSave": "Guardar",
         "eventCancel": "Cancelar",
         "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
