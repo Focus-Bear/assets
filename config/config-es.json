@@ -4124,7 +4124,10 @@
         "menuNotes": "Notas",
         "menuFocusToolsSubtitleNotes": "Música, notas y tareas",
         "blockingOffBrowserNotResponding": "Tu navegador ha dejado de indicarle a Focus Bear qué página está abierta, así que no se están comprobando los sitios web. Normalmente se soluciona cerrando y volviendo a abrir el navegador.",
-        "blockingOffFixBrowserNotResponding": "Revisar la configuración del navegador"
+        "blockingOffFixBrowserNotResponding": "Revisar la configuración del navegador",
+        "menuNoCurrentTask": "Ninguna tarea elegida",
+        "menuMarkTaskComplete": "Marcar como completada",
+        "menuChangeTask": "Cambiar tarea"
     },
     "leftMenuVcInfo":{
         "menuStats": "Estadísticas",
@@ -4508,7 +4511,8 @@
         "labelPickerFromSearch": "Buscando en todas tus tareas",
         "labelTimeOnTask": "Trabajando desde hace <TIME>",
         "labelSessionProgress": "<ELAPSED> de <TOTAL>",
-        "errorTaskServerUpdateRequired": "El servidor no ha proporcionado los detalles necesarios para editar esta tarea de forma segura. Esto requiere una actualización del servicio; volver a conectarte no lo solucionará. Puedes seguir trabajando en la tarea."
+        "errorTaskServerUpdateRequired": "El servidor no ha proporcionado los detalles necesarios para editar esta tarea de forma segura. Esto requiere una actualización del servicio; volver a conectarte no lo solucionará. Puedes seguir trabajando en la tarea.",
+        "buttonAddTask": "Añadir una tarea"
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",

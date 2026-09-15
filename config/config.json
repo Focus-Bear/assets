@@ -4126,7 +4126,10 @@
         "menuNotes": "Notes",
         "menuFocusToolsSubtitleNotes": "Music, notes & to-dos",
         "blockingOffBrowserNotResponding": "Your browser has stopped telling Focus Bear which page is open, so websites aren't being checked. Quitting and reopening the browser usually fixes it.",
-        "blockingOffFixBrowserNotResponding": "Check browser setup"
+        "blockingOffFixBrowserNotResponding": "Check browser setup",
+        "menuNoCurrentTask": "No task chosen",
+        "menuMarkTaskComplete": "Mark as complete",
+        "menuChangeTask": "Change task"
     },
     "leftMenuVcInfo":{
         "menuStats": "Stats",
@@ -4529,7 +4532,8 @@
         "labelPickerFromSearch": "Searching all your to-dos",
         "labelTimeOnTask": "Working for <TIME>",
         "labelSessionProgress": "<ELAPSED> of <TOTAL>",
-        "errorTaskServerUpdateRequired": "The server has not provided the details needed to edit this task safely. This needs a service update; reconnecting will not fix it. You can keep working on the task."
+        "errorTaskServerUpdateRequired": "The server has not provided the details needed to edit this task safely. This needs a service update; reconnecting will not fix it. You can keep working on the task.",
+        "buttonAddTask": "Add a task"
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",
