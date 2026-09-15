@@ -1303,7 +1303,12 @@
         "bulletListText": "Bulleted list",
         "numberedListText": "Numbered list",
         "allTagsText": "All tags",
-        "filterByTagText": "Filter by tag"
+        "filterByTagText": "Filter by tag",
+        "scopeAllText": "All notes",
+        "scopePersonalText": "My notes",
+        "scopeProjectNotesText": "Project notes",
+        "newProjectNoteText": "New project note",
+        "backToNotesText": "Back to notes"
     },
     "statsViewInfo": {
         "tabGoals": "Your Goals",

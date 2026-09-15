@@ -1303,7 +1303,12 @@
         "bulletListText": "Lista con viñetas",
         "numberedListText": "Lista numerada",
         "allTagsText": "Todas las etiquetas",
-        "filterByTagText": "Filtrar por etiqueta"
+        "filterByTagText": "Filtrar por etiqueta",
+        "scopeAllText": "Todas las notas",
+        "scopePersonalText": "Mis notas",
+        "scopeProjectNotesText": "Notas del proyecto",
+        "newProjectNoteText": "Nueva nota de proyecto",
+        "backToNotesText": "Volver a las notas"
     },
     "statsViewInfo": {
         "tabGoals": "Tus metas",
