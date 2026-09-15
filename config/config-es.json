@@ -3510,6 +3510,13 @@
         "emptyNoteText": "Esta nota está vacía.",
         "showInTaskListText": "Ver en la lista de tareas"
     },
+    "localForecastViewInfo": {
+        "generatePlan": "Reprogramar tareas",
+        "reviewPlan": "Plan de reprogramación",
+        "reviewExplanation": "Marca los cambios de fecha que quieras aplicar. Cada control deslizante indica cuánto se puede aplazar esa tarea: si eliges fecha límite inamovible, la tarea sale de esta lista.",
+        "conflictsHeading": "No se pueden reprogramar",
+        "calendarMissing": "No hay acceso al calendario. Falta el tiempo de reuniones, por lo que estas estimaciones están incompletas y no se puede aplicar la reprogramación."
+    },
     "scheduleViewInfo":{
         "showDismissedEvents": "Mostrar eventos descartados",
         "showEventAgain": "Mostrar este evento de nuevo",

@@ -3512,6 +3512,13 @@
         "emptyNoteText": "This note is empty.",
         "showInTaskListText": "Show in task list"
     },
+    "localForecastViewInfo": {
+        "generatePlan": "Reschedule tasks",
+        "reviewPlan": "Reschedule plan",
+        "reviewExplanation": "Tick the date changes you want to apply. Each slider says how far that task may be pushed back — set one to a hard deadline and it leaves this list.",
+        "conflictsHeading": "Can’t be rescheduled",
+        "calendarMissing": "Calendar access is unavailable. Meeting time is missing, so these estimates are incomplete and rescheduling cannot be applied."
+    },
     "scheduleViewInfo":{
         "showDismissedEvents": "Show dismissed events",
         "showEventAgain": "Show this event again",
