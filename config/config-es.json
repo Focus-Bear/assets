@@ -4390,6 +4390,15 @@
         "taskListTitle": "Abrir lista de tareas:",
         "focusSessionTitle": "Abrir sesión de enfoque:"
     },
+    "localReportStatus": {
+        "noteOriginal": "Nota original",
+        "noteUpdate": "Actualización",
+        "noteUpdateHeading": "Actualización <NUMBER> de <COUNT>",
+        "noteUpdateCount": "<COUNT> actualizaciones",
+        "noteLatest": "Más reciente",
+        "noteNewestFirst": "Primero la actualización más reciente.",
+        "latestUpdate": "Última actualización"
+    },
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
