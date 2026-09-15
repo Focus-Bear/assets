@@ -3525,7 +3525,8 @@
         "projectHasNoEndDate": "Project has no end date",
         "moveEarlier": "Do this one earlier",
         "moveLater": "Do this one later",
-        "reorderNotSaved": "Couldn’t change the order — reloading from the server.",        "calendarMissing": "Calendar access is unavailable. Meeting time is missing, so these estimates are incomplete and rescheduling cannot be applied."
+        "reorderNotSaved": "Couldn’t change the order — reloading from the server.",
+        "calendarMissing": "Calendar access is unavailable. Meeting time is missing, so these estimates are incomplete and rescheduling cannot be applied."
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Show dismissed events",

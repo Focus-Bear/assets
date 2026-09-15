@@ -3523,7 +3523,8 @@
         "projectHasNoEndDate": "El proyecto no tiene fecha de finalización",
         "moveEarlier": "Hacer esta antes",
         "moveLater": "Hacer esta después",
-        "reorderNotSaved": "No se pudo cambiar el orden: recargando desde el servidor.",        "calendarMissing": "No hay acceso al calendario. Falta el tiempo de reuniones, por lo que estas estimaciones están incompletas y no se puede aplicar la reprogramación."
+        "reorderNotSaved": "No se pudo cambiar el orden: recargando desde el servidor.",
+        "calendarMissing": "No hay acceso al calendario. Falta el tiempo de reuniones, por lo que estas estimaciones están incompletas y no se puede aplicar la reprogramación."
     },
     "scheduleViewInfo":{
         "showDismissedEvents": "Mostrar eventos descartados",
