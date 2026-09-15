@@ -4000,7 +4000,14 @@
       "investigating": "En investigación",
       "investigatingDetail": "Se está investigando este informe.",
       "notesReadFailed": "No se pudieron leer estas notas. Actualiza los informes e inténtalo de nuevo.",
-      "close": "Cerrar"
+      "close": "Cerrar",
+      "noteOriginal": "Nota original",
+      "noteUpdate": "Actualización",
+      "noteUpdateHeading": "Actualización <NUMBER> de <COUNT>",
+      "noteUpdateCount": "<COUNT> actualizaciones",
+      "noteLatest": "Más reciente",
+      "noteNewestFirst": "Primero la actualización más reciente.",
+      "latestUpdate": "Última actualización"
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",
