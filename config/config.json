@@ -2901,7 +2901,21 @@
         "summaryBreakDuration": "<COUNT> min breaks",
         "summaryMicroBreaksOn": "Micro-breaks on",
         "summaryMicroBreaksOff": "Micro-breaks off",
-        "placeholderBlockList": "Type to search block lists"
+        "placeholderBlockList": "Type to search block lists",
+        "labelEnableMicroBreaks": "Enable micro-breaks:",
+        "labelBreakFrequency": "Break frequency:",
+        "summaryBreakFrequency": "Micro-breaks every <COUNT> mins",
+        "buttonUseGoal": "Use this goal",
+        "buttonRemoveTask": "Remove task from this session",
+        "buttonClearSearch": "Clear search",
+        "buttonMoreTasks": "Show more tasks",
+        "noMatchingTasks": "No matching unfinished tasks",
+        "workChoicesUnavailable": "Projects or tasks could not be loaded. Please try again.",
+        "buttonRetryWorkChoices": "Try again",
+        "buttonChangeGoal": "Change goal",
+        "buttonClearGoal": "Clear goal",
+        "buttonAddMoreTasks": "Add more tasks",
+        "noMatchingBlockLists": "No matching block lists"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "What would you like to improve in your life by using Focus Bear?",
