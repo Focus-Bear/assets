@@ -1485,6 +1485,7 @@
         "toolTipCopyId": "Copy user id",
         "titleUserId": "Your user id:",
         "toolTipCopied": "Copied",
+        "toolTipCloseText": "Close",
         "buttonContinueText": "Continue with Basic Version",
         "titleBasicVersion": "Basic Version allow you access to limited features",
         "pointSimplePomodoroText": "* Simple Focus Session",
