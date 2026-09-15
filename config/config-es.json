@@ -3891,7 +3891,10 @@
         "menuTakeBreakBody": "Tómate un descanso cuando lo necesites.",
         "menuOpenFocusScreen": "Abre la pantalla de enfoque completa",
         "menuNotes": "Notas",
-        "menuFocusToolsSubtitleNotes": "Música, notas y tareas"
+        "menuFocusToolsSubtitleNotes": "Música, notas y tareas",
+        "menuNoCurrentTask": "Ninguna tarea elegida",
+        "menuMarkTaskComplete": "Marcar como completada",
+        "menuChangeTask": "Cambiar tarea"
     },
     "leftMenuVcInfo":{
         "menuStats": "Estadísticas",
@@ -4231,7 +4234,8 @@
         "labelPickerFromToDoList": "De tu lista de tareas",
         "labelPickerFromSearch": "Buscando en todas tus tareas",
         "labelTimeOnTask": "Trabajando desde hace <TIME>",
-        "labelSessionProgress": "<ELAPSED> de <TOTAL>"
+        "labelSessionProgress": "<ELAPSED> de <TOTAL>",
+        "buttonAddTask": "Añadir una tarea"
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",

@@ -3893,7 +3893,10 @@
         "menuTakeBreakBody": "Take a break whenever you need one.",
         "menuOpenFocusScreen": "Open the full focus screen",
         "menuNotes": "Notes",
-        "menuFocusToolsSubtitleNotes": "Music, notes & to-dos"
+        "menuFocusToolsSubtitleNotes": "Music, notes & to-dos",
+        "menuNoCurrentTask": "No task chosen",
+        "menuMarkTaskComplete": "Mark as complete",
+        "menuChangeTask": "Change task"
     },
     "leftMenuVcInfo":{
         "menuStats": "Stats",
@@ -4252,7 +4255,8 @@
         "labelPickerFromToDoList": "From your to-do list",
         "labelPickerFromSearch": "Searching all your to-dos",
         "labelTimeOnTask": "Working for <TIME>",
-        "labelSessionProgress": "<ELAPSED> of <TOTAL>"
+        "labelSessionProgress": "<ELAPSED> of <TOTAL>",
+        "buttonAddTask": "Add a task"
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",
