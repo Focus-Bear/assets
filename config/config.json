@@ -3628,7 +3628,9 @@
         "syncedSourceText": "Synced from <SOURCE>",
         "syncedSourceUnavailableText": "Synced project · source unavailable",
         "projectTaskCompletionText": "<PERCENT>% complete (<DONE>/<TOTAL> tasks)",
-        "projectAlphabeticalSubsetText": "Loaded projects are shown alphabetically. Load more to include the rest."
+        "projectAlphabeticalSubsetText": "Loaded projects are shown alphabetically. Load more to include the rest.",
+        "setOutcomeText": "Set outcome",
+        "editOutcomeText": "Edit outcome"
     },
     "localForecastViewInfo": {
         "allWorkComplete": "All tasks in this project are complete"
