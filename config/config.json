@@ -3631,7 +3631,9 @@
         "projectTaskCompletionText": "<PERCENT>% complete (<DONE>/<TOTAL> tasks)",
         "projectAlphabeticalSubsetText": "Loaded projects are shown alphabetically. Load more to include the rest.",
         "setOutcomeText": "Set outcome",
-        "editOutcomeText": "Edit outcome"
+        "editOutcomeText": "Edit outcome",
+        "projectIconPickText": "Pick an emoji…",
+        "tasksToDoCountText": "<COUNT> to do"
     },
     "localForecastViewInfo": {
         "allWorkComplete": "All tasks in this project are complete",
@@ -3737,7 +3739,8 @@
         "outcomeMissing": "Choose an outcome before proposing an extension for this project.",
         "likelihoodInHorizon": "Likely to complete <PERCENT>% within this forecast",
         "suggestionRange": "Start <START>; complete by <END>",
-        "outcomeNotSaved": "The project was saved, but its outcome could not be saved. Open project settings to try again."
+        "outcomeNotSaved": "The project was saved, but its outcome could not be saved. Open project settings to try again.",
+        "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now."
     },
     "scheduleViewInfo":{
         "habitInvalidCutoff": "The cutoff must fall between the evening routine start and the morning routine start.",
@@ -4043,7 +4046,13 @@
         "draftSaveFailedServerSaid": "The server said:",
         "routineCutoffLabel": "Evening cutoff time",
         "routineCutoffHint": "Optional evening habits stop at this time; must-do habits keep their own late cutoffs.",
-        "routineCutoffInvalid": "Choose a cutoff between the evening routine start and the next morning routine start."
+        "routineCutoffInvalid": "Choose a cutoff between the evening routine start and the next morning routine start.",
+        "eventScopeFuture": "All future events",
+        "eventScopeMessage": "Change only this occurrence, or this one and every later one?",
+        "eventScopeThis": "Only this event",
+        "eventScopeTitle": "This is a repeating event",
+        "habitSkipAhead": "Skip",
+        "habitUnskipAhead": "Unskip"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Time Tracker",
@@ -4109,7 +4118,30 @@
       "noteUpdateCount": "<COUNT> updates",
       "noteLatest": "Latest",
       "noteNewestFirst": "Newest update first.",
-      "latestUpdate": "Latest update"
+      "latestUpdate": "Latest update",
+      "areaBlocking": "Blocking",
+      "areaDayPlan": "Day Plan",
+      "areaFilterAll": "All areas",
+      "areaFilterLabel": "Part of the app",
+      "areaFocusSession": "Focus session",
+      "areaMenuBar": "Menu bar",
+      "areaOther": "Other",
+      "areaReportsFeedback": "Reports",
+      "areaRoutinesBreaks": "Routines & breaks",
+      "areaStats": "Stats",
+      "areaTasksProjects": "Tasks & projects",
+      "blockedOnBackend": "Waiting on a backend release",
+      "blockedOnBackendDetail": "The Mac side is done, but this cannot be tested until a backend change is merged and deployed.",
+      "noSearchMatches": "No reports match your search.",
+      "openInPreview": "Open in Preview",
+      "pasteImage": "Paste image",
+      "pasteImageFailed": "Couldn't attach that image. Copy it again and retry.",
+      "pasteImageHint": "Copy a screenshot, then paste it here.",
+      "reworkNeeded": "Rework needed",
+      "reworkNeededDetail": "You added feedback after the last review, so this is back with us.",
+      "screenshotOpenFailed": "Couldn't open that screenshot. Refresh the reports and try again.",
+      "screenshots": "Screenshots",
+      "searchPlaceholder": "Search reports"
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
@@ -4400,7 +4432,10 @@
         "argueError": "Something went wrong. You can try again, or block it and stay focused.",
         "offlineTitle": "You're offline",
         "offlineBody": "Your buddy needs an internet connection to check whether this is relevant right now. Hold the button to unlock it anyway, or stay focused.",
-        "offlineHoldButton": "Hold to unlock"
+        "offlineHoldButton": "Hold to unlock",
+        "reportBadAiPlaceholder": "This is relevant because…",
+        "reportBadAiPrompt": "What did it get wrong?",
+        "reportBadAiSend": "Send report"
     },
     "accountabilityBuddyInfo":{
         "aiBuddyRecoveryTitle": "Choose a deliberate postpone",
@@ -4641,7 +4676,8 @@
         "labelTimeOnTask": "Working for <TIME>",
         "labelSessionProgress": "<ELAPSED> of <TOTAL>",
         "errorTaskServerUpdateRequired": "The server has not provided the details needed to edit this task safely. This needs a service update; reconnecting will not fix it. You can keep working on the task.",
-        "buttonAddTask": "Add a task"
+        "buttonAddTask": "Add a task",
+        "changeBlockList": "Change the block list for this session"
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",

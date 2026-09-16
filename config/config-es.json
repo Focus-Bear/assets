@@ -3629,7 +3629,9 @@
         "projectTaskCompletionText": "<PERCENT>% completado (<DONE>/<TOTAL> tareas)",
         "projectAlphabeticalSubsetText": "Los proyectos cargados se muestran alfabéticamente. Carga más para incluir el resto.",
         "setOutcomeText": "Fijar resultado",
-        "editOutcomeText": "Editar resultado"
+        "editOutcomeText": "Editar resultado",
+        "projectIconPickText": "Elige un emoji…",
+        "tasksToDoCountText": "<COUNT> por hacer"
     },
     "localForecastViewInfo": {
         "allWorkComplete": "Todas las tareas de este proyecto están completadas",
@@ -3735,7 +3737,8 @@
         "outcomeMissing": "Elige un resultado antes de proponer una prórroga para este proyecto.",
         "likelihoodInHorizon": "Es probable que completes el <PERCENT>% dentro de esta previsión",
         "suggestionRange": "Empieza el <START>; termina antes del <END>",
-        "outcomeNotSaved": "Se guardó el proyecto, pero no se pudo guardar su resultado. Abre la configuración del proyecto para volver a intentarlo."
+        "outcomeNotSaved": "Se guardó el proyecto, pero no se pudo guardar su resultado. Abre la configuración del proyecto para volver a intentarlo.",
+        "outcomeUnavailable": "Todavía no se puede guardar el resultado de un proyecto: requiere una actualización del servidor. Usa la fecha de entrega y la importancia por ahora."
     },
     "scheduleViewInfo":{
         "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
@@ -4041,7 +4044,13 @@
         "draftSaveFailedServerSaid": "El servidor respondió:",
         "routineCutoffLabel": "Hora límite de la rutina nocturna",
         "routineCutoffHint": "Los hábitos nocturnos opcionales se detienen a esta hora; los obligatorios mantienen sus propias horas límite.",
-        "routineCutoffInvalid": "Elige una hora límite entre el inicio de la rutina nocturna y el inicio de la siguiente rutina matutina."
+        "routineCutoffInvalid": "Elige una hora límite entre el inicio de la rutina nocturna y el inicio de la siguiente rutina matutina.",
+        "eventScopeFuture": "Todos los eventos futuros",
+        "eventScopeMessage": "¿Cambiar solo esta repetición o esta y todas las siguientes?",
+        "eventScopeThis": "Solo este evento",
+        "eventScopeTitle": "Este es un evento que se repite",
+        "habitSkipAhead": "Omitir",
+        "habitUnskipAhead": "No omitir"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",
@@ -4107,7 +4116,30 @@
       "noteUpdateCount": "<COUNT> actualizaciones",
       "noteLatest": "Más reciente",
       "noteNewestFirst": "Primero la actualización más reciente.",
-      "latestUpdate": "Última actualización"
+      "latestUpdate": "Última actualización",
+      "areaBlocking": "Bloqueo",
+      "areaDayPlan": "Plan del día",
+      "areaFilterAll": "Todas las áreas",
+      "areaFilterLabel": "Parte de la app",
+      "areaFocusSession": "Sesión de enfoque",
+      "areaMenuBar": "Barra de menús",
+      "areaOther": "Otros",
+      "areaReportsFeedback": "Informes",
+      "areaRoutinesBreaks": "Rutinas y descansos",
+      "areaStats": "Estadísticas",
+      "areaTasksProjects": "Tareas y proyectos",
+      "blockedOnBackend": "Esperando una versión del servidor",
+      "blockedOnBackendDetail": "La parte de Mac está lista, pero no se puede probar hasta que se fusione y despliegue un cambio en el servidor.",
+      "noSearchMatches": "Ningún informe coincide con tu búsqueda.",
+      "openInPreview": "Abrir en Vista Previa",
+      "pasteImage": "Pegar imagen",
+      "pasteImageFailed": "No se pudo adjuntar esa imagen. Cópiala de nuevo e inténtalo.",
+      "pasteImageHint": "Copia una captura y pégala aquí.",
+      "reworkNeeded": "Necesita revisión",
+      "reworkNeededDetail": "Añadiste comentarios después de la última revisión, así que vuelve a estar con nosotros.",
+      "screenshotOpenFailed": "No se pudo abrir esa captura. Actualiza los informes e inténtalo de nuevo.",
+      "screenshots": "Capturas de pantalla",
+      "searchPlaceholder": "Buscar informes"
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",
@@ -4398,7 +4430,10 @@
         "argueError": "Algo salió mal. Puedes intentarlo de nuevo o bloquearlo y mantener el enfoque.",
         "offlineTitle": "Estás sin conexión",
         "offlineBody": "Tu compañero necesita conexión a internet para comprobar si esto es relevante ahora mismo. Mantén pulsado el botón para desbloquearlo de todos modos, o mantén el enfoque.",
-        "offlineHoldButton": "Mantén pulsado para desbloquear"
+        "offlineHoldButton": "Mantén pulsado para desbloquear",
+        "reportBadAiPlaceholder": "Esto es relevante porque…",
+        "reportBadAiPrompt": "¿En qué se equivocó?",
+        "reportBadAiSend": "Enviar informe"
     },
     "accountabilityBuddyInfo":{
         "aiBuddyRecoveryTitle": "Elige cómo posponer tus hábitos",
@@ -4620,7 +4655,8 @@
         "labelTimeOnTask": "Trabajando desde hace <TIME>",
         "labelSessionProgress": "<ELAPSED> de <TOTAL>",
         "errorTaskServerUpdateRequired": "El servidor no ha proporcionado los detalles necesarios para editar esta tarea de forma segura. Esto requiere una actualización del servicio; volver a conectarte no lo solucionará. Puedes seguir trabajando en la tarea.",
-        "buttonAddTask": "Añadir una tarea"
+        "buttonAddTask": "Añadir una tarea",
+        "changeBlockList": "Cambiar la lista de bloqueo de esta sesión"
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",
