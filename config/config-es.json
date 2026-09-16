@@ -3536,6 +3536,7 @@
         "projectDeadlineHeading": "Fechas límite de proyecto",
         "projectDeadlineExplanation": "Estas cambian la fecha límite de todo un PROYECTO, no la de una tarea.",
         "projectDeadlineRow": "Establecer la fecha límite del proyecto <PROJECT> en <DATE>",
+        "selectAllInProject": "Seleccionar los <COUNT> cambios de este proyecto",
         "chooseProject": "Elige un proyecto…",
         "changeProject": "Haz clic para mover esta tarea a otro proyecto",
         "projectNotChanged": "No se pudo mover esa tarea a otro proyecto.",

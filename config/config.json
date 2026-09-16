@@ -3538,6 +3538,7 @@
         "projectDeadlineHeading": "Project deadlines",
         "projectDeadlineExplanation": "These change a whole PROJECT’s deadline, not one task’s.",
         "projectDeadlineRow": "Set <PROJECT>’s project deadline to <DATE>",
+        "selectAllInProject": "Select all <COUNT> changes in this project",
         "chooseProject": "Choose a project…",
         "changeProject": "Click to move this task to another project",
         "projectNotChanged": "Couldn’t move that task to another project.",
