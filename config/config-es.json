@@ -1,4 +1,18 @@
 {
+    "cleanShotPicker":{
+        "title": "Elegir de CleanShot",
+        "explanation": "Tus capturas de CleanShot, de la más reciente a la más antigua.",
+        "chooseFromCleanShot": "Elegir de CleanShot",
+        "hideProcessed": "Ocultar las procesadas",
+        "processed": "Procesada",
+        "markProcessed": "Marcar como procesada",
+        "loading": "Leyendo tu carpeta de CleanShot…",
+        "empty": "Todavía no hay capturas en tu carpeta de CleanShot.",
+        "allProcessed": "Todas las capturas están marcadas como procesadas.",
+        "notAnImage": "Documento de CleanShot: ábrelo en CleanShot y exporta una imagen primero.",
+        "markFailed": "No se pudo guardar la lista de procesadas. Puede que tus marcas no se conserven.",
+        "cancel": "Cancelar"
+    },
     "talkingClockSettingsInfo":{
         "title": "Reloj parlante",
         "back": "Atrás",
