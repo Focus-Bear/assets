@@ -1,17 +1,21 @@
 {
     "cleanShotPicker":{
         "title": "Choose from CleanShot",
-        "explanation": "Your CleanShot screenshots, newest first.",
         "chooseFromCleanShot": "Choose from CleanShot",
         "pasteFromClipboard": "Paste from clipboard",
         "hideProcessed": "Hide processed",
         "processed": "Processed",
-        "markProcessed": "Mark as processed",
+        "markProcessed": "Mark as processed, and show the next one",
         "loading": "Reading your CleanShot folder…",
         "empty": "No screenshots in your CleanShot folder yet.",
-        "allProcessed": "Every screenshot is marked processed.",
+        "allProcessed": "Every screenshot is marked processed. Untick “Hide processed” to see them again.",
         "notAnImage": "CleanShot document — open it in CleanShot and export an image first.",
+        "previewUnavailable": "This screenshot couldn't be opened.",
         "markFailed": "Couldn't save the processed list. Your marks may not stick.",
+        "position": "<INDEX> of <COUNT>",
+        "previous": "Previous screenshot (←)",
+        "next": "Next screenshot (→)",
+        "attach": "Attach",
         "cancel": "Cancel"
     },
     "talkingClockSettingsInfo":{
