@@ -3543,7 +3543,7 @@
         "reprioritiseMenuItem": "Re-prioritise todo list",
         "reprioritiseLink": "Help me re-prioritise to-do list",
         "reprioritiseOverdue": "You have <COUNT> overdue tasks.",
-        "reprioritiseOverCapacity": "Today is <DURATION> over what you can fit.",
+        "reprioritiseOverCapacity": "One of the next <DAYS> days is <DURATION> over what you can fit.",
         "reprioritiseDismiss": "Dismiss this suggestion",
         "noSlotBeforeProjectEnd": "This project ends on <DATE> and there isn’t room for this task before then. Shorten it, free up time, or move the project’s end date.",
         "majorChanges": "Major changes — moved 5 days or more (<COUNT>)",
