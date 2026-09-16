@@ -3,6 +3,7 @@
         "title": "Choose from CleanShot",
         "explanation": "Your CleanShot screenshots, newest first.",
         "chooseFromCleanShot": "Choose from CleanShot",
+        "pasteFromClipboard": "Paste from clipboard",
         "hideProcessed": "Hide processed",
         "processed": "Processed",
         "markProcessed": "Mark as processed",
