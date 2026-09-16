@@ -3539,6 +3539,7 @@
         "projectDeadlineExplanation": "These change a whole PROJECT’s deadline, not one task’s.",
         "projectDeadlineRow": "Set <PROJECT>’s project deadline to <DATE>",
         "selectAllInProject": "Select all <COUNT> changes in this project",
+        "selectAllInGroup": "Select all <COUNT> changes in this group",
         "noSlotBeforeProjectEnd": "This project ends on <DATE> and there isn’t room for this task before then. Shorten it, free up time, or move the project’s end date.",
         "majorChanges": "Major changes — moved 5 days or more (<COUNT>)",
         "minorChanges": "Minor changes — moved less than 5 days (<COUNT>)",
