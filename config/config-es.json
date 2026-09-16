@@ -3409,6 +3409,7 @@
         "attachmentPreviewUnavailableText": "Focus Bear no puede mostrar este tipo de archivo. Guarda una copia para abrirlo tú mismo.",
         "attachmentSaveCopyText": "Guardar una copia…",
         "attachmentPasteHintText": "O copia una imagen y pulsa Comando-V para adjuntarla.",
+        "attachmentPastePendingText": "Imagen pegada: se adjuntará cuando esta tarea se sincronice.",
         "addCommentPlaceholder": "Añadir un comentario...",
         "reactionsText": "Reacciones",
         "addReactionText": "Añadir reacción",
