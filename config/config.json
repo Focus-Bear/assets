@@ -2915,7 +2915,8 @@
         "buttonChangeGoal": "Change goal",
         "buttonClearGoal": "Clear goal",
         "buttonAddMoreTasks": "Add more tasks",
-        "noMatchingBlockLists": "No matching block lists"
+        "noMatchingBlockLists": "No matching block lists",
+        "noticeActiveBlockingSchedule": "“<NAME>” is blocking until <TIME>. You can still start a focus session."
     },
     "achieveWithFocusBearVcInfo":{
         "title": "What would you like to improve in your life by using Focus Bear?",

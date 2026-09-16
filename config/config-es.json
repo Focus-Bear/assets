@@ -2913,7 +2913,8 @@
         "buttonChangeGoal": "Cambiar objetivo",
         "buttonClearGoal": "Borrar objetivo",
         "buttonAddMoreTasks": "Añadir más tareas",
-        "noMatchingBlockLists": "No hay listas de bloqueo que coincidan"
+        "noMatchingBlockLists": "No hay listas de bloqueo que coincidan",
+        "noticeActiveBlockingSchedule": "“<NAME>” está bloqueando hasta las <TIME>. Aún puedes iniciar una sesión de concentración."
     },
     "achieveWithFocusBearVcInfo":{
         "title": "¿Qué te gustaría mejorar en tu vida usando Focus Bear?",
