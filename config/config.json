@@ -3545,7 +3545,6 @@
         "removeProjectTagText": "Remove \"<TITLE>\"",
         "projectTagSuggestionsText": "Tags you already use",
         "projectTagsFullText": "A project can have up to 25 tags",
-        "projectTagsNoneText": "No tags yet",
         "couldNotSaveTagsText": "Could not save the tags",
         "projectIconSearchText": "Search emoji, or paste one",
         "projectIconNoMatchesText": "No emoji match that",

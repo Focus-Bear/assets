@@ -3543,7 +3543,6 @@
         "removeProjectTagText": "Quitar \"<TITLE>\"",
         "projectTagSuggestionsText": "Etiquetas que ya usas",
         "projectTagsFullText": "Un proyecto puede tener hasta 25 etiquetas",
-        "projectTagsNoneText": "Aún no hay etiquetas",
         "couldNotSaveTagsText": "No se pudieron guardar las etiquetas",
         "projectIconSearchText": "Busca un emoji o pega uno",
         "projectIconNoMatchesText": "Ningún emoji coincide",
