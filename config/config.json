@@ -4542,7 +4542,12 @@
         "placeHolderExtendReason": "e.g. The report is nearly done and I need to proofread it",
         "helpExtendReason": "Your answer becomes the focus intention for the extra time, so AI blocking keeps you on that specific task.",
         "buttonExtendReasonContinue": "Extend my session",
-        "buttonExtendReasonSkip": "Skip"
+        "buttonExtendReasonSkip": "Skip",
+        "checkingExtendReason": "Checking with your accountability buddy\u2026",
+        "titleExtendReasonMismatch": "Hang on a second",
+        "fallbackExtendReasonMismatch": "That doesn't sound like what this focus session is for.",
+        "buttonExtendReasonRevise": "Change my answer",
+        "buttonExtendReasonAnyway": "Extend anyway"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Your teacher started a class focus session",
