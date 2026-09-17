@@ -4521,7 +4521,12 @@
         "placeHolderExtendReason": "p. ej. El informe está casi listo y necesito revisarlo",
         "helpExtendReason": "Tu respuesta se convierte en la intención de enfoque del tiempo extra, para que el bloqueo con IA te mantenga en esa tarea concreta.",
         "buttonExtendReasonContinue": "Extender mi sesión",
-        "buttonExtendReasonSkip": "Omitir"
+        "buttonExtendReasonSkip": "Omitir",
+        "checkingExtendReason": "Consultando con tu compa\u00f1er@ de responsabilidad\u2026",
+        "titleExtendReasonMismatch": "Espera un momento",
+        "fallbackExtendReasonMismatch": "Eso no parece coincidir con el objetivo de esta sesi\u00f3n de concentraci\u00f3n.",
+        "buttonExtendReasonRevise": "Cambiar mi respuesta",
+        "buttonExtendReasonAnyway": "Extender de todos modos"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Tu profesor(a) ha iniciado una sesión de enfoque de clase",
