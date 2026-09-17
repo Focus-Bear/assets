@@ -3372,6 +3372,7 @@
         "createProjectNamedText": "Crear “<PROJECT>”",
         "createNewProjectPlaceholder": "Crear nuevo proyecto",
         "assigneeText": "Responsable",
+        "assigneeNotChangedText": "Solo quien creó esta tarea puede cambiar a quién está asignada.",
         "unassignedText": "Sin asignar",
         "meText": "Yo",
         "descriptionText": "Descripción",

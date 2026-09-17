@@ -3374,6 +3374,7 @@
         "createProjectNamedText": "Create “<PROJECT>”",
         "createNewProjectPlaceholder": "Create new project",
         "assigneeText": "Assignee",
+        "assigneeNotChangedText": "Only the person who created this task can change who it’s assigned to.",
         "unassignedText": "Unassigned",
         "meText": "Me",
         "descriptionText": "Description",
