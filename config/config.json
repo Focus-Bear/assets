@@ -2934,6 +2934,7 @@
         "buttonChangeGoal": "Change goal",
         "buttonClearGoal": "Clear goal",
         "buttonAddMoreTasks": "Add more tasks",
+        "buttonDoneAddingTasks": "Done adding tasks",
         "noMatchingBlockLists": "No matching block lists",
         "noticeActiveBlockingSchedule": "“<NAME>” is blocking until <TIME>. You can still start a focus session."
     },
@@ -4440,6 +4441,7 @@
         "changeCurrentTaskHint": "Change your current task",
         "updateTaskPlaceholder": "Type to pick or add a task",
         "switchToAnotherTask": "Switch to another task",
+        "taskChangedTo": "Task changed to {0}",
         "reportBadAiTooltip": "Report a bad AI decision",
         "reportBadAiDone": "Thanks — reported for review",
         "aiReasonPrefix": "AI reason:",
