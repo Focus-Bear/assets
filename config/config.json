@@ -1266,6 +1266,8 @@
         "eveningHoldInstruction": "Press and hold to choose how long to postpone — the longer you hold, the longer the postpone. Release to confirm.",
         "eveningHoldLiveText": "Postpone for <MIN> min…",
         "eveningHoldIdleText": "Hold to postpone",
+        "cutoffExtensionRefusedTitle": "Your cutoff limits this extension",
+        "cutoffExtensionRefusedText": "This focus session cannot be extended past <TIME>. There is no room for another full minute.",
         "cutoffPostponeRefusedTitle": "Your cutoff time has passed",
         "cutoffPostponeRefusedText": "It's past your cutoff time (<TIME>), so your evening routine can't be postponed any further. You asked for a password to postpone after the cutoff, which means this is the time you decided to stop."
     },

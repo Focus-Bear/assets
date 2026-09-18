@@ -1266,6 +1266,8 @@
         "eveningHoldInstruction": "Mantén pulsado para elegir cuánto tiempo posponer: cuanto más tiempo mantengas, más largo será el aplazamiento. Suelta para confirmar.",
         "eveningHoldLiveText": "Posponer <MIN> min…",
         "eveningHoldIdleText": "Mantén pulsado para posponer",
+        "cutoffExtensionRefusedTitle": "La hora límite restringe esta ampliación",
+        "cutoffExtensionRefusedText": "Esta sesión de enfoque no se puede ampliar más allá de las <TIME>. No queda tiempo para otro minuto completo.",
         "cutoffPostponeRefusedTitle": "Tu hora límite ya pasó",
         "cutoffPostponeRefusedText": "Ya pasó tu hora límite (<TIME>), así que tu rutina de la noche no se puede posponer más. Pediste una contraseña para posponer después de la hora límite, lo que significa que esta es la hora en la que decidiste parar."
     },
