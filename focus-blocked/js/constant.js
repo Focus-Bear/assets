@@ -10,6 +10,7 @@ const EXTERNAL_HINT_DOMAINS = {
 };
 
 const FOCUS_BLOCK_OPTION = {
+  MANAGED_SAFETY: 'managed-safety',
   FOCUS_BLOCK_OVER: 'focus_block_over',
   FOCUS_BLOCK_INPROGRESS: 'focus_block_inprogress',
   FOCUS_BLOCK_ALWAYS: 'always-block',
