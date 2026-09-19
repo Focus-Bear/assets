@@ -1,5 +1,8 @@
 const locale = {
   en: {
+    managed_safety_title: 'Your safety schedule blocks this website',
+    managed_safety_body: 'Your school or parent manages this schedule. Open Focus Bear to request a safety review. Personal unlocks cannot override this block.',
+
     quotes: [
       {
         quote: 'An ounce of practice is worth more than tons of preaching.',
@@ -176,6 +179,9 @@ const locale = {
     no: 'No',
   },
   es: {
+    managed_safety_title: 'Tu horario de seguridad bloquea este sitio web',
+    managed_safety_body: 'Tu escuela o tu padre, madre o tutor administra este horario. Abre Focus Bear para solicitar una revisión de seguridad. Los permisos personales no pueden anular este bloqueo.',
+
     quotes: [
       {
         quote: 'Una onza de práctica vale más que toneladas de predicación.',

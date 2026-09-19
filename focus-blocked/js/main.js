@@ -1,3 +1,19 @@
+// Managed blocks never register personal unlock, timer or onboarding actions.
+if (isManagedSafetyBlock) {
+  focusTitle.textContent = selected_lang.managed_safety_title;
+  focusAdditionalInfo.textContent = selected_lang.managed_safety_body;
+  focusAdditionalInfo.style.display = 'block';
+  focusSubtitle.textContent = domain;
+  focusSubtitle.style.display = domain ? 'block' : 'none';
+  for (const id of [
+    'originalUrl', 'cuddlyBearBtn', 'cuddlyBearMode', 'longTermGoalsContainer',
+    'focusTipWrapper', 'progressWrapper', 'privacyContainer', 'quoteBlock',
+    'confirmation-distracting-actions', 'confirmation-modal', 'focus-verify-modal',
+  ]) {
+    const element = document.getElementById(id);
+    if (element) element.style.display = 'none';
+  }
+} else {
 try {
   //@Description: it supports for older versions of the app
   if (!unblockBtn) {
@@ -308,4 +324,6 @@ try {
 `;
   document.body.appendChild(general_error);
   logError(error, 'An unknown exception occurred');
+}
+
 }
