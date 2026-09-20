@@ -449,7 +449,11 @@
       "featureBreaks": "Przypomnienia o przerwach",
       "featureMeetings": "Alerty o wykrytym spotkaniu",
       "featureBlocking": "Blokowanie i okienka o rozproszeniach",
-      "featureHabits": "Przypomnienia o nawykach"
+      "featureHabits": "Przypomnienia o nawykach",
+      "cancelButton": "Nieważne",
+      "reasonFeedbackPrompt": "Napisz, co się stało, abyśmy mogli to naprawić (opcjonalnie):",
+      "reasonQuitButton": "Wyłącz Focus Bear",
+      "reasonSubtitle": "Przykro nam to słyszeć. Co poszło nie tak?"
     }
   },
   "shutOffTimeInfo": {
@@ -1266,7 +1270,9 @@
     "buttonInTheOffIceText": "Jestem w biurze",
     "eveningHoldInstruction": "Przytrzymaj, aby wybrać, jak długo odłożyć — im dłużej trzymasz, tym dłuższe odłożenie. Puść, aby potwierdzić.",
     "eveningHoldLiveText": "Odłóż o <MIN> min…",
-    "eveningHoldIdleText": "Przytrzymaj, aby odłożyć"
+    "eveningHoldIdleText": "Przytrzymaj, aby odłożyć",
+    "cutoffExtensionRefusedText": "Tej sesji skupienia nie można przedłużyć poza <TIME>. Nie ma już miejsca na kolejną pełną minutę.",
+    "cutoffExtensionRefusedTitle": "Twoja godzina graniczna ogranicza to przedłużenie"
   },
   "breakFrequencyVcInfo": {
     "title": "Chcesz rzadziej robić przerwy?",
@@ -1918,7 +1924,20 @@
     "dismiss": "Odrzuć",
     "categoryGaming": "Gry",
     "categoryPorn": "Dla dorosłych",
-    "categoryGambling": "Hazard"
+    "categoryGambling": "Hazard",
+    "addApp": "Dodaj aplikację",
+    "addUrl": "Dodaj adres URL",
+    "addUrlPlaceholder": "Dodaj nowy adres URL",
+    "changeColor": "Zmień kolor",
+    "deleteBlockList": "Usuń",
+    "duplicateBlockList": "Duplikuj",
+    "duplicateName": "Lista blokowania o tej nazwie już istnieje.",
+    "hiddenSuffix": " (Ukryta)",
+    "hideBlockList": "Ukryj na listach wyboru",
+    "renameBlockList": "Zmień nazwę tej listy blokowania",
+    "revealHiddenModes": "Pokaż ukryte tryby skupienia",
+    "searchEntries": "Szukaj adresów URL i aplikacji",
+    "showBlockList": "Pokaż na listach wyboru"
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Witaj w Focus Bear",
@@ -2952,7 +2971,8 @@
     "buttonChangeGoal": "Zmień cel",
     "buttonClearGoal": "Wyczyść cel",
     "buttonAddMoreTasks": "Dodaj więcej zadań",
-    "noMatchingBlockLists": "Brak pasujących list blokowania"
+    "noMatchingBlockLists": "Brak pasujących list blokowania",
+    "headingProjects": "Projekty"
   },
   "achieveWithFocusBearVcInfo": {
     "title": "Co chciałbyś poprawić w swoim życiu, korzystając z Focus Bear?",
@@ -3668,7 +3688,12 @@
     "projectTaskCompletionText": "<PERCENT>% ukończone (<DONE>/<TOTAL> zadań)",
     "projectAlphabeticalSubsetText": "Wczytane projekty są pokazane alfabetycznie. Wczytaj więcej, aby zobaczyć resztę.",
     "setOutcomeText": "Ustaw efekt",
-    "editOutcomeText": "Edytuj efekt"
+    "editOutcomeText": "Edytuj efekt",
+    "outcomeHardDeadlineText": "Sztywny termin — nie do przesunięcia",
+    "outcomePostponeAYearText": "Można odłożyć o rok",
+    "outcomePostponeMonthsText": "Można odłożyć o kilka miesięcy",
+    "outcomePostponeWeeksText": "Można odłożyć o kilka tygodni",
+    "outcomePostponeYearsText": "Można odłożyć o lata"
   },
   "localForecastViewInfo": {
     "allWorkComplete": "Wszystkie zadania w tym projekcie są ukończone",
@@ -3774,7 +3799,8 @@
     "outcomeMissing": "Wybierz rezultat, zanim zaproponujesz przedłużenie dla tego projektu.",
     "likelihoodInHorizon": "Prawdopodobne ukończenie <PERCENT>% w ramach tej prognozy",
     "suggestionRange": "Zacznij <START>; skończ do <END>",
-    "outcomeNotSaved": "Projekt został zapisany, ale nie udało się zapisać jego rezultatu. Otwórz ustawienia projektu, aby spróbować ponownie."
+    "outcomeNotSaved": "Projekt został zapisany, ale nie udało się zapisać jego rezultatu. Otwórz ustawienia projektu, aby spróbować ponownie.",
+    "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro"
   },
   "scheduleViewInfo": {
     "habitInvalidCutoff": "Godzina graniczna musi wypadać między początkiem wieczornej rutyny a początkiem porannej rutyny.",
@@ -4074,7 +4100,13 @@
     "draftSaveFailedServerSaid": "Serwer odpowiedział:",
     "routineCutoffLabel": "Wieczorna godzina graniczna",
     "routineCutoffHint": "Opcjonalne wieczorne nawyki kończą się o tej godzinie; obowiązkowe zachowują własne godziny graniczne.",
-    "routineCutoffInvalid": "Wybierz godzinę graniczną między początkiem wieczornej rutyny a początkiem następnej porannej rutyny."
+    "routineCutoffInvalid": "Wybierz godzinę graniczną między początkiem wieczornej rutyny a początkiem następnej porannej rutyny.",
+    "tasksShortcutDurationWords": "30m, 2h lub 1h30m — podaj czas trwania słownie",
+    "tasksShortcutMinutes": "*15 — ustawia czas trwania na 15 minut",
+    "tasksShortcutPriority": "!1 do !5 — ustawia ważność (!5 jest najważniejsze)",
+    "tasksShortcutProject": "#projekt — przypisz zadanie do projektu",
+    "tasksShortcutsDismiss": "Nie pokazuj ponownie",
+    "tasksShortcutsTitle": "Skróty, które możesz wpisać w nazwie"
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Śledzenie czasu",
