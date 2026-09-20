@@ -1432,6 +1432,7 @@
     "usernameRuleText": "Nur Buchstaben und Unterstriche",
     "streakValueText": "Serie: {streak}",
     "daysCompletedOutOfText": "{completed} Tage von den letzten {total} Tagen geschafft",
+    "daysCompletedOutOfExpectedText": "{completed} von {total} erwarteten Tagen geschafft ({forgiven} der letzten {window} werden erlassen, genau wie bei deiner Serie)",
     "ascendingText": "Aufsteigend",
     "descendingText": "Absteigend",
     "noHabitsTitle": "Füg eine Gewohnheit hinzu, um deine Statistiken zu sehen",

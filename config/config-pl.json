@@ -1432,6 +1432,7 @@
     "usernameRuleText": "Tylko litery i podkreślenia",
     "streakValueText": "Seria: {streak}",
     "daysCompletedOutOfText": "{completed} dni ukończonych z ostatnich {total} dni",
+    "daysCompletedOutOfExpectedText": "{completed} z {total} oczekiwanych dni ukończonych ({forgiven} z ostatnich {window} pominięto, tak jak w Twojej serii)",
     "ascendingText": "Rosnąco",
     "descendingText": "Malejąco",
     "noHabitsTitle": "Dodaj nawyk, aby zobaczyć statystyki",
