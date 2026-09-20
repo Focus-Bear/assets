@@ -3913,7 +3913,7 @@
     "tasksMoveToProjectedDay": "Verschieben auf %@",
     "tasksNoProject": "Kein Projekt",
     "tasksProjectHint": "Tippe #projekt, um die Aufgabe zuzuordnen",
-    "tasksNameNeeded": "Gib dieser Aufgabe einen Namen. Tags wie #projekt und *priorität kommen nach dem Namen.",
+    "tasksNameNeeded": "Gib dieser Aufgabe einen Namen. Tags wie #projekt, !priorität und *minuten kommen nach dem Namen.",
     "customRoutinesTitle": "Eigene Routinen",
     "customRoutinesEmpty": "Keine On-Demand-Routinen",
     "customRoutinesAfterCutoff": "On-Demand-Routinen sind bis morgen früh deaktiviert – Zeit zum Runterkommen.",

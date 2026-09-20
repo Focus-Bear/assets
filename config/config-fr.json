@@ -3913,7 +3913,7 @@
     "tasksMoveToProjectedDay": "Déplacer au %@",
     "tasksNoProject": "Aucun projet",
     "tasksProjectHint": "Tape #projet pour classer cette tâche",
-    "tasksNameNeeded": "Ajoute un nom à cette tâche. Les étiquettes comme #projet et *priorité viennent après le nom.",
+    "tasksNameNeeded": "Ajoute un nom à cette tâche. Les étiquettes comme #projet, !priorité et *minutes viennent après le nom.",
     "customRoutinesTitle": "Routines personnalisées",
     "customRoutinesEmpty": "Aucune routine à la demande",
     "customRoutinesAfterCutoff": "Routines à la demande désactivées jusqu'à demain matin — l'heure de décompresser.",

@@ -3913,7 +3913,7 @@
     "tasksMoveToProjectedDay": "Przenieś na %@",
     "tasksNoProject": "Brak projektu",
     "tasksProjectHint": "Wpisz #projekt, aby przypisać zadanie",
-    "tasksNameNeeded": "Dodaj nazwę tego zadania. Tagi takie jak #projekt i *priorytet wpisz po nazwie.",
+    "tasksNameNeeded": "Dodaj nazwę tego zadania. Tagi takie jak #projekt, !priorytet i *minuty wpisz po nazwie.",
     "customRoutinesTitle": "Własne rutyny",
     "customRoutinesEmpty": "Brak rutyn na żądanie",
     "customRoutinesAfterCutoff": "Rutyny na żądanie są wyłączone do jutra rana – czas zwolnić.",
