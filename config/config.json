@@ -460,6 +460,10 @@
             "buttonQuitText": "Turn Focus Bear off"
         },
         "quitPopupInfo": {
+            "cancelButton": "Never mind",
+            "reasonSubtitle": "Sorry to hear that. What went wrong?",
+            "reasonFeedbackPrompt": "Tell us what happened so we can fix it (optional):",
+            "reasonQuitButton": "Turn Focus Bear off",
             "reportBugButton": "🐞 Report a bug",
             "pauseTitle": "What features do you want to turn off?",
             "pauseForLabel": "Pause for",
@@ -3250,6 +3254,10 @@
         "unsavedFrequencyCancelButton": "Cancel"
     },
     "toDoListViewInfo":{
+        "outcomeHardDeadlineText": "Hard deadline — can't move",
+        "outcomePostponeAYearText": "Can postpone for a year",
+        "outcomePostponeMonthsText": "Can postpone a few months",
+        "outcomePostponeWeeksText": "Can postpone a few weeks",
         "createTasksUsingAIText": "Create tasks using AI",
         "brainDumpLimitText": "Use up to <COUNT> characters for task suggestions. Your original note is unchanged.",
         "brainDumpPartialSaveText": "Confirmed <COUNT> tasks saved. The remaining tasks are still here. Review them and try again.",

@@ -460,6 +460,10 @@
             "buttonQuitText": "Apagar Focus Bear"
         },
         "quitPopupInfo": {
+            "cancelButton": "Mejor no",
+            "reasonSubtitle": "Lamentamos oír eso. ¿Qué salió mal?",
+            "reasonFeedbackPrompt": "Cuéntanos qué pasó para que podamos solucionarlo (opcional):",
+            "reasonQuitButton": "Desactivar Focus Bear",
             "reportBugButton": "🐞 Reportar un error",
             "pauseTitle": "¿Qué funciones quieres desactivar?",
             "pauseForLabel": "Pausar durante",
@@ -3248,6 +3252,10 @@
         "unsavedFrequencyCancelButton": "Cancelar"
     },
     "toDoListViewInfo":{
+        "outcomeHardDeadlineText": "Fecha límite fija: no se puede mover",
+        "outcomePostponeAYearText": "Se puede posponer un año",
+        "outcomePostponeMonthsText": "Se puede posponer unos meses",
+        "outcomePostponeWeeksText": "Se puede posponer unas semanas",
         "createTasksUsingAIText": "Crear tareas con IA",
         "brainDumpLimitText": "Usa hasta <COUNT> caracteres para sugerir tareas. Tu nota original sigue igual.",
         "brainDumpPartialSaveText": "Se confirmó que se guardaron <COUNT> tareas. Las restantes siguen aquí. Revísalas e inténtalo de nuevo.",
