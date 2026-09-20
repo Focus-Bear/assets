@@ -3256,6 +3256,7 @@
     "toDoListViewInfo":{
         "outcomeHardDeadlineText": "Hard deadline — can't move",
         "outcomePostponeAYearText": "Can postpone for a year",
+        "outcomePostponeYearsText": "Can postpone for years",
         "outcomePostponeMonthsText": "Can postpone a few months",
         "outcomePostponeWeeksText": "Can postpone a few weeks",
         "createTasksUsingAIText": "Create tasks using AI",

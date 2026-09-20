@@ -3269,6 +3269,7 @@
   "toDoListViewInfo": {
     "outcomeHardDeadlineText": "Sztywny termin — nie da się przesunąć",
     "outcomePostponeAYearText": "Można odłożyć o rok",
+    "outcomePostponeYearsText": "Można odłożyć o lata",
     "outcomePostponeMonthsText": "Można odłożyć o kilka miesięcy",
     "outcomePostponeWeeksText": "Można odłożyć o kilka tygodni",
     "createTasksUsingAIText": "Twórz zadania z pomocą AI",

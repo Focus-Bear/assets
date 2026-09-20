@@ -3269,6 +3269,7 @@
   "toDoListViewInfo": {
     "outcomeHardDeadlineText": "Feste Frist – nicht verschiebbar",
     "outcomePostponeAYearText": "Kann ein Jahr warten",
+    "outcomePostponeYearsText": "Kann Jahre warten",
     "outcomePostponeMonthsText": "Kann ein paar Monate warten",
     "outcomePostponeWeeksText": "Kann ein paar Wochen warten",
     "createTasksUsingAIText": "Aufgaben mit KI erstellen",

@@ -3254,6 +3254,7 @@
     "toDoListViewInfo":{
         "outcomeHardDeadlineText": "Fecha límite fija: no se puede mover",
         "outcomePostponeAYearText": "Se puede posponer un año",
+        "outcomePostponeYearsText": "Se puede posponer durante años",
         "outcomePostponeMonthsText": "Se puede posponer unos meses",
         "outcomePostponeWeeksText": "Se puede posponer unas semanas",
         "createTasksUsingAIText": "Crear tareas con IA",

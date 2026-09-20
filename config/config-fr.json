@@ -3269,6 +3269,7 @@
   "toDoListViewInfo": {
     "outcomeHardDeadlineText": "Échéance ferme — impossible à déplacer",
     "outcomePostponeAYearText": "Peut être reporté d'un an",
+    "outcomePostponeYearsText": "Peut être reporté de plusieurs années",
     "outcomePostponeMonthsText": "Peut être reporté de quelques mois",
     "outcomePostponeWeeksText": "Peut être reporté de quelques semaines",
     "createTasksUsingAIText": "Créer des tâches avec l’IA",
