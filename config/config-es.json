@@ -3809,6 +3809,12 @@
         "outcomeUnavailable": "Todavía no se puede guardar el resultado de un proyecto: requiere una actualización del servidor. Usa la fecha de entrega y la importancia por ahora."
     },
     "scheduleViewInfo":{
+        "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
+        "tasksShortcutsDismiss": "No mostrar de nuevo",
+        "tasksShortcutProject": "#proyecto — archiva la tarea en un proyecto",
+        "tasksShortcutPriority": "!1 a !5 — define la importancia (!5 es la más importante)",
+        "tasksShortcutMinutes": "*15 — define la duración en 15 minutos",
+        "tasksShortcutDurationWords": "30m, 2h o 1h30m — define la duración en palabras",
         "habitInvalidCutoff": "La hora límite debe estar entre el inicio de la rutina de noche y el inicio de la rutina de mañana.",
         "showDismissedEvents": "Mostrar eventos descartados",
         "showEventAgain": "Mostrar este evento de nuevo",

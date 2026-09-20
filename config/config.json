@@ -3811,6 +3811,12 @@
         "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now."
     },
     "scheduleViewInfo":{
+        "tasksShortcutsTitle": "Shortcuts you can type in the name",
+        "tasksShortcutsDismiss": "Don't show this again",
+        "tasksShortcutProject": "#project — file the task under a project",
+        "tasksShortcutPriority": "!1 to !5 — set importance (!5 is the most important)",
+        "tasksShortcutMinutes": "*15 — set the duration to 15 minutes",
+        "tasksShortcutDurationWords": "30m, 2h or 1h30m — set the duration in words",
         "habitInvalidCutoff": "The cutoff must fall between the evening routine start and the morning routine start.",
         "showDismissedEvents": "Show dismissed events",
         "showEventAgain": "Show this event again",

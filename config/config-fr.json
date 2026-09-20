@@ -3777,6 +3777,12 @@
     "outcomeNotSaved": "Le projet a été enregistré, mais son résultat n’a pas pu l’être. Ouvre les réglages du projet pour réessayer."
   },
   "scheduleViewInfo": {
+    "tasksShortcutsTitle": "Raccourcis que tu peux taper dans le nom",
+    "tasksShortcutsDismiss": "Ne plus afficher",
+    "tasksShortcutProject": "#projet — classe la tâche dans un projet",
+    "tasksShortcutPriority": "!1 à !5 — définis l'importance (!5 est la plus importante)",
+    "tasksShortcutMinutes": "*15 — définis la durée à 15 minutes",
+    "tasksShortcutDurationWords": "30m, 2h ou 1h30m — définis la durée en mots",
     "habitInvalidCutoff": "L’heure limite doit se situer entre le début de la routine du soir et le début de la routine du matin.",
     "showDismissedEvents": "Afficher les événements masqués",
     "showEventAgain": "Réafficher cet événement",

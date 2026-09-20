@@ -3777,6 +3777,12 @@
     "outcomeNotSaved": "Projekt został zapisany, ale nie udało się zapisać jego rezultatu. Otwórz ustawienia projektu, aby spróbować ponownie."
   },
   "scheduleViewInfo": {
+    "tasksShortcutsTitle": "Skróty, które możesz wpisać w nazwie",
+    "tasksShortcutsDismiss": "Nie pokazuj ponownie",
+    "tasksShortcutProject": "#projekt — przypisz zadanie do projektu",
+    "tasksShortcutPriority": "!1 do !5 — ustaw ważność (!5 jest najważniejsze)",
+    "tasksShortcutMinutes": "*15 — ustaw czas trwania na 15 minut",
+    "tasksShortcutDurationWords": "30m, 2h lub 1h30m — podaj czas trwania słownie",
     "habitInvalidCutoff": "Godzina graniczna musi wypadać między początkiem wieczornej rutyny a początkiem porannej rutyny.",
     "showDismissedEvents": "Pokaż ukryte wydarzenia",
     "showEventAgain": "Pokaż to wydarzenie ponownie",
