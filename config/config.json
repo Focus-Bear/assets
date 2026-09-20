@@ -3675,6 +3675,7 @@
         "tasksToDoCountText": "<COUNT> to do"
     },
     "localForecastViewInfo": {
+        "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow",
         "allWorkComplete": "All tasks in this project are complete",
         "generatePlan": "Reschedule tasks",
         "reviewPlan": "Reschedule plan",

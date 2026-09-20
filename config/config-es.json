@@ -3673,6 +3673,7 @@
         "tasksToDoCountText": "<COUNT> por hacer"
     },
     "localForecastViewInfo": {
+        "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana",
         "allWorkComplete": "Todas las tareas de este proyecto están completadas",
         "generatePlan": "Reprogramar tareas",
         "reviewPlan": "Plan de reprogramación",

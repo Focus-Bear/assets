@@ -3670,6 +3670,7 @@
     "editOutcomeText": "Modifier l’impact"
   },
   "localForecastViewInfo": {
+    "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain",
     "allWorkComplete": "Toutes les tâches de ce projet sont terminées",
     "generatePlan": "Replanifier les tâches",
     "reviewPlan": "Replanifier le plan",

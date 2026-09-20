@@ -3670,6 +3670,7 @@
     "editOutcomeText": "Ergebnis bearbeiten"
   },
   "localForecastViewInfo": {
+    "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern",
     "allWorkComplete": "Alle Aufgaben in diesem Projekt sind erledigt",
     "generatePlan": "Aufgaben neu planen",
     "reviewPlan": "Plan neu terminieren",

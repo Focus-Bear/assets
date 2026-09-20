@@ -3670,6 +3670,7 @@
     "editOutcomeText": "Edytuj efekt"
   },
   "localForecastViewInfo": {
+    "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro",
     "allWorkComplete": "Wszystkie zadania w tym projekcie są ukończone",
     "generatePlan": "Zaplanuj zadania ponownie",
     "reviewPlan": "Plan zmiany terminów",
