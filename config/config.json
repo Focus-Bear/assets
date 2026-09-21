@@ -1439,7 +1439,7 @@
         "usernameRuleText": "Letters and underscores only",
         "streakValueText": "Streak: {streak}",
         "daysCompletedOutOfText": "{completed} days completed out of last {total} days",
-        "daysCompletedOutOfExpectedText": "{completed} days completed out of {total} expected days ({forgiven} of the last {window} forgiven, as your streak does)",
+        "daysCompletedOutOfExpectedText": "Last {window} days: {completed} completed, {forgiven} weekend days forgiven",
         "ascendingText": "Ascending",
         "descendingText": "Descending",
         "noHabitsTitle": "Add a habit to see your stats",

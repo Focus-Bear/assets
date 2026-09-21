@@ -1438,7 +1438,7 @@
     "usernameRuleText": "Lettres et tirets bas uniquement",
     "streakValueText": "Série : {streak}",
     "daysCompletedOutOfText": "{completed} jours réussis sur les {total} derniers jours",
-    "daysCompletedOutOfExpectedText": "{completed} jours réalisés sur {total} jours attendus ({forgiven} des {window} derniers sont ignorés, comme pour votre série)",
+    "daysCompletedOutOfExpectedText": "{window} derniers jours : {completed} réalisés, {forgiven} jours de week-end ignorés",
     "ascendingText": "Croissant",
     "descendingText": "Décroissant",
     "noHabitsTitle": "Ajoute une habitude pour voir tes stats",

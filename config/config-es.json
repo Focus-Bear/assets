@@ -1439,7 +1439,7 @@
         "usernameRuleText": "Solo letras y guiones bajos",
         "streakValueText": "Racha: {streak}",
         "daysCompletedOutOfText": "{completed} días completados de los últimos {total} días",
-        "daysCompletedOutOfExpectedText": "{completed} días completados de {total} días previstos ({forgiven} de los últimos {window} perdonados, igual que tu racha)",
+        "daysCompletedOutOfExpectedText": "Últimos {window} días: {completed} completados, {forgiven} días de fin de semana perdonados",
         "ascendingText": "Ascendente",
         "descendingText": "Descendente",
         "noHabitsTitle": "Añade un hábito para ver tus estadísticas",
