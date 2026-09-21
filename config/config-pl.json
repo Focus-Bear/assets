@@ -1422,6 +1422,7 @@
       "upbeat": "optymistyczny",
       "factual": "rzeczowy"
     },
+    "pepTalkRateLimitedText": "Zbyt wiele pogadanek motywacyjnych naraz — serwer prosi o chwilę przerwy. Ponów zadziała za moment.",
     "pepTalkUnavailableText": "Nie udało się dziś wygenerować spersonalizowanej wiadomości. Spróbuj ponownie później.",
     "motivationalStyleText": "Styl motywacji",
     "motivationalNoticeText": "Twoja seria rutyn i aktywności z twoich rutyn zostaną wysłane do Open AI. Żadne inne dane nie będą udostępniane, ale jeśli cokolwiek w tytułach twoich nawyków mogłoby cię identyfikować, zalecamy to usunąć.",

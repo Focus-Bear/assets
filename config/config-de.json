@@ -1422,6 +1422,7 @@
       "upbeat": "gut gelaunt",
       "factual": "sachlich"
     },
+    "pepTalkRateLimitedText": "Gerade zu viele Motivationssprüche — der Server bittet uns, kurz zu warten. Erneut versuchen funktioniert gleich wieder.",
     "pepTalkUnavailableText": "Wir konnten heute keine persönliche Nachricht erstellen. Versuch es später nochmal.",
     "motivationalStyleText": "Motivationsstil",
     "motivationalNoticeText": "Deine Routine-Serie und deine Routine-Aktivitäten werden an Open AI gesendet. Sonst werden keine Daten geteilt, aber wenn dich etwas in deinen Gewohnheitstiteln identifizieren könnte, entfern es lieber.",

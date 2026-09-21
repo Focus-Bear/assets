@@ -1423,6 +1423,7 @@
             "upbeat": "upbeat",
             "factual": "factual"
         },
+        "pepTalkRateLimitedText": "Too many pep talks just now — the server is asking us to wait a moment. Retry will work again shortly.",
         "pepTalkUnavailableText": "We couldn't generate a personalized message today. Please try again later.",
         "motivationalStyleText": "Motivational Style",
         "motivationalNoticeText": "Your routine streak and your routine activities will be sent to Open AI. No other details will be shared, but if anything in your habit titles would identify you, we recommend you remove it.",

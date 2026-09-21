@@ -1423,6 +1423,7 @@
             "upbeat": "optimista",
             "factual": "objetivo"
         },
+        "pepTalkRateLimitedText": "Demasiadas charlas motivacionales por ahora: el servidor nos pide esperar un momento. Reintentar volverá a funcionar en breve.",
         "pepTalkUnavailableText": "Hoy no pudimos generar un mensaje personalizado. Inténtalo de nuevo más tarde.",
         "motivationalStyleText": "Estilo motivacional",
         "motivationalNoticeText": "Tu racha de rutinas y las actividades de tus rutinas se enviarán a Open AI. No se compartirá ningún otro dato, pero si algo en los títulos de tus hábitos pudiera identificarte, te recomendamos quitarlo.",

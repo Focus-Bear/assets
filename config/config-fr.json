@@ -1422,6 +1422,7 @@
       "upbeat": "enjoué",
       "factual": "factuel"
     },
+    "pepTalkRateLimitedText": "Trop d’encouragements d’un coup : le serveur nous demande d’attendre un instant. Réessayer refonctionnera sous peu.",
     "pepTalkUnavailableText": "On n’a pas pu générer de message personnalisé aujourd’hui. Réessaie plus tard.",
     "motivationalStyleText": "Style de motivation",
     "motivationalNoticeText": "Ta série de routines et les activités de tes routines seront envoyées à Open AI. Aucun autre détail ne sera partagé, mais si quelque chose dans les titres de tes habitudes peut t’identifier, on te conseille de l’enlever.",
