@@ -472,7 +472,11 @@
             "featureBreaks": "Break reminders",
             "featureMeetings": "Meeting-detected alerts",
             "featureBlocking": "Blocking & distraction pop-ups",
-            "featureHabits": "Habit reminders"
+            "featureHabits": "Habit reminders",
+          "cancelButton": "Never mind",
+          "reasonFeedbackPrompt": "Tell us what happened so we can fix it (optional):",
+          "reasonQuitButton": "Turn Focus Bear off",
+          "reasonSubtitle": "Sorry to hear that. What went wrong?"
         }
     },
     "shutOffTimeInfo": {
@@ -1273,7 +1277,9 @@
         "cutoffExtensionRefusedTitle": "Your cutoff limits this extension",
         "cutoffExtensionRefusedText": "This focus session cannot be extended past <TIME>. There is no room for another full minute.",
         "cutoffPostponeRefusedTitle": "Your cutoff time has passed",
-        "cutoffPostponeRefusedText": "It's past your cutoff time (<TIME>), so your evening routine can't be postponed any further. You asked for a password to postpone after the cutoff, which means this is the time you decided to stop."
+        "cutoffPostponeRefusedText": "It's past your cutoff time (<TIME>), so your evening routine can't be postponed any further. You asked for a password to postpone after the cutoff, which means this is the time you decided to stop.",
+      "cutoffExtensionRefusedText": "This focus session cannot be extended past <TIME>. There is no room for another full minute.",
+      "cutoffExtensionRefusedTitle": "Your cutoff limits this extension"
     },
     "breakFrequencyVcInfo": {
         "title": "Want to make breaks less frequent?",
@@ -1423,6 +1429,7 @@
             "upbeat": "upbeat",
             "factual": "factual"
         },
+        "pepTalkRateLimitedText": "Too many pep talks just now — the server is asking us to wait a moment. Retry will work again shortly.",
         "pepTalkUnavailableText": "We couldn't generate a personalized message today. Please try again later.",
         "motivationalStyleText": "Motivational Style",
         "motivationalNoticeText": "Your routine streak and your routine activities will be sent to Open AI. No other details will be shared, but if anything in your habit titles would identify you, we recommend you remove it.",
@@ -1439,6 +1446,7 @@
         "usernameRuleText": "Letters and underscores only",
         "streakValueText": "Streak: {streak}",
         "daysCompletedOutOfText": "{completed} days completed out of last {total} days",
+        "daysCompletedOutOfExpectedText": "Last {window} days: {completed} completed, {forgiven} weekend days forgiven",
         "ascendingText": "Ascending",
         "descendingText": "Descending",
         "noHabitsTitle": "Add a habit to see your stats",
@@ -1937,7 +1945,20 @@
         "duplicateName": "A block list with this name already exists.",
         "categoryGaming": "Gaming",
         "categoryPorn": "Adult",
-        "categoryGambling": "Gambling"
+        "categoryGambling": "Gambling",
+      "addApp": "Add App",
+      "addUrl": "Add URL",
+      "addUrlPlaceholder": "Add a new URL",
+      "changeColor": "Change colour",
+      "deleteBlockList": "Delete",
+      "duplicateBlockList": "Duplicate",
+      "duplicateName": "A block list with this name already exists.",
+      "hiddenSuffix": " (Hidden)",
+      "hideBlockList": "Hide from pickers",
+      "renameBlockList": "Rename this block list",
+      "revealHiddenModes": "Reveal hidden focus modes",
+      "searchEntries": "Search URLs and apps",
+      "showBlockList": "Show in pickers"
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Welcome to Focus Bear",
@@ -2958,7 +2979,8 @@
         "buttonAddMoreTasks": "Add more tasks",
         "buttonDoneAddingTasks": "Done adding tasks",
         "noMatchingBlockLists": "No matching block lists",
-        "noticeActiveBlockingSchedule": "“<NAME>” is blocking until <TIME>. You can still start a focus session."
+        "noticeActiveBlockingSchedule": "“<NAME>” is blocking until <TIME>. You can still start a focus session.",
+      "headingProjects": "Projects"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "What would you like to improve in your life by using Focus Bear?",
@@ -3697,7 +3719,12 @@
         "setOutcomeText": "Set outcome",
         "editOutcomeText": "Edit outcome",
         "projectIconPickText": "Pick an emoji…",
-        "tasksToDoCountText": "<COUNT> to do"
+        "tasksToDoCountText": "<COUNT> to do",
+      "outcomeHardDeadlineText": "Hard deadline — can't move",
+      "outcomePostponeAYearText": "Can postpone for a year",
+      "outcomePostponeMonthsText": "Can postpone a few months",
+      "outcomePostponeWeeksText": "Can postpone a few weeks",
+      "outcomePostponeYearsText": "Can postpone for years"
     },
     "localForecastViewInfo": {
         "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow",
@@ -3833,7 +3860,8 @@
         "likelihoodInHorizon": "Likely to complete <PERCENT>% within this forecast",
         "suggestionRange": "Start <START>; complete by <END>",
         "outcomeNotSaved": "The project was saved, but its outcome could not be saved. Open project settings to try again.",
-        "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now."
+        "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now.",
+      "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
     },
     "scheduleViewInfo":{
         "tasksShortcutsTitle": "Shortcuts you can type in the name",
@@ -4168,7 +4196,13 @@
         "eventScopeThis": "Only this event",
         "eventScopeTitle": "This is a repeating event",
         "habitSkipAhead": "Skip",
-        "habitUnskipAhead": "Unskip"
+        "habitUnskipAhead": "Unskip",
+      "tasksShortcutDurationWords": "30m, 2h or 1h30m — set the duration in words",
+      "tasksShortcutMinutes": "*15 — set the duration to 15 minutes",
+      "tasksShortcutPriority": "!1 to !5 — set importance (!5 is the most important)",
+      "tasksShortcutProject": "#project — file the task under a project",
+      "tasksShortcutsDismiss": "Don't show this again",
+      "tasksShortcutsTitle": "Shortcuts you can type in the name"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Time Tracker",

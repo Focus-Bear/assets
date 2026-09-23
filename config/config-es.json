@@ -472,7 +472,11 @@
             "featureBreaks": "Recordatorios de descansos",
             "featureMeetings": "Alertas de reunión detectada",
             "featureBlocking": "Bloqueo y ventanas emergentes de distracción",
-            "featureHabits": "Recordatorios de hábitos"
+            "featureHabits": "Recordatorios de hábitos",
+          "cancelButton": "Déjalo",
+          "reasonFeedbackPrompt": "Cuéntanos qué ha pasado para que podamos solucionarlo (opcional):",
+          "reasonQuitButton": "Desactivar Focus Bear",
+          "reasonSubtitle": "Lamentamos oír eso. ¿Qué ha ido mal?"
         }
     },
     "shutOffTimeInfo": {
@@ -1273,7 +1277,9 @@
         "cutoffExtensionRefusedTitle": "La hora límite restringe esta ampliación",
         "cutoffExtensionRefusedText": "Esta sesión de enfoque no se puede ampliar más allá de las <TIME>. No queda tiempo para otro minuto completo.",
         "cutoffPostponeRefusedTitle": "Tu hora límite ya pasó",
-        "cutoffPostponeRefusedText": "Ya pasó tu hora límite (<TIME>), así que tu rutina de la noche no se puede posponer más. Pediste una contraseña para posponer después de la hora límite, lo que significa que esta es la hora en la que decidiste parar."
+        "cutoffPostponeRefusedText": "Ya pasó tu hora límite (<TIME>), así que tu rutina de la noche no se puede posponer más. Pediste una contraseña para posponer después de la hora límite, lo que significa que esta es la hora en la que decidiste parar.",
+      "cutoffExtensionRefusedText": "Esta sesión de concentración no puede extenderse más allá de las <TIME>. No queda espacio para otro minuto completo.",
+      "cutoffExtensionRefusedTitle": "Tu hora límite restringe esta extensión"
     },
     "breakFrequencyVcInfo": {
         "title": "¿Quieres que los descansos sean menos frecuentes?",
@@ -1423,6 +1429,7 @@
             "upbeat": "optimista",
             "factual": "objetivo"
         },
+        "pepTalkRateLimitedText": "Demasiadas charlas motivacionales por ahora: el servidor nos pide esperar un momento. Reintentar volverá a funcionar en breve.",
         "pepTalkUnavailableText": "Hoy no pudimos generar un mensaje personalizado. Inténtalo de nuevo más tarde.",
         "motivationalStyleText": "Estilo motivacional",
         "motivationalNoticeText": "Tu racha de rutinas y las actividades de tus rutinas se enviarán a Open AI. No se compartirá ningún otro dato, pero si algo en los títulos de tus hábitos pudiera identificarte, te recomendamos quitarlo.",
@@ -1439,6 +1446,7 @@
         "usernameRuleText": "Solo letras y guiones bajos",
         "streakValueText": "Racha: {streak}",
         "daysCompletedOutOfText": "{completed} días completados de los últimos {total} días",
+        "daysCompletedOutOfExpectedText": "Últimos {window} días: {completed} completados, {forgiven} días de fin de semana perdonados",
         "ascendingText": "Ascendente",
         "descendingText": "Descendente",
         "noHabitsTitle": "Añade un hábito para ver tus estadísticas",
@@ -1937,7 +1945,20 @@
         "duplicateName": "Ya existe una lista de bloqueo con este nombre.",
         "categoryGaming": "Videojuegos",
         "categoryPorn": "Contenido para adultos",
-        "categoryGambling": "Apuestas"
+        "categoryGambling": "Apuestas",
+      "addApp": "Añadir aplicación",
+      "addUrl": "Añadir URL",
+      "addUrlPlaceholder": "Añade una nueva URL",
+      "changeColor": "Cambiar color",
+      "deleteBlockList": "Eliminar",
+      "duplicateBlockList": "Duplicar",
+      "duplicateName": "Ya existe una lista de bloqueo con este nombre.",
+      "hiddenSuffix": " (Oculta)",
+      "hideBlockList": "Ocultar en los selectores",
+      "renameBlockList": "Renombrar esta lista de bloqueo",
+      "revealHiddenModes": "Mostrar los modos de concentración ocultos",
+      "searchEntries": "Buscar URLs y aplicaciones",
+      "showBlockList": "Mostrar en los selectores"
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -2956,7 +2977,8 @@
         "buttonAddMoreTasks": "Añadir más tareas",
         "buttonDoneAddingTasks": "Listo, no añadir más tareas",
         "noMatchingBlockLists": "No hay listas de bloqueo que coincidan",
-        "noticeActiveBlockingSchedule": "“<NAME>” está bloqueando hasta las <TIME>. Aún puedes iniciar una sesión de concentración."
+        "noticeActiveBlockingSchedule": "“<NAME>” está bloqueando hasta las <TIME>. Aún puedes iniciar una sesión de concentración.",
+      "headingProjects": "Proyectos"
     },
     "achieveWithFocusBearVcInfo":{
         "title": "¿Qué te gustaría mejorar en tu vida usando Focus Bear?",
@@ -3695,7 +3717,12 @@
         "setOutcomeText": "Fijar resultado",
         "editOutcomeText": "Editar resultado",
         "projectIconPickText": "Elige un emoji…",
-        "tasksToDoCountText": "<COUNT> por hacer"
+        "tasksToDoCountText": "<COUNT> por hacer",
+      "outcomeHardDeadlineText": "Fecha límite fija — no se puede mover",
+      "outcomePostponeAYearText": "Se puede posponer un año",
+      "outcomePostponeMonthsText": "Se puede posponer unos meses",
+      "outcomePostponeWeeksText": "Se puede posponer unas semanas",
+      "outcomePostponeYearsText": "Se puede posponer años"
     },
     "localForecastViewInfo": {
         "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana",
@@ -3831,7 +3858,8 @@
         "likelihoodInHorizon": "Es probable que completes el <PERCENT>% dentro de esta previsión",
         "suggestionRange": "Empieza el <START>; termina antes del <END>",
         "outcomeNotSaved": "Se guardó el proyecto, pero no se pudo guardar su resultado. Abre la configuración del proyecto para volver a intentarlo.",
-        "outcomeUnavailable": "Todavía no se puede guardar el resultado de un proyecto: requiere una actualización del servidor. Usa la fecha de entrega y la importancia por ahora."
+        "outcomeUnavailable": "Todavía no se puede guardar el resultado de un proyecto: requiere una actualización del servidor. Usa la fecha de entrega y la importancia por ahora.",
+      "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana"
     },
     "scheduleViewInfo":{
         "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
@@ -4166,7 +4194,13 @@
         "eventScopeThis": "Solo este evento",
         "eventScopeTitle": "Este es un evento que se repite",
         "habitSkipAhead": "Omitir",
-        "habitUnskipAhead": "No omitir"
+        "habitUnskipAhead": "No omitir",
+      "tasksShortcutDurationWords": "30m, 2h o 1h30m — indica la duración en palabras",
+      "tasksShortcutMinutes": "*15 — fija la duración en 15 minutos",
+      "tasksShortcutPriority": "!1 a !5 — fija la importancia (!5 es lo más importante)",
+      "tasksShortcutProject": "#proyecto — archiva la tarea en un proyecto",
+      "tasksShortcutsDismiss": "No volver a mostrar",
+      "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",

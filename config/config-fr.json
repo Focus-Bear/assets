@@ -453,7 +453,11 @@
       "featureBreaks": "Rappels de pause",
       "featureMeetings": "Alertes de réunion détectée",
       "featureBlocking": "Blocage et pop-ups de distraction",
-      "featureHabits": "Rappels d’habitudes"
+      "featureHabits": "Rappels d’habitudes",
+      "cancelButton": "Laisse tomber",
+      "reasonFeedbackPrompt": "Dites-nous ce qui s'est passé pour que nous puissions le corriger (facultatif) :",
+      "reasonQuitButton": "Désactiver Focus Bear",
+      "reasonSubtitle": "Nous en sommes désolés. Qu'est-ce qui n'a pas fonctionné ?"
     }
   },
   "shutOffTimeInfo": {
@@ -1270,7 +1274,9 @@
     "buttonInTheOffIceText": "Je suis au bureau",
     "eveningHoldInstruction": "Appuie et maintiens pour choisir la durée du report — plus tu maintiens, plus le report est long. Relâche pour confirmer.",
     "eveningHoldLiveText": "Report de <MIN> min…",
-    "eveningHoldIdleText": "Maintiens pour reporter"
+    "eveningHoldIdleText": "Maintiens pour reporter",
+    "cutoffExtensionRefusedText": "Cette session de concentration ne peut pas être prolongée au-delà de <TIME>. Il ne reste pas de place pour une minute complète.",
+    "cutoffExtensionRefusedTitle": "Votre heure limite restreint cette prolongation"
   },
   "breakFrequencyVcInfo": {
     "title": "Tu veux espacer les pauses ?",
@@ -1420,6 +1426,7 @@
       "upbeat": "enjoué",
       "factual": "factuel"
     },
+    "pepTalkRateLimitedText": "Trop d’encouragements d’un coup : le serveur nous demande d’attendre un instant. Réessayer refonctionnera sous peu.",
     "pepTalkUnavailableText": "On n’a pas pu générer de message personnalisé aujourd’hui. Réessaie plus tard.",
     "motivationalStyleText": "Style de motivation",
     "motivationalNoticeText": "Ta série de routines et les activités de tes routines seront envoyées à Open AI. Aucun autre détail ne sera partagé, mais si quelque chose dans les titres de tes habitudes peut t’identifier, on te conseille de l’enlever.",
@@ -1436,6 +1443,7 @@
     "usernameRuleText": "Lettres et tirets bas uniquement",
     "streakValueText": "Série : {streak}",
     "daysCompletedOutOfText": "{completed} jours réussis sur les {total} derniers jours",
+    "daysCompletedOutOfExpectedText": "{window} derniers jours : {completed} réalisés, {forgiven} jours de week-end ignorés",
     "ascendingText": "Croissant",
     "descendingText": "Décroissant",
     "noHabitsTitle": "Ajoute une habitude pour voir tes stats",
@@ -1934,7 +1942,20 @@
     "duplicateName": "Une liste de blocage portant ce nom existe déjà.",
     "categoryGaming": "Jeux vidéo",
     "categoryPorn": "Contenu adulte",
-    "categoryGambling": "Jeux d’argent"
+    "categoryGambling": "Jeux d’argent",
+    "addApp": "Ajouter une application",
+    "addUrl": "Ajouter une URL",
+    "addUrlPlaceholder": "Ajouter une nouvelle URL",
+    "changeColor": "Changer la couleur",
+    "deleteBlockList": "Supprimer",
+    "duplicateBlockList": "Dupliquer",
+    "duplicateName": "Une liste de blocage portant ce nom existe déjà.",
+    "hiddenSuffix": " (Masquée)",
+    "hideBlockList": "Masquer dans les sélecteurs",
+    "renameBlockList": "Renommer cette liste de blocage",
+    "revealHiddenModes": "Afficher les modes concentration masqués",
+    "searchEntries": "Rechercher des URL et des applications",
+    "showBlockList": "Afficher dans les sélecteurs"
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Bienvenue sur Focus Bear",
@@ -2969,7 +2990,8 @@
     "buttonChangeGoal": "Changer d’objectif",
     "buttonClearGoal": "Effacer l’objectif",
     "buttonAddMoreTasks": "Ajouter d’autres tâches",
-    "noMatchingBlockLists": "Aucune liste de blocage ne correspond"
+    "noMatchingBlockLists": "Aucune liste de blocage ne correspond",
+    "headingProjects": "Projets"
   },
   "achieveWithFocusBearVcInfo": {
     "title": "Qu'aimerais-tu améliorer dans ta vie en utilisant Focus Bear ?",
@@ -3690,7 +3712,12 @@
     "projectTaskCompletionText": "<PERCENT> % terminé (<DONE>/<TOTAL> tâches)",
     "projectAlphabeticalSubsetText": "Les projets chargés sont affichés par ordre alphabétique. Charge-en plus pour voir les autres.",
     "setOutcomeText": "Définir l’impact",
-    "editOutcomeText": "Modifier l’impact"
+    "editOutcomeText": "Modifier l’impact",
+    "outcomeHardDeadlineText": "Échéance ferme — non reportable",
+    "outcomePostponeAYearText": "Peut être reporté d'un an",
+    "outcomePostponeMonthsText": "Peut être reporté de quelques mois",
+    "outcomePostponeWeeksText": "Peut être reporté de quelques semaines",
+    "outcomePostponeYearsText": "Peut être reporté de plusieurs années"
   },
   "localForecastViewInfo": {
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain",
@@ -3797,7 +3824,8 @@
     "outcomeMissing": "Choisis un résultat avant de proposer une prolongation pour ce projet.",
     "likelihoodInHorizon": "Tu termineras probablement <PERCENT> % dans cette prévision",
     "suggestionRange": "Commence le <START> ; termine avant le <END>",
-    "outcomeNotSaved": "Le projet a été enregistré, mais son résultat n’a pas pu l’être. Ouvre les réglages du projet pour réessayer."
+    "outcomeNotSaved": "Le projet a été enregistré, mais son résultat n’a pas pu l’être. Ouvre les réglages du projet pour réessayer.",
+    "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain"
   },
   "scheduleViewInfo": {
     "tasksShortcutsTitle": "Raccourcis que tu peux taper dans le nom",
@@ -4103,7 +4131,13 @@
     "draftSaveFailedServerSaid": "Le serveur a répondu :",
     "routineCutoffLabel": "Heure limite du soir",
     "routineCutoffHint": "Les habitudes facultatives du soir s’arrêtent à cette heure ; les habitudes obligatoires gardent leurs propres heures limites.",
-    "routineCutoffInvalid": "Choisis une heure limite entre le début de la routine du soir et le début de la routine du matin suivante."
+    "routineCutoffInvalid": "Choisis une heure limite entre le début de la routine du soir et le début de la routine du matin suivante.",
+    "tasksShortcutDurationWords": "30m, 2h ou 1h30m — indiquez la durée en toutes lettres",
+    "tasksShortcutMinutes": "*15 — définit la durée sur 15 minutes",
+    "tasksShortcutPriority": "!1 à !5 — définit l'importance (!5 est le plus important)",
+    "tasksShortcutProject": "#projet — classe la tâche dans un projet",
+    "tasksShortcutsDismiss": "Ne plus afficher",
+    "tasksShortcutsTitle": "Raccourcis que vous pouvez taper dans le nom"
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Suivi du temps",
