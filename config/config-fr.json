@@ -4795,7 +4795,9 @@
   "createFirstBlockingScheduleVcInfo": {
     "title": "Définir les détails du blocage",
     "buttonAddBlock": "Ajouter un blocage",
-    "bubbleText": "Par exemple, bloque les sites distrayants pendant les heures de travail"
+    "bubbleText": "Par exemple, bloque les sites distrayants pendant les heures de travail",
+    "presetsTitle": "Modèles de démarrage rapide",
+    "presetsSubtitle": "Choisis un modèle pour commencer — tu pourras l'ajuster à l'écran suivant."
   },
   "askPermissionsVcInfo": {
     "title": "Le programme est configuré ! Occupons-nous maintenant des autorisations.",
