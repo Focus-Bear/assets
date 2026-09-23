@@ -441,6 +441,10 @@
       "buttonQuitText": "Turn Focus Bear off"
     },
     "quitPopupInfo": {
+      "cancelButton": "Doch nicht",
+      "reasonSubtitle": "Das tut uns leid. Was ist schiefgelaufen?",
+      "reasonFeedbackPrompt": "Sag uns, was passiert ist, damit wir es beheben können (optional):",
+      "reasonQuitButton": "Focus Bear ausschalten",
       "reportBugButton": "🐞 Fehler melden",
       "pauseTitle": "Welche Funktionen willst du ausschalten?",
       "pauseForLabel": "Pausieren für",
@@ -3277,6 +3281,11 @@
     "unsavedFrequencyCancelButton": "Abbrechen"
   },
   "toDoListViewInfo": {
+    "outcomeHardDeadlineText": "Feste Frist – nicht verschiebbar",
+    "outcomePostponeAYearText": "Kann ein Jahr warten",
+    "outcomePostponeYearsText": "Kann Jahre warten",
+    "outcomePostponeMonthsText": "Kann ein paar Monate warten",
+    "outcomePostponeWeeksText": "Kann ein paar Wochen warten",
     "createTasksUsingAIText": "Aufgaben mit KI erstellen",
     "brainDumpLimitText": "Nutz bis zu <COUNT> Zeichen für Aufgabenvorschläge. Deine ursprüngliche Notiz bleibt unverändert.",
     "brainDumpPartialSaveText": "<COUNT> Aufgaben wurden bestätigt gespeichert. Die übrigen Aufgaben sind noch hier. Schau sie dir an und versuch es nochmal.",

@@ -441,6 +441,10 @@
       "buttonQuitText": "Turn Focus Bear off"
     },
     "quitPopupInfo": {
+      "cancelButton": "Finalement non",
+      "reasonSubtitle": "Désolé de l'apprendre. Qu'est-ce qui n'a pas marché ?",
+      "reasonFeedbackPrompt": "Dites-nous ce qui s'est passé pour que nous puissions le corriger (facultatif) :",
+      "reasonQuitButton": "Désactiver Focus Bear",
       "reportBugButton": "🐞 Signaler un bug",
       "pauseTitle": "Quelles fonctionnalités veux-tu désactiver ?",
       "pauseForLabel": "Mettre en pause pendant",
@@ -3277,6 +3281,11 @@
     "unsavedFrequencyCancelButton": "Annuler"
   },
   "toDoListViewInfo": {
+    "outcomeHardDeadlineText": "Échéance ferme — impossible à déplacer",
+    "outcomePostponeAYearText": "Peut être reporté d'un an",
+    "outcomePostponeYearsText": "Peut être reporté de plusieurs années",
+    "outcomePostponeMonthsText": "Peut être reporté de quelques mois",
+    "outcomePostponeWeeksText": "Peut être reporté de quelques semaines",
     "createTasksUsingAIText": "Créer des tâches avec l’IA",
     "brainDumpLimitText": "Utilise jusqu’à <COUNT> caractères pour les suggestions de tâches. Ta note d’origine reste inchangée.",
     "brainDumpPartialSaveText": "<COUNT> tâches confirmées et enregistrées. Les autres sont toujours là. Revois-les et réessaie.",
