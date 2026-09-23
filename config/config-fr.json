@@ -4361,6 +4361,13 @@
     "buttonCancel": "Annuler"
   },
   "blockingScheduleEditorVcInfo": {
+    "titleActiveTime": "Plage active",
+    "titleEveryday": "Tous les jours",
+    "titleStrictnessFlexible": "Flexible",
+    "titleStrictnessModerate": "Modéré",
+    "titleStrictnessStrict": "Strict",
+    "titleWeekdays": "En semaine",
+    "titleWeekends": "Week-ends",
     "title": "Emploi du temps de blocage",
     "titleScheduleName": "Nom du blocage",
     "titleBlockingSchedule": "Emploi du temps de blocage",

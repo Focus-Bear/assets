@@ -4456,6 +4456,13 @@
         "buttonCancel": "Cancelar"
     },
     "blockingScheduleEditorVcInfo":{
+        "titleActiveTime": "Horario activo",
+        "titleEveryday": "Todos los días",
+        "titleStrictnessFlexible": "Flexible",
+        "titleStrictnessModerate": "Moderado",
+        "titleStrictnessStrict": "Estricto",
+        "titleWeekdays": "Entre semana",
+        "titleWeekends": "Fines de semana",
         "title": "Horario de bloqueo",
         "titleScheduleName": "Nombre del bloqueo",
         "titleBlockingSchedule": "Horario de bloqueo",

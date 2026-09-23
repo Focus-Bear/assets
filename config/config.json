@@ -4458,6 +4458,13 @@
         "buttonCancel": "Cancel"
     },
     "blockingScheduleEditorVcInfo":{
+        "titleActiveTime": "Active time",
+        "titleEveryday": "Everyday",
+        "titleStrictnessFlexible": "Flexible",
+        "titleStrictnessModerate": "Moderate",
+        "titleStrictnessStrict": "Strict",
+        "titleWeekdays": "Weekdays",
+        "titleWeekends": "Weekends",
         "title": "Blocking Schedule",
         "titleScheduleName": "Block name",
         "titleBlockingSchedule": "Blocking schedule",
