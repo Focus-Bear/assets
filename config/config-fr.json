@@ -3693,6 +3693,7 @@
     "editOutcomeText": "Modifier l’impact"
   },
   "localForecastViewInfo": {
+    "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain",
     "allWorkComplete": "Toutes les tâches de ce projet sont terminées",
     "generatePlan": "Replanifier les tâches",
     "reviewPlan": "Replanifier le plan",
@@ -3799,6 +3800,12 @@
     "outcomeNotSaved": "Le projet a été enregistré, mais son résultat n’a pas pu l’être. Ouvre les réglages du projet pour réessayer."
   },
   "scheduleViewInfo": {
+    "tasksShortcutsTitle": "Raccourcis que tu peux taper dans le nom",
+    "tasksShortcutsDismiss": "Ne plus afficher",
+    "tasksShortcutProject": "#projet — classe la tâche dans un projet",
+    "tasksShortcutPriority": "!1 à !5 — définis l'importance (!5 est la plus importante)",
+    "tasksShortcutMinutes": "*15 — définis la durée à 15 minutes",
+    "tasksShortcutDurationWords": "30m, 2h ou 1h30m — définis la durée en mots",
     "habitInvalidCutoff": "L’heure limite doit se situer entre le début de la routine du soir et le début de la routine du matin.",
     "showDismissedEvents": "Afficher les événements masqués",
     "showEventAgain": "Réafficher cet événement",
@@ -3936,7 +3943,7 @@
     "tasksMoveToProjectedDay": "Déplacer au %@",
     "tasksNoProject": "Aucun projet",
     "tasksProjectHint": "Tape #projet pour classer cette tâche",
-    "tasksNameNeeded": "Ajoute un nom à cette tâche. Les étiquettes comme #projet et *priorité viennent après le nom.",
+    "tasksNameNeeded": "Ajoute un nom à cette tâche. Les étiquettes comme #projet, !priorité et *minutes viennent après le nom.",
     "customRoutinesTitle": "Routines personnalisées",
     "customRoutinesEmpty": "Aucune routine à la demande",
     "customRoutinesAfterCutoff": "Routines à la demande désactivées jusqu'à demain matin — l'heure de décompresser.",

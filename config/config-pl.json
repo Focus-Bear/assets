@@ -3693,6 +3693,7 @@
     "editOutcomeText": "Edytuj efekt"
   },
   "localForecastViewInfo": {
+    "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro",
     "allWorkComplete": "Wszystkie zadania w tym projekcie są ukończone",
     "generatePlan": "Zaplanuj zadania ponownie",
     "reviewPlan": "Plan zmiany terminów",
@@ -3799,6 +3800,12 @@
     "outcomeNotSaved": "Projekt został zapisany, ale nie udało się zapisać jego rezultatu. Otwórz ustawienia projektu, aby spróbować ponownie."
   },
   "scheduleViewInfo": {
+    "tasksShortcutsTitle": "Skróty, które możesz wpisać w nazwie",
+    "tasksShortcutsDismiss": "Nie pokazuj ponownie",
+    "tasksShortcutProject": "#projekt — przypisz zadanie do projektu",
+    "tasksShortcutPriority": "!1 do !5 — ustaw ważność (!5 jest najważniejsze)",
+    "tasksShortcutMinutes": "*15 — ustaw czas trwania na 15 minut",
+    "tasksShortcutDurationWords": "30m, 2h lub 1h30m — podaj czas trwania słownie",
     "habitInvalidCutoff": "Godzina graniczna musi wypadać między początkiem wieczornej rutyny a początkiem porannej rutyny.",
     "showDismissedEvents": "Pokaż ukryte wydarzenia",
     "showEventAgain": "Pokaż to wydarzenie ponownie",
@@ -3936,7 +3943,7 @@
     "tasksMoveToProjectedDay": "Przenieś na %@",
     "tasksNoProject": "Brak projektu",
     "tasksProjectHint": "Wpisz #projekt, aby przypisać zadanie",
-    "tasksNameNeeded": "Dodaj nazwę tego zadania. Tagi takie jak #projekt i *priorytet wpisz po nazwie.",
+    "tasksNameNeeded": "Dodaj nazwę tego zadania. Tagi takie jak #projekt, !priorytet i *minuty wpisz po nazwie.",
     "customRoutinesTitle": "Własne rutyny",
     "customRoutinesEmpty": "Brak rutyn na żądanie",
     "customRoutinesAfterCutoff": "Rutyny na żądanie są wyłączone do jutra rana – czas zwolnić.",

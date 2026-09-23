@@ -3693,6 +3693,7 @@
     "editOutcomeText": "Ergebnis bearbeiten"
   },
   "localForecastViewInfo": {
+    "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern",
     "allWorkComplete": "Alle Aufgaben in diesem Projekt sind erledigt",
     "generatePlan": "Aufgaben neu planen",
     "reviewPlan": "Plan neu terminieren",
@@ -3799,6 +3800,12 @@
     "outcomeNotSaved": "Das Projekt wurde gespeichert, aber sein Ergebnis nicht. Öffne die Projekteinstellungen, um es erneut zu versuchen."
   },
   "scheduleViewInfo": {
+    "tasksShortcutsTitle": "Kürzel, die du im Namen tippen kannst",
+    "tasksShortcutsDismiss": "Nicht mehr anzeigen",
+    "tasksShortcutProject": "#projekt — ordne die Aufgabe einem Projekt zu",
+    "tasksShortcutPriority": "!1 bis !5 — Wichtigkeit festlegen (!5 ist am wichtigsten)",
+    "tasksShortcutMinutes": "*15 — Dauer auf 15 Minuten setzen",
+    "tasksShortcutDurationWords": "30m, 2h oder 1h30m — Dauer in Worten angeben",
     "habitInvalidCutoff": "Die Grenzzeit muss zwischen dem Start der Abendroutine und dem Start der Morgenroutine liegen.",
     "showDismissedEvents": "Ausgeblendete Termine anzeigen",
     "showEventAgain": "Diesen Termin wieder anzeigen",
@@ -3936,7 +3943,7 @@
     "tasksMoveToProjectedDay": "Verschieben auf %@",
     "tasksNoProject": "Kein Projekt",
     "tasksProjectHint": "Tippe #projekt, um die Aufgabe zuzuordnen",
-    "tasksNameNeeded": "Gib dieser Aufgabe einen Namen. Tags wie #projekt und *priorität kommen nach dem Namen.",
+    "tasksNameNeeded": "Gib dieser Aufgabe einen Namen. Tags wie #projekt, !priorität und *minuten kommen nach dem Namen.",
     "customRoutinesTitle": "Eigene Routinen",
     "customRoutinesEmpty": "Keine On-Demand-Routinen",
     "customRoutinesAfterCutoff": "On-Demand-Routinen sind bis morgen früh deaktiviert – Zeit zum Runterkommen.",
