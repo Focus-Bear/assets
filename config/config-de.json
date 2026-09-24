@@ -3786,6 +3786,7 @@
     "noTasks": "Noch keine Aufgaben mit Schätzung",
     "completeBy": "Voraussichtlich fertig: <DATE>",
     "outsideHorizon": "Diese Arbeit passt nicht in den gewählten Planungszeitraum.",
+    "completeAfter": "Voraussichtlicher Abschluss: nach dem <DATE>",
     "loadFailed": "Die vollständige Prognose konnte nicht geladen werden. Aktualisiere, um es erneut zu versuchen.",
     "applySelected": "Ausgewählte Änderungen übernehmen",
     "selectAll": "Alle änderbaren Änderungen auswählen",

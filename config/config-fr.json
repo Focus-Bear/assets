@@ -3786,6 +3786,7 @@
     "noTasks": "Pas encore de tâches estimées",
     "completeBy": "Fin prévue : <DATE>",
     "outsideHorizon": "Ce travail ne tient pas dans l’horizon de planification sélectionné.",
+    "completeAfter": "Achèvement prévu : après le <DATE>",
     "loadFailed": "La prévision complète n’a pas pu être chargée. Actualise pour réessayer.",
     "applySelected": "Appliquer les changements sélectionnés",
     "selectAll": "Sélectionner tous les changements modifiables",

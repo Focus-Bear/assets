@@ -3818,6 +3818,7 @@
         "noTasks": "Aún no hay tareas con una estimación",
         "completeBy": "Finalización prevista: <DATE>",
         "outsideHorizon": "Este trabajo no cabe en el periodo de planificación seleccionado.",
+        "completeAfter": "Finalización prevista: después del <DATE>",
         "loadFailed": "No se pudo cargar la previsión completa. Actualiza para volver a intentarlo.",
         "applySelected": "Aplicar los cambios seleccionados",
         "selectAll": "Seleccionar todos los cambios editables",
