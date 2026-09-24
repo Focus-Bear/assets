@@ -4045,6 +4045,8 @@
         "tasksTotalToDo": "≈ %@ de tareas por hacer",
         "tasksOverBy": "🕒 excedido por %@",
         "durationMinutesBrackets": "(%d min)",
+        "durationHoursBrackets": "(%dh)",
+        "durationHoursMinutesBrackets": "(%dh%dm)",
         "tasksLoading": "Cargando…",
         "tasksPickerAllAdded": "Todas tus tareas pendientes ya están en este día.",
         "tasksPickerNone": "No se encontraron tareas pendientes. Agrega tareas en tu lista primero.",

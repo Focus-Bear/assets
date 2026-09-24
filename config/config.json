@@ -4047,6 +4047,8 @@
         "tasksTotalToDo": "≈ %@ of tasks to do",
         "tasksOverBy": "🕒 over by %@",
         "durationMinutesBrackets": "(%d min)",
+        "durationHoursBrackets": "(%dh)",
+        "durationHoursMinutesBrackets": "(%dh%dm)",
         "tasksLoading": "Loading…",
         "tasksPickerAllAdded": "All your open to-dos are already on this day.",
         "tasksPickerNone": "No open to-dos found. Add tasks in your to-do list first.",
