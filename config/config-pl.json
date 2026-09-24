@@ -3786,6 +3786,7 @@
     "noTasks": "Brak zadań z oszacowaniem",
     "completeBy": "Przewidywane ukończenie: <DATE>",
     "outsideHorizon": "Ta praca nie mieści się w wybranym horyzoncie planowania.",
+    "completeAfter": "Przewidywane ukończenie: po <DATE>",
     "loadFailed": "Nie udało się wczytać pełnej prognozy. Odśwież, aby spróbować ponownie.",
     "applySelected": "Zastosuj wybrane zmiany",
     "selectAll": "Zaznacz wszystkie edytowalne zmiany",

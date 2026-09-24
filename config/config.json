@@ -3820,6 +3820,7 @@
         "noTasks": "No estimated tasks yet",
         "completeBy": "Expected completion: <DATE>",
         "outsideHorizon": "This work does not fit within the selected planning horizon.",
+        "completeAfter": "Expected completion: after <DATE>",
         "loadFailed": "The complete forecast could not be loaded. Refresh to try again.",
         "applySelected": "Apply selected changes",
         "selectAll": "Select all editable changes",
