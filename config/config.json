@@ -4605,6 +4605,13 @@
     },
     "accountabilityBuddyInfo":{
         "aiBuddyRecoveryTitle": "Choose a deliberate postpone",
+        "aiBuddyAnnoyingPrompt": "Is the AI accountability buddy getting annoying?",
+        "aiBuddyAnnoyingYes": "Yes",
+        "aiBuddyRecoveryClose": "Close",
+        "aiBuddyOfflineTitle": "You're offline",
+        "aiBuddyOfflineExplanation": "Your buddy needs the internet to reply. Reconnect and send your message again, or push your habits back below.",
+        "aiBuddyUnavailableTitle": "Your buddy isn't responding",
+        "aiBuddyUnavailableExplanation": "We couldn't reach your accountability buddy. That's a problem on our side, not yours. Send your message again in a minute, or push your habits back below.",
         "aiBuddyRecoveryExplanation": "Your buddy could not respond. Your habits have not been postponed. Choose a duration and hold to confirm, retry, or do your habit now.",
         "aiBuddyRecoveryDuration": "Postpone for",
         "aiBuddyRecoveryChooseDuration": "Choose a duration",

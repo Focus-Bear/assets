@@ -4498,6 +4498,13 @@
   },
   "accountabilityBuddyInfo": {
     "aiBuddyRecoveryTitle": "Musst du deine Gewohnheiten verschieben?",
+    "aiBuddyAnnoyingPrompt": "Nervt dich der KI-Accountability-Buddy?",
+    "aiBuddyAnnoyingYes": "Ja",
+    "aiBuddyRecoveryClose": "Schließen",
+    "aiBuddyOfflineTitle": "Du bist offline",
+    "aiBuddyOfflineExplanation": "Dein Buddy braucht Internet, um zu antworten. Verbinde dich wieder und sende deine Nachricht erneut, oder verschiebe deine Habits unten.",
+    "aiBuddyUnavailableTitle": "Dein Buddy antwortet nicht",
+    "aiBuddyUnavailableExplanation": "Wir konnten deinen Accountability-Buddy nicht erreichen. Das Problem liegt bei uns, nicht bei dir. Sende deine Nachricht in einer Minute erneut, oder verschiebe deine Habits unten.",
     "aiBuddyRecoveryExplanation": "Dein Buddy hat nicht geantwortet, also wurde noch nichts verschoben. Versuch es noch einmal, mach die Gewohnheit jetzt, oder wähle, wie lange du brauchst, und halte die Taste gedrückt, um sie zu verschieben.",
     "aiBuddyRecoveryDuration": "Verschieben um",
     "aiBuddyRecoveryChooseDuration": "Wähle, wie lange",
