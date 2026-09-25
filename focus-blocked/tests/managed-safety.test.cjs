@@ -30,7 +30,7 @@ for (const lang of ['en', 'es']) {
         'ai-focus-block-verification-enabled': 'true', 'ai-focus-block-enabled': 'true' });
       try {
         const doc = dom.window.document;
-        assert.match(doc.getElementById('focusTitle').textContent, lang === 'en' ? /safety schedule/ : /seguridad/);
+        assert.match(doc.getElementById('focusTitle').textContent, lang === 'en' ? /safety settings/ : /seguridad/);
         assert.equal(doc.getElementById('focusSubTitle').textContent, 'www.roblox.com');
         for (const id of ['originalUrl', 'cuddlyBearBtn', 'progressWrapper', 'confirmation-modal', 'focus-verify-modal']) {
           assert.equal(doc.getElementById(id).style.display, 'none', id);
@@ -59,3 +59,30 @@ test('ordinary blocked pages retain their existing personal-unlock action', () =
     assert.equal(doc.getElementById('originalUrl').getAttribute('href'), 'https://example.com/100%25');
   } finally { dom.window.close(); }
 });
+
+// Who set the block decides who the student is told to ask.
+const whoToAsk = [
+  { managed_by: 'school', en: [/Your school blocks/, /ask your teacher/], es: [/Tu escuela bloquea/, /profesor/] },
+  { managed_by: 'parent', en: [/parent or guardian blocks/, /ask them/], es: [/padre, madre o tutor bloquea/, /pregúntale/] },
+  // No hint, or a value the page doesn't know: name both, never guess one.
+  { managed_by: undefined, en: [/safety settings block/, /teacher during school time, or your parent or guardian/],
+    es: [/configuración de seguridad/, /profesor o profesora en horario escolar, o a tu padre, madre o tutor/] },
+  { managed_by: '<script>alert(1)</script>', en: [/safety settings block/, /teacher during school time/],
+    es: [/configuración de seguridad/, /horario escolar/] },
+];
+for (const lang of ['en', 'es']) {
+  for (const { managed_by, ...expected } of whoToAsk) {
+    test(`managed ${lang} page names who to ask when managed_by=${managed_by}`, () => {
+      const params = { block_type: 'managed-safety', old_url: 'https://www.roblox.com/games', lang };
+      if (managed_by !== undefined) params.managed_by = managed_by;
+      const dom = render(params);
+      try {
+        const doc = dom.window.document;
+        const [title, body] = expected[lang];
+        assert.match(doc.getElementById('focusTitle').textContent, title);
+        assert.match(doc.getElementById('focusAdditionalInfo').textContent, body);
+        assert.equal(doc.getElementById('focusTitle').querySelector('script'), null);
+      } finally { dom.window.close(); }
+    });
+  }
+}

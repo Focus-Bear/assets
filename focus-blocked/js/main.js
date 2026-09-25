@@ -1,9 +1,17 @@
 // Managed blocks never register personal unlock, timer or onboarding actions.
 if (isManagedSafetyBlock) {
-  focusTitle.textContent = selected_lang.managed_safety_title;
-  focusAdditionalInfo.textContent = selected_lang.managed_safety_body;
+  // Say who set the block, so the student knows who to ask: their school during class sessions, their
+  // parent or guardian outside school hours. A client that doesn't say gets the version naming both.
+  const managedBy = urlParams.get('managed_by');
+  const copyKey = managedBy === MANAGED_BY.SCHOOL ? 'managed_safety_school'
+    : managedBy === MANAGED_BY.PARENT ? 'managed_safety_parent'
+      : 'managed_safety';
+  focusTitle.textContent = selected_lang[`${copyKey}_title`];
+  focusAdditionalInfo.textContent = selected_lang[`${copyKey}_body`];
   focusAdditionalInfo.style.display = 'block';
   focusSubtitle.textContent = domain;
+  // The subtitle's shared style capitalises words ("Www.Roblox.Com"); a web address is shown as typed.
+  focusSubtitle.style.textTransform = 'none';
   focusSubtitle.style.display = domain ? 'block' : 'none';
   for (const id of [
     'originalUrl', 'cuddlyBearBtn', 'cuddlyBearMode', 'longTermGoalsContainer',

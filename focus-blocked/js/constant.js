@@ -9,6 +9,12 @@ const EXTERNAL_HINT_DOMAINS = {
   YOUTUBE: 'youtube.com',
 };
 
+/** Who set a managed safety block, as the client passes it in `managed_by`. */
+const MANAGED_BY = {
+  SCHOOL: 'school',
+  PARENT: 'parent',
+};
+
 const FOCUS_BLOCK_OPTION = {
   MANAGED_SAFETY: 'managed-safety',
   FOCUS_BLOCK_OVER: 'focus_block_over',
