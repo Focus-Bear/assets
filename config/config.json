@@ -4223,6 +4223,7 @@
         "ttUpgradeButton": "Upgrade to Pro"
     },
     "localReportStatus": {
+      "showAllReports": "Show all <COUNT>",
       "showFixedReports": "Show fixed reports",
       "noOpenReports": "No unconfirmed reports to show.",
       "title": "Your local reports",
