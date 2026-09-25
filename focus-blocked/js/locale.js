@@ -1,5 +1,12 @@
 const locale = {
   en: {
+    managed_safety_school_title: 'Your school blocks this website during school time',
+    managed_safety_school_body: "Your school chose to block this website during class sessions, so you can't unlock it yourself. If you need it for schoolwork, ask your teacher.",
+    managed_safety_parent_title: 'Your parent or guardian blocks this website',
+    managed_safety_parent_body: "Your parent or guardian chose to block this website outside school hours, so you can't unlock it yourself. If you think you need it, ask them.",
+    managed_safety_title: 'Your safety settings block this website',
+    managed_safety_body: "Your school sets these blocks during school time, and your parent or guardian sets them outside school hours. You can't unlock this website yourself. If you need it, ask your teacher during school time, or your parent or guardian at other times.",
+
     quotes: [
       {
         quote: 'An ounce of practice is worth more than tons of preaching.',
@@ -176,6 +183,13 @@ const locale = {
     no: 'No',
   },
   es: {
+    managed_safety_school_title: 'Tu escuela bloquea este sitio web en horario escolar',
+    managed_safety_school_body: 'Tu escuela decidió bloquear este sitio web durante las clases, así que no puedes desbloquearlo tú. Si lo necesitas para una tarea, pregúntale a tu profesor o profesora.',
+    managed_safety_parent_title: 'Tu padre, madre o tutor bloquea este sitio web',
+    managed_safety_parent_body: 'Tu padre, madre o tutor decidió bloquear este sitio web fuera del horario escolar, así que no puedes desbloquearlo tú. Si crees que lo necesitas, pregúntale.',
+    managed_safety_title: 'Tu configuración de seguridad bloquea este sitio web',
+    managed_safety_body: 'Tu escuela pone estos bloqueos en horario escolar, y tu padre, madre o tutor los pone fuera de ese horario. No puedes desbloquear este sitio web tú. Si lo necesitas, pregúntale a tu profesor o profesora en horario escolar, o a tu padre, madre o tutor el resto del tiempo.',
+
     quotes: [
       {
         quote: 'Una onza de práctica vale más que toneladas de predicación.',
