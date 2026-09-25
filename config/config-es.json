@@ -4221,6 +4221,7 @@
         "ttUpgradeButton": "Mejorar a Pro"
     },
     "localReportStatus": {
+      "showAllReports": "Mostrar todos (<COUNT>)",
       "showFixedReports": "Mostrar informes corregidos",
       "noOpenReports": "No hay informes sin confirmar para mostrar.",
       "title": "Tus informes locales",
