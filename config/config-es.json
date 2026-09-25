@@ -3809,6 +3809,8 @@
         "reasonPushedBack": "Aplazada: los días anteriores ya están comprometidos.",
         "projectDeadlineHeading": "Fechas límite de proyectos",
         "projectDeadlineExplanation": "Estas cambian la fecha límite de todo un PROYECTO, no la de una tarea.",
+        "projectsAtRiskHeading": "Proyectos en riesgo de no cumplir su plazo (<COUNT>)",
+        "projectsWithoutDeadlineHeading": "Proyectos sin fecha límite (<COUNT>)",
         "projectDeadlineRow": "Fijar la fecha límite del proyecto <PROJECT> en <DATE>",
         "selectAllInProject": "Seleccionar los <COUNT> cambios de este proyecto",
         "selectAllInGroup": "Seleccionar los <COUNT> cambios de este grupo",
