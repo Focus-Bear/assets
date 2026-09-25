@@ -3811,6 +3811,8 @@
         "reasonPushedBack": "Pushed back: the days before this are already committed.",
         "projectDeadlineHeading": "Project deadlines",
         "projectDeadlineExplanation": "These change a whole PROJECT’s deadline, not one task’s.",
+        "projectsAtRiskHeading": "Projects at risk of missing their deadline (<COUNT>)",
+        "projectsWithoutDeadlineHeading": "Projects with no due date (<COUNT>)",
         "projectDeadlineRow": "Set <PROJECT>’s project deadline to <DATE>",
         "selectAllInProject": "Select all <COUNT> changes in this project",
         "selectAllInGroup": "Select all <COUNT> changes in this group",
