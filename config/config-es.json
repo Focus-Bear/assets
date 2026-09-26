@@ -2062,6 +2062,10 @@
         "buttonDontAskAgainText": "Recordar mi elección"
     },
     "focusMusicInfo": {
+        "a11yRemoveTrack": "Quitar %@",
+        "a11yStopTrack": "Detener %@",
+        "a11yPlayTrack": "Reproducir %@",
+        "a11yDownloadTrack": "Descargar %@",
         "nowPlayingLabelText": "Reproduciendo ahora",
         "sectionTitleSpotify": "Spotify",
         "sectionTitleYouTubeMusic": "YouTube Music",
@@ -2428,6 +2432,7 @@
         "subTitleText": "Las aplicaciones añadidas aquí nunca serán bloqueadas, independientemente del modo de enfoque, los horarios de bloqueo o la configuración de restricción. Usa esto para aplicaciones esenciales a las que siempre necesitas acceso."
     },
     "settingsNew": {
+        "searchSettingsLabel": "Buscar en la configuración",
         "uiSettingTitle": "IU",
         "accessibilitySettingTitle": "Accesibilidad",
         "aISettingTitle": "Funciones de IA",
@@ -3292,6 +3297,7 @@
         "unsavedFrequencyCancelButton": "Cancelar"
     },
     "toDoListViewInfo":{
+        "searchTasksText": "Buscar tareas",
         "outcomeHardDeadlineText": "Fecha límite fija: no se puede mover",
         "outcomePostponeAYearText": "Se puede posponer un año",
         "outcomePostponeYearsText": "Se puede posponer durante años",
@@ -3867,6 +3873,7 @@
       "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana"
     },
     "scheduleViewInfo":{
+        "habitFieldIcon": "Icono del hábito",
         "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
         "tasksShortcutsDismiss": "No mostrar de nuevo",
         "tasksShortcutProject": "#proyecto — archiva la tarea en un proyecto",

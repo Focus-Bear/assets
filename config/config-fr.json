@@ -2059,6 +2059,10 @@
     "buttonDontAskAgainText": "Se souvenir de mon choix"
   },
   "focusMusicInfo": {
+    "a11yRemoveTrack": "Retirer %@",
+    "a11yStopTrack": "Arrêter %@",
+    "a11yPlayTrack": "Lire %@",
+    "a11yDownloadTrack": "Télécharger %@",
     "nowPlayingLabelText": "En cours de lecture",
     "sectionTitleSpotify": "Spotify",
     "sectionTitleYouTubeMusic": "YouTube Music",
@@ -2428,6 +2432,7 @@
     "subTitleText": "Les applications ajoutées ici ne seront jamais bloquées, quels que soient le mode concentration, les plannings de blocage ou les paramètres de sévérité. Utilise cette option pour les applications essentielles auxquelles tu as toujours besoin d'accéder."
   },
   "settingsNew": {
+    "searchSettingsLabel": "Rechercher dans les réglages",
     "uiSettingTitle": "Interface",
     "accessibilitySettingTitle": "Accessibilité",
     "aISettingTitle": "Fonctionnalités IA",
@@ -3305,6 +3310,7 @@
     "unsavedFrequencyCancelButton": "Annuler"
   },
   "toDoListViewInfo": {
+    "searchTasksText": "Rechercher des tâches",
     "outcomeHardDeadlineText": "Échéance ferme — impossible à déplacer",
     "outcomePostponeAYearText": "Peut être reporté d'un an",
     "outcomePostponeYearsText": "Peut être reporté de plusieurs années",
@@ -3831,6 +3837,7 @@
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain"
   },
   "scheduleViewInfo": {
+    "habitFieldIcon": "Icône de l'habitude",
     "tasksShortcutsTitle": "Raccourcis que tu peux taper dans le nom",
     "tasksShortcutsDismiss": "Ne plus afficher",
     "tasksShortcutProject": "#projet — classe la tâche dans un projet",

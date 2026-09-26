@@ -2059,6 +2059,10 @@
     "buttonDontAskAgainText": "Meine Wahl merken"
   },
   "focusMusicInfo": {
+    "a11yRemoveTrack": "%@ entfernen",
+    "a11yStopTrack": "%@ stoppen",
+    "a11yPlayTrack": "%@ abspielen",
+    "a11yDownloadTrack": "%@ herunterladen",
     "nowPlayingLabelText": "Läuft gerade",
     "sectionTitleSpotify": "Spotify",
     "sectionTitleYouTubeMusic": "YouTube Music",
@@ -2428,6 +2432,7 @@
     "subTitleText": "Hier hinzugefügte Apps werden nie blockiert, unabhängig von Fokus-Modus, Blockierungsplänen oder Strenge-Einstellungen. Nutze dies für wichtige Apps, auf die du immer zugreifen musst."
   },
   "settingsNew": {
+    "searchSettingsLabel": "Einstellungen durchsuchen",
     "uiSettingTitle": "Oberfläche",
     "accessibilitySettingTitle": "Bedienungshilfen",
     "aISettingTitle": "KI-Funktionen",
@@ -3305,6 +3310,7 @@
     "unsavedFrequencyCancelButton": "Abbrechen"
   },
   "toDoListViewInfo": {
+    "searchTasksText": "Aufgaben durchsuchen",
     "outcomeHardDeadlineText": "Feste Frist – nicht verschiebbar",
     "outcomePostponeAYearText": "Kann ein Jahr warten",
     "outcomePostponeYearsText": "Kann Jahre warten",
@@ -3831,6 +3837,7 @@
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern"
   },
   "scheduleViewInfo": {
+    "habitFieldIcon": "Gewohnheitssymbol",
     "tasksShortcutsTitle": "Kürzel, die du im Namen tippen kannst",
     "tasksShortcutsDismiss": "Nicht mehr anzeigen",
     "tasksShortcutProject": "#projekt — ordne die Aufgabe einem Projekt zu",
