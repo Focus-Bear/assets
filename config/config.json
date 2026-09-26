@@ -655,6 +655,8 @@
         "menuItemNotesTitle": "Notes"
     },
     "preferencesInfo": {
+        "breakRatioFieldLabel": "Break minutes",
+        "workRatioFieldLabel": "Focus minutes",
         "checkBoxFocusMusicText": "Automatically play focus music when a session starts",
         "switchButtonFocusGlowBorderText": "Show glow border during focus sessions",
         "descriptionFocusGlowBorderText": "Display a soft glowing border around your screen while a focus session is running.",

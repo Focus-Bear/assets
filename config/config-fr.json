@@ -636,6 +636,8 @@
     "menuItemNotesTitle": "Notes"
   },
   "preferencesInfo": {
+    "breakRatioFieldLabel": "Minutes de pause",
+    "workRatioFieldLabel": "Minutes de concentration",
     "checkBoxFocusMusicText": "Jouer automatiquement la musique de concentration au début d'une session",
     "switchButtonFocusGlowBorderText": "Afficher une bordure lumineuse pendant les sessions de concentration",
     "descriptionFocusGlowBorderText": "Affiche une douce bordure lumineuse autour de ton écran pendant qu'une session de concentration est en cours.",
