@@ -2063,6 +2063,10 @@
         "buttonDontAskAgainText": "Remember my choice"
     },
     "focusMusicInfo": {
+        "a11yRemoveTrack": "Remove %@",
+        "a11yStopTrack": "Stop %@",
+        "a11yPlayTrack": "Play %@",
+        "a11yDownloadTrack": "Download %@",
         "nowPlayingLabelText": "Now Playing",
         "sectionTitleSpotify": "Spotify",
         "sectionTitleYouTubeMusic": "YouTube Music",
@@ -2430,6 +2434,7 @@
         "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
     "settingsNew": {
+        "searchSettingsLabel": "Search settings",
         "uiSettingTitle": "UI",
         "accessibilitySettingTitle": "Accessibility",
         "aISettingTitle": "AI Features",
@@ -3294,6 +3299,7 @@
         "unsavedFrequencyCancelButton": "Cancel"
     },
     "toDoListViewInfo":{
+        "searchTasksText": "Search tasks",
         "outcomeHardDeadlineText": "Hard deadline — can't move",
         "outcomePostponeAYearText": "Can postpone for a year",
         "outcomePostponeYearsText": "Can postpone for years",
@@ -3869,6 +3875,7 @@
       "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
     },
     "scheduleViewInfo":{
+        "habitFieldIcon": "Habit icon",
         "tasksShortcutsTitle": "Shortcuts you can type in the name",
         "tasksShortcutsDismiss": "Don't show this again",
         "tasksShortcutProject": "#project — file the task under a project",
