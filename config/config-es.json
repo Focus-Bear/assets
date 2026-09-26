@@ -4899,6 +4899,15 @@
         "labelSecond": "ESTABLECE UN HORARIO",
         "labelThird": "CONCEDE PERMISOS"
     },
+    "onboardingAccessibilityInfo": {
+      "goBack": "Volver",
+      "progressLabel": "Progreso de la configuración inicial",
+      "progressValue": "Paso {step} de {total}, {stepName}",
+      "moreInformation": "Más información",
+      "browserAction": "{action} para {browser}",
+      "addAppToBlock": "Añadir una app para bloquear",
+      "removeSelectedApp": "Quitar la app seleccionada"
+    },
     "askSetDistractionsVcInfo": {
         "title": "¿No sabes qué distracciones bloquear?",
         "subTitle": "Podemos sugerirte distracciones según tu trabajo, para que mantengas la concentración.",

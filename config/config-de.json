@@ -4778,6 +4778,15 @@
     "labelSecond": "ZEITPLAN FESTLEGEN",
     "labelThird": "BERECHTIGUNGEN ERTEILEN"
   },
+  "onboardingAccessibilityInfo": {
+    "goBack": "Zurück",
+    "progressLabel": "Einrichtungsfortschritt",
+    "progressValue": "Schritt {step} von {total}, {stepName}",
+    "moreInformation": "Weitere Informationen",
+    "browserAction": "{action} für {browser}",
+    "addAppToBlock": "App zum Blockieren hinzufügen",
+    "removeSelectedApp": "Ausgewählte App entfernen"
+  },
   "askSetDistractionsVcInfo": {
     "title": "Nicht sicher, welche Ablenkungen du blockieren sollst?",
     "subTitle": "Wir können dir passend zu deinem Job Ablenkungen vorschlagen – damit du im Flow bleibst.",
