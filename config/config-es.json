@@ -655,6 +655,8 @@
         "menuItemNotesTitle": "Notas"
     },
     "preferencesInfo": {
+        "breakRatioFieldLabel": "Minutos de descanso",
+        "workRatioFieldLabel": "Minutos de enfoque",
         "checkBoxFocusMusicText": "Reproducir música de enfoque automáticamente al iniciar una sesión",
         "switchButtonFocusGlowBorderText": "Mostrar borde brillante durante las sesiones de enfoque",
         "descriptionFocusGlowBorderText": "Muestra un suave borde brillante alrededor de la pantalla mientras se ejecuta una sesión de enfoque.",

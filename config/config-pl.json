@@ -636,6 +636,8 @@
     "menuItemNotesTitle": "Notatki"
   },
   "preferencesInfo": {
+    "breakRatioFieldLabel": "Minuty przerwy",
+    "workRatioFieldLabel": "Minuty skupienia",
     "checkBoxFocusMusicText": "Automatycznie odtwarzaj muzykę do skupienia po rozpoczęciu sesji",
     "switchButtonFocusGlowBorderText": "Pokazuj świecącą obwódkę podczas sesji skupienia",
     "descriptionFocusGlowBorderText": "Wyświetla delikatnie świecącą obwódkę wokół ekranu podczas trwania sesji skupienia.",

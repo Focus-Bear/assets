@@ -636,6 +636,8 @@
     "menuItemNotesTitle": "Notizen"
   },
   "preferencesInfo": {
+    "breakRatioFieldLabel": "Pausenminuten",
+    "workRatioFieldLabel": "Fokusminuten",
     "checkBoxFocusMusicText": "Fokusmusik automatisch abspielen, wenn eine Sitzung beginnt",
     "switchButtonFocusGlowBorderText": "Leuchtrand während Fokus-Sitzungen anzeigen",
     "descriptionFocusGlowBorderText": "Zeigt einen sanft leuchtenden Rand um deinen Bildschirm an, während eine Fokus-Sitzung läuft.",
