@@ -4437,6 +4437,8 @@
         "restoreHiddenToolsEmpty": "Nada oculto: pasa el cursor sobre una herramienta y haz clic en ✕ para ocultarla.",
         "restoreButton": "Restaurar",
         "hideToolTooltip": "Ocultar esta herramienta",
+        "collapseMenuTooltip": "Contraer menú",
+        "expandMenuTooltip": "Expandir menú",
         "titleMain": "PRINCIPAL",
         "titleTools": "HERRAMIENTAS",
         "titlePreferences": "PREFERENCIAS",
