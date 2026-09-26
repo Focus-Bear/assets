@@ -4778,6 +4778,15 @@
     "labelSecond": "USTAW HARMONOGRAM",
     "labelThird": "NADAJ UPRAWNIENIA"
   },
+  "onboardingAccessibilityInfo": {
+    "goBack": "Wstecz",
+    "progressLabel": "Postęp konfiguracji",
+    "progressValue": "Krok {step} z {total}, {stepName}",
+    "moreInformation": "Więcej informacji",
+    "browserAction": "{action} – {browser}",
+    "addAppToBlock": "Dodaj aplikację do zablokowania",
+    "removeSelectedApp": "Usuń wybraną aplikację"
+  },
   "askSetDistractionsVcInfo": {
     "title": "Nie wiesz, które rozpraszacze zablokować?",
     "subTitle": "Możemy zasugerować rozpraszacze na podstawie twojej pracy – żebyś mógł/mogła pozostać w strefie skupienia.",

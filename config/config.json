@@ -4920,6 +4920,15 @@
         "labelSecond": "SET SCHEDULE",
         "labelThird": "GRANT PERMISSIONS"
     },
+    "onboardingAccessibilityInfo": {
+      "goBack": "Go back",
+      "progressLabel": "Onboarding progress",
+      "progressValue": "Step {step} of {total}, {stepName}",
+      "moreInformation": "More information",
+      "browserAction": "{action} for {browser}",
+      "addAppToBlock": "Add an app to block",
+      "removeSelectedApp": "Remove selected app"
+    },
     "askSetDistractionsVcInfo": {
         "title": "Not sure which distractions to block?",
         "subTitle": "We can suggest distractions based on your job - so you can stay in the zone.",

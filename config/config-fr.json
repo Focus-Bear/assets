@@ -4778,6 +4778,15 @@
     "labelSecond": "DÉFINIR LE PLANNING",
     "labelThird": "ACCORDER LES AUTORISATIONS"
   },
+  "onboardingAccessibilityInfo": {
+    "goBack": "Retour",
+    "progressLabel": "Progression de la configuration",
+    "progressValue": "Étape {step} sur {total}, {stepName}",
+    "moreInformation": "Plus d’informations",
+    "browserAction": "{action} pour {browser}",
+    "addAppToBlock": "Ajouter une app à bloquer",
+    "removeSelectedApp": "Retirer l’app sélectionnée"
+  },
   "askSetDistractionsVcInfo": {
     "title": "Tu ne sais pas quelles distractions bloquer ?",
     "subTitle": "Nous pouvons te suggérer des distractions en fonction de ton métier – pour que tu restes dans le flow.",
