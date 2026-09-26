@@ -4231,6 +4231,8 @@
     "taskListEmbed": "Liste de tâches"
   },
   "menuView": {
+    "a11yOpenFocusBearMenu": "Ouvrir le menu Focus Bear",
+    "a11yHideFloatingBar": "Masquer cette barre",
     "blockingAttentionTitle": "Le blocage a besoin de ton attention",
     "blockingPermissionsLimited": "Certaines fonctions de blocage peuvent être indisponibles car une autorisation macOS manque. Le reste du blocage peut continuer.",
     "blockingAccessibilityLimited": "macOS signale qu’il manque l’accès à l’Accessibilité. Le blocage des fenêtres en plein écran peut être affecté ; le blocage du navigateur peut toujours fonctionner.",

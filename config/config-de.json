@@ -4231,6 +4231,8 @@
     "taskListEmbed": "Aufgabenliste"
   },
   "menuView": {
+    "a11yOpenFocusBearMenu": "Focus-Bear-Menü öffnen",
+    "a11yHideFloatingBar": "Diese Leiste ausblenden",
     "blockingAttentionTitle": "Blockieren braucht Aufmerksamkeit",
     "blockingPermissionsLimited": "Einige Blockierfunktionen sind möglicherweise nicht verfügbar, weil eine macOS-Berechtigung fehlt. Anderes Blockieren läuft weiter.",
     "blockingAccessibilityLimited": "macOS meldet, dass die Berechtigung für Bedienungshilfen fehlt. Das Blockieren von Vollbildfenstern kann beeinträchtigt sein; das Blockieren im Browser funktioniert weiterhin.",

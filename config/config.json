@@ -4325,6 +4325,8 @@
       "taskListEmbed": "Task list"
     },
     "menuView":{
+        "a11yOpenFocusBearMenu": "Open Focus Bear menu",
+        "a11yHideFloatingBar": "Hide this bar",
         "blockingAttentionTitle": "Blocking needs attention",
         "blockingPermissionsLimited": "Some blocking features may be unavailable because a macOS permission is missing. Other blocking can continue.",
         "blockingAccessibilityLimited": "macOS reports that Accessibility access is missing. Full-screen window blocking may be affected; browser blocking can still work.",
