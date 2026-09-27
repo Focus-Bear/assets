@@ -5145,5 +5145,12 @@
     "firefoxUpgradeRequired": "Aktualisiere die Focus Bear Firefox-Erweiterung, um das schulische Website-Blockieren zu nutzen, und verbinde Firefox dann neu.",
     "appealAllowed": "Diese Website hat die Sicherheitsprüfung bestanden. Der Zugriff wird erneut verifiziert, bevor sie wieder geöffnet wird.",
     "appealReviewRequired": "Diese Anfrage muss von deiner Schule oder deinen Eltern geprüft werden. Die Website bleibt blockiert."
+  },
+  "accessibilityNamesInfo": {
+    "focusSessionPage": "Fokus-Sitzung",
+    "focusGlowBorder": "Rahmen der Fokus-Sitzung",
+    "menuBarMenu": "Focus-Bear-Menü",
+    "guestAccountCard": "Gastkonto",
+    "taskActions": "Aktionen für <TITLE>"
   }
 }

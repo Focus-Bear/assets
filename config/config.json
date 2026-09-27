@@ -5289,5 +5289,12 @@
         "firefoxUpgradeRequired": "Update the Focus Bear Firefox extension to use school website blocking, then reconnect Firefox.",
         "appealAllowed": "This website passed the safety review. Access is being verified again before reopening it.",
         "appealReviewRequired": "This request needs review by your school or parent. The website remains blocked."
+    },
+    "accessibilityNamesInfo": {
+        "focusSessionPage": "Focus session",
+        "focusGlowBorder": "Focus session border",
+        "menuBarMenu": "Focus Bear menu",
+        "guestAccountCard": "Guest account",
+        "taskActions": "Actions for <TITLE>"
     }
 }
