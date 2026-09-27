@@ -5145,5 +5145,12 @@
     "firefoxUpgradeRequired": "Zaktualizuj rozszerzenie Focus Bear dla Firefoksa, aby korzystać ze szkolnego blokowania stron, a potem połącz Firefoksa ponownie.",
     "appealAllowed": "Ta strona przeszła przegląd bezpieczeństwa. Dostęp jest ponownie weryfikowany przed jej otwarciem.",
     "appealReviewRequired": "Tę prośbę musi sprawdzić twoja szkoła lub rodzic. Strona pozostaje zablokowana."
+  },
+  "accessibilityNamesInfo": {
+    "focusSessionPage": "Sesja skupienia",
+    "focusGlowBorder": "Ramka sesji skupienia",
+    "menuBarMenu": "Menu Focus Bear",
+    "guestAccountCard": "Konto gościa",
+    "taskActions": "Akcje dla <TITLE>"
   }
 }

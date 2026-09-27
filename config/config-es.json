@@ -5268,5 +5268,12 @@
         "firefoxUpgradeRequired": "Actualiza la extensión de Focus Bear para Firefox para utilizar el bloqueo de sitios web del centro educativo y vuelve a conectar Firefox.",
         "appealAllowed": "Este sitio web ha superado la revisión de seguridad. Se está verificando de nuevo el acceso antes de volver a abrirlo.",
         "appealReviewRequired": "Esta solicitud necesita la revisión de tu centro educativo o de tu madre, padre o tutor. El sitio web sigue bloqueado."
+    },
+    "accessibilityNamesInfo": {
+        "focusSessionPage": "Sesión de enfoque",
+        "focusGlowBorder": "Borde de la sesión de enfoque",
+        "menuBarMenu": "Menú Focus Bear",
+        "guestAccountCard": "Cuenta de invitado",
+        "taskActions": "Acciones para <TITLE>"
     }
 }
