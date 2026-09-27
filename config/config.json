@@ -4009,6 +4009,7 @@
         "dayFixLink": "Fix",
         "dayFixTitle": "Make today fit",
         "dayFixGap": "Today is <DURATION> over what you can fit.",
+        "dayFixFits": "Today fits now.",
         "dayFixMeetingsOption": "Cancel or shorten meetings",
         "dayFixMeetingsDetail": "<DURATION> of meetings still to come",
         "dayFixMeetingShortenHint": "Applies on %@ only, and only on this Mac. The meeting on your calendar is untouched, so nobody else sees a change.",

@@ -4007,6 +4007,7 @@
         "dayFixLink": "Ajustar",
         "dayFixTitle": "Haz que hoy encaje",
         "dayFixGap": "Hoy te pasas por <DURATION> de lo que cabe.",
+        "dayFixFits": "Hoy ya cabe todo.",
         "dayFixMeetingsOption": "Cancelar o acortar reuniones",
         "dayFixMeetingsDetail": "<DURATION> de reuniones aún por venir",
         "dayFixMeetingShortenHint": "Se aplica solo el %@ y solo en este Mac. La reunión de tu calendario no cambia, así que nadie más nota nada.",
