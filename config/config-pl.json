@@ -5199,6 +5199,11 @@
     "crashLoop": "Focus Bear ciągle nieoczekiwanie się zamyka. Spróbuje ponownie za kilka sekund.",
     "stillStarting": "Uruchamianie Focus Bear trwa dłużej niż zwykle.",
     "relaunchButton": "Uruchom ponownie Focus Bear",
-    "closeButton": "Zamknij"
+    "closeButton": "Zamknij",
+    "phaseStartingApp": "Uruchamianie Focus Bear…",
+    "phaseLoadingSettings": "Wczytywanie ustawień…",
+    "phaseRestoringSession": "Przywracanie rutyny i blokowania…",
+    "phaseCheckingScreen": "Sprawdzanie, co jest na ekranie…",
+    "phaseDone": "Gotowe"
   }
 }
