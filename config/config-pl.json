@@ -5188,5 +5188,12 @@
     "menuBarMenu": "Menu Focus Bear",
     "guestAccountCard": "Konto gościa",
     "taskActions": "Akcje dla <TITLE>"
+  },
+  "helperRestartSplashInfo": {
+    "title": "Focus Bear uruchamia się ponownie…",
+    "message": "Focus Bear nieoczekiwanie się zamknął, więc uruchamia się ponownie.",
+    "stillStarting": "Uruchamianie Focus Bear trwa dłużej niż zwykle.",
+    "relaunchButton": "Uruchom ponownie Focus Bear",
+    "closeButton": "Zamknij"
   }
 }
