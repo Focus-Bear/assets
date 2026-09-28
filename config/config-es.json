@@ -3498,6 +3498,8 @@
         "taskCompletedPhrases": "Guau|Genial|Increíble|Impresionante|Fantástico",
         "subtasksGeneratedText": "Subtareas generadas correctamente",
         "couldNotGenerateSubtasksText": "No se pudieron generar las subtareas",
+        "subtaskTitleRejectedText": "La IA no pudo usar este título. Acórtalo o reformúlalo y vuelve a intentarlo.",
+        "noSubtasksGeneratedText": "La IA no sugirió ninguna subtarea. Añade más detalle al título y vuelve a intentarlo.",
         "commentAddedText": "Comentario añadido correctamente",
         "couldNotAddCommentText": "No se pudo añadir el comentario",
         "commentDeletedText": "Comentario eliminado correctamente",

@@ -3509,6 +3509,8 @@
     "taskCompletedPhrases": "Wow|Cool|Klasse|Unglaublich|Fantastisch",
     "subtasksGeneratedText": "Teilaufgaben erfolgreich erstellt",
     "couldNotGenerateSubtasksText": "Teilaufgaben konnten nicht erstellt werden",
+    "subtaskTitleRejectedText": "Die KI konnte diesen Titel nicht verwenden. Kürze oder formuliere ihn um und versuche es erneut.",
+    "noSubtasksGeneratedText": "Die KI hat keine Teilaufgaben vorgeschlagen. Beschreibe den Titel genauer und versuche es erneut.",
     "commentAddedText": "Kommentar erfolgreich hinzugefügt",
     "couldNotAddCommentText": "Kommentar konnte nicht hinzugefügt werden",
     "commentDeletedText": "Kommentar erfolgreich gelöscht",

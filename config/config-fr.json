@@ -3509,6 +3509,8 @@
     "taskCompletedPhrases": "Ouah|Génial|Excellent|Incroyable|Fantastique",
     "subtasksGeneratedText": "Sous-tâches générées avec succès",
     "couldNotGenerateSubtasksText": "Impossible de générer les sous-tâches",
+    "subtaskTitleRejectedText": "L'IA n'a pas pu utiliser ce titre. Raccourcissez-le ou reformulez-le, puis réessayez.",
+    "noSubtasksGeneratedText": "L'IA n'a suggéré aucune sous-tâche. Précisez davantage le titre, puis réessayez.",
     "commentAddedText": "Commentaire ajouté avec succès",
     "couldNotAddCommentText": "Impossible d’ajouter le commentaire",
     "commentDeletedText": "Commentaire supprimé avec succès",
