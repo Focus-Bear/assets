@@ -4426,6 +4426,7 @@
         "voiceDone": "Listo",
         "voiceBack": "Atrás",
         "voiceCancel": "Cancelar",
+        "voiceErrorTooLong": "La grabación es demasiado larga. Usa comandos de voz breves e inténtalo de nuevo.",
         "voicePermTitle": "Se necesita acceso al micrófono",
         "voicePermBody": "Focus Bear necesita acceso al micrófono para escuchar tus comandos de voz. Actívalo en Configuración del Sistema → Privacidad y seguridad → Micrófono.",
         "voiceOpenSettings": "Abrir Configuración del Sistema",

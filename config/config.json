@@ -4428,6 +4428,7 @@
         "voiceDone": "Done",
         "voiceBack": "Back",
         "voiceCancel": "Cancel",
+        "voiceErrorTooLong": "That recording is too long. Keep voice commands short and try again.",
         "voicePermTitle": "Microphone access needed",
         "voicePermBody": "Focus Bear needs microphone access to hear your voice commands. Turn it on in System Settings → Privacy & Security → Microphone.",
         "voiceOpenSettings": "Open System Settings",
