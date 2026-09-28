@@ -4425,7 +4425,11 @@
     "disableReasonCustomRoutine": "Désactivé car ta routine personnalisée est en cours. Va dans l'onglet Routine personnalisée pour continuer.",
     "superStrictNeedPasswordText": "Tu es en mode Super strict et aucun mot de passe n'est défini. Tu devras définir un mot de passe pour mettre en pause ce planning personnalisé.",
     "menuNotes": "Notes",
-    "menuFocusingTimeLeft": "Concentration (<MINUTES> min restantes)"
+    "menuFocusingTimeLeft": "Concentration (<MINUTES> min restantes)",
+    "menuGo": "Aller",
+    "menuFocusSession": "Session de concentration",
+    "sectionShortcutTip": "Astuce : <SHORTCUT> ouvre <SECTION>",
+    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
   },
   "browsersTabAuditVcInfo": {
     "title": "Audit des onglets",
