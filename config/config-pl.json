@@ -4307,6 +4307,8 @@
     "menuResumeSession": "Wznów sesję",
     "menuSessionRunning": "Sesja trwa",
     "menuRemaining": "pozostało",
+    "menuMeetingEndedHabitsRestarting": "Spotkanie zakończone · nawyki wznowią się za <SECONDS>s",
+    "menuMeetingEndedSessionEnding": "Spotkanie zakończone · sesja zakończy się za <SECONDS>s",
     "menuFocusedToday": "Skupienie dzisiaj",
     "menuSkip": "Pomiń",
     "menuPostpone": "Odłóż",

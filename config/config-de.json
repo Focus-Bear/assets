@@ -4307,6 +4307,8 @@
     "menuResumeSession": "Sitzung fortsetzen",
     "menuSessionRunning": "Sitzung läuft",
     "menuRemaining": "verbleibend",
+    "menuMeetingEndedHabitsRestarting": "Meeting beendet · Gewohnheiten starten in <SECONDS>s neu",
+    "menuMeetingEndedSessionEnding": "Meeting beendet · Sitzung endet in <SECONDS>s",
     "menuFocusedToday": "Heute fokussiert",
     "menuSkip": "Überspringen",
     "menuPostpone": "Verschieben",
