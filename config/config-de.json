@@ -4179,6 +4179,7 @@
     "ttUpgradeButton": "Auf Pro upgraden"
   },
   "localReportStatus": {
+    "showAllReports": "Alle <COUNT> anzeigen",
     "showFixedReports": "Behobene Meldungen anzeigen",
     "noOpenReports": "Keine unbestätigten Meldungen vorhanden.",
     "title": "Deine lokalen Meldungen",

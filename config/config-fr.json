@@ -4179,6 +4179,7 @@
     "ttUpgradeButton": "Passer à Pro"
   },
   "localReportStatus": {
+    "showAllReports": "Tout afficher (<COUNT>)",
     "showFixedReports": "Afficher les rapports corrigés",
     "noOpenReports": "Aucun rapport non confirmé à afficher.",
     "title": "Tes rapports locaux",
