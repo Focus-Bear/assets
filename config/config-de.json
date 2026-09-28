@@ -5192,6 +5192,7 @@
   "helperRestartSplashInfo": {
     "title": "Focus Bear wird neu gestartet…",
     "message": "Focus Bear wurde unerwartet beendet und startet deshalb neu.",
+    "crashLoop": "Focus Bear wird immer wieder unerwartet beendet. In ein paar Sekunden wird es erneut versucht.",
     "stillStarting": "Der Start von Focus Bear dauert länger als üblich.",
     "relaunchButton": "Focus Bear neu starten",
     "closeButton": "Schließen"

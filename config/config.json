@@ -5341,6 +5341,7 @@
     "helperRestartSplashInfo": {
         "title": "Focus Bear is restarting…",
         "message": "Focus Bear closed unexpectedly, so it's starting again.",
+        "crashLoop": "Focus Bear keeps closing unexpectedly. It will try again in a few seconds.",
         "stillStarting": "Focus Bear is taking longer than usual to start.",
         "relaunchButton": "Relaunch Focus Bear",
         "closeButton": "Close"
