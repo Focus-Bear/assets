@@ -3508,6 +3508,8 @@
     "taskCompletedPhrases": "Wow|Super|Świetnie|Niesamowite|Fantastycznie",
     "subtasksGeneratedText": "Podzadania zostały wygenerowane",
     "couldNotGenerateSubtasksText": "Nie udało się wygenerować podzadań",
+    "subtaskTitleRejectedText": "SI nie mogła użyć tego tytułu. Skróć go lub przeformułuj i spróbuj ponownie.",
+    "noSubtasksGeneratedText": "SI nie zaproponowała żadnych podzadań. Doprecyzuj tytuł i spróbuj ponownie.",
     "commentAddedText": "Komentarz został dodany",
     "couldNotAddCommentText": "Nie udało się dodać komentarza",
     "commentDeletedText": "Komentarz został usunięty",

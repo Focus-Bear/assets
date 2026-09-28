@@ -3499,6 +3499,8 @@
         "taskCompletedPhrases": "Woah|Cool|Awesome|Incredible|Fantastic",
         "subtasksGeneratedText": "Subtasks generated successfully",
         "couldNotGenerateSubtasksText": "Could not generate subtasks",
+        "subtaskTitleRejectedText": "AI couldn't use this title. Shorten or reword it, then try again.",
+        "noSubtasksGeneratedText": "AI didn't suggest any subtasks. Add more detail to the title, then try again.",
         "commentAddedText": "Comment added successfully",
         "couldNotAddCommentText": "Could not add comment",
         "commentDeletedText": "Comment deleted successfully",
