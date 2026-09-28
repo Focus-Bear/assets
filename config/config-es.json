@@ -4786,7 +4786,9 @@
         "pactHoldToDecline": "Mantén pulsado 15 segundos para rechazar",
         "pactKeepHolding": "Sigue pulsando, <N>s",
         "pactMindfulNote": "Ten cuidado con cómo usas tu portátil. Las investigaciones muestran que los estudiantes que juegan, ven vídeos y demás también distraen a sus compañeros de clase.",
-        "pactBackToJoinLink": "Mejor me uno"
+        "pactBackToJoinLink": "Mejor me uno",
+        "personalSessionOnlyTitle": "Esto inicia una sesión de enfoque personal",
+        "classSessionFromDashboardText": "Para iniciar una sesión de clase para tus estudiantes, usa el panel de Focus Bear en tu navegador."
     },
     "focusStateVcInfo":{
         "errorCouldNotLoadTask": "No se pudo cargar esta tarea para editarla. Vuelve a conectarte e inténtalo de nuevo.",
