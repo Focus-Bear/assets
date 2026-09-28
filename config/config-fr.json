@@ -5192,6 +5192,7 @@
   "helperRestartSplashInfo": {
     "title": "Focus Bear redémarre…",
     "message": "Focus Bear s'est fermé de façon inattendue, il redémarre donc.",
+    "crashLoop": "Focus Bear continue de se fermer de façon inattendue. Nouvel essai dans quelques secondes.",
     "stillStarting": "Focus Bear met plus de temps que d'habitude à démarrer.",
     "relaunchButton": "Relancer Focus Bear",
     "closeButton": "Fermer"
