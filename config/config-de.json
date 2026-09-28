@@ -4425,7 +4425,11 @@
     "disableReasonCustomRoutine": "Deaktiviert, weil deine individuelle Routine läuft. Gehe zum Tab „Individuelle Routine“, um fortzufahren.",
     "superStrictNeedPasswordText": "Du befindest dich im Super-Strict-Modus, und es ist kein Passwort festgelegt. Du musst ein Passwort einrichten, um diesen individuellen Zeitplan zu pausieren.",
     "menuNotes": "Notizen",
-    "menuFocusingTimeLeft": "Fokussiert (noch <MINUTES> Min.)"
+    "menuFocusingTimeLeft": "Fokussiert (noch <MINUTES> Min.)",
+    "menuGo": "Gehe zu",
+    "menuFocusSession": "Fokussitzung",
+    "sectionShortcutTip": "Tipp: <SHORTCUT> öffnet <SECTION>",
+    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
   },
   "browsersTabAuditVcInfo": {
     "title": "Tab-Audit",

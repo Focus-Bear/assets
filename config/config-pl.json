@@ -4425,7 +4425,11 @@
     "disableReasonCustomRoutine": "Wyłączone, ponieważ trwa twoja własna rutyna. Przejdź do zakładki Własna rutyna, aby kontynuować.",
     "superStrictNeedPasswordText": "Działasz w trybie Super rygorystycznym i nie ustawiono hasła. Aby wstrzymać ten własny harmonogram, musisz ustawić hasło.",
     "menuNotes": "Notatki",
-    "menuFocusingTimeLeft": "Skupienie (zostało <MINUTES> min)"
+    "menuFocusingTimeLeft": "Skupienie (zostało <MINUTES> min)",
+    "menuGo": "Idź",
+    "menuFocusSession": "Sesja skupienia",
+    "sectionShortcutTip": "Wskazówka: <SHORTCUT> otwiera <SECTION>",
+    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
   },
   "browsersTabAuditVcInfo": {
     "title": "Audyt kart",

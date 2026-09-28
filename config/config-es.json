@@ -4532,7 +4532,11 @@
         "disableReasonCustomRoutine": "Desactivado porque tu rutina personalizada está en curso. Ve a la pestaña Rutina personalizada para continuar.",
         "superStrictNeedPasswordText": "Estás en modo Super Estricto y no tienes contraseña configurada. Necesitarás establecer una contraseña para pausar este horario personalizado.",
         "menuNotes": "Notas",
-        "menuFocusingTimeLeft": "Enfocado (quedan <MINUTES> min)"
+        "menuFocusingTimeLeft": "Enfocado (quedan <MINUTES> min)",
+        "menuGo": "Ir",
+        "menuFocusSession": "Sesión de enfoque",
+        "sectionShortcutTip": "Consejo: <SHORTCUT> abre <SECTION>",
+        "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
     },
     "browsersTabAuditVcInfo":{
         "title": "Auditoría de pestañas",
