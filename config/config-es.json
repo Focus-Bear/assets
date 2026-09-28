@@ -4400,6 +4400,8 @@
         "menuResumeSession": "Reanudar sesión",
         "menuSessionRunning": "Sesión en curso",
         "menuRemaining": "restante",
+        "menuMeetingEndedHabitsRestarting": "Reunión terminada · los hábitos se reanudan en <SECONDS>s",
+        "menuMeetingEndedSessionEnding": "Reunión terminada · la sesión termina en <SECONDS>s",
         "menuFocusedToday": "Enfocado hoy",
         "menuSkip": "Omitir",
         "menuPostpone": "Posponer",

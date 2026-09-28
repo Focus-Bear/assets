@@ -4402,6 +4402,8 @@
         "menuResumeSession": "Resume session",
         "menuSessionRunning": "Session running",
         "menuRemaining": "remaining",
+        "menuMeetingEndedHabitsRestarting": "Meeting ended · habits restarting in <SECONDS>s",
+        "menuMeetingEndedSessionEnding": "Meeting ended · session ending in <SECONDS>s",
         "menuFocusedToday": "Focused today",
         "menuSkip": "Skip",
         "menuPostpone": "Postpone",

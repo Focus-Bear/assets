@@ -4307,6 +4307,8 @@
     "menuResumeSession": "Reprendre la session",
     "menuSessionRunning": "Session en cours",
     "menuRemaining": "restantes",
+    "menuMeetingEndedHabitsRestarting": "Réunion terminée · reprise des habitudes dans <SECONDS>s",
+    "menuMeetingEndedSessionEnding": "Réunion terminée · fin de la session dans <SECONDS>s",
     "menuFocusedToday": "Concentration aujourd'hui",
     "menuSkip": "Passer",
     "menuPostpone": "Reporter",
