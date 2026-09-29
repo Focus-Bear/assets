@@ -5203,6 +5203,7 @@
     "phaseStartingApp": "Uruchamianie Focus Bear…",
     "phaseLoadingSettings": "Wczytywanie ustawień…",
     "phaseRestoringSession": "Przywracanie rutyny i blokowania…",
+    "phaseStartingBlockPage": "Uruchamianie strony blokady…",
     "phaseCheckingScreen": "Sprawdzanie, co jest na ekranie…",
     "phaseDone": "Gotowe"
   }
