@@ -16,6 +16,7 @@
         "mutationRefused": "No se pudo cambiar tu zona horaria. Comprueba que los ajustes de esta cuenta sigan disponibles e inténtalo de nuevo.",
         "recoveryTitle": "Se necesita la hora verificada",
         "recoveryMessage": "Focus Bear necesita la hora verificada y una zona horaria para la aplicación antes de continuar con los horarios protegidos con contraseña. Conéctate a internet para verificar la hora o configura la zona horaria de la aplicación con tu contraseña.",
+        "recoveryAccountMessage": "Focus Bear mantiene activa la protección con contraseña mientras tu cuenta se vuelve a conectar. Restablece tu conexión a internet y comprueba la fecha y la hora del Mac. Después, inténtalo de nuevo. También puedes salir con tu contraseña.",
         "configureTimeZone": "Configurar zona horaria de la aplicación",
         "retryTrustedTime": "Reintentar la verificación de la hora",
         "quitWithPassword": "Salir con contraseña"

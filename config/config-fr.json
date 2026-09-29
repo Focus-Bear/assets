@@ -16,6 +16,7 @@
         "mutationRefused": "Votre fuseau horaire n’a pas pu être modifié. Vérifiez que les paramètres de ce compte sont toujours disponibles, puis réessayez.",
         "recoveryTitle": "Une heure vérifiée est nécessaire",
         "recoveryMessage": "Focus Bear a besoin d’une heure vérifiée et d’un fuseau horaire pour l’application avant de poursuivre les horaires protégés par mot de passe. Connectez-vous à Internet pour vérifier l’heure ou définissez le fuseau horaire de l’application avec votre mot de passe.",
+        "recoveryAccountMessage": "Focus Bear maintient la protection par mot de passe pendant la reconnexion de votre compte. Rétablissez votre connexion réseau et vérifiez la date et l’heure du Mac, puis réessayez. Vous pouvez aussi quitter l’application avec votre mot de passe.",
         "configureTimeZone": "Définir le fuseau horaire de l’application",
         "retryTrustedTime": "Réessayer la vérification de l’heure",
         "quitWithPassword": "Quitter avec le mot de passe"
