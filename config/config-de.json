@@ -1,4 +1,25 @@
 {
+    "trustedTimeSettingsInfo": {
+        "title": "Uhrzeit und Zeitzone",
+        "summary": "Wähle die Zeitzone, die Focus Bear auf diesem Mac verwendet. Änderungen bleiben auf diesem Gerät.",
+        "back": "Zurück",
+        "currentTime": "Aktuelle App-Uhrzeit",
+        "timeZone": "App-Zeitzone",
+        "timeZonePlaceholder": "Wähle eine Zeitzone, zum Beispiel Australia/Melbourne",
+        "apply": "Anwenden",
+        "saved": "App-Zeitzone gespeichert.",
+        "protectedInfo": "Der Passwortschutz ist aktiv. Focus Bear verwendet eine verifizierte Uhrzeit. Zum Ändern der Zeitzone ist dein Passwort erforderlich.",
+        "unprotectedInfo": "Eine verifizierte Uhrzeit ist erforderlich, wenn ein Passwort festgelegt und mindestens eine Passwortregel aktiviert ist.",
+        "unavailable": "Warten auf eine verifizierte Uhrzeit und eine App-Zeitzone.",
+        "invalidTimeZone": "Wähle eine gültige Zeitzone.",
+        "authorizationUnavailable": "Die Passwortabfrage konnte nicht geöffnet werden. Deine Zeitzone wurde nicht geändert.",
+        "mutationRefused": "Deine Zeitzone konnte nicht geändert werden. Prüfe, ob die Einstellungen dieses Kontos noch verfügbar sind, und versuche es erneut.",
+        "recoveryTitle": "Eine verifizierte Uhrzeit ist erforderlich",
+        "recoveryMessage": "Focus Bear benötigt eine verifizierte Uhrzeit und eine App-Zeitzone, bevor passwortgeschützte Zeitpläne fortgesetzt werden können. Stelle eine Internetverbindung her, um die Uhrzeit zu verifizieren, oder lege die App-Zeitzone mit deinem Passwort fest.",
+        "configureTimeZone": "App-Zeitzone festlegen",
+        "retryTrustedTime": "Uhrzeit erneut verifizieren",
+        "quitWithPassword": "Mit Passwort beenden"
+    },
   "talkingClockSettingsInfo": {
     "title": "Sprechende Uhr",
     "back": "Zurück",

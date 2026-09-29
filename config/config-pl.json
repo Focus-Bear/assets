@@ -1,4 +1,25 @@
 {
+    "trustedTimeSettingsInfo": {
+        "title": "Czas i strefa czasowa",
+        "summary": "Wybierz strefę czasową używaną przez Focus Bear na tym Macu. Zmiany dotyczą tylko tego urządzenia.",
+        "back": "Wstecz",
+        "currentTime": "Bieżący czas aplikacji",
+        "timeZone": "Strefa czasowa aplikacji",
+        "timeZonePlaceholder": "Wybierz strefę czasową, na przykład Australia/Melbourne",
+        "apply": "Zastosuj",
+        "saved": "Zapisano strefę czasową aplikacji.",
+        "protectedInfo": "Ochrona hasłem jest aktywna. Focus Bear używa zweryfikowanego czasu, a zmiana strefy czasowej wymaga podania hasła.",
+        "unprotectedInfo": "Zweryfikowany czas jest wymagany, gdy ustawiono hasło i włączono co najmniej jedną regułę wymagającą hasła.",
+        "unavailable": "Oczekiwanie na zweryfikowany czas i strefę czasową aplikacji.",
+        "invalidTimeZone": "Wybierz prawidłową strefę czasową.",
+        "authorizationUnavailable": "Nie udało się otworzyć okna hasła. Twoja strefa czasowa nie została zmieniona.",
+        "mutationRefused": "Nie udało się zmienić strefy czasowej. Sprawdź, czy ustawienia tego konta są nadal dostępne, i spróbuj ponownie.",
+        "recoveryTitle": "Potrzebny jest zweryfikowany czas",
+        "recoveryMessage": "Focus Bear potrzebuje zweryfikowanego czasu i strefy czasowej aplikacji, aby kontynuować harmonogramy chronione hasłem. Połącz się z internetem, aby zweryfikować czas, lub ustaw strefę czasową aplikacji, podając hasło.",
+        "configureTimeZone": "Ustaw strefę czasową aplikacji",
+        "retryTrustedTime": "Ponów weryfikację czasu",
+        "quitWithPassword": "Zakończ po podaniu hasła"
+    },
   "talkingClockSettingsInfo": {
     "title": "Mówiący zegar",
     "back": "Wstecz",

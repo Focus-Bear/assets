@@ -1,4 +1,25 @@
 {
+    "trustedTimeSettingsInfo": {
+        "title": "Heure et fuseau horaire",
+        "summary": "Choisissez le fuseau horaire utilisé par Focus Bear sur ce Mac. Les modifications restent sur cet appareil.",
+        "back": "Retour",
+        "currentTime": "Heure actuelle de l’application",
+        "timeZone": "Fuseau horaire de l’application",
+        "timeZonePlaceholder": "Choisissez un fuseau horaire, par exemple Australia/Melbourne",
+        "apply": "Appliquer",
+        "saved": "Fuseau horaire de l’application enregistré.",
+        "protectedInfo": "La protection par mot de passe est active. Focus Bear utilise une heure vérifiée et votre mot de passe est requis pour modifier son fuseau horaire.",
+        "unprotectedInfo": "Une heure vérifiée est requise lorsqu’un mot de passe est défini et qu’au moins une règle de mot de passe est activée.",
+        "unavailable": "En attente d’une heure vérifiée et d’un fuseau horaire pour l’application.",
+        "invalidTimeZone": "Choisissez un fuseau horaire valide.",
+        "authorizationUnavailable": "La demande de mot de passe n’a pas pu s’ouvrir. Votre fuseau horaire n’a pas changé.",
+        "mutationRefused": "Votre fuseau horaire n’a pas pu être modifié. Vérifiez que les paramètres de ce compte sont toujours disponibles, puis réessayez.",
+        "recoveryTitle": "Une heure vérifiée est nécessaire",
+        "recoveryMessage": "Focus Bear a besoin d’une heure vérifiée et d’un fuseau horaire pour l’application avant de poursuivre les horaires protégés par mot de passe. Connectez-vous à Internet pour vérifier l’heure ou définissez le fuseau horaire de l’application avec votre mot de passe.",
+        "configureTimeZone": "Définir le fuseau horaire de l’application",
+        "retryTrustedTime": "Réessayer la vérification de l’heure",
+        "quitWithPassword": "Quitter avec le mot de passe"
+    },
   "talkingClockSettingsInfo": {
     "title": "Horloge parlante",
     "back": "Retour",
