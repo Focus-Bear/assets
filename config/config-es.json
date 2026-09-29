@@ -4617,6 +4617,8 @@
         "buttonAbortFocus": "Pausar horario personalizado"
     },
     "aiBlockBuddyInfo":{
+      "taskSavedForLater": "Tarea guardada para más tarde ({0})",
+      "blockPageTaskSavedHeadline": "Tarea guardada para más tarde",
         "couldWaitTitle": "Parece que esto puede esperar...",
         "lowerPriority": "Oye — parece que estás trabajando en algo de menor prioridad ({0}).",
         "topTasksIntro": "Un recordatorio de las tareas principales de tu Plan del día:",

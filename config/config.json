@@ -4619,6 +4619,8 @@
         "buttonAbortFocus": "Pause Custom Schedule"
     },
     "aiBlockBuddyInfo":{
+      "taskSavedForLater": "Task saved for later ({0})",
+      "blockPageTaskSavedHeadline": "Task saved for later",
         "couldWaitTitle": "This looks like it could wait...",
         "lowerPriority": "Hey — it looks like you might be working on something lower priority ({0}).",
         "topTasksIntro": "Here's a reminder of the top tasks in your day plan:",

@@ -4510,6 +4510,8 @@
     "buttonAbortFocus": "Individuellen Zeitplan pausieren"
   },
   "aiBlockBuddyInfo": {
+    "taskSavedForLater": "Aufgabe für später gespeichert ({0})",
+    "blockPageTaskSavedHeadline": "Aufgabe für später gespeichert",
     "couldWaitTitle": "Das sieht aus, als könnte es warten...",
     "lowerPriority": "Hey — sieht aus, als würdest du gerade an etwas mit niedrigerer Priorität arbeiten ({0}).",
     "topTasksIntro": "Zur Erinnerung, die wichtigsten Aufgaben in deinem Tagesplan:",

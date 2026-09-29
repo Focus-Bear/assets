@@ -4510,6 +4510,8 @@
     "buttonAbortFocus": "Wstrzymaj niestandardowy harmonogram"
   },
   "aiBlockBuddyInfo": {
+    "taskSavedForLater": "Zadanie zapisane na później ({0})",
+    "blockPageTaskSavedHeadline": "Zadanie zapisane na później",
     "couldWaitTitle": "Wygląda na to, że to może poczekać...",
     "lowerPriority": "Hej — wygląda na to, że pracujesz nad czymś o niższym priorytecie ({0}).",
     "topTasksIntro": "Przypomnienie najważniejszych zadań z twojego Planu dnia:",

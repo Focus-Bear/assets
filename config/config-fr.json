@@ -4510,6 +4510,8 @@
     "buttonAbortFocus": "Mettre en pause le planning personnalisé"
   },
   "aiBlockBuddyInfo": {
+    "taskSavedForLater": "Tâche enregistrée pour plus tard ({0})",
+    "blockPageTaskSavedHeadline": "Tâche enregistrée pour plus tard",
     "couldWaitTitle": "On dirait que ça peut attendre...",
     "lowerPriority": "Hé — on dirait que tu travailles peut-être sur quelque chose de moins prioritaire ({0}).",
     "topTasksIntro": "Voici un rappel des tâches principales de ton Plan du jour :",
