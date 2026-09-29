@@ -4536,6 +4536,7 @@
         "menuGo": "Ir",
         "menuFocusSession": "Sesión de enfoque",
         "sectionShortcutTip": "Consejo: <SHORTCUT> abre <SECTION>",
+        "sectionShortcutGlobalTip": "Consejo: <SHORTCUT> abre <SECTION> desde cualquier app",
         "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
     },
     "browsersTabAuditVcInfo":{

@@ -4429,6 +4429,7 @@
     "menuGo": "Aller",
     "menuFocusSession": "Session de concentration",
     "sectionShortcutTip": "Astuce : <SHORTCUT> ouvre <SECTION>",
+    "sectionShortcutGlobalTip": "Astuce : <SHORTCUT> ouvre <SECTION> depuis n'importe quelle app",
     "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
   },
   "browsersTabAuditVcInfo": {

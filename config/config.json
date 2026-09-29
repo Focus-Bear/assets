@@ -4538,6 +4538,7 @@
         "menuGo": "Go",
         "menuFocusSession": "Focus Session",
         "sectionShortcutTip": "Tip: <SHORTCUT> opens <SECTION>",
+        "sectionShortcutGlobalTip": "Tip: <SHORTCUT> opens <SECTION> from any app",
         "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
     },
     "browsersTabAuditVcInfo":{
