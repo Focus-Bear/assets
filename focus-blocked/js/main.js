@@ -251,7 +251,13 @@ try {
     }
   });
 
-  if (blocked_reason) {
+  if (saved_task) {
+    renderSavedTaskMessage(saved_task_headline, saved_task);
+  }
+
+  // The app also sends the saved-task message as `reason`, for block pages that predate
+  // `saved_task`; this page shows it above instead, so no toast.
+  if (blocked_reason && !saved_task) {
     toast.innerHTML = blocked_reason;
     toast.classList.add('visible');
     setTimeout(() => {
@@ -308,4 +314,20 @@ try {
 `;
   document.body.appendChild(general_error);
   logError(error, 'An unknown exception occurred');
+}
+
+// "Task saved for later" with the task's name on the line below, above the page title. Built here
+// rather than in index.html because the app keeps a downloaded copy of index.html that can predate
+// this, while this script is always loaded fresh. textContent only: the task name is user text.
+function renderSavedTaskMessage(headline, taskName) {
+  const message = document.createElement('div');
+  message.className = 'saved-task-message';
+  const headlineElement = document.createElement('p');
+  headlineElement.className = 'saved-task-headline';
+  headlineElement.textContent = headline;
+  const taskElement = document.createElement('p');
+  taskElement.className = 'saved-task-name';
+  taskElement.textContent = taskName;
+  message.append(headlineElement, taskElement);
+  focusTitle.parentElement.insertBefore(message, focusTitle);
 }
