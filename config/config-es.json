@@ -1,4 +1,25 @@
 {
+    "trustedTimeSettingsInfo": {
+        "title": "Hora y zona horaria",
+        "summary": "Elige la zona horaria que usa Focus Bear en este Mac. Los cambios se guardan solo en este dispositivo.",
+        "back": "Volver",
+        "currentTime": "Hora actual de la aplicación",
+        "timeZone": "Zona horaria de la aplicación",
+        "timeZonePlaceholder": "Elige una zona horaria, por ejemplo Australia/Melbourne",
+        "apply": "Aplicar",
+        "saved": "Zona horaria de la aplicación guardada.",
+        "protectedInfo": "La protección con contraseña está activa. Focus Bear usa la hora verificada y necesitas tu contraseña para cambiar su zona horaria.",
+        "unprotectedInfo": "Se requiere la hora verificada cuando hay una contraseña configurada y alguna regla de contraseña está activada.",
+        "unavailable": "Esperando la hora verificada y una zona horaria para la aplicación.",
+        "invalidTimeZone": "Elige una zona horaria válida.",
+        "authorizationUnavailable": "No se pudo abrir la solicitud de contraseña. Tu zona horaria no ha cambiado.",
+        "mutationRefused": "No se pudo cambiar tu zona horaria. Comprueba que los ajustes de esta cuenta sigan disponibles e inténtalo de nuevo.",
+        "recoveryTitle": "Se necesita la hora verificada",
+        "recoveryMessage": "Focus Bear necesita la hora verificada y una zona horaria para la aplicación antes de continuar con los horarios protegidos con contraseña. Conéctate a internet para verificar la hora o configura la zona horaria de la aplicación con tu contraseña.",
+        "configureTimeZone": "Configurar zona horaria de la aplicación",
+        "retryTrustedTime": "Reintentar la verificación de la hora",
+        "quitWithPassword": "Salir con contraseña"
+    },
     "cleanShotPicker":{
         "title": "Elegir de CleanShot",
         "chooseFromCleanShot": "Elegir de CleanShot",

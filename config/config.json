@@ -1,4 +1,25 @@
 {
+    "trustedTimeSettingsInfo": {
+        "title": "Time and time zone",
+        "summary": "Choose the time zone Focus Bear uses on this Mac. Changes stay on this device.",
+        "back": "Back",
+        "currentTime": "Current app time",
+        "timeZone": "App time zone",
+        "timeZonePlaceholder": "Choose a time zone, for example Australia/Melbourne",
+        "apply": "Apply",
+        "saved": "App time zone saved.",
+        "protectedInfo": "Password protection is active. Focus Bear uses verified time, and changing its time zone requires your password.",
+        "unprotectedInfo": "Verified time is required when a password is set and any password rule is enabled.",
+        "unavailable": "Waiting for verified time and an app time zone.",
+        "invalidTimeZone": "Choose a valid time zone.",
+        "authorizationUnavailable": "The password prompt could not be opened. Your time zone has not changed.",
+        "mutationRefused": "Your time zone could not be changed. Check that this account's settings are still available, then try again.",
+        "recoveryTitle": "Verified time is needed",
+        "recoveryMessage": "Focus Bear needs verified time and an app time zone before it can continue password-protected schedules. Connect to the internet to verify time, or set the app time zone with your password.",
+        "configureTimeZone": "Set app time zone",
+        "retryTrustedTime": "Retry time verification",
+        "quitWithPassword": "Quit with password"
+    },
     "cleanShotPicker":{
         "title": "Choose from CleanShot",
         "chooseFromCleanShot": "Choose from CleanShot",
