@@ -5352,6 +5352,7 @@
         "phaseStartingApp": "Starting Focus Bear…",
         "phaseLoadingSettings": "Loading your settings…",
         "phaseRestoringSession": "Restoring your routine and blocking…",
+        "phaseStartingBlockPage": "Starting the block page…",
         "phaseCheckingScreen": "Checking what's on screen…",
         "phaseDone": "Done"
     }

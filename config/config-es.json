@@ -5331,6 +5331,7 @@
         "phaseStartingApp": "Abriendo Focus Bear…",
         "phaseLoadingSettings": "Cargando tu configuración…",
         "phaseRestoringSession": "Restaurando tu rutina y el bloqueo…",
+        "phaseStartingBlockPage": "Iniciando la página de bloqueo…",
         "phaseCheckingScreen": "Revisando lo que hay en pantalla…",
         "phaseDone": "Listo"
     }
