@@ -4429,6 +4429,7 @@
     "menuGo": "Gehe zu",
     "menuFocusSession": "Fokussitzung",
     "sectionShortcutTip": "Tipp: <SHORTCUT> öffnet <SECTION>",
+    "sectionShortcutGlobalTip": "Tipp: <SHORTCUT> öffnet <SECTION> aus jeder App",
     "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
   },
   "browsersTabAuditVcInfo": {

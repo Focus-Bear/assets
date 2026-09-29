@@ -4429,6 +4429,7 @@
     "menuGo": "Idź",
     "menuFocusSession": "Sesja skupienia",
     "sectionShortcutTip": "Wskazówka: <SHORTCUT> otwiera <SECTION>",
+    "sectionShortcutGlobalTip": "Wskazówka: <SHORTCUT> otwiera <SECTION> z dowolnej aplikacji",
     "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
   },
   "browsersTabAuditVcInfo": {
