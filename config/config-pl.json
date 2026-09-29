@@ -4407,6 +4407,7 @@
     "menuChangeTask": "Zmień zadanie"
   },
   "leftMenuVcInfo": {
+        "showKeyboardShortcutReminders": "Pokazuj przypomnienia o skrótach klawiszowych",
     "menuStats": "Statystyki",
     "menuFocusButton": "Focus Button",
     "menuTimeTracker": "Time Tracker",

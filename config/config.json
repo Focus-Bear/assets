@@ -4506,6 +4506,7 @@
         "menuChangeTask": "Change task"
     },
     "leftMenuVcInfo":{
+        "showKeyboardShortcutReminders": "Show keyboard shortcut reminders",
         "menuStats": "Stats",
         "menuFocusButton": "Focus Button",
         "menuTimeTracker": "Time Tracker",
