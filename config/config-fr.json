@@ -1,4 +1,12 @@
 {
+    "microbreakSettingsInfo": {
+        "frequencyLabel": "Fréquence des pauses (minutes)",
+        "invalidFrequency": "Saisissez un nombre entier entre %d et %d minutes.",
+        "fullBody": "Corps entier",
+        "chair": "Sur chaise",
+        "everyBreak": "Chaque pause",
+        "randomBreaks": "Pauses aléatoires"
+    },
     "trustedTimeSettingsInfo": {
         "title": "Heure et fuseau horaire",
         "summary": "Choisissez le fuseau horaire utilisé par Focus Bear sur ce Mac. Les modifications restent sur cet appareil.",
