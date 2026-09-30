@@ -1,4 +1,12 @@
 {
+    "microbreakSettingsInfo": {
+        "frequencyLabel": "Pausenabstand (Minuten)",
+        "invalidFrequency": "Gib eine ganze Zahl zwischen %d und %d Minuten ein.",
+        "fullBody": "Ganzkörper",
+        "chair": "Im Sitzen",
+        "everyBreak": "Jede Pause",
+        "randomBreaks": "Zufällige Pausen"
+    },
     "trustedTimeSettingsInfo": {
         "title": "Uhrzeit und Zeitzone",
         "summary": "Wähle die Zeitzone, die Focus Bear auf diesem Mac verwendet. Änderungen bleiben auf diesem Gerät.",

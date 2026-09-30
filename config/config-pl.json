@@ -1,4 +1,12 @@
 {
+    "microbreakSettingsInfo": {
+        "frequencyLabel": "Częstotliwość przerw (minuty)",
+        "invalidFrequency": "Wpisz liczbę całkowitą od %d do %d minut.",
+        "fullBody": "Całe ciało",
+        "chair": "Na krześle",
+        "everyBreak": "Każda przerwa",
+        "randomBreaks": "Losowe przerwy"
+    },
     "trustedTimeSettingsInfo": {
         "title": "Czas i strefa czasowa",
         "summary": "Wybierz strefę czasową używaną przez Focus Bear na tym Macu. Zmiany dotyczą tylko tego urządzenia.",
