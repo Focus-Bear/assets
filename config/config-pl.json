@@ -3893,6 +3893,9 @@
     "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro"
   },
   "scheduleViewInfo": {
+    "chooseCalendars": "Wybierz kalendarze",
+    "allCalendars": "Wszystkie kalendarze, również nowe",
+    "calendarSelectionHelp": "Wybierz kalendarze wyświetlane w planie dnia i używane do obliczania dostępnego czasu.",
     "habitFieldIcon": "Ikona nawyku",
     "tasksShortcutsTitle": "Skróty, które możesz wpisać w nazwie",
     "tasksShortcutsDismiss": "Nie pokazuj ponownie",
