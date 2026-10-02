@@ -3350,6 +3350,9 @@
     "unsavedFrequencyCancelButton": "Abbrechen"
   },
   "toDoListViewInfo": {
+        "attachmentPendingText": "Wird hochgeladen, sobald du die Aufgabe speicherst.",
+        "attachmentRetryText": "Die Aufgabe wurde gespeichert. Speichere erneut, um die übrigen Dateien noch einmal hochzuladen.",
+        "attachmentUnconfirmedText": "Das Ergebnis des Uploads ist noch nicht bestätigt. Speichere erneut, um den Status zu prüfen.",
     "searchTasksText": "Aufgaben durchsuchen",
     "outcomeHardDeadlineText": "Feste Frist – nicht verschiebbar",
     "outcomePostponeAYearText": "Kann ein Jahr warten",
