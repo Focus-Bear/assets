@@ -4430,6 +4430,7 @@
     "menuChangeTask": "Aufgabe wechseln"
   },
   "leftMenuVcInfo": {
+        "showKeyboardShortcutReminders": "Erinnerungen an Tastenkombinationen anzeigen",
     "menuStats": "Statistiken",
     "menuFocusButton": "Focus Button",
     "menuTimeTracker": "Time Tracker",

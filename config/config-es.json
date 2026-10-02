@@ -4527,6 +4527,7 @@
         "menuChangeTask": "Cambiar tarea"
     },
     "leftMenuVcInfo":{
+        "showKeyboardShortcutReminders": "Mostrar recordatorios de atajos de teclado",
         "menuStats": "Estadísticas",
         "menuFocusButton": "Botón de enfoque",
         "menuTimeTracker": "Registro de tiempo",
