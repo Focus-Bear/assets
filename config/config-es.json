@@ -1046,6 +1046,9 @@
             "titleNextSessionIntention": "¿Qué planeas hacer después?"
         },
         "focusSummaryInfo": {
+            "naturalBreakTimeLabel": "Tiempo fuera del ordenador",
+            "guidedBreakTimeLabel": "Descansos de Focus Bear",
+            "unclassifiedBreakTimeLabel": "Descansos anteriores (tipo desconocido)",
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
             "buttonContinueText": "Iniciar rutina nocturna",
             "focusTableColumnFirstText": "Tipo de Enfoque",

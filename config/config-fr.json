@@ -1048,6 +1048,9 @@
       "buttonAccordionAchievement": "✨ Log your Achievement"
     },
     "focusSummaryInfo": {
+        "naturalBreakTimeLabel": "Temps loin de l’ordinateur",
+        "guidedBreakTimeLabel": "Pauses Focus Bear",
+        "unclassifiedBreakTimeLabel": "Pauses précédentes (type inconnu)",
       "title": "You completed <COUNT> focus blocks today.",
       "buttonContinueText": "Start Evening Routine",
       "focusTableColumnFirstText": "Focus type",
