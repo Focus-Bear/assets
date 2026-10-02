@@ -3351,6 +3351,9 @@
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Partagé avec vous",
+        "attachmentPendingText": "Prêt à être envoyé lorsque vous enregistrerez la tâche.",
+        "attachmentRetryText": "La tâche a été enregistrée. Enregistrez à nouveau pour réessayer les fichiers restants.",
+        "attachmentUnconfirmedText": "Le résultat de l’envoi n’est pas confirmé. Enregistrez à nouveau pour vérifier son état.",
     "searchTasksText": "Rechercher des tâches",
     "outcomeHardDeadlineText": "Échéance ferme — impossible à déplacer",
     "outcomePostponeAYearText": "Peut être reporté d'un an",
