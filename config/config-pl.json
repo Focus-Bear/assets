@@ -3350,6 +3350,7 @@
     "unsavedFrequencyCancelButton": "Anuluj"
   },
   "toDoListViewInfo": {
+        "sharedWithYouBadgeText": "Udostępnione Tobie",
         "attachmentPendingText": "Plik zostanie przesłany po zapisaniu zadania.",
         "attachmentRetryText": "Zadanie zostało zapisane. Zapisz ponownie, aby ponowić przesyłanie pozostałych plików.",
         "attachmentUnconfirmedText": "Wynik przesyłania nie został potwierdzony. Zapisz ponownie, aby sprawdzić jego stan.",

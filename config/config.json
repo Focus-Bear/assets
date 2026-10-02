@@ -3339,6 +3339,7 @@
         "unsavedFrequencyCancelButton": "Cancel"
     },
     "toDoListViewInfo":{
+        "sharedWithYouBadgeText": "Shared with you",
         "attachmentPendingText": "Ready to upload when you save the task.",
         "attachmentRetryText": "The task was saved. Save again to retry the remaining files.",
         "attachmentUnconfirmedText": "The upload result is not confirmed. Save again to check its status.",
