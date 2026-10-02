@@ -3893,6 +3893,11 @@
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern"
   },
   "scheduleViewInfo": {
+      "projectNeedsExtension": "1 Projekt braucht mehr Zeit",
+      "projectsNeedExtension": "<COUNT> Projekte brauchen mehr Zeit",
+      "projectRequiresFocus": "1 Projekt braucht Fokus",
+      "projectsRequireFocus": "<COUNT> Projekte brauchen Fokus",
+      "projectAttentionOpen": "Was zählt öffnen",
     "chooseCalendars": "Kalender auswählen",
     "allCalendars": "Alle Kalender, einschließlich neuer",
     "calendarSelectionHelp": "Wähle die Kalender aus, die im Tagesplan angezeigt und zur Berechnung der verfügbaren Zeit verwendet werden.",
