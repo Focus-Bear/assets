@@ -3337,6 +3337,9 @@
         "unsavedFrequencyCancelButton": "Cancelar"
     },
     "toDoListViewInfo":{
+        "attachmentPendingText": "Listo para subir cuando guardes la tarea.",
+        "attachmentRetryText": "La tarea se ha guardado. Guarda de nuevo para reintentar los archivos pendientes.",
+        "attachmentUnconfirmedText": "El resultado de la subida no está confirmado. Guarda de nuevo para comprobar su estado.",
         "searchTasksText": "Buscar tareas",
         "outcomeHardDeadlineText": "Fecha límite fija: no se puede mover",
         "outcomePostponeAYearText": "Se puede posponer un año",
