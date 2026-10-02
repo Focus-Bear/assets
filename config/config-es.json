@@ -3929,6 +3929,11 @@
       "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana"
     },
     "scheduleViewInfo":{
+        "projectNeedsExtension": "1 proyecto necesita una prórroga",
+        "projectsNeedExtension": "<COUNT> proyectos necesitan una prórroga",
+        "projectRequiresFocus": "1 proyecto requiere atención",
+        "projectsRequireFocus": "<COUNT> proyectos requieren atención",
+        "projectAttentionOpen": "Abrir Lo que importa",
         "habitFieldIcon": "Icono del hábito",
         "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
         "tasksShortcutsDismiss": "No mostrar de nuevo",

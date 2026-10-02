@@ -3893,6 +3893,11 @@
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern"
   },
   "scheduleViewInfo": {
+      "projectNeedsExtension": "1 Projekt braucht mehr Zeit",
+      "projectsNeedExtension": "<COUNT> Projekte brauchen mehr Zeit",
+      "projectRequiresFocus": "1 Projekt braucht Fokus",
+      "projectsRequireFocus": "<COUNT> Projekte brauchen Fokus",
+      "projectAttentionOpen": "Was zählt öffnen",
     "habitFieldIcon": "Gewohnheitssymbol",
     "tasksShortcutsTitle": "Kürzel, die du im Namen tippen kannst",
     "tasksShortcutsDismiss": "Nicht mehr anzeigen",

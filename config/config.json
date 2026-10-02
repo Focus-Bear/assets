@@ -3931,6 +3931,11 @@
       "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
     },
     "scheduleViewInfo":{
+        "projectNeedsExtension": "1 project needs extension",
+        "projectsNeedExtension": "<COUNT> projects need extension",
+        "projectRequiresFocus": "1 project requires focus",
+        "projectsRequireFocus": "<COUNT> projects require focus",
+        "projectAttentionOpen": "Open What matters",
         "habitFieldIcon": "Habit icon",
         "tasksShortcutsTitle": "Shortcuts you can type in the name",
         "tasksShortcutsDismiss": "Don't show this again",

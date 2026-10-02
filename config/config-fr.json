@@ -3893,6 +3893,11 @@
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain"
   },
   "scheduleViewInfo": {
+      "projectNeedsExtension": "1 projet nécessite un délai",
+      "projectsNeedExtension": "<COUNT> projets nécessitent un délai",
+      "projectRequiresFocus": "1 projet demande votre attention",
+      "projectsRequireFocus": "<COUNT> projets demandent votre attention",
+      "projectAttentionOpen": "Ouvrir Ce qui compte",
     "habitFieldIcon": "Icône de l'habitude",
     "tasksShortcutsTitle": "Raccourcis que tu peux taper dans le nom",
     "tasksShortcutsDismiss": "Ne plus afficher",
