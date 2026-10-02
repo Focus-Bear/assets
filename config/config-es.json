@@ -3926,6 +3926,9 @@
       "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana"
     },
     "scheduleViewInfo":{
+        "chooseCalendars": "Elegir calendarios",
+        "allCalendars": "Todos los calendarios, incluidos los nuevos",
+        "calendarSelectionHelp": "Elige los calendarios que aparecen en tu plan del día y se usan para calcular el tiempo disponible.",
         "habitFieldIcon": "Icono del hábito",
         "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
         "tasksShortcutsDismiss": "No mostrar de nuevo",

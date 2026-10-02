@@ -3928,6 +3928,9 @@
       "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
     },
     "scheduleViewInfo":{
+        "chooseCalendars": "Choose calendars",
+        "allCalendars": "All calendars, including new ones",
+        "calendarSelectionHelp": "Choose the calendars shown in your Day Plan and used to calculate available time.",
         "habitFieldIcon": "Habit icon",
         "tasksShortcutsTitle": "Shortcuts you can type in the name",
         "tasksShortcutsDismiss": "Don't show this again",
