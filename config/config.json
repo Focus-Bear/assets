@@ -3339,6 +3339,7 @@
         "unsavedFrequencyCancelButton": "Cancel"
     },
     "toDoListViewInfo":{
+        "sharedWithYouBadgeText": "Shared with you",
         "searchTasksText": "Search tasks",
         "outcomeHardDeadlineText": "Hard deadline — can't move",
         "outcomePostponeAYearText": "Can postpone for a year",

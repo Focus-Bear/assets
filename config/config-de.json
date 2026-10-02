@@ -3350,6 +3350,7 @@
     "unsavedFrequencyCancelButton": "Abbrechen"
   },
   "toDoListViewInfo": {
+        "sharedWithYouBadgeText": "Mit dir geteilt",
     "searchTasksText": "Aufgaben durchsuchen",
     "outcomeHardDeadlineText": "Feste Frist – nicht verschiebbar",
     "outcomePostponeAYearText": "Kann ein Jahr warten",

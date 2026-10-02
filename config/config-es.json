@@ -3337,6 +3337,7 @@
         "unsavedFrequencyCancelButton": "Cancelar"
     },
     "toDoListViewInfo":{
+        "sharedWithYouBadgeText": "Compartido contigo",
         "searchTasksText": "Buscar tareas",
         "outcomeHardDeadlineText": "Fecha límite fija: no se puede mover",
         "outcomePostponeAYearText": "Se puede posponer un año",
