@@ -3897,6 +3897,8 @@
       "projectsNeedExtension": "<COUNT> projets nécessitent un délai",
       "projectRequiresFocus": "1 projet demande votre attention",
       "projectsRequireFocus": "<COUNT> projets demandent votre attention",
+      "projectAttentionShow": "Afficher les projets clés",
+      "projectAttentionHide": "Masquer les projets clés",
       "projectAttentionOpen": "Ouvrir Ce qui compte",
     "chooseCalendars": "Choisir les calendriers",
     "allCalendars": "Tous les calendriers, y compris les nouveaux",

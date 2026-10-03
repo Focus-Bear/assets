@@ -3897,6 +3897,8 @@
       "projectsNeedExtension": "Projekty wymagające przedłużenia: <COUNT>",
       "projectRequiresFocus": "Projekt wymagający uwagi: 1",
       "projectsRequireFocus": "Projekty wymagające uwagi: <COUNT>",
+      "projectAttentionShow": "Pokaż kluczowe projekty",
+      "projectAttentionHide": "Ukryj kluczowe projekty",
       "projectAttentionOpen": "Otwórz To, co ważne",
     "chooseCalendars": "Wybierz kalendarze",
     "allCalendars": "Wszystkie kalendarze, również nowe",

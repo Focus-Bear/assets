@@ -3933,6 +3933,8 @@
         "projectsNeedExtension": "<COUNT> proyectos necesitan una prórroga",
         "projectRequiresFocus": "1 proyecto requiere atención",
         "projectsRequireFocus": "<COUNT> proyectos requieren atención",
+        "projectAttentionShow": "Mostrar proyectos clave",
+        "projectAttentionHide": "Ocultar proyectos clave",
         "projectAttentionOpen": "Abrir Lo que importa",
         "chooseCalendars": "Elegir calendarios",
         "allCalendars": "Todos los calendarios, incluidos los nuevos",
