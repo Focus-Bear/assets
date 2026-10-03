@@ -1046,6 +1046,9 @@
             "buttonAccordionAchievement": "✨ Log your Achievement"
         },
         "focusSummaryInfo": {
+            "totalBreakTimeLabel": "Time spent on breaks",
+            "breakTimeDetailsLabel": "Break time details",
+            "closeBreakDetailsLabel": "Close",
             "naturalBreakTimeLabel": "Away from the computer",
             "guidedBreakTimeLabel": "Focus Bear breaks",
             "unclassifiedBreakTimeLabel": "Earlier breaks (type unknown)",

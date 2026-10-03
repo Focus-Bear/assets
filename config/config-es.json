@@ -1046,6 +1046,9 @@
             "titleNextSessionIntention": "¿Qué planeas hacer después?"
         },
         "focusSummaryInfo": {
+            "totalBreakTimeLabel": "Tiempo de descanso",
+            "breakTimeDetailsLabel": "Detalles de los descansos",
+            "closeBreakDetailsLabel": "Cerrar",
             "naturalBreakTimeLabel": "Tiempo fuera del ordenador",
             "guidedBreakTimeLabel": "Descansos de Focus Bear",
             "unclassifiedBreakTimeLabel": "Descansos anteriores (tipo desconocido)",
