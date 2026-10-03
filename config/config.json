@@ -3938,6 +3938,8 @@
         "projectsNeedExtension": "<COUNT> projects need extension",
         "projectRequiresFocus": "1 project requires focus",
         "projectsRequireFocus": "<COUNT> projects require focus",
+        "projectAttentionShow": "Show key projects",
+        "projectAttentionHide": "Hide key projects",
         "projectAttentionOpen": "Open What matters",
         "chooseCalendars": "Choose calendars",
         "allCalendars": "All calendars, including new ones",

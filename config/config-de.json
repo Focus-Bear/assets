@@ -3900,6 +3900,8 @@
       "projectsNeedExtension": "<COUNT> Projekte brauchen mehr Zeit",
       "projectRequiresFocus": "1 Projekt braucht Fokus",
       "projectsRequireFocus": "<COUNT> Projekte brauchen Fokus",
+      "projectAttentionShow": "Wichtige Projekte anzeigen",
+      "projectAttentionHide": "Wichtige Projekte ausblenden",
       "projectAttentionOpen": "Was zählt öffnen",
     "chooseCalendars": "Kalender auswählen",
     "allCalendars": "Alle Kalender, einschließlich neuer",
