@@ -1048,6 +1048,9 @@
       "buttonAccordionAchievement": "✨ Log your Achievement"
     },
     "focusSummaryInfo": {
+        "totalBreakTimeLabel": "Pausenzeit",
+        "breakTimeDetailsLabel": "Details zur Pausenzeit",
+        "closeBreakDetailsLabel": "Schließen",
         "naturalBreakTimeLabel": "Zeit abseits des Computers",
         "guidedBreakTimeLabel": "Focus Bear-Pausen",
         "unclassifiedBreakTimeLabel": "Frühere Pausen (Art unbekannt)",
