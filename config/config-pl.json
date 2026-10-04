@@ -24,6 +24,7 @@
         "mutationRefused": "Nie udało się zmienić strefy czasowej. Sprawdź, czy ustawienia tego konta są nadal dostępne, i spróbuj ponownie.",
         "recoveryTitle": "Potrzebny jest zweryfikowany czas",
         "recoveryMessage": "Focus Bear potrzebuje zweryfikowanego czasu i strefy czasowej aplikacji, aby kontynuować harmonogramy chronione hasłem. Połącz się z internetem, aby zweryfikować czas, lub ustaw strefę czasową aplikacji, podając hasło.",
+        "recoveryAccountMessage": "Focus Bear utrzymuje ochronę hasłem podczas ponownego łączenia z kontem. Przywróć połączenie z siecią i sprawdź datę oraz godzinę na Macu, a następnie spróbuj ponownie. Możesz też zamknąć aplikację, podając hasło.",
         "configureTimeZone": "Ustaw strefę czasową aplikacji",
         "retryTrustedTime": "Ponów weryfikację czasu",
         "quitWithPassword": "Zakończ po podaniu hasła"

@@ -24,6 +24,7 @@
         "mutationRefused": "Deine Zeitzone konnte nicht geändert werden. Prüfe, ob die Einstellungen dieses Kontos noch verfügbar sind, und versuche es erneut.",
         "recoveryTitle": "Eine verifizierte Uhrzeit ist erforderlich",
         "recoveryMessage": "Focus Bear benötigt eine verifizierte Uhrzeit und eine App-Zeitzone, bevor passwortgeschützte Zeitpläne fortgesetzt werden können. Stelle eine Internetverbindung her, um die Uhrzeit zu verifizieren, oder lege die App-Zeitzone mit deinem Passwort fest.",
+        "recoveryAccountMessage": "Focus Bear hält den Passwortschutz aktiv, während die Verbindung zu deinem Konto wiederhergestellt wird. Stelle deine Netzwerkverbindung wieder her und überprüfe Datum und Uhrzeit des Macs. Versuche es dann erneut. Du kannst die App auch mit deinem Passwort beenden.",
         "configureTimeZone": "App-Zeitzone festlegen",
         "retryTrustedTime": "Uhrzeit erneut verifizieren",
         "quitWithPassword": "Mit Passwort beenden"
