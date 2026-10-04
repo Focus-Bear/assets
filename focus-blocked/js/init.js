@@ -50,6 +50,10 @@ if (current_url && typeof isValidUrl !== 'undefined') {
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
 const blocked_reason = urlParams.get('reason');
+// Set by the Mac app's AI check-in when the user saved what they were doing as a task for later. The
+// headline arrives already translated; the task name is the user's own text.
+const saved_task = urlParams.get('saved_task');
+const saved_task_headline = urlParams.get('saved_task_headline') ?? '';
 const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
 const isonboarding = urlParams.get('isonboarding') === 'true';
