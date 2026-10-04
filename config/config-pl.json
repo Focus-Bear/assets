@@ -26,7 +26,11 @@
         "recoveryMessage": "Focus Bear potrzebuje zweryfikowanego czasu i strefy czasowej aplikacji, aby kontynuować harmonogramy chronione hasłem. Połącz się z internetem, aby zweryfikować czas, lub ustaw strefę czasową aplikacji, podając hasło.",
         "configureTimeZone": "Ustaw strefę czasową aplikacji",
         "retryTrustedTime": "Ponów weryfikację czasu",
-        "quitWithPassword": "Zakończ po podaniu hasła"
+        "quitWithPassword": "Zakończ po podaniu hasła",
+        "zoneMismatchTitle": "Strefa czasowa Twojego Maca została zmieniona",
+        "zoneMismatchMessage": "Harmonogramy chronione hasłem nadal używają strefy {appZone}. Twój Mac jest teraz ustawiony na {macZone}. Zmiana strefy czasowej aplikacji wymaga podania hasła.",
+        "zoneMismatchKeep": "Zachowaj {appZone}",
+        "zoneMismatchUseMac": "Użyj {macZone}"
     },
   "talkingClockSettingsInfo": {
     "title": "Mówiący zegar",

@@ -26,7 +26,11 @@
         "recoveryMessage": "Focus Bear needs verified time and an app time zone before it can continue password-protected schedules. Connect to the internet to verify time, or set the app time zone with your password.",
         "configureTimeZone": "Set app time zone",
         "retryTrustedTime": "Retry time verification",
-        "quitWithPassword": "Quit with password"
+        "quitWithPassword": "Quit with password",
+        "zoneMismatchTitle": "Your Mac's time zone has changed",
+        "zoneMismatchMessage": "Password-protected schedules still use {appZone}. Your Mac is now set to {macZone}. Switching the app time zone requires your password.",
+        "zoneMismatchKeep": "Keep {appZone}",
+        "zoneMismatchUseMac": "Use {macZone}"
     },
     "cleanShotPicker":{
         "title": "Choose from CleanShot",

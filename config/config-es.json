@@ -26,7 +26,11 @@
         "recoveryMessage": "Focus Bear necesita la hora verificada y una zona horaria para la aplicación antes de continuar con los horarios protegidos con contraseña. Conéctate a internet para verificar la hora o configura la zona horaria de la aplicación con tu contraseña.",
         "configureTimeZone": "Configurar zona horaria de la aplicación",
         "retryTrustedTime": "Reintentar la verificación de la hora",
-        "quitWithPassword": "Salir con contraseña"
+        "quitWithPassword": "Salir con contraseña",
+        "zoneMismatchTitle": "La zona horaria de tu Mac ha cambiado",
+        "zoneMismatchMessage": "Los horarios protegidos con contraseña siguen usando {appZone}. Tu Mac ahora está configurado en {macZone}. Para cambiar la zona horaria de la app se necesita tu contraseña.",
+        "zoneMismatchKeep": "Mantener {appZone}",
+        "zoneMismatchUseMac": "Usar {macZone}"
     },
     "cleanShotPicker":{
         "title": "Elegir de CleanShot",
