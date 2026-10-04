@@ -1,0 +1,48 @@
+name: Notify Mac-App of config changes
+
+# Mac-App PRs fail their "Config <-> Assets Sync" check while the strings they add are not yet on
+# this repo's main. When config changes land here, tell Mac-App so it re-runs those checks
+# (Mac-App's .github/workflows/rerun-assets-sync.yml re-runs only PRs whose missing keys are now
+# all present here).
+#
+# Needs the repo secret MAC_APP_DISPATCH_TOKEN: a fine-grained personal access token with
+# resource owner Focus-Bear, repository access limited to Focus-Bear/Mac-App, and the repository
+# permission "Contents: Read and write" (what POST /repos/{owner}/{repo}/dispatches requires;
+# Metadata: Read is added automatically). Without it this job logs a warning and does nothing.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'config/**'
+
+# Merging several assets PRs in a row would send one dispatch each; Mac-App collapses those
+# itself, and a newer push here supersedes an older one, so cancel the older one.
+concurrency:
+  group: notify-mac-app
+  cancel-in-progress: true
+
+env:
+  TARGET_REPOSITORY: Focus-Bear/Mac-App
+  DISPATCH_EVENT_TYPE: assets-merged
+
+jobs:
+  notify-mac-app:
+    name: Ask Mac-App to re-run assets sync checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: Send repository_dispatch to Mac-App
+        env:
+          GH_TOKEN: ${{ secrets.MAC_APP_DISPATCH_TOKEN }}
+          MERGE_SHA: ${{ github.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::MAC_APP_DISPATCH_TOKEN is not set; Mac-App was not notified. Run its 'Re-run Assets Sync Checks' workflow by hand."
+            exit 0
+          fi
+          gh api --method POST "repos/$TARGET_REPOSITORY/dispatches" \
+            -f event_type="$DISPATCH_EVENT_TYPE" \
+            -f "client_payload[sha]=$MERGE_SHA"
+          echo "Sent $DISPATCH_EVENT_TYPE for $MERGE_SHA to $TARGET_REPOSITORY."
