@@ -4715,7 +4715,9 @@
     "pactHoldToDecline": "15 Sekunden gedrückt halten zum Ablehnen",
     "pactKeepHolding": "Weiter gedrückt halten, <N>s",
     "pactMindfulNote": "Bitte geh bewusst damit um, wie du deinen Laptop nutzt. Studien zeigen, dass Lernende, die spielen, Videos schauen und Ähnliches, auch ihre Mitschülerinnen und Mitschüler ablenken.",
-    "pactBackToJoinLink": "Doch, ich mache mit"
+    "pactBackToJoinLink": "Doch, ich mache mit",
+    "personalSessionOnlyTitle": "Dies startet eine persönliche Fokus-Sitzung",
+    "classSessionFromDashboardText": "Um eine Klassen-Fokus-Sitzung für deine Schüler zu starten, nutze das Focus Bear Dashboard in deinem Browser."
   },
   "focusStateVcInfo": {
     "errorCouldNotLoadTask": "Diese Aufgabe konnte nicht zum Bearbeiten geladen werden. Verbinde dich neu und versuch es noch einmal.",

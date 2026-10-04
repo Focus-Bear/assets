@@ -4863,7 +4863,9 @@
         "pactHoldToDecline": "Hold for 15 seconds to decline",
         "pactKeepHolding": "Keep holding, <N>s",
         "pactMindfulNote": "Please be mindful with how you use your laptop. Research shows that students who play games, watch videos and so on distract their classmates as well.",
-        "pactBackToJoinLink": "Actually, I'll join"
+        "pactBackToJoinLink": "Actually, I'll join",
+        "personalSessionOnlyTitle": "This starts a personal focus session",
+        "classSessionFromDashboardText": "To start a class session for your students, use the Focus Bear dashboard in your browser."
     },
     "focusStateVcInfo":{
         "errorCouldNotLoadTask": "Could not load this task for editing. Reconnect and try again.",

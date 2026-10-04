@@ -4715,7 +4715,9 @@
     "pactHoldToDecline": "Maintiens 15 secondes pour refuser",
     "pactKeepHolding": "Continue de maintenir, <N>s",
     "pactMindfulNote": "Fais attention à la façon dont tu utilises ton ordi. Les études montrent que les élèves qui jouent, regardent des vidéos, etc. distraient aussi leurs camarades.",
-    "pactBackToJoinLink": "Finalement, je rejoins"
+    "pactBackToJoinLink": "Finalement, je rejoins",
+    "personalSessionOnlyTitle": "Ceci démarre une session de concentration personnelle",
+    "classSessionFromDashboardText": "Pour démarrer une session de concentration de classe pour tes élèves, utilise le tableau de bord Focus Bear dans ton navigateur."
   },
   "focusStateVcInfo": {
     "errorCouldNotLoadTask": "Impossible de charger cette tâche pour la modifier. Reconnecte-toi et réessaie.",

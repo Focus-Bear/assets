@@ -4715,7 +4715,9 @@
     "pactHoldToDecline": "Przytrzymaj 15 sekund, aby odrzucić",
     "pactKeepHolding": "Trzymaj dalej, <N>s",
     "pactMindfulNote": "Zwracaj uwagę na to, jak korzystasz z laptopa. Badania pokazują, że uczniowie, którzy grają w gry, oglądają filmy i tak dalej, rozpraszają też swoich kolegów z klasy.",
-    "pactBackToJoinLink": "Jednak dołączę"
+    "pactBackToJoinLink": "Jednak dołączę",
+    "personalSessionOnlyTitle": "To rozpoczyna osobistą sesję skupienia",
+    "classSessionFromDashboardText": "Aby rozpocząć sesję skupienia klasy dla swoich uczniów, skorzystaj z panelu Focus Bear w przeglądarce."
   },
   "focusStateVcInfo": {
     "errorCouldNotLoadTask": "Nie udało się wczytać tego zadania do edycji. Połącz się ponownie i spróbuj jeszcze raz.",
