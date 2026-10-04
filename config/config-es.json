@@ -27,7 +27,11 @@
         "recoveryAccountMessage": "Focus Bear mantiene activa la protección con contraseña mientras tu cuenta se vuelve a conectar. Restablece tu conexión a internet y comprueba la fecha y la hora del Mac. Después, inténtalo de nuevo. También puedes salir con tu contraseña.",
         "configureTimeZone": "Configurar zona horaria de la aplicación",
         "retryTrustedTime": "Reintentar la verificación de la hora",
-        "quitWithPassword": "Salir con contraseña"
+        "quitWithPassword": "Salir con contraseña",
+        "zoneMismatchTitle": "La zona horaria de tu Mac ha cambiado",
+        "zoneMismatchMessage": "Los horarios protegidos con contraseña siguen usando {appZone}. Tu Mac ahora está configurado en {macZone}. Para cambiar la zona horaria de la app se necesita tu contraseña.",
+        "zoneMismatchKeep": "Mantener {appZone}",
+        "zoneMismatchUseMac": "Usar {macZone}"
     },
     "cleanShotPicker":{
         "title": "Elegir de CleanShot",

@@ -27,7 +27,11 @@
         "recoveryAccountMessage": "Focus Bear is keeping password protection active while your account reconnects. Restore your network connection and check the Mac date and time, then retry. You can also quit with your password.",
         "configureTimeZone": "Set app time zone",
         "retryTrustedTime": "Retry time verification",
-        "quitWithPassword": "Quit with password"
+        "quitWithPassword": "Quit with password",
+        "zoneMismatchTitle": "Your Mac's time zone has changed",
+        "zoneMismatchMessage": "Password-protected schedules still use {appZone}. Your Mac is now set to {macZone}. Switching the app time zone requires your password.",
+        "zoneMismatchKeep": "Keep {appZone}",
+        "zoneMismatchUseMac": "Use {macZone}"
     },
     "cleanShotPicker":{
         "title": "Choose from CleanShot",

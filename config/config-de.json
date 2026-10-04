@@ -27,7 +27,11 @@
         "recoveryAccountMessage": "Focus Bear hält den Passwortschutz aktiv, während die Verbindung zu deinem Konto wiederhergestellt wird. Stelle deine Netzwerkverbindung wieder her und überprüfe Datum und Uhrzeit des Macs. Versuche es dann erneut. Du kannst die App auch mit deinem Passwort beenden.",
         "configureTimeZone": "App-Zeitzone festlegen",
         "retryTrustedTime": "Uhrzeit erneut verifizieren",
-        "quitWithPassword": "Mit Passwort beenden"
+        "quitWithPassword": "Mit Passwort beenden",
+        "zoneMismatchTitle": "Die Zeitzone deines Mac hat sich geändert",
+        "zoneMismatchMessage": "Passwortgeschützte Zeitpläne verwenden weiterhin {appZone}. Dein Mac ist jetzt auf {macZone} eingestellt. Zum Ändern der App-Zeitzone ist dein Passwort erforderlich.",
+        "zoneMismatchKeep": "{appZone} beibehalten",
+        "zoneMismatchUseMac": "{macZone} verwenden"
     },
   "talkingClockSettingsInfo": {
     "title": "Sprechende Uhr",

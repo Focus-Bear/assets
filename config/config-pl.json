@@ -27,7 +27,11 @@
         "recoveryAccountMessage": "Focus Bear utrzymuje ochronę hasłem podczas ponownego łączenia z kontem. Przywróć połączenie z siecią i sprawdź datę oraz godzinę na Macu, a następnie spróbuj ponownie. Możesz też zamknąć aplikację, podając hasło.",
         "configureTimeZone": "Ustaw strefę czasową aplikacji",
         "retryTrustedTime": "Ponów weryfikację czasu",
-        "quitWithPassword": "Zakończ po podaniu hasła"
+        "quitWithPassword": "Zakończ po podaniu hasła",
+        "zoneMismatchTitle": "Strefa czasowa Twojego Maca została zmieniona",
+        "zoneMismatchMessage": "Harmonogramy chronione hasłem nadal używają strefy {appZone}. Twój Mac jest teraz ustawiony na {macZone}. Zmiana strefy czasowej aplikacji wymaga podania hasła.",
+        "zoneMismatchKeep": "Zachowaj {appZone}",
+        "zoneMismatchUseMac": "Użyj {macZone}"
     },
   "talkingClockSettingsInfo": {
     "title": "Mówiący zegar",
