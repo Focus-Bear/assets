@@ -3671,6 +3671,7 @@
         "couldNotCreateProjectText": "Could not create project",
         "projectUpdatedText": "Project updated successfully",
         "couldNotUpdateProjectText": "Could not update project",
+        "projectNameTakenText": "You already have a project called “<PROJECT>”. Try a different name.",
         "showTasksForProjectText": "Show tasks",
         "capacitySettingsText": "Time budget",
         "weeklyCapacityText": "Weekly capacity (hours per day)",
