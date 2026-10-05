@@ -4316,6 +4316,8 @@
         "routineCutoffLabel": "Hora límite de la rutina nocturna",
         "routineCutoffHint": "Los hábitos nocturnos opcionales se detienen a esta hora; los obligatorios mantienen sus propias horas límite.",
         "routineCutoffInvalid": "Elige una hora límite entre el inicio de la rutina nocturna y el inicio de la siguiente rutina matutina.",
+        "routineStartsClash": "Las rutinas de la mañana y de la noche no pueden empezar a la misma hora.",
+        "routineMorningBeforeCutoff": "Elige una hora de inicio de la mañana posterior a la hora límite de la noche (%@).",
         "eventScopeFuture": "Todos los eventos futuros",
         "eventScopeMessage": "¿Cambiar solo esta repetición o esta y todas las siguientes?",
         "eventScopeThis": "Solo este evento",

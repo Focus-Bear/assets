@@ -4318,6 +4318,8 @@
         "routineCutoffLabel": "Evening cutoff time",
         "routineCutoffHint": "Optional evening habits stop at this time; must-do habits keep their own late cutoffs.",
         "routineCutoffInvalid": "Choose a cutoff between the evening routine start and the next morning routine start.",
+        "routineStartsClash": "The morning and evening routines can't start at the same time.",
+        "routineMorningBeforeCutoff": "Choose a morning start after the evening cutoff (%@).",
         "eventScopeFuture": "All future events",
         "eventScopeMessage": "Change only this occurrence, or this one and every later one?",
         "eventScopeThis": "Only this event",
