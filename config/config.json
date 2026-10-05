@@ -1417,6 +1417,7 @@
       "uploadingImageText": "Uploading image…",
       "loadingImageText": "Loading image…",
       "imageUnavailableText": "Image unavailable",
+      "foreignImageText": "Image from another app",
       "defaultImageDescription": "Image",
       "unsupportedTypeText": "That image format isn't supported. Use a PNG, JPEG, GIF or WebP image.",
       "tooLargeText": "That image is too large. Images must be 10 MB or smaller.",
