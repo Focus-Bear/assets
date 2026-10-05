@@ -3669,6 +3669,7 @@
         "couldNotCreateProjectText": "No se pudo crear el proyecto",
         "projectUpdatedText": "Proyecto actualizado correctamente",
         "couldNotUpdateProjectText": "No se pudo actualizar el proyecto",
+        "projectNameTakenText": "Ya tienes un proyecto llamado “<PROJECT>”. Prueba con otro nombre.",
         "showTasksForProjectText": "Ver tareas",
         "capacitySettingsText": "Presupuesto de tiempo",
         "weeklyCapacityText": "Capacidad semanal (horas por día)",
