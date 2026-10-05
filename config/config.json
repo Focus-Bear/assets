@@ -1412,6 +1412,27 @@
         "couldNotArchiveNoteText": "Could not archive the note",
         "couldNotRestoreNoteText": "Could not restore the note"
     },
+    "noteImagesInfo": {
+      "insertImageText": "Insert image",
+      "uploadingImageText": "Uploading image…",
+      "loadingImageText": "Loading image…",
+      "imageUnavailableText": "Image unavailable",
+      "defaultImageDescription": "Image",
+      "unsupportedTypeText": "That image format isn't supported. Use a PNG, JPEG, GIF or WebP image.",
+      "tooLargeText": "That image is too large. Images must be 10 MB or smaller.",
+      "notUploadedText": "The image didn't finish uploading. Please try again.",
+      "limitReachedText": "This note already has 100 images, the most a note can hold.",
+      "uploadFailedText": "Could not upload the image. Please try again.",
+      "featureUnavailableText": "Adding images to notes isn't available yet.",
+      "needsTitleText": "Add a title first. The note is saved before an image is added to it.",
+      "noteNotSavedText": "Could not save the note, so the image wasn't added. Please try again.",
+      "deleteImageText": "Delete image",
+      "deleteImageConfirmTitle": "Delete this image?",
+      "deleteImageConfirmMessage": "It is removed for everyone who can see this note. This can't be undone.",
+      "deleteImageFailedText": "Could not delete the image. Please try again.",
+      "deleteImageForbiddenText": "Only the person who added this image, the note's author or a project admin can delete it.",
+      "cancelText": "Cancel"
+    },
     "statsViewInfo": {
         "tabGoals": "Your Goals",
         "tabProgress": "Progress",
