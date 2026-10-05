@@ -1703,6 +1703,7 @@
         "buttonPrivacyText": "Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
+        "holdToPostponeProgress": "Keep holding... {seconds}s",
         "title": "Your <DURATION> second micro break starts in",
         "titleV2": "Your <DURATION> micro break starts in",
         "titleWIN": "Your micro break starts in",
@@ -1923,6 +1924,7 @@
         "buttoWorkingOnOldTask": "No I'm still working on <TASK>"
     },
     "easyPostponeVcInfo": {
+        "customTimeMaxInfo": "You can postpone for up to 24 hours (1440 minutes).",
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
         "titleSelectMinutes": "Select minutes to postpone:",
         "buttonPostponeText": "Postpone",
@@ -1959,6 +1961,14 @@
         "buttonContinueText": "Continue"
     },
     "blockListViewInfo": {
+        "websitesLabel": "Websites",
+        "noSearchMatches": "Nothing in this list matches your search.",
+        "noEntriesAllowList": "Nothing is allowed in this list yet.",
+        "appsLabel": "Apps",
+        "alwaysBlockedNotice": "When you use this block list, all websites are allowed except your Always Blocked URLs (below), and the apps listed below are blocked.",
+        "allowedTag": "ALLOWED",
+        "allowListWebsitesNotice": "This block list uses an allow list for websites: every website is blocked except the sites below.",
+        "allowListAppsNotice": "Only the apps below are allowed while this block list is on.",
         "myBlockLists": "MY BLOCKLISTS",
         "createNewBlockList": "Create New Block",
         "blocksCount": "<COUNT> blocks",
@@ -2609,6 +2619,23 @@
         "buttonContinueText": "Continue"
     },
     "helpVcInfo": {
+        "whatHappened": "What happened?",
+        "uiTestsPaused": "UI tests are paused.",
+        "titleReportForm": "Report a problem or share an idea",
+        "subtitleReportForm": "Screenshots and your logs help us understand what happened.",
+        "sent": "Sent ✓",
+        "sending": "Sending…",
+        "sendToSupport": "Focus Bear support",
+        "sendToLocalClaude": "Local Claude task",
+        "sendTo": "Send to:",
+        "sendFailed": "Failed — please try again",
+        "send": "Send",
+        "resumeUiTestsFailed": "Couldn't resume the UI tests",
+        "resumeUiTestsConfirm": "Resume the UI tests? Focus Bear will close so the tests can run.",
+        "resumeUiTests": "Resume UI tests",
+        "removeScreenshot": "Remove",
+        "pasteFromClipboard": "Paste from clipboard",
+        "dragPasteOrChoose": "Drag, paste, or click to choose",
         "shareLogsValidationText": "Please describe the issue you’re experiencing so our developers can investigate it properly. Logs without context cannot be processed.",
         "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at support@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
         "buttonShareLogsText": "Share logs with Focus Bear Support Team",
@@ -3971,6 +3998,26 @@
       "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
     },
     "scheduleViewInfo":{
+        "tasksDurationHint": "Duration: type minutes (30), 45m or 1h, then Enter",
+        "routineTimeInvalidWindows": "Type a time like 7:30, 07:30 or 7:30pm.",
+        "habitTimingNothingWindows": "Morning habits run every day they're scheduled — pick those days here.",
+        "habitShortenHintWindows": "Applies on %@ only, and only on this computer. The habit keeps its real length everywhere else.",
+        "habitSaveFailedWindows": "Couldn't save to your account. Check your connection and try again.",
+        "habitPickEmojiWindows": "Emoji (Win + . opens the emoji panel)",
+        "habitMoreOptionsWindows": "More options in Edit habits…",
+        "habitFocusModeUnknownWindows": "(the focus mode already set)",
+        "habitFieldIconWindows": "Icon",
+        "habitFieldAllowedAppsHintWindows": "App names as they show in Task Manager, e.g. notepad or Kindle.",
+        "habitDeleteConfirmWindows": "Remove “%@” from this routine? This is saved to your account straight away.",
+        "eventSettingsTitleWindows": "Meeting settings",
+        "eventSettingsHintWindows": "Click for this meeting's settings",
+        "eventFromCalendarWindows": "This meeting comes from your synced calendar — change its time or guests there.",
+        "datePickerPreviousMonth": "Previous month",
+        "datePickerOver": "<DURATION> over",
+        "datePickerOpen": "Choose a date",
+        "datePickerNextMonth": "Next month",
+        "datePickerLoading": "Loading calendar…",
+        "datePickerFree": "<DURATION> free",
         "projectNeedsExtension": "1 project needs extension",
         "projectsNeedExtension": "<COUNT> projects need extension",
         "projectRequiresFocus": "1 project requires focus",
@@ -5152,6 +5199,8 @@
         "bubbleText": "Try searching for a goal or a keyword"
     },
     "startSetUpHabitsVcInfo": {
+        "titleText": "Need some fresh ideas for habits?",
+        "subTitleText": "If you have your own habit list, you can import them too.",
         "title": "Need some fresh ideas for habits?",
         "subTitle": "If you have your own habit list, you can import them too.",
         "buttonNo": "Nay - I already have some habits",
@@ -5185,6 +5234,7 @@
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
+        "minimiseWindowTooltip": "Minimise",
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",
         "newVersionAvailable": "A new version of Focus Bear is available. Do you wish to update to the latest version of Focus Bear?",

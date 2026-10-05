@@ -1703,6 +1703,7 @@
         "buttonPrivacyText": "Haz clic aquí para ver la Política de Privacidad"
     },
     "breakWarningVcInfo": {
+        "holdToPostponeProgress": "Mantén pulsado... {seconds} s",
         "title": "Tu micro descanso de <DURATION> segundos comienza en",
         "titleV2": "Tu micro descanso de <DURATION> comienza en",
         "titleWIN": "Tu micro descanso comienza en",
@@ -1923,6 +1924,7 @@
         "buttoWorkingOnOldTask": "No, sigo trabajando en <TASK>"
     },
     "easyPostponeVcInfo": {
+        "customTimeMaxInfo": "Puedes posponer hasta 24 horas (1440 minutos).",
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
         "titleSelectMinutes": "Selecciona los minutos a posponer:",
         "buttonPostponeText": "Posponer",
@@ -1959,6 +1961,14 @@
         "buttonContinueText": "Continuar"
     },
     "blockListViewInfo": {
+        "websitesLabel": "Sitios web",
+        "noSearchMatches": "Nada en esta lista coincide con tu búsqueda.",
+        "noEntriesAllowList": "Todavía no hay nada permitido en esta lista.",
+        "appsLabel": "Aplicaciones",
+        "alwaysBlockedNotice": "Cuando usas esta lista de bloqueo, se permiten todos los sitios web excepto tus URL siempre bloqueadas (abajo), y se bloquean las aplicaciones de la lista de abajo.",
+        "allowedTag": "PERMITIDO",
+        "allowListWebsitesNotice": "Esta lista de bloqueo usa una lista de permitidos para los sitios web: se bloquean todos los sitios excepto los de abajo.",
+        "allowListAppsNotice": "Mientras esta lista de bloqueo está activa, solo se permiten las aplicaciones de abajo.",
         "myBlockLists": "MIS LISTAS DE BLOQUEO",
         "createNewBlockList": "Crear nueva lista",
         "blocksCount": "<COUNT> bloqueos",
@@ -2607,6 +2617,23 @@
         "buttonContinueText": "Continuar"
     },
     "helpVcInfo": {
+        "whatHappened": "¿Qué pasó?",
+        "uiTestsPaused": "Las pruebas de interfaz están en pausa.",
+        "titleReportForm": "Informa de un problema o comparte una idea",
+        "subtitleReportForm": "Las capturas de pantalla y tus registros nos ayudan a entender lo que pasó.",
+        "sent": "Enviado ✓",
+        "sending": "Enviando…",
+        "sendToSupport": "Soporte de Focus Bear",
+        "sendToLocalClaude": "Tarea local de Claude",
+        "sendTo": "Enviar a:",
+        "sendFailed": "Error: inténtalo de nuevo",
+        "send": "Enviar",
+        "resumeUiTestsFailed": "No se pudieron reanudar las pruebas de interfaz",
+        "resumeUiTestsConfirm": "¿Reanudar las pruebas de interfaz? Focus Bear se cerrará para que se puedan ejecutar.",
+        "resumeUiTests": "Reanudar las pruebas de interfaz",
+        "removeScreenshot": "Quitar",
+        "pasteFromClipboard": "Pegar desde el portapapeles",
+        "dragPasteOrChoose": "Arrastra, pega o haz clic para elegir",
         "shareLogsValidationText": "Por favor, describa el problema que está experimentando para que nuestros desarrolladores puedan investigarlo adecuadamente. Los registros sin contexto no pueden ser procesados.",
         "shareLogsText": "Focus Bear sigue siendo una aplicación nueva y es posible que encuentres problemas (o tengas grandes ideas para mejorarla). Agradeceríamos mucho tu opinión. Puedes escribirnos a support@focusbear.io. Las capturas de pantalla son muy útiles para que podamos entender el problema. Además, si tuviste un problema, por favor comparte tus registros con el equipo de soporte de Focus Bear (utiliza el siguiente enlace)",
         "buttonShareLogsText": "Compartir registros con el Equipo de Soporte de Focus Bear",
@@ -3969,6 +3996,26 @@
       "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana"
     },
     "scheduleViewInfo":{
+        "tasksDurationHint": "Duración: escribe minutos (30), 45m o 1h y pulsa Intro",
+        "routineTimeInvalidWindows": "Escribe una hora como 7:30, 07:30 o 7:30pm.",
+        "habitTimingNothingWindows": "Los hábitos de la mañana se hacen todos los días en que están programados: elige esos días aquí.",
+        "habitShortenHintWindows": "Se aplica solo el %@ y solo en este ordenador. En todos los demás sitios el hábito mantiene su duración real.",
+        "habitSaveFailedWindows": "No se pudo guardar en tu cuenta. Comprueba tu conexión e inténtalo de nuevo.",
+        "habitPickEmojiWindows": "Emoji (Win + . abre el panel de emojis)",
+        "habitMoreOptionsWindows": "Más opciones en Editar hábitos…",
+        "habitFocusModeUnknownWindows": "(el modo de concentración ya configurado)",
+        "habitFieldIconWindows": "Icono",
+        "habitFieldAllowedAppsHintWindows": "Nombres de aplicaciones tal como aparecen en el Administrador de tareas, por ejemplo notepad o Kindle.",
+        "habitDeleteConfirmWindows": "¿Quitar “%@” de esta rutina? Se guarda en tu cuenta al momento.",
+        "eventSettingsTitleWindows": "Ajustes de la reunión",
+        "eventSettingsHintWindows": "Haz clic para ver los ajustes de esta reunión",
+        "eventFromCalendarWindows": "Esta reunión viene de tu calendario sincronizado: cambia su hora o sus invitados allí.",
+        "datePickerPreviousMonth": "Mes anterior",
+        "datePickerOver": "<DURATION> de más",
+        "datePickerOpen": "Elige una fecha",
+        "datePickerNextMonth": "Mes siguiente",
+        "datePickerLoading": "Cargando el calendario…",
+        "datePickerFree": "<DURATION> libres",
         "projectNeedsExtension": "1 proyecto necesita una prórroga",
         "projectsNeedExtension": "<COUNT> proyectos necesitan una prórroga",
         "projectRequiresFocus": "1 proyecto requiere atención",
@@ -5131,6 +5178,8 @@
         "bubbleText": "Prueba a buscar un objetivo o una palabra clave"
     },
     "startSetUpHabitsVcInfo": {
+        "titleText": "¿Necesitas ideas nuevas de hábitos?",
+        "subTitleText": "Si tienes tu propia lista de hábitos, también puedes importarla.",
         "title": "¿Necesitas ideas nuevas para hábitos?",
         "subTitle": "Si tienes tu propia lista de hábitos, también puedes importarla.",
         "buttonNo": "No — ya tengo algunos hábitos",
@@ -5164,6 +5213,7 @@
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
+        "minimiseWindowTooltip": "Minimizar",
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear está funcionando en segundo plano",
         "newVersionAvailable": "Una nueva versión de Focus Bear está disponible. ¿Deseas actualizar a la última versión de Focus Bear?",
