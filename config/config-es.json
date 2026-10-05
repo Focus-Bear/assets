@@ -1412,6 +1412,28 @@
         "couldNotArchiveNoteText": "No se pudo archivar la nota",
         "couldNotRestoreNoteText": "No se pudo restaurar la nota"
     },
+    "noteImagesInfo": {
+      "insertImageText": "Insertar imagen",
+      "uploadingImageText": "Subiendo imagen…",
+      "loadingImageText": "Cargando imagen…",
+      "imageUnavailableText": "Imagen no disponible",
+      "foreignImageText": "Imagen de otra app",
+      "defaultImageDescription": "Imagen",
+      "unsupportedTypeText": "Ese formato de imagen no es compatible. Usa una imagen PNG, JPEG, GIF o WebP.",
+      "tooLargeText": "Esa imagen es demasiado grande. Las imágenes deben pesar 10 MB o menos.",
+      "notUploadedText": "La imagen no terminó de subirse. Inténtalo de nuevo.",
+      "limitReachedText": "Esta nota ya tiene 100 imágenes, el máximo que admite una nota.",
+      "uploadFailedText": "No se pudo subir la imagen. Inténtalo de nuevo.",
+      "featureUnavailableText": "Todavía no se pueden añadir imágenes a las notas.",
+      "needsTitleText": "Primero añade un título. La nota se guarda antes de añadirle una imagen.",
+      "noteNotSavedText": "No se pudo guardar la nota, así que la imagen no se añadió. Inténtalo de nuevo.",
+      "deleteImageText": "Eliminar imagen",
+      "deleteImageConfirmTitle": "¿Eliminar esta imagen?",
+      "deleteImageConfirmMessage": "Se elimina para todas las personas que pueden ver esta nota. No se puede deshacer.",
+      "deleteImageFailedText": "No se pudo eliminar la imagen. Inténtalo de nuevo.",
+      "deleteImageForbiddenText": "Solo quien añadió esta imagen, el autor de la nota o un administrador del proyecto puede eliminarla.",
+      "cancelText": "Cancelar"
+    },
     "statsViewInfo": {
         "tabGoals": "Tus metas",
         "tabProgress": "Progreso",
