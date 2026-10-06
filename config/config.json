@@ -1392,6 +1392,9 @@
         "underlineText": "Underline",
         "bulletListText": "Bulleted list",
         "numberedListText": "Numbered list",
+        "checklistText": "Checklist",
+        "checklistCheckedText": "Checked",
+        "checklistUncheckedText": "Not checked",
         "allTagsText": "All tags",
         "filterByTagText": "Filter by tag",
         "scopeAllText": "All notes",
@@ -4447,7 +4450,9 @@
       "undo": "Undo",
       "redo": "Redo",
       "taskEmbed": "Linked task",
-      "taskListEmbed": "Task list"
+      "taskListEmbed": "Task list",
+      "checklist": "Checklist",
+      "checklistItem": "Checklist item"
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Open Focus Bear menu",

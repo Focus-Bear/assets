@@ -1392,6 +1392,9 @@
         "underlineText": "Subrayado",
         "bulletListText": "Lista con viñetas",
         "numberedListText": "Lista numerada",
+        "checklistText": "Lista de verificación",
+        "checklistCheckedText": "Marcado",
+        "checklistUncheckedText": "Sin marcar",
         "allTagsText": "Todas las etiquetas",
         "filterByTagText": "Filtrar por etiqueta",
         "scopeAllText": "Todas las notas",
@@ -4445,7 +4448,9 @@
       "undo": "Deshacer",
       "redo": "Rehacer",
       "taskEmbed": "Tarea vinculada",
-      "taskListEmbed": "Lista de tareas"
+      "taskListEmbed": "Lista de tareas",
+      "checklist": "Lista de verificación",
+      "checklistItem": "Elemento de la lista de verificación"
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Abrir el menú de Focus Bear",
