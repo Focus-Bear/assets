@@ -3043,6 +3043,10 @@
         "buttonDoneAddingTasks": "Done adding tasks",
         "noMatchingBlockLists": "No matching block lists",
         "noticeActiveBlockingSchedule": "“<NAME>” is blocking until <TIME>. You can still start a focus session.",
+        "chipDueOverdue": "Overdue",
+        "chipPlanned": "Planned",
+        "accessibilityDueChip": "Due <DATE>",
+        "accessibilityPlannedChip": "In today's Day Plan",
       "headingProjects": "Projects"
     },
     "achieveWithFocusBearVcInfo":{
