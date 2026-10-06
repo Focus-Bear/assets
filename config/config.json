@@ -1598,7 +1598,7 @@
         "importErrorOffline": "You're offline. Connect to the internet and try again.",
         "importErrorRateLimited": "That's a lot of imports in a short time. Try again in an hour.",
         "importErrorTimedOut": "The import is taking longer than expected. Your cards appear here once it finishes.",
-        "importErrorNeedsLegacyExport": "Preview mode can't read the newest Anki file format. In Anki, export again with \"Support older Anki versions\" ticked, then import that file.",
+        "importErrorNeedsLegacyExport": "Revise can't read this Anki file's format. In Anki, export again with \"Support older Anki versions\" ticked, then import that file.",
         "importAnother": "Import another file",
         "importDone": "Done",
         "importUntitledDeck": "Imported deck",

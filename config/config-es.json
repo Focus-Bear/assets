@@ -1598,7 +1598,7 @@
         "importErrorOffline": "No tienes conexión. Conéctate a internet e inténtalo de nuevo.",
         "importErrorRateLimited": "Son muchas importaciones en poco tiempo. Inténtalo de nuevo dentro de una hora.",
         "importErrorTimedOut": "La importación está tardando más de lo esperado. Tus tarjetas aparecerán aquí cuando termine.",
-        "importErrorNeedsLegacyExport": "El modo de vista previa no puede leer el formato de archivo más reciente de Anki. En Anki, vuelve a exportar con \"Compatibilidad con versiones anteriores de Anki\" marcado y luego importa ese archivo.",
+        "importErrorNeedsLegacyExport": "Revise no puede leer el formato de este archivo de Anki. En Anki, vuelve a exportar con \"Compatibilidad con versiones anteriores de Anki\" marcado y luego importa ese archivo.",
         "importAnother": "Importar otro archivo",
         "importDone": "Listo",
         "importUntitledDeck": "Mazo importado",
