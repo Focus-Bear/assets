@@ -1610,6 +1610,7 @@
         "imageLabel": "Imagen: {name}",
         "imageUnavailable": "Imagen no disponible",
         "addImage": "Añadir imagen…",
+        "removeImage": "Quitar {name}",
         "imageAddFailed": "No se pudo añadir esa imagen. Usa un PNG, JPEG, GIF o WebP de menos de 10 MB y vuelve a intentarlo cuando tengas conexión."
     },
     "statsViewInfo": {
