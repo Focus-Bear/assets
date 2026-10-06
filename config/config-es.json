@@ -3041,6 +3041,10 @@
         "buttonDoneAddingTasks": "Listo, no añadir más tareas",
         "noMatchingBlockLists": "No hay listas de bloqueo que coincidan",
         "noticeActiveBlockingSchedule": "“<NAME>” está bloqueando hasta las <TIME>. Aún puedes iniciar una sesión de concentración.",
+        "chipDueOverdue": "Vencida",
+        "chipPlanned": "Planificada",
+        "accessibilityDueChip": "Vence <DATE>",
+        "accessibilityPlannedChip": "En el plan del día de hoy",
       "headingProjects": "Proyectos"
     },
     "achieveWithFocusBearVcInfo":{
