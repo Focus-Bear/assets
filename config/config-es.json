@@ -3984,6 +3984,7 @@
         "chooseCalendars": "Elegir calendarios",
         "allCalendars": "Todos los calendarios, incluidos los nuevos",
         "calendarSelectionHelp": "Elige los calendarios que aparecen en tu plan del día y se usan para calcular el tiempo disponible.",
+        "eventNoDayPlanCalendars": "Ninguno de los calendarios de tu plan del día admite eventos nuevos. Activa uno para añadir eventos aquí.",
         "habitFieldIcon": "Icono del hábito",
         "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
         "tasksShortcutsDismiss": "No mostrar de nuevo",

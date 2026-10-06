@@ -3986,6 +3986,7 @@
         "chooseCalendars": "Choose calendars",
         "allCalendars": "All calendars, including new ones",
         "calendarSelectionHelp": "Choose the calendars shown in your Day Plan and used to calculate available time.",
+        "eventNoDayPlanCalendars": "None of your Day Plan calendars can take new events. Turn one on to add events here.",
         "habitFieldIcon": "Habit icon",
         "tasksShortcutsTitle": "Shortcuts you can type in the name",
         "tasksShortcutsDismiss": "Don't show this again",
