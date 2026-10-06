@@ -1603,7 +1603,12 @@
         "importDone": "Done",
         "importUntitledDeck": "Imported deck",
         "importImagePlaceholder": "[image: {name}]",
-        "importAudioPlaceholder": "[audio: {name}]"
+        "importAudioPlaceholder": "[audio: {name}]",
+        "importCardsUpdated": "Cards updated from the file, progress kept: {count}",
+        "importCardsUnchanged": "Cards already up to date: {count}",
+        "importImages": "Images imported: {count}",
+        "imageLabel": "Image: {name}",
+        "imageUnavailable": "Image unavailable"
     },
     "statsViewInfo": {
         "tabGoals": "Your Goals",

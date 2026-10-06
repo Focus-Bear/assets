@@ -1603,7 +1603,12 @@
         "importDone": "Listo",
         "importUntitledDeck": "Mazo importado",
         "importImagePlaceholder": "[imagen: {name}]",
-        "importAudioPlaceholder": "[audio: {name}]"
+        "importAudioPlaceholder": "[audio: {name}]",
+        "importCardsUpdated": "Tarjetas actualizadas desde el archivo, con su progreso: {count}",
+        "importCardsUnchanged": "Tarjetas que ya estaban al día: {count}",
+        "importImages": "Imágenes importadas: {count}",
+        "imageLabel": "Imagen: {name}",
+        "imageUnavailable": "Imagen no disponible"
     },
     "statsViewInfo": {
         "tabGoals": "Tus metas",
