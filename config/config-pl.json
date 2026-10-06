@@ -3363,7 +3363,8 @@
     "unsavedFrequencyMessage": "Częstotliwość przerw została zmieniona, ale przerwy nie są jeszcze włączone. Włączyć przerwy z nowym odstępem?",
     "unsavedFrequencyTurnOnButton": "Włącz przerwy",
     "unsavedFrequencyDiscardButton": "Odrzuć zmianę",
-    "unsavedFrequencyCancelButton": "Anuluj"
+    "unsavedFrequencyCancelButton": "Anuluj",
+    "buttonBreakSettings": "Ustawienia przerw"
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Udostępnione Tobie",

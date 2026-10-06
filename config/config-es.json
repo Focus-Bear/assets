@@ -3350,7 +3350,8 @@
         "unsavedFrequencyMessage": "Cambiaste la frecuencia de los descansos pero aún no los has activado. ¿Quieres activar los descansos con el nuevo intervalo?",
         "unsavedFrequencyTurnOnButton": "Activar descansos",
         "unsavedFrequencyDiscardButton": "Descartar cambio",
-        "unsavedFrequencyCancelButton": "Cancelar"
+        "unsavedFrequencyCancelButton": "Cancelar",
+        "buttonBreakSettings": "Configuración de descansos"
     },
     "toDoListViewInfo":{
         "sharedWithYouBadgeText": "Compartido contigo",

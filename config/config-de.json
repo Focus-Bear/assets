@@ -3363,7 +3363,8 @@
     "unsavedFrequencyMessage": "Du hast geändert, wie oft du eine Pause möchtest, hast Pausen aber noch nicht eingeschaltet. Pausen mit dem neuen Intervall einschalten?",
     "unsavedFrequencyTurnOnButton": "Pausen einschalten",
     "unsavedFrequencyDiscardButton": "Änderung verwerfen",
-    "unsavedFrequencyCancelButton": "Abbrechen"
+    "unsavedFrequencyCancelButton": "Abbrechen",
+    "buttonBreakSettings": "Pauseneinstellungen"
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Mit dir geteilt",
