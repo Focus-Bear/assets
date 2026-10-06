@@ -3363,7 +3363,8 @@
     "unsavedFrequencyMessage": "Tu as changé la fréquence de tes pauses mais tu ne les as pas encore activées. Activer les pauses avec le nouvel intervalle ?",
     "unsavedFrequencyTurnOnButton": "Activer les pauses",
     "unsavedFrequencyDiscardButton": "Abandonner le changement",
-    "unsavedFrequencyCancelButton": "Annuler"
+    "unsavedFrequencyCancelButton": "Annuler",
+    "buttonBreakSettings": "Réglages des pauses"
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Partagé avec vous",

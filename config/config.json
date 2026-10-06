@@ -3352,7 +3352,8 @@
         "unsavedFrequencyMessage": "You changed how often you'd like a break but haven't turned breaks on yet. Turn breaks on with the new interval?",
         "unsavedFrequencyTurnOnButton": "Turn breaks on",
         "unsavedFrequencyDiscardButton": "Discard change",
-        "unsavedFrequencyCancelButton": "Cancel"
+        "unsavedFrequencyCancelButton": "Cancel",
+        "buttonBreakSettings": "Break settings"
     },
     "toDoListViewInfo":{
         "sharedWithYouBadgeText": "Shared with you",
