@@ -1665,7 +1665,16 @@
         "imageUnavailable": "Image unavailable",
         "addImage": "Add image…",
         "removeImage": "Remove {name}",
-        "imageAddFailed": "Couldn't add that image. Use a PNG, JPEG, GIF or WebP under 10 MB, and try again when you're online."
+        "imageAddFailed": "Couldn't add that image. Use a PNG, JPEG, GIF or WebP under 10 MB, and try again when you're online.",
+        "imageOpenHint": "Show it larger",
+        "imageTurnLeft": "Rotate left",
+        "imageTurnRight": "Rotate right",
+        "imageClose": "Close",
+        "imageSaveOrientation": "Save orientation",
+        "imageSaveOrientationPrompt": "Save this orientation for next time?",
+        "imageNotNow": "Not now",
+        "imageRotationSaveFailed": "Couldn't save the orientation. Try again when you're online.",
+        "imageLightboxOpened": "{name}, shown larger. Command-Left Arrow and Command-Right Arrow rotate it; Escape closes it."
     },
     "statsViewInfo": {
         "tabGoals": "Your Goals",

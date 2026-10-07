@@ -1665,7 +1665,16 @@
         "imageUnavailable": "Imagen no disponible",
         "addImage": "Añadir imagen…",
         "removeImage": "Quitar {name}",
-        "imageAddFailed": "No se pudo añadir esa imagen. Usa un PNG, JPEG, GIF o WebP de menos de 10 MB y vuelve a intentarlo cuando tengas conexión."
+        "imageAddFailed": "No se pudo añadir esa imagen. Usa un PNG, JPEG, GIF o WebP de menos de 10 MB y vuelve a intentarlo cuando tengas conexión.",
+        "imageOpenHint": "Verla más grande",
+        "imageTurnLeft": "Girar a la izquierda",
+        "imageTurnRight": "Girar a la derecha",
+        "imageClose": "Cerrar",
+        "imageSaveOrientation": "Guardar orientación",
+        "imageSaveOrientationPrompt": "¿Guardar esta orientación para la próxima vez?",
+        "imageNotNow": "Ahora no",
+        "imageRotationSaveFailed": "No se pudo guardar la orientación. Vuelve a intentarlo cuando tengas conexión.",
+        "imageLightboxOpened": "{name}, ampliada. Comando + flecha izquierda y Comando + flecha derecha la giran; Escape la cierra."
     },
     "statsViewInfo": {
         "tabGoals": "Tus metas",
