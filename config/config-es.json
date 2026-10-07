@@ -3831,6 +3831,8 @@
       "outcomePostponeYearsText": "Se puede posponer años"
     },
     "localForecastViewInfo": {
+        "cannotMoveHeading": "No se pueden mover — mayor resultado primero (<COUNT>)",
+        "cannotMoveFirst": "Resuelve estas primero: sus fechas determinan todo lo de abajo.",
         "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana",
         "allWorkComplete": "Todas las tareas de este proyecto están completadas",
         "generatePlan": "Reprogramar tareas",

@@ -3833,6 +3833,8 @@
       "outcomePostponeYearsText": "Can postpone for years"
     },
     "localForecastViewInfo": {
+        "cannotMoveHeading": "Can’t be moved — highest outcome first (<COUNT>)",
+        "cannotMoveFirst": "Fix these first — their dates shape everything below.",
         "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow",
         "allWorkComplete": "All tasks in this project are complete",
         "generatePlan": "Reschedule tasks",

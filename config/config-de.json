@@ -3826,6 +3826,8 @@
     "outcomePostponeYearsText": "Kann Jahre warten"
   },
   "localForecastViewInfo": {
+    "cannotMoveHeading": "Nicht verschiebbar — höchstes Ergebnis zuerst (<COUNT>)",
+    "cannotMoveFirst": "Kläre diese zuerst — ihre Termine bestimmen alles darunter.",
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern",
     "allWorkComplete": "Alle Aufgaben in diesem Projekt sind erledigt",
     "generatePlan": "Aufgaben neu planen",

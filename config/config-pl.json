@@ -3826,6 +3826,8 @@
     "outcomePostponeYearsText": "Można odłożyć o lata"
   },
   "localForecastViewInfo": {
+    "cannotMoveHeading": "Nie można przenieść — najpierw najwyższy rezultat (<COUNT>)",
+    "cannotMoveFirst": "Zajmij się nimi najpierw — ich daty wpływają na wszystko poniżej.",
     "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro",
     "allWorkComplete": "Wszystkie zadania w tym projekcie są ukończone",
     "generatePlan": "Zaplanuj zadania ponownie",

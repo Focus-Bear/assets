@@ -3826,6 +3826,8 @@
     "outcomePostponeYearsText": "Peut être reporté de plusieurs années"
   },
   "localForecastViewInfo": {
+    "cannotMoveHeading": "Impossible à déplacer — résultat le plus élevé d’abord (<COUNT>)",
+    "cannotMoveFirst": "Réglez-les d’abord : leurs dates déterminent tout ce qui suit.",
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain",
     "allWorkComplete": "Toutes les tâches de ce projet sont terminées",
     "generatePlan": "Replanifier les tâches",
