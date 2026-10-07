@@ -3828,6 +3828,13 @@
   "localForecastViewInfo": {
     "cannotMoveHeading": "Impossible à déplacer — résultat le plus élevé d’abord (<COUNT>)",
     "cannotMoveFirst": "Réglez-les d’abord : leurs dates déterminent tout ce qui suit.",
+    "suggestedDateHint": "Suggestion : <DATE>, le premier jour où il reste du temps. Appuyez sur Entrée pour l’utiliser ou saisissez une autre date.",
+    "tickToUseSuggestedDate": "Cochez pour la déplacer au <DATE>, le premier jour où il reste du temps.",
+    "moveToProjectTitle": "Déplacer vers un projet",
+    "moveToProjectConfirm": "Déplacer",
+    "editProjectSettings": "Modifier le résultat et la date de fin de <PROJECT>",
+    "projectEndDateLabel": "Date de fin",
+    "projectSettingsNotSaved": "Impossible d’enregistrer le résultat ou la date de fin du projet. Réessayez.",
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain",
     "allWorkComplete": "Toutes les tâches de ce projet sont terminées",
     "generatePlan": "Replanifier les tâches",

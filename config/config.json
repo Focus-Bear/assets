@@ -3835,6 +3835,13 @@
     "localForecastViewInfo": {
         "cannotMoveHeading": "Can’t be moved — highest outcome first (<COUNT>)",
         "cannotMoveFirst": "Fix these first — their dates shape everything below.",
+        "suggestedDateHint": "Suggested: <DATE>, the first day there’s room. Press Return to use it, or type another date.",
+        "tickToUseSuggestedDate": "Tick to move it to <DATE>, the first day there’s room.",
+        "moveToProjectTitle": "Move to project",
+        "moveToProjectConfirm": "Move",
+        "editProjectSettings": "Change the outcome and end date of <PROJECT>",
+        "projectEndDateLabel": "End date",
+        "projectSettingsNotSaved": "Couldn’t save the project’s outcome or end date. Try again.",
         "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow",
         "allWorkComplete": "All tasks in this project are complete",
         "generatePlan": "Reschedule tasks",

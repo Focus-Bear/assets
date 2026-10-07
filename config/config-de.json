@@ -3828,6 +3828,13 @@
   "localForecastViewInfo": {
     "cannotMoveHeading": "Nicht verschiebbar — höchstes Ergebnis zuerst (<COUNT>)",
     "cannotMoveFirst": "Kläre diese zuerst — ihre Termine bestimmen alles darunter.",
+    "suggestedDateHint": "Vorschlag: <DATE>, der erste Tag mit freier Zeit. Drücke die Eingabetaste, um ihn zu übernehmen, oder gib ein anderes Datum ein.",
+    "tickToUseSuggestedDate": "Abhaken, um sie auf den <DATE> zu verschieben, den ersten Tag mit freier Zeit.",
+    "moveToProjectTitle": "In Projekt verschieben",
+    "moveToProjectConfirm": "Verschieben",
+    "editProjectSettings": "Ergebnis und Enddatum von <PROJECT> ändern",
+    "projectEndDateLabel": "Enddatum",
+    "projectSettingsNotSaved": "Ergebnis oder Enddatum des Projekts konnten nicht gespeichert werden. Versuche es erneut.",
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern",
     "allWorkComplete": "Alle Aufgaben in diesem Projekt sind erledigt",
     "generatePlan": "Aufgaben neu planen",

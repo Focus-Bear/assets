@@ -3828,6 +3828,13 @@
   "localForecastViewInfo": {
     "cannotMoveHeading": "Nie można przenieść — najpierw najwyższy rezultat (<COUNT>)",
     "cannotMoveFirst": "Zajmij się nimi najpierw — ich daty wpływają na wszystko poniżej.",
+    "suggestedDateHint": "Sugestia: <DATE>, pierwszy dzień z wolnym czasem. Naciśnij Enter, aby ją przyjąć, lub wpisz inną datę.",
+    "tickToUseSuggestedDate": "Zaznacz, aby przenieść na <DATE>, pierwszy dzień z wolnym czasem.",
+    "moveToProjectTitle": "Przenieś do projektu",
+    "moveToProjectConfirm": "Przenieś",
+    "editProjectSettings": "Zmień wynik i datę zakończenia projektu <PROJECT>",
+    "projectEndDateLabel": "Data zakończenia",
+    "projectSettingsNotSaved": "Nie udało się zapisać wyniku ani daty zakończenia projektu. Spróbuj ponownie.",
     "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro",
     "allWorkComplete": "Wszystkie zadania w tym projekcie są ukończone",
     "generatePlan": "Zaplanuj zadania ponownie",

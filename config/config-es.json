@@ -3833,6 +3833,13 @@
     "localForecastViewInfo": {
         "cannotMoveHeading": "No se pueden mover — mayor resultado primero (<COUNT>)",
         "cannotMoveFirst": "Resuelve estas primero: sus fechas determinan todo lo de abajo.",
+        "suggestedDateHint": "Sugerencia: <DATE>, el primer día con hueco. Pulsa Intro para usarla o escribe otra fecha.",
+        "tickToUseSuggestedDate": "Márcala para moverla al <DATE>, el primer día con hueco.",
+        "moveToProjectTitle": "Mover a proyecto",
+        "moveToProjectConfirm": "Mover",
+        "editProjectSettings": "Cambiar el resultado y la fecha de fin de <PROJECT>",
+        "projectEndDateLabel": "Fecha de fin",
+        "projectSettingsNotSaved": "No se pudo guardar el resultado ni la fecha de fin del proyecto. Inténtalo de nuevo.",
         "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana",
         "allWorkComplete": "Todas las tareas de este proyecto están completadas",
         "generatePlan": "Reprogramar tareas",
