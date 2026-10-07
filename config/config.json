@@ -1458,6 +1458,8 @@
         "comingSoonTitle": "Revise is coming soon",
         "comingSoonMessage": "Spaced-repetition flashcards are on their way. Check back after the next update.",
         "loading": "Loading your cards…",
+        "loadingProgress": "Loaded {done} of {total} cards…",
+        "loadingCount": "Loaded {count} cards…",
         "offlineBanner": "You're offline. Changes are saved on this Mac and sync when you're back online.",
         "offlineEmpty": "Connect to the internet to load your cards for the first time.",
         "pendingChanges": "Changes waiting to sync: {count}",

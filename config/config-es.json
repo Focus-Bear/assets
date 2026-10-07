@@ -1458,6 +1458,8 @@
         "comingSoonTitle": "Repasar llegará pronto",
         "comingSoonMessage": "Las tarjetas con repetición espaciada están en camino. Vuelve después de la próxima actualización.",
         "loading": "Cargando tus tarjetas…",
+        "loadingProgress": "Cargadas {done} de {total} tarjetas…",
+        "loadingCount": "Tarjetas cargadas: {count}…",
         "offlineBanner": "Estás sin conexión. Los cambios se guardan en este Mac y se sincronizan cuando vuelvas a estar en línea.",
         "offlineEmpty": "Conéctate a internet para cargar tus tarjetas por primera vez.",
         "pendingChanges": "Cambios pendientes de sincronizar: {count}",
