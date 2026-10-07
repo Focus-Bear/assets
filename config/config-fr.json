@@ -3445,6 +3445,8 @@
     "savedViewNamePlaceholder": "ex. À rendre pour la prochaine réunion avec mon directeur de thèse",
     "savedViewSameNameReplacesText": "Une vue porte déjà ce nom. L’enregistrer remplacera ses filtres.",
     "savedViewsStoredLocallyText": "Pour l’instant, les vues enregistrées restent sur ce Mac.",
+    "savedViewsSyncedText": "Les vues enregistrées se synchronisent entre vos appareils.",
+    "savedViewLimitReachedText": "Vous pouvez enregistrer jusqu’à <COUNT> vues. Supprimez-en une pour en enregistrer une autre.",
     "renameSavedViewText": "Renommer…",
     "renameSavedViewTitleText": "Renommer la vue enregistrée",
     "savedViewNameTakenText": "Une autre vue enregistrée porte déjà ce nom.",

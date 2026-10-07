@@ -3445,6 +3445,8 @@
     "savedViewNamePlaceholder": "z. B. Fällig zum nächsten Treffen mit der Doktormutter",
     "savedViewSameNameReplacesText": "Eine Ansicht mit diesem Namen gibt es schon. Beim Speichern werden ihre Filter ersetzt.",
     "savedViewsStoredLocallyText": "Gespeicherte Ansichten bleiben vorerst auf diesem Mac.",
+    "savedViewsSyncedText": "Gespeicherte Ansichten werden zwischen deinen Geräten synchronisiert.",
+    "savedViewLimitReachedText": "Du kannst bis zu <COUNT> Ansichten speichern. Lösche eine, um eine weitere zu speichern.",
     "renameSavedViewText": "Umbenennen…",
     "renameSavedViewTitleText": "Gespeicherte Ansicht umbenennen",
     "savedViewNameTakenText": "Eine andere gespeicherte Ansicht hat bereits diesen Namen.",

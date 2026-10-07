@@ -3445,6 +3445,8 @@
     "savedViewNamePlaceholder": "np. Na następne spotkanie z promotorem",
     "savedViewSameNameReplacesText": "Widok o tej nazwie już istnieje. Zapisanie zastąpi jego filtry.",
     "savedViewsStoredLocallyText": "Na razie zapisane widoki są przechowywane na tym Macu.",
+    "savedViewsSyncedText": "Zapisane widoki synchronizują się między Twoimi urządzeniami.",
+    "savedViewLimitReachedText": "Możesz zapisać maksymalnie <COUNT> widoków. Usuń jeden, aby zapisać kolejny.",
     "renameSavedViewText": "Zmień nazwę…",
     "renameSavedViewTitleText": "Zmień nazwę zapisanego widoku",
     "savedViewNameTakenText": "Inny zapisany widok ma już tę nazwę.",

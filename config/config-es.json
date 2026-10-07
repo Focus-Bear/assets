@@ -3432,6 +3432,8 @@
         "savedViewNamePlaceholder": "p. ej., Pendiente para la próxima reunión con mi director de tesis",
         "savedViewSameNameReplacesText": "Ya existe una vista con este nombre. Al guardar se reemplazarán sus filtros.",
         "savedViewsStoredLocallyText": "Por ahora, las vistas guardadas se conservan en este Mac.",
+        "savedViewsSyncedText": "Las vistas guardadas se sincronizan entre tus dispositivos.",
+        "savedViewLimitReachedText": "Puedes guardar hasta <COUNT> vistas. Elimina una para guardar otra.",
         "renameSavedViewText": "Cambiar nombre…",
         "renameSavedViewTitleText": "Cambiar nombre de la vista guardada",
         "savedViewNameTakenText": "Ya hay otra vista guardada con este nombre.",

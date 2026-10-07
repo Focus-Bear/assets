@@ -3434,6 +3434,8 @@
         "savedViewNamePlaceholder": "e.g. Due for next PhD supervisor meeting",
         "savedViewSameNameReplacesText": "A view with this name already exists. Saving replaces its filters.",
         "savedViewsStoredLocallyText": "Saved views are kept on this Mac for now.",
+        "savedViewsSyncedText": "Saved views sync across your devices.",
+        "savedViewLimitReachedText": "You can save up to <COUNT> views. Delete one to save another.",
         "renameSavedViewText": "Rename…",
         "renameSavedViewTitleText": "Rename saved view",
         "savedViewNameTakenText": "Another saved view already has this name.",
