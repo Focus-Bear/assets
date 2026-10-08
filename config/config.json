@@ -1463,8 +1463,8 @@
         "offlineBanner": "You're offline. Changes are saved on this Mac and sync when you're back online.",
         "offlineEmpty": "Connect to the internet to load your cards for the first time.",
         "pendingChanges": "Changes waiting to sync: {count}",
-    "uploadRefused": "Your account didn't take {count} cards yet. They're kept on this Mac and sent again each time Revise syncs.",
-    "uploadWaiting": "Cards only on this Mac so far: {count}. They upload by themselves, and sessions include them once they're in your account.",
+        "uploadWaiting": "Cards only on this Mac so far: {count}. They upload by themselves, and sessions include them once they're in your account.",
+        "uploadRefused": "Your account didn't take {count} cards yet. They're kept on this Mac and sent again each time Revise syncs.",
         "newDeck": "New deck",
         "newDeckHowTitle": "How do you want to add cards?",
         "newDeckEmpty": "Write them myself",
@@ -1616,7 +1616,7 @@
         "previewCopy": "Copy them to my account",
         "previewDiscard": "Delete them",
         "previewDiscardConfirm": "Delete the cards you made in preview mode? This can't be undone.",
-    "previewCopying": "Copying your preview cards to your account: {count} to go. The preview copy stays on this Mac until they're all there."
+        "previewCopying": "Copying your preview cards to your account: {count} to go. The preview copy stays on this Mac until they're all there."
 ,
         "importAction": "Import from Anki / AlgoApp…",
         "importTitle": "Import decks",

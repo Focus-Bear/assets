@@ -1463,8 +1463,8 @@
         "offlineBanner": "Estás sin conexión. Los cambios se guardan en este Mac y se sincronizan cuando vuelvas a estar en línea.",
         "offlineEmpty": "Conéctate a internet para cargar tus tarjetas por primera vez.",
         "pendingChanges": "Cambios pendientes de sincronizar: {count}",
-    "uploadRefused": "Tu cuenta todavía no aceptó {count} tarjetas. Se guardan en este Mac y se vuelven a enviar cada vez que Revise se sincroniza.",
-    "uploadWaiting": "Tarjetas que por ahora solo están en este Mac: {count}. Se suben solas, y las sesiones las incluyen cuando ya están en tu cuenta.",
+        "uploadWaiting": "Tarjetas que por ahora solo están en este Mac: {count}. Se suben solas, y las sesiones las incluyen cuando ya están en tu cuenta.",
+        "uploadRefused": "Tu cuenta todavía no aceptó {count} tarjetas. Se guardan en este Mac y se vuelven a enviar cada vez que Revise se sincroniza.",
         "newDeck": "Nuevo mazo",
         "newDeckHowTitle": "¿Cómo quieres añadir tarjetas?",
         "newDeckEmpty": "Las escribo yo",
@@ -1616,7 +1616,7 @@
         "previewCopy": "Copiarlas a mi cuenta",
         "previewDiscard": "Eliminarlas",
         "previewDiscardConfirm": "¿Eliminar las tarjetas que creaste en el modo de vista previa? No se puede deshacer.",
-    "previewCopying": "Copiando a tu cuenta las tarjetas de la vista previa: faltan {count}. La copia de la vista previa se queda en este Mac hasta que estén todas."
+        "previewCopying": "Copiando a tu cuenta las tarjetas de la vista previa: faltan {count}. La copia de la vista previa se queda en este Mac hasta que estén todas."
 ,
         "importAction": "Importar de Anki / AlgoApp…",
         "importTitle": "Importar mazos",
