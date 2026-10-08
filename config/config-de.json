@@ -3915,6 +3915,8 @@
     "savingProgress": "<COUNT> von <TOTAL> werden gespeichert…",
     "planSavedWithFailures": "<COUNT> von <TOTAL> Änderungen gespeichert. Diese konnten nicht gespeichert werden:",
     "retryFailed": "Diese <COUNT> erneut versuchen",
+    "checkingForChanges": "Suche nach Änderungen…",
+    "updatingPlan": "Plan wird aktualisiert…",
     "hardDeadline": "Die feste Deadline lässt sich mit der verfügbaren Zeit nicht einhalten. Das Datum wurde nicht verschoben.",
     "postponementLimit": "Die Fertigstellung würde den für dieses Ergebnis erlaubten Aufschub überschreiten. Prüfe Umfang oder Priorität.",
     "postponementLimitNeedsUntil": "Braucht bis <DATE> — länger, als „<BAND>“ erlaubt. Wähle ein neues Datum oder stufe es als flexibler ein.",

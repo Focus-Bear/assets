@@ -3951,6 +3951,8 @@
         "savingProgress": "Saving <COUNT> of <TOTAL>…",
         "planSavedWithFailures": "Saved <COUNT> of <TOTAL> changes. These couldn’t be saved:",
         "retryFailed": "Retry these <COUNT>",
+        "checkingForChanges": "Checking for changes…",
+        "updatingPlan": "Updating the plan…",
         "hardDeadline": "The hard deadline cannot be met with the available time. Its date has not been moved.",
         "postponementLimit": "Can’t be finished until <DATE>, which is further past its deadline than “<BAND>” allows.",
         "postponementLimitNoDate": "Can’t be finished inside the time “<BAND>” allows.",

@@ -3915,6 +3915,8 @@
     "savingProgress": "Zapisywanie: <COUNT> z <TOTAL>…",
     "planSavedWithFailures": "Zapisano <COUNT> z <TOTAL> zmian. Tych nie udało się zapisać:",
     "retryFailed": "Ponów te zmiany (<COUNT>)",
+    "checkingForChanges": "Sprawdzanie zmian…",
+    "updatingPlan": "Aktualizowanie planu…",
     "hardDeadline": "Sztywnego terminu nie da się dotrzymać w dostępnym czasie. Jego data nie została zmieniona.",
     "postponementLimit": "Ukończenie przekroczyłoby przesunięcie dozwolone dla tego rezultatu. Sprawdź zakres lub priorytet.",
     "postponementLimitNeedsUntil": "Potrzebuje czasu do <DATE> — dłużej, niż pozwala „<BAND>”. Wybierz nową datę albo oceń termin jako bardziej elastyczny.",
