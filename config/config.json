@@ -3800,6 +3800,8 @@
         "couldNotCreateNoteText": "Could not create the note",
         "emptyNoteText": "This note is empty.",
         "showInTaskListText": "Show in task list",
+        "assignedToText": "Assigned to <NAME>",
+        "subtaskProgressText": "<DONE> of <TOTAL> subtasks done",
         "mergeProjectText": "Merge into another project…",
         "mergeProjectTitleText": "Merge <PROJECT> into…",
         "mergeProjectExplanationText": "Every task moves to the project you pick, and <PROJECT> is archived once it's empty. Tasks synced from another tool stay where they are.",
