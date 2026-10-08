@@ -3798,6 +3798,8 @@
         "couldNotCreateNoteText": "No se pudo crear la nota",
         "emptyNoteText": "Esta nota está vacía.",
         "showInTaskListText": "Ver en la lista de tareas",
+        "assignedToText": "Asignada a <NAME>",
+        "subtaskProgressText": "<DONE> de <TOTAL> subtareas hechas",
         "mergeProjectText": "Combinar con otro proyecto…",
         "mergeProjectTitleText": "Combinar <PROJECT> con…",
         "mergeProjectExplanationText": "Todas las tareas pasan al proyecto que elijas y <PROJECT> se archiva cuando queda vacío. Las tareas sincronizadas desde otra herramienta se quedan donde están.",
