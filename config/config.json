@@ -1688,7 +1688,15 @@
         "imageSaveOrientationPrompt": "Save this orientation for next time?",
         "imageNotNow": "Not now",
         "imageRotationSaveFailed": "Couldn't save the orientation. Try again when you're online.",
-        "imageLightboxOpened": "{name}, shown larger. Command-Left Arrow and Command-Right Arrow rotate it; Escape closes it."
+        "imageLightboxOpened": "{name}, shown larger. Command-Left Arrow and Command-Right Arrow rotate it; Escape closes it.",
+        "offlineBannerWindows": "You're offline. Changes are saved on this computer and sync when you're back online.",
+        "uploadWaitingWindows": "Cards only on this computer so far: {count}. They upload by themselves, and sessions include them once they're in your account.",
+        "refusedWritesWindows": "Your account didn't accept {count} changes. New cards are kept on this computer and sent again each time Revise syncs; other changes were not saved.",
+        "dismiss": "Dismiss",
+        "noCardsYetWindows": "No cards yet. Add your first card to start revising.",
+        "imageFilesFilterWindows": "Images",
+        "showMoreCards": "Show more cards",
+        "offlineSessionWindows": "You're offline, so this session uses the cards saved on this computer. Your answers sync when you're back online."
     },
     "statsViewInfo": {
         "tabGoals": "Your Goals",

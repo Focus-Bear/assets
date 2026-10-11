@@ -1688,7 +1688,15 @@
         "imageSaveOrientationPrompt": "¿Guardar esta orientación para la próxima vez?",
         "imageNotNow": "Ahora no",
         "imageRotationSaveFailed": "No se pudo guardar la orientación. Vuelve a intentarlo cuando tengas conexión.",
-        "imageLightboxOpened": "{name}, ampliada. Comando + flecha izquierda y Comando + flecha derecha la giran; Escape la cierra."
+        "imageLightboxOpened": "{name}, ampliada. Comando + flecha izquierda y Comando + flecha derecha la giran; Escape la cierra.",
+        "offlineBannerWindows": "Estás sin conexión. Los cambios se guardan en este equipo y se sincronizan cuando vuelvas a estar en línea.",
+        "uploadWaitingWindows": "Tarjetas que de momento solo están en este equipo: {count}. Se suben solas, y las sesiones las incluyen cuando ya estén en tu cuenta.",
+        "refusedWritesWindows": "Tu cuenta no aceptó {count} cambios. Las tarjetas nuevas se conservan en este equipo y se vuelven a enviar cada vez que Repasar se sincroniza; los demás cambios no se guardaron.",
+        "dismiss": "Descartar",
+        "noCardsYetWindows": "Todavía no hay tarjetas. Añade tu primera tarjeta para empezar a repasar.",
+        "imageFilesFilterWindows": "Imágenes",
+        "showMoreCards": "Mostrar más tarjetas",
+        "offlineSessionWindows": "Estás sin conexión, así que esta sesión usa las tarjetas guardadas en este equipo. Tus respuestas se sincronizan cuando vuelvas a estar en línea."
     },
     "statsViewInfo": {
         "tabGoals": "Tus metas",
