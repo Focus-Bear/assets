@@ -4482,7 +4482,16 @@
         "recoveryFoundText": "Una grabación de clase del <DATE> (<DURATION>) no se guardó.",
         "recoverText": "Añadirla a esta nota",
         "recoveringText": "Recuperando la clase…",
-        "recoveryFailedText": "No se pudo recuperar la clase. Sus archivos se conservan en este Mac."
+        "recoveryFailedText": "No se pudo recuperar la clase. Sus archivos se conservan en este Mac.",
+        "lectureReadyText": "Tu clase está lista",
+        "couldNotUploadText": "No se pudo subir la grabación de la clase. Se conserva en este Mac.",
+        "couldNotSaveText": "No se pudo añadir la grabación de la clase a la nota. Se conserva en este Mac.",
+        "notificationTitle": "Tu clase está lista",
+        "notificationBodyText": "Abre “<TITLE>” para leer tus notas y la transcripción y escuchar la grabación.",
+        "tooLargeTitle": "Esta grabación de clase es demasiado grande para adjuntarla",
+        "tooLargeMessageText": "La grabación ocupa <SIZE> y una nota admite grabaciones de hasta <LIMIT>. Tus notas y la transcripción se guardan en la nota en cualquier caso. Guarda la grabación como archivo para conservarla.",
+        "saveRecordingAsText": "Guardar grabación como…",
+        "saveWithoutRecordingText": "Guardar sin la grabación"
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Abrir el menú de Focus Bear",

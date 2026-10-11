@@ -4484,7 +4484,16 @@
         "recoveryFoundText": "A lecture recording from <DATE> (<DURATION>) wasn't saved.",
         "recoverText": "Add it to this note",
         "recoveringText": "Recovering the lecture…",
-        "recoveryFailedText": "Couldn't recover the lecture. Its files are kept on this Mac."
+        "recoveryFailedText": "Couldn't recover the lecture. Its files are kept on this Mac.",
+        "lectureReadyText": "Your lecture is ready",
+        "couldNotUploadText": "Couldn't upload your lecture recording. It's kept on this Mac.",
+        "couldNotSaveText": "Couldn't add the lecture recording to the note. It's kept on this Mac.",
+        "notificationTitle": "Your lecture is ready",
+        "notificationBodyText": "Open “<TITLE>” to read your notes and the transcript and play the recording.",
+        "tooLargeTitle": "This lecture recording is too large to attach",
+        "tooLargeMessageText": "The recording is <SIZE>, and a note can hold recordings up to <LIMIT>. Your notes and the transcript are saved in the note either way. Save the recording as a file to keep it.",
+        "saveRecordingAsText": "Save recording as…",
+        "saveWithoutRecordingText": "Save without the recording"
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Open Focus Bear menu",
