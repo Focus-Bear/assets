@@ -4491,7 +4491,8 @@
         "tooLargeTitle": "Esta grabación de clase es demasiado grande para adjuntarla",
         "tooLargeMessageText": "La grabación ocupa <SIZE> y una nota admite grabaciones de hasta <LIMIT>. Tus notas y la transcripción se guardan en la nota en cualquier caso. Guarda la grabación como archivo para conservarla.",
         "saveRecordingAsText": "Guardar grabación como…",
-        "saveWithoutRecordingText": "Guardar sin la grabación"
+        "saveWithoutRecordingText": "Guardar sin la grabación",
+        "serverRefusedSizeText": "El servidor aún no admite una grabación tan grande, así que la grabación de tu clase se conserva en este Mac. Se subirá sola cuando el servidor la acepte."
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Abrir el menú de Focus Bear",
