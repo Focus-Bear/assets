@@ -5452,5 +5452,43 @@
         "phaseStartingBlockPage": "Starting the block page…",
         "phaseCheckingScreen": "Checking what's on screen…",
         "phaseDone": "Done"
+    },
+    "voiceNotesWindowsInfo": {
+        "recordVoiceNoteButtonText": "Record voice note",
+        "recordLectureButtonText": "Record lecture",
+        "uploadingText": "Uploading your voice note…",
+        "couldNotUploadText": "Couldn't upload your voice note. The recording is kept on this computer.",
+        "couldNotCreateNoteText": "Couldn't create the note. The recording is kept on this computer.",
+        "recordingUnreadableText": "The recording couldn't be read, so it can't be saved.",
+        "keptOnComputerText": "Your account can't store recordings yet, so the recording stays on this computer. The transcript is in the note.",
+        "microphonePrivacyHintText": "Level not moving? Check Windows Settings › Privacy & security › Microphone.",
+        "unsavedRecordingsText": "Recordings not saved yet: <COUNT>",
+        "unsavedRecordingsHelpText": "Send voice notes that couldn't be uploaded or transcribed, and open lectures that weren't saved.",
+        "retryLaterText": "You can close this window. The recording is kept, and Notes offers to send it again."
+    },
+    "lectureRecordingInfo": {
+        "windowTitle": "Record a lecture",
+        "startText": "Start recording",
+        "stopText": "Stop recording",
+        "saveText": "Save lecture",
+        "savingText": "Saving your lecture… Long recordings take a while to upload.",
+        "finishingTranscriptText": "Finishing the transcript…",
+        "savedText": "Lecture saved",
+        "couldNotSaveText": "Couldn't save the lecture. Everything is kept on this computer, so you can try again.",
+        "notesLabel": "Your notes",
+        "notesPlaceholder": "Type your own notes while it records…",
+        "transcriptLabel": "Live transcript",
+        "transcriptWaitingText": "The transcript appears here as the lecture goes on. It is made on this computer, so a long lecture costs nothing to transcribe.",
+        "transcriptUnavailableText": "On-device transcription isn't available for your language on this computer. The recording and your notes are still saved.",
+        "transcriptHeading": "Transcript",
+        "defaultTitle": "Lecture <DATE>",
+        "titlePlaceholder": "Title",
+        "recordingTitle": "Recording <INDEX> of <TOTAL>",
+        "continuationTitle": "<TITLE> (transcript <INDEX> of <TOTAL>)",
+        "limitReachedText": "The recording reached its <LIMIT> limit and stopped. Save the lecture, or start a new one.",
+        "closeWhileRecordingText": "Stop recording and close? The lecture is kept on this computer and offered again from Notes.",
+        "recoveredText": "This lecture wasn't saved last time. Its recording, transcript and notes are here: save it, or record more.",
+        "discardText": "Discard",
+        "discardConfirmText": "Discard this lecture? Its recording, transcript and notes are deleted from this computer."
     }
 }

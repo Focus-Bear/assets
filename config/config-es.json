@@ -5431,5 +5431,43 @@
         "phaseStartingBlockPage": "Iniciando la página de bloqueo…",
         "phaseCheckingScreen": "Revisando lo que hay en pantalla…",
         "phaseDone": "Listo"
+    },
+    "voiceNotesWindowsInfo": {
+        "recordVoiceNoteButtonText": "Grabar nota de voz",
+        "recordLectureButtonText": "Grabar clase",
+        "uploadingText": "Subiendo tu nota de voz…",
+        "couldNotUploadText": "No se pudo subir tu nota de voz. La grabación se conserva en este equipo.",
+        "couldNotCreateNoteText": "No se pudo crear la nota. La grabación se conserva en este equipo.",
+        "recordingUnreadableText": "No se pudo leer la grabación, así que no se puede guardar.",
+        "keptOnComputerText": "Tu cuenta aún no puede guardar grabaciones, así que la grabación se queda en este equipo. La transcripción está en la nota.",
+        "microphonePrivacyHintText": "¿El nivel no se mueve? Revisa Configuración de Windows › Privacidad y seguridad › Micrófono.",
+        "unsavedRecordingsText": "Grabaciones sin guardar: <COUNT>",
+        "unsavedRecordingsHelpText": "Envía las notas de voz que no se pudieron subir o transcribir, y abre las clases que no se guardaron.",
+        "retryLaterText": "Puedes cerrar esta ventana. La grabación se conserva y Notas te ofrecerá enviarla de nuevo."
+    },
+    "lectureRecordingInfo": {
+        "windowTitle": "Grabar una clase",
+        "startText": "Empezar a grabar",
+        "stopText": "Detener grabación",
+        "saveText": "Guardar clase",
+        "savingText": "Guardando tu clase… Las grabaciones largas tardan un poco en subirse.",
+        "finishingTranscriptText": "Terminando la transcripción…",
+        "savedText": "Clase guardada",
+        "couldNotSaveText": "No se pudo guardar la clase. Todo se conserva en este equipo, así que puedes volver a intentarlo.",
+        "notesLabel": "Tus notas",
+        "notesPlaceholder": "Escribe tus propias notas mientras se graba…",
+        "transcriptLabel": "Transcripción en directo",
+        "transcriptWaitingText": "La transcripción aparece aquí a medida que avanza la clase. Se hace en este equipo, así que transcribir una clase larga no cuesta nada.",
+        "transcriptUnavailableText": "La transcripción en el dispositivo no está disponible para tu idioma en este equipo. La grabación y tus notas se guardan igualmente.",
+        "transcriptHeading": "Transcripción",
+        "defaultTitle": "Clase <DATE>",
+        "titlePlaceholder": "Título",
+        "recordingTitle": "Grabación <INDEX> de <TOTAL>",
+        "continuationTitle": "<TITLE> (transcripción <INDEX> de <TOTAL>)",
+        "limitReachedText": "La grabación llegó a su límite de <LIMIT> y se detuvo. Guarda la clase o empieza una nueva.",
+        "closeWhileRecordingText": "¿Detener la grabación y cerrar? La clase se conserva en este equipo y Notas te la ofrecerá de nuevo.",
+        "recoveredText": "Esta clase no se guardó la última vez. Aquí están su grabación, su transcripción y tus notas: guárdala o graba más.",
+        "discardText": "Descartar",
+        "discardConfirmText": "¿Descartar esta clase? Su grabación, su transcripción y tus notas se eliminan de este equipo."
     }
 }
