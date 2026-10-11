@@ -5524,6 +5524,14 @@
         "focusFilterNotificationsHidden": "Notifications hidden by Focus Bear",
         "focusFilterRecommendationsBlurred": "Recommendations blurred by Focus Bear",
         "focusFilterCommentsBlurred": "Comments blurred by Focus Bear",
-        "focusFilterShortsHidden": "Shorts hidden by Focus Bear"
+        "focusFilterShortsHidden": "Shorts hidden by Focus Bear",
+        "buttonExtensions": "Extensions",
+        "extensionsToggle": "Use Safari web extensions (such as 1Password)",
+        "extensionsNoneFound": "No supported extensions found. Install 1Password for Safari from the App Store, then open a new tab.",
+        "extensionPermissionTitle": "Let <NAME> work in the Focus Bear browser?",
+        "extensionPermissionBody": "It asks for: <PERMISSIONS>. It will be able to read and change the pages you open in the Focus Bear browser.",
+        "buttonAllow": "Allow",
+        "buttonDontAllow": "Don't allow",
+        "extensionLoadFailed": "Couldn't load <NAME>."
     }
 }

@@ -5503,6 +5503,14 @@
         "focusFilterNotificationsHidden": "Focus Bear ocultó las notificaciones",
         "focusFilterRecommendationsBlurred": "Focus Bear difuminó las recomendaciones",
         "focusFilterCommentsBlurred": "Focus Bear difuminó los comentarios",
-        "focusFilterShortsHidden": "Focus Bear ocultó los Shorts"
+        "focusFilterShortsHidden": "Focus Bear ocultó los Shorts",
+        "buttonExtensions": "Extensiones",
+        "extensionsToggle": "Usar extensiones web de Safari (como 1Password)",
+        "extensionsNoneFound": "No se encontraron extensiones compatibles. Instala 1Password for Safari desde la App Store y abre una pestaña nueva.",
+        "extensionPermissionTitle": "¿Permitir que <NAME> funcione en el navegador de Focus Bear?",
+        "extensionPermissionBody": "Solicita: <PERMISSIONS>. Podrá leer y cambiar las páginas que abras en el navegador de Focus Bear.",
+        "buttonAllow": "Permitir",
+        "buttonDontAllow": "No permitir",
+        "extensionLoadFailed": "No se pudo cargar <NAME>."
     }
 }
