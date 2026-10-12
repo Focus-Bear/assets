@@ -1413,7 +1413,9 @@
         "noteArchivedText": "Note archived",
         "noteRestoredText": "Note restored",
         "couldNotArchiveNoteText": "Could not archive the note",
-        "couldNotRestoreNoteText": "Could not restore the note"
+        "couldNotRestoreNoteText": "Could not restore the note",
+        "pinNoteText": "Pin",
+        "unpinNoteText": "Unpin"
     },
     "statsViewInfo": {
         "tabGoals": "Your Goals",
