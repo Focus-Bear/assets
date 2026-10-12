@@ -5476,6 +5476,7 @@
         "buttonTryAgain": "Preguntar de nuevo",
         "buttonGoBack": "Volver",
         "tabLimitReached": "Llegaste a tu límite de pestañas (<COUNT> pestañas). Cierra una para abrir otra.",
+        "tabLimitBrowserName": "Navegador de Focus Bear",
         "lockedTitle": "El navegador se abre después de tu rutina",
         "lockedBody": "Termina este hábito primero. Tus pestañas te esperarán aquí.",
         "habitSessionBanner": "Este hábito abre: <SITES>. Los demás sitios web siguen cerrados hasta que termine.",

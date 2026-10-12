@@ -5497,6 +5497,7 @@
         "buttonTryAgain": "Ask again",
         "buttonGoBack": "Go back",
         "tabLimitReached": "You're at your tab limit (<COUNT> tabs). Close a tab to open another one.",
+        "tabLimitBrowserName": "Focus Bear browser",
         "lockedTitle": "The browser opens after your routine",
         "lockedBody": "Finish this habit first. Your tabs will be right here.",
         "habitSessionBanner": "This habit opens: <SITES>. Other websites stay closed until it ends.",
