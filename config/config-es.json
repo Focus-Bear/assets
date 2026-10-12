@@ -1422,7 +1422,7 @@
         "addToProjectHelpText": "Guarda esta nota en la carpeta de un proyecto. Todas las personas del proyecto podrán verla y editarla.",
         "noteHasAttachmentsText": "Las notas con imágenes o grabaciones aún no se pueden añadir a un proyecto.",
         "habitNoteStaysPersonalText": "Una nota vinculada a un hábito se queda con ese hábito, así que no se puede añadir a un proyecto.",
-        "tagsNotKeptText": "Las notas de proyecto no tienen etiquetas, así que no se conservarán las etiquetas de esta nota.",
+        "tagsNotKeptText": "Las notas de proyecto aún no pueden tener etiquetas en este servidor, así que las etiquetas de esta nota no se conservan.",
         "noteAddedToProjectText": "Nota añadida a <PROJECT>",
         "couldNotAddToProjectText": "No se pudo añadir la nota al proyecto"
     },
