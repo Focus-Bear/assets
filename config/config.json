@@ -5501,6 +5501,7 @@
         "waitingForYouTitle": "Over to you",
         "waitingForYouBody": "Focus Bear has asked whether you need this page. It opens here once you allow it.",
         "checkingWithAiTitle": "Checking whether this page fits your focus session…",
+        "checkingWithAiShort": "Checking…",
         "buttonTryAgain": "Ask again",
         "buttonGoBack": "Go back",
         "tabLimitReached": "You're at your tab limit (<COUNT> tabs). Close a tab to open another one.",

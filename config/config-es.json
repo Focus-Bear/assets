@@ -5480,6 +5480,7 @@
         "waitingForYouTitle": "Te toca a ti",
         "waitingForYouBody": "Focus Bear te preguntó si necesitas esta página. Se abrirá aquí cuando la permitas.",
         "checkingWithAiTitle": "Comprobando si esta página encaja con tu sesión de enfoque…",
+        "checkingWithAiShort": "Comprobando…",
         "buttonTryAgain": "Preguntar de nuevo",
         "buttonGoBack": "Volver",
         "tabLimitReached": "Llegaste a tu límite de pestañas (<COUNT> pestañas). Cierra una para abrir otra.",
