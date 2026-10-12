@@ -4455,6 +4455,11 @@
     "lectureRecordingInfo": {
         "recordLectureText": "Record lecture",
         "recordLectureHelpText": "Record a long lecture. It's transcribed on this Mac as it records, and you can type your own notes beside the transcript.",
+        "transcribeText": "Transcribe",
+        "transcribeHelpText": "Record a voice note or a lecture and turn it into text",
+        "voiceNoteChoiceText": "Voice note",
+        "voiceNoteChoiceDetailText": "A short recording, transcribed into this note.",
+        "lectureChoiceDetailText": "A long recording, transcribed on this Mac while you type notes beside it.",
         "sheetTitle": "Lecture recording",
         "liveTranscriptText": "Live transcript",
         "yourNotesText": "Your notes",

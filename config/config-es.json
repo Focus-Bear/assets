@@ -4453,6 +4453,11 @@
     "lectureRecordingInfo": {
         "recordLectureText": "Grabar clase",
         "recordLectureHelpText": "Graba una clase larga. Se transcribe en este Mac mientras graba, y puedes escribir tus propias notas junto a la transcripción.",
+        "transcribeText": "Transcribir",
+        "transcribeHelpText": "Graba una nota de voz o una clase y conviértela en texto",
+        "voiceNoteChoiceText": "Nota de voz",
+        "voiceNoteChoiceDetailText": "Una grabación corta, transcrita en esta nota.",
+        "lectureChoiceDetailText": "Una grabación larga, transcrita en este Mac mientras escribes notas al lado.",
         "sheetTitle": "Grabación de clase",
         "liveTranscriptText": "Transcripción en directo",
         "yourNotesText": "Tus notas",
