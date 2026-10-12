@@ -5506,6 +5506,8 @@
         "mobileBookmarksFolder": "Marcadores del móvil",
         "buttonToggleBookmarks": "Mostrar u ocultar los marcadores",
         "menuOpenInNewTab": "Abrir en una pestaña nueva",
+        "menuOpenLinkInNewTab": "Abrir enlace en una pestaña nueva",
+        "menuOpenImageInNewTab": "Abrir imagen en una pestaña nueva",
         "menuRename": "Cambiar nombre…",
         "menuDelete": "Eliminar",
         "menuNewFolder": "Nueva carpeta…",

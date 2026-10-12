@@ -5527,6 +5527,8 @@
         "mobileBookmarksFolder": "Mobile bookmarks",
         "buttonToggleBookmarks": "Show or hide bookmarks",
         "menuOpenInNewTab": "Open in new tab",
+        "menuOpenLinkInNewTab": "Open Link in New Tab",
+        "menuOpenImageInNewTab": "Open Image in New Tab",
         "menuRename": "Rename…",
         "menuDelete": "Delete",
         "menuNewFolder": "New folder…",
