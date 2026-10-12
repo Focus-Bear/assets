@@ -5501,6 +5501,8 @@
         "lockedBody": "Finish this habit first. Your tabs will be right here.",
         "habitSessionBanner": "This habit opens: <SITES>. Other websites stay closed until it ends.",
         "habitSessionEnded": "The habit is over, so its tabs have closed.",
+        "habitSessionKeywordsBanner": "Pages whose address or title contains <KEYWORDS> open too.",
+        "habitSessionKeywordsOnlyBanner": "This habit opens pages whose address or title contains <KEYWORDS>. Other websites stay closed until it ends.",
         "bookmarksEmpty": "No bookmarks yet",
         "bookmarksBarFolder": "Bookmarks bar",
         "otherBookmarksFolder": "Other bookmarks",
