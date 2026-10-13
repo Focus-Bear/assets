@@ -2636,7 +2636,8 @@
         "buttonSelectScreenshots": "Select Screenshots",
         "titleSelectScreenshots": "Choose one or more screenshots you want to share.",
         "buttonSelect": "Select",
-        "tabDebugLogs": "Debug Logs"
+        "tabDebugLogs": "Debug Logs",
+        "buttonCloseDebugLogsText": "Close"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
