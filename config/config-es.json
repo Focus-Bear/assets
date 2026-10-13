@@ -2635,7 +2635,8 @@
         "titleSelectScreenshots": "Elige una o más capturas de pantalla que quieras compartir.",
         "buttonSelect": "Seleccionar",
         "tabDebugLogs": "Registros de depuración",
-        "buttonCloseDebugLogsText": "Cerrar"
+        "buttonCloseDebugLogsText": "Cerrar",
+        "titleReportProblemFormText": "Informa de un problema o comparte una idea"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
