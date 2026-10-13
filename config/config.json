@@ -4114,6 +4114,7 @@
         "tasksExpand": "Expand",
         "tasksNewProjectPrompt": "Create new project:",
         "tasksNewProjectSave": "Save",
+        "tasksNewProjectCreate": "Create",
         "tasksSnooze": "Snooze",
         "tasksRemove": "Remove",
         "tasksDetailsTitle": "Task details",
