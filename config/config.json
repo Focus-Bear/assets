@@ -5469,6 +5469,8 @@
         "noRecognizerText": "This Mac has no speech recognition for <LANGUAGE>. The recording carries on.",
         "failedText": "The live transcript stopped because speech recognition kept failing. The recording carries on.",
         "openSettingsText": "Open settings",
-        "stepAsideNoticeText": "Focus Bear is out of the way for up to 30 seconds so you can switch this on. It comes back as soon as it's on."
+        "stepAsideNoticeText": "Focus Bear is out of the way for up to 30 seconds so you can switch this on. It comes back as soon as it's on.",
+        "stopText": "Stop",
+        "sectionHelpText": "The recording's transcript, kept apart from your notes. You can edit it."
     }
 }

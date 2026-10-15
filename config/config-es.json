@@ -5448,6 +5448,8 @@
         "noRecognizerText": "Este Mac no tiene reconocimiento de voz para <LANGUAGE>. La grabación continúa.",
         "failedText": "La transcripción en directo se detuvo porque el reconocimiento de voz fallaba una y otra vez. La grabación continúa.",
         "openSettingsText": "Abrir ajustes",
-        "stepAsideNoticeText": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado."
+        "stepAsideNoticeText": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado.",
+        "stopText": "Detener",
+        "sectionHelpText": "La transcripción de la grabación, separada de tus notas. Puedes editarla."
     }
 }
