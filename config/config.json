@@ -2618,6 +2618,8 @@
         "shareLogsText": "Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at support@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please share your logs with Focus Bear Support Team (use the link below)",
         "buttonShareLogsText": "Share logs with Focus Bear Support Team",
         "placeHolderLogsFeedback": "What happened?",
+        "reportDraftRestoredText": "Draft restored",
+        "buttonDiscardReportDraftText": "Discard",
         "logsUploadDoneText": "Logs successfully shared.",
         "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.",
         "logsUploadErrorConnectionText": "There was a problem with your Internet connection while uploading the logs. Please check your connection and try again.",

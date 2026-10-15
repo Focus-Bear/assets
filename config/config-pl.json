@@ -2616,6 +2616,8 @@
     "shareLogsText": "Focus Bear to wciąż nowa aplikacja i możesz napotkać problemy (albo mieć świetne pomysły, jak ją ulepszyć). Bardzo docenimy twoją opinię. Możesz napisać do nas na support@focusbear.io. Zrzuty ekranu bardzo pomagają nam zrozumieć problem. Jeśli wystąpił problem, udostępnij swoje logi zespołowi wsparcia Focus Bear (użyj linku poniżej)",
     "buttonShareLogsText": "Udostępnij logi zespołowi wsparcia Focus Bear",
     "placeHolderLogsFeedback": "Co się stało?",
+    "reportDraftRestoredText": "Przywrócono wersję roboczą",
+    "buttonDiscardReportDraftText": "Odrzuć",
     "logsUploadDoneText": "Logi zostały pomyślnie udostępnione.",
     "logsUploadErrorText": "Wystąpił problem podczas przesyłania logów. Spróbuj ponownie.",
     "logsUploadErrorConnectionText": "Wystąpił problem z połączeniem internetowym podczas przesyłania logów. Sprawdź połączenie i spróbuj ponownie.",
