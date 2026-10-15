@@ -2575,7 +2575,8 @@
       "removeListLabel": "Quitar «<LIST>»",
       "disconnectList": "Al quitar una lista, sus recordatorios y tus tareas se quedan como están. Solo dejan de sincronizarse.",
       "remindersListMissing": "Recordatorios ya no encuentra la lista «<LIST>». Puede que se haya borrado. Quítala y añade otra lista.",
-      "remindersFailed": "Recordatorios no ha respondido: <REASON>"
+      "remindersFailed": "Recordatorios no ha respondido: <REASON>",
+      "stepAsideNotice": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado."
     },
     "settingsNew": {
         "searchSettingsLabel": "Buscar en la configuración",

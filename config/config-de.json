@@ -2575,7 +2575,8 @@
     "removeListLabel": "„<LIST>“ entfernen",
     "disconnectList": "Beim Entfernen einer Liste bleiben ihre Erinnerungen und deine Aufgaben, wie sie sind. Sie werden nur nicht mehr synchronisiert.",
     "remindersListMissing": "Erinnerungen findet die Liste „<LIST>“ nicht mehr. Vielleicht wurde sie gelöscht. Entferne sie und füge eine andere Liste hinzu.",
-    "remindersFailed": "Erinnerungen hat nicht geantwortet: <REASON>"
+    "remindersFailed": "Erinnerungen hat nicht geantwortet: <REASON>",
+    "stepAsideNotice": "Focus Bear geht bis zu 30 Sekunden aus dem Weg, damit du das einschalten kannst. Sobald es eingeschaltet ist, ist Focus Bear wieder da."
   },
   "settingsNew": {
     "searchSettingsLabel": "Einstellungen durchsuchen",

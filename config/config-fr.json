@@ -2575,7 +2575,8 @@
     "removeListLabel": "Retirer « <LIST> »",
     "disconnectList": "Retirer une liste laisse ses rappels et vos tâches tels quels. Ils cessent simplement d’être synchronisés.",
     "remindersListMissing": "Rappels ne trouve plus la liste « <LIST> ». Elle a peut-être été supprimée. Retirez-la, puis ajoutez une autre liste.",
-    "remindersFailed": "Rappels n’a pas répondu : <REASON>"
+    "remindersFailed": "Rappels n’a pas répondu : <REASON>",
+    "stepAsideNotice": "Focus Bear s’écarte pendant 30 secondes au maximum pour que vous puissiez l’activer. Il revient dès que c’est activé."
   },
   "settingsNew": {
     "searchSettingsLabel": "Rechercher dans les réglages",

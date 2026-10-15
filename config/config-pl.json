@@ -2575,7 +2575,8 @@
     "removeListLabel": "Usuń „<LIST>”",
     "disconnectList": "Po usunięciu listy jej przypomnienia i Twoje zadania zostają bez zmian. Po prostu przestają się synchronizować.",
     "remindersListMissing": "Przypomnienia nie mogą już znaleźć listy „<LIST>”. Mogła zostać usunięta. Usuń ją, a potem dodaj inną listę.",
-    "remindersFailed": "Przypomnienia nie odpowiedziały: <REASON>"
+    "remindersFailed": "Przypomnienia nie odpowiedziały: <REASON>",
+    "stepAsideNotice": "Focus Bear schodzi z drogi na maksymalnie 30 sekund, aby można było to włączyć. Wraca, gdy tylko zostanie włączone."
   },
   "settingsNew": {
     "searchSettingsLabel": "Szukaj w ustawieniach",

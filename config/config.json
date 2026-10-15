@@ -2577,7 +2577,8 @@
       "removeListLabel": "Remove “<LIST>”",
       "disconnectList": "Removing a list leaves its reminders and your tasks as they are. They just stop syncing.",
       "remindersListMissing": "Reminders can't find the “<LIST>” list any more. It may have been deleted. Remove it, then add another list.",
-      "remindersFailed": "Reminders didn't answer: <REASON>"
+      "remindersFailed": "Reminders didn't answer: <REASON>",
+      "stepAsideNotice": "Focus Bear is out of the way for up to 30 seconds so you can switch this on. It comes back as soon as it's on."
     },
     "settingsNew": {
         "searchSettingsLabel": "Search settings",
