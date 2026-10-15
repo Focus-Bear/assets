@@ -1418,6 +1418,7 @@
         "unpinNoteText": "Desfijar nota",
         "addToProjectText": "Añadir a un proyecto",
         "addProjectText": "Añadir proyecto",
+        "projectNoteExplanationText": "Esta nota está en <PROJECT>. Todas las personas del proyecto pueden verla y editarla, así que se queda en el proyecto.",
         "dragHandleText": "Arrastra para mover",
         "moveToText": "Mover a",
         "personalNotesText": "Notas personales",
@@ -1429,7 +1430,9 @@
         "addToProjectHelpText": "Guarda esta nota en la carpeta de un proyecto. Todas las personas del proyecto podrán verla y editarla.",
         "noteHasAttachmentsText": "Las notas con imágenes o grabaciones aún no se pueden añadir a un proyecto.",
         "habitNoteStaysPersonalText": "Una nota vinculada a un hábito se queda con ese hábito, así que no se puede añadir a un proyecto.",
-        "tagsNotKeptText": "Las notas de proyecto aún no pueden tener etiquetas en este servidor, así que las etiquetas de esta nota no se conservan."
+        "tagsNotKeptText": "Las notas de proyecto aún no pueden tener etiquetas en este servidor, así que las etiquetas de esta nota no se conservan.",
+        "noteAddedToProjectText": "Nota añadida a <PROJECT>",
+        "couldNotAddToProjectText": "No se pudo añadir la nota al proyecto"
     },
     "statsViewInfo": {
         "tabGoals": "Tus metas",
