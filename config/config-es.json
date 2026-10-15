@@ -1568,6 +1568,7 @@
         "gateStartSession": "Empezar sesión",
         "assistYou": "Tú",
         "assistAI": "IA de Focus Bear",
+        "assistCopyMessage": "Copiar",
         "gateAllFixed": "Todo arreglado. Ya puedes empezar tu sesión.",
         "fixAfterSessionTitle": "Arregla las tarjetas que no sabías",
         "fixAfterSessionMessage": "En esta sesión no tenías ni idea de estas tarjetas. Haz que cada una sea más fácil de aprender: reescríbela, déjala como está o elimínala. La ayuda de IA puede explicarte una tarjeta o proponer una versión más clara.",

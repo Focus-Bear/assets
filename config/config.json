@@ -1568,6 +1568,7 @@
         "gateStartSession": "Start session",
         "assistYou": "You",
         "assistAI": "Focus Bear AI",
+        "assistCopyMessage": "Copy",
         "gateAllFixed": "All fixed. You can start your session.",
         "fixAfterSessionTitle": "Fix the cards you didn't know",
         "fixAfterSessionMessage": "You had no idea about these cards this session. Make each one easier to learn: rewrite it, keep it as it is, or delete it. AI help can explain a card or suggest a clearer version.",
