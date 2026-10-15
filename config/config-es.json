@@ -5447,6 +5447,7 @@
         "dictationOffText": "La transcripción en directo necesita el Dictado, que está desactivado. Actívalo en Ajustes del Sistema › Teclado › Dictado (la transcripción sigue quedándose en este Mac). La grabación continúa.",
         "noRecognizerText": "Este Mac no tiene reconocimiento de voz para <LANGUAGE>. La grabación continúa.",
         "failedText": "La transcripción en directo se detuvo porque el reconocimiento de voz fallaba una y otra vez. La grabación continúa.",
-        "openSettingsText": "Abrir ajustes"
+        "openSettingsText": "Abrir ajustes",
+        "stepAsideNoticeText": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado."
     }
 }
