@@ -5452,5 +5452,19 @@
         "phaseStartingBlockPage": "Starting the block page…",
         "phaseCheckingScreen": "Checking what's on screen…",
         "phaseDone": "Done"
+    },
+    "notesLiveTranscriptInfo": {
+        "liveTranscriptTitle": "Live transcript",
+        "onThisMacHelpText": "Transcribed on this Mac as it records. Nothing is sent anywhere while it listens.",
+        "regionHelpText": "Read only. Your own notes stay in the note above.",
+        "placeholderText": "Listening… The words appear here as they're spoken.",
+        "preparingText": "Getting the live transcript ready…",
+        "showText": "Show live transcript",
+        "hideText": "Hide live transcript",
+        "jumpToLiveText": "Jump to live",
+        "speechNotAuthorizedText": "The live transcript needs speech recognition, which isn't allowed. The recording carries on.",
+        "onDeviceUnsupportedText": "This Mac can't transcribe <LANGUAGE> on the device yet. Turn on Dictation to download it. The recording carries on.",
+        "unavailableText": "Speech recognition isn't available (Siri and Dictation may be turned off). The recording carries on.",
+        "openSettingsText": "Open settings"
     }
 }

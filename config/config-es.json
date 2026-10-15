@@ -5431,5 +5431,19 @@
         "phaseStartingBlockPage": "Iniciando la página de bloqueo…",
         "phaseCheckingScreen": "Revisando lo que hay en pantalla…",
         "phaseDone": "Listo"
+    },
+    "notesLiveTranscriptInfo": {
+        "liveTranscriptTitle": "Transcripción en directo",
+        "onThisMacHelpText": "Se transcribe en este Mac mientras graba. No se envía nada a ningún sitio mientras escucha.",
+        "regionHelpText": "Solo lectura. Tus propias notas siguen en la nota de arriba.",
+        "placeholderText": "Escuchando… Las palabras aparecen aquí a medida que se dicen.",
+        "preparingText": "Preparando la transcripción en directo…",
+        "showText": "Mostrar transcripción en directo",
+        "hideText": "Ocultar transcripción en directo",
+        "jumpToLiveText": "Ir al directo",
+        "speechNotAuthorizedText": "La transcripción en directo necesita el reconocimiento de voz, que no está permitido. La grabación continúa.",
+        "onDeviceUnsupportedText": "Este Mac todavía no puede transcribir <LANGUAGE> en el dispositivo. Activa el Dictado para descargarlo. La grabación continúa.",
+        "unavailableText": "El reconocimiento de voz no está disponible (puede que Siri y el Dictado estén desactivados). La grabación continúa.",
+        "openSettingsText": "Abrir ajustes"
     }
 }
