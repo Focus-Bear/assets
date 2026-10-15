@@ -2552,7 +2552,11 @@
         "openNoteLabel": "Open “<NOTE>” in Obsidian",
         "removeNoteLabel": "Remove “<NOTE>”",
         "todoMenuItem": "Sync with Obsidian / Apple Notes…",
-        "done": "Done"
+        "done": "Done",
+        "appleNotesConsentNeeded": "Focus Bear needs your OK to read Notes. Press Sync now, then allow it when macOS asks.",
+        "appleNotesConsentWaiting": "macOS is asking whether Focus Bear may use Notes. If you can't see the question, it may be behind another window: press Try again to bring it forward, or turn on Notes for Focus Bear in System Settings → Privacy & Security → Automation.",
+        "appleNotesConsentTimedOut": "macOS didn't get an answer about using Notes. Press Try again, or turn on Notes for Focus Bear in System Settings → Privacy & Security → Automation.",
+        "tryAgain": "Try again"
     },
     "settingsNew": {
         "searchSettingsLabel": "Search settings",
