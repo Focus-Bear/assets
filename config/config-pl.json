@@ -6359,6 +6359,8 @@
     "colourGreenText": "Zielony",
     "colourYellowText": "Żółty",
     "undoText": "Cofnij",
-    "textBoxEditorDescription": "Tekst na PDF"
+    "textBoxEditorDescription": "Tekst na PDF",
+    "largePreviewDescription": "Podgląd pliku <FILE>",
+    "doubleClickToAnnotateText": "Kliknij dwukrotnie PDF, aby dodać adnotacje."
   }
 }

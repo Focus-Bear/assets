@@ -6316,6 +6316,8 @@
         "colourGreenText": "Green",
         "colourYellowText": "Yellow",
         "undoText": "Undo",
-        "textBoxEditorDescription": "Text on the PDF"
+        "textBoxEditorDescription": "Text on the PDF",
+        "largePreviewDescription": "Preview of <FILE>",
+        "doubleClickToAnnotateText": "Double-click the PDF to annotate it."
     }
 }
