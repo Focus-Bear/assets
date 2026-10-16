@@ -2786,6 +2786,8 @@
         "supportReportDescriptionTooLongText": "Tu descripción es demasiado larga. Acórtala a 10.000 caracteres.",
         "supportReportAttachmentsSkippedText": "Algunas capturas de pantalla no se pudieron adjuntar, así que el informe se envió sin ellas.",
         "placeHolderLogsFeedback": "¿Qué ha sucedido?",
+        "reportDraftRestoredText": "Borrador restaurado",
+        "buttonDiscardReportDraftText": "Descartar",
         "logsUploadDoneText": "Registros compartidos con éxito.",
         "logsUploadErrorText": "Ha habido algún problema al cargar los registros. Por favor, inténtalo de nuevo.",
         "logsUploadErrorConnectionText": "Se ha producido un problema con tu conexión a Internet al enviar los registros. Comprueba tu conexión e inténtalo de nuevo.",

@@ -2708,6 +2708,8 @@
     "shareLogsText": "Focus Bear ist noch eine neue App, daher können Probleme auftreten (oder du hast tolle Ideen, wie wir sie verbessern können). Wir freuen uns sehr über dein Feedback. Du kannst uns per E-Mail an support@focusbear.io erreichen. Screenshots helfen uns sehr, das Problem zu verstehen. Falls du ein Problem hattest, teile bitte deine Logs mit dem Focus Bear Support-Team (nutze den Link unten)",
     "buttonShareLogsText": "Logs mit dem Focus Bear Support-Team teilen",
     "placeHolderLogsFeedback": "Was ist passiert?",
+    "reportDraftRestoredText": "Entwurf wiederhergestellt",
+    "buttonDiscardReportDraftText": "Verwerfen",
     "logsUploadDoneText": "Logs erfolgreich geteilt.",
     "logsUploadErrorText": "Beim Hochladen der Logs ist ein Problem aufgetreten. Bitte versuche es erneut.",
     "logsUploadErrorConnectionText": "Beim Hochladen der Logs gab es ein Problem mit deiner Internetverbindung. Bitte überprüfe deine Verbindung und versuche es erneut.",
