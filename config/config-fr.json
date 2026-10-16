@@ -6371,7 +6371,12 @@
     "undoText": "Annuler",
     "textBoxEditorDescription": "Texte sur le PDF",
     "largePreviewDescription": "Aperçu de <FILE>",
-    "doubleClickToAnnotateText": "Double-clique sur le PDF pour l’annoter."
+    "doubleClickToAnnotateText": "Double-clique sur le PDF pour l’annoter.",
+    "zoomInText": "Zoom avant (⌘+)",
+    "zoomOutText": "Zoom arrière (⌘−)",
+    "fitWidthText": "Ajuster à la largeur",
+    "fitWidthHelpText": "Ajuster la page à la largeur (⌘0)",
+    "zoomLevelDescription": "Zoom"
   },
   "meetingRecordingInfo": {
     "promptTitle": "Voulez-vous enregistrer cette réunion ?",

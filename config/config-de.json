@@ -6369,7 +6369,12 @@
     "undoText": "Widerrufen",
     "textBoxEditorDescription": "Text auf dem PDF",
     "largePreviewDescription": "Vorschau von <FILE>",
-    "doubleClickToAnnotateText": "Doppelklicke auf das PDF, um es zu kommentieren."
+    "doubleClickToAnnotateText": "Doppelklicke auf das PDF, um es zu kommentieren.",
+    "zoomInText": "Vergrößern (⌘+)",
+    "zoomOutText": "Verkleinern (⌘−)",
+    "fitWidthText": "An Breite anpassen",
+    "fitWidthHelpText": "Seite an die Breite anpassen (⌘0)",
+    "zoomLevelDescription": "Zoom"
   },
   "meetingRecordingInfo": {
     "promptTitle": "Möchtest du dieses Meeting aufnehmen?",
