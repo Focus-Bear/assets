@@ -4471,7 +4471,7 @@
       "taskEmbed": "Linked task",
       "taskListEmbed": "Task list"
     },
-    "lectureRecordingInfo": {
+    "noteRecordingInfo": {
         "addVoiceNoteText": "Add voice note",
         "recordingText": "Recording",
         "pausedText": "Paused",

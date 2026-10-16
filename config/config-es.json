@@ -4469,7 +4469,7 @@
       "taskEmbed": "Tarea vinculada",
       "taskListEmbed": "Lista de tareas"
     },
-    "lectureRecordingInfo": {
+    "noteRecordingInfo": {
         "addVoiceNoteText": "Añadir nota de voz",
         "recordingText": "Grabando",
         "pausedText": "En pausa",
