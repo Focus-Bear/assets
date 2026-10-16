@@ -6360,6 +6360,8 @@
     "colourGreenText": "Grün",
     "colourYellowText": "Gelb",
     "undoText": "Widerrufen",
-    "textBoxEditorDescription": "Text auf dem PDF"
+    "textBoxEditorDescription": "Text auf dem PDF",
+    "largePreviewDescription": "Vorschau von <FILE>",
+    "doubleClickToAnnotateText": "Doppelklicke auf das PDF, um es zu kommentieren."
   }
 }

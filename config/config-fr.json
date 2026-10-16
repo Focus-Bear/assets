@@ -6362,6 +6362,8 @@
     "colourGreenText": "Vert",
     "colourYellowText": "Jaune",
     "undoText": "Annuler",
-    "textBoxEditorDescription": "Texte sur le PDF"
+    "textBoxEditorDescription": "Texte sur le PDF",
+    "largePreviewDescription": "Aperçu de <FILE>",
+    "doubleClickToAnnotateText": "Double-clique sur le PDF pour l’annoter."
   }
 }
