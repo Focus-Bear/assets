@@ -6187,5 +6187,25 @@
         "buttonAllow": "Permitir",
         "buttonDontAllow": "No permitir",
         "extensionLoadFailed": "No se pudo cargar <NAME>."
+    },
+    "notesLiveTranscriptInfo": {
+        "liveTranscriptTitle": "Transcripción en directo",
+        "onThisMacHelpText": "Se transcribe en este Mac mientras graba. No se envía nada a ningún sitio mientras escucha.",
+        "regionHelpText": "Solo lectura. Tus propias notas siguen en la nota de arriba.",
+        "placeholderText": "Escuchando… Las palabras aparecen aquí a medida que se dicen.",
+        "preparingText": "Preparando la transcripción en directo…",
+        "showText": "Mostrar transcripción en directo",
+        "hideText": "Ocultar transcripción en directo",
+        "jumpToLiveText": "Ir al directo",
+        "speechNotAuthorizedText": "La transcripción en directo necesita el reconocimiento de voz, que no está permitido. La grabación continúa.",
+        "onDeviceUnsupportedText": "Este Mac todavía no puede transcribir <LANGUAGE> en el dispositivo. Activa el Dictado para descargarlo. La grabación continúa.",
+        "unavailableText": "El reconocimiento de voz no está disponible en este Mac en este momento. La grabación continúa.",
+        "dictationOffText": "La transcripción en directo necesita el Dictado, que está desactivado. Actívalo en Ajustes del Sistema › Teclado › Dictado (la transcripción sigue quedándose en este Mac). La grabación continúa.",
+        "noRecognizerText": "Este Mac no tiene reconocimiento de voz para <LANGUAGE>. La grabación continúa.",
+        "failedText": "La transcripción en directo se detuvo porque el reconocimiento de voz fallaba una y otra vez. La grabación continúa.",
+        "openSettingsText": "Abrir ajustes",
+        "stepAsideNoticeText": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado.",
+        "stopText": "Detener",
+        "sectionHelpText": "La transcripción de la grabación, separada de tus notas. Puedes editarla."
     }
 }

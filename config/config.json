@@ -6208,5 +6208,25 @@
         "buttonAllow": "Allow",
         "buttonDontAllow": "Don't allow",
         "extensionLoadFailed": "Couldn't load <NAME>."
+    },
+    "notesLiveTranscriptInfo": {
+        "liveTranscriptTitle": "Live transcript",
+        "onThisMacHelpText": "Transcribed on this Mac as it records. Nothing is sent anywhere while it listens.",
+        "regionHelpText": "Read only. Your own notes stay in the note above.",
+        "placeholderText": "Listening… The words appear here as they're spoken.",
+        "preparingText": "Getting the live transcript ready…",
+        "showText": "Show live transcript",
+        "hideText": "Hide live transcript",
+        "jumpToLiveText": "Jump to live",
+        "speechNotAuthorizedText": "The live transcript needs speech recognition, which isn't allowed. The recording carries on.",
+        "onDeviceUnsupportedText": "This Mac can't transcribe <LANGUAGE> on the device yet. Turn on Dictation to download it. The recording carries on.",
+        "unavailableText": "Speech recognition isn't available on this Mac right now. The recording carries on.",
+        "dictationOffText": "The live transcript needs Dictation, which is turned off. Turn it on in System Settings › Keyboard › Dictation (the transcript still stays on this Mac). The recording carries on.",
+        "noRecognizerText": "This Mac has no speech recognition for <LANGUAGE>. The recording carries on.",
+        "failedText": "The live transcript stopped because speech recognition kept failing. The recording carries on.",
+        "openSettingsText": "Open settings",
+        "stepAsideNoticeText": "Focus Bear is out of the way for up to 30 seconds so you can switch this on. It comes back as soon as it's on.",
+        "stopText": "Stop",
+        "sectionHelpText": "The recording's transcript, kept apart from your notes. You can edit it."
     }
 }
