@@ -4685,6 +4685,8 @@
         "tasksSettings": "Task settings",
         "tasksSelectedCount": "%d selected",
         "tasksClearSelection": "Clear",
+        "tasksStartFocusing": "Start focusing",
+        "tasksStartFocusingHint": "Start a focus session with the selected tasks, their projects as the goal",
         "tasksSnoozeHint": "Snooze — move to another day",
         "tasksSnoozeTitle": "Move task to…",
         "tasksSnoozePlaceholder": "e.g. 2d, -1d, tue, tom",
