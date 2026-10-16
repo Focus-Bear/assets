@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "linkedin-feed",
+      "hosts": [
+        "linkedin.com"
+      ],
+      "paths": [
+        "/feed*"
+      ],
+      "selectors": [
+        "main[aria-label=\"Main Feed\"] .scaffold-finite-scroll",
+        "div[data-finite-scroll-hotkey-context=\"FEED\"]",
+        ".scaffold-finite-scroll--infinite"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterFeedHidden",
+      "unlockCategory": "linkedin.com/feed"
+    },
+    {
+      "id": "linkedin-news",
+      "hosts": [
+        "linkedin.com"
+      ],
+      "paths": [
+        "/feed*"
+      ],
+      "selectors": [
+        "#feed-news-module",
+        "aside[aria-label=\"LinkedIn News\"]"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterNewsHidden",
+      "unlockCategory": "linkedin.com/feed"
+    },
+    {
+      "id": "slack-sidebar",
+      "hosts": [
+        "app.slack.com"
+      ],
+      "paths": [],
+      "selectors": [
+        ".p-channel_sidebar",
+        "[data-qa=\"channel_sidebar\"]"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterSidebarHidden",
+      "unlockCategory": "app.slack.com/sidebar"
+    },
+    {
+      "id": "slack-activity",
+      "hosts": [
+        "app.slack.com"
+      ],
+      "paths": [],
+      "selectors": [
+        ".p-activity_ia4_page",
+        "[data-qa=\"activity_page\"]",
+        ".p-ia4_activity_view"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterActivityHidden",
+      "unlockCategory": "app.slack.com/sidebar"
+    },
+    {
+      "id": "slack-badges",
+      "hosts": [
+        "app.slack.com"
+      ],
+      "paths": [],
+      "selectors": [
+        ".p-tab_rail .c-mention_badge",
+        ".p-tab_rail [data-qa=\"activity-badge\"]",
+        "[data-qa=\"tab_rail_activity_button\"] .c-badge"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterNotificationsHidden",
+      "unlockCategory": "app.slack.com/sidebar",
+      "showsPlaceholder": false
+    },
+    {
+      "id": "cliq-sidebar",
+      "hosts": [
+        "cliq.zoho.com",
+        "cliq.zoho.eu",
+        "cliq.zoho.in",
+        "cliq.zoho.com.au"
+      ],
+      "paths": [],
+      "selectors": [
+        "#leftpanel",
+        ".zcl-leftpanel",
+        "[data-ztype=\"leftpanel\"]"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterSidebarHidden",
+      "unlockCategory": "cliq.zoho.com/sidebar"
+    },
+    {
+      "id": "cliq-notifications",
+      "hosts": [
+        "cliq.zoho.com",
+        "cliq.zoho.eu",
+        "cliq.zoho.in",
+        "cliq.zoho.com.au"
+      ],
+      "paths": [],
+      "selectors": [
+        "#notificationpanel",
+        ".zc-notification-panel",
+        "[data-ztype=\"notifications\"]"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterNotificationsHidden",
+      "unlockCategory": "cliq.zoho.com/sidebar"
+    },
+    {
+      "id": "cliq-badges",
+      "hosts": [
+        "cliq.zoho.com",
+        "cliq.zoho.eu",
+        "cliq.zoho.in",
+        "cliq.zoho.com.au"
+      ],
+      "paths": [],
+      "selectors": [
+        ".zc-unread-count",
+        ".unreadcount",
+        ".zcl-unread-count"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterNotificationsHidden",
+      "unlockCategory": "cliq.zoho.com/sidebar",
+      "showsPlaceholder": false
+    },
+    {
+      "id": "youtube-home-feed",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [
+        "/"
+      ],
+      "selectors": [
+        "ytd-browse[page-subtype=\"home\"] ytd-rich-grid-renderer"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterRecommendationsBlurred",
+      "unlockCategory": "youtube.com/recommendations"
+    },
+    {
+      "id": "youtube-related",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [
+        "/watch*"
+      ],
+      "selectors": [
+        "#related",
+        "ytd-watch-next-secondary-results-renderer"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterRecommendationsBlurred",
+      "unlockCategory": "youtube.com/recommendations"
+    },
+    {
+      "id": "youtube-comments",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [
+        "/watch*"
+      ],
+      "selectors": [
+        "ytd-comments#comments"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterCommentsBlurred",
+      "unlockCategory": "youtube.com/recommendations"
+    },
+    {
+      "id": "youtube-shorts-shelves",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [],
+      "selectors": [
+        "ytd-reel-shelf-renderer",
+        "ytd-rich-shelf-renderer[is-shorts]",
+        "ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts])"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterShortsHidden",
+      "unlockCategory": "youtube.com/recommendations"
+    },
+    {
+      "id": "youtube-shorts-page",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [
+        "/shorts*"
+      ],
+      "selectors": [
+        "ytd-shorts",
+        "#shorts-container"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterShortsHidden",
+      "unlockCategory": "youtube.com/recommendations"
+    },
+    {
+      "id": "youtube-shorts-links",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [],
+      "selectors": [
+        "ytd-guide-entry-renderer:has(a[href^=\"/shorts\"])",
+        "ytd-mini-guide-entry-renderer:has(a[href^=\"/shorts\"])",
+        "a[href^=\"/shorts/\"] ytd-thumbnail"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterShortsHidden",
+      "unlockCategory": "youtube.com/recommendations",
+      "showsPlaceholder": false
+    },
+    {
+      "id": "youtube-end-screen",
+      "hosts": [
+        "youtube.com"
+      ],
+      "paths": [
+        "/watch*"
+      ],
+      "selectors": [
+        ".ytp-endscreen-content",
+        ".ytp-ce-element",
+        ".ytp-videowall-still"
+      ],
+      "action": "hide",
+      "labelKey": "focusFilterRecommendationsBlurred",
+      "unlockCategory": "youtube.com/recommendations",
+      "showsPlaceholder": false
+    }
+  ]
+}
