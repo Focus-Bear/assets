@@ -6049,6 +6049,7 @@
     "saveFailedText": "Impossible de sauvegarder l’enregistrement. Tout ce qui a été capté est conservé sur ce Mac, tu peux donc réessayer.",
     "transcriptHeading": "Transcription",
     "transcriptRecordingHeadingText": "Transcription de la note vocale <NUMBER> (<DURATION>)",
+    "transcriptMeetingHeadingText": "Transcription de la réunion (<DURATION>)",
     "recordingTitle": "Note vocale",
     "lectureKeptText": "Ton enregistrement est conservé. Sauvegarde la note pour le joindre.",
     "recoveryFoundText": "Un enregistrement du <DATE> (<DURATION>) n’a pas été sauvegardé.",

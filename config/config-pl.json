@@ -6046,6 +6046,7 @@
     "saveFailedText": "Nie udało się zapisać nagrania. Wszystko, co nagrano, zostaje na tym Macu, więc możesz spróbować ponownie.",
     "transcriptHeading": "Transkrypcja",
     "transcriptRecordingHeadingText": "Transkrypcja notatki głosowej <NUMBER> (<DURATION>)",
+    "transcriptMeetingHeadingText": "Transkrypcja spotkania (<DURATION>)",
     "recordingTitle": "Notatka głosowa",
     "lectureKeptText": "Twoje nagranie zostało zachowane. Zapisz notatkę, aby je załączyć.",
     "recoveryFoundText": "Nagranie z <DATE> (<DURATION>) nie zostało zapisane.",
