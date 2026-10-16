@@ -1000,6 +1000,11 @@
             "buttonStartFocusText": "Iniciar otro bloque de enfoque",
             "alertFullScreenBreakText": "¿Quieres tomar un descanso a pantalla completa?",
             "titleTags": "Reportar Etiquetas",
+            "titleProject": "Proyecto",
+            "labelNoProject": "Sin proyecto",
+            "accessibilityProjectPicker": "Proyecto de esta sesión de enfoque",
+            "tourTitleProject": "Proyecto",
+            "tourSubTitleProject": "Elige el proyecto al que corresponde esta sesión para que su tiempo cuente para él.",
             "tourMessagesInfo": [
                 {
                     "title": "Intención",

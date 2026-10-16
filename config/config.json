@@ -987,6 +987,11 @@
             "buttonStartFocusText": "Start another focus block",
             "alertFullScreenBreakText": "Do you want to take a full screen break?",
             "titleTags": "Reporting Tags",
+            "titleProject": "Project",
+            "labelNoProject": "No project",
+            "accessibilityProjectPicker": "Project for this focus session",
+            "tourTitleProject": "Project",
+            "tourSubTitleProject": "Pick the project this session was for, so its time counts towards it.",
             "tourMessagesInfo": [
                 {
                     "title": "Intention",
