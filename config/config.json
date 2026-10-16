@@ -6196,7 +6196,10 @@
         "extensionPermissionBody": "It asks for: <PERMISSIONS>. It will be able to read and change the pages you open in the Focus Bear browser.",
         "buttonAllow": "Allow",
         "buttonDontAllow": "Don't allow",
-        "extensionLoadFailed": "Couldn't load <NAME>."
+        "extensionLoadFailed": "Couldn't load <NAME>.",
+        "habitPlayerOpenInBrowser": "Open in browser",
+        "habitPlayerOpenInBrowserHelp": "Leave full screen and open this page in your usual browser",
+        "habitPlayerTimeLeft": "<TIME> left"
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Live transcript",
