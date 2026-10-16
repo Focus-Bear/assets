@@ -6250,6 +6250,16 @@
         "chatErrorMessageTooLongText": "That message is too long. Keep it under <COUNT> characters.",
         "chatErrorRejectedText": "That message couldn't be sent. Try a shorter message or a smaller file.",
         "chatErrorServerText": "Something went wrong. Your message is back in the box, so you can try again.",
-        "buttonDismissChatError": "Dismiss"
+        "buttonDismissChatError": "Dismiss",
+        "chatBugReportedText": "Reported to the team.",
+        "chatBugReportedWithTicketText": "Reported to the team (ticket #<TICKET>).",
+        "chatBugReportUnavailableText": "We couldn't file this automatically. Use Talk to a human to send it to our team.",
+        "buttonAttachChatLogs": "Attach logs",
+        "chatAttachingLogsText": "Attaching logs…",
+        "chatLogsAttachedText": "Logs attached.",
+        "chatLogsAttachFailedText": "The logs couldn't be attached. You can send them from Report Problem instead.",
+        "buttonOpenReportProblemFromChat": "Open Report Problem",
+        "chatReportProblemPrefillText": "<TITLE> (reported in Chat with Focus Bear)",
+        "chatReportProblemPrefillWithTicketText": "<TITLE> (reported in Chat with Focus Bear, ticket #<TICKET>)"
     }
 }
