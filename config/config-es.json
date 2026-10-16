@@ -1369,6 +1369,12 @@
         "buttonStartBasicBrainDumpText": "← Volver al volcado de cerebro básico",
         "buttonOwnUrlBrainDumpText": "Usa tu propio sistema de volcado de cerebro"
     },
+    "listLoadStateInfo": {
+        "offlineReasonText": "Parece que no tienes conexión. Revisa tu conexión a internet e inténtalo de nuevo.",
+        "serverTroubleReasonText": "El servidor de Focus Bear tiene problemas en este momento. No se ha perdido nada. Inténtalo de nuevo en un minuto.",
+        "unexpectedReasonText": "Algo salió mal al cargar. Inténtalo de nuevo en un momento.",
+        "tryAgainText": "Reintentar"
+    },
     "notesViewInfo": {
         "brainDumpTitle": "Volcado de ideas",
         "brainDumpInfoText": "Usa el volcado de ideas para captar ideas al momento. Las notas que guardes al crearlas o editarlas aparecen en la lista de abajo.",
@@ -1391,6 +1397,9 @@
         "linkedToHabitText": "Vinculado al hábito",
         "noNotesFoundText": "No se encontraron notas",
         "noNotesMatchSearchText": "No se encontraron notas que coincidan con tu búsqueda",
+        "couldNotLoadNotesText": "No se pudieron cargar tus notas",
+        "couldNotSearchNotesText": "No se pudieron buscar tus notas",
+        "couldNotRefreshNotesText": "No se pudo actualizar — mostrando tus notas guardadas",
         "deleteNoteTitle": "Eliminar Nota",
         "deleteConfirmationText": "¿Estás seguro de que deseas eliminar esta nota?",
         "deleteText": "Eliminar",
@@ -3980,6 +3989,8 @@
         "addYourFirstTaskText": "🚀 Añade tu primera tarea",
         "noTasksMatchFiltersText": "Ninguna tarea coincide con tus filtros",
         "couldNotFindTasksText": "No se encontraron tareas",
+        "couldNotLoadTasksText": "No se pudieron cargar tus tareas",
+        "couldNotRefreshTasksText": "No se pudo actualizar — mostrando las tareas cargadas antes",
         "loadMoreText": "Cargar más",
         "markCompleteText": "Marcar \"<TITLE>\" como completada",
         "markCompleteShortText": "Marcar como completada",
@@ -4189,6 +4200,7 @@
         "projectStatusCompletedText": "Completados",
         "projectStatusArchivedText": "Archivados",
         "noProjectsYetText": "Aún no hay proyectos",
+        "couldNotRefreshProjectsText": "No se pudo actualizar — mostrando los proyectos cargados antes",
         "createFirstProjectText": "Crea tu primer proyecto para empezar",
         "noMatchingProjectsText": "No hay proyectos que coincidan",
         "tryDifferentSearchText": "Prueba con otro término o borra la búsqueda.",
@@ -4322,6 +4334,8 @@
         "noteBodyWebOnlyText": "El contenido de la nota se edita en la web, donde varias personas pueden escribir a la vez. Aquí puedes renombrar, crear y eliminar notas.",
         "noNotesYetText": "Aún no hay notas",
         "noNotesDescriptionText": "Crea una nota compartida para todos en este proyecto.",
+        "couldNotLoadProjectNotesText": "No se pudieron cargar las notas de este proyecto",
+        "couldNotRefreshProjectNotesText": "No se pudo actualizar — mostrando las notas cargadas antes",
         "lastEditedText": "Última edición <DATE>",
         "selectNoteTitleText": "Abre una nota para leerla",
         "editOnWebText": "Editar en la web",

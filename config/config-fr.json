@@ -1368,6 +1368,12 @@
     "buttonStartBasicBrainDumpText": "← Retour au brain dump simple",
     "buttonOwnUrlBrainDumpText": "Utilise ton propre système pour le brain dump"
   },
+  "listLoadStateInfo": {
+    "offlineReasonText": "Tu sembles être hors ligne. Vérifie ta connexion Internet, puis réessaie.",
+    "serverTroubleReasonText": "Le serveur de Focus Bear rencontre des problèmes en ce moment. Rien n'a été perdu. Réessaie dans une minute.",
+    "unexpectedReasonText": "Un problème est survenu pendant le chargement. Réessaie dans un instant.",
+    "tryAgainText": "Réessayer"
+  },
   "notesViewInfo": {
     "brainDumpTitle": "Vide-cerveau",
     "brainDumpInfoText": "Utilise le vide-cerveau pour capter tes idées vite fait. Les notes enregistrées que tu as ajoutées ou modifiées apparaissent dans la liste ci-dessous.",
@@ -1390,6 +1396,9 @@
     "linkedToHabitText": "Liée à l’habitude",
     "noNotesFoundText": "Aucune note trouvée",
     "noNotesMatchSearchText": "Aucune note ne correspond à ta recherche",
+    "couldNotLoadNotesText": "Impossible de charger tes notes",
+    "couldNotSearchNotesText": "Impossible de rechercher dans tes notes",
+    "couldNotRefreshNotesText": "Actualisation impossible — affichage de tes notes enregistrées",
     "deleteNoteTitle": "Supprimer la note",
     "deleteConfirmationText": "Veux-tu vraiment supprimer cette note ?",
     "deleteText": "Supprimer",
@@ -3644,6 +3653,8 @@
     "addYourFirstTaskText": "🚀 Ajoute ta première tâche",
     "noTasksMatchFiltersText": "Aucune tâche ne correspond à tes filtres",
     "couldNotFindTasksText": "Impossible de trouver des tâches",
+    "couldNotLoadTasksText": "Impossible de charger tes tâches",
+    "couldNotRefreshTasksText": "Actualisation impossible — affichage des tâches chargées précédemment",
     "loadMoreText": "Charger plus",
     "markCompleteText": "Marquer « <TITLE> » comme terminée",
     "markCompleteShortText": "Marquer comme terminée",
@@ -3853,6 +3864,7 @@
     "projectStatusCompletedText": "Terminé",
     "projectStatusArchivedText": "Archivé",
     "noProjectsYetText": "Pas encore de projets",
+    "couldNotRefreshProjectsText": "Actualisation impossible — affichage des projets chargés précédemment",
     "createFirstProjectText": "Crée ton premier projet pour commencer",
     "noMatchingProjectsText": "Aucun projet correspondant",
     "tryDifferentSearchText": "Essaie un autre terme de recherche ou efface ta recherche.",
@@ -3986,6 +3998,8 @@
     "noteBodyWebOnlyText": "Le contenu de la note se modifie sur le web, où plusieurs personnes peuvent écrire en même temps. Ici, tu peux renommer, créer et supprimer des notes.",
     "noNotesYetText": "Pas encore de notes",
     "noNotesDescriptionText": "Crée une note partagée pour toute l’équipe de ce projet.",
+    "couldNotLoadProjectNotesText": "Impossible de charger les notes de ce projet",
+    "couldNotRefreshProjectNotesText": "Actualisation impossible — affichage des notes chargées précédemment",
     "lastEditedText": "Modifiée le <DATE>",
     "selectNoteTitleText": "Ouvre une note pour la lire",
     "editOnWebText": "Modifier sur le web",
