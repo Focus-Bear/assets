@@ -6235,7 +6235,10 @@
     "extensionPermissionBody": "Prosi o: <PERMISSIONS>. Będzie mogło odczytywać i zmieniać strony otwierane w przeglądarce Focus Bear.",
     "buttonAllow": "Zezwól",
     "buttonDontAllow": "Nie zezwalaj",
-    "extensionLoadFailed": "Nie udało się wczytać <NAME>."
+    "extensionLoadFailed": "Nie udało się wczytać <NAME>.",
+    "habitPlayerOpenInBrowser": "Otwórz w przeglądarce",
+    "habitPlayerOpenInBrowserHelp": "Wyjdź z trybu pełnoekranowego i otwórz tę stronę w swojej zwykłej przeglądarce",
+    "habitPlayerTimeLeft": "Pozostało <TIME>"
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Transkrypcja na żywo",

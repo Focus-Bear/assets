@@ -6236,7 +6236,10 @@
     "extensionPermissionBody": "Angeforderte Berechtigungen: <PERMISSIONS>. Die Erweiterung kann dann die Seiten lesen und ändern, die du im Focus Bear Browser öffnest.",
     "buttonAllow": "Erlauben",
     "buttonDontAllow": "Nicht erlauben",
-    "extensionLoadFailed": "<NAME> konnte nicht geladen werden."
+    "extensionLoadFailed": "<NAME> konnte nicht geladen werden.",
+    "habitPlayerOpenInBrowser": "Im Browser öffnen",
+    "habitPlayerOpenInBrowserHelp": "Vollbild verlassen und diese Seite in deinem gewohnten Browser öffnen",
+    "habitPlayerTimeLeft": "Noch <TIME>"
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Live-Transkript",

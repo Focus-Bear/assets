@@ -6218,7 +6218,10 @@
         "extensionPermissionBody": "Solicita: <PERMISSIONS>. Podrá leer y cambiar las páginas que abras en el navegador de Focus Bear.",
         "buttonAllow": "Permitir",
         "buttonDontAllow": "No permitir",
-        "extensionLoadFailed": "No se pudo cargar <NAME>."
+        "extensionLoadFailed": "No se pudo cargar <NAME>.",
+        "habitPlayerOpenInBrowser": "Abrir en el navegador",
+        "habitPlayerOpenInBrowserHelp": "Salir de pantalla completa y abrir esta página en tu navegador habitual",
+        "habitPlayerTimeLeft": "Quedan <TIME>"
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Transcripción en directo",
