@@ -5030,6 +5030,7 @@
         "savingText": "Guardando tu grabación…",
         "saveFailedText": "No se pudo guardar la grabación. Todo lo grabado se conserva en este Mac, así que puedes volver a intentarlo.",
         "transcriptHeading": "Transcripción",
+        "transcriptRecordingHeadingText": "Transcripción de la nota de voz <NUMBER> (<DURATION>)",
         "recordingTitle": "Nota de voz",
         "lectureKeptText": "Tu grabación se conserva. Guarda la nota para adjuntarla.",
         "recoveryFoundText": "Una grabación del <DATE> (<DURATION>) no se guardó.",

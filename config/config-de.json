@@ -6046,6 +6046,7 @@
     "savingText": "Deine Aufnahme wird gespeichert …",
     "saveFailedText": "Die Aufnahme konnte nicht gespeichert werden. Alles Aufgenommene bleibt auf diesem Mac, du kannst es also erneut versuchen.",
     "transcriptHeading": "Transkript",
+    "transcriptRecordingHeadingText": "Transkript der Sprachnotiz <NUMBER> (<DURATION>)",
     "recordingTitle": "Sprachnotiz",
     "lectureKeptText": "Deine Aufnahme bleibt erhalten. Speichere die Notiz, um sie anzuhängen.",
     "recoveryFoundText": "Eine Aufnahme vom <DATE> (<DURATION>) wurde nicht gespeichert.",

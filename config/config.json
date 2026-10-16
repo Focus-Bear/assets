@@ -5006,6 +5006,7 @@
         "savingText": "Saving your recording…",
         "saveFailedText": "Couldn't save the recording. Everything recorded is kept on this Mac, so you can try again.",
         "transcriptHeading": "Transcript",
+        "transcriptRecordingHeadingText": "Transcript of voice note <NUMBER> (<DURATION>)",
         "recordingTitle": "Voice note",
         "lectureKeptText": "Your recording is kept. Save the note to attach it.",
         "recoveryFoundText": "A recording from <DATE> (<DURATION>) wasn't saved.",
