@@ -6289,6 +6289,16 @@
     "chatErrorMessageTooLongText": "Ce message est trop long. Il doit faire moins de <COUNT> caractères.",
     "chatErrorRejectedText": "Impossible d'envoyer ce message. Essaie un message plus court ou un fichier plus petit.",
     "chatErrorServerText": "Une erreur s'est produite. Ton message est revenu dans la zone de saisie, tu peux réessayer.",
-    "buttonDismissChatError": "Masquer"
+    "buttonDismissChatError": "Masquer",
+    "chatBugReportedText": "Signalé à l'équipe.",
+    "chatBugReportedWithTicketText": "Signalé à l'équipe (ticket n° <TICKET>).",
+    "chatBugReportUnavailableText": "Nous n'avons pas pu le signaler automatiquement. Utilise « Parler à un humain » pour l'envoyer à notre équipe.",
+    "buttonAttachChatLogs": "Joindre les journaux",
+    "chatAttachingLogsText": "Ajout des journaux…",
+    "chatLogsAttachedText": "Journaux joints.",
+    "chatLogsAttachFailedText": "Impossible de joindre les journaux. Tu peux les envoyer depuis « Signaler un problème ».",
+    "buttonOpenReportProblemFromChat": "Ouvrir « Signaler un problème »",
+    "chatReportProblemPrefillText": "<TITLE> (signalé dans « Discuter avec Focus Bear »)",
+    "chatReportProblemPrefillWithTicketText": "<TITLE> (signalé dans « Discuter avec Focus Bear », ticket n° <TICKET>)"
   }
 }

@@ -6287,6 +6287,16 @@
     "chatErrorMessageTooLongText": "Diese Nachricht ist zu lang. Sie muss kürzer als <COUNT> Zeichen sein.",
     "chatErrorRejectedText": "Diese Nachricht konnte nicht gesendet werden. Versuche eine kürzere Nachricht oder eine kleinere Datei.",
     "chatErrorServerText": "Etwas ist schiefgelaufen. Deine Nachricht steht wieder im Eingabefeld, sodass du es erneut versuchen kannst.",
-    "buttonDismissChatError": "Ausblenden"
+    "buttonDismissChatError": "Ausblenden",
+    "chatBugReportedText": "An das Team gemeldet.",
+    "chatBugReportedWithTicketText": "An das Team gemeldet (Ticket Nr. <TICKET>).",
+    "chatBugReportUnavailableText": "Wir konnten das nicht automatisch melden. Nutze „Mit einem Menschen sprechen“, um es an unser Team zu senden.",
+    "buttonAttachChatLogs": "Protokolle anhängen",
+    "chatAttachingLogsText": "Protokolle werden angehängt…",
+    "chatLogsAttachedText": "Protokolle angehängt.",
+    "chatLogsAttachFailedText": "Die Protokolle konnten nicht angehängt werden. Du kannst sie stattdessen über „Problem melden“ senden.",
+    "buttonOpenReportProblemFromChat": "„Problem melden“ öffnen",
+    "chatReportProblemPrefillText": "<TITLE> (gemeldet in „Mit Focus Bear chatten“)",
+    "chatReportProblemPrefillWithTicketText": "<TITLE> (gemeldet in „Mit Focus Bear chatten“, Ticket Nr. <TICKET>)"
   }
 }
