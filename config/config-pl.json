@@ -4363,6 +4363,8 @@
     "tasksSettings": "Ustawienia zadań",
     "tasksSelectedCount": "Wybrano: %d",
     "tasksClearSelection": "Wyczyść",
+    "tasksStartFocusing": "Zacznij się skupiać",
+    "tasksStartFocusingHint": "Rozpocznij sesję skupienia z wybranymi zadaniami, z ich projektami jako celem",
     "tasksSnoozeHint": "Przełóż – przenieś na inny dzień",
     "tasksSnoozeTitle": "Przenieś zadanie na…",
     "tasksSnoozePlaceholder": "np. 2d, -1d, wt, jutro",

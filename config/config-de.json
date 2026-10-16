@@ -4364,6 +4364,8 @@
     "tasksSettings": "Aufgabeneinstellungen",
     "tasksSelectedCount": "%d ausgewählt",
     "tasksClearSelection": "Aufheben",
+    "tasksStartFocusing": "Fokussieren starten",
+    "tasksStartFocusingHint": "Eine Fokussitzung mit den ausgewählten Aufgaben starten, ihre Projekte als Ziel",
     "tasksSnoozeHint": "Verschieben – auf einen anderen Tag",
     "tasksSnoozeTitle": "Aufgabe verschieben auf …",
     "tasksSnoozePlaceholder": "z. B. 2d, -1d, Di, morgen",

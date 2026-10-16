@@ -4701,6 +4701,8 @@
         "tasksSettings": "Ajustes de tareas",
         "tasksSelectedCount": "%d seleccionadas",
         "tasksClearSelection": "Borrar",
+        "tasksStartFocusing": "Empezar a enfocarte",
+        "tasksStartFocusingHint": "Empieza una sesión de enfoque con las tareas seleccionadas y sus proyectos como objetivo",
         "tasksSnoozeHint": "Posponer — mover a otro día",
         "tasksSnoozeTitle": "Mover tarea a…",
         "tasksSnoozePlaceholder": "p. ej. 2d, -1d, mar, mañ",
