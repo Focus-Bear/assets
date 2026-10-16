@@ -6368,7 +6368,12 @@
     "undoText": "Cofnij",
     "textBoxEditorDescription": "Tekst na PDF",
     "largePreviewDescription": "Podgląd pliku <FILE>",
-    "doubleClickToAnnotateText": "Kliknij dwukrotnie PDF, aby dodać adnotacje."
+    "doubleClickToAnnotateText": "Kliknij dwukrotnie PDF, aby dodać adnotacje.",
+    "zoomInText": "Powiększ (⌘+)",
+    "zoomOutText": "Pomniejsz (⌘−)",
+    "fitWidthText": "Dopasuj do szerokości",
+    "fitWidthHelpText": "Dopasuj stronę do szerokości (⌘0)",
+    "zoomLevelDescription": "Powiększenie"
   },
   "meetingRecordingInfo": {
     "promptTitle": "Czy chcesz nagrać to spotkanie?",
