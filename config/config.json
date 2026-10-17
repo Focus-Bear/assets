@@ -3150,7 +3150,10 @@
         "buttonSelect": "Select",
         "tabDebugLogs": "Debug Logs",
         "buttonCloseDebugLogsText": "Close",
-        "titleReportProblemFormText": "Report a problem or share an idea"
+        "titleReportProblemFormText": "Report a problem or share an idea",
+        "subtitleReportProblemFormText": "Screenshots and your logs help us understand what happened.",
+        "reportProblemOpeningText": "Opening…",
+        "reportProblemAddScreenshotsText": "Drag, paste, or click to choose"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
