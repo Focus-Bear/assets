@@ -2818,7 +2818,10 @@
     "buttonSelect": "Sélectionner",
     "tabDebugLogs": "Logs de débogage",
     "buttonCloseDebugLogsText": "Fermer",
-    "titleReportProblemFormText": "Signaler un problème ou partager une idée"
+    "titleReportProblemFormText": "Signaler un problème ou partager une idée",
+    "subtitleReportProblemFormText": "Les captures d'écran et vos journaux nous aident à comprendre ce qui s'est passé.",
+    "reportProblemOpeningText": "Ouverture…",
+    "reportProblemAddScreenshotsText": "Glissez, collez ou cliquez pour choisir"
   },
   "confirmMorningRoutineTimeVcInfo": {
     "title": "Confirme ta routine matinale",
