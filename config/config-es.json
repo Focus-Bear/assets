@@ -6236,7 +6236,8 @@
         "extensionLoadFailed": "No se pudo cargar <NAME>.",
         "habitPlayerOpenInBrowser": "Abrir en el navegador",
         "habitPlayerOpenInBrowserHelp": "Salir de pantalla completa y abrir esta página en tu navegador habitual",
-        "habitPlayerTimeLeft": "Quedan <TIME>"
+        "habitPlayerTimeLeft": "Quedan <TIME>",
+        "addressCalculationCopy": "Copiar resultado"
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Transcripción en directo",

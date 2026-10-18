@@ -6253,7 +6253,8 @@
     "extensionLoadFailed": "Nie udało się wczytać <NAME>.",
     "habitPlayerOpenInBrowser": "Otwórz w przeglądarce",
     "habitPlayerOpenInBrowserHelp": "Wyjdź z trybu pełnoekranowego i otwórz tę stronę w swojej zwykłej przeglądarce",
-    "habitPlayerTimeLeft": "Pozostało <TIME>"
+    "habitPlayerTimeLeft": "Pozostało <TIME>",
+    "addressCalculationCopy": "Kopiuj wynik"
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Transkrypcja na żywo",
