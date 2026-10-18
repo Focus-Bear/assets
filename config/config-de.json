@@ -6407,6 +6407,14 @@
     "couldNotStartText": "Die Aufnahme des Meetings konnte nicht gestartet werden.",
     "couldNotSaveNoteText": "Die Transkription konnte nicht zur Meeting-Notiz hinzugefügt werden. Die Aufnahme bleibt in <FOLDER> erhalten.",
     "settingTitle": "Aufnahme von Meetings anbieten",
-    "settingDescriptionText": "Wenn ein Meeting beginnt, fragt Focus Bear, ob der Ton und dein Bildschirm aufgenommen werden sollen. Aufnahmen bleiben auf diesem Mac unter Dokumente/Focus-Bear-Recordings."
+    "settingDescriptionText": "Wenn ein Meeting beginnt, fragt Focus Bear, ob der Ton und dein Bildschirm aufgenommen werden sollen. Aufnahmen bleiben auf diesem Mac unter Dokumente/Focus-Bear-Recordings.",
+    "slidesTitle": "Folien",
+    "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Mac erfasst. Klicke auf eine, um sie groß anzuzeigen, mit Anmerkungen zu versehen oder zu dieser Stelle der Aufnahme zu springen.",
+    "slideThumbnailCaptionText": "<NUMBER> · <TIME>",
+    "slidePositionText": "Folie <NUMBER> von <TOTAL>, gezeigt bei <TIME>",
+    "previousSlideText": "Vorherige Folie",
+    "nextSlideText": "Nächste Folie",
+    "goToSlideMomentText": "Zu dieser Stelle der Aufnahme springen",
+    "annotateSlideText": "Anmerken"
   }
 }

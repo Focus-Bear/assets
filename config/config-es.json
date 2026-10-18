@@ -6389,6 +6389,14 @@
         "couldNotStartText": "No se ha podido empezar a grabar la reunión.",
         "couldNotSaveNoteText": "No se ha podido añadir la transcripción a la nota de la reunión. La grabación se conserva en <FOLDER>.",
         "settingTitle": "Ofrecer grabar las reuniones",
-        "settingDescriptionText": "Cuando empieza una reunión, Focus Bear pregunta si quieres grabar su audio y tu pantalla. Las grabaciones se quedan en este Mac, en Documentos/Focus-Bear-Recordings."
+        "settingDescriptionText": "Cuando empieza una reunión, Focus Bear pregunta si quieres grabar su audio y tu pantalla. Las grabaciones se quedan en este Mac, en Documentos/Focus-Bear-Recordings.",
+        "slidesTitle": "Diapositivas",
+        "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este Mac. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",
+        "slideThumbnailCaptionText": "<NUMBER> · <TIME>",
+        "slidePositionText": "Diapositiva <NUMBER> de <TOTAL>, mostrada a las <TIME>",
+        "previousSlideText": "Diapositiva anterior",
+        "nextSlideText": "Diapositiva siguiente",
+        "goToSlideMomentText": "Ir a este momento de la grabación",
+        "annotateSlideText": "Anotar"
     }
 }

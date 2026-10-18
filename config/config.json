@@ -6363,6 +6363,14 @@
         "couldNotStartText": "Couldn't start recording the meeting.",
         "couldNotSaveNoteText": "Couldn't add the transcript to the meeting note. The recording is kept in <FOLDER>.",
         "settingTitle": "Offer to record meetings",
-        "settingDescriptionText": "When a meeting starts, Focus Bear asks whether to record its audio and your screen. Recordings stay on this Mac in Documents/Focus-Bear-Recordings."
+        "settingDescriptionText": "When a meeting starts, Focus Bear asks whether to record its audio and your screen. Recordings stay on this Mac in Documents/Focus-Bear-Recordings.",
+        "slidesTitle": "Slides",
+        "slidesHelpText": "Slides shown on screen while the meeting recorded, captured on this Mac. Click one to see it large, annotate it, or go to that moment in the recording.",
+        "slideThumbnailCaptionText": "<NUMBER> · <TIME>",
+        "slidePositionText": "Slide <NUMBER> of <TOTAL>, shown at <TIME>",
+        "previousSlideText": "Previous slide",
+        "nextSlideText": "Next slide",
+        "goToSlideMomentText": "Go to this moment in the recording",
+        "annotateSlideText": "Annotate"
     }
 }
