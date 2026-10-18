@@ -6120,7 +6120,12 @@
     "microphonePrivacyHintText": "Pegel bewegt sich nicht? Prüfe in Windows Einstellungen › Datenschutz und Sicherheit › Mikrofon.",
     "unsavedRecordingsText": "Noch nicht gespeicherte Aufnahmen: <COUNT>",
     "unsavedRecordingsHelpText": "Sende Sprachnotizen, die nicht hochgeladen oder transkribiert werden konnten, und öffne Vorlesungen, die nicht gespeichert wurden.",
-    "retryLaterText": "Du kannst dieses Fenster schließen. Die Aufnahme bleibt erhalten, und Notizen bietet an, sie erneut zu senden."
+    "retryLaterText": "Du kannst dieses Fenster schließen. Die Aufnahme bleibt erhalten, und Notizen bietet an, sie erneut zu senden.",
+    "liveTranscriptHelpText": "Wird während der Aufnahme auf diesem Computer transkribiert. Solange zugehört wird, wird nichts gesendet.",
+    "liveTranscriptNoRecognizerText": "Windows hat auf diesem Computer keine Spracherkennung für <LANGUAGE>. Füge das Sprachpaket der Sprache unter Einstellungen › Zeit und Sprache hinzu. Die Aufnahme läuft weiter.",
+    "recordingCouldNotUploadText": "Deine Aufnahme konnte nicht hochgeladen werden. Sie bleibt auf diesem Computer, und Notizen bietet an, sie erneut zu senden.",
+    "recordingCouldNotSaveText": "Die Aufnahme konnte der Notiz nicht hinzugefügt werden. Sie bleibt auf diesem Computer, und Notizen bietet an, sie erneut zu senden.",
+    "continuationsNotSavedText": "Ein Teil des Transkripts passte nicht in diese Notiz und konnte noch nicht als eigene Notiz gespeichert werden. Speichere die Notiz erneut, um es noch einmal zu versuchen."
   },
   "lectureRecordingInfo": {
     "windowTitle": "Eine Vorlesung aufnehmen",

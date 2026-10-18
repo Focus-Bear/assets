@@ -6119,7 +6119,12 @@
     "microphonePrivacyHintText": "Poziom się nie zmienia? Sprawdź Ustawienia systemu Windows › Prywatność i zabezpieczenia › Mikrofon.",
     "unsavedRecordingsText": "Jeszcze niezapisane nagrania: <COUNT>",
     "unsavedRecordingsHelpText": "Wyślij notatki głosowe, których nie udało się przesłać lub przetranskrybować, i otwórz niezapisane wykłady.",
-    "retryLaterText": "Możesz zamknąć to okno. Nagranie zostaje zachowane, a Notatki zaproponują ponowne wysłanie."
+    "retryLaterText": "Możesz zamknąć to okno. Nagranie zostaje zachowane, a Notatki zaproponują ponowne wysłanie.",
+    "liveTranscriptHelpText": "Transkrypcja powstaje na tym komputerze podczas nagrywania. Podczas słuchania nic nie jest nigdzie wysyłane.",
+    "liveTranscriptNoRecognizerText": "Windows nie ma na tym komputerze rozpoznawania mowy dla języka <LANGUAGE>. Dodaj pakiet mowy dla tego języka w Ustawienia › Czas i język. Nagrywanie trwa dalej.",
+    "recordingCouldNotUploadText": "Nie udało się przesłać nagrania. Zostaje na tym komputerze, a Notatki zaproponują ponowne wysłanie.",
+    "recordingCouldNotSaveText": "Nie udało się dodać nagrania do notatki. Zostaje na tym komputerze, a Notatki zaproponują ponowne wysłanie.",
+    "continuationsNotSavedText": "Część transkrypcji nie zmieściła się w tej notatce i nie udało się jej jeszcze zapisać jako osobnej notatki. Zapisz notatkę ponownie, aby spróbować jeszcze raz."
   },
   "lectureRecordingInfo": {
     "windowTitle": "Nagraj wykład",
