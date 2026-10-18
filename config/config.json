@@ -6480,6 +6480,13 @@
         "screenAddedNoticeText": "Screen Recording is on: Focus Bear is now recording the screen and other people's audio too.",
         "nothingAllowedNoticeText": "Focus Bear can't record this meeting: Screen Recording and the microphone are both turned off. Turn them on in System Settings to record your next meeting.",
         "menuBarWaitingText": "Waiting for Screen Recording",
-        "openSettingsText": "Open Settings"
+        "openSettingsText": "Open Settings",
+        "screenLostNoticeText": "Screen recording stopped, so Focus Bear is carrying on with your microphone only. Everything recorded so far is kept.",
+        "screenRecordingOffWarningText": "Screen Recording is off — Focus Bear can't record this meeting until you allow it.",
+        "reopenToFinishWarningText": "Reopen Focus Bear to finish turning on Screen Recording.",
+        "grantPermissionText": "Grant permission",
+        "reopenText": "Reopen",
+        "warningText": "Warning",
+        "recordBlockedHelpText": "Allow Screen Recording first: Focus Bear can't record a meeting without it."
     }
 }

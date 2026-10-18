@@ -6524,6 +6524,13 @@
     "screenAddedNoticeText": "Die Bildschirmaufnahme ist an: Focus Bear nimmt jetzt auch den Bildschirm und den Ton der anderen auf.",
     "nothingAllowedNoticeText": "Focus Bear kann dieses Meeting nicht aufnehmen: Bildschirmaufnahme und Mikrofon sind beide ausgeschaltet. Schalte sie in den Systemeinstellungen ein, um dein nächstes Meeting aufzunehmen.",
     "menuBarWaitingText": "Warte auf Bildschirmaufnahme",
-    "openSettingsText": "Einstellungen öffnen"
+    "openSettingsText": "Einstellungen öffnen",
+    "screenLostNoticeText": "Die Bildschirmaufnahme wurde beendet, deshalb nimmt Focus Bear nur noch dein Mikrofon auf. Alles bisher Aufgenommene bleibt erhalten.",
+    "screenRecordingOffWarningText": "Die Bildschirmaufnahme ist aus – Focus Bear kann dieses Meeting erst aufnehmen, wenn du sie erlaubst.",
+    "reopenToFinishWarningText": "Öffne Focus Bear neu, um das Einschalten der Bildschirmaufnahme abzuschließen.",
+    "grantPermissionText": "Berechtigung erteilen",
+    "reopenText": "Neu öffnen",
+    "warningText": "Warnung",
+    "recordBlockedHelpText": "Erlaube zuerst die Bildschirmaufnahme: Ohne sie kann Focus Bear kein Meeting aufnehmen."
   }
 }
