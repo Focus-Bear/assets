@@ -4542,6 +4542,8 @@
         "stretchedBlocksTipDismissHint": "Don't show this tip again",
         "hideEventButton": "🙈 Hide",
         "showEventButton": "👀 Show",
+        "joinMeetingButton": "Join",
+        "joinMeetingAccessibilityLabel": "Join %@ in the Focus Bear browser",
         "dismissRepeatingTitle": "This is a repeating event.",
         "dismissRepeatingInfo": "Would you like to hide all events in the series or just the one for today?",
         "dismissRepeatingJustThisOne": "Just this one",
