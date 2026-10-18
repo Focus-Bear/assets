@@ -6429,6 +6429,15 @@
         "previousSlideText": "Diapositiva anterior",
         "nextSlideText": "Diapositiva siguiente",
         "goToSlideMomentText": "Ir a este momento de la grabación",
-        "annotateSlideText": "Anotar"
+        "annotateSlideText": "Anotar",
+        "recordSlidesText": "Grabar diapositivas",
+        "microphoneOnlyNoticeText": "La grabación de pantalla está desactivada, así que Focus Bear solo está grabando tu micrófono. Actívala para capturar la pantalla y el audio de los demás. Si macOS te ofrece salir de Focus Bear y volver a abrirlo, elige Más tarde para que esta grabación continúe.",
+        "waitingForScreenNoticeText": "La grabación de pantalla está desactivada, así que Focus Bear todavía no puede grabar la pantalla. Actívala y la grabación empezará sola. Las notas de la reunión ya están listas para que escribas en ellas.",
+        "relaunchNeededNoticeText": "La grabación de pantalla está activada, pero macOS necesita que salgas de Focus Bear y vuelvas a abrirlo antes de poder grabar la pantalla. Hazlo después de la reunión; esta sigue grabando tu micrófono.",
+        "relaunchNeededNothingRecordedText": "La grabación de pantalla está activada, pero macOS necesita que salgas de Focus Bear y vuelvas a abrirlo antes de poder grabar la pantalla. Sal de Focus Bear y vuelve a abrirlo, y te ofrecerá grabar la reunión de nuevo.",
+        "screenAddedNoticeText": "La grabación de pantalla está activada: ahora Focus Bear también graba la pantalla y el audio de los demás.",
+        "nothingAllowedNoticeText": "Focus Bear no puede grabar esta reunión: la grabación de pantalla y el micrófono están desactivados. Actívalos en Ajustes del Sistema para grabar tu próxima reunión.",
+        "menuBarWaitingText": "Esperando la grabación de pantalla",
+        "openSettingsText": "Abrir Ajustes"
     }
 }

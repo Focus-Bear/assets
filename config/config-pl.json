@@ -6446,6 +6446,15 @@
     "previousSlideText": "Poprzedni slajd",
     "nextSlideText": "Następny slajd",
     "goToSlideMomentText": "Przejdź do tego momentu nagrania",
-    "annotateSlideText": "Dodaj adnotacje"
+    "annotateSlideText": "Dodaj adnotacje",
+    "recordSlidesText": "Nagrywaj slajdy",
+    "microphoneOnlyNoticeText": "Nagrywanie ekranu jest wyłączone, więc Focus Bear nagrywa tylko Twój mikrofon. Włącz je, aby nagrywać ekran i dźwięk pozostałych uczestników. Jeśli macOS zaproponuje zamknięcie i ponowne otwarcie Focus Bear, wybierz Później, aby to nagranie trwało dalej.",
+    "waitingForScreenNoticeText": "Nagrywanie ekranu jest wyłączone, więc Focus Bear nie może jeszcze nagrywać ekranu. Włącz je, a nagrywanie zacznie się samo. Notatki ze spotkania są już gotowe do pisania.",
+    "relaunchNeededNoticeText": "Nagrywanie ekranu jest włączone, ale macOS wymaga zamknięcia i ponownego otwarcia Focus Bear, zanim będzie mógł nagrywać ekran. Zrób to po spotkaniu; to spotkanie nadal nagrywa Twój mikrofon.",
+    "relaunchNeededNothingRecordedText": "Nagrywanie ekranu jest włączone, ale macOS wymaga zamknięcia i ponownego otwarcia Focus Bear, zanim będzie mógł nagrywać ekran. Zamknij i ponownie otwórz Focus Bear, a zaproponuje ponowne nagranie spotkania.",
+    "screenAddedNoticeText": "Nagrywanie ekranu jest włączone: Focus Bear nagrywa teraz również ekran i dźwięk pozostałych uczestników.",
+    "nothingAllowedNoticeText": "Focus Bear nie może nagrać tego spotkania: nagrywanie ekranu i mikrofon są wyłączone. Włącz je w Ustawieniach systemowych, aby nagrać następne spotkanie.",
+    "menuBarWaitingText": "Czekam na nagrywanie ekranu",
+    "openSettingsText": "Otwórz Ustawienia"
   }
 }
