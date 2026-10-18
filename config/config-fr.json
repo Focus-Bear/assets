@@ -6449,6 +6449,15 @@
     "previousSlideText": "Diapositive précédente",
     "nextSlideText": "Diapositive suivante",
     "goToSlideMomentText": "Aller à ce moment de l'enregistrement",
-    "annotateSlideText": "Annoter"
+    "annotateSlideText": "Annoter",
+    "recordSlidesText": "Enregistrer les diapositives",
+    "microphoneOnlyNoticeText": "L'enregistrement de l'écran est désactivé : Focus Bear n'enregistre que votre micro. Activez-le pour capturer l'écran et le son des autres participants. Si macOS propose de quitter et de rouvrir Focus Bear, choisissez Plus tard pour que cet enregistrement continue.",
+    "waitingForScreenNoticeText": "L'enregistrement de l'écran est désactivé : Focus Bear ne peut pas encore enregistrer l'écran. Activez-le et l'enregistrement démarrera tout seul. Les notes de la réunion sont prêtes pour que vous y écriviez.",
+    "relaunchNeededNoticeText": "L'enregistrement de l'écran est activé, mais macOS demande de quitter et de rouvrir Focus Bear avant de pouvoir enregistrer l'écran. Faites-le après la réunion ; celle-ci continue d'enregistrer votre micro.",
+    "relaunchNeededNothingRecordedText": "L'enregistrement de l'écran est activé, mais macOS demande de quitter et de rouvrir Focus Bear avant de pouvoir enregistrer l'écran. Quittez et rouvrez Focus Bear, et il vous proposera d'enregistrer la réunion à nouveau.",
+    "screenAddedNoticeText": "L'enregistrement de l'écran est activé : Focus Bear enregistre maintenant aussi l'écran et le son des autres participants.",
+    "nothingAllowedNoticeText": "Focus Bear ne peut pas enregistrer cette réunion : l'enregistrement de l'écran et le micro sont tous deux désactivés. Activez-les dans les Réglages Système pour enregistrer votre prochaine réunion.",
+    "menuBarWaitingText": "En attente de l'enregistrement de l'écran",
+    "openSettingsText": "Ouvrir les Réglages"
   }
 }

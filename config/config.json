@@ -6403,6 +6403,15 @@
         "previousSlideText": "Previous slide",
         "nextSlideText": "Next slide",
         "goToSlideMomentText": "Go to this moment in the recording",
-        "annotateSlideText": "Annotate"
+        "annotateSlideText": "Annotate",
+        "recordSlidesText": "Record slides",
+        "microphoneOnlyNoticeText": "Screen Recording is off, so Focus Bear is recording your microphone only. Turn it on to capture the screen and other people's audio. If macOS offers to quit and reopen Focus Bear, choose Later so this recording keeps going.",
+        "waitingForScreenNoticeText": "Screen Recording is off, so Focus Bear can't record the screen yet. Turn it on and recording starts by itself. The meeting notes are ready for you to type in.",
+        "relaunchNeededNoticeText": "Screen Recording is on, but macOS needs Focus Bear to be quit and reopened before it can record the screen. Do that after the meeting; this one keeps recording your microphone.",
+        "relaunchNeededNothingRecordedText": "Screen Recording is on, but macOS needs Focus Bear to be quit and reopened before it can record the screen. Quit and reopen Focus Bear, and it offers to record the meeting again.",
+        "screenAddedNoticeText": "Screen Recording is on: Focus Bear is now recording the screen and other people's audio too.",
+        "nothingAllowedNoticeText": "Focus Bear can't record this meeting: Screen Recording and the microphone are both turned off. Turn them on in System Settings to record your next meeting.",
+        "menuBarWaitingText": "Waiting for Screen Recording",
+        "openSettingsText": "Open Settings"
     }
 }

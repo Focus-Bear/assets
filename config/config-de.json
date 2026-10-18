@@ -6447,6 +6447,15 @@
     "previousSlideText": "Vorherige Folie",
     "nextSlideText": "Nächste Folie",
     "goToSlideMomentText": "Zu dieser Stelle der Aufnahme springen",
-    "annotateSlideText": "Anmerken"
+    "annotateSlideText": "Anmerken",
+    "recordSlidesText": "Folien aufnehmen",
+    "microphoneOnlyNoticeText": "Die Bildschirmaufnahme ist aus, deshalb nimmt Focus Bear nur dein Mikrofon auf. Schalte sie ein, um den Bildschirm und den Ton der anderen aufzunehmen. Wenn macOS anbietet, Focus Bear zu beenden und neu zu öffnen, wähle „Später“, damit diese Aufnahme weiterläuft.",
+    "waitingForScreenNoticeText": "Die Bildschirmaufnahme ist aus, deshalb kann Focus Bear den Bildschirm noch nicht aufnehmen. Schalte sie ein, dann startet die Aufnahme von selbst. Die Meeting-Notizen sind schon bereit für deine Notizen.",
+    "relaunchNeededNoticeText": "Die Bildschirmaufnahme ist an, aber macOS verlangt, dass Focus Bear beendet und neu geöffnet wird, bevor der Bildschirm aufgenommen werden kann. Mach das nach dem Meeting; dieses nimmt weiter dein Mikrofon auf.",
+    "relaunchNeededNothingRecordedText": "Die Bildschirmaufnahme ist an, aber macOS verlangt, dass Focus Bear beendet und neu geöffnet wird, bevor der Bildschirm aufgenommen werden kann. Beende Focus Bear und öffne es neu, dann bietet es an, das Meeting erneut aufzunehmen.",
+    "screenAddedNoticeText": "Die Bildschirmaufnahme ist an: Focus Bear nimmt jetzt auch den Bildschirm und den Ton der anderen auf.",
+    "nothingAllowedNoticeText": "Focus Bear kann dieses Meeting nicht aufnehmen: Bildschirmaufnahme und Mikrofon sind beide ausgeschaltet. Schalte sie in den Systemeinstellungen ein, um dein nächstes Meeting aufzunehmen.",
+    "menuBarWaitingText": "Warte auf Bildschirmaufnahme",
+    "openSettingsText": "Einstellungen öffnen"
   }
 }
