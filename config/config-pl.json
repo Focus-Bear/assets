@@ -6407,6 +6407,24 @@
     "fitWidthHelpText": "Dopasuj stronę do szerokości (⌘0)",
     "zoomLevelDescription": "Powiększenie"
   },
+  "notePDFWindowsInfo": {
+    "attachHelpText": "Dołącz plik PDF do tej notatki, aby na nim pisać i rysować. Pliki PowerPoint są najpierw zamieniane na PDF na tym komputerze za pomocą programu PowerPoint.",
+    "localOnlyText": "Dołączone pliki PDF są na razie przechowywane tylko na tym komputerze.",
+    "fileMissingText": "Brak pliku: kopii przechowywanej na tym komputerze już nie ma.",
+    "convertingText": "Zamieniam <FILE> na PDF za pomocą programu PowerPoint…",
+    "unsupportedTypeText": "Nie można dołączyć tego rodzaju pliku. Wybierz plik PDF lub PowerPoint.",
+    "powerPointMissingText": "Pliki PowerPoint są zamieniane na PDF za pomocą programu PowerPoint, który nie jest zainstalowany na tym komputerze. Zapisz prezentację jako PDF, a potem dołącz ten plik PDF.",
+    "conversionFailedText": "PowerPoint nie mógł zamienić tego pliku na PDF. W programie PowerPoint wybierz Plik > Eksportuj > Utwórz dokument PDF/XPS, a potem dołącz plik PDF.",
+    "conversionTimedOutText": "Zamiana tego pliku na PDF trwała w programie PowerPoint zbyt długo. Spróbuj ponownie albo zapisz go jako PDF w programie PowerPoint i dołącz ten plik.",
+    "cannotAddToProjectText": "Dołączone pliki PDF zostają na tym komputerze, dlatego notatki z takim plikiem nie można jeszcze dodać do projektu.",
+    "fileTypesText": "Pliki PDF i PowerPoint",
+    "viewerUnavailableText": "Nie udało się otworzyć przeglądarki PDF. Możliwe, że brakuje Microsoft Edge WebView2 albo jest on nieaktualny.",
+    "hintSelectText": "Przewijaj, klikaj linki i zaznaczaj tekst. Kliknij dwukrotnie pole tekstowe lub rysunek, aby go edytować.",
+    "hintTextText": "Kliknij tam, gdzie chcesz pisać. Gdy skończysz, naciśnij Ctrl+Enter lub Esc.",
+    "zoomInText": "Powiększ (Ctrl+Plus)",
+    "zoomOutText": "Pomniejsz (Ctrl+Minus)",
+    "fitWidthHelpText": "Dopasuj stronę do szerokości (Ctrl+0)"
+  },
   "meetingRecordingInfo": {
     "promptTitle": "Czy chcesz nagrać to spotkanie?",
     "promptMessageText": "Focus Bear może nagrać dźwięk i Twój ekran oraz zapisać transkrypcję w notatce, żebyś mógł przejrzeć ją później.",

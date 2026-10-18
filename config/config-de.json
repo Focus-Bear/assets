@@ -6408,6 +6408,24 @@
     "fitWidthHelpText": "Seite an die Breite anpassen (⌘0)",
     "zoomLevelDescription": "Zoom"
   },
+  "notePDFWindowsInfo": {
+    "attachHelpText": "Hänge ein PDF an diese Notiz an, um darauf zu schreiben und zu zeichnen. PowerPoint-Dateien werden zuerst auf diesem Computer mit PowerPoint in ein PDF umgewandelt.",
+    "localOnlyText": "Angehängte PDFs werden vorerst nur auf diesem Computer gespeichert.",
+    "fileMissingText": "Datei fehlt: Die auf diesem Computer gespeicherte Kopie ist nicht mehr da.",
+    "convertingText": "<FILE> wird mit PowerPoint in ein PDF umgewandelt…",
+    "unsupportedTypeText": "Diese Art von Datei kann nicht angehängt werden. Wähle eine PDF- oder PowerPoint-Datei.",
+    "powerPointMissingText": "PowerPoint-Dateien werden mit PowerPoint in PDFs umgewandelt, und PowerPoint ist auf diesem Computer nicht installiert. Speichere die Präsentation als PDF und hänge dann das PDF an.",
+    "conversionFailedText": "PowerPoint konnte diese Datei nicht in ein PDF umwandeln. Wähle in PowerPoint Datei > Exportieren > PDF/XPS-Dokument erstellen und hänge dann das PDF an.",
+    "conversionTimedOutText": "PowerPoint hat zu lange gebraucht, um diese Datei in ein PDF umzuwandeln. Versuche es noch einmal oder speichere sie in PowerPoint als PDF und hänge dieses an.",
+    "cannotAddToProjectText": "Angehängte PDFs bleiben auf diesem Computer, deshalb kann eine Notiz mit einem PDF noch keinem Projekt hinzugefügt werden.",
+    "fileTypesText": "PDF- und PowerPoint-Dateien",
+    "viewerUnavailableText": "Der PDF-Viewer konnte nicht geöffnet werden. Microsoft Edge WebView2 fehlt möglicherweise oder ist veraltet.",
+    "hintSelectText": "Scrolle, klicke auf Links und markiere Text. Doppelklicke auf ein Textfeld oder eine Zeichnung, um es zu bearbeiten.",
+    "hintTextText": "Klicke dorthin, wo du schreiben möchtest. Drücke Strg+Eingabe oder Esc, wenn du fertig bist.",
+    "zoomInText": "Vergrößern (Strg+Plus)",
+    "zoomOutText": "Verkleinern (Strg+Minus)",
+    "fitWidthHelpText": "Seite an die Breite anpassen (Strg+0)"
+  },
   "meetingRecordingInfo": {
     "promptTitle": "Möchtest du dieses Meeting aufnehmen?",
     "promptMessageText": "Focus Bear kann den Ton und deinen Bildschirm aufnehmen und die Transkription in einer Notiz speichern, damit du sie später durchsehen kannst.",

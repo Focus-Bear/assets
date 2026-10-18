@@ -6364,6 +6364,24 @@
         "fitWidthHelpText": "Fit the page to the width (⌘0)",
         "zoomLevelDescription": "Zoom"
     },
+    "notePDFWindowsInfo": {
+        "attachHelpText": "Attach a PDF to this note to type and draw on it. PowerPoint files are turned into a PDF on this computer first, with PowerPoint.",
+        "localOnlyText": "Attached PDFs are kept on this computer only for now.",
+        "fileMissingText": "File missing: the copy kept on this computer is gone.",
+        "convertingText": "Turning <FILE> into a PDF with PowerPoint…",
+        "unsupportedTypeText": "That kind of file can't be attached. Choose a PDF or PowerPoint file.",
+        "powerPointMissingText": "PowerPoint files are turned into PDFs with PowerPoint, which isn't installed on this computer. Save the presentation as a PDF, then attach the PDF.",
+        "conversionFailedText": "PowerPoint couldn't turn this file into a PDF. In PowerPoint, choose File > Export > Create PDF/XPS, then attach the PDF.",
+        "conversionTimedOutText": "PowerPoint took too long to turn this file into a PDF. Try again, or save it as a PDF from PowerPoint and attach that.",
+        "cannotAddToProjectText": "Attached PDFs stay on this computer, so a note with one can't be added to a project yet.",
+        "fileTypesText": "PDF and PowerPoint files",
+        "viewerUnavailableText": "Couldn't open the PDF viewer. Microsoft Edge WebView2 may be missing or out of date.",
+        "hintSelectText": "Scroll, click links and select text. Double-click a text box or drawing to edit it.",
+        "hintTextText": "Click where you want to type. Press Ctrl+Enter or Esc when you're done.",
+        "zoomInText": "Zoom in (Ctrl+Plus)",
+        "zoomOutText": "Zoom out (Ctrl+Minus)",
+        "fitWidthHelpText": "Fit the page to the width (Ctrl+0)"
+    },
     "meetingRecordingInfo": {
         "promptTitle": "Do you want to record this meeting?",
         "promptMessageText": "Focus Bear can record the audio and your screen and save the transcription in a note for you to review later.",

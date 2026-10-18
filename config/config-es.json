@@ -6390,6 +6390,24 @@
         "fitWidthHelpText": "Ajustar la página al ancho (⌘0)",
         "zoomLevelDescription": "Zoom"
     },
+    "notePDFWindowsInfo": {
+        "attachHelpText": "Adjunta un PDF a esta nota para escribir y dibujar en él. Los archivos de PowerPoint se convierten primero en PDF en este equipo, con PowerPoint.",
+        "localOnlyText": "Por ahora, los PDF adjuntos se guardan solo en este equipo.",
+        "fileMissingText": "Falta el archivo: la copia guardada en este equipo ya no está.",
+        "convertingText": "Convirtiendo <FILE> en PDF con PowerPoint…",
+        "unsupportedTypeText": "No se puede adjuntar ese tipo de archivo. Elige un archivo PDF o de PowerPoint.",
+        "powerPointMissingText": "Los archivos de PowerPoint se convierten en PDF con PowerPoint, que no está instalado en este equipo. Guarda la presentación como PDF y luego adjunta el PDF.",
+        "conversionFailedText": "PowerPoint no pudo convertir este archivo en PDF. En PowerPoint, elige Archivo > Exportar > Crear documento PDF/XPS y luego adjunta el PDF.",
+        "conversionTimedOutText": "PowerPoint tardó demasiado en convertir este archivo en PDF. Inténtalo de nuevo, o guárdalo como PDF desde PowerPoint y adjunta ese archivo.",
+        "cannotAddToProjectText": "Los PDF adjuntos se quedan en este equipo, así que una nota con uno todavía no se puede añadir a un proyecto.",
+        "fileTypesText": "Archivos PDF y de PowerPoint",
+        "viewerUnavailableText": "No se pudo abrir el visor de PDF. Puede que Microsoft Edge WebView2 falte o esté desactualizado.",
+        "hintSelectText": "Desplázate, haz clic en los enlaces y selecciona texto. Haz doble clic en un cuadro de texto o un dibujo para editarlo.",
+        "hintTextText": "Haz clic donde quieras escribir. Pulsa Ctrl+Intro o Esc cuando termines.",
+        "zoomInText": "Acercar (Ctrl+Más)",
+        "zoomOutText": "Alejar (Ctrl+Menos)",
+        "fitWidthHelpText": "Ajustar la página al ancho (Ctrl+0)"
+    },
     "meetingRecordingInfo": {
         "promptTitle": "¿Quieres grabar esta reunión?",
         "promptMessageText": "Focus Bear puede grabar el audio y tu pantalla y guardar la transcripción en una nota para que la revises más tarde.",
