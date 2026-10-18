@@ -1867,6 +1867,14 @@
             "factual": "factual"
         },
         "pepTalkRateLimitedText": "Too many pep talks just now — the server is asking us to wait a moment. Retry will work again shortly.",
+        "pepTalkSavedMessageNoticeText": "Focus Bear's server isn't answering, so here's a message saved on this Mac.",
+        "pepTalkFallbackMessages": [
+            "Every habit you start today is a vote for the person you want to be. Begin with the first one and let momentum do the rest.",
+            "You don't have to feel ready to start. Start the first habit, and the readiness tends to follow.",
+            "Small steps done consistently beat big plans done occasionally. One habit at a time.",
+            "Your routine is a gift to the rest of your day. Give yourself these first few minutes.",
+            "Progress, not perfection. Even a shortened routine keeps the habit of showing up alive."
+        ],
         "pepTalkUnavailableText": "We couldn't generate a personalized message today. Please try again later.",
         "motivationalStyleText": "Motivational Style",
         "motivationalNoticeText": "Your routine streak and your routine activities will be sent to Open AI. No other details will be shared, but if anything in your habit titles would identify you, we recommend you remove it.",
@@ -4502,6 +4510,13 @@
         "outcomeNotSaved": "The project was saved, but its outcome could not be saved. Open project settings to try again.",
         "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now.",
       "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
+    },
+    "serverReachabilityInfo": {
+        "serverTroubleBannerText": "Can't reach Focus Bear right now — showing what's saved on this Mac.",
+        "offlineBannerText": "You're offline — showing what's saved on this Mac.",
+        "serverTroubleDetailText": "Focus Bear's server is having problems. Nothing you do here is lost; it syncs when the server is back.",
+        "offlineDetailText": "Check your internet connection. Nothing you do here is lost; it syncs when you're back online.",
+        "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
         "tasksDurationHint": "Duration: type minutes (30), 45m or 1h, then Enter",

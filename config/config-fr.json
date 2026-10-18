@@ -1523,6 +1523,14 @@
       "factual": "factuel"
     },
     "pepTalkRateLimitedText": "Trop d’encouragements d’un coup : le serveur nous demande d’attendre un instant. Réessayer refonctionnera sous peu.",
+    "pepTalkSavedMessageNoticeText": "Le serveur de Focus Bear ne répond pas, alors voici un message enregistré sur ce Mac.",
+    "pepTalkFallbackMessages": [
+        "Chaque habitude que tu commences aujourd’hui est un vote pour la personne que tu veux être. Commence par la première et laisse l’élan faire le reste.",
+        "Pas besoin de te sentir prêt pour commencer. Lance la première habitude, l’envie suit souvent.",
+        "De petits pas réguliers valent mieux que de grands plans occasionnels. Une habitude à la fois.",
+        "Ta routine est un cadeau pour le reste de ta journée. Offre-toi ces premières minutes.",
+        "Le progrès, pas la perfection. Même une routine raccourcie garde vivante l’habitude d’être au rendez-vous."
+    ],
     "pepTalkUnavailableText": "On n’a pas pu générer de message personnalisé aujourd’hui. Réessaie plus tard.",
     "motivationalStyleText": "Style de motivation",
     "motivationalNoticeText": "Ta série de routines et les activités de tes routines seront envoyées à Open AI. Aucun autre détail ne sera partagé, mais si quelque chose dans les titres de tes habitudes peut t’identifier, on te conseille de l’enlever.",
@@ -4186,6 +4194,13 @@
     "outcomeNotSaved": "Le projet a été enregistré, mais son résultat n’a pas pu l’être. Ouvre les réglages du projet pour réessayer.",
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd'hui ou demain",
     "outcomeUnavailable": "Le résultat d’un projet ne peut pas encore être enregistré — il faut une mise à jour du serveur. Utilise l’échéance et l’importance pour l’instant."
+  },
+  "serverReachabilityInfo": {
+      "serverTroubleBannerText": "Impossible de joindre Focus Bear pour l’instant — affichage de ce qui est enregistré sur ce Mac.",
+      "offlineBannerText": "Tu es hors ligne — affichage de ce qui est enregistré sur ce Mac.",
+      "serverTroubleDetailText": "Le serveur de Focus Bear rencontre des problèmes. Rien de ce que tu fais ici n’est perdu ; tout se synchronisera quand le serveur sera revenu.",
+      "offlineDetailText": "Vérifie ta connexion internet. Rien de ce que tu fais ici n’est perdu ; tout se synchronisera quand tu seras de nouveau en ligne.",
+      "tryAgainText": "Réessayer"
   },
   "scheduleViewInfo": {
       "tasksDurationHint": "Durée : saisis des minutes (30), 45m ou 1h, puis Entrée",

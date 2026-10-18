@@ -1523,6 +1523,14 @@
       "factual": "rzeczowy"
     },
     "pepTalkRateLimitedText": "Zbyt wiele pogadanek motywacyjnych naraz — serwer prosi o chwilę przerwy. Ponów zadziała za moment.",
+    "pepTalkSavedMessageNoticeText": "Serwer Focus Bear nie odpowiada, więc oto wiadomość zapisana na tym Macu.",
+    "pepTalkFallbackMessages": [
+        "Każdy nawyk, który dziś zaczynasz, to głos na osobę, którą chcesz być. Zacznij od pierwszego, a rozpęd zrobi resztę.",
+        "Nie musisz czuć się gotowy, żeby zacząć. Zacznij pierwszy nawyk, a gotowość zwykle przyjdzie sama.",
+        "Małe kroki robione regularnie wygrywają z wielkimi planami realizowanymi od czasu do czasu. Jeden nawyk naraz.",
+        "Twoja rutyna to prezent dla reszty dnia. Daj sobie te pierwsze minuty.",
+        "Postęp, nie perfekcja. Nawet skrócona rutyna podtrzymuje nawyk pojawiania się."
+    ],
     "pepTalkUnavailableText": "Nie udało się dziś wygenerować spersonalizowanej wiadomości. Spróbuj ponownie później.",
     "motivationalStyleText": "Styl motywacji",
     "motivationalNoticeText": "Twoja seria rutyn i aktywności z twoich rutyn zostaną wysłane do Open AI. Żadne inne dane nie będą udostępniane, ale jeśli cokolwiek w tytułach twoich nawyków mogłoby cię identyfikować, zalecamy to usunąć.",
@@ -4185,6 +4193,13 @@
     "outcomeNotSaved": "Projekt został zapisany, ale nie udało się zapisać jego rezultatu. Otwórz ustawienia projektu, aby spróbować ponownie.",
     "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro",
     "outcomeUnavailable": "Rezultatu projektu nie można jeszcze zapisać — wymaga to aktualizacji serwera. Na razie użyj terminu i ważności."
+  },
+  "serverReachabilityInfo": {
+      "serverTroubleBannerText": "Nie można teraz połączyć się z Focus Bear — wyświetlamy to, co zapisano na tym Macu.",
+      "offlineBannerText": "Jesteś offline — wyświetlamy to, co zapisano na tym Macu.",
+      "serverTroubleDetailText": "Serwer Focus Bear ma problemy. Nic, co tu zrobisz, nie przepadnie; zsynchronizuje się, gdy serwer wróci.",
+      "offlineDetailText": "Sprawdź połączenie z internetem. Nic, co tu zrobisz, nie przepadnie; zsynchronizuje się, gdy wrócisz do sieci.",
+      "tryAgainText": "Spróbuj ponownie"
   },
   "scheduleViewInfo": {
       "tasksDurationHint": "Czas trwania: wpisz minuty (30), 45m lub 1h, a potem Enter",

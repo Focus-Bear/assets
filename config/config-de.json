@@ -1522,6 +1522,14 @@
       "factual": "sachlich"
     },
     "pepTalkRateLimitedText": "Gerade zu viele Motivationssprüche — der Server bittet uns, kurz zu warten. Erneut versuchen funktioniert gleich wieder.",
+    "pepTalkSavedMessageNoticeText": "Der Focus-Bear-Server antwortet nicht, darum hier eine Nachricht, die auf diesem Mac gespeichert ist.",
+    "pepTalkFallbackMessages": [
+        "Jede Gewohnheit, die du heute beginnst, ist eine Stimme für die Person, die du sein willst. Fang mit der ersten an und lass den Schwung den Rest erledigen.",
+        "Du musst dich nicht bereit fühlen, um anzufangen. Fang mit der ersten Gewohnheit an, die Bereitschaft kommt meist von allein.",
+        "Kleine Schritte, regelmäßig gemacht, schlagen große Pläne, die nur ab und zu passieren. Eine Gewohnheit nach der anderen.",
+        "Deine Routine ist ein Geschenk an den Rest deines Tages. Gönn dir diese ersten Minuten.",
+        "Fortschritt statt Perfektion. Auch eine kürzere Routine hält die Gewohnheit am Leben, dranzubleiben."
+    ],
     "pepTalkUnavailableText": "Wir konnten heute keine persönliche Nachricht erstellen. Versuch es später nochmal.",
     "motivationalStyleText": "Motivationsstil",
     "motivationalNoticeText": "Deine Routine-Serie und deine Routine-Aktivitäten werden an Open AI gesendet. Sonst werden keine Daten geteilt, aber wenn dich etwas in deinen Gewohnheitstiteln identifizieren könnte, entfern es lieber.",
@@ -4186,6 +4194,13 @@
     "outcomeNotSaved": "Das Projekt wurde gespeichert, aber sein Ergebnis nicht. Öffne die Projekteinstellungen, um es erneut zu versuchen.",
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern",
     "outcomeUnavailable": "Das Ergebnis eines Projekts kann noch nicht gespeichert werden – dafür ist ein Server-Update nötig. Nutze vorerst Fälligkeitsdatum und Wichtigkeit."
+  },
+  "serverReachabilityInfo": {
+      "serverTroubleBannerText": "Focus Bear ist gerade nicht erreichbar – angezeigt wird, was auf diesem Mac gespeichert ist.",
+      "offlineBannerText": "Du bist offline – angezeigt wird, was auf diesem Mac gespeichert ist.",
+      "serverTroubleDetailText": "Der Focus-Bear-Server hat Probleme. Nichts, was du hier tust, geht verloren; es wird synchronisiert, sobald der Server wieder da ist.",
+      "offlineDetailText": "Prüf deine Internetverbindung. Nichts, was du hier tust, geht verloren; es wird synchronisiert, sobald du wieder online bist.",
+      "tryAgainText": "Erneut versuchen"
   },
   "scheduleViewInfo": {
       "tasksDurationHint": "Dauer: Minuten eingeben (30), 45m oder 1h, dann Eingabetaste",
