@@ -6523,6 +6523,13 @@
     "screenAddedNoticeText": "Nagrywanie ekranu jest włączone: Focus Bear nagrywa teraz również ekran i dźwięk pozostałych uczestników.",
     "nothingAllowedNoticeText": "Focus Bear nie może nagrać tego spotkania: nagrywanie ekranu i mikrofon są wyłączone. Włącz je w Ustawieniach systemowych, aby nagrać następne spotkanie.",
     "menuBarWaitingText": "Czekam na nagrywanie ekranu",
-    "openSettingsText": "Otwórz Ustawienia"
+    "openSettingsText": "Otwórz Ustawienia",
+    "screenLostNoticeText": "Nagrywanie ekranu zostało zatrzymane, więc Focus Bear nagrywa dalej tylko Twój mikrofon. Wszystko, co zostało nagrane do tej pory, jest zachowane.",
+    "screenRecordingOffWarningText": "Nagrywanie ekranu jest wyłączone — Focus Bear nie może nagrać tego spotkania, dopóki na nie nie zezwolisz.",
+    "reopenToFinishWarningText": "Otwórz ponownie Focus Bear, aby dokończyć włączanie nagrywania ekranu.",
+    "grantPermissionText": "Udziel uprawnienia",
+    "reopenText": "Otwórz ponownie",
+    "warningText": "Ostrzeżenie",
+    "recordBlockedHelpText": "Najpierw zezwól na nagrywanie ekranu: bez niego Focus Bear nie może nagrać spotkania."
   }
 }

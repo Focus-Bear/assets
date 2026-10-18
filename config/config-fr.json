@@ -6526,6 +6526,13 @@
     "screenAddedNoticeText": "L'enregistrement de l'écran est activé : Focus Bear enregistre maintenant aussi l'écran et le son des autres participants.",
     "nothingAllowedNoticeText": "Focus Bear ne peut pas enregistrer cette réunion : l'enregistrement de l'écran et le micro sont tous deux désactivés. Activez-les dans les Réglages Système pour enregistrer votre prochaine réunion.",
     "menuBarWaitingText": "En attente de l'enregistrement de l'écran",
-    "openSettingsText": "Ouvrir les Réglages"
+    "openSettingsText": "Ouvrir les Réglages",
+    "screenLostNoticeText": "L'enregistrement de l'écran s'est arrêté : Focus Bear continue avec votre micro uniquement. Tout ce qui a été enregistré jusqu'ici est conservé.",
+    "screenRecordingOffWarningText": "L'enregistrement de l'écran est désactivé : Focus Bear ne peut pas enregistrer cette réunion tant que vous ne l'autorisez pas.",
+    "reopenToFinishWarningText": "Rouvrez Focus Bear pour finir d'activer l'enregistrement de l'écran.",
+    "grantPermissionText": "Accorder l'autorisation",
+    "reopenText": "Rouvrir",
+    "warningText": "Avertissement",
+    "recordBlockedHelpText": "Autorisez d'abord l'enregistrement de l'écran : Focus Bear ne peut pas enregistrer une réunion sans lui."
   }
 }

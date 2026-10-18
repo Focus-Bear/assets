@@ -6506,6 +6506,13 @@
         "screenAddedNoticeText": "La grabación de pantalla está activada: ahora Focus Bear también graba la pantalla y el audio de los demás.",
         "nothingAllowedNoticeText": "Focus Bear no puede grabar esta reunión: la grabación de pantalla y el micrófono están desactivados. Actívalos en Ajustes del Sistema para grabar tu próxima reunión.",
         "menuBarWaitingText": "Esperando la grabación de pantalla",
-        "openSettingsText": "Abrir Ajustes"
+        "openSettingsText": "Abrir Ajustes",
+        "screenLostNoticeText": "La grabación de pantalla se ha detenido, así que Focus Bear sigue solo con tu micrófono. Todo lo grabado hasta ahora se conserva.",
+        "screenRecordingOffWarningText": "La grabación de pantalla está desactivada: Focus Bear no puede grabar esta reunión hasta que la permitas.",
+        "reopenToFinishWarningText": "Vuelve a abrir Focus Bear para terminar de activar la grabación de pantalla.",
+        "grantPermissionText": "Conceder permiso",
+        "reopenText": "Volver a abrir",
+        "warningText": "Aviso",
+        "recordBlockedHelpText": "Permite primero la grabación de pantalla: Focus Bear no puede grabar una reunión sin ella."
     }
 }
