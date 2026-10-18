@@ -1367,6 +1367,12 @@
     "buttonStartBasicBrainDumpText": "← Zurück zum einfachen Brain Dump",
     "buttonOwnUrlBrainDumpText": "Nutze dein eigenes System für den Brain Dump"
   },
+  "listLoadStateInfo": {
+    "offlineReasonText": "Du scheinst offline zu sein. Prüfe deine Internetverbindung und versuche es dann erneut.",
+    "serverTroubleReasonText": "Der Server von Focus Bear hat gerade Probleme. Es ist nichts verloren gegangen. Versuche es in einer Minute erneut.",
+    "unexpectedReasonText": "Beim Laden ist etwas schiefgelaufen. Versuche es gleich noch einmal.",
+    "tryAgainText": "Erneut versuchen"
+  },
   "notesViewInfo": {
     "brainDumpTitle": "Brain Dump",
     "brainDumpInfoText": "Nutz den Brain Dump, um Ideen schnell festzuhalten. Gespeicherte Notizen, die du erstellt oder bearbeitet hast, erscheinen in der Liste unten.",
@@ -1389,6 +1395,9 @@
     "linkedToHabitText": "Mit Gewohnheit verknüpft",
     "noNotesFoundText": "Keine Notizen gefunden",
     "noNotesMatchSearchText": "Keine Notizen passen zu deiner Suche",
+    "couldNotLoadNotesText": "Deine Notizen konnten nicht geladen werden",
+    "couldNotSearchNotesText": "Deine Notizen konnten nicht durchsucht werden",
+    "couldNotRefreshNotesText": "Aktualisierung fehlgeschlagen — deine gespeicherten Notizen werden angezeigt",
     "deleteNoteTitle": "Notiz löschen",
     "deleteConfirmationText": "Willst du diese Notiz wirklich löschen?",
     "deleteText": "Löschen",
@@ -3652,6 +3661,8 @@
     "addYourFirstTaskText": "🚀 Füge deine erste Aufgabe hinzu",
     "noTasksMatchFiltersText": "Keine Aufgaben passen zu deinen Filtern",
     "couldNotFindTasksText": "Keine Aufgaben gefunden",
+    "couldNotLoadTasksText": "Deine Aufgaben konnten nicht geladen werden",
+    "couldNotRefreshTasksText": "Aktualisierung fehlgeschlagen — die zuvor geladenen Aufgaben werden angezeigt",
     "loadMoreText": "Mehr laden",
     "markCompleteText": "\"<TITLE>\" als erledigt markieren",
     "markCompleteShortText": "Als erledigt markieren",
@@ -3861,6 +3872,7 @@
     "projectStatusCompletedText": "Abgeschlossen",
     "projectStatusArchivedText": "Archiviert",
     "noProjectsYetText": "Noch keine Projekte",
+    "couldNotRefreshProjectsText": "Aktualisierung fehlgeschlagen — die zuvor geladenen Projekte werden angezeigt",
     "createFirstProjectText": "Erstelle dein erstes Projekt, um loszulegen",
     "noMatchingProjectsText": "Keine passenden Projekte",
     "tryDifferentSearchText": "Probier einen anderen Suchbegriff oder lösch die Suche.",
@@ -3994,6 +4006,8 @@
     "noteBodyWebOnlyText": "Der Inhalt der Notiz wird im Web bearbeitet, wo mehrere Leute gleichzeitig schreiben können. Hier kannst du Notizen umbenennen, erstellen und löschen.",
     "noNotesYetText": "Noch keine Notizen",
     "noNotesDescriptionText": "Erstell eine gemeinsame Notiz für alle in diesem Projekt.",
+    "couldNotLoadProjectNotesText": "Die Notizen dieses Projekts konnten nicht geladen werden",
+    "couldNotRefreshProjectNotesText": "Aktualisierung fehlgeschlagen — die zuvor geladenen Notizen werden angezeigt",
     "lastEditedText": "Zuletzt bearbeitet <DATE>",
     "selectNoteTitleText": "Öffne eine Notiz, um sie zu lesen",
     "editOnWebText": "Im Web bearbeiten",

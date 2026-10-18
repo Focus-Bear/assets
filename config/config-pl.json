@@ -1368,6 +1368,12 @@
     "buttonStartBasicBrainDumpText": "← Powrót do podstawowego brain dump",
     "buttonOwnUrlBrainDumpText": "Użyj własnego systemu do brain dump"
   },
+  "listLoadStateInfo": {
+    "offlineReasonText": "Wygląda na to, że jesteś offline. Sprawdź połączenie z internetem i spróbuj ponownie.",
+    "serverTroubleReasonText": "Serwer Focus Bear ma teraz problemy. Nic nie zostało utracone. Spróbuj ponownie za minutę.",
+    "unexpectedReasonText": "Coś poszło nie tak podczas wczytywania. Spróbuj ponownie za chwilę.",
+    "tryAgainText": "Spróbuj ponownie"
+  },
   "notesViewInfo": {
     "brainDumpTitle": "Zrzut myśli",
     "brainDumpInfoText": "Używaj zrzutu myśli, aby szybko zapisywać pomysły. Zapisane notatki, które dodasz lub zmienisz, pojawią się na liście poniżej.",
@@ -1390,6 +1396,9 @@
     "linkedToHabitText": "Powiązane z nawykiem",
     "noNotesFoundText": "Nie znaleziono notatek",
     "noNotesMatchSearchText": "Nie znaleziono notatek pasujących do wyszukiwania",
+    "couldNotLoadNotesText": "Nie udało się wczytać notatek",
+    "couldNotSearchNotesText": "Nie udało się przeszukać notatek",
+    "couldNotRefreshNotesText": "Nie udało się odświeżyć — pokazujemy zapisane notatki",
     "deleteNoteTitle": "Usuń notatkę",
     "deleteConfirmationText": "Czy na pewno chcesz usunąć tę notatkę?",
     "deleteText": "Usuń",
@@ -3651,6 +3660,8 @@
     "addYourFirstTaskText": "🚀 Dodaj swoje pierwsze zadanie",
     "noTasksMatchFiltersText": "Żadne zadanie nie pasuje do filtrów",
     "couldNotFindTasksText": "Nie znaleziono żadnych zadań",
+    "couldNotLoadTasksText": "Nie udało się wczytać zadań",
+    "couldNotRefreshTasksText": "Nie udało się odświeżyć — pokazujemy wcześniej wczytane zadania",
     "loadMoreText": "Wczytaj więcej",
     "markCompleteText": "Oznacz \"<TITLE>\" jako ukończone",
     "markCompleteShortText": "Oznacz jako ukończone",
@@ -3860,6 +3871,7 @@
     "projectStatusCompletedText": "Ukończone",
     "projectStatusArchivedText": "Zarchiwizowane",
     "noProjectsYetText": "Brak projektów",
+    "couldNotRefreshProjectsText": "Nie udało się odświeżyć — pokazujemy wcześniej wczytane projekty",
     "createFirstProjectText": "Utwórz swój pierwszy projekt, aby zacząć",
     "noMatchingProjectsText": "Brak pasujących projektów",
     "tryDifferentSearchText": "Spróbuj innego hasła lub wyczyść wyszukiwanie.",
@@ -3993,6 +4005,8 @@
     "noteBodyWebOnlyText": "Treść notatki edytuje się w przeglądarce, gdzie kilka osób może pisać w niej jednocześnie. Tutaj możesz zmieniać nazwy, tworzyć i usuwać notatki.",
     "noNotesYetText": "Brak notatek",
     "noNotesDescriptionText": "Utwórz wspólną notatkę dla wszystkich w tym projekcie.",
+    "couldNotLoadProjectNotesText": "Nie udało się wczytać notatek tego projektu",
+    "couldNotRefreshProjectNotesText": "Nie udało się odświeżyć — pokazujemy wcześniej wczytane notatki",
     "lastEditedText": "Ostatnia edycja <DATE>",
     "selectNoteTitleText": "Otwórz notatkę, aby ją przeczytać",
     "editOnWebText": "Edytuj w przeglądarce",
