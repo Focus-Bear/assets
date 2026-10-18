@@ -6036,7 +6036,16 @@
     "imageSaveOrientationPrompt": "Diese Ausrichtung fürs nächste Mal speichern?",
     "imageNotNow": "Nicht jetzt",
     "imageRotationSaveFailed": "Die Ausrichtung konnte nicht gespeichert werden. Versuch es erneut, wenn du online bist.",
-    "imageLightboxOpened": "{name}, vergrößert angezeigt. Befehlstaste-Pfeil-links und Befehlstaste-Pfeil-rechts drehen es; Esc schließt es."
+    "imageLightboxOpened": "{name}, vergrößert angezeigt. Befehlstaste-Pfeil-links und Befehlstaste-Pfeil-rechts drehen es; Esc schließt es.",
+    "offlineBannerWindows": "Du bist offline. Änderungen werden auf diesem Computer gespeichert und synchronisiert, sobald du wieder online bist.",
+    "uploadWaitingWindows": "Karten, die bisher nur auf diesem Computer sind: {count}. Sie werden automatisch hochgeladen, und Sitzungen beziehen sie ein, sobald sie in deinem Konto sind.",
+    "refusedWritesWindows": "Dein Konto hat {count} Änderungen nicht angenommen. Neue Karten bleiben auf diesem Computer und werden bei jeder Synchronisierung von Revise erneut gesendet; andere Änderungen wurden nicht gespeichert.",
+    "dismiss": "Ausblenden",
+    "noCardsYetWindows": "Noch keine Karten. Füge deine erste Karte hinzu, um mit dem Wiederholen zu beginnen.",
+    "imageFilesFilterWindows": "Bilder",
+    "showMoreCards": "Mehr Karten anzeigen",
+    "offlineSessionWindows": "Du bist offline, deshalb nutzt diese Sitzung die auf diesem Computer gespeicherten Karten. Deine Antworten werden synchronisiert, sobald du wieder online bist.",
+    "imageLightboxOpenedWindows": "{name}, vergrößert angezeigt. Strg+Pfeil-links und Strg+Pfeil-rechts drehen es; Esc schließt es."
   },
   "voiceNotesInfo": {
     "transcribeVoiceNoteText": "Sprachnotiz transkribieren",
