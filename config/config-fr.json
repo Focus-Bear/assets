@@ -6417,6 +6417,24 @@
     "fitWidthHelpText": "Ajuster la page à la largeur (⌘0)",
     "zoomLevelDescription": "Zoom"
   },
+  "notePDFWindowsInfo": {
+    "attachHelpText": "Joins un PDF à cette note pour écrire et dessiner dessus. Les fichiers PowerPoint sont d'abord convertis en PDF sur cet ordinateur, avec PowerPoint.",
+    "localOnlyText": "Pour l'instant, les PDF joints sont conservés uniquement sur cet ordinateur.",
+    "fileMissingText": "Fichier manquant : la copie conservée sur cet ordinateur a disparu.",
+    "convertingText": "Conversion de <FILE> en PDF avec PowerPoint…",
+    "unsupportedTypeText": "Ce type de fichier ne peut pas être joint. Choisis un fichier PDF ou PowerPoint.",
+    "powerPointMissingText": "Les fichiers PowerPoint sont convertis en PDF avec PowerPoint, qui n'est pas installé sur cet ordinateur. Enregistre la présentation au format PDF, puis joins le PDF.",
+    "conversionFailedText": "PowerPoint n'a pas pu convertir ce fichier en PDF. Dans PowerPoint, choisis Fichier > Exporter > Créer un document PDF/XPS, puis joins le PDF.",
+    "conversionTimedOutText": "PowerPoint a mis trop de temps à convertir ce fichier en PDF. Réessaie, ou enregistre-le en PDF depuis PowerPoint et joins ce fichier.",
+    "cannotAddToProjectText": "Les PDF joints restent sur cet ordinateur, donc une note qui en contient un ne peut pas encore être ajoutée à un projet.",
+    "fileTypesText": "Fichiers PDF et PowerPoint",
+    "viewerUnavailableText": "Impossible d'ouvrir le lecteur PDF. Microsoft Edge WebView2 est peut-être absent ou obsolète.",
+    "hintSelectText": "Fais défiler, clique sur les liens et sélectionne du texte. Double-clique sur une zone de texte ou un dessin pour le modifier.",
+    "hintTextText": "Clique là où tu veux écrire. Appuie sur Ctrl+Entrée ou Échap quand tu as terminé.",
+    "zoomInText": "Zoom avant (Ctrl+Plus)",
+    "zoomOutText": "Zoom arrière (Ctrl+Moins)",
+    "fitWidthHelpText": "Ajuster la page à la largeur (Ctrl+0)"
+  },
   "meetingRecordingInfo": {
     "promptTitle": "Voulez-vous enregistrer cette réunion ?",
     "promptMessageText": "Focus Bear peut enregistrer le son et votre écran, et enregistrer la transcription dans une note pour que vous la relisiez plus tard.",
