@@ -6411,6 +6411,14 @@
     "couldNotStartText": "Impossible de commencer l'enregistrement de la réunion.",
     "couldNotSaveNoteText": "Impossible d'ajouter la transcription à la note de la réunion. L'enregistrement est conservé dans <FOLDER>.",
     "settingTitle": "Proposer d'enregistrer les réunions",
-    "settingDescriptionText": "Quand une réunion commence, Focus Bear demande s'il faut enregistrer le son et votre écran. Les enregistrements restent sur ce Mac, dans Documents/Focus-Bear-Recordings."
+    "settingDescriptionText": "Quand une réunion commence, Focus Bear demande s'il faut enregistrer le son et votre écran. Les enregistrements restent sur ce Mac, dans Documents/Focus-Bear-Recordings.",
+    "slidesTitle": "Diapositives",
+    "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur ce Mac. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",
+    "slideThumbnailCaptionText": "<NUMBER> · <TIME>",
+    "slidePositionText": "Diapositive <NUMBER> sur <TOTAL>, affichée à <TIME>",
+    "previousSlideText": "Diapositive précédente",
+    "nextSlideText": "Diapositive suivante",
+    "goToSlideMomentText": "Aller à ce moment de l'enregistrement",
+    "annotateSlideText": "Annoter"
   }
 }

@@ -6408,6 +6408,14 @@
     "couldNotStartText": "Nie udało się rozpocząć nagrywania spotkania.",
     "couldNotSaveNoteText": "Nie udało się dodać transkrypcji do notatki ze spotkania. Nagranie pozostaje w <FOLDER>.",
     "settingTitle": "Proponuj nagrywanie spotkań",
-    "settingDescriptionText": "Gdy zaczyna się spotkanie, Focus Bear pyta, czy nagrać jego dźwięk i Twój ekran. Nagrania pozostają na tym Macu w folderze Dokumenty/Focus-Bear-Recordings."
+    "settingDescriptionText": "Gdy zaczyna się spotkanie, Focus Bear pyta, czy nagrać jego dźwięk i Twój ekran. Nagrania pozostają na tym Macu w folderze Dokumenty/Focus-Bear-Recordings.",
+    "slidesTitle": "Slajdy",
+    "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym Macu. Kliknij slajd, aby zobaczyć go w powiększeniu, dodać adnotacje lub przejść do tego momentu nagrania.",
+    "slideThumbnailCaptionText": "<NUMBER> · <TIME>",
+    "slidePositionText": "Slajd <NUMBER> z <TOTAL>, pokazany w <TIME>",
+    "previousSlideText": "Poprzedni slajd",
+    "nextSlideText": "Następny slajd",
+    "goToSlideMomentText": "Przejdź do tego momentu nagrania",
+    "annotateSlideText": "Dodaj adnotacje"
   }
 }
