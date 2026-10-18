@@ -6263,7 +6263,7 @@
         "chatErrorServerText": "Something went wrong. Your message is back in the box, so you can try again.",
         "buttonDismissChatError": "Dismiss",
         "chatBugReportedText": "Reported to the team.",
-        "chatBugReportedWithTicketText": "Reported to the team (ticket #<TICKET>).",
+        "chatBugReportedWithTicketText": "Reported to the team (report #<TICKET>).",
         "chatBugReportUnavailableText": "We couldn't file this automatically. Use Talk to a human to send it to our team.",
         "buttonAttachChatLogs": "Attach logs",
         "chatAttachingLogsText": "Attaching logs…",
@@ -6271,7 +6271,7 @@
         "chatLogsAttachFailedText": "The logs couldn't be attached. You can send them from Report Problem instead.",
         "buttonOpenReportProblemFromChat": "Open Report Problem",
         "chatReportProblemPrefillText": "<TITLE> (reported in Chat with Focus Bear)",
-        "chatReportProblemPrefillWithTicketText": "<TITLE> (reported in Chat with Focus Bear, ticket #<TICKET>)"
+        "chatReportProblemPrefillWithTicketText": "<TITLE> (reported in Chat with Focus Bear, report #<TICKET>)"
     },
     "notePDFInfo": {
         "attachText": "Attach PDF or PowerPoint",
