@@ -6122,7 +6122,12 @@
     "microphonePrivacyHintText": "Le niveau ne bouge pas ? Vérifie Paramètres Windows › Confidentialité et sécurité › Microphone.",
     "unsavedRecordingsText": "Enregistrements pas encore sauvegardés : <COUNT>",
     "unsavedRecordingsHelpText": "Envoie les notes vocales qui n’ont pas pu être envoyées ou transcrites, et ouvre les cours qui n’ont pas été sauvegardés.",
-    "retryLaterText": "Tu peux fermer cette fenêtre. L’enregistrement est conservé, et Notes proposera de l’envoyer à nouveau."
+    "retryLaterText": "Tu peux fermer cette fenêtre. L’enregistrement est conservé, et Notes proposera de l’envoyer à nouveau.",
+    "liveTranscriptHelpText": "Transcrit sur cet ordinateur pendant l’enregistrement. Rien n’est envoyé nulle part pendant l’écoute.",
+    "liveTranscriptNoRecognizerText": "Windows n’a pas de reconnaissance vocale pour <LANGUAGE> sur cet ordinateur. Ajoute le module vocal de la langue dans Paramètres › Heure et langue. L’enregistrement continue.",
+    "recordingCouldNotUploadText": "Impossible d’envoyer ton enregistrement. Il est conservé sur cet ordinateur, et Notes proposera de l’envoyer à nouveau.",
+    "recordingCouldNotSaveText": "Impossible d’ajouter l’enregistrement à la note. Il est conservé sur cet ordinateur, et Notes proposera de l’envoyer à nouveau.",
+    "continuationsNotSavedText": "Une partie de la transcription ne tenait pas dans cette note et n’a pas encore pu être enregistrée comme note à part. Enregistre de nouveau la note pour réessayer."
   },
   "lectureRecordingInfo": {
     "windowTitle": "Enregistrer un cours",

@@ -6102,7 +6102,12 @@
         "microphonePrivacyHintText": "¿El nivel no se mueve? Revisa Configuración de Windows › Privacidad y seguridad › Micrófono.",
         "unsavedRecordingsText": "Grabaciones sin guardar: <COUNT>",
         "unsavedRecordingsHelpText": "Envía las notas de voz que no se pudieron subir o transcribir, y abre las clases que no se guardaron.",
-        "retryLaterText": "Puedes cerrar esta ventana. La grabación se conserva y Notas te ofrecerá enviarla de nuevo."
+        "retryLaterText": "Puedes cerrar esta ventana. La grabación se conserva y Notas te ofrecerá enviarla de nuevo.",
+        "liveTranscriptHelpText": "Se transcribe en este equipo mientras graba. No se envía nada a ningún sitio mientras escucha.",
+        "liveTranscriptNoRecognizerText": "Windows no tiene reconocimiento de voz para <LANGUAGE> en este equipo. Añade el paquete de voz del idioma en Configuración › Hora e idioma. La grabación continúa.",
+        "recordingCouldNotUploadText": "No se pudo subir tu grabación. Se conserva en este equipo y Notas te ofrecerá enviarla de nuevo.",
+        "recordingCouldNotSaveText": "No se pudo añadir la grabación a la nota. Se conserva en este equipo y Notas te ofrecerá enviarla de nuevo.",
+        "continuationsNotSavedText": "Parte de la transcripción no cabía en esta nota y todavía no se pudo guardar como una nota aparte. Vuelve a guardar la nota para intentarlo otra vez."
     },
     "lectureRecordingInfo": {
         "windowTitle": "Grabar una clase",

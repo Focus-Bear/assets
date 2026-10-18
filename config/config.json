@@ -6076,7 +6076,12 @@
         "microphonePrivacyHintText": "Level not moving? Check Windows Settings › Privacy & security › Microphone.",
         "unsavedRecordingsText": "Recordings not saved yet: <COUNT>",
         "unsavedRecordingsHelpText": "Send voice notes that couldn't be uploaded or transcribed, and open lectures that weren't saved.",
-        "retryLaterText": "You can close this window. The recording is kept, and Notes offers to send it again."
+        "retryLaterText": "You can close this window. The recording is kept, and Notes offers to send it again.",
+        "liveTranscriptHelpText": "Transcribed on this computer as it records. Nothing is sent anywhere while it listens.",
+        "liveTranscriptNoRecognizerText": "Windows has no speech recognition for <LANGUAGE> on this computer. Add the language's speech pack in Settings › Time & language. The recording carries on.",
+        "recordingCouldNotUploadText": "Couldn't upload your recording. It's kept on this computer, and Notes offers to send it again.",
+        "recordingCouldNotSaveText": "Couldn't add the recording to the note. It's kept on this computer, and Notes offers to send it again.",
+        "continuationsNotSavedText": "Part of the transcript didn't fit in this note and couldn't be saved as a note of its own yet. Save the note again to try once more."
     },
     "lectureRecordingInfo": {
         "windowTitle": "Record a lecture",
