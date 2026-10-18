@@ -6241,7 +6241,8 @@
         "extensionLoadFailed": "Couldn't load <NAME>.",
         "habitPlayerOpenInBrowser": "Open in browser",
         "habitPlayerOpenInBrowserHelp": "Leave full screen and open this page in your usual browser",
-        "habitPlayerTimeLeft": "<TIME> left"
+        "habitPlayerTimeLeft": "<TIME> left",
+        "addressCalculationCopy": "Copy result"
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Live transcript",
