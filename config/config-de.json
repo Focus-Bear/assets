@@ -2810,6 +2810,8 @@
     "placeHolderLogsFeedback": "Was ist passiert?",
     "reportDraftRestoredText": "Entwurf wiederhergestellt",
     "buttonDiscardReportDraftText": "Verwerfen",
+    "reportDestinationSupportText": "Focus Bear Support (KI-Triage)",
+    "reportProblemChooseScreenshotsText": "Screenshots zum Anhängen auswählen",
     "logsUploadDoneText": "Logs erfolgreich geteilt.",
     "logsUploadErrorText": "Beim Hochladen der Logs ist ein Problem aufgetreten. Bitte versuche es erneut.",
     "logsUploadErrorConnectionText": "Beim Hochladen der Logs gab es ein Problem mit deiner Internetverbindung. Bitte überprüfe deine Verbindung und versuche es erneut.",

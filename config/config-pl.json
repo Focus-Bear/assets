@@ -2811,6 +2811,8 @@
     "placeHolderLogsFeedback": "Co się stało?",
     "reportDraftRestoredText": "Przywrócono wersję roboczą",
     "buttonDiscardReportDraftText": "Odrzuć",
+    "reportDestinationSupportText": "Wsparcie Focus Bear (selekcja przez AI)",
+    "reportProblemChooseScreenshotsText": "Wybierz zrzuty ekranu do załączenia",
     "logsUploadDoneText": "Logi zostały pomyślnie udostępnione.",
     "logsUploadErrorText": "Wystąpił problem podczas przesyłania logów. Spróbuj ponownie.",
     "logsUploadErrorConnectionText": "Wystąpił problem z połączeniem internetowym podczas przesyłania logów. Sprawdź połączenie i spróbuj ponownie.",

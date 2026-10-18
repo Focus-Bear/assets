@@ -3158,6 +3158,8 @@
         "placeHolderLogsFeedback": "What happened?",
         "reportDraftRestoredText": "Draft restored",
         "buttonDiscardReportDraftText": "Discard",
+        "reportDestinationSupportText": "Focus Bear support (AI triage)",
+        "reportProblemChooseScreenshotsText": "Choose screenshots to attach",
         "logsUploadDoneText": "Logs successfully shared.",
         "logsUploadErrorText": "There was some problem in uploading the logs. Please try again.",
         "logsUploadErrorConnectionText": "There was a problem with your Internet connection while uploading the logs. Please check your connection and try again.",
@@ -3383,7 +3385,7 @@
     "microBreaksSettingsVcInfo":{
         "enableBreaksText": "Enable Breaks",
         "titleDoNotBlockSuperDistractingUrls": "Do not block \"Super Distracting Sites\" during breaks",
-        "titleNaturalBreaks": "Detect natual breaks",
+        "titleNaturalBreaks": "Detect natural breaks",
         "titleAutoStartBreaks": "Start breaks automatically"
     },
     "toDoListSettingsVcInfo":{
