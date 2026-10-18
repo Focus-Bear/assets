@@ -5064,7 +5064,11 @@
         "tooLargeMessageText": "The recording is <SIZE>, and a note can hold recordings up to <LIMIT>. The transcript is saved in the note either way. Save the recording as a file to keep it.",
         "saveRecordingAsText": "Save recording as…",
         "saveWithoutRecordingText": "Save without the recording",
-        "serverRefusedSizeText": "The server can't take a recording this large yet, so it's kept on this Mac. It uploads by itself once the server accepts it."
+        "serverRefusedSizeText": "The server can't take a recording this large yet, so it's kept on this Mac. It uploads by itself once the server accepts it.",
+        "removeVoiceNoteText": "Remove voice note",
+        "removeVoiceNoteConfirmTitle": "Remove this voice note?",
+        "removeVoiceNoteConfirmMessageText": "The recording and its transcript are deleted from this note. Your other voice notes aren't changed. This can't be undone.",
+        "removeText": "Remove"
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Open Focus Bear menu",

@@ -6106,7 +6106,11 @@
     "tooLargeMessageText": "Nagranie ma <SIZE>, a notatka może zawierać nagrania do <LIMIT>. Transkrypcja i tak zostanie zapisana w notatce. Zapisz nagranie jako plik, aby je zachować.",
     "saveRecordingAsText": "Zapisz nagranie jako…",
     "saveWithoutRecordingText": "Zapisz bez nagrania",
-    "serverRefusedSizeText": "Serwer nie przyjmuje jeszcze tak dużych nagrań, więc nagranie zostaje na tym Macu. Prześle się samo, gdy serwer zacznie je przyjmować."
+    "serverRefusedSizeText": "Serwer nie przyjmuje jeszcze tak dużych nagrań, więc nagranie zostaje na tym Macu. Prześle się samo, gdy serwer zacznie je przyjmować.",
+    "removeVoiceNoteText": "Usuń notatkę głosową",
+    "removeVoiceNoteConfirmTitle": "Usunąć tę notatkę głosową?",
+    "removeVoiceNoteConfirmMessageText": "Nagranie i jego transkrypcja zostaną usunięte z tej notatki. Pozostałe notatki głosowe się nie zmienią. Tego nie można cofnąć.",
+    "removeText": "Usuń"
   },
   "voiceNotesWindowsInfo": {
     "recordVoiceNoteButtonText": "Nagraj notatkę głosową",

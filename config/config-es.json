@@ -5088,7 +5088,11 @@
         "tooLargeMessageText": "La grabación ocupa <SIZE> y una nota admite grabaciones de hasta <LIMIT>. La transcripción se guarda en la nota en cualquier caso. Guarda la grabación como archivo para conservarla.",
         "saveRecordingAsText": "Guardar grabación como…",
         "saveWithoutRecordingText": "Guardar sin la grabación",
-        "serverRefusedSizeText": "El servidor aún no admite una grabación tan grande, así que se conserva en este Mac. Se subirá sola cuando el servidor la acepte."
+        "serverRefusedSizeText": "El servidor aún no admite una grabación tan grande, así que se conserva en este Mac. Se subirá sola cuando el servidor la acepte.",
+        "removeVoiceNoteText": "Eliminar nota de voz",
+        "removeVoiceNoteConfirmTitle": "¿Eliminar esta nota de voz?",
+        "removeVoiceNoteConfirmMessageText": "La grabación y su transcripción se eliminarán de esta nota. Tus otras notas de voz no cambian. Esto no se puede deshacer.",
+        "removeText": "Eliminar"
     },
     "menuView":{
         "a11yOpenFocusBearMenu": "Abrir el menú de Focus Bear",

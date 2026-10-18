@@ -6107,7 +6107,11 @@
     "tooLargeMessageText": "Die Aufnahme ist <SIZE> groß, eine Notiz kann aber nur Aufnahmen bis <LIMIT> aufnehmen. Das Transkript wird in jedem Fall in der Notiz gespeichert. Speichere die Aufnahme als Datei, um sie zu behalten.",
     "saveRecordingAsText": "Aufnahme speichern unter …",
     "saveWithoutRecordingText": "Ohne Aufnahme speichern",
-    "serverRefusedSizeText": "Der Server kann so große Aufnahmen noch nicht annehmen, deshalb bleibt sie auf diesem Mac. Sie wird automatisch hochgeladen, sobald der Server sie annimmt."
+    "serverRefusedSizeText": "Der Server kann so große Aufnahmen noch nicht annehmen, deshalb bleibt sie auf diesem Mac. Sie wird automatisch hochgeladen, sobald der Server sie annimmt.",
+    "removeVoiceNoteText": "Sprachnotiz entfernen",
+    "removeVoiceNoteConfirmTitle": "Diese Sprachnotiz entfernen?",
+    "removeVoiceNoteConfirmMessageText": "Die Aufnahme und ihr Transkript werden aus dieser Notiz gelöscht. Deine anderen Sprachnotizen bleiben unverändert. Das lässt sich nicht rückgängig machen.",
+    "removeText": "Entfernen"
   },
   "voiceNotesWindowsInfo": {
     "recordVoiceNoteButtonText": "Sprachnotiz aufnehmen",

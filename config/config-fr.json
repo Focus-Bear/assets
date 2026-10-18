@@ -6109,7 +6109,11 @@
     "tooLargeMessageText": "L’enregistrement fait <SIZE>, et une note peut contenir des enregistrements jusqu’à <LIMIT>. La transcription est sauvegardée dans la note dans tous les cas. Sauvegarde l’enregistrement dans un fichier pour le conserver.",
     "saveRecordingAsText": "Sauvegarder l’enregistrement sous…",
     "saveWithoutRecordingText": "Sauvegarder sans l’enregistrement",
-    "serverRefusedSizeText": "Le serveur ne peut pas encore accepter un enregistrement aussi volumineux, il est donc conservé sur ce Mac. Il sera envoyé automatiquement dès que le serveur l’acceptera."
+    "serverRefusedSizeText": "Le serveur ne peut pas encore accepter un enregistrement aussi volumineux, il est donc conservé sur ce Mac. Il sera envoyé automatiquement dès que le serveur l’acceptera.",
+    "removeVoiceNoteText": "Supprimer la note vocale",
+    "removeVoiceNoteConfirmTitle": "Supprimer cette note vocale ?",
+    "removeVoiceNoteConfirmMessageText": "L’enregistrement et sa transcription seront supprimés de cette note. Tes autres notes vocales ne changent pas. C’est irréversible.",
+    "removeText": "Supprimer"
   },
   "voiceNotesWindowsInfo": {
     "recordVoiceNoteButtonText": "Enregistrer une note vocale",
