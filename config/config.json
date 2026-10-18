@@ -1443,6 +1443,8 @@
         "personalNotesText": "Personal notes",
         "noteMovedText": "Note moved to <PROJECT>",
         "couldNotMoveNoteText": "Could not move the note",
+        "pinnedAccessibleText": "Pinned",
+        "removeTagText": "Remove tag <TAG>",
         "noteHasRecordingText": "This note has a voice recording, which project notes can't hold yet, so it stays where it is.",
         "recordingStillSavingText": "This note's voice recording is still being saved. Move it once that's done.",
         "couldNotCopyImagesText": "The note's images couldn't be copied, so it stayed where it was. Try again in a moment.",
