@@ -4232,6 +4232,8 @@
     "hideEvent": "Diesen Termin ausblenden",
     "hideEventButton": "🙈 Ausblenden",
     "showEventButton": "👀 Anzeigen",
+    "joinMeetingButton": "Teilnehmen",
+    "joinMeetingAccessibilityLabel": "%@ im Focus Bear Browser beitreten",
     "dismissRepeatingTitle": "Dies ist ein wiederkehrender Termin.",
     "dismissRepeatingInfo": "Möchtest du alle Termine der Serie ausblenden oder nur den von heute?",
     "dismissRepeatingJustThisOne": "Nur diesen",

@@ -4231,6 +4231,8 @@
     "hideEvent": "Ukryj to wydarzenie",
     "hideEventButton": "🙈 Ukryj",
     "showEventButton": "👀 Pokaż",
+    "joinMeetingButton": "Dołącz",
+    "joinMeetingAccessibilityLabel": "Dołącz do %@ w przeglądarce Focus Bear",
     "dismissRepeatingTitle": "To wydarzenie cykliczne.",
     "dismissRepeatingInfo": "Ukryć całą serię czy tylko dzisiejsze wydarzenie?",
     "dismissRepeatingJustThisOne": "Tylko to",

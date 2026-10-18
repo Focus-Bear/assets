@@ -4234,6 +4234,8 @@
     "hideEvent": "Masquer cet événement",
     "hideEventButton": "🙈 Masquer",
     "showEventButton": "👀 Afficher",
+    "joinMeetingButton": "Rejoindre",
+    "joinMeetingAccessibilityLabel": "Rejoindre %@ dans le navigateur Focus Bear",
     "dismissRepeatingTitle": "C'est un événement récurrent.",
     "dismissRepeatingInfo": "Veux-tu masquer toute la série ou seulement celui d'aujourd'hui ?",
     "dismissRepeatingJustThisOne": "Seulement celui-ci",
