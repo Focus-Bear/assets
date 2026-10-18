@@ -1448,6 +1448,8 @@
     "personalNotesText": "Notes personnelles",
     "noteMovedText": "Note déplacée vers <PROJECT>",
     "couldNotMoveNoteText": "Impossible de déplacer la note",
+    "pinnedAccessibleText": "Épinglée",
+    "removeTagText": "Retirer l’étiquette <TAG>",
     "noteHasRecordingText": "Cette note contient un enregistrement vocal, que les notes de projet ne peuvent pas encore contenir, elle reste donc à sa place.",
     "recordingStillSavingText": "L’enregistrement vocal de cette note est encore en cours de sauvegarde. Déplace-la une fois que c’est terminé.",
     "couldNotCopyImagesText": "Les images de la note n’ont pas pu être copiées, elle est donc restée à sa place. Réessaie dans un instant.",

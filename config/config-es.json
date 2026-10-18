@@ -1449,6 +1449,8 @@
         "personalNotesText": "Notas personales",
         "noteMovedText": "Nota movida a <PROJECT>",
         "couldNotMoveNoteText": "No se pudo mover la nota",
+        "pinnedAccessibleText": "Fijada",
+        "removeTagText": "Quitar la etiqueta <TAG>",
         "noteHasRecordingText": "Esta nota tiene una grabación de voz, y las notas de proyecto aún no pueden guardarla, así que se queda donde está.",
         "recordingStillSavingText": "La grabación de voz de esta nota aún se está guardando. Muévela cuando termine.",
         "couldNotCopyImagesText": "No se pudieron copiar las imágenes de la nota, así que se quedó donde estaba. Inténtalo de nuevo en un momento.",
