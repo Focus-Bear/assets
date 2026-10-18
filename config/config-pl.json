@@ -6037,7 +6037,16 @@
     "imageSaveOrientationPrompt": "Zapisać tę orientację na następny raz?",
     "imageNotNow": "Nie teraz",
     "imageRotationSaveFailed": "Nie udało się zapisać orientacji. Spróbuj ponownie, gdy będziesz online.",
-    "imageLightboxOpened": "{name} w powiększeniu. Command-Strzałka w lewo i Command-Strzałka w prawo obracają obraz; Escape go zamyka."
+    "imageLightboxOpened": "{name} w powiększeniu. Command-Strzałka w lewo i Command-Strzałka w prawo obracają obraz; Escape go zamyka.",
+    "offlineBannerWindows": "Jesteś offline. Zmiany są zapisywane na tym komputerze i zsynchronizują się, gdy wrócisz do sieci.",
+    "uploadWaitingWindows": "Fiszki na razie tylko na tym komputerze: {count}. Prześlą się same, a sesje uwzględnią je, gdy trafią na twoje konto.",
+    "refusedWritesWindows": "Twoje konto nie przyjęło zmian: {count}. Nowe fiszki zostają na tym komputerze i są wysyłane ponownie przy każdej synchronizacji Revise; pozostałe zmiany nie zostały zapisane.",
+    "dismiss": "Zamknij",
+    "noCardsYetWindows": "Nie ma jeszcze fiszek. Dodaj pierwszą fiszkę, aby zacząć powtórki.",
+    "imageFilesFilterWindows": "Obrazy",
+    "showMoreCards": "Pokaż więcej fiszek",
+    "offlineSessionWindows": "Jesteś offline, więc ta sesja korzysta z fiszek zapisanych na tym komputerze. Twoje odpowiedzi zsynchronizują się, gdy wrócisz do sieci.",
+    "imageLightboxOpenedWindows": "{name} w powiększeniu. Ctrl+Strzałka w lewo i Ctrl+Strzałka w prawo obracają obraz; Escape go zamyka."
   },
   "voiceNotesInfo": {
     "transcribeVoiceNoteText": "Przetranskrybuj notatkę głosową",

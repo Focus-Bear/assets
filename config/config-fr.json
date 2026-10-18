@@ -6040,7 +6040,16 @@
     "imageSaveOrientationPrompt": "Enregistrer cette orientation pour la prochaine fois ?",
     "imageNotNow": "Pas maintenant",
     "imageRotationSaveFailed": "Impossible d’enregistrer l’orientation. Réessaie quand tu es en ligne.",
-    "imageLightboxOpened": "{name}, affichée en plus grand. Commande-Flèche gauche et Commande-Flèche droite la font pivoter ; Échap la ferme."
+    "imageLightboxOpened": "{name}, affichée en plus grand. Commande-Flèche gauche et Commande-Flèche droite la font pivoter ; Échap la ferme.",
+    "offlineBannerWindows": "Tu es hors ligne. Les modifications sont enregistrées sur cet ordinateur et se synchronisent quand tu es de nouveau en ligne.",
+    "uploadWaitingWindows": "Cartes uniquement sur cet ordinateur pour l’instant : {count}. Elles s’envoient toutes seules, et les sessions les incluent dès qu’elles sont dans ton compte.",
+    "refusedWritesWindows": "Ton compte n’a pas accepté {count} modifications. Les nouvelles cartes restent sur cet ordinateur et sont renvoyées à chaque synchronisation de Revise ; les autres modifications n’ont pas été enregistrées.",
+    "dismiss": "Ignorer",
+    "noCardsYetWindows": "Aucune carte pour l’instant. Ajoute ta première carte pour commencer à réviser.",
+    "imageFilesFilterWindows": "Images",
+    "showMoreCards": "Afficher plus de cartes",
+    "offlineSessionWindows": "Tu es hors ligne, cette session utilise donc les cartes enregistrées sur cet ordinateur. Tes réponses se synchroniseront quand tu seras de nouveau en ligne.",
+    "imageLightboxOpenedWindows": "{name}, affichée en plus grand. Ctrl+Flèche gauche et Ctrl+Flèche droite la font pivoter ; Échap la ferme."
   },
   "voiceNotesInfo": {
     "transcribeVoiceNoteText": "Transcrire une note vocale",
