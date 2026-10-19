@@ -6550,5 +6550,11 @@
     "removeRecordingText": "Aufnahme entfernen",
     "removeRecordingConfirmTitle": "Diese Aufnahme entfernen?",
     "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen."
-  }
+  },
+    "meetingSlidesWindowsInfo": {
+        "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",
+        "slideNotInPdfText": "Das Bild dieser Folie ist gespeichert, konnte aber nicht zum Folien-PDF hinzugefügt werden und kann daher nicht kommentiert werden.",
+        "slidePictureMissingText": "Das Bild dieser Folie ist nicht mehr auf diesem Computer.",
+        "noTextRecognitionText": "Auf diesem Computer können keine Folien erkannt werden: Windows hat keine Texterkennung für deine Sprachen. Füge unter Einstellungen > Zeit und Sprache > Sprache und Region eine Sprache hinzu und nimm erneut auf."
+    }
 }
