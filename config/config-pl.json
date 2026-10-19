@@ -6439,8 +6439,8 @@
     "toolDrawText": "Rysuj",
     "toolHighlightText": "Wyróżnij",
     "toolEraserText": "Gumka",
-    "hintSelectText": "Przewijaj, klikaj linki i zaznaczaj tekst. Kliknij dwukrotnie pole tekstowe, aby je edytować.",
-    "hintTextText": "Kliknij tam, gdzie chcesz pisać. Gdy skończysz, naciśnij ⌘Return lub Esc.",
+    "hintSelectText": "Przeciągnij pole tekstowe lub rysunek, aby je przesunąć. Kliknij dwukrotnie pole tekstowe, aby je edytować.",
+    "hintTextText": "Kliknij tam, gdzie chcesz pisać. Przeciągnij uchwyt w rogu, aby przesunąć pole. Gdy skończysz, naciśnij ⌘Return lub Esc.",
     "hintDrawText": "Przeciągnij, aby rysować.",
     "hintHighlightText": "Zaznacz tekst, aby go wyróżnić.",
     "hintEraserText": "Kliknij rysunek, pole tekstowe lub wyróżnienie, aby je usunąć.",
@@ -6458,7 +6458,11 @@
     "zoomOutText": "Pomniejsz (⌘−)",
     "fitWidthText": "Dopasuj do szerokości",
     "fitWidthHelpText": "Dopasuj stronę do szerokości (⌘0)",
-    "zoomLevelDescription": "Powiększenie"
+    "zoomLevelDescription": "Powiększenie",
+    "textSizeText": "Rozmiar tekstu",
+    "pointSizeText": "<SIZE> pkt",
+    "boldText": "Pogrubienie (⌘B)",
+    "moveTextBoxText": "Przeciągnij, aby przesunąć to pole tekstowe"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Dołącz plik PDF do tej notatki, aby na nim pisać i rysować. Pliki PowerPoint są najpierw zamieniane na PDF na tym komputerze za pomocą programu PowerPoint.",

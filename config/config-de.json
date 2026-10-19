@@ -6440,8 +6440,8 @@
     "toolDrawText": "Zeichnen",
     "toolHighlightText": "Markieren",
     "toolEraserText": "Radierer",
-    "hintSelectText": "Scrolle, klicke auf Links und wähle Text aus. Doppelklicke auf ein Textfeld, um es zu bearbeiten.",
-    "hintTextText": "Klicke dorthin, wo du schreiben möchtest. Drücke ⌘Zeilenschalter oder Esc, wenn du fertig bist.",
+    "hintSelectText": "Ziehe ein Textfeld oder eine Zeichnung, um es zu verschieben. Doppelklicke auf ein Textfeld, um es zu bearbeiten.",
+    "hintTextText": "Klicke dorthin, wo du schreiben möchtest. Ziehe den Griff an der Ecke, um das Feld zu verschieben. Drücke ⌘Zeilenschalter oder Esc, wenn du fertig bist.",
     "hintDrawText": "Ziehe, um zu zeichnen.",
     "hintHighlightText": "Wähle Text aus, um ihn zu markieren.",
     "hintEraserText": "Klicke auf eine Zeichnung, ein Textfeld oder eine Markierung, um sie zu entfernen.",
@@ -6459,7 +6459,11 @@
     "zoomOutText": "Verkleinern (⌘−)",
     "fitWidthText": "An Breite anpassen",
     "fitWidthHelpText": "Seite an die Breite anpassen (⌘0)",
-    "zoomLevelDescription": "Zoom"
+    "zoomLevelDescription": "Zoom",
+    "textSizeText": "Schriftgröße",
+    "pointSizeText": "<SIZE> pt",
+    "boldText": "Fett (⌘B)",
+    "moveTextBoxText": "Ziehen, um dieses Textfeld zu verschieben"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Hänge ein PDF an diese Notiz an, um darauf zu schreiben und zu zeichnen. PowerPoint-Dateien werden zuerst auf diesem Computer mit PowerPoint in ein PDF umgewandelt.",
