@@ -6541,6 +6541,12 @@
     "transcriptAfterStopText": "La transcription en direct n'est pas disponible sur ce Mac pour le moment : la transcription sera faite à partir de l'enregistrement quand vous appuierez sur Arrêter.",
     "recoveredNoticeText": "Votre enregistrement de <TIME> a été récupéré — transcription en cours…",
     "autoStoppedNoticeText": "Enregistrement sauvegardé — la réunion est terminée.",
-    "timeLimitNoticeText": "L'enregistrement s'est arrêté après <LIMIT> et a été sauvegardé."
+    "timeLimitNoticeText": "L'enregistrement s'est arrêté après <LIMIT> et a été sauvegardé.",
+    "transcribingProgressText": "(Transcription en cours… <DONE> parties sur <TOTAL>)",
+    "transcriptGapText": "[La partie <NUMBER>, à partir de <TIME>, n'a pas pu être transcrite. Utilisez Relancer la transcription pour réessayer.]",
+    "retryTranscriptionText": "Relancer la transcription",
+    "removeRecordingText": "Retirer l'enregistrement",
+    "removeRecordingConfirmTitle": "Retirer cet enregistrement ?",
+    "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible."
   }
 }

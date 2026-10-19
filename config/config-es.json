@@ -6521,6 +6521,12 @@
         "transcriptAfterStopText": "La transcripción en directo no está disponible en este Mac ahora mismo, así que la transcripción se hará a partir de la grabación cuando pulses Detener.",
         "recoveredNoticeText": "Se ha recuperado tu grabación de las <TIME>: transcribiendo…",
         "autoStoppedNoticeText": "Grabación guardada: la reunión ha terminado.",
-        "timeLimitNoticeText": "La grabación se detuvo tras <LIMIT> y se ha guardado."
+        "timeLimitNoticeText": "La grabación se detuvo tras <LIMIT> y se ha guardado.",
+        "transcribingProgressText": "(Transcribiendo… <DONE> de <TOTAL> partes hechas)",
+        "transcriptGapText": "[No se ha podido transcribir la parte <NUMBER>, desde <TIME>. Usa Reintentar transcripción para volver a intentarlo.]",
+        "retryTranscriptionText": "Reintentar transcripción",
+        "removeRecordingText": "Quitar grabación",
+        "removeRecordingConfirmTitle": "¿Quitar esta grabación?",
+        "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este Mac. No se puede deshacer."
     }
 }
