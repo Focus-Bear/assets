@@ -4332,6 +4332,7 @@
     "eventCancel": "Annuler",
     "eventSaveError": "Impossible d'enregistrer l'événement. Vérifie l'accès au calendrier et réessaie.",
     "eventNotOwnedWarning": "Attention : cet événement ne t'appartient pas. Les modifications n'apparaîtront que dans ton plan de journée.",
+    "eventFromAnotherDeviceWarning": "Cet événement vient d'un autre appareil. Les modifications n'apparaîtront que dans le plan de journée de ce Mac.",
     "eventCloseForm": "Fermer",
     "eventCancelEventButton": "Annuler l’événement",
     "eventDeclineEventButton": "Refuser l’événement",

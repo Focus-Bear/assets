@@ -4330,6 +4330,7 @@
     "eventCancel": "Abbrechen",
     "eventSaveError": "Termin konnte nicht gespeichert werden. Prüfe den Kalenderzugriff und versuch es erneut.",
     "eventNotOwnedWarning": "Achtung: Dieser Termin gehört dir nicht. Änderungen erscheinen nur in deinem Tagesplan.",
+    "eventFromAnotherDeviceWarning": "Dieser Termin kommt von einem anderen Gerät. Änderungen erscheinen nur im Tagesplan dieses Macs.",
     "eventCloseForm": "Schließen",
     "eventCancelEventButton": "Termin absagen",
     "eventDeclineEventButton": "Termin ablehnen",

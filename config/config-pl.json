@@ -4329,6 +4329,7 @@
     "eventCancel": "Anuluj",
     "eventSaveError": "Nie udało się zapisać wydarzenia. Sprawdź dostęp do kalendarza i spróbuj ponownie.",
     "eventNotOwnedWarning": "Uwaga: to nie jest Twoje wydarzenie. Zmiany pojawią się tylko w Twoim planie dnia.",
+    "eventFromAnotherDeviceWarning": "To wydarzenie pochodzi z innego urządzenia. Zmiany pojawią się tylko w planie dnia na tym Macu.",
     "eventCloseForm": "Zamknij",
     "eventCancelEventButton": "Odwołaj wydarzenie",
     "eventDeclineEventButton": "Odrzuć wydarzenie",

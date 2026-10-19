@@ -4673,6 +4673,7 @@
         "eventCancel": "Cancelar",
         "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
         "eventNotOwnedWarning": "Advertencia: no eres el propietario de este evento. Los cambios solo se reflejarán en tu plan del día.",
+        "eventFromAnotherDeviceWarning": "Este evento viene de otro dispositivo. Los cambios solo se reflejarán en el plan del día de este Mac.",
         "eventCloseForm": "Cerrar",
         "eventCancelEventButton": "Cancelar evento",
         "eventDeclineEventButton": "Rechazar evento",
