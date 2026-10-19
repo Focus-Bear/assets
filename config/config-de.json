@@ -588,6 +588,7 @@
   },
   "menuInfo": {
     "menuItemMeetingDetectionBreaksOnTooltip": "Pausen laufen während dieses Meetings weiter, weil du „Pausen im Anruf anzeigen“ aktiviert hast.",
+    "menuItemMeetingDetectionSmallMeetingTooltip": "Pausen sind während dieses Meetings aus, weil nur wenige Personen dabei sind. Mit „Pausen im Anruf anzeigen“ zeigt Focus Bear Pausen nur in größeren Meetings.",
     "menuItemReactivateTitle": "Ablenkungsblockierung aktivieren",
     "menuItemEnterLicenseKeyTitle": "Lizenzschlüssel eingeben",
     "menuItemPreferencesTitle": "Einstellungen",
@@ -2922,6 +2923,7 @@
     "advanced_Privacy_Surveillance": "Wenn du auf Plattformen wie Upwork.com oder Time Doctor arbeitest, die alle paar Minuten automatisch einen Screenshot deines Computers machen, aktiviere dies, damit Focus-Bear-Fenster nicht in den Screenshots erscheinen.",
     "advanced_MicroBreak_ShowBreaksInPostpone": "Wenn du deine Morgen-/Abendroutine verschiebst, kannst du weiterhin Pausenerinnerungen erhalten, während du deinen Computer nutzt. Das ist hilfreich, denn oft verschiebst du etwas, weil etwas Schlimmes passiert ist (sonst hättest du deine Gewohnheiten erledigt), und kurze Pausen können helfen, Stress abzubauen.",
     "advanced_MicroBreak_ShowBreaksInCall": "In großen Meetings, in denen du nicht aktiv teilnimmst, kann es hilfreich sein, trotzdem Pausenerinnerungen zu erhalten. Wir wählen bürofreundliche Pausenaktivitäten (z. B. Dehnübungen auf dem Stuhl) aus und spielen keine Soundeffekte ab.",
+    "advanced_MicroBreak_ShowBreaksInCallLargeMeetingsOnly": "In großen Meetings, in denen du nicht aktiv teilnimmst, kann es hilfreich sein, trotzdem Pausenerinnerungen zu erhalten. Wir wählen bürofreundliche Pausenaktivitäten (z. B. Dehnübungen auf dem Stuhl) aus und spielen keine Soundeffekte ab. Wir prüfen das Meeting in deinem Tagesplan: Sind nur 1 oder 2 weitere Personen eingeladen, zeigen wir keine Pausen. Wenn wir nicht erkennen können, wer im Anruf ist (zum Beispiel bei einem Anruf, der nicht in deinem Kalender steht), werden Pausen weiterhin angezeigt.",
     "strictness_Password_SetPassword": "Sorge dafür, dass dein Konto sicher ist! Klicke hier, um ein Passwort festzulegen, und wähle eine starke, einzigartige Zeichenkombination für besseren Kontoschutz.",
     "strictness_Password_ChangeSettings": "Sichere Anpassungen! Setze dieses Häkchen, um für Einstellungsänderungen eine Passworteingabe zu erzwingen und so unbeabsichtigte oder unbefugte Änderungen zu verhindern.",
     "strictness_Password_SkipMorningHabit": "Passwortgeschützte Morgen! Aktiviere diese Einstellung, damit ein Passwort verlangt wird, wenn du deine Morgenroutine verschiebst oder überspringst – so bleibt deine Entscheidung bewusst.",

@@ -609,6 +609,7 @@
     },
     "menuInfo": {
         "menuItemMeetingDetectionBreaksOnTooltip": "Los descansos siguen activos durante esta reunión porque has activado “Mostrar descansos en llamadas”. Puedes desactivarlo en Ajustes si prefieres que no te interrumpan mientras presentas.",
+        "menuItemMeetingDetectionSmallMeetingTooltip": "Los descansos están desactivados durante esta reunión porque solo hay unas pocas personas. Con “Mostrar descansos en llamadas” activado, Focus Bear solo muestra descansos en reuniones más grandes.",
         "menuItemReactivateTitle": "Activar bloqueo de distracciones",
         "menuItemEnterLicenseKeyTitle": "Introduce la clave de la licencia",
         "menuItemPreferencesTitle": "Preferencias",
@@ -3279,6 +3280,7 @@
         "advanced_Privacy_Surveillance": "Si trabajas en plataformas como Upwork.com o Time Doctor que automáticamente toman una captura de pantalla de tu ordenador cada pocos minutos, activa esta opción para que las ventanas de Focus Bear no aparezcan en las capturas de pantalla.",
         "advanced_MicroBreak_ShowBreaksInPostpone": "Cuando pospones tu rutina de mañana/tarde, puedes elegir seguir recibiendo recordatorios de descanso mientras usas el ordenador. Esto es útil porque, a menudo, cuando se pospone, es porque ha ocurrido algo malo (de lo contrario, ya habrías hecho tus hábitos) y los descansos breves pueden ayudar a reducir el estrés.",
         "advanced_MicroBreak_ShowBreaksInCall": "En reuniones grandes en las que no participas activamente, puede ser útil tener recordatorios de los descansos. Elegiremos actividades de pausa adecuadas para la oficina (por ejemplo, estiramientos en la silla) y no pondremos efectos de sonido.",
+        "advanced_MicroBreak_ShowBreaksInCallLargeMeetingsOnly": "En reuniones grandes en las que no participas activamente, puede ser útil tener recordatorios de los descansos. Elegiremos actividades de pausa adecuadas para la oficina (por ejemplo, estiramientos en la silla) y no pondremos efectos de sonido. Revisamos la reunión en tu plan del día: si solo hay 1 o 2 personas más invitadas, no mostraremos descansos. Si no podemos saber quién está en la llamada (por ejemplo, una llamada que no está en tu calendario), los descansos se siguen mostrando.",
         "strictness_Password_SetPassword": "¡Garantiza la seguridad de tu cuenta! Haz clic aquí para establecer una contraseña, y recuerda elegir una combinación de caracteres fuerte y única para mejorar la protección de la cuenta.",
         "strictness_Password_ChangeSettings": "¡Ajustes seguros! Marca esta casilla para imponer la introducción de una contraseña en los cambios de configuración, añadiendo una barrera segura para evitar cualquier modificación involuntaria o no autorizada.",
         "strictness_Password_SkipMorningHabit": "¡Mañanas protegidas con contraseña! Activa esta opción para solicitar una contraseña cuando pospongas o te saltes tu rutina matutina, asegurándote de que tu elección es intencional.",

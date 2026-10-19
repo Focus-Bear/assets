@@ -589,6 +589,7 @@
   },
   "menuInfo": {
     "menuItemMeetingDetectionBreaksOnTooltip": "Przerwy działają podczas tego spotkania, bo włączyłeś „Pokazuj przerwy w trakcie rozmowy”.",
+    "menuItemMeetingDetectionSmallMeetingTooltip": "Przerwy są wyłączone podczas tego spotkania, bo bierze w nim udział tylko kilka osób. Gdy „Pokazuj przerwy w trakcie rozmowy” jest włączone, Focus Bear pokazuje przerwy tylko na większych spotkaniach.",
     "menuItemReactivateTitle": "Włącz blokowanie rozproszeń",
     "menuItemEnterLicenseKeyTitle": "Wprowadź klucz licencyjny",
     "menuItemPreferencesTitle": "Preferencje",
@@ -2923,6 +2924,7 @@
     "advanced_Privacy_Surveillance": "Jeśli pracujesz na platformach takich jak Upwork.com lub Time Doctor, które automatycznie robią zrzut ekranu Twojego komputera co kilka minut, włącz tę opcję, aby okna Focus Bear nie pojawiały się na zrzutach.",
     "advanced_MicroBreak_ShowBreaksInPostpone": "Gdy odkładasz poranną/wieczorną rutynę, możesz wybrać, aby nadal otrzymywać przypomnienia o przerwach podczas korzystania z komputera. Jest to pomocne, ponieważ często odkładasz coś, bo wydarzyło się coś złego (inaczej wykonałbyś swoje nawyki), a krótkie przerwy mogą pomóc zmniejszyć stres.",
     "advanced_MicroBreak_ShowBreaksInCall": "Podczas dużych spotkań, w których nie uczestniczysz aktywnie, warto nadal otrzymywać przypomnienia o przerwach. Wybierzemy aktywności odpowiednie do biura (np. rozciąganie na krześle) i nie odtworzymy efektów dźwiękowych.",
+    "advanced_MicroBreak_ShowBreaksInCallLargeMeetingsOnly": "Podczas dużych spotkań, w których nie uczestniczysz aktywnie, warto nadal otrzymywać przypomnienia o przerwach. Wybierzemy aktywności odpowiednie do biura (np. rozciąganie na krześle) i nie odtworzymy efektów dźwiękowych. Sprawdzamy spotkanie w Twoim planie dnia: jeśli zaproszono tylko 1 lub 2 inne osoby, nie pokażemy przerw. Jeśli nie wiemy, kto jest na rozmowie (np. gdy rozmowy nie ma w kalendarzu), przerwy nadal się pojawią.",
     "strictness_Password_SetPassword": "Zadbaj o bezpieczeństwo swojego konta! Kliknij tutaj, aby ustawić hasło, i pamiętaj o wyborze silnej i unikalnej kombinacji znaków dla lepszej ochrony konta.",
     "strictness_Password_ChangeSettings": "Bezpieczne zmiany! Zaznacz to pole, aby wymusić podanie hasła przy zmianie ustawień, co dodaje zabezpieczenie przed niezamierzonymi lub nieautoryzowanymi modyfikacjami.",
     "strictness_Password_SkipMorningHabit": "Poranki chronione hasłem! Włącz to ustawienie, aby wymagać hasła przy odkładaniu lub pomijaniu porannej rutyny — dzięki temu Twoja decyzja pozostaje świadoma.",

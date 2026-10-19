@@ -589,6 +589,7 @@
   },
   "menuInfo": {
     "menuItemMeetingDetectionBreaksOnTooltip": "Les pauses restent actives pendant cette réunion car tu as activé « Afficher les pauses en appel ».",
+    "menuItemMeetingDetectionSmallMeetingTooltip": "Les pauses sont désactivées pendant cette réunion car elle ne compte que quelques personnes. Avec « Afficher les pauses en appel » activé, Focus Bear n'affiche des pauses que dans les réunions plus importantes.",
     "menuItemReactivateTitle": "Activer le blocage des distractions",
     "menuItemEnterLicenseKeyTitle": "Saisir la clé de licence",
     "menuItemPreferencesTitle": "Préférences",
@@ -2924,6 +2925,7 @@
     "advanced_Privacy_Surveillance": "Si tu travailles sur des plateformes comme Upwork.com ou Time Doctor qui prennent automatiquement une capture d'écran de ton ordinateur toutes les quelques minutes, active ceci pour que les fenêtres de Focus Bear n'apparaissent pas dans les captures.",
     "advanced_MicroBreak_ShowBreaksInPostpone": "Lorsque tu reportes ta routine matinale/du soir, tu peux choisir de continuer à recevoir des rappels de pause pendant que tu utilises ton ordinateur. C'est utile car souvent, si tu reportes, c'est parce que quelque chose de fâcheux s'est produit (sinon tu aurais fait tes habitudes), et de courtes pauses peuvent aider à réduire le stress.",
     "advanced_MicroBreak_ShowBreaksInCall": "Dans les grandes réunions où tu ne participes pas activement, il peut être utile de recevoir quand même des rappels de pause. Nous choisirons des activités de pause adaptées au bureau (par exemple des étirements sur chaise) et ne jouerons pas d'effets sonores.",
+    "advanced_MicroBreak_ShowBreaksInCallLargeMeetingsOnly": "Dans les grandes réunions où tu ne participes pas activement, il peut être utile de recevoir quand même des rappels de pause. Nous choisirons des activités de pause adaptées au bureau (par exemple des étirements sur chaise) et ne jouerons pas d'effets sonores. Nous vérifions la réunion dans ton plan de la journée : si seulement 1 ou 2 autres personnes sont invitées, nous n'afficherons pas de pauses. Si nous ne pouvons pas savoir qui participe à l'appel (par exemple un appel qui n'est pas dans ton calendrier), les pauses s'affichent toujours.",
     "strictness_Password_SetPassword": "Assure-toi que ton compte est sécurisé ! Clique ici pour définir un mot de passe, et choisis une combinaison de caractères forte et unique pour une meilleure protection du compte.",
     "strictness_Password_ChangeSettings": "Des ajustements sécurisés ! Coche cette case pour exiger la saisie d'un mot de passe lors de modifications des paramètres, ajoutant une barrière sécurisée contre toute modification involontaire ou non autorisée.",
     "strictness_Password_SkipMorningHabit": "Des matins protégés par mot de passe ! Active ce paramètre pour exiger un mot de passe lorsque tu reportes ou ignores ta routine matinale, garantissant que ton choix est intentionnel.",
