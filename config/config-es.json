@@ -6514,6 +6514,8 @@
         "grantPermissionText": "Conceder permiso",
         "reopenText": "Volver a abrir",
         "warningText": "Aviso",
-        "recordBlockedHelpText": "Permite primero la grabación de pantalla: Focus Bear no puede grabar una reunión sin ella."
+        "recordBlockedHelpText": "Permite primero la grabación de pantalla: Focus Bear no puede grabar una reunión sin ella.",
+        "recordingInProgressText": "Grabando <TIME>",
+        "transcriptAfterStopText": "La transcripción en directo no está disponible en este Mac ahora mismo, así que la transcripción se hará a partir de la grabación cuando pulses Detener."
     }
 }

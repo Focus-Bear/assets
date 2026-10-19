@@ -6534,6 +6534,8 @@
     "grantPermissionText": "Accorder l'autorisation",
     "reopenText": "Rouvrir",
     "warningText": "Avertissement",
-    "recordBlockedHelpText": "Autorisez d'abord l'enregistrement de l'écran : Focus Bear ne peut pas enregistrer une réunion sans lui."
+    "recordBlockedHelpText": "Autorisez d'abord l'enregistrement de l'écran : Focus Bear ne peut pas enregistrer une réunion sans lui.",
+    "recordingInProgressText": "Enregistrement <TIME>",
+    "transcriptAfterStopText": "La transcription en direct n'est pas disponible sur ce Mac pour le moment : la transcription sera faite à partir de l'enregistrement quand vous appuierez sur Arrêter."
   }
 }
