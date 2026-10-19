@@ -6490,6 +6490,9 @@
         "warningText": "Warning",
         "recordBlockedHelpText": "Allow Screen Recording first: Focus Bear can't record a meeting without it.",
         "recordingInProgressText": "Recording <TIME>",
-        "transcriptAfterStopText": "The live transcript isn't available on this Mac right now, so the transcript is made from the recording after you press Stop."
+        "transcriptAfterStopText": "The live transcript isn't available on this Mac right now, so the transcript is made from the recording after you press Stop.",
+        "recoveredNoticeText": "Recovered your recording from <TIME> — transcribing…",
+        "autoStoppedNoticeText": "Recording saved — the meeting ended.",
+        "timeLimitNoticeText": "Recording stopped after <LIMIT> and saved."
     }
 }
