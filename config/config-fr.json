@@ -6552,5 +6552,23 @@
     "removeRecordingText": "Retirer l'enregistrement",
     "removeRecordingConfirmTitle": "Retirer cet enregistrement ?",
     "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible."
-  }
+  },
+    "meetingRecordingWindowsInfo": {
+        "recordBlockedHelpText": "Corrigez d'abord l'avertissement ci-dessus : Focus Bear ne peut pas encore enregistrer sur cet ordinateur ce que vous avez coché.",
+        "referenceLabelText": "Enregistrement de la réunion (conservé sur l'ordinateur où il a été fait) : <FILE>",
+        "recordingNotFoundText": "Enregistrement introuvable. Il a peut-être été déplacé ou supprimé, ou il a été fait sur un autre ordinateur.",
+        "recordedOnMacText": "Cette réunion a été enregistrée sur un Mac. Son enregistrement reste sur ce Mac.",
+        "showInFolderText": "Afficher dans l'Explorateur de fichiers",
+        "settingDescriptionText": "Quand une réunion commence, Focus Bear demande s'il faut enregistrer son audio et votre écran. Les enregistrements restent sur cet ordinateur, dans Documents\\Focus-Bear-Recordings.",
+        "deleteConfirmMessageText": "L'enregistrement est supprimé de cet ordinateur. Sa note et sa transcription sont conservées.",
+        "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de cet ordinateur. Cette action est irréversible.",
+        "transcriptAfterStopText": "La transcription en direct n'est pas disponible sur cet ordinateur pour le moment : elle sera faite à partir de l'enregistrement quand vous appuierez sur Arrêter.",
+        "captureStoppedText": "L'enregistrement s'est arrêté de façon inattendue. Tout ce qui a été enregistré jusqu'ici est conservé dans sa note.",
+        "screenCaptureUnsupportedText": "Cette version de Windows ne peut pas enregistrer l'écran. Passez à Windows 10 version 1903 ou ultérieure pour enregistrer l'écran ou les diapositives.",
+        "videoEncoderMissingText": "Windows ne peut pas enregistrer de vidéo sur cet ordinateur (le Media Feature Pack est absent). L'audio et les diapositives peuvent quand même être enregistrés.",
+        "noPlaybackDeviceText": "Aucun haut-parleur ni casque n'a été trouvé : le son de la réunion ne peut pas être enregistré.",
+        "microphoneBlockedText": "Windows empêche les applications de bureau d'utiliser le micro : votre propre voix ne sera pas enregistrée. Autorisez l'accès au micro dans les Paramètres.",
+        "openMicrophoneSettingsText": "Ouvrir les paramètres du micro",
+        "trayStatusText": "Focus Bear — enregistrement d'une réunion"
+    }
 }

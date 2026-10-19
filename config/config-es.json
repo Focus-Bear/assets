@@ -6532,5 +6532,23 @@
         "removeRecordingText": "Quitar grabación",
         "removeRecordingConfirmTitle": "¿Quitar esta grabación?",
         "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este Mac. No se puede deshacer."
+    },
+    "meetingRecordingWindowsInfo": {
+        "recordBlockedHelpText": "Primero resuelve el aviso de arriba: Focus Bear todavía no puede grabar en este equipo lo que marcaste.",
+        "referenceLabelText": "Grabación de la reunión (guardada en el equipo en el que se grabó): <FILE>",
+        "recordingNotFoundText": "No se encontró la grabación. Puede que se haya movido o eliminado, o que se grabara en otro equipo.",
+        "recordedOnMacText": "Esta reunión se grabó en un Mac. Su grabación se queda en ese Mac.",
+        "showInFolderText": "Mostrar en el Explorador de archivos",
+        "settingDescriptionText": "Cuando empieza una reunión, Focus Bear pregunta si quieres grabar su audio y tu pantalla. Las grabaciones se quedan en este equipo, en Documentos\\Focus-Bear-Recordings.",
+        "deleteConfirmMessageText": "La grabación se elimina de este equipo. Su nota y su transcripción se conservan.",
+        "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este equipo. No se puede deshacer.",
+        "transcriptAfterStopText": "La transcripción en directo no está disponible en este equipo ahora mismo, así que la transcripción se hace a partir de la grabación cuando pulses Detener.",
+        "captureStoppedText": "La grabación se detuvo de forma inesperada. Todo lo grabado hasta ahora se conserva en su nota.",
+        "screenCaptureUnsupportedText": "Esta versión de Windows no puede grabar la pantalla. Actualiza a Windows 10, versión 1903 o posterior, para grabar la pantalla o las diapositivas.",
+        "videoEncoderMissingText": "Windows no puede guardar vídeo en este equipo (falta el Media Feature Pack). Aún se pueden grabar el audio y las diapositivas.",
+        "noPlaybackDeviceText": "No se encontraron altavoces ni auriculares, así que no se puede grabar el sonido de la reunión.",
+        "microphoneBlockedText": "Windows no deja que las aplicaciones de escritorio usen el micrófono, así que tu propia voz no se grabará. Activa el acceso al micrófono en Configuración.",
+        "openMicrophoneSettingsText": "Abrir la configuración del micrófono",
+        "trayStatusText": "Focus Bear — grabando una reunión"
     }
 }

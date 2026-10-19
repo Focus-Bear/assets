@@ -6506,5 +6506,23 @@
         "removeRecordingText": "Remove recording",
         "removeRecordingConfirmTitle": "Remove this recording?",
         "removeRecordingConfirmMessageText": "The recording, its slides and its transcript are removed from this note and deleted from this Mac. This can't be undone."
+    },
+    "meetingRecordingWindowsInfo": {
+        "recordBlockedHelpText": "Fix the warning above first: Focus Bear can't record what you ticked on this computer yet.",
+        "referenceLabelText": "Meeting recording (saved on the computer it was recorded on): <FILE>",
+        "recordingNotFoundText": "Recording not found. It may have been moved or deleted, or it was recorded on another computer.",
+        "recordedOnMacText": "This meeting was recorded on a Mac. Its recording stays on that Mac.",
+        "showInFolderText": "Show in File Explorer",
+        "settingDescriptionText": "When a meeting starts, Focus Bear asks whether to record its audio and your screen. Recordings stay on this computer in Documents\\Focus-Bear-Recordings.",
+        "deleteConfirmMessageText": "The recording is deleted from this computer. Its note and transcript are kept.",
+        "removeRecordingConfirmMessageText": "The recording, its slides and its transcript are removed from this note and deleted from this computer. This can't be undone.",
+        "transcriptAfterStopText": "The live transcript isn't available on this computer right now, so the transcript is made from the recording after you press Stop.",
+        "captureStoppedText": "The recording stopped unexpectedly. Everything recorded so far is kept in its note.",
+        "screenCaptureUnsupportedText": "This version of Windows can't record the screen. Update to Windows 10 version 1903 or later to record the screen or slides.",
+        "videoEncoderMissingText": "Windows can't save video on this computer (the Media Feature Pack is missing). Audio and slides can still be recorded.",
+        "noPlaybackDeviceText": "No speakers or headphones were found, so the meeting's sound can't be recorded.",
+        "microphoneBlockedText": "Windows is stopping desktop apps from using the microphone, so your own voice won't be recorded. Turn on microphone access in Settings.",
+        "openMicrophoneSettingsText": "Open microphone settings",
+        "trayStatusText": "Focus Bear — recording a meeting"
     }
 }

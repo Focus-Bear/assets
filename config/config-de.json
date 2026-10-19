@@ -6550,5 +6550,23 @@
     "removeRecordingText": "Aufnahme entfernen",
     "removeRecordingConfirmTitle": "Diese Aufnahme entfernen?",
     "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen."
-  }
+  },
+    "meetingRecordingWindowsInfo": {
+        "recordBlockedHelpText": "Behebe zuerst die Warnung oben: Focus Bear kann das, was du angehakt hast, auf diesem Computer noch nicht aufnehmen.",
+        "referenceLabelText": "Meeting-Aufnahme (gespeichert auf dem Computer, auf dem sie aufgenommen wurde): <FILE>",
+        "recordingNotFoundText": "Aufnahme nicht gefunden. Sie wurde vielleicht verschoben oder gelöscht, oder sie wurde auf einem anderen Computer aufgenommen.",
+        "recordedOnMacText": "Dieses Meeting wurde auf einem Mac aufgenommen. Die Aufnahme bleibt auf diesem Mac.",
+        "showInFolderText": "Im Datei-Explorer anzeigen",
+        "settingDescriptionText": "Wenn ein Meeting beginnt, fragt Focus Bear, ob Ton und Bildschirm aufgenommen werden sollen. Aufnahmen bleiben auf diesem Computer unter Dokumente\\Focus-Bear-Recordings.",
+        "deleteConfirmMessageText": "Die Aufnahme wird von diesem Computer gelöscht. Ihre Notiz und ihr Transkript bleiben erhalten.",
+        "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Computer gelöscht. Das lässt sich nicht rückgängig machen.",
+        "transcriptAfterStopText": "Das Live-Transkript ist auf diesem Computer gerade nicht verfügbar. Das Transkript wird deshalb nach dem Beenden aus der Aufnahme erstellt.",
+        "captureStoppedText": "Die Aufnahme wurde unerwartet beendet. Alles bisher Aufgenommene bleibt in ihrer Notiz erhalten.",
+        "screenCaptureUnsupportedText": "Diese Windows-Version kann den Bildschirm nicht aufnehmen. Aktualisiere auf Windows 10 Version 1903 oder neuer, um den Bildschirm oder Folien aufzunehmen.",
+        "videoEncoderMissingText": "Windows kann auf diesem Computer kein Video speichern (das Media Feature Pack fehlt). Ton und Folien können trotzdem aufgenommen werden.",
+        "noPlaybackDeviceText": "Es wurden keine Lautsprecher oder Kopfhörer gefunden, daher kann der Ton des Meetings nicht aufgenommen werden.",
+        "microphoneBlockedText": "Windows erlaubt Desktop-Apps nicht, das Mikrofon zu verwenden, daher wird deine eigene Stimme nicht aufgenommen. Erlaube den Mikrofonzugriff in den Einstellungen.",
+        "openMicrophoneSettingsText": "Mikrofoneinstellungen öffnen",
+        "trayStatusText": "Focus Bear — nimmt ein Meeting auf"
+    }
 }

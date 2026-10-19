@@ -6549,5 +6549,23 @@
     "removeRecordingText": "Usuń nagranie",
     "removeRecordingConfirmTitle": "Usunąć to nagranie?",
     "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć."
-  }
+  },
+    "meetingRecordingWindowsInfo": {
+        "recordBlockedHelpText": "Najpierw rozwiąż ostrzeżenie powyżej: Focus Bear nie może jeszcze nagrać na tym komputerze tego, co zaznaczono.",
+        "referenceLabelText": "Nagranie spotkania (zapisane na komputerze, na którym je nagrano): <FILE>",
+        "recordingNotFoundText": "Nie znaleziono nagrania. Mogło zostać przeniesione lub usunięte albo nagrano je na innym komputerze.",
+        "recordedOnMacText": "To spotkanie nagrano na Macu. Jego nagranie zostaje na tym Macu.",
+        "showInFolderText": "Pokaż w Eksploratorze plików",
+        "settingDescriptionText": "Gdy zaczyna się spotkanie, Focus Bear pyta, czy nagrać jego dźwięk i ekran. Nagrania zostają na tym komputerze w folderze Dokumenty\\Focus-Bear-Recordings.",
+        "deleteConfirmMessageText": "Nagranie zostanie usunięte z tego komputera. Jego notatka i transkrypcja zostaną zachowane.",
+        "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego komputera. Tej operacji nie można cofnąć.",
+        "transcriptAfterStopText": "Transkrypcja na żywo nie jest teraz dostępna na tym komputerze, więc transkrypcja zostanie utworzona z nagrania po naciśnięciu Zatrzymaj.",
+        "captureStoppedText": "Nagrywanie nieoczekiwanie się zatrzymało. Wszystko, co dotąd nagrano, zostaje w jego notatce.",
+        "screenCaptureUnsupportedText": "Ta wersja systemu Windows nie może nagrywać ekranu. Zaktualizuj do Windows 10 w wersji 1903 lub nowszej, aby nagrywać ekran lub slajdy.",
+        "videoEncoderMissingText": "Windows nie może zapisać wideo na tym komputerze (brak pakietu Media Feature Pack). Dźwięk i slajdy nadal można nagrywać.",
+        "noPlaybackDeviceText": "Nie znaleziono głośników ani słuchawek, więc nie można nagrać dźwięku spotkania.",
+        "microphoneBlockedText": "Windows nie pozwala aplikacjom klasycznym używać mikrofonu, więc twój głos nie zostanie nagrany. Włącz dostęp do mikrofonu w Ustawieniach.",
+        "openMicrophoneSettingsText": "Otwórz ustawienia mikrofonu",
+        "trayStatusText": "Focus Bear — nagrywa spotkanie"
+    }
 }
