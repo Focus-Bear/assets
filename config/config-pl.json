@@ -6548,5 +6548,11 @@
     "removeRecordingText": "Usuń nagranie",
     "removeRecordingConfirmTitle": "Usunąć to nagranie?",
     "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć."
-  }
+  },
+    "meetingSlidesWindowsInfo": {
+        "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",
+        "slideNotInPdfText": "Obraz tego slajdu został zachowany, ale nie udało się dodać go do pliku PDF ze slajdami, więc nie można dodawać do niego adnotacji.",
+        "slidePictureMissingText": "Obrazu tego slajdu nie ma już na tym komputerze.",
+        "noTextRecognitionText": "Na tym komputerze nie można wykrywać slajdów: system Windows nie ma rozpoznawania tekstu dla Twoich języków. Dodaj język w Ustawienia > Czas i język > Język i region, a potem nagraj ponownie."
+    }
 }

@@ -6551,5 +6551,11 @@
     "removeRecordingText": "Retirer l'enregistrement",
     "removeRecordingConfirmTitle": "Retirer cet enregistrement ?",
     "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible."
-  }
+  },
+    "meetingSlidesWindowsInfo": {
+        "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",
+        "slideNotInPdfText": "L'image de cette diapositive est conservée, mais elle n'a pas pu être ajoutée au PDF des diapositives : elle ne peut donc pas être annotée.",
+        "slidePictureMissingText": "L'image de cette diapositive n'est plus sur cet ordinateur.",
+        "noTextRecognitionText": "Impossible de détecter des diapositives sur cet ordinateur : Windows n'a pas de reconnaissance de texte pour vos langues. Ajoutez une langue dans Paramètres > Heure et langue > Langue et région, puis enregistrez à nouveau."
+    }
 }
