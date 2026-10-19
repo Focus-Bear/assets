@@ -4649,6 +4649,7 @@
         "eventCancel": "Cancel",
         "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
         "eventNotOwnedWarning": "Warning: You don't own this event. Changes will only be reflected on your day plan.",
+        "eventFromAnotherDeviceWarning": "This event comes from another device. Changes will only be reflected on this Mac's day plan.",
         "eventCloseForm": "Close",
         "eventCancelEventButton": "Cancel Event",
         "eventDeclineEventButton": "Decline event",
