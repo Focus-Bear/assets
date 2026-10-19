@@ -6442,8 +6442,8 @@
     "toolDrawText": "Dessiner",
     "toolHighlightText": "Surligner",
     "toolEraserText": "Gomme",
-    "hintSelectText": "Fais défiler, clique sur les liens et sélectionne du texte. Double-clique sur une zone de texte pour la modifier.",
-    "hintTextText": "Clique là où tu veux écrire. Appuie sur ⌘Retour ou Échap quand tu as terminé.",
+    "hintSelectText": "Fais glisser une zone de texte ou un dessin pour le déplacer. Double-clique sur une zone de texte pour la modifier.",
+    "hintTextText": "Clique là où tu veux écrire. Fais glisser la poignée du coin pour déplacer la zone. Appuie sur ⌘Retour ou Échap quand tu as terminé.",
     "hintDrawText": "Fais glisser pour dessiner.",
     "hintHighlightText": "Sélectionne du texte pour le surligner.",
     "hintEraserText": "Clique sur un dessin, une zone de texte ou un surlignage pour le retirer.",
@@ -6461,7 +6461,11 @@
     "zoomOutText": "Zoom arrière (⌘−)",
     "fitWidthText": "Ajuster à la largeur",
     "fitWidthHelpText": "Ajuster la page à la largeur (⌘0)",
-    "zoomLevelDescription": "Zoom"
+    "zoomLevelDescription": "Zoom",
+    "textSizeText": "Taille du texte",
+    "pointSizeText": "<SIZE> pt",
+    "boldText": "Gras (⌘B)",
+    "moveTextBoxText": "Fais glisser pour déplacer cette zone de texte"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Joins un PDF à cette note pour écrire et dessiner dessus. Les fichiers PowerPoint sont d'abord convertis en PDF sur cet ordinateur, avec PowerPoint.",

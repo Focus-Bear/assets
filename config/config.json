@@ -6396,8 +6396,8 @@
         "toolDrawText": "Draw",
         "toolHighlightText": "Highlight",
         "toolEraserText": "Eraser",
-        "hintSelectText": "Scroll, click links and select text. Double-click a text box to edit it.",
-        "hintTextText": "Click where you want to type. Press ⌘Return or Esc when you're done.",
+        "hintSelectText": "Drag a text box or drawing to move it. Double-click a text box to edit it.",
+        "hintTextText": "Click where you want to type. Drag the corner handle to move the box. Press ⌘Return or Esc when you're done.",
         "hintDrawText": "Drag to draw.",
         "hintHighlightText": "Select some text to highlight it.",
         "hintEraserText": "Click a drawing, text box or highlight to remove it.",
@@ -6415,7 +6415,11 @@
         "zoomOutText": "Zoom out (⌘−)",
         "fitWidthText": "Fit width",
         "fitWidthHelpText": "Fit the page to the width (⌘0)",
-        "zoomLevelDescription": "Zoom"
+        "zoomLevelDescription": "Zoom",
+        "textSizeText": "Text size",
+        "pointSizeText": "<SIZE> pt",
+        "boldText": "Bold (⌘B)",
+        "moveTextBoxText": "Drag to move this text box"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Attach a PDF to this note to type and draw on it. PowerPoint files are turned into a PDF on this computer first, with PowerPoint.",

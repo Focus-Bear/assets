@@ -6422,8 +6422,8 @@
         "toolDrawText": "Dibujar",
         "toolHighlightText": "Resaltar",
         "toolEraserText": "Borrador",
-        "hintSelectText": "Desplázate, haz clic en enlaces y selecciona texto. Haz doble clic en un cuadro de texto para editarlo.",
-        "hintTextText": "Haz clic donde quieras escribir. Pulsa ⌘Retorno o Esc cuando termines.",
+        "hintSelectText": "Arrastra un cuadro de texto o un dibujo para moverlo. Haz doble clic en un cuadro de texto para editarlo.",
+        "hintTextText": "Haz clic donde quieras escribir. Arrastra el asa de la esquina para mover el cuadro. Pulsa ⌘Retorno o Esc cuando termines.",
         "hintDrawText": "Arrastra para dibujar.",
         "hintHighlightText": "Selecciona texto para resaltarlo.",
         "hintEraserText": "Haz clic en un dibujo, un cuadro de texto o un resaltado para quitarlo.",
@@ -6441,7 +6441,11 @@
         "zoomOutText": "Alejar (⌘−)",
         "fitWidthText": "Ajustar al ancho",
         "fitWidthHelpText": "Ajustar la página al ancho (⌘0)",
-        "zoomLevelDescription": "Zoom"
+        "zoomLevelDescription": "Zoom",
+        "textSizeText": "Tamaño del texto",
+        "pointSizeText": "<SIZE> pt",
+        "boldText": "Negrita (⌘B)",
+        "moveTextBoxText": "Arrastra para mover este cuadro de texto"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Adjunta un PDF a esta nota para escribir y dibujar en él. Los archivos de PowerPoint se convierten primero en PDF en este equipo, con PowerPoint.",
