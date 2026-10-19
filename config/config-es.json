@@ -6255,7 +6255,6 @@
         "mobileBookmarksFolder": "Marcadores del móvil",
         "buttonToggleBookmarks": "Mostrar u ocultar los marcadores",
         "buttonHistory": "Historial",
-        "buttonToggleHistory": "Mostrar u ocultar el historial",
         "historySearchPlaceholder": "Buscar en el historial",
         "buttonClearHistory": "Borrar historial",
         "historyEmpty": "Las páginas que abras aparecerán aquí.",
@@ -6532,6 +6531,12 @@
         "removeRecordingText": "Quitar grabación",
         "removeRecordingConfirmTitle": "¿Quitar esta grabación?",
         "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este Mac. No se puede deshacer."
+    },
+    "meetingSlidesWindowsInfo": {
+        "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",
+        "slideNotInPdfText": "La imagen de esta diapositiva se conserva, pero no se pudo añadir al PDF de diapositivas, así que no se puede anotar.",
+        "slidePictureMissingText": "La imagen de esta diapositiva ya no está en este equipo.",
+        "noTextRecognitionText": "No se pueden detectar diapositivas en este equipo: Windows no tiene reconocimiento de texto para tus idiomas. Añade un idioma en Configuración > Hora e idioma > Idioma y región y vuelve a grabar."
     },
     "meetingRecordingWindowsInfo": {
         "recordBlockedHelpText": "Primero resuelve el aviso de arriba: Focus Bear todavía no puede grabar en este equipo lo que marcaste.",

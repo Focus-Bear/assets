@@ -6272,7 +6272,6 @@
     "mobileBookmarksFolder": "Zakładki na telefonie",
     "buttonToggleBookmarks": "Pokaż lub ukryj zakładki",
     "buttonHistory": "Historia",
-    "buttonToggleHistory": "Pokaż lub ukryj historię",
     "historySearchPlaceholder": "Szukaj w historii",
     "buttonClearHistory": "Wyczyść historię",
     "historyEmpty": "Tutaj pojawią się otwierane strony.",
@@ -6550,6 +6549,12 @@
     "removeRecordingConfirmTitle": "Usunąć to nagranie?",
     "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć."
   },
+    "meetingSlidesWindowsInfo": {
+        "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",
+        "slideNotInPdfText": "Obraz tego slajdu został zachowany, ale nie udało się dodać go do pliku PDF ze slajdami, więc nie można dodawać do niego adnotacji.",
+        "slidePictureMissingText": "Obrazu tego slajdu nie ma już na tym komputerze.",
+        "noTextRecognitionText": "Na tym komputerze nie można wykrywać slajdów: system Windows nie ma rozpoznawania tekstu dla Twoich języków. Dodaj język w Ustawienia > Czas i język > Język i region, a potem nagraj ponownie."
+    },
     "meetingRecordingWindowsInfo": {
         "recordBlockedHelpText": "Najpierw rozwiąż ostrzeżenie powyżej: Focus Bear nie może jeszcze nagrać na tym komputerze tego, co zaznaczono.",
         "referenceLabelText": "Nagranie spotkania (zapisane na komputerze, na którym je nagrano): <FILE>",
