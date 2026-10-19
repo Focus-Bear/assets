@@ -6495,6 +6495,12 @@
         "transcriptAfterStopText": "The live transcript isn't available on this Mac right now, so the transcript is made from the recording after you press Stop.",
         "recoveredNoticeText": "Recovered your recording from <TIME> — transcribing…",
         "autoStoppedNoticeText": "Recording saved — the meeting ended.",
-        "timeLimitNoticeText": "Recording stopped after <LIMIT> and saved."
+        "timeLimitNoticeText": "Recording stopped after <LIMIT> and saved.",
+        "transcribingProgressText": "(Transcribing… <DONE> of <TOTAL> parts done)",
+        "transcriptGapText": "[Part <NUMBER>, from <TIME>, couldn't be transcribed. Use Retry transcription to try again.]",
+        "retryTranscriptionText": "Retry transcription",
+        "removeRecordingText": "Remove recording",
+        "removeRecordingConfirmTitle": "Remove this recording?",
+        "removeRecordingConfirmMessageText": "The recording, its slides and its transcript are removed from this note and deleted from this Mac. This can't be undone."
     }
 }

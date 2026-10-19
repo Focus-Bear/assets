@@ -6539,6 +6539,12 @@
     "transcriptAfterStopText": "Die Live-Transkription ist auf diesem Mac gerade nicht verfügbar, deshalb wird das Transkript aus der Aufnahme erstellt, wenn du auf Stopp drückst.",
     "recoveredNoticeText": "Deine Aufnahme von <TIME> wurde wiederhergestellt – wird transkribiert…",
     "autoStoppedNoticeText": "Aufnahme gespeichert – das Meeting ist vorbei.",
-    "timeLimitNoticeText": "Die Aufnahme wurde nach <LIMIT> beendet und gespeichert."
+    "timeLimitNoticeText": "Die Aufnahme wurde nach <LIMIT> beendet und gespeichert.",
+    "transcribingProgressText": "(Wird transkribiert… <DONE> von <TOTAL> Teilen fertig)",
+    "transcriptGapText": "[Teil <NUMBER> ab <TIME> konnte nicht transkribiert werden. Nutze „Transkription wiederholen“, um es erneut zu versuchen.]",
+    "retryTranscriptionText": "Transkription wiederholen",
+    "removeRecordingText": "Aufnahme entfernen",
+    "removeRecordingConfirmTitle": "Diese Aufnahme entfernen?",
+    "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen."
   }
 }

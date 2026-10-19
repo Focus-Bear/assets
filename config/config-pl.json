@@ -6538,6 +6538,12 @@
     "transcriptAfterStopText": "Transkrypcja na żywo nie jest teraz dostępna na tym Macu, więc transkrypcja zostanie utworzona z nagrania po naciśnięciu Zatrzymaj.",
     "recoveredNoticeText": "Odzyskano nagranie z <TIME> — trwa transkrypcja…",
     "autoStoppedNoticeText": "Nagranie zapisane — spotkanie się zakończyło.",
-    "timeLimitNoticeText": "Nagrywanie zatrzymano po <LIMIT> i zapisano."
+    "timeLimitNoticeText": "Nagrywanie zatrzymano po <LIMIT> i zapisano.",
+    "transcribingProgressText": "(Trwa transkrypcja… gotowe <DONE> z <TOTAL> części)",
+    "transcriptGapText": "[Nie udało się przetranskrybować części <NUMBER> od <TIME>. Użyj Ponów transkrypcję, aby spróbować ponownie.]",
+    "retryTranscriptionText": "Ponów transkrypcję",
+    "removeRecordingText": "Usuń nagranie",
+    "removeRecordingConfirmTitle": "Usunąć to nagranie?",
+    "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć."
   }
 }
