@@ -6516,6 +6516,9 @@
         "warningText": "Aviso",
         "recordBlockedHelpText": "Permite primero la grabación de pantalla: Focus Bear no puede grabar una reunión sin ella.",
         "recordingInProgressText": "Grabando <TIME>",
-        "transcriptAfterStopText": "La transcripción en directo no está disponible en este Mac ahora mismo, así que la transcripción se hará a partir de la grabación cuando pulses Detener."
+        "transcriptAfterStopText": "La transcripción en directo no está disponible en este Mac ahora mismo, así que la transcripción se hará a partir de la grabación cuando pulses Detener.",
+        "recoveredNoticeText": "Se ha recuperado tu grabación de las <TIME>: transcribiendo…",
+        "autoStoppedNoticeText": "Grabación guardada: la reunión ha terminado.",
+        "timeLimitNoticeText": "La grabación se detuvo tras <LIMIT> y se ha guardado."
     }
 }

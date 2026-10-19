@@ -6533,6 +6533,9 @@
     "warningText": "Ostrzeżenie",
     "recordBlockedHelpText": "Najpierw zezwól na nagrywanie ekranu: bez niego Focus Bear nie może nagrać spotkania.",
     "recordingInProgressText": "Nagrywanie <TIME>",
-    "transcriptAfterStopText": "Transkrypcja na żywo nie jest teraz dostępna na tym Macu, więc transkrypcja zostanie utworzona z nagrania po naciśnięciu Zatrzymaj."
+    "transcriptAfterStopText": "Transkrypcja na żywo nie jest teraz dostępna na tym Macu, więc transkrypcja zostanie utworzona z nagrania po naciśnięciu Zatrzymaj.",
+    "recoveredNoticeText": "Odzyskano nagranie z <TIME> — trwa transkrypcja…",
+    "autoStoppedNoticeText": "Nagranie zapisane — spotkanie się zakończyło.",
+    "timeLimitNoticeText": "Nagrywanie zatrzymano po <LIMIT> i zapisano."
   }
 }
