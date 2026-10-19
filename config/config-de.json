@@ -1309,6 +1309,8 @@
     "buttonDeleteAccountText": "Konto löschen",
     "deleteAccountAlertTitle": "Konto löschen",
     "deleteAccountAlertText": "Möchtest du dein Konto wirklich endgültig löschen? Diese Aktion kann nicht rückgängig gemacht werden und alle deine Daten werden entfernt.",
+    "deleteAccountErrorText": "Konto konnte nicht gelöscht werden",
+    "deleteAccountErrorDetailText": "Etwas ist schiefgelaufen und dein Konto wurde nicht gelöscht. Bitte überprüfe deine Verbindung und versuche es erneut.",
     "deleteAccountConfirmTitle": "Kontolöschung bestätigen",
     "deleteAccountConfirmText": "Gib DELETE ein, um zu bestätigen",
     "deleteAccountConfirmPlaceholder": "DELETE",

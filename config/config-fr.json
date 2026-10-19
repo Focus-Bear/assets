@@ -1310,6 +1310,8 @@
     "buttonDeleteAccountText": "Supprimer le compte",
     "deleteAccountAlertTitle": "Supprimer le compte",
     "deleteAccountAlertText": "Veux-tu vraiment supprimer définitivement ton compte ? Cette action est irréversible et toutes tes données seront supprimées.",
+    "deleteAccountErrorText": "Impossible de supprimer ton compte",
+    "deleteAccountErrorDetailText": "Une erreur s'est produite et ton compte n'a pas été supprimé. Vérifie ta connexion et réessaie.",
     "deleteAccountConfirmTitle": "Confirmer la suppression du compte",
     "deleteAccountConfirmText": "Tape DELETE pour confirmer",
     "deleteAccountConfirmPlaceholder": "DELETE",

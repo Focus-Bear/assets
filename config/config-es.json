@@ -1309,6 +1309,8 @@
         "buttonDeleteAccountText": "Eliminar cuenta",
         "deleteAccountAlertTitle": "Eliminar cuenta",
         "deleteAccountAlertText": "¿Estás seguro de que deseas eliminar permanentemente tu cuenta? Esta acción no se puede deshacer y todos tus datos serán eliminados.",
+        "deleteAccountErrorText": "No se pudo eliminar tu cuenta",
+        "deleteAccountErrorDetailText": "Algo salió mal y tu cuenta no se eliminó. Comprueba tu conexión e inténtalo de nuevo.",
         "deleteAccountConfirmTitle": "Confirmar eliminación de cuenta",
         "deleteAccountConfirmText": "Escribe ELIMINAR para confirmar",
         "deleteAccountConfirmPlaceholder": "ELIMINAR",

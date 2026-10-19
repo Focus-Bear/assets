@@ -1305,6 +1305,8 @@
         "buttonDeleteAccountText": "Delete Account",
         "deleteAccountAlertTitle": "Delete Account",
         "deleteAccountAlertText": "Are you sure you want to permanently delete your account? This action cannot be undone and all your data will be removed.",
+        "deleteAccountErrorText": "Couldn't delete your account",
+        "deleteAccountErrorDetailText": "Something went wrong and your account was not deleted. Please check your connection and try again.",
         "deleteAccountConfirmTitle": "Confirm Account Deletion",
         "deleteAccountConfirmText": "Type DELETE to confirm",
         "deleteAccountConfirmPlaceholder": "DELETE",

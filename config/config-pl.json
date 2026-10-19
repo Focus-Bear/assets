@@ -1310,6 +1310,8 @@
     "buttonDeleteAccountText": "Usuń konto",
     "deleteAccountAlertTitle": "Usuń konto",
     "deleteAccountAlertText": "Czy na pewno chcesz trwale usunąć swoje konto? Tej czynności nie można cofnąć, a wszystkie twoje dane zostaną usunięte.",
+    "deleteAccountErrorText": "Nie udało się usunąć konta",
+    "deleteAccountErrorDetailText": "Coś poszło nie tak i Twoje konto nie zostało usunięte. Sprawdź połączenie i spróbuj ponownie.",
     "deleteAccountConfirmTitle": "Potwierdź usunięcie konta",
     "deleteAccountConfirmText": "Wpisz DELETE, aby potwierdzić",
     "deleteAccountConfirmPlaceholder": "DELETE",
