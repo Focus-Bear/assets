@@ -6531,6 +6531,8 @@
     "grantPermissionText": "Udziel uprawnienia",
     "reopenText": "Otwórz ponownie",
     "warningText": "Ostrzeżenie",
-    "recordBlockedHelpText": "Najpierw zezwól na nagrywanie ekranu: bez niego Focus Bear nie może nagrać spotkania."
+    "recordBlockedHelpText": "Najpierw zezwól na nagrywanie ekranu: bez niego Focus Bear nie może nagrać spotkania.",
+    "recordingInProgressText": "Nagrywanie <TIME>",
+    "transcriptAfterStopText": "Transkrypcja na żywo nie jest teraz dostępna na tym Macu, więc transkrypcja zostanie utworzona z nagrania po naciśnięciu Zatrzymaj."
   }
 }

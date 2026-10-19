@@ -6532,6 +6532,8 @@
     "grantPermissionText": "Berechtigung erteilen",
     "reopenText": "Neu öffnen",
     "warningText": "Warnung",
-    "recordBlockedHelpText": "Erlaube zuerst die Bildschirmaufnahme: Ohne sie kann Focus Bear kein Meeting aufnehmen."
+    "recordBlockedHelpText": "Erlaube zuerst die Bildschirmaufnahme: Ohne sie kann Focus Bear kein Meeting aufnehmen.",
+    "recordingInProgressText": "Aufnahme <TIME>",
+    "transcriptAfterStopText": "Die Live-Transkription ist auf diesem Mac gerade nicht verfügbar, deshalb wird das Transkript aus der Aufnahme erstellt, wenn du auf Stopp drückst."
   }
 }

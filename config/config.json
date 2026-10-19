@@ -6488,6 +6488,8 @@
         "grantPermissionText": "Grant permission",
         "reopenText": "Reopen",
         "warningText": "Warning",
-        "recordBlockedHelpText": "Allow Screen Recording first: Focus Bear can't record a meeting without it."
+        "recordBlockedHelpText": "Allow Screen Recording first: Focus Bear can't record a meeting without it.",
+        "recordingInProgressText": "Recording <TIME>",
+        "transcriptAfterStopText": "The live transcript isn't available on this Mac right now, so the transcript is made from the recording after you press Stop."
     }
 }
