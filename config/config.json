@@ -606,6 +606,7 @@
     },
     "menuInfo": {
         "menuItemMeetingDetectionBreaksOnTooltip": "Breaks are still on during this meeting because you've turned on \"Show breaks in call\". You can turn that off in Settings if you'd rather not be interrupted while presenting.",
+        "menuItemMeetingDetectionSmallMeetingTooltip": "Breaks are off during this meeting because only a few people are in it. With \"Show breaks in call\" on, Focus Bear shows breaks in larger meetings only.",
         "menuItemReactivateTitle": "Activate Distraction Blocking",
         "menuItemEnterLicenseKeyTitle": "Enter License Key",
         "menuItemPreferencesTitle": "Preferences",
@@ -3262,6 +3263,7 @@
         "advanced_Privacy_Surveillance": "If you work on platforms like Upwork.com or Time Doctor which automatically take a screenshot of your computer every few minutes, turn this on so that Focus Bear windows won’t appear in the screenshots.",
         "advanced_MicroBreak_ShowBreaksInPostpone": "When you postpone your morning/evening routine, you can choose to keep getting break reminders while you’re using your computer. This is helpful because often when you postpone, it’s because something bad has happened (otherwise you would’ve done your habits) and short breaks can help reduce stress.",
         "advanced_MicroBreak_ShowBreaksInCall": "In large meetings where you’re not actively participating, it can be helpful to still have break reminders. We’ll choose office friendly break activities (e.g. chair stretches) and won’t play sound effects.",
+        "advanced_MicroBreak_ShowBreaksInCallLargeMeetingsOnly": "In large meetings where you’re not actively participating, it can be helpful to still have break reminders. We’ll choose office friendly break activities (e.g. chair stretches) and won’t play sound effects. We check the meeting in your Day Plan: if only 1 or 2 other people are invited, we won’t show breaks. If we can’t tell who’s in the call (for example a call that isn’t in your calendar), breaks still show.",
         "strictness_Password_SetPassword": "Make sure that your account is secure! Click here to set a password, and remember to choose a strong and unique combination of characters for enhanced account protection.",
         "strictness_Password_ChangeSettings": "Secure adjustments! Tick this box to enforce password entry for setting changes, adding a secure barrier to prevent any unintended or unauthorized modifications.",
         "strictness_Password_SkipMorningHabit": "Password-protected mornings! Enable this setting to require a password when postponing or skipping your morning routine, ensuring that your choice is intentional.",
