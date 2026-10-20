@@ -6507,7 +6507,11 @@
         "removeRecordingConfirmMessageText": "The recording, its slides and its transcript are removed from this note and deleted from this Mac. This can't be undone.",
         "speakerMeText": "Me",
         "speakerSomeoneElseText": "Someone else",
-        "actionItemsHeadingText": "Action items"
+        "actionItemsHeadingText": "Action items",
+        "playbackStartsAtSoundText": "Silent until <TIME>, so playback starts there",
+        "deleteSlideText": "Delete slide",
+        "deleteSlideConfirmTitle": "Delete this slide?",
+        "deleteSlideConfirmMessageText": "The slide and anything drawn on it are deleted from this Mac. This can't be undone."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slides shown on screen while the meeting recorded, captured on this computer. Click one to see it large, annotate it, or go to that moment in the recording.",

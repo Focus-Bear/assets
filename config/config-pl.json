@@ -6550,7 +6550,11 @@
     "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć.",
     "speakerMeText": "Ja",
     "speakerSomeoneElseText": "Ktoś inny",
-    "actionItemsHeadingText": "Zadania do wykonania"
+    "actionItemsHeadingText": "Zadania do wykonania",
+    "playbackStartsAtSoundText": "Cisza do <TIME>, więc odtwarzanie zaczyna się w tym miejscu",
+    "deleteSlideText": "Usuń slajd",
+    "deleteSlideConfirmTitle": "Usunąć ten slajd?",
+    "deleteSlideConfirmMessageText": "Slajd i wszystko, co na nim narysowano, zostaną usunięte z tego Maca. Tej operacji nie można cofnąć."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",
