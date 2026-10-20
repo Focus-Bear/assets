@@ -6537,7 +6537,10 @@
         "playbackStartsAtSoundText": "En silencio hasta <TIME>, así que la reproducción empieza ahí",
         "deleteSlideText": "Eliminar diapositiva",
         "deleteSlideConfirmTitle": "¿Eliminar esta diapositiva?",
-        "deleteSlideConfirmMessageText": "La diapositiva y todo lo que se haya dibujado en ella se eliminan de este Mac. No se puede deshacer."
+        "deleteSlideConfirmMessageText": "La diapositiva y todo lo que se haya dibujado en ella se eliminan de este Mac. No se puede deshacer.",
+        "autoStopCountdownText": "La llamada terminó — la grabación se detiene en <SECONDS> s",
+        "keepRecordingText": "Seguir grabando",
+        "menuBarStoppingText": "REC se detiene en <SECONDS> s"
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",

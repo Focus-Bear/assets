@@ -6557,7 +6557,10 @@
     "playbackStartsAtSoundText": "Silence jusqu'à <TIME>, la lecture commence donc là",
     "deleteSlideText": "Supprimer la diapositive",
     "deleteSlideConfirmTitle": "Supprimer cette diapositive ?",
-    "deleteSlideConfirmMessageText": "La diapositive et tout ce qui a été dessiné dessus sont supprimés de ce Mac. Cette action est irréversible."
+    "deleteSlideConfirmMessageText": "La diapositive et tout ce qui a été dessiné dessus sont supprimés de ce Mac. Cette action est irréversible.",
+    "autoStopCountdownText": "Appel terminé — l’enregistrement s’arrête dans <SECONDS> s",
+    "keepRecordingText": "Continuer l’enregistrement",
+    "menuBarStoppingText": "REC s’arrête dans <SECONDS> s"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",
