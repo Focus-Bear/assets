@@ -6553,7 +6553,11 @@
     "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible.",
     "speakerMeText": "Moi",
     "speakerSomeoneElseText": "Quelqu'un d'autre",
-    "actionItemsHeadingText": "Actions à mener"
+    "actionItemsHeadingText": "Actions à mener",
+    "playbackStartsAtSoundText": "Silence jusqu'à <TIME>, la lecture commence donc là",
+    "deleteSlideText": "Supprimer la diapositive",
+    "deleteSlideConfirmTitle": "Supprimer cette diapositive ?",
+    "deleteSlideConfirmMessageText": "La diapositive et tout ce qui a été dessiné dessus sont supprimés de ce Mac. Cette action est irréversible."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",
