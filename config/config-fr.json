@@ -6583,6 +6583,7 @@
     "speakerMeText": "Moi",
     "speakerSomeoneElseText": "Quelqu'un d'autre",
     "actionItemsHeadingText": "Actions à mener",
+    "summaryHeadingText": "Résumé",
     "playbackStartsAtSoundText": "Silence jusqu'à <TIME>, la lecture commence donc là",
     "deleteSlideText": "Supprimer la diapositive",
     "deleteSlideConfirmTitle": "Supprimer cette diapositive ?",
