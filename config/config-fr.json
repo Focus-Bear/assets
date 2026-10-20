@@ -4365,6 +4365,8 @@
     "eventParticipantDeclined": "Refusé",
     "eventParticipantTentative": "Provisoire",
     "eventParticipantNoResponse": "Sans réponse",
+    "eventEditParticipantsInGoogle": "Modifier les participants dans Google Agenda…",
+    "eventEditParticipantsInCalendar": "Modifier les participants dans Calendrier…",
     "repeatNone": "Ne se répète pas",
     "repeatDaily": "Tous les jours",
     "repeatWeekly": "Toutes les semaines",
