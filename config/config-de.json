@@ -6514,7 +6514,7 @@
   "meetingRecordingInfo": {
     "promptTitle": "Möchtest du dieses Meeting aufnehmen?",
     "promptMessageText": "Focus Bear kann den Ton und deinen Bildschirm aufnehmen und die Transkription in einer Notiz speichern, damit du sie später durchsehen kannst.",
-    "recordAudioText": "Ton aufnehmen",
+    "recordAudioText": "Ton aufnehmen und Meeting transkribieren",
     "recordScreenText": "Bildschirm aufnehmen",
     "noThanksText": "Nein, danke",
     "yesRecordText": "Ja, aufnehmen",
@@ -6587,7 +6587,22 @@
     "deleteSlideConfirmMessageText": "Die Folie und alles, was darauf gezeichnet wurde, werden von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen.",
     "autoStopCountdownText": "Anruf beendet — Aufnahme endet in <SECONDS> s",
     "keepRecordingText": "Weiter aufnehmen",
-    "menuBarStoppingText": "REC endet in <SECONDS> s"
+    "menuBarStoppingText": "REC endet in <SECONDS> s",
+    "liveFeedbackText": "Gib mir Echtzeit-Feedback zum Meeting",
+    "liveFeedbackHelpText": "Zeigt während des Anrufs in einem kleinen Fenster deinen Redeanteil, dein Sprechtempo und deine Stimmlage. Dafür wird der Ton gebraucht, und alles wird auf diesem Mac berechnet: Nichts über deine Stimme wird hochgeladen.",
+    "feedbackTitle": "Meeting-Feedback",
+    "feedbackShareText": "Dein Redeanteil",
+    "feedbackPercentText": "<PERCENT> %",
+    "feedbackRecentShareText": "Letzte 5 Min.: <PERCENT> %",
+    "feedbackSpeedText": "Dein Sprechtempo",
+    "feedbackWordsPerMinuteText": "<NUMBER> Wörter pro Minute",
+    "feedbackPitchText": "Deine Stimmlage (experimentell)",
+    "feedbackLearningVoiceText": "Deine übliche Stimme wird erlernt…",
+    "feedbackPitchUsualText": "Wie üblich",
+    "feedbackPitchHigherText": "Höher als üblich (+<PERCENT> %)",
+    "feedbackPitchLowerText": "Tiefer als üblich (−<PERCENT> %)",
+    "feedbackOnThisMacText": "Auf diesem Mac berechnet. Es wird nichts hochgeladen.",
+    "showFeedbackText": "Meeting-Feedback anzeigen"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",

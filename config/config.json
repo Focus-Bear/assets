@@ -6470,7 +6470,7 @@
     "meetingRecordingInfo": {
         "promptTitle": "Do you want to record this meeting?",
         "promptMessageText": "Focus Bear can record the audio and your screen and save the transcription in a note for you to review later.",
-        "recordAudioText": "Record audio",
+        "recordAudioText": "Record audio and transcribe meeting",
         "recordScreenText": "Record screen",
         "noThanksText": "No thanks",
         "yesRecordText": "Yes, record",
@@ -6543,7 +6543,22 @@
         "deleteSlideConfirmMessageText": "The slide and anything drawn on it are deleted from this Mac. This can't be undone.",
         "autoStopCountdownText": "Call ended — recording stops in <SECONDS> s",
         "keepRecordingText": "Keep recording",
-        "menuBarStoppingText": "REC stops in <SECONDS>s"
+        "menuBarStoppingText": "REC stops in <SECONDS>s",
+        "liveFeedbackText": "Give me real time meeting feedback",
+        "liveFeedbackHelpText": "Shows your speaking share, speed and pitch in a small window during the call. It needs the audio, and it is all worked out on this Mac: nothing about your voice is uploaded.",
+        "feedbackTitle": "Meeting feedback",
+        "feedbackShareText": "Your speaking share",
+        "feedbackPercentText": "<PERCENT>%",
+        "feedbackRecentShareText": "Last 5 min: <PERCENT>%",
+        "feedbackSpeedText": "Your speaking speed",
+        "feedbackWordsPerMinuteText": "<NUMBER> words per minute",
+        "feedbackPitchText": "Your pitch (experimental)",
+        "feedbackLearningVoiceText": "Learning your usual voice…",
+        "feedbackPitchUsualText": "About usual",
+        "feedbackPitchHigherText": "Higher than usual (+<PERCENT>%)",
+        "feedbackPitchLowerText": "Lower than usual (−<PERCENT>%)",
+        "feedbackOnThisMacText": "Worked out on this Mac. Nothing is uploaded.",
+        "showFeedbackText": "Show meeting feedback"
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slides shown on screen while the meeting recorded, captured on this computer. Click one to see it large, annotate it, or go to that moment in the recording.",
