@@ -6537,6 +6537,7 @@
         "speakerMeText": "Me",
         "speakerSomeoneElseText": "Someone else",
         "actionItemsHeadingText": "Action items",
+        "summaryHeadingText": "Summary",
         "playbackStartsAtSoundText": "Silent until <TIME>, so playback starts there",
         "deleteSlideText": "Delete slide",
         "deleteSlideConfirmTitle": "Delete this slide?",

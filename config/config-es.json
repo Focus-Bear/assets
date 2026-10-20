@@ -6563,6 +6563,7 @@
         "speakerMeText": "Yo",
         "speakerSomeoneElseText": "Otra persona",
         "actionItemsHeadingText": "Tareas pendientes",
+        "summaryHeadingText": "Resumen",
         "playbackStartsAtSoundText": "En silencio hasta <TIME>, así que la reproducción empieza ahí",
         "deleteSlideText": "Eliminar diapositiva",
         "deleteSlideConfirmTitle": "¿Eliminar esta diapositiva?",
