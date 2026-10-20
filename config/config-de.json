@@ -6582,7 +6582,10 @@
     "playbackStartsAtSoundText": "Still bis <TIME>, daher beginnt die Wiedergabe dort",
     "deleteSlideText": "Folie löschen",
     "deleteSlideConfirmTitle": "Diese Folie löschen?",
-    "deleteSlideConfirmMessageText": "Die Folie und alles, was darauf gezeichnet wurde, werden von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen."
+    "deleteSlideConfirmMessageText": "Die Folie und alles, was darauf gezeichnet wurde, werden von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen.",
+    "autoStopCountdownText": "Anruf beendet — Aufnahme endet in <SECONDS> s",
+    "keepRecordingText": "Weiter aufnehmen",
+    "menuBarStoppingText": "REC endet in <SECONDS> s"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",
