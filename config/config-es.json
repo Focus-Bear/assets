@@ -4709,6 +4709,8 @@
         "eventParticipantDeclined": "Rechazado",
         "eventParticipantTentative": "Provisional",
         "eventParticipantNoResponse": "Sin respuesta",
+        "eventEditParticipantsInGoogle": "Editar participantes en Google Calendar…",
+        "eventEditParticipantsInCalendar": "Editar participantes en Calendario…",
         "repeatNone": "No se repite",
         "repeatDaily": "Cada día",
         "repeatWeekly": "Cada semana",

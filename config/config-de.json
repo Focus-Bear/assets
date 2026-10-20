@@ -4363,6 +4363,8 @@
     "eventParticipantDeclined": "Abgesagt",
     "eventParticipantTentative": "Vorläufig",
     "eventParticipantNoResponse": "Keine Antwort",
+    "eventEditParticipantsInGoogle": "Teilnehmer in Google Kalender bearbeiten…",
+    "eventEditParticipantsInCalendar": "Teilnehmer in Kalender bearbeiten…",
     "repeatNone": "Wiederholt sich nicht",
     "repeatDaily": "Täglich",
     "repeatWeekly": "Wöchentlich",

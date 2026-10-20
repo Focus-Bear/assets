@@ -4362,6 +4362,8 @@
     "eventParticipantDeclined": "Odrzucono",
     "eventParticipantTentative": "Wstępnie",
     "eventParticipantNoResponse": "Brak odpowiedzi",
+    "eventEditParticipantsInGoogle": "Edytuj uczestników w Kalendarzu Google…",
+    "eventEditParticipantsInCalendar": "Edytuj uczestników w Kalendarzu…",
     "repeatNone": "Nie powtarza się",
     "repeatDaily": "Codziennie",
     "repeatWeekly": "Co tydzień",

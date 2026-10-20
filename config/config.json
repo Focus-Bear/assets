@@ -4685,6 +4685,8 @@
         "eventParticipantDeclined": "Declined",
         "eventParticipantTentative": "Tentative",
         "eventParticipantNoResponse": "No response",
+        "eventEditParticipantsInGoogle": "Edit participants in Google Calendar…",
+        "eventEditParticipantsInCalendar": "Edit participants in Calendar…",
         "repeatNone": "Does not repeat",
         "repeatDaily": "Daily",
         "repeatWeekly": "Weekly",
