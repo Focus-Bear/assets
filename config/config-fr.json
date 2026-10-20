@@ -6516,7 +6516,7 @@
   "meetingRecordingInfo": {
     "promptTitle": "Voulez-vous enregistrer cette réunion ?",
     "promptMessageText": "Focus Bear peut enregistrer le son et votre écran, et enregistrer la transcription dans une note pour que vous la relisiez plus tard.",
-    "recordAudioText": "Enregistrer le son",
+    "recordAudioText": "Enregistrer le son et transcrire la réunion",
     "recordScreenText": "Enregistrer l'écran",
     "noThanksText": "Non merci",
     "yesRecordText": "Oui, enregistrer",
@@ -6589,7 +6589,22 @@
     "deleteSlideConfirmMessageText": "La diapositive et tout ce qui a été dessiné dessus sont supprimés de ce Mac. Cette action est irréversible.",
     "autoStopCountdownText": "Appel terminé — l’enregistrement s’arrête dans <SECONDS> s",
     "keepRecordingText": "Continuer l’enregistrement",
-    "menuBarStoppingText": "REC s’arrête dans <SECONDS> s"
+    "menuBarStoppingText": "REC s’arrête dans <SECONDS> s",
+    "liveFeedbackText": "Me donner un retour en temps réel pendant la réunion",
+    "liveFeedbackHelpText": "Affiche votre temps de parole, votre débit et la hauteur de votre voix dans une petite fenêtre pendant l’appel. Cela nécessite le son, et tout est calculé sur ce Mac : rien sur votre voix n’est envoyé.",
+    "feedbackTitle": "Retour sur la réunion",
+    "feedbackShareText": "Votre temps de parole",
+    "feedbackPercentText": "<PERCENT> %",
+    "feedbackRecentShareText": "5 dernières min : <PERCENT> %",
+    "feedbackSpeedText": "Votre débit de parole",
+    "feedbackWordsPerMinuteText": "<NUMBER> mots par minute",
+    "feedbackPitchText": "Hauteur de votre voix (expérimental)",
+    "feedbackLearningVoiceText": "Apprentissage de votre voix habituelle…",
+    "feedbackPitchUsualText": "Comme d’habitude",
+    "feedbackPitchHigherText": "Plus haute que d’habitude (+<PERCENT> %)",
+    "feedbackPitchLowerText": "Plus basse que d’habitude (−<PERCENT> %)",
+    "feedbackOnThisMacText": "Calculé sur ce Mac. Rien n’est envoyé.",
+    "showFeedbackText": "Afficher le retour sur la réunion"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",

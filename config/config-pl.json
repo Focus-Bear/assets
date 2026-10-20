@@ -6513,7 +6513,7 @@
   "meetingRecordingInfo": {
     "promptTitle": "Czy chcesz nagrać to spotkanie?",
     "promptMessageText": "Focus Bear może nagrać dźwięk i Twój ekran oraz zapisać transkrypcję w notatce, żebyś mógł przejrzeć ją później.",
-    "recordAudioText": "Nagrywaj dźwięk",
+    "recordAudioText": "Nagrywaj dźwięk i transkrybuj spotkanie",
     "recordScreenText": "Nagrywaj ekran",
     "noThanksText": "Nie, dziękuję",
     "yesRecordText": "Tak, nagrywaj",
@@ -6586,7 +6586,22 @@
     "deleteSlideConfirmMessageText": "Slajd i wszystko, co na nim narysowano, zostaną usunięte z tego Maca. Tej operacji nie można cofnąć.",
     "autoStopCountdownText": "Połączenie zakończone — nagrywanie zakończy się za <SECONDS> s",
     "keepRecordingText": "Nagrywaj dalej",
-    "menuBarStoppingText": "REC kończy się za <SECONDS> s"
+    "menuBarStoppingText": "REC kończy się za <SECONDS> s",
+    "liveFeedbackText": "Pokazuj mi na żywo informacje o moim mówieniu",
+    "liveFeedbackHelpText": "Podczas rozmowy pokazuje w małym oknie Twój udział w rozmowie, tempo mówienia i wysokość głosu. Wymaga dźwięku, a wszystko jest obliczane na tym Macu: nic o Twoim głosie nie jest wysyłane.",
+    "feedbackTitle": "Informacje o spotkaniu na żywo",
+    "feedbackShareText": "Twój udział w rozmowie",
+    "feedbackPercentText": "<PERCENT>%",
+    "feedbackRecentShareText": "Ostatnie 5 min: <PERCENT>%",
+    "feedbackSpeedText": "Twoje tempo mówienia",
+    "feedbackWordsPerMinuteText": "Słowa na minutę: <NUMBER>",
+    "feedbackPitchText": "Wysokość Twojego głosu (eksperymentalnie)",
+    "feedbackLearningVoiceText": "Poznaję Twój zwykły głos…",
+    "feedbackPitchUsualText": "Jak zwykle",
+    "feedbackPitchHigherText": "Wyższy niż zwykle (+<PERCENT>%)",
+    "feedbackPitchLowerText": "Niższy niż zwykle (−<PERCENT>%)",
+    "feedbackOnThisMacText": "Obliczane na tym Macu. Nic nie jest wysyłane.",
+    "showFeedbackText": "Pokaż informacje o spotkaniu"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",

@@ -6496,7 +6496,7 @@
     "meetingRecordingInfo": {
         "promptTitle": "¿Quieres grabar esta reunión?",
         "promptMessageText": "Focus Bear puede grabar el audio y tu pantalla y guardar la transcripción en una nota para que la revises más tarde.",
-        "recordAudioText": "Grabar audio",
+        "recordAudioText": "Grabar audio y transcribir la reunión",
         "recordScreenText": "Grabar pantalla",
         "noThanksText": "No, gracias",
         "yesRecordText": "Sí, grabar",
@@ -6569,7 +6569,22 @@
         "deleteSlideConfirmMessageText": "La diapositiva y todo lo que se haya dibujado en ella se eliminan de este Mac. No se puede deshacer.",
         "autoStopCountdownText": "La llamada terminó — la grabación se detiene en <SECONDS> s",
         "keepRecordingText": "Seguir grabando",
-        "menuBarStoppingText": "REC se detiene en <SECONDS> s"
+        "menuBarStoppingText": "REC se detiene en <SECONDS> s",
+        "liveFeedbackText": "Darme comentarios en tiempo real sobre la reunión",
+        "liveFeedbackHelpText": "Muestra cuánto hablas, a qué velocidad y con qué tono en una pequeña ventana durante la llamada. Necesita el audio, y todo se calcula en este Mac: no se sube nada sobre tu voz.",
+        "feedbackTitle": "Comentarios de la reunión",
+        "feedbackShareText": "Tu parte de la conversación",
+        "feedbackPercentText": "<PERCENT> %",
+        "feedbackRecentShareText": "Últimos 5 min: <PERCENT> %",
+        "feedbackSpeedText": "Tu velocidad al hablar",
+        "feedbackWordsPerMinuteText": "<NUMBER> palabras por minuto",
+        "feedbackPitchText": "Tu tono de voz (experimental)",
+        "feedbackLearningVoiceText": "Aprendiendo tu voz habitual…",
+        "feedbackPitchUsualText": "Como de costumbre",
+        "feedbackPitchHigherText": "Más agudo de lo habitual (+<PERCENT> %)",
+        "feedbackPitchLowerText": "Más grave de lo habitual (−<PERCENT> %)",
+        "feedbackOnThisMacText": "Calculado en este Mac. No se sube nada.",
+        "showFeedbackText": "Mostrar comentarios de la reunión"
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",
