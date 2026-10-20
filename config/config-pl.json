@@ -6547,7 +6547,10 @@
     "retryTranscriptionText": "Ponów transkrypcję",
     "removeRecordingText": "Usuń nagranie",
     "removeRecordingConfirmTitle": "Usunąć to nagranie?",
-    "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć."
+    "removeRecordingConfirmMessageText": "Nagranie, jego slajdy i transkrypcja zostaną usunięte z tej notatki i z tego Maca. Tej operacji nie można cofnąć.",
+    "speakerMeText": "Ja",
+    "speakerSomeoneElseText": "Ktoś inny",
+    "actionItemsHeadingText": "Zadania do wykonania"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",

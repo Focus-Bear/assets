@@ -6550,7 +6550,10 @@
     "retryTranscriptionText": "Relancer la transcription",
     "removeRecordingText": "Retirer l'enregistrement",
     "removeRecordingConfirmTitle": "Retirer cet enregistrement ?",
-    "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible."
+    "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible.",
+    "speakerMeText": "Moi",
+    "speakerSomeoneElseText": "Quelqu'un d'autre",
+    "actionItemsHeadingText": "Actions à mener"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",

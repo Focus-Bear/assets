@@ -6530,7 +6530,10 @@
         "retryTranscriptionText": "Reintentar transcripción",
         "removeRecordingText": "Quitar grabación",
         "removeRecordingConfirmTitle": "¿Quitar esta grabación?",
-        "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este Mac. No se puede deshacer."
+        "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este Mac. No se puede deshacer.",
+        "speakerMeText": "Yo",
+        "speakerSomeoneElseText": "Otra persona",
+        "actionItemsHeadingText": "Tareas pendientes"
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",

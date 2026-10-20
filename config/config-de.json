@@ -6548,7 +6548,10 @@
     "retryTranscriptionText": "Transkription wiederholen",
     "removeRecordingText": "Aufnahme entfernen",
     "removeRecordingConfirmTitle": "Diese Aufnahme entfernen?",
-    "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen."
+    "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen.",
+    "speakerMeText": "Ich",
+    "speakerSomeoneElseText": "Jemand anderes",
+    "actionItemsHeadingText": "Aufgaben"
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",
