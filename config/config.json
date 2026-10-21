@@ -6583,7 +6583,15 @@
         "postureVideoEffectsNoteText": "Posture is unavailable while Portrait, Studio Light or another video effect is on (Control Center → Video Effects).",
         "postureNudgeText": "Relax your shoulders and take a slow breath.",
         "postureBannerTitleText": "Relax your shoulders",
-        "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath."
+        "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath.",
+        "postureWaitingForCallCameraText": "Waiting for your camera",
+        "postureWaitingForCallCameraNoteText": "Starts when your call turns its camera on, and uses the same camera.",
+        "postureShowCameraText": "Show camera",
+        "postureHideCameraText": "Hide camera",
+        "postureCameraTitle": "Posture camera",
+        "postureGapText": "Ear-to-shoulder gap: <NUMBER>",
+        "postureGapUsualText": "Your usual: <NUMBER> · raised below <LIMIT>",
+        "postureCameraPrivacyText": "Only you see this: it's left out of screen sharing, and nothing is saved."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slides shown on screen while the meeting recorded, captured on this computer. Click one to see it large, annotate it, or go to that moment in the recording.",
