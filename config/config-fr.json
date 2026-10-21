@@ -6624,7 +6624,8 @@
     "postureCameraUnavailableText": "Caméra indisponible",
     "postureNudgeText": "Relâchez les épaules et respirez lentement.",
     "postureBannerTitleText": "Relâchez les épaules",
-    "postureBannerMessageText": "Elles sont remontées depuis un moment. Laissez-les descendre, roulez-les vers l’arrière et respirez lentement."
+    "postureBannerMessageText": "Elles sont remontées depuis un moment. Laissez-les descendre, roulez-les vers l’arrière et respirez lentement.",
+    "newMeetingNoticeText": "Nouvelle réunion détectée : « <TITLE> » enregistrée, enregistrement de « <NEW_TITLE> » démarré."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",

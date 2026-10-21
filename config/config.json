@@ -6578,7 +6578,8 @@
         "postureCameraUnavailableText": "Camera unavailable",
         "postureNudgeText": "Relax your shoulders and take a slow breath.",
         "postureBannerTitleText": "Relax your shoulders",
-        "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath."
+        "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath.",
+        "newMeetingNoticeText": "New meeting detected — saved “<TITLE>” and started recording “<NEW_TITLE>”."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slides shown on screen while the meeting recorded, captured on this computer. Click one to see it large, annotate it, or go to that moment in the recording.",

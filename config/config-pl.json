@@ -6621,7 +6621,8 @@
     "postureCameraUnavailableText": "Kamera niedostępna",
     "postureNudgeText": "Rozluźnij ramiona i weź powolny oddech.",
     "postureBannerTitleText": "Rozluźnij ramiona",
-    "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech."
+    "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech.",
+    "newMeetingNoticeText": "Wykryto nowe spotkanie — zapisano „<TITLE>” i rozpoczęto nagrywanie „<NEW_TITLE>”."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",

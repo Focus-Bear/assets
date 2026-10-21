@@ -6604,7 +6604,8 @@
         "postureCameraUnavailableText": "Cámara no disponible",
         "postureNudgeText": "Relaja los hombros y respira despacio.",
         "postureBannerTitleText": "Relaja los hombros",
-        "postureBannerMessageText": "Llevan un rato levantados. Déjalos caer, llévalos hacia atrás y respira despacio."
+        "postureBannerMessageText": "Llevan un rato levantados. Déjalos caer, llévalos hacia atrás y respira despacio.",
+        "newMeetingNoticeText": "Nueva reunión detectada: se guardó «<TITLE>» y se empezó a grabar «<NEW_TITLE>»."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",

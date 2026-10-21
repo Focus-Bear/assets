@@ -6622,7 +6622,8 @@
     "postureCameraUnavailableText": "Kamera nicht verfügbar",
     "postureNudgeText": "Entspann deine Schultern und atme langsam.",
     "postureBannerTitleText": "Entspann deine Schultern",
-    "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam."
+    "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam.",
+    "newMeetingNoticeText": "Neues Meeting erkannt – „<TITLE>“ gespeichert, Aufnahme von „<NEW_TITLE>“ gestartet."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",
