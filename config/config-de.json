@@ -6607,7 +6607,22 @@
     "feedbackPitchHigherText": "Höher als üblich (+<PERCENT> %)",
     "feedbackPitchLowerText": "Tiefer als üblich (−<PERCENT> %)",
     "feedbackOnThisMacText": "Auf diesem Mac berechnet. Es wird nichts hochgeladen.",
-    "showFeedbackText": "Meeting-Feedback anzeigen"
+    "showFeedbackText": "Meeting-Feedback anzeigen",
+    "livePostureText": "Haltung einbeziehen (nutzt deine Kamera)",
+    "livePostureHelpText": "Bemerkt, wenn deine Schultern hochgezogen bleiben, und erinnert dich sanft daran, sie zu entspannen. Das Kameralicht leuchtet, solange es läuft. Das Bild wird auf diesem Mac ausgewertet und verworfen: Nichts wird gespeichert oder hochgeladen.",
+    "cameraOffNoteText": "Der Kamerazugriff ist für Focus Bear ausgeschaltet, daher wird die Haltung nicht geprüft. Die Aufnahme funktioniert trotzdem.",
+    "openCameraSettingsText": "Kamera-Einstellungen öffnen",
+    "feedbackPostureText": "Deine Haltung",
+    "postureCalibratingText": "Kalibrierung…",
+    "postureRelaxedText": "Schultern entspannt",
+    "postureRaisedSecondsText": "Schultern hochgezogen (seit <SECONDS> s)",
+    "postureRaisedMinutesText": "Schultern hochgezogen (seit <NUMBER> Min.)",
+    "postureNotVisibleText": "Ich sehe dich nicht",
+    "postureCameraOffText": "Kamerazugriff ist aus",
+    "postureCameraUnavailableText": "Kamera nicht verfügbar",
+    "postureNudgeText": "Entspann deine Schultern und atme langsam.",
+    "postureBannerTitleText": "Entspann deine Schultern",
+    "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",

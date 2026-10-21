@@ -6563,7 +6563,22 @@
         "feedbackPitchHigherText": "Higher than usual (+<PERCENT>%)",
         "feedbackPitchLowerText": "Lower than usual (−<PERCENT>%)",
         "feedbackOnThisMacText": "Worked out on this Mac. Nothing is uploaded.",
-        "showFeedbackText": "Show meeting feedback"
+        "showFeedbackText": "Show meeting feedback",
+        "livePostureText": "Include posture (uses your camera)",
+        "livePostureHelpText": "Notices when your shoulders stay raised and gently reminds you to relax them. The camera light is on while it watches. The picture is looked at on this Mac and thrown away: nothing is saved or uploaded.",
+        "cameraOffNoteText": "Camera access is off for Focus Bear, so posture won't be checked. The recording still works.",
+        "openCameraSettingsText": "Open Camera settings",
+        "feedbackPostureText": "Your posture",
+        "postureCalibratingText": "Calibrating…",
+        "postureRelaxedText": "Shoulders relaxed",
+        "postureRaisedSecondsText": "Shoulders raised (for <SECONDS>s)",
+        "postureRaisedMinutesText": "Shoulders raised (for <NUMBER> min)",
+        "postureNotVisibleText": "Can't see you",
+        "postureCameraOffText": "Camera access is off",
+        "postureCameraUnavailableText": "Camera unavailable",
+        "postureNudgeText": "Relax your shoulders and take a slow breath.",
+        "postureBannerTitleText": "Relax your shoulders",
+        "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slides shown on screen while the meeting recorded, captured on this computer. Click one to see it large, annotate it, or go to that moment in the recording.",
