@@ -4036,6 +4036,8 @@
     "showInTaskListText": "In der Aufgabenliste anzeigen",
         "assignedToText": "Zugewiesen an <NAME>",
         "subtaskProgressText": "<DONE> von <TOTAL> Teilaufgaben erledigt",
+        "showSubtasksText": "Teilaufgaben anzeigen",
+        "hideSubtasksText": "Teilaufgaben ausblenden",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
     "mergeProjectText": "Mit anderem Projekt zusammenführen…",
     "mergeProjectTitleText": "<PROJECT> zusammenführen mit…",

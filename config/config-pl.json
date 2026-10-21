@@ -4035,6 +4035,8 @@
     "showInTaskListText": "Pokaż na liście zadań",
         "assignedToText": "Przypisane do: <NAME>",
         "subtaskProgressText": "Ukończone podzadania: <DONE> z <TOTAL>",
+        "showSubtasksText": "Pokaż podzadania",
+        "hideSubtasksText": "Ukryj podzadania",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
     "mergeProjectText": "Scal z innym projektem…",
     "mergeProjectTitleText": "Scal <PROJECT> z…",

@@ -4362,6 +4362,8 @@
         "showInTaskListText": "Show in task list",
         "assignedToText": "Assigned to <NAME>",
         "subtaskProgressText": "<DONE> of <TOTAL> subtasks done",
+        "showSubtasksText": "Show subtasks",
+        "hideSubtasksText": "Hide subtasks",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
         "mergeProjectText": "Merge into another project…",
         "mergeProjectTitleText": "Merge <PROJECT> into…",

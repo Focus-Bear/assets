@@ -4036,6 +4036,8 @@
     "showInTaskListText": "Afficher dans la liste de tâches",
         "assignedToText": "Assignée à <NAME>",
         "subtaskProgressText": "<DONE> sous-tâches terminées sur <TOTAL>",
+        "showSubtasksText": "Afficher les sous-tâches",
+        "hideSubtasksText": "Masquer les sous-tâches",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
     "mergeProjectText": "Fusionner dans un autre projet…",
     "mergeProjectTitleText": "Fusionner <PROJECT> dans…",
