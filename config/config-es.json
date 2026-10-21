@@ -1475,7 +1475,17 @@
         "habitNoteStaysPersonalText": "Una nota vinculada a un hábito se queda con ese hábito, así que no se puede añadir a un proyecto.",
         "tagsNotKeptText": "Las notas de proyecto aún no pueden tener etiquetas en este servidor, así que las etiquetas de esta nota no se conservan.",
         "noteAddedToProjectText": "Nota añadida a <PROJECT>",
-        "couldNotAddToProjectText": "No se pudo añadir la nota al proyecto"
+        "couldNotAddToProjectText": "No se pudo añadir la nota al proyecto",
+        "meetingRecordingsFolderText": "Grabaciones de reuniones",
+        "moreNotesActionsText": "Más",
+        "fileMeetingNotesText": "Mover las notas de reuniones a Grabaciones de reuniones",
+        "findingMeetingNotesText": "Buscando notas de reuniones…",
+        "noMeetingNotesToFileText": "Todas tus notas de reuniones ya están en Grabaciones de reuniones.",
+        "fileMeetingNotesConfirmTitle": "¿Mover las notas de reuniones a Grabaciones de reuniones?",
+        "fileMeetingNotesConfirmText": "Notas de reuniones encontradas: <COUNT>. Cada reunión periódica tiene su propia carpeta. Nada cambia en las notas, y puedes devolver cualquiera de ellas a Notas personales.",
+        "moveMeetingNotesText": "Mover",
+        "meetingNotesFiledText": "Notas de reuniones movidas a Grabaciones de reuniones: <COUNT>",
+        "couldNotFileMeetingNotesText": "Algunas notas de reuniones no se pudieron mover. Inténtalo de nuevo en un momento."
     },
     "noteImagesInfo": {
       "insertImageText": "Insertar imagen",

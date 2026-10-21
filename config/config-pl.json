@@ -1474,7 +1474,17 @@
     "habitNoteStaysPersonalText": "Notatka powiązana z nawykiem zostaje przy tym nawyku, więc nie można jej dodać do projektu.",
     "tagsNotKeptText": "Notatki projektu nie mogą jeszcze mieć tagów na tym serwerze, więc tagi tej notatki nie zostaną zachowane.",
     "noteAddedToProjectText": "Notatka dodana do: <PROJECT>",
-    "couldNotAddToProjectText": "Nie udało się dodać notatki do projektu"
+    "couldNotAddToProjectText": "Nie udało się dodać notatki do projektu",
+    "meetingRecordingsFolderText": "Nagrania spotkań",
+    "moreNotesActionsText": "Więcej",
+    "fileMeetingNotesText": "Przenieś notatki ze spotkań do folderu Nagrania spotkań",
+    "findingMeetingNotesText": "Szukanie notatek ze spotkań…",
+    "noMeetingNotesToFileText": "Wszystkie notatki ze spotkań są już w folderze Nagrania spotkań.",
+    "fileMeetingNotesConfirmTitle": "Przenieść notatki ze spotkań do folderu Nagrania spotkań?",
+    "fileMeetingNotesConfirmText": "Znalezione notatki ze spotkań: <COUNT>. Każde cykliczne spotkanie ma własny folder. Treść notatek się nie zmienia, a każdą z nich możesz przenieść z powrotem do Notatek osobistych.",
+    "moveMeetingNotesText": "Przenieś",
+    "meetingNotesFiledText": "Notatki ze spotkań przeniesione do folderu Nagrania spotkań: <COUNT>",
+    "couldNotFileMeetingNotesText": "Nie udało się przenieść niektórych notatek ze spotkań. Spróbuj ponownie za chwilę."
   },
   "statsViewInfo": {
     "tabGoals": "Twoje cele",

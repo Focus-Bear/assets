@@ -1469,7 +1469,17 @@
         "habitNoteStaysPersonalText": "A note linked to a habit stays with that habit, so it can't be added to a project.",
         "tagsNotKeptText": "Project notes can't have tags on this server yet, so this note's tags aren't kept.",
         "noteAddedToProjectText": "Note added to <PROJECT>",
-        "couldNotAddToProjectText": "Could not add the note to the project"
+        "couldNotAddToProjectText": "Could not add the note to the project",
+        "meetingRecordingsFolderText": "Meeting Recordings",
+        "moreNotesActionsText": "More",
+        "fileMeetingNotesText": "Move meeting notes into Meeting Recordings",
+        "findingMeetingNotesText": "Looking for meeting notes…",
+        "noMeetingNotesToFileText": "All your meeting notes are already in Meeting Recordings.",
+        "fileMeetingNotesConfirmTitle": "Move meeting notes into Meeting Recordings?",
+        "fileMeetingNotesConfirmText": "Meeting notes found: <COUNT>. Each repeating meeting gets its own folder. Nothing in the notes changes, and you can move any of them back to Personal notes.",
+        "moveMeetingNotesText": "Move",
+        "meetingNotesFiledText": "Meeting notes moved into Meeting Recordings: <COUNT>",
+        "couldNotFileMeetingNotesText": "Some meeting notes couldn't be moved. Try again in a moment."
     },
     "noteImagesInfo": {
       "insertImageText": "Insert image",

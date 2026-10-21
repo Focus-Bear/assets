@@ -1473,7 +1473,17 @@
     "habitNoteStaysPersonalText": "Eine mit einer Gewohnheit verknüpfte Notiz bleibt bei dieser Gewohnheit und kann deshalb keinem Projekt hinzugefügt werden.",
     "tagsNotKeptText": "Projektnotizen können auf diesem Server noch keine Tags haben, deshalb werden die Tags dieser Notiz nicht übernommen.",
     "noteAddedToProjectText": "Notiz zu <PROJECT> hinzugefügt",
-    "couldNotAddToProjectText": "Die Notiz konnte nicht zum Projekt hinzugefügt werden"
+    "couldNotAddToProjectText": "Die Notiz konnte nicht zum Projekt hinzugefügt werden",
+    "meetingRecordingsFolderText": "Besprechungsaufnahmen",
+    "moreNotesActionsText": "Mehr",
+    "fileMeetingNotesText": "Besprechungsnotizen in Besprechungsaufnahmen verschieben",
+    "findingMeetingNotesText": "Besprechungsnotizen werden gesucht…",
+    "noMeetingNotesToFileText": "Alle deine Besprechungsnotizen sind schon in Besprechungsaufnahmen.",
+    "fileMeetingNotesConfirmTitle": "Besprechungsnotizen in Besprechungsaufnahmen verschieben?",
+    "fileMeetingNotesConfirmText": "Gefundene Besprechungsnotizen: <COUNT>. Jede wiederkehrende Besprechung bekommt einen eigenen Ordner. An den Notizen ändert sich nichts, und du kannst jede davon zurück in Persönliche Notizen verschieben.",
+    "moveMeetingNotesText": "Verschieben",
+    "meetingNotesFiledText": "In Besprechungsaufnahmen verschobene Besprechungsnotizen: <COUNT>",
+    "couldNotFileMeetingNotesText": "Einige Besprechungsnotizen konnten nicht verschoben werden. Versuch es gleich noch einmal."
   },
   "statsViewInfo": {
     "tabGoals": "Deine Ziele",

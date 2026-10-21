@@ -1474,7 +1474,17 @@
     "habitNoteStaysPersonalText": "Une note liée à une habitude reste avec cette habitude, elle ne peut donc pas être ajoutée à un projet.",
     "tagsNotKeptText": "Les notes de projet ne peuvent pas encore avoir d’étiquettes sur ce serveur, les étiquettes de cette note ne sont donc pas conservées.",
     "noteAddedToProjectText": "Note ajoutée à <PROJECT>",
-    "couldNotAddToProjectText": "Impossible d’ajouter la note au projet"
+    "couldNotAddToProjectText": "Impossible d’ajouter la note au projet",
+    "meetingRecordingsFolderText": "Enregistrements de réunions",
+    "moreNotesActionsText": "Plus",
+    "fileMeetingNotesText": "Déplacer les notes de réunion dans Enregistrements de réunions",
+    "findingMeetingNotesText": "Recherche des notes de réunion…",
+    "noMeetingNotesToFileText": "Toutes tes notes de réunion sont déjà dans Enregistrements de réunions.",
+    "fileMeetingNotesConfirmTitle": "Déplacer les notes de réunion dans Enregistrements de réunions ?",
+    "fileMeetingNotesConfirmText": "Notes de réunion trouvées : <COUNT>. Chaque réunion récurrente a son propre dossier. Rien ne change dans les notes, et tu peux remettre n’importe laquelle dans Notes personnelles.",
+    "moveMeetingNotesText": "Déplacer",
+    "meetingNotesFiledText": "Notes de réunion déplacées dans Enregistrements de réunions : <COUNT>",
+    "couldNotFileMeetingNotesText": "Certaines notes de réunion n’ont pas pu être déplacées. Réessaie dans un instant."
   },
   "statsViewInfo": {
     "tabGoals": "Tes objectifs",
