@@ -6646,6 +6646,7 @@
         "postureNudgeText": "Relax your shoulders and take a slow breath.",
         "postureBannerTitleText": "Relax your shoulders",
         "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath.",
+        "newMeetingNoticeText": "New meeting detected — saved “<TITLE>” and started recording “<NEW_TITLE>”.",
         "postureWaitingForCallCameraText": "Waiting for your camera",
         "postureWaitingForCallCameraNoteText": "Starts when your call turns its camera on, and uses the same camera.",
         "postureShowCameraText": "Show camera",

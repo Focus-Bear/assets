@@ -6688,6 +6688,7 @@
     "postureNudgeText": "Rozluźnij ramiona i weź powolny oddech.",
     "postureBannerTitleText": "Rozluźnij ramiona",
     "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech.",
+    "newMeetingNoticeText": "Wykryto nowe spotkanie — zapisano „<TITLE>” i rozpoczęto nagrywanie „<NEW_TITLE>”.",
     "postureWaitingForCallCameraText": "Czekam na Twoją kamerę",
     "postureWaitingForCallCameraNoteText": "Włącza się, gdy rozmowa włączy swoją kamerę, i korzysta z tej samej kamery.",
     "postureShowCameraText": "Pokaż kamerę",

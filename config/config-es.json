@@ -6644,6 +6644,7 @@
         "postureNudgeText": "Relaja los hombros y respira despacio.",
         "postureBannerTitleText": "Relaja los hombros",
         "postureBannerMessageText": "Llevan un rato levantados. Déjalos caer, llévalos hacia atrás y respira despacio.",
+        "newMeetingNoticeText": "Nueva reunión detectada: se guardó «<TITLE>» y se empezó a grabar «<NEW_TITLE>».",
         "postureWaitingForCallCameraText": "Esperando a tu cámara",
         "postureWaitingForCallCameraNoteText": "Empieza cuando la llamada enciende su cámara, y usa la misma cámara.",
         "postureShowCameraText": "Mostrar cámara",

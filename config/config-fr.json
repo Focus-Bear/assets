@@ -6688,6 +6688,7 @@
     "postureNudgeText": "Relâchez les épaules et respirez lentement.",
     "postureBannerTitleText": "Relâchez les épaules",
     "postureBannerMessageText": "Elles sont remontées depuis un moment. Laissez-les descendre, roulez-les vers l’arrière et respirez lentement.",
+    "newMeetingNoticeText": "Nouvelle réunion détectée : « <TITLE> » enregistrée, enregistrement de « <NEW_TITLE> » démarré.",
     "postureWaitingForCallCameraText": "En attente de votre caméra",
     "postureWaitingForCallCameraNoteText": "Démarre quand votre appel allume sa caméra, et utilise la même caméra.",
     "postureShowCameraText": "Afficher la caméra",

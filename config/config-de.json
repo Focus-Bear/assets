@@ -6688,6 +6688,7 @@
     "postureNudgeText": "Entspann deine Schultern und atme langsam.",
     "postureBannerTitleText": "Entspann deine Schultern",
     "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam.",
+    "newMeetingNoticeText": "Neues Meeting erkannt – „<TITLE>“ gespeichert, Aufnahme von „<NEW_TITLE>“ gestartet.",
     "postureWaitingForCallCameraText": "Wartet auf deine Kamera",
     "postureWaitingForCallCameraNoteText": "Startet, wenn dein Anruf seine Kamera einschaltet, und nutzt dieselbe Kamera.",
     "postureShowCameraText": "Kamera zeigen",
