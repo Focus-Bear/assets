@@ -4381,6 +4381,8 @@
         "showInTaskListText": "Ver en la lista de tareas",
         "assignedToText": "Asignada a <NAME>",
         "subtaskProgressText": "<DONE> de <TOTAL> subtareas hechas",
+        "showSubtasksText": "Mostrar subtareas",
+        "hideSubtasksText": "Ocultar subtareas",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
         "mergeProjectText": "Combinar con otro proyecto…",
         "mergeProjectTitleText": "Combinar <PROJECT> con…",
