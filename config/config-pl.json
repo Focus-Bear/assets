@@ -4336,6 +4336,8 @@
     "eventSaveError": "Nie udało się zapisać wydarzenia. Sprawdź dostęp do kalendarza i spróbuj ponownie.",
     "eventNotOwnedWarning": "Uwaga: to nie jest Twoje wydarzenie. Zmiany pojawią się tylko w Twoim planie dnia.",
     "eventFromAnotherDeviceWarning": "To wydarzenie pochodzi z innego urządzenia. Zmiany pojawią się tylko w planie dnia na tym Macu.",
+    "eventDeleteServerCopyConfirmMessage": "To usunie wydarzenie z planu dnia Focus Bear na wszystkich twoich urządzeniach. Nie ma go w kalendarzach tego Maca, więc pozostaną one bez zmian.",
+    "eventDeleteServerCopyFailedMessage": "Focus Bear nie mógł połączyć się z serwerem, aby usunąć to wydarzenie. Sprawdź połączenie i spróbuj ponownie.",
     "eventCloseForm": "Zamknij",
     "eventCancelEventButton": "Odwołaj wydarzenie",
     "eventDeclineEventButton": "Odrzuć wydarzenie",

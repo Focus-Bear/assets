@@ -4680,6 +4680,8 @@
         "eventSaveError": "No se pudo guardar el evento. Comprueba el acceso al calendario e inténtalo de nuevo.",
         "eventNotOwnedWarning": "Advertencia: no eres el propietario de este evento. Los cambios solo se reflejarán en tu plan del día.",
         "eventFromAnotherDeviceWarning": "Este evento viene de otro dispositivo. Los cambios solo se reflejarán en el plan del día de este Mac.",
+        "eventDeleteServerCopyConfirmMessage": "Esto quita el evento del plan del día de Focus Bear en todos tus dispositivos. No está en los calendarios de este Mac, así que estos no cambian.",
+        "eventDeleteServerCopyFailedMessage": "Focus Bear no pudo conectar con su servidor para quitar este evento. Comprueba tu conexión e inténtalo de nuevo.",
         "eventCloseForm": "Cerrar",
         "eventCancelEventButton": "Cancelar evento",
         "eventDeclineEventButton": "Rechazar evento",

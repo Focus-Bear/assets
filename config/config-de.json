@@ -4337,6 +4337,8 @@
     "eventSaveError": "Termin konnte nicht gespeichert werden. Prüfe den Kalenderzugriff und versuch es erneut.",
     "eventNotOwnedWarning": "Achtung: Dieser Termin gehört dir nicht. Änderungen erscheinen nur in deinem Tagesplan.",
     "eventFromAnotherDeviceWarning": "Dieser Termin kommt von einem anderen Gerät. Änderungen erscheinen nur im Tagesplan dieses Macs.",
+    "eventDeleteServerCopyConfirmMessage": "Damit wird der Termin auf all deinen Geräten aus dem Tagesplan von Focus Bear entfernt. Er ist in keinem Kalender dieses Macs, daher bleiben diese unverändert.",
+    "eventDeleteServerCopyFailedMessage": "Focus Bear konnte seinen Server nicht erreichen, um diesen Termin zu entfernen. Prüfe deine Verbindung und versuche es erneut.",
     "eventCloseForm": "Schließen",
     "eventCancelEventButton": "Termin absagen",
     "eventDeclineEventButton": "Termin ablehnen",
