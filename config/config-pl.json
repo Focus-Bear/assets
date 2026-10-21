@@ -5312,7 +5312,13 @@
     "labelSessionProgress": "<ELAPSED> z <TOTAL>",
     "errorTaskServerUpdateRequired": "Serwer nie przekazał danych potrzebnych do bezpiecznej edycji tego zadania. Wymagana jest aktualizacja usługi; ponowne połączenie tego nie naprawi. Możesz dalej pracować nad zadaniem.",
     "buttonAddTask": "Dodaj zadanie",
-    "changeBlockList": "Zmień listę blokad dla tej sesji"
+    "changeBlockList": "Zmień listę blokad dla tej sesji",
+    "titleBlockListPicker": "Lista blokad dla tej sesji",
+    "buttonSwitchBlockList": "Zmień",
+    "buttonKeepBlockList": "Zostaw obecną listę",
+    "titleSwitchLooserBlockList": "Zmienić na <NEW>?",
+    "bodySwitchLooserBlockList": "<NEW> może blokować mniej niż <CURRENT>. Minutnik, cel i zadania zostają bez zmian.",
+    "noticeSwitchBlockListCountdown": "Tryb ścisły: możesz zmienić za <COUNT> s"
   },
   "enableAIBlockingVcInfo": {
     "title": "Czy chcesz używać AI do blokowania rozpraszaczy?",

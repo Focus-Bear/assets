@@ -5709,7 +5709,13 @@
         "labelSessionProgress": "<ELAPSED> de <TOTAL>",
         "errorTaskServerUpdateRequired": "El servidor no ha proporcionado los detalles necesarios para editar esta tarea de forma segura. Esto requiere una actualización del servicio; volver a conectarte no lo solucionará. Puedes seguir trabajando en la tarea.",
         "buttonAddTask": "Añadir una tarea",
-        "changeBlockList": "Cambiar la lista de bloqueo de esta sesión"
+        "changeBlockList": "Cambiar la lista de bloqueo de esta sesión",
+        "titleBlockListPicker": "Lista de bloqueo de esta sesión",
+        "buttonSwitchBlockList": "Cambiar",
+        "buttonKeepBlockList": "Mantener la lista actual",
+        "titleSwitchLooserBlockList": "¿Cambiar a <NEW>?",
+        "bodySwitchLooserBlockList": "<NEW> podría bloquear menos que <CURRENT>. Tu temporizador, tu objetivo y tus tareas no cambian.",
+        "noticeSwitchBlockListCountdown": "Modo estricto: podrás cambiar en <COUNT> s"
     },
     "enableAIBlockingVcInfo": {
         "title": "¿Quieres usar IA para bloquear distracciones?",

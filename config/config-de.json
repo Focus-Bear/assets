@@ -5313,7 +5313,13 @@
     "labelSessionProgress": "<ELAPSED> von <TOTAL>",
     "errorTaskServerUpdateRequired": "Der Server liefert nicht die Details, die zum sicheren Bearbeiten dieser Aufgabe nötig sind. Dafür braucht es ein Service-Update; ein erneutes Verbinden hilft nicht. Du kannst weiter an der Aufgabe arbeiten.",
     "buttonAddTask": "Aufgabe hinzufügen",
-    "changeBlockList": "Blockliste für diese Sitzung ändern"
+    "changeBlockList": "Blockliste für diese Sitzung ändern",
+    "titleBlockListPicker": "Blockliste für diese Sitzung",
+    "buttonSwitchBlockList": "Wechseln",
+    "buttonKeepBlockList": "Aktuelle Liste behalten",
+    "titleSwitchLooserBlockList": "Zu <NEW> wechseln?",
+    "bodySwitchLooserBlockList": "<NEW> blockiert vielleicht weniger als <CURRENT>. Timer, Ziel und Aufgaben bleiben, wie sie sind.",
+    "noticeSwitchBlockListCountdown": "Strenger Modus: Du kannst in <COUNT> s wechseln"
   },
   "enableAIBlockingVcInfo": {
     "title": "Möchtest du KI nutzen, um Ablenkungen zu blockieren?",
