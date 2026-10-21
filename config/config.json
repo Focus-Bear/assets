@@ -6579,6 +6579,8 @@
         "postureNotVisibleText": "Can't see you",
         "postureCameraOffText": "Camera access is off",
         "postureCameraUnavailableText": "Camera unavailable",
+        "postureVideoEffectsOnText": "Off for this meeting",
+        "postureVideoEffectsNoteText": "Posture is unavailable while Portrait, Studio Light or another video effect is on (Control Center → Video Effects).",
         "postureNudgeText": "Relax your shoulders and take a slow breath.",
         "postureBannerTitleText": "Relax your shoulders",
         "postureBannerMessageText": "They've been raised for a while. Let them drop, roll them back and take a slow breath."

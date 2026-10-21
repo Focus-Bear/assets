@@ -6623,6 +6623,8 @@
     "postureNotVisibleText": "Ich sehe dich nicht",
     "postureCameraOffText": "Kamerazugriff ist aus",
     "postureCameraUnavailableText": "Kamera nicht verfügbar",
+    "postureVideoEffectsOnText": "Für dieses Meeting aus",
+    "postureVideoEffectsNoteText": "Die Haltung ist nicht verfügbar, solange Porträt, Studiolicht oder ein anderer Videoeffekt aktiviert ist (Kontrollzentrum → Videoeffekte).",
     "postureNudgeText": "Entspann deine Schultern und atme langsam.",
     "postureBannerTitleText": "Entspann deine Schultern",
     "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam."
