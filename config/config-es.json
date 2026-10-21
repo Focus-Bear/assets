@@ -6585,7 +6585,22 @@
         "feedbackPitchHigherText": "Más agudo de lo habitual (+<PERCENT> %)",
         "feedbackPitchLowerText": "Más grave de lo habitual (−<PERCENT> %)",
         "feedbackOnThisMacText": "Calculado en este Mac. No se sube nada.",
-        "showFeedbackText": "Mostrar comentarios de la reunión"
+        "showFeedbackText": "Mostrar comentarios de la reunión",
+        "livePostureText": "Incluir la postura (usa tu cámara)",
+        "livePostureHelpText": "Detecta cuando mantienes los hombros levantados y te recuerda con suavidad que los relajes. La luz de la cámara está encendida mientras observa. La imagen se analiza en este Mac y se descarta: no se guarda ni se sube nada.",
+        "cameraOffNoteText": "El acceso a la cámara está desactivado para Focus Bear, así que no se comprobará la postura. La grabación sigue funcionando.",
+        "openCameraSettingsText": "Abrir ajustes de Cámara",
+        "feedbackPostureText": "Tu postura",
+        "postureCalibratingText": "Calibrando…",
+        "postureRelaxedText": "Hombros relajados",
+        "postureRaisedSecondsText": "Hombros levantados (desde hace <SECONDS> s)",
+        "postureRaisedMinutesText": "Hombros levantados (desde hace <NUMBER> min)",
+        "postureNotVisibleText": "No te veo",
+        "postureCameraOffText": "Acceso a la cámara desactivado",
+        "postureCameraUnavailableText": "Cámara no disponible",
+        "postureNudgeText": "Relaja los hombros y respira despacio.",
+        "postureBannerTitleText": "Relaja los hombros",
+        "postureBannerMessageText": "Llevan un rato levantados. Déjalos caer, llévalos hacia atrás y respira despacio."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",

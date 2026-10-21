@@ -6602,7 +6602,22 @@
     "feedbackPitchHigherText": "Wyższy niż zwykle (+<PERCENT>%)",
     "feedbackPitchLowerText": "Niższy niż zwykle (−<PERCENT>%)",
     "feedbackOnThisMacText": "Obliczane na tym Macu. Nic nie jest wysyłane.",
-    "showFeedbackText": "Pokaż informacje o spotkaniu"
+    "showFeedbackText": "Pokaż informacje o spotkaniu",
+    "livePostureText": "Uwzględnij postawę (używa kamery)",
+    "livePostureHelpText": "Zauważa, gdy Twoje ramiona długo pozostają uniesione, i łagodnie przypomina, by je rozluźnić. Lampka kamery świeci, gdy to działa. Obraz jest analizowany na tym Macu i od razu odrzucany: nic nie jest zapisywane ani wysyłane.",
+    "cameraOffNoteText": "Dostęp do kamery jest wyłączony dla Focus Bear, więc postawa nie będzie sprawdzana. Nagrywanie nadal działa.",
+    "openCameraSettingsText": "Otwórz ustawienia kamery",
+    "feedbackPostureText": "Twoja postawa",
+    "postureCalibratingText": "Kalibracja…",
+    "postureRelaxedText": "Ramiona rozluźnione",
+    "postureRaisedSecondsText": "Ramiona uniesione (od <SECONDS> s)",
+    "postureRaisedMinutesText": "Ramiona uniesione (od <NUMBER> min)",
+    "postureNotVisibleText": "Nie widzę Cię",
+    "postureCameraOffText": "Dostęp do kamery wyłączony",
+    "postureCameraUnavailableText": "Kamera niedostępna",
+    "postureNudgeText": "Rozluźnij ramiona i weź powolny oddech.",
+    "postureBannerTitleText": "Rozluźnij ramiona",
+    "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",

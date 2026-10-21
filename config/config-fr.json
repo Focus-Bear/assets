@@ -6605,7 +6605,22 @@
     "feedbackPitchHigherText": "Plus haute que d’habitude (+<PERCENT> %)",
     "feedbackPitchLowerText": "Plus basse que d’habitude (−<PERCENT> %)",
     "feedbackOnThisMacText": "Calculé sur ce Mac. Rien n’est envoyé.",
-    "showFeedbackText": "Afficher le retour sur la réunion"
+    "showFeedbackText": "Afficher le retour sur la réunion",
+    "livePostureText": "Inclure la posture (utilise votre caméra)",
+    "livePostureHelpText": "Remarque quand vos épaules restent remontées et vous rappelle en douceur de les relâcher. Le voyant de la caméra est allumé pendant ce temps. L’image est analysée sur ce Mac puis supprimée : rien n’est enregistré ni envoyé.",
+    "cameraOffNoteText": "L’accès à la caméra est désactivé pour Focus Bear, la posture ne sera donc pas vérifiée. L’enregistrement fonctionne quand même.",
+    "openCameraSettingsText": "Ouvrir les réglages Caméra",
+    "feedbackPostureText": "Votre posture",
+    "postureCalibratingText": "Calibrage…",
+    "postureRelaxedText": "Épaules détendues",
+    "postureRaisedSecondsText": "Épaules remontées (depuis <SECONDS> s)",
+    "postureRaisedMinutesText": "Épaules remontées (depuis <NUMBER> min)",
+    "postureNotVisibleText": "Je ne vous vois pas",
+    "postureCameraOffText": "Accès à la caméra désactivé",
+    "postureCameraUnavailableText": "Caméra indisponible",
+    "postureNudgeText": "Relâchez les épaules et respirez lentement.",
+    "postureBannerTitleText": "Relâchez les épaules",
+    "postureBannerMessageText": "Elles sont remontées depuis un moment. Laissez-les descendre, roulez-les vers l’arrière et respirez lentement."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Les diapositives affichées à l'écran pendant l'enregistrement de la réunion, capturées sur cet ordinateur. Cliquez sur l'une d'elles pour l'agrandir, l'annoter ou aller à ce moment de l'enregistrement.",
