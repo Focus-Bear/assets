@@ -6622,6 +6622,8 @@
     "postureNotVisibleText": "Je ne vous vois pas",
     "postureCameraOffText": "Accès à la caméra désactivé",
     "postureCameraUnavailableText": "Caméra indisponible",
+    "postureVideoEffectsOnText": "Désactivée pour cette réunion",
+    "postureVideoEffectsNoteText": "La posture n’est pas disponible tant que Portrait, Éclairage de studio ou un autre effet vidéo est activé (Centre de contrôle → Effets vidéo).",
     "postureNudgeText": "Relâchez les épaules et respirez lentement.",
     "postureBannerTitleText": "Relâchez les épaules",
     "postureBannerMessageText": "Elles sont remontées depuis un moment. Laissez-les descendre, roulez-les vers l’arrière et respirez lentement."

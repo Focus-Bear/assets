@@ -6619,6 +6619,8 @@
     "postureNotVisibleText": "Nie widzę Cię",
     "postureCameraOffText": "Dostęp do kamery wyłączony",
     "postureCameraUnavailableText": "Kamera niedostępna",
+    "postureVideoEffectsOnText": "Wyłączona na to spotkanie",
+    "postureVideoEffectsNoteText": "Postawa jest niedostępna, gdy włączony jest Portret, Oświetlenie studyjne lub inny efekt wideo (Centrum sterowania → Efekty wideo).",
     "postureNudgeText": "Rozluźnij ramiona i weź powolny oddech.",
     "postureBannerTitleText": "Rozluźnij ramiona",
     "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech."
