@@ -6622,7 +6622,15 @@
     "postureCameraUnavailableText": "Kamera nicht verfügbar",
     "postureNudgeText": "Entspann deine Schultern und atme langsam.",
     "postureBannerTitleText": "Entspann deine Schultern",
-    "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam."
+    "postureBannerMessageText": "Sie sind schon eine Weile hochgezogen. Lass sie sinken, roll sie nach hinten und atme langsam.",
+    "postureWaitingForCallCameraText": "Wartet auf deine Kamera",
+    "postureWaitingForCallCameraNoteText": "Startet, wenn dein Anruf seine Kamera einschaltet, und nutzt dieselbe Kamera.",
+    "postureShowCameraText": "Kamera zeigen",
+    "postureHideCameraText": "Kamera ausblenden",
+    "postureCameraTitle": "Haltungskamera",
+    "postureGapText": "Abstand Ohr–Schulter: <NUMBER>",
+    "postureGapUsualText": "Dein üblicher Wert: <NUMBER> · hochgezogen unter <LIMIT>",
+    "postureCameraPrivacyText": "Nur du siehst das: Es wird beim Bildschirmteilen ausgeblendet, und nichts wird gespeichert."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Folien, die während der Aufnahme des Meetings auf dem Bildschirm zu sehen waren, auf diesem Computer erfasst. Klicke auf eine, um sie groß anzuzeigen, sie zu kommentieren oder zu dieser Stelle der Aufnahme zu springen.",

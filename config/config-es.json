@@ -6604,7 +6604,15 @@
         "postureCameraUnavailableText": "Cámara no disponible",
         "postureNudgeText": "Relaja los hombros y respira despacio.",
         "postureBannerTitleText": "Relaja los hombros",
-        "postureBannerMessageText": "Llevan un rato levantados. Déjalos caer, llévalos hacia atrás y respira despacio."
+        "postureBannerMessageText": "Llevan un rato levantados. Déjalos caer, llévalos hacia atrás y respira despacio.",
+        "postureWaitingForCallCameraText": "Esperando a tu cámara",
+        "postureWaitingForCallCameraNoteText": "Empieza cuando la llamada enciende su cámara, y usa la misma cámara.",
+        "postureShowCameraText": "Mostrar cámara",
+        "postureHideCameraText": "Ocultar cámara",
+        "postureCameraTitle": "Cámara de postura",
+        "postureGapText": "Distancia oreja-hombro: <NUMBER>",
+        "postureGapUsualText": "Lo habitual: <NUMBER> · levantados por debajo de <LIMIT>",
+        "postureCameraPrivacyText": "Solo lo ves tú: no aparece al compartir pantalla y no se guarda nada."
     },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Diapositivas que aparecieron en pantalla mientras se grababa la reunión, capturadas en este equipo. Haz clic en una para verla en grande, anotarla o ir a ese momento de la grabación.",

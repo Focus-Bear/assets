@@ -6621,7 +6621,15 @@
     "postureCameraUnavailableText": "Kamera niedostępna",
     "postureNudgeText": "Rozluźnij ramiona i weź powolny oddech.",
     "postureBannerTitleText": "Rozluźnij ramiona",
-    "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech."
+    "postureBannerMessageText": "Od jakiegoś czasu są uniesione. Opuść je, przetocz do tyłu i weź powolny oddech.",
+    "postureWaitingForCallCameraText": "Czekam na Twoją kamerę",
+    "postureWaitingForCallCameraNoteText": "Włącza się, gdy rozmowa włączy swoją kamerę, i korzysta z tej samej kamery.",
+    "postureShowCameraText": "Pokaż kamerę",
+    "postureHideCameraText": "Ukryj kamerę",
+    "postureCameraTitle": "Kamera postawy",
+    "postureGapText": "Odstęp ucho–ramię: <NUMBER>",
+    "postureGapUsualText": "Twoja zwykła wartość: <NUMBER> · uniesione poniżej <LIMIT>",
+    "postureCameraPrivacyText": "Widzisz to tylko Ty: nie pojawia się przy udostępnianiu ekranu i nic nie jest zapisywane."
   },
     "meetingSlidesWindowsInfo": {
         "slidesHelpText": "Slajdy wyświetlane na ekranie podczas nagrywania spotkania, przechwycone na tym komputerze. Kliknij slajd, aby go powiększyć, dodać adnotacje lub przejść do tego momentu nagrania.",
