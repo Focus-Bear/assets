@@ -3206,6 +3206,8 @@
     "buttonStartUntimed": "Starte eine Sitzung ohne Zeitlimit",
     "buttonStartSession": "Sitzung starten",
     "bubbleReadyToFocus": "Bereit für den Fokus?",
+    "labelSimpleGoal": "Was ist dein Fokusziel?",
+    "placeholderSimpleGoal": "Optional: Was willst du in dieser Session schaffen?",
     "titleDurationCard": "Wie lange fokussieren wir uns?",
     "bubbleDuration": "Fühlst du dich ehrgeizig? Du kannst den Timer anpassen.",
     "labelBreakDuration": "Pausendauer:",

@@ -3535,6 +3535,8 @@
         "buttonStartUntimed": "Start an untimed session",
         "buttonStartSession": "Start Session",
         "bubbleReadyToFocus": "Ready to focus?",
+        "labelSimpleGoal": "What's your focus goal?",
+        "placeholderSimpleGoal": "Optional: what do you want to get done in this session?",
         "titleDurationCard": "How long shall we focus?",
         "bubbleDuration": "Feeling ambitious? You can tweak the timer.",
         "labelBreakDuration": "Break duration:",
