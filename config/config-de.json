@@ -2005,7 +2005,8 @@
     "buttonDeactivateText": "Focus Bear für 4 Stunden deaktivieren",
     "infoText": "Wenn du mehr Anstoß brauchst, um bei deinen Gewohnheiten zu bleiben, öffne die Einstellungen und ändere den Reibungslevel im Tab „Allgemein“.",
     "customTimeError": "Gib eine gültige positive Zahl an Minuten ein",
-    "toolTipMinimumMinutes": "Wähl eine Vorgabe oder tipp deine eigene - mindestens 1 Minute"
+    "toolTipMinimumMinutes": "Wähl eine Vorgabe oder tipp deine eigene - mindestens 1 Minute",
+    "buttonSkipRoutineText": "Routine für heute überspringen"
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Es scheint, du bist offline. Bitte geh online, um mit deinen Gewohnheiten fortzufahren.",

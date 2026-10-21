@@ -2006,7 +2006,8 @@
     "buttonDeactivateText": "Désactiver Focus Bear pendant 4 heures",
     "infoText": "Si tu veux un peu plus d'encouragement pour tenir tes habitudes, ouvre les préférences et modifie le niveau de friction dans l'onglet des réglages généraux.",
     "customTimeError": "Saisis un nombre de minutes positif valide",
-    "toolTipMinimumMinutes": "Choisis une option ou saisis la tienne - minimum 1 minute"
+    "toolTipMinimumMinutes": "Choisis une option ou saisis la tienne - minimum 1 minute",
+    "buttonSkipRoutineText": "Sauter la routine aujourd'hui"
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Il semble que tu sois hors ligne. Reconnecte-toi pour continuer tes habitudes.",
