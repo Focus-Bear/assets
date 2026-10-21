@@ -5683,7 +5683,13 @@
         "labelSessionProgress": "<ELAPSED> of <TOTAL>",
         "errorTaskServerUpdateRequired": "The server has not provided the details needed to edit this task safely. This needs a service update; reconnecting will not fix it. You can keep working on the task.",
         "buttonAddTask": "Add a task",
-        "changeBlockList": "Change the block list for this session"
+        "changeBlockList": "Change the block list for this session",
+        "titleBlockListPicker": "Block list for this session",
+        "buttonSwitchBlockList": "Switch",
+        "buttonKeepBlockList": "Keep current list",
+        "titleSwitchLooserBlockList": "Switch to <NEW>?",
+        "bodySwitchLooserBlockList": "<NEW> might block less than <CURRENT>. Your timer, goal and tasks stay as they are.",
+        "noticeSwitchBlockListCountdown": "Strict mode: you can switch in <COUNT> s"
     },
     "enableAIBlockingVcInfo": {
         "title": "Do you want to use AI to block distractions?",

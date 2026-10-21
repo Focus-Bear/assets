@@ -5315,7 +5315,13 @@
     "labelSessionProgress": "<ELAPSED> sur <TOTAL>",
     "errorTaskServerUpdateRequired": "Le serveur n’a pas fourni les informations nécessaires pour modifier cette tâche en toute sécurité. Cela demande une mise à jour du service ; te reconnecter n’y changera rien. Tu peux continuer à travailler sur la tâche.",
     "buttonAddTask": "Ajouter une tâche",
-    "changeBlockList": "Changer la liste de blocage de cette session"
+    "changeBlockList": "Changer la liste de blocage de cette session",
+    "titleBlockListPicker": "Liste de blocage pour cette session",
+    "buttonSwitchBlockList": "Changer",
+    "buttonKeepBlockList": "Garder la liste actuelle",
+    "titleSwitchLooserBlockList": "Passer à <NEW> ?",
+    "bodySwitchLooserBlockList": "<NEW> pourrait bloquer moins que <CURRENT>. Ton minuteur, ton objectif et tes tâches restent inchangés.",
+    "noticeSwitchBlockListCountdown": "Mode strict : tu pourras changer dans <COUNT> s"
   },
   "enableAIBlockingVcInfo": {
     "title": "Veux-tu utiliser l'IA pour bloquer les distractions ?",
