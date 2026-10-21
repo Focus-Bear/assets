@@ -4661,6 +4661,8 @@
         "eventSaveError": "Couldn't save the event. Check calendar access and try again.",
         "eventNotOwnedWarning": "Warning: You don't own this event. Changes will only be reflected on your day plan.",
         "eventFromAnotherDeviceWarning": "This event comes from another device. Changes will only be reflected on this Mac's day plan.",
+        "eventDeleteServerCopyConfirmMessage": "This removes the event from Focus Bear's day plan on all your devices. It isn't in this Mac's calendars, so they stay as they are.",
+        "eventDeleteServerCopyFailedMessage": "Focus Bear couldn't reach its server to remove this event. Check your connection and try again.",
         "eventCloseForm": "Close",
         "eventCancelEventButton": "Cancel Event",
         "eventDeclineEventButton": "Decline event",
