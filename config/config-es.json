@@ -3179,6 +3179,7 @@
         "sending": "Enviando…",
         "sendToSupport": "Soporte de Focus Bear",
         "sendToLocalClaude": "Tarea local de Claude",
+        "reportProblemNonCodingTaskText": "Tarea sin código (investigación, documentos, administración de GitHub)",
         "sendTo": "Enviar a:",
         "sendFailed": "Error: inténtalo de nuevo",
         "send": "Enviar",
@@ -5046,6 +5047,8 @@
     },
     "localReportStatus": {
       "showAllReports": "Mostrar todos (<COUNT>)",
+      "sectionNonCoding": "Tareas sin código",
+      "sectionBugReports": "Informes de errores",
       "showFixedReports": "Mostrar informes corregidos",
       "noOpenReports": "No hay informes sin confirmar para mostrar.",
       "title": "Tus informes locales",

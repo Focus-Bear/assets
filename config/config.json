@@ -3181,6 +3181,7 @@
         "sending": "Sending…",
         "sendToSupport": "Focus Bear support",
         "sendToLocalClaude": "Local Claude task",
+        "reportProblemNonCodingTaskText": "Non-coding task (research, documents, GitHub admin)",
         "sendTo": "Send to:",
         "sendFailed": "Failed — please try again",
         "send": "Send",
@@ -5048,6 +5049,8 @@
     },
     "localReportStatus": {
       "showAllReports": "Show all <COUNT>",
+      "sectionNonCoding": "Non-coding tasks",
+      "sectionBugReports": "Bug reports",
       "showFixedReports": "Show fixed reports",
       "noOpenReports": "No unconfirmed reports to show.",
       "title": "Your local reports",

@@ -2803,6 +2803,7 @@
     "sending": "Wird gesendet …",
     "sendToSupport": "Focus Bear Support",
     "sendToLocalClaude": "Lokale Claude-Aufgabe",
+    "reportProblemNonCodingTaskText": "Aufgabe ohne Programmierung (Recherche, Dokumente, GitHub-Verwaltung)",
     "sendTo": "Senden an:",
     "sendFailed": "Fehlgeschlagen – bitte versuch es erneut",
     "send": "Senden",
@@ -4689,6 +4690,8 @@
   },
   "localReportStatus": {
     "showAllReports": "Alle <COUNT> anzeigen",
+    "sectionNonCoding": "Aufgaben ohne Programmierung",
+    "sectionBugReports": "Fehlerberichte",
     "showFixedReports": "Behobene Meldungen anzeigen",
     "noOpenReports": "Keine unbestätigten Meldungen vorhanden.",
     "title": "Deine lokalen Meldungen",
