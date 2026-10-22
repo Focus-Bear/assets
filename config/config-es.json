@@ -4858,6 +4858,7 @@
         "habitShortenTypeInvalid": "Escribe una duración como 25min, 1h30 o 90.",
         "habitShortenTypeNotShorter": "Eso no es más corto que %@. Elige una duración menor o usa Duración completa para quitar el ajuste.",
         "habitShortenedTag": "(acortado)",
+        "habitInOrderOnly": "Tu configuración pide hacer los hábitos en orden, así que este espera su turno. Para empezarlo ahora, activa “Permitir hacer hábitos sin orden” en Ajustes.",
         "editHabitTitle": "Editar hábito",
         "habitFieldName": "Nombre del hábito",
         "habitFieldUseTimer": "Usar temporizador",
