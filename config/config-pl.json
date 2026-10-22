@@ -2857,7 +2857,8 @@
     "buttonSelect": "Wybierz",
     "tabDebugLogs": "Logi debugowania",
     "buttonCloseDebugLogsText": "Zamknij",
-    "titleReportProblemFormText": "Zgłoś problem lub podziel się pomysłem"
+    "titleReportProblemFormText": "Zgłoś problem lub podziel się pomysłem",
+    "reportProblemBedtimeNoteText": "Zgłoszone po 18:00, więc Claude zajmie się tym po 23:00."
   },
   "confirmMorningRoutineTimeVcInfo": {
     "title": "Potwierdź swoją poranną rutynę",
@@ -4764,7 +4765,10 @@
     "reworkNeededDetail": "Po ostatnim przeglądzie dodano twoją opinię, więc zgłoszenie wróciło do nas.",
     "screenshotOpenFailed": "Nie udało się otworzyć tego zrzutu ekranu. Odśwież zgłoszenia i spróbuj ponownie.",
     "screenshots": "Zrzuty ekranu",
-    "searchPlaceholder": "Szukaj zgłoszeń"
+    "searchPlaceholder": "Szukaj zgłoszeń",
+    "queuedUntilBedtime": "W kolejce, dopóki nie pójdziesz spać",
+    "queuedUntilBedtimeDetail": "Zgłoszone wieczorem, więc Claude zajmie się tym po 23:00.",
+    "holdNightReports": "Wstrzymuj do 23:00 także zgłoszenia wysłane między północą a 5:00"
   },
   "projectNoteEditor": {
     "loading": "Wczytywanie notatki…",

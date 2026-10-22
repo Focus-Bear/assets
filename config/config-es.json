@@ -3228,7 +3228,8 @@
         "buttonSelect": "Seleccionar",
         "tabDebugLogs": "Registros de depuración",
         "buttonCloseDebugLogsText": "Cerrar",
-        "titleReportProblemFormText": "Informa de un problema o comparte una idea"
+        "titleReportProblemFormText": "Informa de un problema o comparte una idea",
+        "reportProblemBedtimeNoteText": "Enviado después de las 6 p. m., así que Claude empieza con esto después de las 11 p. m."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -5121,7 +5122,10 @@
       "reworkNeededDetail": "Añadiste comentarios después de la última revisión, así que vuelve a estar con nosotros.",
       "screenshotOpenFailed": "No se pudo abrir esa captura. Actualiza los informes e inténtalo de nuevo.",
       "screenshots": "Capturas de pantalla",
-      "searchPlaceholder": "Buscar informes"
+      "searchPlaceholder": "Buscar informes",
+      "queuedUntilBedtime": "En cola hasta que te vayas a dormir",
+      "queuedUntilBedtimeDetail": "Lo enviaste por la tarde, así que Claude empieza con esto después de las 11 p. m.",
+      "holdNightReports": "Retener también hasta las 11 p. m. los informes enviados entre medianoche y las 5 a. m."
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",
