@@ -6623,6 +6623,7 @@
         "removeRecordingConfirmMessageText": "The recording, its slides and its transcript are removed from this note and deleted from this Mac. This can't be undone.",
         "speakerMeText": "Me",
         "speakerSomeoneElseText": "Someone else",
+        "speakerNumberedText": "Speaker <NUMBER>",
         "actionItemsHeadingText": "Action items",
         "summaryHeadingText": "Summary",
         "playbackStartsAtSoundText": "Silent until <TIME>, so playback starts there",

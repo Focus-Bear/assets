@@ -6621,6 +6621,7 @@
         "removeRecordingConfirmMessageText": "La grabación, sus diapositivas y su transcripción se quitan de esta nota y se eliminan de este Mac. No se puede deshacer.",
         "speakerMeText": "Yo",
         "speakerSomeoneElseText": "Otra persona",
+        "speakerNumberedText": "Participante <NUMBER>",
         "actionItemsHeadingText": "Tareas pendientes",
         "summaryHeadingText": "Resumen",
         "playbackStartsAtSoundText": "En silencio hasta <TIME>, así que la reproducción empieza ahí",
