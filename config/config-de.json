@@ -6664,6 +6664,7 @@
     "removeRecordingConfirmMessageText": "Die Aufnahme, ihre Folien und ihr Transkript werden aus dieser Notiz entfernt und von diesem Mac gelöscht. Das lässt sich nicht rückgängig machen.",
     "speakerMeText": "Ich",
     "speakerSomeoneElseText": "Jemand anderes",
+    "speakerNumberedText": "Person <NUMBER>",
     "actionItemsHeadingText": "Aufgaben",
     "summaryHeadingText": "Zusammenfassung",
     "playbackStartsAtSoundText": "Still bis <TIME>, daher beginnt die Wiedergabe dort",

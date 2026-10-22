@@ -6664,6 +6664,7 @@
     "removeRecordingConfirmMessageText": "L'enregistrement, ses diapositives et sa transcription sont retirés de cette note et supprimés de ce Mac. Cette action est irréversible.",
     "speakerMeText": "Moi",
     "speakerSomeoneElseText": "Quelqu'un d'autre",
+    "speakerNumberedText": "Intervenant <NUMBER>",
     "actionItemsHeadingText": "Actions à mener",
     "summaryHeadingText": "Résumé",
     "playbackStartsAtSoundText": "Silence jusqu'à <TIME>, la lecture commence donc là",
