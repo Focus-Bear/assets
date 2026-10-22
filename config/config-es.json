@@ -3229,7 +3229,8 @@
         "tabDebugLogs": "Registros de depuración",
         "buttonCloseDebugLogsText": "Cerrar",
         "titleReportProblemFormText": "Informa de un problema o comparte una idea",
-        "reportProblemBedtimeNoteText": "Enviado después de las 6 p. m., así que Claude empieza con esto después de las 11 p. m."
+        "reportProblemBedtimeNoteText": "Enviado después de las 6 p. m., así que Claude empieza con esto después de las 11 p. m.",
+        "reportProblemLateNightNoteText": "Enviado de madrugada, así que Claude espera 2 horas antes de empezar."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -5124,7 +5125,9 @@
       "screenshots": "Capturas de pantalla",
       "searchPlaceholder": "Buscar informes",
       "queuedUntilBedtime": "En cola hasta que te vayas a dormir",
-      "queuedUntilBedtimeDetail": "Lo enviaste por la tarde, así que Claude empieza con esto después de las 11 p. m."
+      "queuedUntilBedtimeDetail": "Enviado después de las 6 p. m., así que Claude empieza con esto a las 11 p. m.",
+      "queuedStartsAt": "Empieza a las <TIME>",
+      "queuedLateNightDetail": "Enviado de madrugada, así que Claude espera 2 horas antes de empezar."
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",

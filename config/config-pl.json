@@ -2858,7 +2858,8 @@
     "tabDebugLogs": "Logi debugowania",
     "buttonCloseDebugLogsText": "Zamknij",
     "titleReportProblemFormText": "Zgłoś problem lub podziel się pomysłem",
-    "reportProblemBedtimeNoteText": "Zgłoszone po 18:00, więc Claude zajmie się tym po 23:00."
+    "reportProblemBedtimeNoteText": "Zgłoszone po 18:00, więc Claude zajmie się tym po 23:00.",
+    "reportProblemLateNightNoteText": "Zgłoszone późno w nocy, więc Claude odczeka 2 godziny przed rozpoczęciem."
   },
   "confirmMorningRoutineTimeVcInfo": {
     "title": "Potwierdź swoją poranną rutynę",
@@ -4767,7 +4768,9 @@
     "screenshots": "Zrzuty ekranu",
     "searchPlaceholder": "Szukaj zgłoszeń",
     "queuedUntilBedtime": "W kolejce, dopóki nie pójdziesz spać",
-    "queuedUntilBedtimeDetail": "Zgłoszone wieczorem, więc Claude zajmie się tym po 23:00."
+    "queuedUntilBedtimeDetail": "Zgłoszone po 18:00, więc Claude zajmie się tym o 23:00.",
+    "queuedStartsAt": "Zaczyna się o <TIME>",
+    "queuedLateNightDetail": "Zgłoszone późno w nocy, więc Claude odczeka 2 godziny przed rozpoczęciem."
   },
   "projectNoteEditor": {
     "loading": "Wczytywanie notatki…",

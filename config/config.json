@@ -3231,7 +3231,8 @@
         "tabDebugLogs": "Debug Logs",
         "buttonCloseDebugLogsText": "Close",
         "titleReportProblemFormText": "Report a problem or share an idea",
-        "reportProblemBedtimeNoteText": "Filed after 6pm, so Claude starts on this after 11pm."
+        "reportProblemBedtimeNoteText": "Filed after 6pm, so Claude starts on this after 11pm.",
+        "reportProblemLateNightNoteText": "Filed late at night, so Claude waits 2 hours before starting."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
@@ -5126,7 +5127,9 @@
       "screenshots": "Screenshots",
       "searchPlaceholder": "Search reports",
       "queuedUntilBedtime": "Queued until you go to bed",
-      "queuedUntilBedtimeDetail": "Filed in the evening, so Claude starts on this after 11pm."
+      "queuedUntilBedtimeDetail": "Filed after 6pm, so Claude starts on this at 11pm.",
+      "queuedStartsAt": "Starts at <TIME>",
+      "queuedLateNightDetail": "Filed late at night, so Claude waits 2 hours before starting."
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
