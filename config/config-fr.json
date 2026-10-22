@@ -4767,8 +4767,7 @@
     "screenshots": "Captures d’écran",
     "searchPlaceholder": "Rechercher des rapports",
     "queuedUntilBedtime": "En attente jusqu’à ce que tu ailles te coucher",
-    "queuedUntilBedtimeDetail": "Envoyé en soirée, donc Claude s’y met après 23 h.",
-    "holdNightReports": "Retenir aussi jusqu’à 23 h les rapports envoyés entre minuit et 5 h"
+    "queuedUntilBedtimeDetail": "Envoyé en soirée, donc Claude s’y met après 23 h."
   },
   "projectNoteEditor": {
     "loading": "Chargement de la note…",

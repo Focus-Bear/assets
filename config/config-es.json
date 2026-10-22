@@ -5124,8 +5124,7 @@
       "screenshots": "Capturas de pantalla",
       "searchPlaceholder": "Buscar informes",
       "queuedUntilBedtime": "En cola hasta que te vayas a dormir",
-      "queuedUntilBedtimeDetail": "Lo enviaste por la tarde, así que Claude empieza con esto después de las 11 p. m.",
-      "holdNightReports": "Retener también hasta las 11 p. m. los informes enviados entre medianoche y las 5 a. m."
+      "queuedUntilBedtimeDetail": "Lo enviaste por la tarde, así que Claude empieza con esto después de las 11 p. m."
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",

@@ -4767,8 +4767,7 @@
     "screenshots": "Zrzuty ekranu",
     "searchPlaceholder": "Szukaj zgłoszeń",
     "queuedUntilBedtime": "W kolejce, dopóki nie pójdziesz spać",
-    "queuedUntilBedtimeDetail": "Zgłoszone wieczorem, więc Claude zajmie się tym po 23:00.",
-    "holdNightReports": "Wstrzymuj do 23:00 także zgłoszenia wysłane między północą a 5:00"
+    "queuedUntilBedtimeDetail": "Zgłoszone wieczorem, więc Claude zajmie się tym po 23:00."
   },
   "projectNoteEditor": {
     "loading": "Wczytywanie notatki…",

@@ -5126,8 +5126,7 @@
       "screenshots": "Screenshots",
       "searchPlaceholder": "Search reports",
       "queuedUntilBedtime": "Queued until you go to bed",
-      "queuedUntilBedtimeDetail": "Filed in the evening, so Claude starts on this after 11pm.",
-      "holdNightReports": "Also hold reports filed between midnight and 5am until 11pm"
+      "queuedUntilBedtimeDetail": "Filed in the evening, so Claude starts on this after 11pm."
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
