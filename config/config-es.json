@@ -2459,6 +2459,7 @@
         "syncFailed": "Guardado solo en esta Mac: no se pudo sincronizar “<NAME>”, así que estos cambios aún no llegarán a tus otros dispositivos.",
         "dismiss": "Descartar",
         "searchEntries": "Buscar URL y aplicaciones",
+        "searchOrAddEntries": "Buscar o añadir URL y aplicaciones",
         "addUrlPlaceholder": "Añade una nueva URL",
         "addUrl": "Añadir URL",
         "addApp": "Añadir aplicación",

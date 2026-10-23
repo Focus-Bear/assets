@@ -2478,6 +2478,7 @@
       "renameBlockList": "Rename this block list",
       "revealHiddenModes": "Reveal hidden focus modes",
       "searchEntries": "Search URLs and apps",
+      "searchOrAddEntries": "Search or add URLs and apps",
       "showBlockList": "Show in pickers"
     },
     "onboardingBlockedUrlsInfo": {
