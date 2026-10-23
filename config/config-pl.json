@@ -2803,6 +2803,7 @@
     "sending": "Wysyłanie…",
     "sendToSupport": "Wsparcie Focus Bear",
     "sendToLocalClaude": "Lokalne zadanie dla Claude",
+    "reportProblemNonCodingTaskText": "Zadanie bez programowania (badania, dokumenty, administracja GitHub)",
     "sendTo": "Wyślij do:",
     "sendFailed": "Nie udało się — spróbuj ponownie",
     "send": "Wyślij",
@@ -4695,6 +4696,8 @@
   },
   "localReportStatus": {
     "showAllReports": "Pokaż wszystkie (<COUNT>)",
+    "sectionNonCoding": "Zadania bez programowania",
+    "sectionBugReports": "Zgłoszenia błędów",
     "showFixedReports": "Pokaż naprawione zgłoszenia",
     "noOpenReports": "Brak niepotwierdzonych zgłoszeń do pokazania.",
     "title": "Twoje lokalne zgłoszenia",

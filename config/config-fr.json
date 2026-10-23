@@ -2803,6 +2803,7 @@
     "sending": "Envoi…",
     "sendToSupport": "Support Focus Bear",
     "sendToLocalClaude": "Tâche Claude locale",
+    "reportProblemNonCodingTaskText": "Tâche sans code (recherche, documents, administration GitHub)",
     "sendTo": "Envoyer à :",
     "sendFailed": "Échec — réessaie",
     "send": "Envoyer",
@@ -4695,6 +4696,8 @@
   },
   "localReportStatus": {
     "showAllReports": "Tout afficher (<COUNT>)",
+    "sectionNonCoding": "Tâches sans code",
+    "sectionBugReports": "Rapports de bugs",
     "showFixedReports": "Afficher les rapports corrigés",
     "noOpenReports": "Aucun rapport non confirmé à afficher.",
     "title": "Tes rapports locaux",
