@@ -1,4 +1,19 @@
 {
+  "meetingActionReview": {
+    "title": "Vérifier les actions de la réunion",
+    "explanation": "Modifiez chaque action et appuyez sur + pour l’ajouter à votre liste de tâches. Terminer la vérification marque les actions non ajoutées comme non pertinentes dans la note de réunion.",
+    "taskTitle": "Titre de la tâche",
+    "description": "Description",
+    "minutes": "Minutes",
+    "dueDate": "Échéance",
+    "add": "Ajouter à la liste de tâches",
+    "added": "Ajoutée",
+    "retry": "Réessayer d’ajouter la tâche",
+    "failed": "Enregistrement impossible. Réessayez avec + sans créer de doublon.",
+    "finish": "Terminer la vérification",
+    "later": "Garder les autres dans la note",
+    "noteFailed": "Impossible d’enregistrer la note de réunion. Vos tâches ajoutées sont conservées. Réessayez ci-dessous."
+  },
     "microbreakSettingsInfo": {
         "frequencyLabel": "Fréquence des pauses (minutes)",
         "invalidFrequency": "Saisissez un nombre entier entre %d et %d minutes.",

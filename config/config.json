@@ -1,4 +1,19 @@
 {
+  "meetingActionReview": {
+    "title": "Review meeting actions",
+    "explanation": "Edit each action and press + to add it to your ToDo list. Finish review marks unadded actions as irrelevant in the meeting note.",
+    "taskTitle": "Task title",
+    "description": "Description",
+    "minutes": "Minutes",
+    "dueDate": "Due date",
+    "add": "Add to ToDo list",
+    "added": "Added",
+    "retry": "Retry adding task",
+    "failed": "Could not save. Retry safely with +.",
+    "finish": "Finish review",
+    "later": "Keep remaining in note",
+    "noteFailed": "Could not save the meeting note. Your added tasks are safe. Retry below."
+  },
     "microbreakSettingsInfo": {
         "frequencyLabel": "Break frequency (minutes)",
         "invalidFrequency": "Enter a whole number from %d to %d minutes.",
