@@ -2861,7 +2861,9 @@
     "buttonSelect": "Sélectionner",
     "tabDebugLogs": "Logs de débogage",
     "buttonCloseDebugLogsText": "Fermer",
-    "titleReportProblemFormText": "Signaler un problème ou partager une idée"
+    "titleReportProblemFormText": "Signaler un problème ou partager une idée",
+    "reportProblemBedtimeNoteText": "Envoyé après 18 h, donc Claude s’y met après 23 h.",
+    "reportProblemLateNightNoteText": "Envoyé tard dans la nuit, donc Claude attend 2 heures avant de commencer."
   },
   "confirmMorningRoutineTimeVcInfo": {
     "title": "Confirme ta routine matinale",
@@ -4770,7 +4772,11 @@
     "reworkNeededDetail": "Tu as ajouté un commentaire après la dernière vérification, donc ce rapport est revenu chez nous.",
     "screenshotOpenFailed": "Impossible d’ouvrir cette capture d’écran. Actualise les rapports et réessaie.",
     "screenshots": "Captures d’écran",
-    "searchPlaceholder": "Rechercher des rapports"
+    "searchPlaceholder": "Rechercher des rapports",
+    "queuedUntilBedtime": "En attente jusqu’à ce que tu ailles te coucher",
+    "queuedUntilBedtimeDetail": "Envoyé après 18 h, donc Claude s’y met à 23 h.",
+    "queuedStartsAt": "Commence à <TIME>",
+    "queuedLateNightDetail": "Envoyé tard dans la nuit, donc Claude attend 2 heures avant de commencer."
   },
   "projectNoteEditor": {
     "loading": "Chargement de la note…",

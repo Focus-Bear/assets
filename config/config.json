@@ -3234,7 +3234,9 @@
         "buttonSelect": "Select",
         "tabDebugLogs": "Debug Logs",
         "buttonCloseDebugLogsText": "Close",
-        "titleReportProblemFormText": "Report a problem or share an idea"
+        "titleReportProblemFormText": "Report a problem or share an idea",
+        "reportProblemBedtimeNoteText": "Filed after 6pm, so Claude starts on this after 11pm.",
+        "reportProblemLateNightNoteText": "Filed late at night, so Claude waits 2 hours before starting."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
@@ -5129,7 +5131,11 @@
       "reworkNeededDetail": "You added feedback after the last review, so this is back with us.",
       "screenshotOpenFailed": "Couldn't open that screenshot. Refresh the reports and try again.",
       "screenshots": "Screenshots",
-      "searchPlaceholder": "Search reports"
+      "searchPlaceholder": "Search reports",
+      "queuedUntilBedtime": "Queued until you go to bed",
+      "queuedUntilBedtimeDetail": "Filed after 6pm, so Claude starts on this at 11pm.",
+      "queuedStartsAt": "Starts at <TIME>",
+      "queuedLateNightDetail": "Filed late at night, so Claude waits 2 hours before starting."
     },
     "projectNoteEditor": {
       "loading": "Loading note…",

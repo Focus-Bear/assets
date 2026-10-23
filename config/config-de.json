@@ -2861,7 +2861,9 @@
     "buttonSelect": "Auswählen",
     "tabDebugLogs": "Debug-Logs",
     "buttonCloseDebugLogsText": "Schließen",
-    "titleReportProblemFormText": "Ein Problem melden oder eine Idee teilen"
+    "titleReportProblemFormText": "Ein Problem melden oder eine Idee teilen",
+    "reportProblemBedtimeNoteText": "Nach 18 Uhr eingereicht, daher beginnt Claude damit nach 23 Uhr.",
+    "reportProblemLateNightNoteText": "Spät in der Nacht eingereicht, daher wartet Claude 2 Stunden, bevor es beginnt."
   },
   "confirmMorningRoutineTimeVcInfo": {
     "title": "Bestätige deine Morgenroutine",
@@ -4770,7 +4772,11 @@
     "reworkNeededDetail": "Du hast nach der letzten Prüfung Feedback hinzugefügt, deshalb liegt das wieder bei uns.",
     "screenshotOpenFailed": "Der Screenshot konnte nicht geöffnet werden. Aktualisiere die Meldungen und versuch es erneut.",
     "screenshots": "Screenshots",
-    "searchPlaceholder": "Meldungen durchsuchen"
+    "searchPlaceholder": "Meldungen durchsuchen",
+    "queuedUntilBedtime": "In der Warteschlange, bis du schlafen gehst",
+    "queuedUntilBedtimeDetail": "Nach 18 Uhr eingereicht, daher beginnt Claude damit um 23 Uhr.",
+    "queuedStartsAt": "Beginnt um <TIME>",
+    "queuedLateNightDetail": "Spät in der Nacht eingereicht, daher wartet Claude 2 Stunden, bevor es beginnt."
   },
   "projectNoteEditor": {
     "loading": "Notiz wird geladen…",
