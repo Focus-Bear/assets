@@ -1507,6 +1507,15 @@
       "cancelText": "Cancelar"
     },
     "reviseInfo": {
+      "higherEffort": "Razonar más",
+      "higherEffortHelp": "Utiliza más razonamiento y puede tardar más. La IA aún puede cometer errores.",
+      "chatOriginInteractive": "Nueva conversación",
+      "interactiveChatHelp": "Habla sobre lo que quieres aprender, haz preguntas de seguimiento y luego genera tarjetas a partir de esta conversación.",
+      "conversationPlaceholder": "¿Qué te gustaría aprender?",
+      "continueConversation": "Continuar conversación",
+      "clarifyDraft": "Aclarar o corregir con IA",
+      "draftClarificationHelp": "Pregunta sobre este borrador o sugiere una corrección. Usar una sugerencia solo actualiza este borrador; guarda las tarjetas seleccionadas cuando estén listas.",
+      "previewConversationUnavailable": "La conversación con IA requiere iniciar sesión. Puedes probar la generación de tarjetas de vista previa pegando una conversación.",
         "toolTitle": "Repasar",
         "subtitle": "Tarjetas que vuelven justo antes de que las olvides.",
         "introOpen": "Cómo funciona Repasar",

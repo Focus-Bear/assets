@@ -5877,6 +5877,15 @@
     "cancelText": "Anuluj"
   },
   "reviseInfo": {
+    "higherEffort": "Dokładniejsze rozumowanie",
+    "higherEffortHelp": "Wykorzystuje więcej rozumowania i może potrwać dłużej. AI nadal może popełniać błędy.",
+    "chatOriginInteractive": "Nowa rozmowa",
+    "interactiveChatHelp": "Porozmawiaj o tym, czego chcesz się nauczyć, zadawaj dodatkowe pytania, a następnie wygeneruj fiszki z tej rozmowy.",
+    "conversationPlaceholder": "Czego chcesz się nauczyć?",
+    "continueConversation": "Kontynuuj rozmowę",
+    "clarifyDraft": "Wyjaśnij lub popraw z AI",
+    "draftClarificationHelp": "Zapytaj o ten szkic lub zaproponuj poprawkę. Zastosowanie sugestii zmienia tylko ten szkic. Zapisz wybrane fiszki, gdy będą gotowe.",
+    "previewConversationUnavailable": "Rozmowa z AI wymaga zalogowania. Nadal możesz wypróbować generowanie przykładowych fiszek z wklejonej rozmowy.",
     "toolTitle": "Revise",
     "subtitle": "Fiszki, które wracają tuż przed tym, zanim je zapomnisz.",
     "introOpen": "Jak działa Revise",

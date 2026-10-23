@@ -5877,6 +5877,15 @@
     "cancelText": "Abbrechen"
   },
   "reviseInfo": {
+    "higherEffort": "Gründlicher nachdenken",
+    "higherEffortHelp": "Nutzt mehr Denkaufwand und kann länger dauern. Die KI kann weiterhin Fehler machen.",
+    "chatOriginInteractive": "Neues Gespräch",
+    "interactiveChatHelp": "Besprich, was du lernen möchtest, stelle Rückfragen und erstelle anschließend Karten aus diesem Gespräch.",
+    "conversationPlaceholder": "Was möchtest du lernen?",
+    "continueConversation": "Gespräch fortsetzen",
+    "clarifyDraft": "Mit KI klären oder korrigieren",
+    "draftClarificationHelp": "Stelle Fragen zu diesem Entwurf oder schlage eine Korrektur vor. Ein übernommener Vorschlag ändert nur diesen Entwurf. Speichere deine ausgewählten Karten, wenn du bereit bist.",
+    "previewConversationUnavailable": "Für ein Gespräch mit der KI musst du dich anmelden. Du kannst weiterhin Vorschaukarten aus einem eingefügten Gespräch erstellen.",
     "toolTitle": "Revise",
     "subtitle": "Karteikarten, die genau dann wiederkommen, bevor du sie vergessen würdest.",
     "introOpen": "So funktioniert Revise",
