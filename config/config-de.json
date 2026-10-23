@@ -2099,7 +2099,8 @@
     "deleteBlockList": "Löschen",
     "duplicateBlockList": "Duplizieren",
     "hiddenSuffix": " (Ausgeblendet)",
-    "searchEntries": "URLs und Apps durchsuchen"
+    "searchEntries": "URLs und Apps durchsuchen",
+    "searchOrAddEntries": "URLs und Apps suchen oder hinzufügen"
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Willkommen bei Focus Bear",

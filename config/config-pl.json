@@ -2099,6 +2099,7 @@
     "duplicateBlockList": "Duplikuj",
     "revealHiddenModes": "Pokaż ukryte tryby skupienia",
     "searchEntries": "Szukaj adresów URL i aplikacji",
+    "searchOrAddEntries": "Szukaj lub dodaj adresy URL i aplikacje",
     "showBlockList": "Pokaż na listach wyboru"
   },
   "onboardingBlockedUrlsInfo": {

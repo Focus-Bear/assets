@@ -2080,6 +2080,7 @@
     "syncFailed": "Enregistré uniquement sur ce Mac — “<NAME>” n’a pas pu être synchronisée, donc ces changements n’atteindront pas encore tes autres appareils.",
     "dismiss": "Ignorer",
     "searchEntries": "Rechercher des URL et des applications",
+    "searchOrAddEntries": "Rechercher ou ajouter des URL et des applications",
     "addUrl": "Ajouter une URL",
     "addApp": "Ajouter une application",
     "addUrlEyebrow": "AJOUTER UNE URL",
