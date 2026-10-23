@@ -4250,6 +4250,7 @@
       "tryAgainText": "Spróbuj ponownie"
   },
   "scheduleViewInfo": {
+    "unnamedHabit": "Nawyk bez nazwy",
       "tasksDurationHint": "Czas trwania: wpisz minuty (30), 45m lub 1h, a potem Enter",
       "routineTimeInvalidWindows": "Wpisz godzinę, np. 7:30, 07:30 lub 7:30pm.",
       "habitTimingNothingWindows": "Poranne nawyki są wykonywane w każdy dzień, w który są zaplanowane — wybierz te dni tutaj.",

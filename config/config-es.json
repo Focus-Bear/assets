@@ -4606,6 +4606,7 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+      "unnamedHabit": "Hábito sin nombre",
         "tasksDurationHint": "Duración: escribe minutos (30), 45m o 1h y pulsa Intro",
         "routineTimeInvalidWindows": "Escribe una hora como 7:30, 07:30 o 7:30pm.",
         "habitTimingNothingWindows": "Los hábitos de la mañana se hacen todos los días en que están programados: elige esos días aquí.",

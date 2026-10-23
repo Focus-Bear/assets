@@ -4250,6 +4250,7 @@
       "tryAgainText": "Réessayer"
   },
   "scheduleViewInfo": {
+    "unnamedHabit": "Habitude sans nom",
       "tasksDurationHint": "Durée : saisis des minutes (30), 45m ou 1h, puis Entrée",
       "routineTimeInvalidWindows": "Saisis une heure comme 7:30, 07:30 ou 7:30pm.",
       "habitTimingNothingWindows": "Les habitudes du matin ont lieu chaque jour où elles sont programmées — choisis ces jours ici.",
