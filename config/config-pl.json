@@ -1,4 +1,19 @@
 {
+  "meetingActionReview": {
+    "title": "Przejrzyj zadania ze spotkania",
+    "explanation": "Edytuj każde zadanie i naciśnij +, aby dodać je do listy zadań. Zakończenie przeglądu oznaczy niedodane zadania jako nieistotne w notatce ze spotkania.",
+    "taskTitle": "Tytuł zadania",
+    "description": "Opis",
+    "minutes": "Minuty",
+    "dueDate": "Termin",
+    "add": "Dodaj do listy zadań",
+    "added": "Dodano",
+    "retry": "Ponów dodawanie zadania",
+    "failed": "Nie udało się zapisać. Ponów za pomocą + bez tworzenia duplikatu.",
+    "finish": "Zakończ przegląd",
+    "later": "Zachowaj pozostałe w notatce",
+    "noteFailed": "Nie udało się zapisać notatki ze spotkania. Dodane zadania są bezpieczne. Spróbuj ponownie poniżej."
+  },
     "microbreakSettingsInfo": {
         "frequencyLabel": "Częstotliwość przerw (minuty)",
         "invalidFrequency": "Wpisz liczbę całkowitą od %d do %d minut.",

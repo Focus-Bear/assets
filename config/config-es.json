@@ -1,4 +1,19 @@
 {
+  "meetingActionReview": {
+    "title": "Revisar acciones de la reunión",
+    "explanation": "Edita cada acción y pulsa + para añadirla a tu lista de tareas. Al finalizar la revisión, las acciones no añadidas se marcarán como irrelevantes en la nota de la reunión.",
+    "taskTitle": "Título de la tarea",
+    "description": "Descripción",
+    "minutes": "Minutos",
+    "dueDate": "Fecha límite",
+    "add": "Añadir a la lista de tareas",
+    "added": "Añadida",
+    "retry": "Reintentar añadir la tarea",
+    "failed": "No se pudo guardar. Reintenta con + sin duplicar la tarea.",
+    "finish": "Finalizar revisión",
+    "later": "Conservar las restantes en la nota",
+    "noteFailed": "No se pudo guardar la nota de la reunión. Las tareas añadidas están a salvo. Reintenta abajo."
+  },
     "microbreakSettingsInfo": {
         "frequencyLabel": "Frecuencia de las pausas (minutos)",
         "invalidFrequency": "Introduce un número entero entre %d y %d minutos.",
