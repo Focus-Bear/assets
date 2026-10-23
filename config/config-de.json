@@ -4250,6 +4250,7 @@
       "tryAgainText": "Erneut versuchen"
   },
   "scheduleViewInfo": {
+    "unnamedHabit": "Unbenannte Gewohnheit",
       "tasksDurationHint": "Dauer: Minuten eingeben (30), 45m oder 1h, dann Eingabetaste",
       "routineTimeInvalidWindows": "Gib eine Uhrzeit wie 7:30, 07:30 oder 19:30 ein.",
       "habitTimingNothingWindows": "Morgengewohnheiten laufen an jedem Tag, für den sie geplant sind – wähle diese Tage hier aus.",
