@@ -5877,6 +5877,15 @@
     "cancelText": "Annuler"
   },
   "reviseInfo": {
+    "higherEffort": "Approfondir le raisonnement",
+    "higherEffortHelp": "Utilise davantage de raisonnement et peut prendre plus de temps. L’IA peut toujours se tromper.",
+    "chatOriginInteractive": "Nouvelle conversation",
+    "interactiveChatHelp": "Discutez de ce que vous souhaitez apprendre, posez des questions complémentaires, puis générez des fiches à partir de cette conversation.",
+    "conversationPlaceholder": "Que souhaitez-vous apprendre ?",
+    "continueConversation": "Continuer la conversation",
+    "clarifyDraft": "Clarifier ou corriger avec l’IA",
+    "draftClarificationHelp": "Posez une question sur ce brouillon ou suggérez une correction. Appliquer une suggestion ne modifie que ce brouillon ; enregistrez les fiches sélectionnées lorsque vous êtes prêt.",
+    "previewConversationUnavailable": "La conversation avec l’IA nécessite une connexion. Vous pouvez essayer de générer des fiches de démonstration en collant une conversation.",
     "toolTitle": "Revise",
     "subtitle": "Des cartes mémoire qui reviennent juste avant que tu les oublies.",
     "introOpen": "Comment fonctionne Revise",

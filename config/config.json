@@ -1507,6 +1507,15 @@
       "cancelText": "Cancel"
     },
     "reviseInfo": {
+      "higherEffort": "Think harder",
+      "higherEffortHelp": "Uses more reasoning and may take longer. AI can still make mistakes.",
+      "chatOriginInteractive": "New conversation",
+      "interactiveChatHelp": "Discuss what you want to learn, ask follow-up questions, then generate cards from this conversation.",
+      "conversationPlaceholder": "What would you like to learn?",
+      "continueConversation": "Continue conversation",
+      "clarifyDraft": "Clarify or correct with AI",
+      "draftClarificationHelp": "Ask about this draft or suggest a correction. Using a suggestion updates only this draft; save your selected cards when ready.",
+      "previewConversationUnavailable": "Live AI conversation requires signing in. You can still try generating preview cards from a pasted conversation.",
         "toolTitle": "Revise",
         "subtitle": "Flashcards that come back just before you'd forget them.",
         "introOpen": "How Revise works",
