@@ -4721,6 +4721,12 @@
     "ttUpgradeButton": "Passer à Pro"
   },
   "localReportStatus": {
+    "reportDocuments": "Documents",
+    "documentReadFailed": "Impossible de lire ce document. Actualisez les signalements et réessayez.",
+    "commentOnPassage": "Commenter ce passage",
+    "documentCommentPrompt": "Votre commentaire sur ce passage",
+    "documentCommentSaved": "Commentaire enregistré dans ce signalement",
+    "documentCommentFailed": "Impossible d’enregistrer votre commentaire. Veuillez réessayer.",
     "showAllReports": "Tout afficher (<COUNT>)",
     "sectionNonCoding": "Tâches sans code",
     "sectionBugReports": "Rapports de bugs",

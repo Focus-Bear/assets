@@ -4721,6 +4721,12 @@
     "ttUpgradeButton": "Przejdź na Pro"
   },
   "localReportStatus": {
+    "reportDocuments": "Dokumenty",
+    "documentReadFailed": "Nie udało się odczytać tego dokumentu. Odśwież zgłoszenia i spróbuj ponownie.",
+    "commentOnPassage": "Skomentuj ten fragment",
+    "documentCommentPrompt": "Twój komentarz do tego fragmentu",
+    "documentCommentSaved": "Komentarz zapisany w tym zgłoszeniu",
+    "documentCommentFailed": "Nie udało się zapisać komentarza. Spróbuj ponownie.",
     "showAllReports": "Pokaż wszystkie (<COUNT>)",
     "sectionNonCoding": "Zadania bez programowania",
     "sectionBugReports": "Zgłoszenia błędów",

@@ -5089,6 +5089,12 @@
         "ttUpgradeButton": "Upgrade to Pro"
     },
     "localReportStatus": {
+      "reportDocuments": "Documents",
+      "documentReadFailed": "Couldn't read that document. Refresh the reports and try again.",
+      "commentOnPassage": "Comment on this passage",
+      "documentCommentPrompt": "Your comment on this passage",
+      "documentCommentSaved": "Comment saved in this report",
+      "documentCommentFailed": "Couldn't save your comment. Please try again.",
       "showAllReports": "Show all <COUNT>",
       "sectionNonCoding": "Non-coding tasks",
       "sectionBugReports": "Bug reports",

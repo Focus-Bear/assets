@@ -5087,6 +5087,12 @@
         "ttUpgradeButton": "Mejorar a Pro"
     },
     "localReportStatus": {
+      "reportDocuments": "Documentos",
+      "documentReadFailed": "No se pudo leer ese documento. Actualiza los informes e inténtalo de nuevo.",
+      "commentOnPassage": "Comentar este fragmento",
+      "documentCommentPrompt": "Tu comentario sobre este fragmento",
+      "documentCommentSaved": "Comentario guardado en este informe",
+      "documentCommentFailed": "No se pudo guardar tu comentario. Inténtalo de nuevo.",
       "showAllReports": "Mostrar todos (<COUNT>)",
       "sectionNonCoding": "Tareas sin código",
       "sectionBugReports": "Informes de errores",
