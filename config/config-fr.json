@@ -4795,6 +4795,7 @@
     "reworkNeeded": "À retravailler",
     "reworkNeededDetail": "Tu as ajouté un commentaire après la dernière vérification, donc ce rapport est revenu chez nous.",
     "screenshotOpenFailed": "Impossible d’ouvrir cette capture d’écran. Actualise les rapports et réessaie.",
+    "fixEvidenceScreenshots": "Captures de preuve de la correction",
     "screenshots": "Captures d’écran",
     "searchPlaceholder": "Rechercher des rapports",
     "queuedUntilBedtime": "En attente jusqu’à ce que tu ailles te coucher",

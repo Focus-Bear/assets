@@ -4795,6 +4795,7 @@
     "reworkNeeded": "Wymaga poprawek",
     "reworkNeededDetail": "Po ostatnim przeglądzie dodano twoją opinię, więc zgłoszenie wróciło do nas.",
     "screenshotOpenFailed": "Nie udało się otworzyć tego zrzutu ekranu. Odśwież zgłoszenia i spróbuj ponownie.",
+    "fixEvidenceScreenshots": "Zrzuty ekranu potwierdzające poprawkę",
     "screenshots": "Zrzuty ekranu",
     "searchPlaceholder": "Szukaj zgłoszeń",
     "queuedUntilBedtime": "W kolejce, dopóki nie pójdziesz spać",

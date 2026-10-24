@@ -4795,6 +4795,7 @@
     "reworkNeeded": "Nacharbeit nötig",
     "reworkNeededDetail": "Du hast nach der letzten Prüfung Feedback hinzugefügt, deshalb liegt das wieder bei uns.",
     "screenshotOpenFailed": "Der Screenshot konnte nicht geöffnet werden. Aktualisiere die Meldungen und versuch es erneut.",
+    "fixEvidenceScreenshots": "Screenshots als Nachweis der Korrektur",
     "screenshots": "Screenshots",
     "searchPlaceholder": "Meldungen durchsuchen",
     "queuedUntilBedtime": "In der Warteschlange, bis du schlafen gehst",
