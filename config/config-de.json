@@ -1565,11 +1565,11 @@
       "sassy": "Frech",
       "court jester": "Hofnarr",
       "pirate": "Pirat",
-      "future self in twenty years": "dein Ich in zwanzig Jahren",
+      "future self in twenty years": "Dein Ich in zwanzig Jahren",
       "scientist": "Wissenschaftler",
       "cheerleader": "Cheerleader",
-      "upbeat": "gut gelaunt",
-      "factual": "sachlich"
+      "upbeat": "Gut gelaunt",
+      "factual": "Sachlich"
     },
     "pepTalkRateLimitedText": "Gerade zu viele Motivationssprüche — der Server bittet uns, kurz zu warten. Erneut versuchen funktioniert gleich wieder.",
     "pepTalkSavedMessageNoticeText": "Der Focus-Bear-Server antwortet nicht, darum hier eine Nachricht, die auf diesem Mac gespeichert ist.",
@@ -3232,7 +3232,7 @@
     "titleAdvancedSuffix": " Fokussitzung",
     "linkAdvancedTop": "Streng geheim/",
     "linkAdvancedBottom": "Besonders starke Optionen",
-    "linkSimpleTop": "Zurück/",
+    "linkSimpleTop": "Zurück",
     "linkSimpleBottom": "Normale Optionen",
     "labelSetSessionLength": "Sitzungsdauer festlegen:",
     "buttonStartTimed": "Starte eine <DURATION> Sitzung",
