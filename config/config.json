@@ -4948,6 +4948,7 @@
         "habitFieldImages": "Image links",
         "habitTabAdvanced": "Advanced",
         "habitFieldTags": "Tags",
+        "habitFallbackTitle": "Habit",
         "habitMoveTitle": "Move to another position or routine",
         "habitMoveDescription": "Move this habit earlier or later in its routine, or to another routine.",
         "habitMoveRoutineLabel": "Routine to move it to",

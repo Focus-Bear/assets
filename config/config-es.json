@@ -4950,6 +4950,7 @@
         "habitFieldImages": "Enlaces de imágenes",
         "habitTabAdvanced": "Avanzado",
         "habitFieldTags": "Etiquetas",
+        "habitFallbackTitle": "Hábito",
         "habitMoveTitle": "Mover a otra posición o rutina",
         "habitMoveDescription": "Mueve este hábito antes o después dentro de su rutina, o a otra rutina.",
         "habitMoveRoutineLabel": "Rutina a la que moverlo",

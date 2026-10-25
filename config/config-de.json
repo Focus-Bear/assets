@@ -4583,6 +4583,7 @@
     "habitFieldImages": "Bildlinks",
     "habitTabAdvanced": "Erweitert",
     "habitFieldTags": "Tags",
+    "habitFallbackTitle": "Gewohnheit",
     "habitMoveTitle": "An eine andere Stelle oder Routine verschieben",
     "habitMoveDescription": "Verschiebe diese Gewohnheit innerhalb ihrer Routine nach vorne oder hinten, oder in eine andere Routine.",
     "habitMoveRoutineLabel": "Routine, in die sie verschoben wird",

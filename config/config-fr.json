@@ -4585,6 +4585,7 @@
     "habitFieldImages": "Liens d’images",
     "habitTabAdvanced": "Avancé",
     "habitFieldTags": "Étiquettes",
+    "habitFallbackTitle": "Habitude",
     "habitMoveTitle": "Déplacer à une autre place ou routine",
     "habitMoveDescription": "Déplace cette habitude plus tôt ou plus tard dans sa routine, ou vers une autre routine.",
     "habitMoveRoutineLabel": "Routine de destination",
