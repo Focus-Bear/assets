@@ -4991,6 +4991,7 @@
         "habitRemoveNamedItem": "Remove %@",
         "habitAllowedAppsPlaceholder": "Type an app name…",
         "habitAllowedAppsAddCustom": "Add “%@”",
+        "habitAllowedAppsAddWebsite": "Add “%@” to Allowed websites",
         "habitDelete": "Delete habit",
         "habitDeleteConfirm": "Remove “%@” from this routine? It's gone once you save and restart.",
         "habitDeleteConfirmButton": "Delete",

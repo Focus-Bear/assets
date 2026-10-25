@@ -4628,6 +4628,7 @@
     "habitRemoveNamedItem": "Retirer %@",
     "habitAllowedAppsPlaceholder": "Saisis le nom d’une app…",
     "habitAllowedAppsAddCustom": "Ajouter « %@ »",
+    "habitAllowedAppsAddWebsite": "Ajouter « %@ » aux sites web autorisés",
     "habitDelete": "Supprimer l’habitude",
     "habitDeleteConfirm": "Retirer « %@ » de cette routine ? Elle disparaîtra une fois que tu auras enregistré et redémarré.",
     "habitDeleteConfirmButton": "Supprimer",
