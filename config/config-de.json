@@ -1,7 +1,7 @@
 {
   "meetingActionReview": {
     "title": "Besprechungsaufgaben prüfen",
-    "explanation": "Bearbeite jede Aufgabe und füge sie mit + deiner Aufgabenliste hinzu. Beim Abschließen der Prüfung werden nicht hinzugefügte Aufgaben in der Besprechungsnotiz als irrelevant markiert.",
+    "explanation": "Bearbeite jede Aufgabe und füge sie mit + deiner Aufgabenliste hinzu. Beim Abschließen der Prüfung werden deine nicht hinzugefügten Aufgaben in der Besprechungsnotiz als irrelevant markiert.",
     "taskTitle": "Aufgabentitel",
     "description": "Beschreibung",
     "minutes": "Minuten",
@@ -12,7 +12,11 @@
     "failed": "Speichern fehlgeschlagen. Mit + ohne Duplikat erneut versuchen.",
     "finish": "Prüfung abschließen",
     "later": "Übrige in der Notiz behalten",
-    "noteFailed": "Die Besprechungsnotiz konnte nicht gespeichert werden. Hinzugefügte Aufgaben sind gespeichert. Versuche es unten erneut."
+    "noteFailed": "Die Besprechungsnotiz konnte nicht gespeichert werden. Hinzugefügte Aufgaben sind gespeichert. Versuche es unten erneut.",
+    "forYou": "Für dich",
+    "forOthers": "Für andere",
+    "project": "Projekt",
+    "noProject": "Kein Projekt"
   },
     "microbreakSettingsInfo": {
         "frequencyLabel": "Pausenabstand (Minuten)",
