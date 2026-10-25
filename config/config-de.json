@@ -1976,7 +1976,14 @@
   },
   "skipHabitVcInfo": {
     "title": "Gewohnheit wird übersprungen in",
-    "buttonDoHabitsText": "Ich hab's mir anders überlegt – ich mache meine Gewohnheiten"
+    "buttonDoHabitsText": "Ich hab's mir anders überlegt – ich mache meine Gewohnheiten",
+    "holdTitle": "Halte die Taste gedrückt, um diese Gewohnheit zu überspringen",
+    "holdButtonText": "Gewohnheit überspringen"
+  },
+  "holdToConfirmInfo": {
+    "keepHolding": "Weiter gedrückt halten…",
+    "titleWithHold": "{0} ({1} s halten)",
+    "accessibilityLabel": "{0}, {1} Sekunden gedrückt halten"
   },
   "popUpBlockConfirmVcInfo": {
     "title": "Musst du <URL> nutzen, während du dich auf <FOCUSTYPE> fokussierst?",
