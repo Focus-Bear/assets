@@ -2504,7 +2504,8 @@
       "revealHiddenModes": "Reveal hidden focus modes",
       "searchEntries": "Search URLs and apps",
       "searchOrAddEntries": "Search or add URLs and apps",
-      "showBlockList": "Show in pickers"
+      "showBlockList": "Show in pickers",
+        "nameTaken": "A block list named “<NAME>” already exists."
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Welcome to Focus Bear",

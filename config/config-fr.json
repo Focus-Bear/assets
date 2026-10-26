@@ -2116,7 +2116,8 @@
     "duplicateBlockList": "Dupliquer",
     "duplicateName": "Une liste de blocage portant ce nom existe déjà.",
     "renameBlockList": "Renommer cette liste de blocage",
-    "showBlockList": "Afficher dans les sélecteurs"
+    "showBlockList": "Afficher dans les sélecteurs",
+    "nameTaken": "Une liste de blocage nommée « <NAME> » existe déjà."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Bienvenue sur Focus Bear",

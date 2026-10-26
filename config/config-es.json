@@ -2504,7 +2504,8 @@
       "deleteBlockList": "Eliminar",
       "duplicateBlockList": "Duplicar",
       "duplicateName": "Ya existe una lista de bloqueo con este nombre.",
-      "showBlockList": "Mostrar en los selectores"
+      "showBlockList": "Mostrar en los selectores",
+        "nameTaken": "Ya existe una lista de bloqueo llamada “<NAME>”."
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",

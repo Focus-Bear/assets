@@ -2116,7 +2116,8 @@
     "duplicateBlockList": "Duplizieren",
     "hiddenSuffix": " (Ausgeblendet)",
     "searchEntries": "URLs und Apps durchsuchen",
-    "searchOrAddEntries": "URLs und Apps suchen oder hinzufügen"
+    "searchOrAddEntries": "URLs und Apps suchen oder hinzufügen",
+    "nameTaken": "Eine Sperrliste namens „<NAME>“ gibt es bereits."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Willkommen bei Focus Bear",

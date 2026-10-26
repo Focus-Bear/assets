@@ -2116,7 +2116,8 @@
     "revealHiddenModes": "Pokaż ukryte tryby skupienia",
     "searchEntries": "Szukaj adresów URL i aplikacji",
     "searchOrAddEntries": "Szukaj lub dodaj adresy URL i aplikacje",
-    "showBlockList": "Pokaż na listach wyboru"
+    "showBlockList": "Pokaż na listach wyboru",
+    "nameTaken": "Lista blokowania o nazwie „<NAME>” już istnieje."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Witaj w Focus Bear",
