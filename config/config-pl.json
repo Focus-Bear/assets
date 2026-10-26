@@ -1486,6 +1486,7 @@
     "noteHasCommentsText": "Notatek z komentarzami nie można jeszcze przenosić.",
     "cannotTakeOutOfProjectText": "Tylko autor notatki lub administrator projektu <PROJECT> może ją z niego przenieść, więc zostaje na miejscu.",
     "addToProjectHelpText": "Umieść tę notatkę w folderze projektu. Każdy w projekcie może ją widzieć i edytować.",
+    "chooseProjectFirstText": "Najpierw wybierz projekt z listy.",
     "noteHasAttachmentsText": "Notatek z obrazami lub nagraniami nie można jeszcze dodawać do projektu.",
     "habitNoteStaysPersonalText": "Notatka powiązana z nawykiem zostaje przy tym nawyku, więc nie można jej dodać do projektu.",
     "tagsNotKeptText": "Notatki projektu nie mogą jeszcze mieć tagów na tym serwerze, więc tagi tej notatki nie zostaną zachowane.",

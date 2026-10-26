@@ -1486,6 +1486,7 @@
     "noteHasCommentsText": "Notizen mit Kommentaren können noch nicht verschoben werden.",
     "cannotTakeOutOfProjectText": "Nur die Person, die die Notiz verfasst hat, oder ein Admin von <PROJECT> kann sie herausnehmen, deshalb bleibt sie dort.",
     "addToProjectHelpText": "Leg diese Notiz in den Ordner eines Projekts. Alle im Projekt können sie sehen und bearbeiten.",
+    "chooseProjectFirstText": "Wähle zuerst ein Projekt aus der Liste.",
     "noteHasAttachmentsText": "Notizen mit Bildern oder Aufnahmen können noch nicht zu einem Projekt hinzugefügt werden.",
     "habitNoteStaysPersonalText": "Eine mit einer Gewohnheit verknüpfte Notiz bleibt bei dieser Gewohnheit und kann deshalb keinem Projekt hinzugefügt werden.",
     "tagsNotKeptText": "Projektnotizen können auf diesem Server noch keine Tags haben, deshalb werden die Tags dieser Notiz nicht übernommen.",

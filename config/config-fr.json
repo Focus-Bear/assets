@@ -1486,6 +1486,7 @@
     "noteHasCommentsText": "Les notes avec des commentaires ne peuvent pas encore être déplacées.",
     "cannotTakeOutOfProjectText": "Seul l’auteur de la note ou un admin de <PROJECT> peut l’en sortir, elle y reste donc.",
     "addToProjectHelpText": "Place cette note dans le dossier d’un projet. Tous les membres du projet peuvent la voir et la modifier.",
+    "chooseProjectFirstText": "Choisis d’abord un projet dans la liste.",
     "noteHasAttachmentsText": "Les notes contenant des images ou des enregistrements ne peuvent pas encore être ajoutées à un projet.",
     "habitNoteStaysPersonalText": "Une note liée à une habitude reste avec cette habitude, elle ne peut donc pas être ajoutée à un projet.",
     "tagsNotKeptText": "Les notes de projet ne peuvent pas encore avoir d’étiquettes sur ce serveur, les étiquettes de cette note ne sont donc pas conservées.",
