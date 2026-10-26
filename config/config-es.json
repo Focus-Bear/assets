@@ -2429,7 +2429,14 @@
         "infoText": "Si deseas más de un empujón para mantener tus hábitos, abre las preferencias y cambie el nivel de fricción desde la configuración general.",
         "customTimeError": "Ingresa un número positivo válido de minutos",
         "toolTipMinimumMinutes": "Elige una opción o escribe la tuya - mínimo 1 minuto",
-        "buttonSkipRoutineText": "Saltar rutina por hoy"
+        "buttonSkipRoutineText": "Saltar rutina por hoy",
+        "buttonChangeFrictionText": "Cambiar nivel de fricción",
+        "frictionEasySkipText": "Elegiste el nivel de fricción más fácil, así que esto es solo una comprobación rápida.",
+        "frictionHardSkipText": "Tu nivel de fricción le pide a Focus Bear que te cueste más dejar tus hábitos.",
+        "whyBreakText": "Tu descanso sigue en curso, así que Focus Bear te pregunta antes de que cambies a otra cosa.",
+        "whyCustomRoutineText": "Tu rutina sigue en curso, así que Focus Bear te pregunta antes de que cambies a otra cosa.",
+        "whyEveningRoutineText": "Tu rutina de la noche sigue en curso, así que Focus Bear te pregunta antes de que cambies a otra cosa.",
+        "whyMorningRoutineText": "Tu rutina de la mañana sigue en curso, así que Focus Bear te pregunta antes de que cambies a otra cosa."
     },
     "popUpOfflineVcInfo": {
         "titleOffline": "Parece que estás desconectado de Internet. Por favor conéctate para continuar con tus hábitos.",
@@ -5102,7 +5109,13 @@
         "habitSkipAhead": "Omitir",
         "habitUnskipAhead": "No omitir",
       "tasksShortcutProject": "#proyecto — archiva la tarea en un proyecto",
-      "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre"
+      "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
+      "habitStartRoutineHere": "Empezar",
+      "routineRestart": "Reiniciar rutina",
+      "routineStartBlockedFocusSession": "Primero detén la sesión de enfoque y luego empieza la rutina.",
+      "routineStartBlockedMeeting": "Estás en una reunión. La rutina puede empezar cuando termine.",
+      "routineStartBlockedOutsideTime": "Esta rutina solo puede empezar en su propia parte del día.",
+      "routineStartNow": "Empezar rutina ahora"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",

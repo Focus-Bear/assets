@@ -2046,7 +2046,14 @@
     "infoText": "Si tu veux un peu plus d'encouragement pour tenir tes habitudes, ouvre les préférences et modifie le niveau de friction dans l'onglet des réglages généraux.",
     "customTimeError": "Saisis un nombre de minutes positif valide",
     "toolTipMinimumMinutes": "Choisis une option ou saisis la tienne - minimum 1 minute",
-    "buttonSkipRoutineText": "Sauter la routine aujourd'hui"
+    "buttonSkipRoutineText": "Sauter la routine aujourd'hui",
+    "buttonChangeFrictionText": "Changer le niveau de friction",
+    "frictionEasySkipText": "Tu as choisi le niveau de friction le plus facile, donc c'est juste une petite vérification.",
+    "frictionHardSkipText": "Ton niveau de friction demande à Focus Bear de rendre plus difficile l’abandon de tes habitudes.",
+    "whyBreakText": "Ta pause est toujours en cours, alors Focus Bear vérifie avant que tu passes à autre chose.",
+    "whyCustomRoutineText": "Ta routine est toujours en cours, alors Focus Bear vérifie avant que tu passes à autre chose.",
+    "whyEveningRoutineText": "Ta routine du soir est toujours en cours, alors Focus Bear vérifie avant que tu passes à autre chose.",
+    "whyMorningRoutineText": "Ta routine du matin est toujours en cours, alors Focus Bear vérifie avant que tu passes à autre chose."
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Il semble que tu sois hors ligne. Reconnecte-toi pour continuer tes habitudes.",
@@ -4742,7 +4749,13 @@
       "eventScopeThis": "Uniquement cet événement",
       "eventScopeTitle": "C’est un événement récurrent",
       "habitSkipAhead": "Passer",
-      "habitUnskipAhead": "Ne plus passer"
+      "habitUnskipAhead": "Ne plus passer",
+    "habitStartRoutineHere": "Commencer",
+    "routineRestart": "Recommencer la routine",
+    "routineStartBlockedFocusSession": "Arrête d’abord la session de concentration, puis commence la routine.",
+    "routineStartBlockedMeeting": "Tu es en réunion. La routine pourra commencer une fois qu’elle sera terminée.",
+    "routineStartBlockedOutsideTime": "Cette routine ne peut commencer que pendant son moment de la journée.",
+    "routineStartNow": "Commencer la routine maintenant"
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Suivi du temps",
