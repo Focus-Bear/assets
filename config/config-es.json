@@ -3278,7 +3278,13 @@
         "buttonCloseDebugLogsText": "Cerrar",
         "titleReportProblemFormText": "Informa de un problema o comparte una idea",
         "reportProblemBedtimeNoteText": "Enviado después de las 6 p. m., así que Claude empieza con esto después de las 11 p. m.",
-        "reportProblemLateNightNoteText": "Enviado de madrugada, así que Claude espera 2 horas antes de empezar."
+        "reportProblemLateNightNoteText": "Enviado de madrugada, así que Claude espera 2 horas antes de empezar.",
+        "titleTalkToHumanFormText": "Habla con una persona del equipo de Focus Bear",
+        "subtitleTalkToHumanFormText": "Una persona real de nuestro equipo lee cada mensaje y te responderá por correo electrónico.",
+        "placeholderTalkToHumanText": "¿De qué te gustaría hablar?",
+        "talkToHumanAttachmentsText": "Las capturas de pantalla son opcionales. Tus registros de la app se envían para que el equipo pueda ver qué ha estado pasando.",
+        "buttonSendToTeamText": "Enviar al equipo",
+        "talkToHumanSentText": "Gracias, tu mensaje ya está con el equipo. Te responderemos por correo electrónico."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
