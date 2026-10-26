@@ -6865,7 +6865,7 @@
         "folderLabel": "Carpeta de trabajo",
         "chooseFolder": "Elegir…",
         "folderNotAllowed": "Elige una carpeta propia, no tu carpeta de inicio.",
-        "start": "Preguntar a Claude",
+        "start": "Delegar",
         "answerPlaceholder": "Responde a las preguntas de Claude…",
         "sendAnswer": "Enviar",
         "goAhead": "Adelante",
@@ -6900,6 +6900,9 @@
         "statusWaitingForAnswers": "Esperando tus respuestas",
         "statusWorking": "Trabajando…",
         "statusDone": "Hecho",
-        "statusStopped": "Detenido"
+        "statusStopped": "Detenido",
+        "handOffMessage": "Claude primero preparará un plan; dale un minuto o dos",
+        "folderAccessNote": "Esta carpeta está en Documentos, Escritorio, Descargas o iCloud Drive, así que macOS puede pedir antes acceso para Focus Bear.",
+        "questionsNotificationTitle": "Claude tiene preguntas sobre una tarea"
     }
 }

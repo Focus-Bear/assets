@@ -6867,7 +6867,7 @@
         "folderLabel": "Working folder",
         "chooseFolder": "Choose…",
         "folderNotAllowed": "Pick a folder of its own, not your home folder.",
-        "start": "Ask Claude",
+        "start": "Delegate",
         "answerPlaceholder": "Answer Claude's questions…",
         "sendAnswer": "Send",
         "goAhead": "Go ahead",
@@ -6902,6 +6902,9 @@
         "statusWaitingForAnswers": "Waiting for your answers",
         "statusWorking": "Working…",
         "statusDone": "Done",
-        "statusStopped": "Stopped"
+        "statusStopped": "Stopped",
+        "handOffMessage": "Claude will come up with a plan first — give it a minute or two",
+        "folderAccessNote": "This folder is in Documents, Desktop, Downloads or iCloud Drive, so macOS may ask Focus Bear for access to it first.",
+        "questionsNotificationTitle": "Claude has questions about a task"
     }
 }

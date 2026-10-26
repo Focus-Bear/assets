@@ -6909,7 +6909,7 @@
         "folderLabel": "Folder roboczy",
         "chooseFolder": "Wybierz…",
         "folderNotAllowed": "Wybierz osobny folder, a nie folder domowy.",
-        "start": "Zapytaj Claude'a",
+        "start": "Przekaż",
         "answerPlaceholder": "Odpowiedz na pytania Claude'a…",
         "sendAnswer": "Wyślij",
         "goAhead": "Do dzieła",
@@ -6944,6 +6944,9 @@
         "statusWaitingForAnswers": "Czeka na twoje odpowiedzi",
         "statusWorking": "Pracuje…",
         "statusDone": "Gotowe",
-        "statusStopped": "Zatrzymano"
+        "statusStopped": "Zatrzymano",
+        "handOffMessage": "Claude najpierw przygotuje plan — daj mu minutę lub dwie",
+        "folderAccessNote": "Ten folder jest w Dokumentach, na Biurku, w Pobranych lub na iCloud Drive, więc macOS może najpierw zapytać o dostęp dla Focus Bear.",
+        "questionsNotificationTitle": "Claude ma pytania dotyczące zadania"
     }
 }
