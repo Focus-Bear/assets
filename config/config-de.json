@@ -6938,6 +6938,12 @@
         "youAllowed": "Du hast erlaubt: <TOOL>",
         "youDenied": "Du hast abgelehnt: <TOOL>",
         "notificationTitle": "Claude braucht deine Freigabe",
-        "notificationBody": "<TASK>: <REQUEST>"
+        "notificationBody": "<TASK>: <REQUEST>",
+        "instructionsLabel": "Sollte Claude noch etwas wissen? (optional)",
+        "statusAsking": "Stellt Fragen…",
+        "statusWaitingForAnswers": "Wartet auf deine Antworten",
+        "statusWorking": "Arbeitet…",
+        "statusDone": "Fertig",
+        "statusStopped": "Gestoppt"
     }
 }

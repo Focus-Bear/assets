@@ -6894,6 +6894,12 @@
         "youAllowed": "Permitiste: <TOOL>",
         "youDenied": "Rechazaste: <TOOL>",
         "notificationTitle": "Claude necesita tu aprobación",
-        "notificationBody": "<TASK>: <REQUEST>"
+        "notificationBody": "<TASK>: <REQUEST>",
+        "instructionsLabel": "¿Algo que Claude deba saber? (opcional)",
+        "statusAsking": "Haciendo preguntas…",
+        "statusWaitingForAnswers": "Esperando tus respuestas",
+        "statusWorking": "Trabajando…",
+        "statusDone": "Hecho",
+        "statusStopped": "Detenido"
     }
 }

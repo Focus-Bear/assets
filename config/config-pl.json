@@ -6938,6 +6938,12 @@
         "youAllowed": "Zezwolono: <TOOL>",
         "youDenied": "Odmówiono: <TOOL>",
         "notificationTitle": "Claude potrzebuje twojej zgody",
-        "notificationBody": "<TASK>: <REQUEST>"
+        "notificationBody": "<TASK>: <REQUEST>",
+        "instructionsLabel": "Coś, o czym Claude powinien wiedzieć? (opcjonalnie)",
+        "statusAsking": "Zadaje pytania…",
+        "statusWaitingForAnswers": "Czeka na twoje odpowiedzi",
+        "statusWorking": "Pracuje…",
+        "statusDone": "Gotowe",
+        "statusStopped": "Zatrzymano"
     }
 }

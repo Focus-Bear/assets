@@ -6938,6 +6938,12 @@
         "youAllowed": "Tu as autorisé : <TOOL>",
         "youDenied": "Tu as refusé : <TOOL>",
         "notificationTitle": "Claude a besoin de ton accord",
-        "notificationBody": "<TASK> : <REQUEST>"
+        "notificationBody": "<TASK> : <REQUEST>",
+        "instructionsLabel": "Quelque chose que Claude devrait savoir ? (facultatif)",
+        "statusAsking": "Pose des questions…",
+        "statusWaitingForAnswers": "En attente de tes réponses",
+        "statusWorking": "Travaille…",
+        "statusDone": "Terminé",
+        "statusStopped": "Arrêté"
     }
 }
