@@ -2083,6 +2083,14 @@
     "buttonContinueText": "Continuer"
   },
   "blockListViewInfo": {
+    "blockListMode": "Liste de blocage",
+    "allowListMode": "Liste d'autorisation",
+    "changeListMode": "Bascule entre la modification de ta liste de blocage et de ta liste d'autorisation",
+    "aiOnLabel": "IA activée",
+    "aiOffLabel": "IA désactivée",
+    "aiToggleTooltip": "IA activée : les sites et applis qui ne sont sur aucune de tes listes sont vérifiés par rapport à ta concentration et bloqués s'ils ne correspondent pas. IA désactivée : seules tes listes de blocage et d'autorisation s'appliquent.",
+    "aiOnNotice": "Les sites et applis de ta liste de blocage sont bloqués et ceux de ta liste d'autorisation sont autorisés. Tout le reste est vérifié par l'IA et bloqué s'il ne correspond pas à ta concentration.",
+    "aiOffNotice": "Les sites et applis de ta liste de blocage sont bloqués et ceux de ta liste d'autorisation sont autorisés. Tout le reste est bloqué.",
     "websitesLabel": "Sites web",
     "noSearchMatches": "Rien dans cette liste ne correspond à ta recherche.",
     "noEntriesAllowList": "Rien n'est encore autorisé dans cette liste.",
