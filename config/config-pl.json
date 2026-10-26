@@ -4642,6 +4642,7 @@
     "habitRemoveNamedItem": "Usuń %@",
     "habitAllowedAppsPlaceholder": "Wpisz nazwę aplikacji…",
     "habitAllowedAppsAddCustom": "Dodaj „%@”",
+    "habitAllowedAppsAddWebsite": "Dodaj „%@” do dozwolonych stron",
     "habitDelete": "Usuń nawyk",
     "habitDeleteConfirm": "Usunąć „%@” z tej rutyny? Zniknie po zapisaniu i ponownym uruchomieniu.",
     "habitDeleteConfirmButton": "Usuń",

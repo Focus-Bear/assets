@@ -4642,6 +4642,7 @@
     "habitRemoveNamedItem": "%@ entfernen",
     "habitAllowedAppsPlaceholder": "App-Namen eingeben…",
     "habitAllowedAppsAddCustom": "„%@“ hinzufügen",
+    "habitAllowedAppsAddWebsite": "„%@“ zu den erlaubten Websites hinzufügen",
     "habitDelete": "Gewohnheit löschen",
     "habitDeleteConfirm": "„%@“ aus dieser Routine entfernen? Nach dem Speichern und Neustart ist sie weg.",
     "habitDeleteConfirmButton": "Löschen",
