@@ -1976,7 +1976,14 @@
   },
   "skipHabitVcInfo": {
     "title": "Nawyk zostanie pominięty za",
-    "buttonDoHabitsText": "Zmieniłem zdanie — zrobię swoje nawyki"
+    "buttonDoHabitsText": "Zmieniłem zdanie — zrobię swoje nawyki",
+    "holdTitle": "Przytrzymaj przycisk, aby pominąć ten nawyk",
+    "holdButtonText": "Pomiń nawyk"
+  },
+  "holdToConfirmInfo": {
+    "keepHolding": "Trzymaj dalej…",
+    "titleWithHold": "{0} (przytrzymaj {1} s)",
+    "accessibilityLabel": "{0}, przytrzymaj {1} sekund"
   },
   "popUpBlockConfirmVcInfo": {
     "title": "Czy musisz korzystać z <URL>, gdy skupiasz się na <FOCUSTYPE>?",

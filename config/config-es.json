@@ -2364,7 +2364,14 @@
     },
     "skipHabitVcInfo": {
         "title": "Posponer habito ahora",
-        "buttonDoHabitsText": "Cambié de opinión – Trabajaré en mis hábitos"
+        "buttonDoHabitsText": "Cambié de opinión – Trabajaré en mis hábitos",
+        "holdTitle": "Mantén pulsado el botón para saltar este hábito",
+        "holdButtonText": "Saltar hábito"
+    },
+    "holdToConfirmInfo": {
+        "keepHolding": "Sigue pulsando…",
+        "titleWithHold": "{0} (mantén {1} s)",
+        "accessibilityLabel": "{0}, mantén pulsado {1} segundos"
     },
     "popUpBlockConfirmVcInfo": {
         "title": "¿Necesitas usar <URL> cuando te enfocas en <FOCUSTYPE>?",
