@@ -893,6 +893,7 @@
     "checkBoxSuggestWorkFocusMode": "Automatycznie sugeruj uruchomienie tego trybu skupienia po otwarciu dozwolonego adresu URL/aplikacji"
   },
   "focusPreferencesAdvancedInfo": {
+    "useAiSyncFailedText": "Nie udało się zapisać ustawienia „Używaj AI” dla „<NAME>” na Twoim koncie, więc zmiana została cofnięta. Sprawdź połączenie z internetem i spróbuj ponownie.",
     "runScriptBeforeText": "Uruchom skrypt AppleScript przed rozpoczęciem trybu skupienia.",
     "runScriptAfterText": "Uruchom skrypt AppleScript po zakończeniu trybu skupienia.",
     "titleCurrentAppleScript": "Aktualny skrypt AppleScript:",
@@ -2127,7 +2128,8 @@
     "revealHiddenModes": "Pokaż ukryte tryby skupienia",
     "searchEntries": "Szukaj adresów URL i aplikacji",
     "searchOrAddEntries": "Szukaj lub dodaj adresy URL i aplikacje",
-    "showBlockList": "Pokaż na listach wyboru"
+    "showBlockList": "Pokaż na listach wyboru",
+    "nameTaken": "Lista blokowania o nazwie „<NAME>” już istnieje."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Witaj w Focus Bear",
@@ -4287,6 +4289,7 @@
       "tryAgainText": "Spróbuj ponownie"
   },
   "scheduleViewInfo": {
+    "habitInOrderOnly": "Twoje ustawienia wymagają wykonywania nawyków po kolei, więc ten czeka na swoją kolej. Aby wykonać go teraz, włącz „Zezwalaj na wykonywanie nawyków w dowolnej kolejności” w Ustawieniach.",
     "unnamedHabit": "Nawyk bez nazwy",
       "tasksDurationHint": "Czas trwania: wpisz minuty (30), 45m lub 1h, a potem Enter",
       "routineTimeInvalidWindows": "Wpisz godzinę, np. 7:30, 07:30 lub 7:30pm.",
@@ -4870,6 +4873,8 @@
     "checklistItem": "Element listy kontrolnej"
   },
   "menuView": {
+    "blockingPausedTitle": "Blokowanie wstrzymane · zostało <TIME>",
+    "blockingPausedExplanation": "Do <TIME> nic nie jest blokowane, nawet w sesji skupienia. Potem blokowanie samo włączy się ponownie.",
     "a11yOpenFocusBearMenu": "Otwórz menu Focus Bear",
     "a11yHideFloatingBar": "Ukryj ten pasek",
     "blockingAttentionTitle": "Blokowanie wymaga uwagi",
@@ -5660,6 +5665,10 @@
     "allWebsitesAllowed": "Wszystkie strony są dozwolone"
   },
   "managedBlockingInfo": {
+    "blocklistBodySchool": "Ta strona jest na liście stron zablokowanych przez Twoją szkołę.",
+    "blocklistBodyHome": "Ta strona jest na domowej liście zablokowanych stron.",
+    "appBlockedSchool": "Aplikacja <APP_NAME> jest zablokowana przez szkolny harmonogram <POLICY>.",
+    "appBlockedHome": "Aplikacja <APP_NAME> jest zablokowana przez domowy harmonogram <POLICY>.",
     "proposedHomeChanges": "Proponowane zmiany harmonogramu domowego",
     "policyName": "Nazwa harmonogramu",
     "timeZone": "Strefa czasowa IANA (na przykład Australia/Melbourne)",

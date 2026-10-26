@@ -907,6 +907,7 @@
         "checkBoxSuggestWorkFocusMode": "Automatically suggest starting this focus mode when any allowed URL/App is opened"
     },
     "focusPreferencesAdvancedInfo": {
+        "useAiSyncFailedText": "“Use AI” for “<NAME>” couldn’t be saved to your account, so it has been switched back. Check your internet connection and try again.",
         "runScriptBeforeText": "Run apple script before starting focus mode.",
         "runScriptAfterText": "Run apple script after finishing focus mode.",
         "titleCurrentAppleScript": "Current Apple script:",
@@ -2510,7 +2511,8 @@
       "revealHiddenModes": "Reveal hidden focus modes",
       "searchEntries": "Search URLs and apps",
       "searchOrAddEntries": "Search or add URLs and apps",
-      "showBlockList": "Show in pickers"
+      "showBlockList": "Show in pickers",
+        "nameTaken": "A block list named “<NAME>” already exists."
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Welcome to Focus Bear",
@@ -4914,7 +4916,7 @@
         "habitShortenTypeInvalid": "Type a length like 25min, 1h30 or 90.",
         "habitShortenTypeNotShorter": "That isn't shorter than %@. Pick a smaller length, or use Full length to clear the trim.",
         "habitShortenedTag": "(shortened)",
-        "habitInOrderOnly": "Your settings ask for habits in order, so this one waits its turn. To start it now, turn on “Allow doing habits out of order” in Settings.",
+        "habitInOrderOnly": "Your settings ask for habits in order, so this one waits its turn. To do it now, turn on “Allow doing habits out of order” in Settings.",
         "editHabitTitle": "Edit habit",
         "habitFieldName": "Habit name",
         "habitFieldUseTimer": "Use timer",
@@ -5271,6 +5273,8 @@
         "removeText": "Remove"
     },
     "menuView":{
+        "blockingPausedTitle": "Blocking paused · <TIME> left",
+        "blockingPausedExplanation": "Nothing is being blocked until <TIME>, even in a focus session. Blocking comes back on by itself then.",
         "a11yOpenFocusBearMenu": "Open Focus Bear menu",
         "a11yHideFloatingBar": "Hide this bar",
         "blockingAttentionTitle": "Blocking needs attention",
@@ -6061,6 +6065,10 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
     "managedBlockingInfo": {
+        "blocklistBodySchool": "This website is on your school's blocked websites list.",
+        "blocklistBodyHome": "This website is on your home blocked websites list.",
+        "appBlockedSchool": "<APP_NAME> is blocked by your school's <POLICY> schedule.",
+        "appBlockedHome": "<APP_NAME> is blocked by your home <POLICY> schedule.",
         "proposedHomeChanges": "Proposed home schedule changes",
         "policyName": "Schedule name",
         "timeZone": "IANA time zone (for example, Australia/Melbourne)",
