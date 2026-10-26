@@ -1435,6 +1435,7 @@
         "couldNotUpdateNoteText": "Could not update note",
         "requestFailedText": "Could not process the request",
         "moreFormattingText": "More formatting",
+        "insertEmojiText": "Insert emoji",
         "indentListItemText": "Indent",
         "outdentListItemText": "Outdent",
         "boldText": "Bold",
@@ -5253,7 +5254,8 @@
       "taskEmbed": "Linked task",
       "taskListEmbed": "Task list",
       "checklist": "Checklist",
-      "checklistItem": "Checklist item"
+      "checklistItem": "Checklist item",
+      "insertEmoji": "Insert emoji"
     },
     "noteRecordingInfo": {
         "addVoiceNoteText": "Add voice note",

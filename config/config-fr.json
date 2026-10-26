@@ -1438,6 +1438,7 @@
     "couldNotUpdateNoteText": "Impossible de mettre à jour la note",
     "requestFailedText": "Impossible de traiter la demande",
     "moreFormattingText": "Plus de mise en forme",
+    "insertEmojiText": "Insérer un emoji",
     "indentListItemText": "Augmenter le retrait",
     "outdentListItemText": "Réduire le retrait",
     "boldText": "Gras",
@@ -4891,7 +4892,8 @@
     "taskEmbed": "Tâche liée",
     "taskListEmbed": "Liste de tâches",
     "checklist": "Liste à cocher",
-    "checklistItem": "Élément de liste à cocher"
+    "checklistItem": "Élément de liste à cocher",
+    "insertEmoji": "Insérer un emoji"
   },
   "menuView": {
     "blockingPausedTitle": "Blocage en pause · encore <TIME>",

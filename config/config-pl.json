@@ -1438,6 +1438,7 @@
     "couldNotUpdateNoteText": "Nie udało się zaktualizować notatki",
     "requestFailedText": "Nie udało się przetworzyć żądania",
     "moreFormattingText": "Więcej formatowania",
+    "insertEmojiText": "Wstaw emoji",
     "indentListItemText": "Zwiększ wcięcie",
     "outdentListItemText": "Zmniejsz wcięcie",
     "boldText": "Pogrubienie",
@@ -4891,7 +4892,8 @@
     "taskEmbed": "Powiązane zadanie",
     "taskListEmbed": "Lista zadań",
     "checklist": "Lista kontrolna",
-    "checklistItem": "Element listy kontrolnej"
+    "checklistItem": "Element listy kontrolnej",
+    "insertEmoji": "Wstaw emoji"
   },
   "menuView": {
     "blockingPausedTitle": "Blokowanie wstrzymane · zostało <TIME>",

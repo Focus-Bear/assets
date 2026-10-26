@@ -1435,6 +1435,7 @@
         "couldNotUpdateNoteText": "No se pudo actualizar la nota",
         "requestFailedText": "No se pudo procesar la solicitud",
         "moreFormattingText": "Más formato",
+        "insertEmojiText": "Insertar emoji",
         "indentListItemText": "Aumentar sangría",
         "outdentListItemText": "Reducir sangría",
         "boldText": "Negrita",
@@ -5251,7 +5252,8 @@
       "taskEmbed": "Tarea vinculada",
       "taskListEmbed": "Lista de tareas",
       "checklist": "Lista de verificación",
-      "checklistItem": "Elemento de la lista de verificación"
+      "checklistItem": "Elemento de la lista de verificación",
+      "insertEmoji": "Insertar emoji"
     },
     "noteRecordingInfo": {
         "addVoiceNoteText": "Añadir nota de voz",
