@@ -889,6 +889,7 @@
     "checkBoxSuggestWorkFocusMode": "Suggérer automatiquement de démarrer ce mode concentration à l'ouverture de toute URL/application autorisée"
   },
   "focusPreferencesAdvancedInfo": {
+    "useAiSyncFailedText": "« Utiliser l’IA » pour « <NAME> » n’a pas pu être enregistré dans ton compte, donc le changement a été annulé. Vérifie ta connexion internet et réessaie.",
     "runScriptBeforeText": "Exécuter un script AppleScript avant de démarrer le mode focus.",
     "runScriptAfterText": "Exécuter un script AppleScript après la fin du mode focus.",
     "titleCurrentAppleScript": "Script AppleScript actuel :",
@@ -4269,6 +4270,7 @@
       "tryAgainText": "Réessayer"
   },
   "scheduleViewInfo": {
+    "habitInOrderOnly": "Tes réglages demandent de faire les habitudes dans l’ordre, donc celle-ci attend son tour. Pour la faire maintenant, active « Autoriser à faire les habitudes dans le désordre » dans les Réglages.",
     "unnamedHabit": "Habitude sans nom",
       "tasksDurationHint": "Durée : saisis des minutes (30), 45m ou 1h, puis Entrée",
       "routineTimeInvalidWindows": "Saisis une heure comme 7:30, 07:30 ou 7:30pm.",
@@ -4834,6 +4836,8 @@
     "checklistItem": "Élément de liste à cocher"
   },
   "menuView": {
+    "blockingPausedTitle": "Blocage en pause · encore <TIME>",
+    "blockingPausedExplanation": "Rien n’est bloqué jusqu’à <TIME>, même pendant une session de concentration. Le blocage se réactivera tout seul à ce moment-là.",
     "a11yOpenFocusBearMenu": "Ouvrir le menu Focus Bear",
     "a11yHideFloatingBar": "Masquer cette barre",
     "blockingAttentionTitle": "Le blocage a besoin de ton attention",
@@ -5624,6 +5628,10 @@
     "allWebsitesAllowed": "Tous les sites sont autorisés"
   },
   "managedBlockingInfo": {
+    "blocklistBodySchool": "Ce site figure sur la liste des sites bloqués de ton école.",
+    "blocklistBodyHome": "Ce site figure sur la liste familiale des sites bloqués.",
+    "appBlockedSchool": "L’horaire <POLICY> de ton école bloque <APP_NAME>.",
+    "appBlockedHome": "L’horaire familial <POLICY> bloque <APP_NAME>.",
     "proposedHomeChanges": "Modifications proposées pour l’horaire familial",
     "policyName": "Nom de l’horaire",
     "timeZone": "Fuseau horaire IANA (par exemple, Australia/Melbourne)",

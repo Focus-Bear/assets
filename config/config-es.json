@@ -903,6 +903,7 @@
         "checkBoxSuggestWorkFocusMode": "Sugerir automáticamente iniciar este modo de enfoque al abrir cualquier URL o aplicación permitida"
     },
     "focusPreferencesAdvancedInfo": {
+        "useAiSyncFailedText": "No se pudo guardar “Usar IA” de “<NAME>” en tu cuenta, así que se deshizo el cambio. Revisa tu conexión a internet e inténtalo de nuevo.",
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
         "runScriptAfterText": "Ejecuta el script de Apple después de iniciar el modo de enfoque.",
         "titleCurrentAppleScript": "Script actual de Apple:",
@@ -4903,7 +4904,7 @@
         "habitShortenTypeInvalid": "Escribe una duración como 25min, 1h30 o 90.",
         "habitShortenTypeNotShorter": "Eso no es más corto que %@. Elige una duración menor o usa Duración completa para quitar el ajuste.",
         "habitShortenedTag": "(acortado)",
-        "habitInOrderOnly": "Tu configuración pide hacer los hábitos en orden, así que este espera su turno. Para empezarlo ahora, activa “Permitir hacer hábitos sin orden” en Ajustes.",
+        "habitInOrderOnly": "Tu configuración pide hacer los hábitos en orden, así que este espera su turno. Para hacerlo ahora, activa “Permitir hacer hábitos sin orden” en Ajustes.",
         "editHabitTitle": "Editar hábito",
         "habitFieldName": "Nombre del hábito",
         "habitFieldUseTimer": "Usar temporizador",
@@ -5238,6 +5239,8 @@
         "removeText": "Eliminar"
     },
     "menuView":{
+        "blockingPausedTitle": "Bloqueo en pausa · quedan <TIME>",
+        "blockingPausedExplanation": "No se bloquea nada hasta las <TIME>, ni siquiera en una sesión de enfoque. A esa hora, el bloqueo se reactiva solo.",
         "a11yOpenFocusBearMenu": "Abrir el menú de Focus Bear",
         "a11yHideFloatingBar": "Ocultar esta barra",
         "blockingAttentionTitle": "El bloqueo necesita atención",
@@ -6028,6 +6031,10 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
     "managedBlockingInfo": {
+        "blocklistBodySchool": "Este sitio web está en la lista de sitios web bloqueados de tu escuela.",
+        "blocklistBodyHome": "Este sitio web está en la lista de sitios web bloqueados del hogar.",
+        "appBlockedSchool": "El horario <POLICY> de tu escuela bloquea <APP_NAME>.",
+        "appBlockedHome": "El horario <POLICY> del hogar bloquea <APP_NAME>.",
         "proposedHomeChanges": "Cambios propuestos al horario del hogar",
         "policyName": "Nombre del horario",
         "timeZone": "Zona horaria IANA (por ejemplo, Australia/Melbourne)",
