@@ -6903,7 +6903,7 @@
         "sheetTitle": "An Claude delegieren",
         "safetyHeading": "Was Claude darf und was nicht",
         "safetyClarify": "Während Claude Fragen stellt, kann es nur lesen. Es kann nichts ändern.",
-        "safetyWork": "Sobald du auf Los geht's klickst, kann Claude Dateien im Arbeitsordner erstellen und bearbeiten.",
+        "safetyWork": "Sobald du auf Los geht's klickst, arbeitet Claude im Arbeitsordner. Die Sicherheitsprüfung von Claude Code genehmigt Routineaktionen selbst und stoppt riskante; braucht Claude eine davon trotzdem, fragt es dich.",
         "safetyRefused": "Alles andere, was eine Erlaubnis braucht, etwa einen Befehl ausführen oder Dateien außerhalb des Ordners ändern, wartet darauf, dass du es erlaubst oder ablehnst.",
         "safetyAccount": "Claude nutzt dein eigenes Claude-Code-Konto und deinen Tarif.",
         "folderLabel": "Arbeitsordner",

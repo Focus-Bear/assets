@@ -6903,7 +6903,7 @@
         "sheetTitle": "Przekaż Claude'owi",
         "safetyHeading": "Co Claude może, a czego nie",
         "safetyClarify": "Podczas zadawania pytań Claude może tylko czytać. Niczego nie może zmienić.",
-        "safetyWork": "Po kliknięciu Do dzieła Claude może tworzyć i edytować pliki w folderze roboczym.",
+        "safetyWork": "Po kliknięciu Do dzieła Claude pracuje w folderze roboczym. Kontrola bezpieczeństwa Claude Code sama zatwierdza rutynowe działania i zatrzymuje ryzykowne; jeśli Claude nadal któregoś potrzebuje, pyta ciebie.",
         "safetyRefused": "Wszystko inne, co wymaga zgody, na przykład uruchomienie polecenia lub zmiana plików poza folderem, czeka, aż na to pozwolisz albo odmówisz.",
         "safetyAccount": "Claude korzysta z twojego własnego konta i planu Claude Code.",
         "folderLabel": "Folder roboczy",

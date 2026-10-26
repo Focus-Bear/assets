@@ -6859,7 +6859,7 @@
         "sheetTitle": "Delegar a Claude",
         "safetyHeading": "Qué puede y qué no puede hacer Claude",
         "safetyClarify": "Mientras hace preguntas, Claude solo puede leer. No puede cambiar nada.",
-        "safetyWork": "Cuando pulses Adelante, Claude podrá crear y editar archivos en la carpeta de trabajo.",
+        "safetyWork": "Cuando pulses Adelante, Claude trabaja en la carpeta de trabajo. La comprobación de seguridad de Claude Code aprueba sola las acciones rutinarias y detiene las arriesgadas; si Claude aún necesita una, te lo pregunta.",
         "safetyRefused": "Cualquier otra cosa que necesite permiso, como ejecutar un comando o cambiar archivos fuera de la carpeta, espera a que la permitas o la rechaces.",
         "safetyAccount": "Claude usa tu propia cuenta y tu plan de Claude Code.",
         "folderLabel": "Carpeta de trabajo",

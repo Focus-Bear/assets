@@ -6861,7 +6861,7 @@
         "sheetTitle": "Delegate to Claude",
         "safetyHeading": "What Claude can and can't do",
         "safetyClarify": "While it asks questions, Claude can only read. It can't change anything.",
-        "safetyWork": "After you press Go ahead, Claude can create and edit files in the working folder.",
+        "safetyWork": "After you press Go ahead, Claude works in the working folder. Claude Code's safety check approves routine actions on its own and stops risky ones; if Claude still needs one, it asks you.",
         "safetyRefused": "Anything else that needs permission, like running a command or changing files outside the folder, waits for you to allow or deny it.",
         "safetyAccount": "Claude uses your own Claude Code account and plan.",
         "folderLabel": "Working folder",
