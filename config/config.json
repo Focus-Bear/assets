@@ -2466,6 +2466,14 @@
         "buttonContinueText": "Continue"
     },
     "blockListViewInfo": {
+        "blockListMode": "Block List",
+        "allowListMode": "Allow List",
+        "changeListMode": "Switch between editing your block list and your allow list",
+        "aiOnLabel": "AI On",
+        "aiOffLabel": "AI Off",
+        "aiToggleTooltip": "AI on: sites and apps that aren't on your lists are checked against your focus and blocked if off-task. AI off: only your block and allow lists apply.",
+        "aiOnNotice": "Sites and apps on your block list are blocked and those on your allow list are allowed. Everything else is checked by AI and blocked if it doesn't fit your focus.",
+        "aiOffNotice": "Sites and apps on your block list are blocked and those on your allow list are allowed. Everything else is blocked.",
         "websitesLabel": "Websites",
         "noSearchMatches": "Nothing in this list matches your search.",
         "noEntriesAllowList": "Nothing is allowed in this list yet.",
