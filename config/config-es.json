@@ -5115,7 +5115,9 @@
       "routineStartBlockedFocusSession": "Primero detén la sesión de enfoque y luego empieza la rutina.",
       "routineStartBlockedMeeting": "Estás en una reunión. La rutina puede empezar cuando termine.",
       "routineStartBlockedOutsideTime": "Esta rutina solo puede empezar en su propia parte del día.",
-      "routineStartNow": "Empezar rutina ahora"
+      "routineStartNow": "Empezar rutina ahora",
+      "backToDayPlan": "Volver al Plan del día",
+      "backToDayPlanHelp": "Abre tu Plan del día. El hábito se queda como está."
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Seguimiento de tiempo",

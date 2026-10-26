@@ -4755,7 +4755,9 @@
     "routineStartBlockedFocusSession": "Najpierw zakończ sesję skupienia, a potem rozpocznij rutynę.",
     "routineStartBlockedMeeting": "Jesteś na spotkaniu. Rutyna może się zacząć, gdy się skończy.",
     "routineStartBlockedOutsideTime": "Ta rutyna może się zacząć tylko w swojej porze dnia.",
-    "routineStartNow": "Rozpocznij rutynę teraz"
+    "routineStartNow": "Rozpocznij rutynę teraz",
+    "backToDayPlan": "Wróć do Planu dnia",
+    "backToDayPlanHelp": "Otwiera Twój Plan dnia. Nawyk zostaje bez zmian."
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Śledzenie czasu",

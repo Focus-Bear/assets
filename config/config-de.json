@@ -4755,7 +4755,9 @@
     "routineStartBlockedFocusSession": "Beende zuerst die Fokussitzung und starte dann die Routine.",
     "routineStartBlockedMeeting": "Du bist in einem Meeting. Die Routine kann starten, sobald es vorbei ist.",
     "routineStartBlockedOutsideTime": "Diese Routine kann nur in ihrem eigenen Teil des Tages starten.",
-    "routineStartNow": "Routine jetzt starten"
+    "routineStartNow": "Routine jetzt starten",
+    "backToDayPlan": "Zurück zum Tagesplan",
+    "backToDayPlanHelp": "Öffnet deinen Tagesplan. Die Gewohnheit bleibt, wie sie ist."
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Zeiterfassung",

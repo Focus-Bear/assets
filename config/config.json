@@ -5117,7 +5117,9 @@
       "routineStartBlockedFocusSession": "Stop the focus session first, then start the routine.",
       "routineStartBlockedMeeting": "You're in a meeting. The routine can start once it's over.",
       "routineStartBlockedOutsideTime": "This routine can only start in its own part of the day.",
-      "routineStartNow": "Start routine now"
+      "routineStartNow": "Start routine now",
+      "backToDayPlan": "Back to Day Plan",
+      "backToDayPlanHelp": "Open your Day Plan. The habit stays as it is."
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Time Tracker",
