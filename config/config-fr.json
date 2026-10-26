@@ -2033,7 +2033,14 @@
     "infoText": "Si tu veux un peu plus d'encouragement pour tenir tes habitudes, ouvre les préférences et modifie le niveau de friction dans l'onglet des réglages généraux.",
     "customTimeError": "Saisis un nombre de minutes positif valide",
     "toolTipMinimumMinutes": "Choisis une option ou saisis la tienne - minimum 1 minute",
-    "buttonSkipRoutineText": "Sauter la routine aujourd'hui"
+    "buttonSkipRoutineText": "Sauter la routine aujourd'hui",
+    "whyMorningRoutineText": "Ta routine du matin est toujours en cours, alors Focus Bear vérifie avant que tu changes d'app.",
+    "whyEveningRoutineText": "Ta routine du soir est toujours en cours, alors Focus Bear vérifie avant que tu changes d'app.",
+    "whyCustomRoutineText": "Ta routine est toujours en cours, alors Focus Bear vérifie avant que tu changes d'app.",
+    "whyBreakText": "Ta pause est toujours en cours, alors Focus Bear vérifie avant que tu changes d'app.",
+    "frictionEasySkipText": "Tu as choisi le niveau de friction le plus bas, donc ce n'est qu'une vérification rapide.",
+    "frictionHardSkipText": "Ton niveau de friction demande à Focus Bear de rendre plus difficile l'abandon de tes habitudes.",
+    "buttonChangeFrictionText": "Changer le niveau de friction"
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Il semble que tu sois hors ligne. Reconnecte-toi pour continuer tes habitudes.",

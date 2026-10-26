@@ -2033,7 +2033,14 @@
     "infoText": "Wenn du mehr Anstoß brauchst, um bei deinen Gewohnheiten zu bleiben, öffne die Einstellungen und ändere den Reibungslevel im Tab „Allgemein“.",
     "customTimeError": "Gib eine gültige positive Zahl an Minuten ein",
     "toolTipMinimumMinutes": "Wähl eine Vorgabe oder tipp deine eigene - mindestens 1 Minute",
-    "buttonSkipRoutineText": "Routine für heute überspringen"
+    "buttonSkipRoutineText": "Routine für heute überspringen",
+    "whyMorningRoutineText": "Deine Morgenroutine läuft noch, deshalb fragt Focus Bear nach, bevor du die App wechselst.",
+    "whyEveningRoutineText": "Deine Abendroutine läuft noch, deshalb fragt Focus Bear nach, bevor du die App wechselst.",
+    "whyCustomRoutineText": "Deine Routine läuft noch, deshalb fragt Focus Bear nach, bevor du die App wechselst.",
+    "whyBreakText": "Deine Pause läuft noch, deshalb fragt Focus Bear nach, bevor du die App wechselst.",
+    "frictionEasySkipText": "Du hast das niedrigste Reibungslevel gewählt, deshalb ist das nur eine kurze Rückfrage.",
+    "frictionHardSkipText": "Dein Reibungslevel bittet Focus Bear, es dir schwerer zu machen, deine Gewohnheiten zu verlassen.",
+    "buttonChangeFrictionText": "Reibungslevel ändern"
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Es scheint, du bist offline. Bitte geh online, um mit deinen Gewohnheiten fortzufahren.",

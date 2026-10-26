@@ -2421,7 +2421,14 @@
         "infoText": "If you want more of a nudge to stick to your habits, open preferences and change the friction level from the general settings tab.",
         "customTimeError": "Enter a valid positive number for minutes",
         "toolTipMinimumMinutes": "Pick a preset or type your own - minimum 1 minute",
-        "buttonSkipRoutineText": "Skip routine for today"
+        "buttonSkipRoutineText": "Skip routine for today",
+        "whyMorningRoutineText": "Your morning routine is still running, so Focus Bear checks in before you switch away.",
+        "whyEveningRoutineText": "Your evening routine is still running, so Focus Bear checks in before you switch away.",
+        "whyCustomRoutineText": "Your routine is still running, so Focus Bear checks in before you switch away.",
+        "whyBreakText": "Your break is still running, so Focus Bear checks in before you switch away.",
+        "frictionEasySkipText": "You've chosen the easiest friction level, so this is just a quick check.",
+        "frictionHardSkipText": "Your friction level asks Focus Bear to make leaving your habits harder.",
+        "buttonChangeFrictionText": "Change friction level"
     },
     "popUpOfflineVcInfo": {
         "titleOffline": "It seems like you're offline. Please go online to continue with your habits.",

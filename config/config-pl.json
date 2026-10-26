@@ -2033,7 +2033,14 @@
     "infoText": "Jeśli chcesz mocniejszego bodźca, żeby trzymać się nawyków, otwórz preferencje i zmień poziom tarcia w zakładce ustawień ogólnych.",
     "customTimeError": "Podaj prawidłową dodatnią liczbę minut",
     "toolTipMinimumMinutes": "Wybierz gotową opcję lub wpisz własną - minimum 1 minuta",
-    "buttonSkipRoutineText": "Pomiń dzisiejszą rutynę"
+    "buttonSkipRoutineText": "Pomiń dzisiejszą rutynę",
+    "whyMorningRoutineText": "Twoja poranna rutyna wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na inną aplikację.",
+    "whyEveningRoutineText": "Twoja wieczorna rutyna wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na inną aplikację.",
+    "whyCustomRoutineText": "Twoja rutyna wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na inną aplikację.",
+    "whyBreakText": "Twoja przerwa wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na inną aplikację.",
+    "frictionEasySkipText": "Masz ustawiony najniższy poziom tarcia, więc to tylko szybkie pytanie.",
+    "frictionHardSkipText": "Twój poziom tarcia prosi Focus Bear, by utrudniał ci porzucanie nawyków.",
+    "buttonChangeFrictionText": "Zmień poziom tarcia"
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Wygląda na to, że jesteś offline. Połącz się z internetem, aby kontynuować swoje nawyki.",
