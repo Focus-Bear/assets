@@ -2046,7 +2046,14 @@
     "infoText": "Jeśli chcesz mocniejszego bodźca, żeby trzymać się nawyków, otwórz preferencje i zmień poziom tarcia w zakładce ustawień ogólnych.",
     "customTimeError": "Podaj prawidłową dodatnią liczbę minut",
     "toolTipMinimumMinutes": "Wybierz gotową opcję lub wpisz własną - minimum 1 minuta",
-    "buttonSkipRoutineText": "Pomiń dzisiejszą rutynę"
+    "buttonSkipRoutineText": "Pomiń dzisiejszą rutynę",
+    "buttonChangeFrictionText": "Zmień poziom tarcia",
+    "frictionEasySkipText": "Wybrałeś najłatwiejszy poziom tarcia, więc to tylko szybkie sprawdzenie.",
+    "frictionHardSkipText": "Twój poziom tarcia prosi Focus Bear, by utrudnił Ci porzucanie nawyków.",
+    "whyBreakText": "Twoja przerwa wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na coś innego.",
+    "whyCustomRoutineText": "Twoja rutyna wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na coś innego.",
+    "whyEveningRoutineText": "Twoja wieczorna rutyna wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na coś innego.",
+    "whyMorningRoutineText": "Twoja poranna rutyna wciąż trwa, więc Focus Bear pyta, zanim przełączysz się na coś innego."
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Wygląda na to, że jesteś offline. Połącz się z internetem, aby kontynuować swoje nawyki.",
@@ -4742,7 +4749,13 @@
       "eventScopeThis": "Tylko to wydarzenie",
       "eventScopeTitle": "To jest wydarzenie cykliczne",
       "habitSkipAhead": "Pomiń",
-      "habitUnskipAhead": "Cofnij pominięcie"
+      "habitUnskipAhead": "Cofnij pominięcie",
+    "habitStartRoutineHere": "Rozpocznij",
+    "routineRestart": "Uruchom rutynę ponownie",
+    "routineStartBlockedFocusSession": "Najpierw zakończ sesję skupienia, a potem rozpocznij rutynę.",
+    "routineStartBlockedMeeting": "Jesteś na spotkaniu. Rutyna może się zacząć, gdy się skończy.",
+    "routineStartBlockedOutsideTime": "Ta rutyna może się zacząć tylko w swojej porze dnia.",
+    "routineStartNow": "Rozpocznij rutynę teraz"
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Śledzenie czasu",

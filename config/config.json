@@ -2429,7 +2429,14 @@
         "infoText": "If you want more of a nudge to stick to your habits, open preferences and change the friction level from the general settings tab.",
         "customTimeError": "Enter a valid positive number for minutes",
         "toolTipMinimumMinutes": "Pick a preset or type your own - minimum 1 minute",
-        "buttonSkipRoutineText": "Skip routine for today"
+        "buttonSkipRoutineText": "Skip routine for today",
+        "buttonChangeFrictionText": "Change friction level",
+        "frictionEasySkipText": "You've chosen the easiest friction level, so this is just a quick check.",
+        "frictionHardSkipText": "Your friction level asks Focus Bear to make leaving your habits harder.",
+        "whyBreakText": "Your break is still running, so Focus Bear checks in before you switch away.",
+        "whyCustomRoutineText": "Your routine is still running, so Focus Bear checks in before you switch away.",
+        "whyEveningRoutineText": "Your evening routine is still running, so Focus Bear checks in before you switch away.",
+        "whyMorningRoutineText": "Your morning routine is still running, so Focus Bear checks in before you switch away."
     },
     "popUpOfflineVcInfo": {
         "titleOffline": "It seems like you're offline. Please go online to continue with your habits.",
@@ -5104,7 +5111,13 @@
       "tasksShortcutPriority": "!1 to !5 — set importance (!5 is the most important)",
       "tasksShortcutProject": "#project — file the task under a project",
       "tasksShortcutsDismiss": "Don't show this again",
-      "tasksShortcutsTitle": "Shortcuts you can type in the name"
+      "tasksShortcutsTitle": "Shortcuts you can type in the name",
+      "habitStartRoutineHere": "Start",
+      "routineRestart": "Restart routine",
+      "routineStartBlockedFocusSession": "Stop the focus session first, then start the routine.",
+      "routineStartBlockedMeeting": "You're in a meeting. The routine can start once it's over.",
+      "routineStartBlockedOutsideTime": "This routine can only start in its own part of the day.",
+      "routineStartNow": "Start routine now"
     },
     "timeTrackerViewInfo":{
         "menuTimeTracker": "Time Tracker",

@@ -2046,7 +2046,14 @@
     "infoText": "Wenn du mehr Anstoß brauchst, um bei deinen Gewohnheiten zu bleiben, öffne die Einstellungen und ändere den Reibungslevel im Tab „Allgemein“.",
     "customTimeError": "Gib eine gültige positive Zahl an Minuten ein",
     "toolTipMinimumMinutes": "Wähl eine Vorgabe oder tipp deine eigene - mindestens 1 Minute",
-    "buttonSkipRoutineText": "Routine für heute überspringen"
+    "buttonSkipRoutineText": "Routine für heute überspringen",
+    "buttonChangeFrictionText": "Reibungsstufe ändern",
+    "frictionEasySkipText": "Du hast die leichteste Reibungsstufe gewählt, deshalb ist das nur eine kurze Kontrolle.",
+    "frictionHardSkipText": "Deine Reibungsstufe bittet Focus Bear, es dir schwerer zu machen, deine Gewohnheiten zu verlassen.",
+    "whyBreakText": "Deine Pause läuft noch, deshalb fragt Focus Bear nach, bevor du wechselst.",
+    "whyCustomRoutineText": "Deine Routine läuft noch, deshalb fragt Focus Bear nach, bevor du wechselst.",
+    "whyEveningRoutineText": "Deine Abendroutine läuft noch, deshalb fragt Focus Bear nach, bevor du wechselst.",
+    "whyMorningRoutineText": "Deine Morgenroutine läuft noch, deshalb fragt Focus Bear nach, bevor du wechselst."
   },
   "popUpOfflineVcInfo": {
     "titleOffline": "Es scheint, du bist offline. Bitte geh online, um mit deinen Gewohnheiten fortzufahren.",
@@ -4742,7 +4749,13 @@
       "eventScopeThis": "Nur diesen Termin",
       "eventScopeTitle": "Das ist ein wiederkehrender Termin",
       "habitSkipAhead": "Überspringen",
-      "habitUnskipAhead": "Nicht überspringen"
+      "habitUnskipAhead": "Nicht überspringen",
+    "habitStartRoutineHere": "Starten",
+    "routineRestart": "Routine neu starten",
+    "routineStartBlockedFocusSession": "Beende zuerst die Fokussitzung und starte dann die Routine.",
+    "routineStartBlockedMeeting": "Du bist in einem Meeting. Die Routine kann starten, sobald es vorbei ist.",
+    "routineStartBlockedOutsideTime": "Diese Routine kann nur in ihrem eigenen Teil des Tages starten.",
+    "routineStartNow": "Routine jetzt starten"
   },
   "timeTrackerViewInfo": {
     "menuTimeTracker": "Zeiterfassung",
