@@ -6926,7 +6926,10 @@
         "permUseTool": "Usar <TOOL>",
         "statusInterrupted": "Interrumpido",
         "resume": "Reanudar",
-        "interruptedNote": "Se interrumpió al reiniciarse Focus Bear. Reanuda para que Claude continúe.",
-        "interruptedWaitingFor": "Claude estaba esperando: <REQUEST>"
+        "refusedWhilePlanning": "No permitido mientras Claude planifica: <TOOL>",
+        "interruptedWorking": "Focus Bear se reinició mientras Claude trabajaba. Reanuda para que continúe.",
+        "interruptedPlan": "Focus Bear se reinició cuando el plan de Claude te esperaba. Reanuda para verlo de nuevo.",
+        "interruptedQuestions": "Focus Bear se reinició mientras Claude esperaba tus respuestas. Reanuda para responderle.",
+        "interruptedApproval": "Focus Bear se reinició mientras Claude esperaba tu aprobación (<REQUEST>). Reanuda y te lo volverá a pedir."
     }
 }

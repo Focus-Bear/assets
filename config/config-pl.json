@@ -6970,7 +6970,10 @@
         "permUseTool": "Użyć <TOOL>",
         "statusInterrupted": "Przerwano",
         "resume": "Wznów",
-        "interruptedNote": "Przerwano przy ponownym uruchomieniu Focus Bear. Wznów, aby Claude kontynuował.",
-        "interruptedWaitingFor": "Claude czekał na: <REQUEST>"
+        "refusedWhilePlanning": "Niedozwolone podczas planowania: <TOOL>",
+        "interruptedWorking": "Focus Bear uruchomił się ponownie, gdy Claude pracował. Wznów, aby kontynuował.",
+        "interruptedPlan": "Focus Bear uruchomił się ponownie, gdy plan Claude'a na ciebie czekał. Wznów, aby zobaczyć go ponownie.",
+        "interruptedQuestions": "Focus Bear uruchomił się ponownie, gdy Claude czekał na twoje odpowiedzi. Wznów, aby odpowiedzieć.",
+        "interruptedApproval": "Focus Bear uruchomił się ponownie, gdy Claude czekał na twoją zgodę (<REQUEST>). Wznów, a zapyta ponownie."
     }
 }
