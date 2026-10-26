@@ -6904,7 +6904,7 @@
         "safetyHeading": "Co Claude może, a czego nie",
         "safetyClarify": "Podczas zadawania pytań Claude może tylko czytać. Niczego nie może zmienić.",
         "safetyWork": "Po kliknięciu Do dzieła Claude może tworzyć i edytować pliki w folderze roboczym.",
-        "safetyRefused": "Wszystko inne, co wymaga zgody, na przykład uruchamianie poleceń lub zmiana plików w innych miejscach, jest odrzucane, chyba że twoje ustawienia Claude Code już na to pozwalają.",
+        "safetyRefused": "Wszystko inne, co wymaga zgody, na przykład uruchomienie polecenia lub zmiana plików poza folderem, czeka, aż na to pozwolisz albo odmówisz.",
         "safetyAccount": "Claude korzysta z twojego własnego konta i planu Claude Code.",
         "folderLabel": "Folder roboczy",
         "chooseFolder": "Wybierz…",
@@ -6928,6 +6928,16 @@
         "failed": "Claude Code zakończył działanie z błędem: <ERROR>",
         "couldNotStart": "Nie udało się uruchomić Claude Code: <ERROR>",
         "earlierConversation": "To zadanie zostało już wcześniej przekazane. Otwórz je w Claude, aby zobaczyć tę rozmowę, albo kontynuuj tutaj.",
-        "taskNote": "Przekazano Claude'owi <DATE>. Sesja: <SESSION>. Folder: <FOLDER>"
+        "taskNote": "Przekazano Claude'owi <DATE>. Sesja: <SESSION>. Folder: <FOLDER>",
+        "approvalHeading": "Claude prosi o pozwolenie",
+        "approvalOutsideFolder": "Poza folderem roboczym: <FOLDER>",
+        "allowOnce": "Zezwól raz",
+        "allowForThisTask": "Zawsze zezwalaj w tym zadaniu",
+        "deny": "Odmów",
+        "waitingForApproval": "Czeka na twoją zgodę",
+        "youAllowed": "Zezwolono: <TOOL>",
+        "youDenied": "Odmówiono: <TOOL>",
+        "notificationTitle": "Claude potrzebuje twojej zgody",
+        "notificationBody": "<TASK>: <REQUEST>"
     }
 }

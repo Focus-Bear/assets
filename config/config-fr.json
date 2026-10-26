@@ -6904,7 +6904,7 @@
         "safetyHeading": "Ce que Claude peut et ne peut pas faire",
         "safetyClarify": "Pendant qu'il pose des questions, Claude peut seulement lire. Il ne peut rien modifier.",
         "safetyWork": "Quand tu appuies sur C'est parti, Claude peut créer et modifier des fichiers dans le dossier de travail.",
-        "safetyRefused": "Tout le reste qui demande une autorisation, comme exécuter des commandes ou modifier des fichiers ailleurs, est refusé, sauf si tes propres réglages de Claude Code l'autorisent déjà.",
+        "safetyRefused": "Tout le reste qui demande une autorisation, comme exécuter une commande ou modifier des fichiers hors du dossier, attend que tu l'autorises ou le refuses.",
         "safetyAccount": "Claude utilise ton propre compte et ton abonnement Claude Code.",
         "folderLabel": "Dossier de travail",
         "chooseFolder": "Choisir…",
@@ -6928,6 +6928,16 @@
         "failed": "Claude Code s'est arrêté avec une erreur : <ERROR>",
         "couldNotStart": "Impossible de lancer Claude Code : <ERROR>",
         "earlierConversation": "Cette tâche a déjà été déléguée. Ouvre-la dans Claude pour voir cette conversation, ou continue ici.",
-        "taskNote": "Déléguée à Claude le <DATE>. Session : <SESSION>. Dossier : <FOLDER>"
+        "taskNote": "Déléguée à Claude le <DATE>. Session : <SESSION>. Dossier : <FOLDER>",
+        "approvalHeading": "Claude demande une autorisation",
+        "approvalOutsideFolder": "Hors du dossier de travail : <FOLDER>",
+        "allowOnce": "Autoriser une fois",
+        "allowForThisTask": "Toujours autoriser pour cette tâche",
+        "deny": "Refuser",
+        "waitingForApproval": "En attente de ton accord",
+        "youAllowed": "Tu as autorisé : <TOOL>",
+        "youDenied": "Tu as refusé : <TOOL>",
+        "notificationTitle": "Claude a besoin de ton accord",
+        "notificationBody": "<TASK> : <REQUEST>"
     }
 }

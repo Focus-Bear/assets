@@ -6862,7 +6862,7 @@
         "safetyHeading": "What Claude can and can't do",
         "safetyClarify": "While it asks questions, Claude can only read. It can't change anything.",
         "safetyWork": "After you press Go ahead, Claude can create and edit files in the working folder.",
-        "safetyRefused": "Anything else that needs permission, like running commands or changing files elsewhere, is refused unless your own Claude Code settings already allow it.",
+        "safetyRefused": "Anything else that needs permission, like running a command or changing files outside the folder, waits for you to allow or deny it.",
         "safetyAccount": "Claude uses your own Claude Code account and plan.",
         "folderLabel": "Working folder",
         "chooseFolder": "Choose…",
@@ -6886,6 +6886,16 @@
         "failed": "Claude Code stopped with an error: <ERROR>",
         "couldNotStart": "Couldn't start Claude Code: <ERROR>",
         "earlierConversation": "This task was delegated earlier. Open it in Claude to see that conversation, or carry on here.",
-        "taskNote": "Delegated to Claude on <DATE>. Session: <SESSION>. Folder: <FOLDER>"
+        "taskNote": "Delegated to Claude on <DATE>. Session: <SESSION>. Folder: <FOLDER>",
+        "approvalHeading": "Claude is asking for permission",
+        "approvalOutsideFolder": "Outside the working folder: <FOLDER>",
+        "allowOnce": "Allow once",
+        "allowForThisTask": "Always allow for this task",
+        "deny": "Deny",
+        "waitingForApproval": "Waiting for your approval",
+        "youAllowed": "You allowed: <TOOL>",
+        "youDenied": "You denied: <TOOL>",
+        "notificationTitle": "Claude needs your approval",
+        "notificationBody": "<TASK>: <REQUEST>"
     }
 }

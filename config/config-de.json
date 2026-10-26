@@ -6904,7 +6904,7 @@
         "safetyHeading": "Was Claude darf und was nicht",
         "safetyClarify": "Während Claude Fragen stellt, kann es nur lesen. Es kann nichts ändern.",
         "safetyWork": "Sobald du auf Los geht's klickst, kann Claude Dateien im Arbeitsordner erstellen und bearbeiten.",
-        "safetyRefused": "Alles andere, was eine Erlaubnis braucht, etwa Befehle ausführen oder Dateien woanders ändern, wird abgelehnt, sofern deine eigenen Claude-Code-Einstellungen es nicht bereits erlauben.",
+        "safetyRefused": "Alles andere, was eine Erlaubnis braucht, etwa einen Befehl ausführen oder Dateien außerhalb des Ordners ändern, wartet darauf, dass du es erlaubst oder ablehnst.",
         "safetyAccount": "Claude nutzt dein eigenes Claude-Code-Konto und deinen Tarif.",
         "folderLabel": "Arbeitsordner",
         "chooseFolder": "Auswählen…",
@@ -6928,6 +6928,16 @@
         "failed": "Claude Code wurde mit einem Fehler beendet: <ERROR>",
         "couldNotStart": "Claude Code konnte nicht gestartet werden: <ERROR>",
         "earlierConversation": "Diese Aufgabe wurde schon einmal delegiert. Öffne sie in Claude, um das Gespräch zu sehen, oder mach hier weiter.",
-        "taskNote": "Am <DATE> an Claude delegiert. Sitzung: <SESSION>. Ordner: <FOLDER>"
+        "taskNote": "Am <DATE> an Claude delegiert. Sitzung: <SESSION>. Ordner: <FOLDER>",
+        "approvalHeading": "Claude bittet um Erlaubnis",
+        "approvalOutsideFolder": "Außerhalb des Arbeitsordners: <FOLDER>",
+        "allowOnce": "Einmal erlauben",
+        "allowForThisTask": "Für diese Aufgabe immer erlauben",
+        "deny": "Ablehnen",
+        "waitingForApproval": "Wartet auf deine Freigabe",
+        "youAllowed": "Du hast erlaubt: <TOOL>",
+        "youDenied": "Du hast abgelehnt: <TOOL>",
+        "notificationTitle": "Claude braucht deine Freigabe",
+        "notificationBody": "<TASK>: <REQUEST>"
     }
 }

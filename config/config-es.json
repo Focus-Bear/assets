@@ -6860,7 +6860,7 @@
         "safetyHeading": "Qué puede y qué no puede hacer Claude",
         "safetyClarify": "Mientras hace preguntas, Claude solo puede leer. No puede cambiar nada.",
         "safetyWork": "Cuando pulses Adelante, Claude podrá crear y editar archivos en la carpeta de trabajo.",
-        "safetyRefused": "Cualquier otra cosa que necesite permiso, como ejecutar comandos o cambiar archivos en otro lugar, se rechaza salvo que tu propia configuración de Claude Code ya lo permita.",
+        "safetyRefused": "Cualquier otra cosa que necesite permiso, como ejecutar un comando o cambiar archivos fuera de la carpeta, espera a que la permitas o la rechaces.",
         "safetyAccount": "Claude usa tu propia cuenta y tu plan de Claude Code.",
         "folderLabel": "Carpeta de trabajo",
         "chooseFolder": "Elegir…",
@@ -6884,6 +6884,16 @@
         "failed": "Claude Code se detuvo con un error: <ERROR>",
         "couldNotStart": "No se pudo iniciar Claude Code: <ERROR>",
         "earlierConversation": "Esta tarea ya se delegó antes. Ábrela en Claude para ver esa conversación o continúa aquí.",
-        "taskNote": "Delegada a Claude el <DATE>. Sesión: <SESSION>. Carpeta: <FOLDER>"
+        "taskNote": "Delegada a Claude el <DATE>. Sesión: <SESSION>. Carpeta: <FOLDER>",
+        "approvalHeading": "Claude está pidiendo permiso",
+        "approvalOutsideFolder": "Fuera de la carpeta de trabajo: <FOLDER>",
+        "allowOnce": "Permitir una vez",
+        "allowForThisTask": "Permitir siempre en esta tarea",
+        "deny": "Rechazar",
+        "waitingForApproval": "Esperando tu aprobación",
+        "youAllowed": "Permitiste: <TOOL>",
+        "youDenied": "Rechazaste: <TOOL>",
+        "notificationTitle": "Claude necesita tu aprobación",
+        "notificationBody": "<TASK>: <REQUEST>"
     }
 }
