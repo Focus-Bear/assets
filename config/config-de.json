@@ -6532,6 +6532,7 @@
     "mediaPromptCameraAndMicrophone": "<SITE> erlauben, deine Kamera und dein Mikrofon zu verwenden?",
     "focusFilterFeedHidden": "Feed von Focus Bear ausgeblendet",
     "focusFilterNewsHidden": "Nachrichten von Focus Bear ausgeblendet",
+    "focusFilterPuzzlesHidden": "Rätsel von Focus Bear ausgeblendet",
     "focusFilterSidebarHidden": "Seitenleiste von Focus Bear ausgeblendet",
     "focusFilterActivityHidden": "Aktivität von Focus Bear ausgeblendet",
     "focusFilterNotificationsHidden": "Benachrichtigungen von Focus Bear ausgeblendet",

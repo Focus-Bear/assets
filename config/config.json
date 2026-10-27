@@ -6490,6 +6490,7 @@
         "mediaPromptCameraAndMicrophone": "Allow <SITE> to use your camera and microphone?",
         "focusFilterFeedHidden": "Feed hidden by Focus Bear",
         "focusFilterNewsHidden": "News hidden by Focus Bear",
+        "focusFilterPuzzlesHidden": "Puzzles hidden by Focus Bear",
         "focusFilterSidebarHidden": "Sidebar hidden by Focus Bear",
         "focusFilterActivityHidden": "Activity hidden by Focus Bear",
         "focusFilterNotificationsHidden": "Notifications hidden by Focus Bear",

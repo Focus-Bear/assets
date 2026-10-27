@@ -6488,6 +6488,7 @@
         "mediaPromptCameraAndMicrophone": "¿Permitir que <SITE> use tu cámara y tu micrófono?",
         "focusFilterFeedHidden": "Focus Bear ocultó el feed",
         "focusFilterNewsHidden": "Focus Bear ocultó las noticias",
+        "focusFilterPuzzlesHidden": "Focus Bear ocultó los juegos",
         "focusFilterSidebarHidden": "Focus Bear ocultó la barra lateral",
         "focusFilterActivityHidden": "Focus Bear ocultó la actividad",
         "focusFilterNotificationsHidden": "Focus Bear ocultó las notificaciones",
