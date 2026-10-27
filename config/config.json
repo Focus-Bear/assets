@@ -5602,6 +5602,7 @@
         "aiDecisionNoDetail": "No AI reason recorded for this decision.",
         "aiDecisionDetailHint": "Why your buddy flagged this",
         "argueButton": "This is relevant - let me explain",
+        "presentingAllowForCall": "I'm presenting — allow for this call",
         "blockButton": "Block it and stay focused",
         "saveCurrentButton": "Save as task for later",
         "back": "Back",

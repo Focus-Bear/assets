@@ -5202,6 +5202,7 @@
     "aiDecisionNoDetail": "Aucune raison de l’IA enregistrée pour cette décision.",
     "aiDecisionDetailHint": "Pourquoi ton partenaire a signalé ceci",
     "argueButton": "C’est pertinent - laisse-moi t’expliquer",
+    "presentingAllowForCall": "Je présente — autoriser pendant cet appel",
     "blockButton": "Bloque-le et reste concentré",
     "saveCurrentButton": "Enregistrer comme tâche pour plus tard",
     "back": "Retour",
