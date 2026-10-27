@@ -6868,6 +6868,7 @@
     "feedbackRecentShareText": "5 dernières min : <PERCENT> %",
     "feedbackSpeedText": "Votre débit de parole",
     "feedbackPaceSlowText": "Lent",
+    "feedbackPaceMeasuredText": "Rythme posé",
     "feedbackPaceGoodText": "Bon rythme",
     "feedbackPaceFastText": "Rapide",
     "feedbackPaceVeryFastText": "Extrêmement rapide",
