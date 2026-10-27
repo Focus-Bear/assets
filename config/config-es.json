@@ -372,6 +372,7 @@
         "titleActivatingBlockingProgress": "Establecer bloqueo de distracciones",
         "titleSettingHabitsProgress": "Activar Funciones",
         "toolTipMeetingsText": "Hemos detectado que estás en una videollamada y no mostraremos descansos durante este tiempo",
+        "toolTipPresentingText": "Presentando: Focus Bear no consultará a la IA sobre los sitios hasta que dejes de compartir",
         "unblockNotAvailableText": "Estás en modo superestricto - cambia tu configuración para desbloquear",
         "unblockNotAvailableForFocusBlockedUrlText": "No puedes desbloquear este sitio porque actualmente está en la lista de URLs bloqueadas para tu sesión de enfoque.",
         "buttonEndFocusSessionText": "He terminado, finalizar sesión de enfoque",

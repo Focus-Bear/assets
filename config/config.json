@@ -372,6 +372,7 @@
         "titleActivatingBlockingProgress": "Set up distraction blocking",
         "titleSettingHabitsProgress": "Activate Features",
         "toolTipMeetingsText": "We've detected that you're in a video call and won't show breaks during this time",
+        "toolTipPresentingText": "Presenting: Focus Bear won't ask the AI about sites until you stop sharing",
         "unblockNotAvailableText": "You're in super strict mode - change your settings to unblock",
         "unblockNotAvailableForFocusBlockedUrlText": "You can't unblock this site because it's currently listed under the blocked URLs for your focus session",
         "buttonEndFocusSessionText": "I'm done, End focus session",
