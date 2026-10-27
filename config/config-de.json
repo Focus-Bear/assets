@@ -353,6 +353,7 @@
     "titleActivatingBlockingProgress": "Ablenkungsblockierung einrichten",
     "titleSettingHabitsProgress": "Funktionen aktivieren",
     "toolTipMeetingsText": "Wir haben erkannt, dass du in einem Videoanruf bist, und zeigen währenddessen keine Pausen.",
+    "toolTipPresentingText": "Präsentation: Focus Bear fragt die KI nicht zu Websites, bis du die Bildschirmfreigabe beendest",
     "unblockNotAvailableText": "Du bist im super-strikten Modus – ändere deine Einstellungen, um zu entsperren.",
     "unblockNotAvailableForFocusBlockedUrlText": "Diese Seite lässt sich nicht entsperren, da sie in den blockierten URLs deiner Fokussitzung steht.",
     "buttonEndFocusSessionText": "Ich bin fertig, Fokussitzung beenden",
