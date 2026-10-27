@@ -6908,7 +6908,6 @@
         "delegateButton": "Delegar a Claude",
         "delegatedBadge": "Delegada a Claude",
         "sheetTitle": "Delegar a Claude",
-        "safetyHeading": "Qué puede y qué no puede hacer Claude",
         "safetyClarify": "Mientras planifica y te hace sus preguntas, Claude solo puede leer. No puede cambiar nada.",
         "safetyWork": "Cuando pulses Empezar, Claude trabaja en la carpeta de trabajo. La comprobación de seguridad de Claude Code aprueba sola las acciones rutinarias y detiene las arriesgadas; si Claude aún necesita una, te lo pregunta.",
         "safetyRefused": "Cualquier otra cosa que necesite permiso, como ejecutar un comando o cambiar archivos fuera de la carpeta, espera a que la permitas o la rechaces.",
@@ -6925,9 +6924,7 @@
         "openFolder": "Abrir carpeta",
         "speakerYou": "Tú",
         "speakerClaude": "Claude",
-        "usedTool": "Usó <TOOL>",
         "refusedTools": "No permitido: <TOOL>",
-        "finishedWork": "Claude ha terminado. Su trabajo está en la carpeta de trabajo.",
         "stopped": "Detenido.",
         "failed": "Claude Code se detuvo con un error: <ERROR>",
         "couldNotStart": "No se pudo iniciar Claude Code: <ERROR>",
@@ -6981,6 +6978,13 @@
         "interruptedWorking": "Focus Bear se reinició mientras Claude trabajaba. Reanuda para que continúe.",
         "interruptedPlan": "Focus Bear se reinició cuando el plan de Claude te esperaba. Reanuda para verlo de nuevo.",
         "interruptedQuestions": "Focus Bear se reinició mientras Claude esperaba tus respuestas. Reanuda para responderle.",
-        "interruptedApproval": "Focus Bear se reinició mientras Claude esperaba tu aprobación (<REQUEST>). Reanuda y te lo volverá a pedir."
+        "interruptedApproval": "Focus Bear se reinició mientras Claude esperaba tu aprobación (<REQUEST>). Reanuda y te lo volverá a pedir.",
+        "ranCommands": "Ejecutó <COUNT> comandos",
+        "usedTools": "Usó <COUNT> herramientas",
+        "workStartedMessage": "Vale, Claude se pone con ello 🤓",
+        "explainerPlanning": "Claude está planificando. Solo puede leer hasta que apruebes el plan.",
+        "explainerWorking": "Claude está trabajando en la carpeta. Te pregunta antes de hacer algo arriesgado.",
+        "dismissExplainer": "Ocultar",
+        "needsYou": "Te necesita"
     }
 }

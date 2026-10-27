@@ -6910,7 +6910,6 @@
         "delegateButton": "Delegate to Claude",
         "delegatedBadge": "Delegated to Claude",
         "sheetTitle": "Delegate to Claude",
-        "safetyHeading": "What Claude can and can't do",
         "safetyClarify": "While it plans and asks its questions, Claude can only read. It can't change anything.",
         "safetyWork": "After you press Start work, Claude works in the working folder. Claude Code's safety check approves routine actions on its own and stops risky ones; if Claude still needs one, it asks you.",
         "safetyRefused": "Anything else that needs permission, like running a command or changing files outside the folder, waits for you to allow or deny it.",
@@ -6927,9 +6926,7 @@
         "openFolder": "Open folder",
         "speakerYou": "You",
         "speakerClaude": "Claude",
-        "usedTool": "Used <TOOL>",
         "refusedTools": "Not allowed: <TOOL>",
-        "finishedWork": "Claude has finished. Its work is in the working folder.",
         "stopped": "Stopped.",
         "failed": "Claude Code stopped with an error: <ERROR>",
         "couldNotStart": "Couldn't start Claude Code: <ERROR>",
@@ -6983,6 +6980,13 @@
         "interruptedWorking": "Focus Bear restarted while Claude was working. Resume to let it carry on.",
         "interruptedPlan": "Focus Bear restarted while Claude's plan was ready for you. Resume to see it again.",
         "interruptedQuestions": "Focus Bear restarted while Claude was waiting for your answers. Resume to answer them.",
-        "interruptedApproval": "Focus Bear restarted while Claude was waiting for your approval (<REQUEST>). Resume and it will ask again."
+        "interruptedApproval": "Focus Bear restarted while Claude was waiting for your approval (<REQUEST>). Resume and it will ask again.",
+        "ranCommands": "Ran <COUNT> commands",
+        "usedTools": "Used <COUNT> tools",
+        "workStartedMessage": "Ok Claude is on it 🤓",
+        "explainerPlanning": "Claude is planning. It can only read until you approve the plan.",
+        "explainerWorking": "Claude is working in the folder. It asks before anything risky.",
+        "dismissExplainer": "Hide this",
+        "needsYou": "Needs you"
     }
 }
