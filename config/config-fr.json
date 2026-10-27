@@ -6831,6 +6831,7 @@
     "feedbackOnThisMacText": "Calculé sur ce Mac. Rien n’est envoyé.",
     "showFeedbackText": "Afficher le retour sur la réunion",
     "recordingSettingsText": "Réglages d’enregistrement…",
+    "recordingOffText": "Enregistrement désactivé",
     "liveSettingsTitle": "Réglages d’enregistrement de cette réunion",
     "liveSettingsSetAtStartText": "Fixé au début de l’enregistrement. Arrêtez puis relancez l’enregistrement pour le modifier.",
     "liveSettingsSlidesInVideoText": "L’enregistrement de l’écran capture déjà les diapositives.",

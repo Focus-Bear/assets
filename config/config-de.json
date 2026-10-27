@@ -6831,6 +6831,7 @@
     "feedbackOnThisMacText": "Auf diesem Mac berechnet. Es wird nichts hochgeladen.",
     "showFeedbackText": "Meeting-Feedback anzeigen",
     "recordingSettingsText": "Aufnahmeeinstellungen…",
+    "recordingOffText": "Aufnahme deaktiviert",
     "liveSettingsTitle": "Aufnahmeeinstellungen für dieses Meeting",
     "liveSettingsSetAtStartText": "Beim Start der Aufnahme festgelegt. Beende die Aufnahme und starte sie neu, um das zu ändern.",
     "liveSettingsSlidesInVideoText": "Die Bildschirmaufnahme erfasst die Folien bereits.",
