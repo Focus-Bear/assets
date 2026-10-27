@@ -5600,6 +5600,7 @@
         "aiDecisionNoDetail": "No se registró ningún motivo de la IA para esta decisión.",
         "aiDecisionDetailHint": "Por qué tu compañero lo marcó",
         "argueButton": "Es relevante - déjame explicarlo",
+        "presentingAllowForCall": "Estoy presentando: permitir durante esta llamada",
         "blockButton": "Bloquéalo y mantén el enfoque",
         "saveCurrentButton": "Guardar como tarea para después",
         "back": "Atrás",
