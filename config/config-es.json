@@ -6782,6 +6782,7 @@
         "feedbackOnThisMacText": "Calculado en este Mac. No se sube nada.",
         "showFeedbackText": "Mostrar comentarios de la reunión",
         "recordingSettingsText": "Ajustes de grabación…",
+        "recordingOffText": "Grabación desactivada",
         "liveSettingsTitle": "Ajustes de grabación de esta reunión",
         "liveSettingsSetAtStartText": "Se fijó al empezar la grabación. Detén la grabación y vuelve a grabar para cambiarlo.",
         "liveSettingsSlidesInVideoText": "La grabación de pantalla ya captura las diapositivas.",

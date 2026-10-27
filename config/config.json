@@ -6784,6 +6784,7 @@
         "feedbackOnThisMacText": "Worked out on this Mac. Nothing is uploaded.",
         "showFeedbackText": "Show meeting feedback",
         "recordingSettingsText": "Recording settings…",
+        "recordingOffText": "Recording disabled",
         "liveSettingsTitle": "Recording settings for this meeting",
         "liveSettingsSetAtStartText": "Set when the recording started. Stop and record again to change it.",
         "liveSettingsSlidesInVideoText": "The screen recording already captures slides.",
