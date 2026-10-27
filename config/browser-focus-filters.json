@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "rules": [
     {
       "id": "linkedin-feed",
@@ -31,12 +31,35 @@
       ],
       "selectors": [
         "#feed-news-module",
-        "aside[aria-label=\"LinkedIn News\"]",
-        "aside[aria-label*=\"news\" i]",
         "[data-view-name=\"news-module\"]"
+      ],
+      "cardHeadings": [
+        "LinkedIn News"
+      ],
+      "cardAnchors": [
+        "a[href*=\"/news/story/\"]"
       ],
       "action": "blur",
       "labelKey": "focusFilterNewsHidden",
+      "unlockCategory": "linkedin.com/feed"
+    },
+    {
+      "id": "linkedin-puzzles",
+      "hosts": [
+        "linkedin.com"
+      ],
+      "paths": [
+        "/feed*"
+      ],
+      "selectors": [],
+      "cardHeadings": [
+        "Today's puzzles"
+      ],
+      "cardAnchors": [
+        "a[href*=\"/games/\"]"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterPuzzlesHidden",
       "unlockCategory": "linkedin.com/feed"
     },
     {
@@ -73,7 +96,26 @@
         "a[aria-label^=\"Notifications\" i] [class*=\"badge\" i]",
         "a[aria-label^=\"Messaging\" i] [class*=\"badge\" i]",
         "a[aria-label^=\"My Network\" i] [class*=\"badge\" i]",
-        "a[aria-label^=\"Jobs\" i] [class*=\"badge\" i]"
+        "a[aria-label^=\"Jobs\" i] [class*=\"badge\" i]",
+        "[aria-label*=\"new notification\" i] span[data-color-scheme]",
+        "[aria-label*=\"new message\" i] span[data-color-scheme]",
+        "[aria-label*=\"new invitation\" i] span[data-color-scheme]",
+        "[aria-label*=\"new invite\" i] span[data-color-scheme]",
+        "[aria-label*=\"new update\" i] span[data-color-scheme]"
+      ],
+      "countBadgesIn": [
+        "a[aria-label^=\"Notifications\" i]",
+        "a[aria-label^=\"Messaging\" i]",
+        "a[aria-label^=\"My Network\" i]",
+        "a[aria-label^=\"Jobs\" i]",
+        "button[aria-label^=\"Notifications\" i]",
+        "button[aria-label^=\"Messaging\" i]",
+        "button[aria-label^=\"My Network\" i]",
+        "button[aria-label^=\"Jobs\" i]",
+        "header a[href*=\"/notifications\"]",
+        "header a[href*=\"/messaging\"]",
+        "header a[href*=\"/mynetwork\"]",
+        "header a[href*=\"/jobs\"]"
       ],
       "action": "hide",
       "labelKey": "focusFilterNotificationsHidden",
