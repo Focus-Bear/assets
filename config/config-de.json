@@ -2096,6 +2096,7 @@
     "aiToggleTooltip": "KI an: Websites und Apps, die nicht auf deinen Listen stehen, werden anhand deines Fokus geprüft und blockiert, wenn sie nicht passen. KI aus: Es gelten nur deine Block- und Erlaubnislisten.",
     "aiOnNotice": "Websites und Apps auf deiner Blockliste werden blockiert und die auf deiner Erlaubnisliste werden zugelassen. Alles andere prüft die KI und blockiert es, wenn es nicht zu deinem Fokus passt.",
     "aiOffNotice": "Websites und Apps auf deiner Blockliste werden blockiert und die auf deiner Erlaubnisliste werden zugelassen. Alles andere wird blockiert.",
+    "blockListAiOffNotice": "Websites und Apps auf deiner Blockliste werden blockiert. Alles andere wird zugelassen.",
     "websitesLabel": "Websites",
     "noSearchMatches": "Nichts in dieser Liste passt zu deiner Suche.",
     "noEntriesAllowList": "In dieser Liste ist noch nichts erlaubt.",

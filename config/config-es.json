@@ -2479,6 +2479,7 @@
         "aiToggleTooltip": "IA activada: los sitios y apps que no están en tus listas se comprueban según tu enfoque y se bloquean si no encajan. IA desactivada: solo se aplican tus listas de bloqueo y de permitidos.",
         "aiOnNotice": "Los sitios y apps de tu lista de bloqueo se bloquean y los de tu lista de permitidos se permiten. Todo lo demás lo comprueba la IA y lo bloquea si no encaja con tu enfoque.",
         "aiOffNotice": "Los sitios y apps de tu lista de bloqueo se bloquean y los de tu lista de permitidos se permiten. Todo lo demás se bloquea.",
+        "blockListAiOffNotice": "Los sitios y apps de tu lista de bloqueo se bloquean. Todo lo demás se permite.",
         "websitesLabel": "Sitios web",
         "noSearchMatches": "Nada en esta lista coincide con tu búsqueda.",
         "noEntriesAllowList": "Todavía no hay nada permitido en esta lista.",
