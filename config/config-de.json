@@ -6952,7 +6952,6 @@
         "delegateButton": "An Claude delegieren",
         "delegatedBadge": "An Claude delegiert",
         "sheetTitle": "An Claude delegieren",
-        "safetyHeading": "Was Claude darf und was nicht",
         "safetyClarify": "Während Claude plant und seine Fragen stellt, kann es nur lesen. Es kann nichts ändern.",
         "safetyWork": "Sobald du auf Loslegen klickst, arbeitet Claude im Arbeitsordner. Die Sicherheitsprüfung von Claude Code genehmigt Routineaktionen selbst und stoppt riskante; braucht Claude eine davon trotzdem, fragt es dich.",
         "safetyRefused": "Alles andere, was eine Erlaubnis braucht, etwa einen Befehl ausführen oder Dateien außerhalb des Ordners ändern, wartet darauf, dass du es erlaubst oder ablehnst.",
@@ -6969,9 +6968,7 @@
         "openFolder": "Ordner öffnen",
         "speakerYou": "Du",
         "speakerClaude": "Claude",
-        "usedTool": "<TOOL> verwendet",
         "refusedTools": "Nicht erlaubt: <TOOL>",
-        "finishedWork": "Claude ist fertig. Das Ergebnis liegt im Arbeitsordner.",
         "stopped": "Gestoppt.",
         "failed": "Claude Code wurde mit einem Fehler beendet: <ERROR>",
         "couldNotStart": "Claude Code konnte nicht gestartet werden: <ERROR>",
@@ -7025,6 +7022,13 @@
         "interruptedWorking": "Focus Bear wurde neu gestartet, während Claude arbeitete. Setze fort, damit es weitermacht.",
         "interruptedPlan": "Focus Bear wurde neu gestartet, als Claudes Plan für dich bereitlag. Setze fort, um ihn wieder zu sehen.",
         "interruptedQuestions": "Focus Bear wurde neu gestartet, während Claude auf deine Antworten wartete. Setze fort, um sie zu beantworten.",
-        "interruptedApproval": "Focus Bear wurde neu gestartet, während Claude auf deine Freigabe wartete (<REQUEST>). Setze fort, dann fragt es erneut."
+        "interruptedApproval": "Focus Bear wurde neu gestartet, während Claude auf deine Freigabe wartete (<REQUEST>). Setze fort, dann fragt es erneut.",
+        "ranCommands": "<COUNT> Befehle ausgeführt",
+        "usedTools": "<COUNT> Werkzeuge verwendet",
+        "workStartedMessage": "Ok, Claude legt los 🤓",
+        "explainerPlanning": "Claude plant. Es kann nur lesen, bis du den Plan freigibst.",
+        "explainerWorking": "Claude arbeitet im Ordner. Vor allem Riskanten fragt es dich.",
+        "dismissExplainer": "Ausblenden",
+        "needsYou": "Braucht dich"
     }
 }
