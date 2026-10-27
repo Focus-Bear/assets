@@ -1438,6 +1438,7 @@
     "couldNotUpdateNoteText": "Notiz konnte nicht aktualisiert werden",
     "requestFailedText": "Anfrage konnte nicht verarbeitet werden",
     "moreFormattingText": "Weitere Formatierung",
+    "insertEmojiText": "Emoji einfügen",
     "indentListItemText": "Einrücken",
     "outdentListItemText": "Ausrücken",
     "boldText": "Fett",
@@ -4894,7 +4895,8 @@
     "taskEmbed": "Verknüpfte Aufgabe",
     "taskListEmbed": "Aufgabenliste",
     "checklist": "Checkliste",
-    "checklistItem": "Checklisten-Eintrag"
+    "checklistItem": "Checklisten-Eintrag",
+    "insertEmoji": "Emoji einfügen"
   },
   "menuView": {
     "blockingPausedTitle": "Blockieren pausiert · noch <TIME>",
