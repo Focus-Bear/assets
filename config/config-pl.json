@@ -2096,6 +2096,7 @@
     "aiToggleTooltip": "AI wł.: strony i aplikacje spoza Twoich list są sprawdzane pod kątem Twojego skupienia i blokowane, jeśli nie pasują. AI wył.: obowiązują tylko Twoje listy blokowania i dozwolonych.",
     "aiOnNotice": "Strony i aplikacje z Twojej listy blokowania są blokowane, a te z listy dozwolonych są dozwolone. Cała reszta jest sprawdzana przez AI i blokowana, jeśli nie pasuje do Twojego skupienia.",
     "aiOffNotice": "Strony i aplikacje z Twojej listy blokowania są blokowane, a te z listy dozwolonych są dozwolone. Cała reszta jest blokowana.",
+    "blockListAiOffNotice": "Strony i aplikacje z Twojej listy blokowania są blokowane. Cała reszta jest dozwolona.",
     "websitesLabel": "Strony",
     "noSearchMatches": "Nic na tej liście nie pasuje do wyszukiwania.",
     "noEntriesAllowList": "Na tej liście nic jeszcze nie jest dozwolone.",
