@@ -5911,6 +5911,7 @@
     "categories": {
       "adult": "Treści dla dorosłych",
       "auctions": "Aukcje",
+      "blocking_bypass": "Strony do obchodzenia blokad",
       "browser_runtime_attack": "Ataki w środowisku przeglądarki",
       "command_and_control": "Serwery dowodzenia i kontroli",
       "compromised_website": "Zainfekowana strona",

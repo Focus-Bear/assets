@@ -5911,6 +5911,7 @@
     "categories": {
       "adult": "Contenu adulte",
       "auctions": "Enchères",
+      "blocking_bypass": "Sites de contournement du blocage",
       "browser_runtime_attack": "Attaque d’exécution navigateur",
       "command_and_control": "Commande et contrôle",
       "compromised_website": "Site compromis",

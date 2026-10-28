@@ -6346,6 +6346,7 @@
         "categories": {
             "adult": "Contenido para adultos",
             "auctions": "Subastas",
+            "blocking_bypass": "Sitios para saltarse el bloqueo",
             "browser_runtime_attack": "Ataques durante la ejecución del navegador",
             "command_and_control": "Comando y control",
             "compromised_website": "Sitio web comprometido",
