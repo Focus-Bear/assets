@@ -1232,6 +1232,7 @@
     "passwordDisableDoneText": "Ton mot de passe a été désactivé.",
     "titleAskPassword": "Demander le mot de passe :",
     "questionPassword": "Quand veux-tu exiger un mot de passe ?",
+    "questionPasswordBeforeSetText": "Définis d'abord un mot de passe, puis choisis quand il est demandé.",
     "buttonQuitAppText": "Quitter/désactiver l'application",
     "buttonStopPomodoroText": "Arrêt de la session Super Focus",
     "buttonAbortingShutoffText": "Utiliser ton ordinateur tard le soir",

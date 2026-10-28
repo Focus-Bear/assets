@@ -1229,6 +1229,7 @@
         "passwordDisableDoneText": "Tu contraseña ha sido deshabilitada",
         "titleAskPassword": "Preguntar por contraseña:",
         "questionPassword": "¿Cuándo requieres que se solicite contraseña?",
+        "questionPasswordBeforeSetText": "Primero establece una contraseña y luego elige cuándo se solicita.",
         "buttonQuitAppText": "Salir/desactivar la app",
         "buttonStopPomodoroText": "Detener sesión de superenfoque",
         "buttonAbortingShutoffText": "Usar computadora hasta tarde en la noche",

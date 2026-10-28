@@ -1232,6 +1232,7 @@
     "passwordDisableDoneText": "Dein Passwort wurde deaktiviert.",
     "titleAskPassword": "Passwort verlangen:",
     "questionPassword": "Wann möchtest du ein Passwort verlangen?",
+    "questionPasswordBeforeSetText": "Lege zuerst ein Passwort fest und wähle dann, wann es verlangt wird.",
     "buttonQuitAppText": "App beenden/deaktivieren",
     "buttonStopPomodoroText": "Super-Fokus-Sitzung beenden",
     "buttonAbortingShutoffText": "Den Computer spät in der Nacht nutzen",
