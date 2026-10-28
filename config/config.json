@@ -1228,6 +1228,7 @@
         "passwordDisableDoneText": "Your password has been disabled.",
         "titleAskPassword": "Ask for password:",
         "questionPassword": "When do you want to require a password?",
+        "questionPasswordBeforeSetText": "Set a password first, then choose when it's required.",
         "buttonQuitAppText": "Quitting/deactivating app",
         "buttonStopPomodoroText": "Stopping Super Focus Session",
         "buttonAbortingShutoffText": "Using your computer late at night",

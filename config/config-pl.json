@@ -1232,6 +1232,7 @@
     "passwordDisableDoneText": "Twoje hasło zostało wyłączone.",
     "titleAskPassword": "Wymagaj hasła:",
     "questionPassword": "Kiedy chcesz wymagać hasła?",
+    "questionPasswordBeforeSetText": "Najpierw ustaw hasło, a potem wybierz, kiedy ma być wymagane.",
     "buttonQuitAppText": "Zamykanie/wyłączanie aplikacji",
     "buttonStopPomodoroText": "Zatrzymywanie sesji Super Skupienia",
     "buttonAbortingShutoffText": "Korzystanie z komputera późną nocą",
