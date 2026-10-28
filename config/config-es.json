@@ -7055,6 +7055,9 @@
         "explainerPlanning": "Claude está planificando. Solo puede leer hasta que apruebes el plan.",
         "explainerWorking": "Claude está trabajando en la carpeta. Te pregunta antes de hacer algo arriesgado.",
         "dismissExplainer": "Ocultar",
-        "needsYou": "Te necesita"
+        "needsYou": "Te necesita",
+        "followUpPlaceholder": "Dile a Claude qué hacer ahora…",
+        "followUpSend": "Enviar",
+        "followUpSendHelp": "Enviar (⌘Return). Claude sigue en la misma conversación y la misma carpeta."
     }
 }

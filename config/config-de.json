@@ -7098,6 +7098,9 @@
         "explainerPlanning": "Claude plant. Es kann nur lesen, bis du den Plan freigibst.",
         "explainerWorking": "Claude arbeitet im Ordner. Vor allem Riskanten fragt es dich.",
         "dismissExplainer": "Ausblenden",
-        "needsYou": "Braucht dich"
+        "needsYou": "Braucht dich",
+        "followUpPlaceholder": "Sag Claude, was als Nächstes zu tun ist…",
+        "followUpSend": "Senden",
+        "followUpSendHelp": "Senden (⌘Return). Claude macht in derselben Unterhaltung und im selben Ordner weiter."
     }
 }
