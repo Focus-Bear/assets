@@ -4943,7 +4943,9 @@
     "queuedUntilBedtime": "In der Warteschlange, bis du schlafen gehst",
     "queuedUntilBedtimeDetail": "Nach 18 Uhr eingereicht, daher beginnt Claude damit um 23 Uhr.",
     "queuedStartsAt": "Beginnt um <TIME>",
-    "queuedLateNightDetail": "Spät in der Nacht eingereicht, daher wartet Claude 2 Stunden, bevor es beginnt."
+    "queuedLateNightDetail": "Spät in der Nacht eingereicht, daher wartet Claude 2 Stunden, bevor es beginnt.",
+    "reviewOpensAt": "Die Überprüfung beginnt um <TIME>",
+    "reviewLockedExplanation": "Du kannst weiterhin neue Probleme melden und offenen Berichten Details hinzufügen."
   },
   "projectNoteEditor": {
     "loading": "Notiz wird geladen…",
