@@ -7113,5 +7113,25 @@
         "followUpPlaceholder": "Sag Claude, was als Nächstes zu tun ist…",
         "followUpSend": "Senden",
         "followUpSendHelp": "Senden (⌘Return). Claude macht in derselben Unterhaltung und im selben Ordner weiter."
+    },
+    "browserExtensionCheckInfo": {
+        "warningTitle": "'<EXTENSION>' ausschalten",
+        "warningClass": "Schalte '<EXTENSION>' in <BROWSER> innerhalb von <SECONDS> Sekunden aus oder entferne es, sonst wird <BROWSER> während des Unterrichts gesperrt.",
+        "warningManaged": "Schalte '<EXTENSION>' in <BROWSER> innerhalb von <SECONDS> Sekunden aus oder entferne es, sonst wird <BROWSER> gesperrt, solange die Schul- oder Elternkontrollen aktiv sind.",
+        "why": "Sie kann Websites anzeigen, die Focus Bear nicht prüfen kann.",
+        "secondsLeft": "Noch <SECONDS> Sekunden",
+        "stepOpen": "Öffne <PAGE>",
+        "stepTurnOff": "Suche '<EXTENSION>' und schalte es aus oder klicke auf Entfernen.",
+        "openButton": "Erweiterungsseite öffnen",
+        "lockedTitle": "<BROWSER> ist gesperrt",
+        "lockedClass": "'<EXTENSION>' ist noch eingeschaltet, daher ist <BROWSER> während des Unterrichts gesperrt. Die Sperre endet, sobald du es ausschaltest oder entfernst.",
+        "lockedManaged": "'<EXTENSION>' ist noch eingeschaltet, daher ist <BROWSER> gesperrt, solange die Schul- oder Elternkontrollen aktiv sind. Die Sperre endet, sobald du es ausschaltest oder entfernst.",
+        "lockedPageNote": "Die Erweiterungsseite lässt sich auch im gesperrten Zustand öffnen.",
+        "turnedOffTitle": "Danke, '<EXTENSION>' ist aus",
+        "turnedOffBody": "Du kannst <BROWSER> weiter verwenden.",
+        "unlockedTitle": "<BROWSER> ist entsperrt",
+        "unlockedBody": "'<EXTENSION>' ist aus, du kannst <BROWSER> wieder verwenden.",
+        "closeButton": "Schließen",
+        "extensionPageBlocked": "Seiten von '<EXTENSION>' sind gesperrt, solange die Schul- oder Elternkontrollen aktiv sind: Die Erweiterung kann Websites anzeigen, die Focus Bear nicht prüfen kann."
     }
 }

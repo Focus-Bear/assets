@@ -7113,5 +7113,25 @@
         "followUpPlaceholder": "Powiedz Claude'owi, co ma zrobić dalej…",
         "followUpSend": "Wyślij",
         "followUpSendHelp": "Wyślij (⌘Return). Claude kontynuuje w tej samej rozmowie i w tym samym folderze."
+    },
+    "browserExtensionCheckInfo": {
+        "warningTitle": "Wyłącz '<EXTENSION>'",
+        "warningClass": "Wyłącz lub usuń '<EXTENSION>' w <BROWSER> w ciągu <SECONDS> sekund, inaczej <BROWSER> zostanie zablokowana na czas lekcji.",
+        "warningManaged": "Wyłącz lub usuń '<EXTENSION>' w <BROWSER> w ciągu <SECONDS> sekund, inaczej <BROWSER> zostanie zablokowana, dopóki działa kontrola szkoły lub rodziców.",
+        "why": "Może wyświetlać strony, których Focus Bear nie może sprawdzić.",
+        "secondsLeft": "Zostało <SECONDS> s",
+        "stepOpen": "Otwórz <PAGE>",
+        "stepTurnOff": "Znajdź '<EXTENSION>' i wyłącz je albo kliknij Usuń.",
+        "openButton": "Otwórz stronę rozszerzeń",
+        "lockedTitle": "<BROWSER> jest zablokowana",
+        "lockedClass": "'<EXTENSION>' jest nadal włączone, więc <BROWSER> jest zablokowana na czas lekcji. Odblokuje się, gdy tylko je wyłączysz lub usuniesz.",
+        "lockedManaged": "'<EXTENSION>' jest nadal włączone, więc <BROWSER> jest zablokowana, dopóki działa kontrola szkoły lub rodziców. Odblokuje się, gdy tylko je wyłączysz lub usuniesz.",
+        "lockedPageNote": "Strona rozszerzeń nadal się otwiera, gdy przeglądarka jest zablokowana.",
+        "turnedOffTitle": "Dzięki, '<EXTENSION>' jest wyłączone",
+        "turnedOffBody": "Możesz dalej korzystać z <BROWSER>.",
+        "unlockedTitle": "<BROWSER> jest odblokowana",
+        "unlockedBody": "'<EXTENSION>' jest wyłączone, więc możesz znowu korzystać z <BROWSER>.",
+        "closeButton": "Zamknij",
+        "extensionPageBlocked": "Strony '<EXTENSION>' są zablokowane, dopóki działa kontrola szkoły lub rodziców: może wyświetlać strony, których Focus Bear nie może sprawdzić."
     }
 }

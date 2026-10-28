@@ -7070,5 +7070,25 @@
         "followUpPlaceholder": "Dile a Claude qué hacer ahora…",
         "followUpSend": "Enviar",
         "followUpSendHelp": "Enviar (⌘Return). Claude sigue en la misma conversación y la misma carpeta."
+    },
+    "browserExtensionCheckInfo": {
+        "warningTitle": "Desactiva '<EXTENSION>'",
+        "warningClass": "Desactiva o quita '<EXTENSION>' en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará durante la clase.",
+        "warningManaged": "Desactiva o quita '<EXTENSION>' en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará mientras los controles del colegio o de casa estén activos.",
+        "why": "Puede mostrar sitios web que Focus Bear no puede comprobar.",
+        "secondsLeft": "Quedan <SECONDS> segundos",
+        "stepOpen": "Abre <PAGE>",
+        "stepTurnOff": "Busca '<EXTENSION>' y desactívala, o haz clic en Quitar.",
+        "openButton": "Abrir la página de extensiones",
+        "lockedTitle": "<BROWSER> está bloqueado",
+        "lockedClass": "'<EXTENSION>' sigue activada, así que <BROWSER> está bloqueado durante la clase. Se desbloquea en cuanto la desactives o la quites.",
+        "lockedManaged": "'<EXTENSION>' sigue activada, así que <BROWSER> está bloqueado mientras los controles del colegio o de casa estén activos. Se desbloquea en cuanto la desactives o la quites.",
+        "lockedPageNote": "Su página de extensiones se puede abrir aunque esté bloqueado.",
+        "turnedOffTitle": "Gracias, '<EXTENSION>' está desactivada",
+        "turnedOffBody": "Puedes seguir usando <BROWSER>.",
+        "unlockedTitle": "<BROWSER> está desbloqueado",
+        "unlockedBody": "'<EXTENSION>' está desactivada, así que puedes volver a usar <BROWSER>.",
+        "closeButton": "Cerrar",
+        "extensionPageBlocked": "Las páginas de '<EXTENSION>' están bloqueadas mientras los controles del colegio o de casa estén activos: puede mostrar sitios web que Focus Bear no puede comprobar."
     }
 }

@@ -7113,5 +7113,25 @@
         "followUpPlaceholder": "Dis à Claude quoi faire ensuite…",
         "followUpSend": "Envoyer",
         "followUpSendHelp": "Envoyer (⌘Retour). Claude continue dans la même conversation et le même dossier."
+    },
+    "browserExtensionCheckInfo": {
+        "warningTitle": "Désactive '<EXTENSION>'",
+        "warningClass": "Désactive ou supprime '<EXTENSION>' dans <BROWSER> d'ici <SECONDS> secondes, sinon <BROWSER> sera verrouillé pendant le cours.",
+        "warningManaged": "Désactive ou supprime '<EXTENSION>' dans <BROWSER> d'ici <SECONDS> secondes, sinon <BROWSER> sera verrouillé tant que les contrôles de l'école ou de la maison sont actifs.",
+        "why": "Elle peut afficher des sites web que Focus Bear ne peut pas vérifier.",
+        "secondsLeft": "Encore <SECONDS> secondes",
+        "stepOpen": "Ouvre <PAGE>",
+        "stepTurnOff": "Trouve '<EXTENSION>' et désactive-la, ou clique sur Supprimer.",
+        "openButton": "Ouvrir la page des extensions",
+        "lockedTitle": "<BROWSER> est verrouillé",
+        "lockedClass": "'<EXTENSION>' est toujours activée, donc <BROWSER> est verrouillé pendant le cours. Il se déverrouille dès que tu la désactives ou la supprimes.",
+        "lockedManaged": "'<EXTENSION>' est toujours activée, donc <BROWSER> est verrouillé tant que les contrôles de l'école ou de la maison sont actifs. Il se déverrouille dès que tu la désactives ou la supprimes.",
+        "lockedPageNote": "Sa page des extensions reste accessible pendant le verrouillage.",
+        "turnedOffTitle": "Merci, '<EXTENSION>' est désactivée",
+        "turnedOffBody": "Tu peux continuer à utiliser <BROWSER>.",
+        "unlockedTitle": "<BROWSER> est déverrouillé",
+        "unlockedBody": "'<EXTENSION>' est désactivée, tu peux de nouveau utiliser <BROWSER>.",
+        "closeButton": "Fermer",
+        "extensionPageBlocked": "Les pages de '<EXTENSION>' sont bloquées tant que les contrôles de l'école ou de la maison sont actifs : elle peut afficher des sites web que Focus Bear ne peut pas vérifier."
     }
 }
