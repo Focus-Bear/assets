@@ -5563,7 +5563,10 @@
         "menuFocusSession": "Sesión de enfoque",
         "sectionShortcutTip": "Consejo: <SHORTCUT> abre <SECTION>",
         "sectionShortcutGlobalTip": "Consejo: <SHORTCUT> abre <SECTION> desde cualquier app",
-        "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
+        "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
+        "menuRowUnavailableSpoken": "no disponible",
+        "menuRowLockedSpoken": "bloqueado",
+        "preferencesLockedTooltip": "Necesita tu contraseña ahora mismo. Haz clic para introducirla."
     },
     "browsersTabAuditVcInfo":{
         "title": "Auditoría de pestañas",
