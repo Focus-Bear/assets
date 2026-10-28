@@ -1306,6 +1306,7 @@
     "cancelUsernameTooltip": "Cofnij",
     "usernameEmptyText": "Wpisz nazwę użytkownika do rankingu.",
     "usernameTooLongText": "Nazwa w rankingu może mieć maksymalnie 30 znaków.",
+    "usernameInvalidText": "Nazwa w rankingu może zawierać tylko litery, cyfry i podkreślenia.",
     "usernameUpdateFailedTitle": "Nie udało się zaktualizować twojej nazwy w rankingu.",
     "usernameUpdateFailedText": "Ta nazwa może być już zajęta. Spróbuj innej.",
     "title": "Informacje o twoim koncie",

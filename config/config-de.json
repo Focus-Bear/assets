@@ -1306,6 +1306,7 @@
     "cancelUsernameTooltip": "Rückgängig",
     "usernameEmptyText": "Bitte gib einen Bestenlisten-Namen ein.",
     "usernameTooLongText": "Der Bestenlisten-Name darf höchstens 30 Zeichen haben.",
+    "usernameInvalidText": "Der Bestenlisten-Name darf nur Buchstaben, Zahlen und Unterstriche enthalten.",
     "usernameUpdateFailedTitle": "Dein Bestenlisten-Name konnte nicht aktualisiert werden.",
     "usernameUpdateFailedText": "Dieser Name ist vielleicht schon vergeben. Probier bitte einen anderen.",
     "title": "Deine Kontoinformationen",
