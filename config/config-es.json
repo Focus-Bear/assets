@@ -1505,7 +1505,8 @@
         "fileMeetingNotesConfirmText": "Notas de reuniones encontradas: <COUNT>. Cada reunión periódica tiene su propia carpeta. Nada cambia en las notas, y puedes devolver cualquiera de ellas a Notas personales.",
         "moveMeetingNotesText": "Mover",
         "meetingNotesFiledText": "Notas de reuniones movidas a Grabaciones de reuniones: <COUNT>",
-        "couldNotFileMeetingNotesText": "Algunas notas de reuniones no se pudieron mover. Inténtalo de nuevo en un momento."
+        "couldNotFileMeetingNotesText": "Algunas notas de reuniones no se pudieron mover. Inténtalo de nuevo en un momento.",
+        "refreshNotesText": "Actualizar"
     },
     "noteImagesInfo": {
       "insertImageText": "Insertar imagen",
