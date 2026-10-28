@@ -3361,7 +3361,10 @@
         "placeholderTalkToHumanText": "¿De qué te gustaría hablar?",
         "talkToHumanAttachmentsText": "Las capturas de pantalla son opcionales. Tus registros de la app se envían para que el equipo pueda ver qué ha estado pasando.",
         "buttonSendToTeamText": "Enviar al equipo",
-        "talkToHumanSentText": "Gracias, tu mensaje ya está con el equipo. Te responderemos por correo electrónico."
+        "talkToHumanSentText": "Gracias, tu mensaje ya está con el equipo. Te responderemos por correo electrónico.",
+        "reportContactEmailPlaceholder": "Tu correo electrónico (opcional)",
+        "reportContactEmailHint": "Estás usando Focus Bear sin una cuenta. Añade un correo electrónico si quieres que te respondamos.",
+        "reportContactEmailInvalid": "Introduce un correo electrónico válido o déjalo en blanco."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
