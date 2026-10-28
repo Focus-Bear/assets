@@ -5163,7 +5163,10 @@
     "menuFocusSession": "Session de concentration",
     "sectionShortcutTip": "Astuce : <SHORTCUT> ouvre <SECTION>",
     "sectionShortcutGlobalTip": "Astuce : <SHORTCUT> ouvre <SECTION> depuis n'importe quelle app",
-    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
+    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
+    "menuRowUnavailableSpoken": "indisponible",
+    "menuRowLockedSpoken": "verrouillé",
+    "preferencesLockedTooltip": "Ton mot de passe est nécessaire pour l’instant. Clique pour le saisir."
   },
   "browsersTabAuditVcInfo": {
     "title": "Audit des onglets",

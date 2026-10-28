@@ -5163,7 +5163,10 @@
     "menuFocusSession": "Sesja skupienia",
     "sectionShortcutTip": "Wskazówka: <SHORTCUT> otwiera <SECTION>",
     "sectionShortcutGlobalTip": "Wskazówka: <SHORTCUT> otwiera <SECTION> z dowolnej aplikacji",
-    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
+    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
+    "menuRowUnavailableSpoken": "niedostępne",
+    "menuRowLockedSpoken": "zablokowane",
+    "preferencesLockedTooltip": "Teraz wymaga hasła. Kliknij, aby je wpisać."
   },
   "browsersTabAuditVcInfo": {
     "title": "Audyt kart",

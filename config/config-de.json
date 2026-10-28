@@ -5163,7 +5163,10 @@
     "menuFocusSession": "Fokussitzung",
     "sectionShortcutTip": "Tipp: <SHORTCUT> öffnet <SECTION>",
     "sectionShortcutGlobalTip": "Tipp: <SHORTCUT> öffnet <SECTION> aus jeder App",
-    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)"
+    "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
+    "menuRowUnavailableSpoken": "nicht verfügbar",
+    "menuRowLockedSpoken": "gesperrt",
+    "preferencesLockedTooltip": "Benötigt gerade dein Passwort. Klicke, um es einzugeben."
   },
   "browsersTabAuditVcInfo": {
     "title": "Tab-Audit",
