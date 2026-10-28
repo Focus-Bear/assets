@@ -5911,6 +5911,7 @@
     "categories": {
       "adult": "Nur für Erwachsene",
       "auctions": "Auktionen",
+      "blocking_bypass": "Seiten zum Umgehen von Sperren",
       "browser_runtime_attack": "Browser-Laufzeitangriffe",
       "command_and_control": "Command and Control",
       "compromised_website": "Kompromittierte Website",

@@ -6312,6 +6312,7 @@
         "categories": {
             "adult": "Adult",
             "auctions": "Auctions",
+            "blocking_bypass": "Blocking Bypass Sites",
             "browser_runtime_attack": "Browser Runtime Attack",
             "command_and_control": "Command and Control",
             "compromised_website": "Compromised Website",
