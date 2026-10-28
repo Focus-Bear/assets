@@ -4943,7 +4943,9 @@
     "queuedUntilBedtime": "En attente jusqu’à ce que tu ailles te coucher",
     "queuedUntilBedtimeDetail": "Envoyé après 18 h, donc Claude s’y met à 23 h.",
     "queuedStartsAt": "Commence à <TIME>",
-    "queuedLateNightDetail": "Envoyé tard dans la nuit, donc Claude attend 2 heures avant de commencer."
+    "queuedLateNightDetail": "Envoyé tard dans la nuit, donc Claude attend 2 heures avant de commencer.",
+    "reviewOpensAt": "La relecture ouvre à <TIME>",
+    "reviewLockedExplanation": "Vous pouvez toujours signaler de nouveaux problèmes et compléter les rapports ouverts."
   },
   "projectNoteEditor": {
     "loading": "Chargement de la note…",

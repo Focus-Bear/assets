@@ -5306,7 +5306,9 @@
       "queuedUntilBedtime": "Queued until you go to bed",
       "queuedUntilBedtimeDetail": "Filed after 6pm, so Claude starts on this at 11pm.",
       "queuedStartsAt": "Starts at <TIME>",
-      "queuedLateNightDetail": "Filed late at night, so Claude waits 2 hours before starting."
+      "queuedLateNightDetail": "Filed late at night, so Claude waits 2 hours before starting.",
+      "reviewOpensAt": "Reviewing opens at <TIME>",
+      "reviewLockedExplanation": "You can still report new problems and add detail to open reports."
     },
     "projectNoteEditor": {
       "loading": "Loading note…",
