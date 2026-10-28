@@ -7072,5 +7072,25 @@
         "followUpPlaceholder": "Tell Claude what to do next…",
         "followUpSend": "Send",
         "followUpSendHelp": "Send (⌘Return). Claude carries on in the same conversation and folder."
+    },
+    "browserExtensionCheckInfo": {
+        "warningTitle": "Turn off '<EXTENSION>'",
+        "warningClass": "Turn off or remove '<EXTENSION>' in <BROWSER> within <SECONDS> seconds, or <BROWSER> will be locked during class.",
+        "warningManaged": "Turn off or remove '<EXTENSION>' in <BROWSER> within <SECONDS> seconds, or <BROWSER> will be locked while school or home controls are on.",
+        "why": "It can show websites Focus Bear can't check.",
+        "secondsLeft": "<SECONDS> seconds left",
+        "stepOpen": "Open <PAGE>",
+        "stepTurnOff": "Find '<EXTENSION>' and switch it off, or click Remove.",
+        "openButton": "Open Extensions page",
+        "lockedTitle": "<BROWSER> is locked",
+        "lockedClass": "'<EXTENSION>' is still turned on, so <BROWSER> is locked during class. It unlocks as soon as you turn it off or remove it.",
+        "lockedManaged": "'<EXTENSION>' is still turned on, so <BROWSER> is locked while school or home controls are on. It unlocks as soon as you turn it off or remove it.",
+        "lockedPageNote": "Its Extensions page still opens while it's locked.",
+        "turnedOffTitle": "Thanks, '<EXTENSION>' is off",
+        "turnedOffBody": "You can keep using <BROWSER>.",
+        "unlockedTitle": "<BROWSER> is unlocked",
+        "unlockedBody": "'<EXTENSION>' is off, so you can use <BROWSER> again.",
+        "closeButton": "Close",
+        "extensionPageBlocked": "Pages of '<EXTENSION>' are blocked while school or home controls are on: it can show websites Focus Bear can't check."
     }
 }
