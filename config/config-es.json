@@ -3991,7 +3991,8 @@
         "titleEmailSent": "Correo de verificación enviado",
         "descriptionEmailSent": "Hemos enviado un enlace de verificación a tu correo. Revisa tu bandeja de entrada para verificar tu cuenta.",
         "titleEmailFailed": "No se pudo enviar el correo de verificación",
-        "descriptionEmailFailed": "Algo salió mal al enviar el correo de verificación. Por favor, intenta de nuevo más tarde."
+        "descriptionEmailFailed": "Algo salió mal al enviar el correo de verificación. Por favor, intenta de nuevo más tarde.",
+        "resendWaitText": "Espera <SECONDS> segundos antes de volver a enviar el correo de confirmación."
     },
     "researchSettingsVcInfo":{
         "titleDataCollectionMode": "Modo de recopilación de datos",

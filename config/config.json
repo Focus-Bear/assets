@@ -3993,7 +3993,8 @@
         "titleEmailSent": "Verification Email Sent",
         "descriptionEmailSent": "We've sent a verification link to your email. Please check your inbox to verify your account.",
         "titleEmailFailed": "Failed to Send Verification Email",
-        "descriptionEmailFailed": "Something went wrong while sending the verification email. Please try again later."
+        "descriptionEmailFailed": "Something went wrong while sending the verification email. Please try again later.",
+        "resendWaitText": "Please wait <SECONDS> seconds before resending the confirmation email."
     },
     "researchSettingsVcInfo":{
         "titleDataCollectionMode": "Data Collection Mode",

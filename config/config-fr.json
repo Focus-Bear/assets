@@ -3629,7 +3629,8 @@
     "titleEmailSent": "E-mail de vérification envoyé",
     "descriptionEmailSent": "Nous avons envoyé un lien de vérification à ton adresse e-mail. Vérifie ta boîte de réception pour valider ton compte.",
     "titleEmailFailed": "Échec de l'envoi de l'e-mail de vérification",
-    "descriptionEmailFailed": "Une erreur s'est produite lors de l'envoi de l'e-mail de vérification. Réessaie plus tard."
+    "descriptionEmailFailed": "Une erreur s'est produite lors de l'envoi de l'e-mail de vérification. Réessaie plus tard.",
+    "resendWaitText": "Patiente <SECONDS> secondes avant de renvoyer l’e-mail de confirmation."
   },
   "researchSettingsVcInfo": {
     "titleDataCollectionMode": "Mode de collecte de données",
