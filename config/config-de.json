@@ -5772,6 +5772,17 @@
     "allWebsitesAllowed": "Alle Websites sind erlaubt"
   },
   "managedBlockingInfo": {
+    "extensionGraceTitle": "<EXTENSION> deaktivieren",
+    "extensionGraceClass": "Deaktiviere oder entferne <EXTENSION> in <BROWSER> innerhalb von <SECONDS> Sekunden, sonst wird <BROWSER> während des Unterrichts gesperrt.",
+    "extensionGraceManaged": "Deaktiviere oder entferne <EXTENSION> in <BROWSER> innerhalb von <SECONDS> Sekunden, sonst wird <BROWSER> gesperrt, solange die Schul- oder Elternkontrollen aktiv sind.",
+    "extensionGraceCountdown": "Noch <SECONDS> Sekunden",
+    "extensionGraceSteps": "1. Öffne in <BROWSER> einen neuen Tab und gehe zu <EXTENSIONS_PAGE>\n2. Suche <EXTENSION> und schalte sie aus oder klicke auf Entfernen.",
+    "openExtensionsPage": "Erweiterungen von <BROWSER> öffnen",
+    "extensionLockedTitle": "<BROWSER> ist gesperrt",
+    "extensionLocked": "<EXTENSION> ist noch aktiv, deshalb ist <BROWSER> gesperrt. Die Erweiterungsseite kannst du weiterhin öffnen: Schalte die Erweiterung dort aus, dann wird <BROWSER> entsperrt.",
+    "extensionGraceResolved": "Danke, alles erledigt. <BROWSER> bleibt entsperrt.",
+    "extensionUnlocked": "Danke, alles erledigt. <BROWSER> ist entsperrt.",
+    "sideSurfaceBlocked": "Eine Seitenleiste oder ein Erweiterungs-Pop-up in <BROWSER> zeigt <SITE>, das gerade nicht erlaubt ist. Schließe es, um <BROWSER> weiter zu nutzen.",
     "blocklistBodySchool": "Diese Website steht auf der Liste blockierter Websites deiner Schule.",
     "blocklistBodyHome": "Diese Website steht auf der Liste blockierter Websites für zu Hause.",
     "appBlockedSchool": "<APP_NAME> wird vom Schul-Zeitplan <POLICY> blockiert.",

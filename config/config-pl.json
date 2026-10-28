@@ -5772,6 +5772,17 @@
     "allWebsitesAllowed": "Wszystkie strony są dozwolone"
   },
   "managedBlockingInfo": {
+    "extensionGraceTitle": "Wyłącz <EXTENSION>",
+    "extensionGraceClass": "Wyłącz lub usuń <EXTENSION> w przeglądarce <BROWSER> w ciągu <SECONDS> sekund, inaczej <BROWSER> zostanie zablokowana na czas lekcji.",
+    "extensionGraceManaged": "Wyłącz lub usuń <EXTENSION> w przeglądarce <BROWSER> w ciągu <SECONDS> sekund, inaczej <BROWSER> zostanie zablokowana, dopóki działają kontrole szkolne lub rodzicielskie.",
+    "extensionGraceCountdown": "Pozostało sekund: <SECONDS>",
+    "extensionGraceSteps": "1. W przeglądarce <BROWSER> otwórz nową kartę i przejdź do <EXTENSIONS_PAGE>\n2. Znajdź <EXTENSION> i wyłącz ją albo kliknij Usuń.",
+    "openExtensionsPage": "Otwórz rozszerzenia przeglądarki <BROWSER>",
+    "extensionLockedTitle": "<BROWSER> jest zablokowana",
+    "extensionLocked": "<EXTENSION> jest nadal włączona, więc <BROWSER> jest zablokowana. Nadal możesz otworzyć stronę rozszerzeń: wyłącz tam rozszerzenie, a <BROWSER> zostanie odblokowana.",
+    "extensionGraceResolved": "Dziękujemy, wszystko gotowe. <BROWSER> pozostaje odblokowana.",
+    "extensionUnlocked": "Dziękujemy, wszystko gotowe. <BROWSER> jest odblokowana.",
+    "sideSurfaceBlocked": "Panel boczny lub okno rozszerzenia w przeglądarce <BROWSER> wyświetla <SITE>, co jest teraz niedozwolone. Zamknij je, aby dalej korzystać z przeglądarki <BROWSER>.",
     "blocklistBodySchool": "Ta strona jest na liście stron zablokowanych przez Twoją szkołę.",
     "blocklistBodyHome": "Ta strona jest na domowej liście zablokowanych stron.",
     "appBlockedSchool": "Aplikacja <APP_NAME> jest zablokowana przez szkolny harmonogram <POLICY>.",

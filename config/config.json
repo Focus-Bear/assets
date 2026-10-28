@@ -6173,6 +6173,17 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
     "managedBlockingInfo": {
+        "extensionGraceTitle": "Turn off <EXTENSION>",
+        "extensionGraceClass": "Turn off or remove <EXTENSION> in <BROWSER> within <SECONDS> seconds, or <BROWSER> will be locked during class.",
+        "extensionGraceManaged": "Turn off or remove <EXTENSION> in <BROWSER> within <SECONDS> seconds, or <BROWSER> will be locked while school or home controls are on.",
+        "extensionGraceCountdown": "<SECONDS> seconds left",
+        "extensionGraceSteps": "1. In <BROWSER>, open a new tab and go to <EXTENSIONS_PAGE>\n2. Find <EXTENSION> and switch it off, or click Remove.",
+        "openExtensionsPage": "Open <BROWSER> extensions",
+        "extensionLockedTitle": "<BROWSER> is locked",
+        "extensionLocked": "<EXTENSION> is still on, so <BROWSER> is locked. You can still open its Extensions page: turn the extension off there and <BROWSER> unlocks.",
+        "extensionGraceResolved": "Thanks, all set. <BROWSER> stays unlocked.",
+        "extensionUnlocked": "Thanks, all set. <BROWSER> is unlocked.",
+        "sideSurfaceBlocked": "A side panel or extension popup in <BROWSER> is showing <SITE>, which isn't allowed right now. Close it to keep using <BROWSER>.",
         "blocklistBodySchool": "This website is on your school's blocked websites list.",
         "blocklistBodyHome": "This website is on your home blocked websites list.",
         "appBlockedSchool": "<APP_NAME> is blocked by your school's <POLICY> schedule.",
