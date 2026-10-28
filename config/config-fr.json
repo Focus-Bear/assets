@@ -7098,6 +7098,9 @@
         "explainerPlanning": "Claude planifie. Il peut seulement lire jusqu'à ce que tu approuves le plan.",
         "explainerWorking": "Claude travaille dans le dossier. Il te demande avant toute action risquée.",
         "dismissExplainer": "Masquer",
-        "needsYou": "Besoin de toi"
+        "needsYou": "Besoin de toi",
+        "followUpPlaceholder": "Dis à Claude quoi faire ensuite…",
+        "followUpSend": "Envoyer",
+        "followUpSendHelp": "Envoyer (⌘Retour). Claude continue dans la même conversation et le même dossier."
     }
 }
