@@ -1615,7 +1615,7 @@
     "editHabitsNavItem": "Modifier les habitudes",
     "mostConsistentHabitsText": "Habitudes les plus régulières",
     "leastConsistentHabitsText": "Habitudes les moins régulières",
-    "percentOfLastDaysText": "% des {days} derniers jours",
+    "percentOfLastDaysText": "% des jours prévus, {days} derniers jours",
     "totalCompletionsText": "Total des réalisations",
     "hoursSpentText": "Heures passées",
     "currentStreakText": "Série en cours",
