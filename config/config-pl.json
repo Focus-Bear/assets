@@ -3628,7 +3628,8 @@
     "titleEmailSent": "Wysłano e-mail weryfikacyjny",
     "descriptionEmailSent": "Wysłaliśmy link weryfikacyjny na twój adres e-mail. Sprawdź skrzynkę odbiorczą, aby zweryfikować swoje konto.",
     "titleEmailFailed": "Nie udało się wysłać e-maila weryfikacyjnego",
-    "descriptionEmailFailed": "Coś poszło nie tak podczas wysyłania e-maila weryfikacyjnego. Spróbuj ponownie później."
+    "descriptionEmailFailed": "Coś poszło nie tak podczas wysyłania e-maila weryfikacyjnego. Spróbuj ponownie później.",
+    "resendWaitText": "Poczekaj <SECONDS> s, zanim ponownie wyślesz e-mail z potwierdzeniem."
   },
   "researchSettingsVcInfo": {
     "titleDataCollectionMode": "Tryb zbierania danych",

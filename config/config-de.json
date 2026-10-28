@@ -3628,7 +3628,8 @@
     "titleEmailSent": "Bestätigungs-E-Mail gesendet",
     "descriptionEmailSent": "Wir haben dir einen Bestätigungslink per E-Mail geschickt. Bitte überprüfe deinen Posteingang, um dein Konto zu bestätigen.",
     "titleEmailFailed": "Bestätigungs-E-Mail konnte nicht gesendet werden",
-    "descriptionEmailFailed": "Beim Senden der Bestätigungs-E-Mail ist etwas schiefgelaufen. Bitte versuche es später erneut."
+    "descriptionEmailFailed": "Beim Senden der Bestätigungs-E-Mail ist etwas schiefgelaufen. Bitte versuche es später erneut.",
+    "resendWaitText": "Bitte warte <SECONDS> Sekunden, bevor du die Bestätigungs-E-Mail erneut sendest."
   },
   "researchSettingsVcInfo": {
     "titleDataCollectionMode": "Datenerfassungsmodus",
