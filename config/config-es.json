@@ -6176,6 +6176,17 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
     "managedBlockingInfo": {
+        "extensionGraceTitle": "Desactiva <EXTENSION>",
+        "extensionGraceClass": "Desactiva o quita <EXTENSION> en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará durante la clase.",
+        "extensionGraceManaged": "Desactiva o quita <EXTENSION> en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará mientras los controles de la escuela o del hogar estén activos.",
+        "extensionGraceCountdown": "Quedan <SECONDS> segundos",
+        "extensionGraceSteps": "1. En <BROWSER>, abre una pestaña nueva y ve a <EXTENSIONS_PAGE>\n2. Busca <EXTENSION> y desactívala, o haz clic en Quitar.",
+        "openExtensionsPage": "Abrir extensiones de <BROWSER>",
+        "extensionLockedTitle": "<BROWSER> está bloqueado",
+        "extensionLocked": "<EXTENSION> sigue activa, así que <BROWSER> está bloqueado. Aún puedes abrir su página de extensiones: desactiva la extensión allí y <BROWSER> se desbloqueará.",
+        "extensionGraceResolved": "Gracias, todo listo. <BROWSER> sigue desbloqueado.",
+        "extensionUnlocked": "Gracias, todo listo. <BROWSER> está desbloqueado.",
+        "sideSurfaceBlocked": "Un panel lateral o una ventana emergente de una extensión en <BROWSER> está mostrando <SITE>, que no está permitido ahora. Ciérralo para seguir usando <BROWSER>.",
         "blocklistBodySchool": "Este sitio web está en la lista de sitios web bloqueados de tu escuela.",
         "blocklistBodyHome": "Este sitio web está en la lista de sitios web bloqueados del hogar.",
         "appBlockedSchool": "El horario <POLICY> de tu escuela bloquea <APP_NAME>.",
