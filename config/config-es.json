@@ -1303,6 +1303,7 @@
         "cancelUsernameTooltip": "Deshacer",
         "usernameEmptyText": "Introduce un nombre de usuario para la clasificación.",
         "usernameTooLongText": "El nombre de usuario en la clasificación debe tener 30 caracteres o menos.",
+        "usernameInvalidText": "El nombre de usuario en la clasificación solo puede contener letras, números y guiones bajos.",
         "usernameUpdateFailedTitle": "No se pudo actualizar tu nombre de usuario en la clasificación.",
         "usernameUpdateFailedText": "Ese nombre de usuario puede que ya esté en uso. Prueba con otro.",
         "title": "Información de tu cuenta",

@@ -1306,6 +1306,7 @@
     "cancelUsernameTooltip": "Annuler",
     "usernameEmptyText": "Saisis un pseudo de classement.",
     "usernameTooLongText": "Le pseudo de classement doit faire 30 caractères maximum.",
+    "usernameInvalidText": "Le pseudo de classement ne peut contenir que des lettres, des chiffres et des tirets bas.",
     "usernameUpdateFailedTitle": "Impossible de mettre à jour ton pseudo de classement.",
     "usernameUpdateFailedText": "Ce pseudo est peut-être déjà pris. Essaie-en un autre.",
     "title": "Les informations de ton compte",
