@@ -6999,6 +6999,8 @@
         "postureCalibratingNoteText": "Siéntate como lo harías normalmente durante unos segundos.",
         "postureCalibratedNoteText": "Calibrado: esta es ahora tu postura habitual.",
         "postureRecalibrateText": "Recalibrar postura",
+        "postureCalibrationRetryingText": "Sigue calibrando…",
+        "postureCalibrationRetryingNoteText": "Aún no hay una lectura estable, así que la postura lo vuelve a intentar. Quédate quieto, mirando a la cámara, con los dos hombros en la imagen.",
         "postureShowCameraText": "Mostrar cámara",
         "postureHideCameraText": "Ocultar cámara",
         "postureCameraTitle": "Cámara de postura",

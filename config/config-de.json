@@ -7042,6 +7042,8 @@
     "postureCalibratingNoteText": "Sitz ein paar Sekunden lang so, wie du normalerweise sitzt.",
     "postureCalibratedNoteText": "Kalibriert: Das ist jetzt deine übliche Haltung.",
     "postureRecalibrateText": "Haltung neu kalibrieren",
+    "postureCalibrationRetryingText": "Kalibrierung läuft noch…",
+    "postureCalibrationRetryingNoteText": "Noch keine stabile Messung, deshalb versucht die Haltungserkennung es erneut. Sitz still, schau zur Kamera und achte darauf, dass beide Schultern im Bild sind.",
     "postureShowCameraText": "Kamera zeigen",
     "postureHideCameraText": "Kamera ausblenden",
     "postureCameraTitle": "Haltungskamera",

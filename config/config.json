@@ -7001,6 +7001,8 @@
         "postureCalibratingNoteText": "Sit as you normally would for a few seconds.",
         "postureCalibratedNoteText": "Calibrated: this is your usual posture now.",
         "postureRecalibrateText": "Recalibrate posture",
+        "postureCalibrationRetryingText": "Still calibrating…",
+        "postureCalibrationRetryingNoteText": "No steady reading yet, so posture is trying again. Sit still, facing the camera, with both shoulders in the picture.",
         "postureShowCameraText": "Show camera",
         "postureHideCameraText": "Hide camera",
         "postureCameraTitle": "Posture camera",

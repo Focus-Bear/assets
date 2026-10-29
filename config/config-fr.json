@@ -7042,6 +7042,8 @@
     "postureCalibratingNoteText": "Asseyez-vous comme d'habitude pendant quelques secondes.",
     "postureCalibratedNoteText": "Calibré : c'est maintenant votre posture habituelle.",
     "postureRecalibrateText": "Recalibrer la posture",
+    "postureCalibrationRetryingText": "Calibrage en cours…",
+    "postureCalibrationRetryingNoteText": "Pas encore de mesure stable, la posture réessaie donc. Restez immobile, face à la caméra, les deux épaules dans l'image.",
     "postureShowCameraText": "Afficher la caméra",
     "postureHideCameraText": "Masquer la caméra",
     "postureCameraTitle": "Caméra de posture",
