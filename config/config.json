@@ -2001,7 +2001,7 @@
         "editHabitsNavItem": "Edit Habits",
         "mostConsistentHabitsText": "Most consistent habits",
         "leastConsistentHabitsText": "Least consistent habits",
-        "percentOfLastDaysText": "% of last {days} days",
+        "percentOfLastDaysText": "% of scheduled days, last {days} days",
         "totalCompletionsText": "Total completions",
         "hoursSpentText": "Hours spent",
         "currentStreakText": "Current streak",
