@@ -7042,6 +7042,8 @@
     "postureCalibratingNoteText": "Usiądź na kilka sekund tak jak zwykle.",
     "postureCalibratedNoteText": "Skalibrowano: to jest teraz Twoja zwykła postawa.",
     "postureRecalibrateText": "Skalibruj postawę ponownie",
+    "postureCalibrationRetryingText": "Wciąż trwa kalibracja…",
+    "postureCalibrationRetryingNoteText": "Nie ma jeszcze stabilnego odczytu, więc wykrywanie postawy próbuje ponownie. Siedź nieruchomo, przodem do kamery, z oboma ramionami w kadrze.",
     "postureShowCameraText": "Pokaż kamerę",
     "postureHideCameraText": "Ukryj kamerę",
     "postureCameraTitle": "Kamera postawy",
