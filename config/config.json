@@ -1296,6 +1296,7 @@
         "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "accountVcInfo": {
+        "titleGuestAccount": "You're using a guest account",
         "titleLeaderboardUsernameText": "Leaderboard Username:",
         "leaderboardUsernamePlaceholder": "Not set — update your leaderboard username in the web app",
         "leaderboardUsernameNotSetText": "Not set — click Edit to set your leaderboard username",
@@ -6167,6 +6168,7 @@
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
+        "keyboardShortcutsHintText": "Click a box and press a key combination (include Ctrl, Alt, Shift or ⊞ Win). Press Esc to cancel.",
         "superFocusPasswordAdviceText": "To make super focus session more effective, we recommend setting a password in Settings (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "keyboardShortcutsDescriptionText": "Set global keyboard shortcuts to instantly open Brain Dump, Focus Music, or Task List from anywhere on your computer.",
         "lastBreakActivityFinishedText": "<ACTIVITY> finished!✅ Nice break. 💪",
