@@ -6010,6 +6010,10 @@
     "malformedWebsite": "Eine Website-Adresse konnte nicht sicher klassifiziert werden. Der Zugriff wurde blockiert, aber dieser Versuch konnte nicht synchronisiert werden.",
     "recheckWebsite": "Neu verbinden und erneut prüfen",
     "browserUnsupported": "Dieser Browser kann das verwaltete Website-Blockieren nicht bestätigen. Prüfe die Browser-Berechtigungen und nutze einen unterstützten Browser.",
+    "blockIpAddressUrls": "Websites blockieren, die über eine IP-Adresse geöffnet werden",
+    "blockIpAddressUrlsHint": "Verhindert, dass Seiten über ihre Nummer (z. B. 142.250.70.78) geöffnet werden, um die Kategoriesperre zu umgehen. Drucker, Router und andere Adressen im lokalen Netzwerk funktionieren weiterhin.",
+    "ipAddressUrlReason": "Über IP-Adresse geöffnet",
+    "ipAddressUrlBlockedBody": "Dein Sicherheitszeitplan blockiert Websites, die über eine Zahlenadresse (eine IP-Adresse) statt über ihren Namen geöffnet werden. Öffne die Website über ihren Namen.",
     "firefoxUpgradeRequired": "Aktualisiere die Focus Bear Firefox-Erweiterung, um das schulische Website-Blockieren zu nutzen, und verbinde Firefox dann neu.",
     "appealAllowed": "Diese Website hat die Sicherheitsprüfung bestanden. Der Zugriff wird erneut verifiziert, bevor sie wieder geöffnet wird.",
     "appealReviewRequired": "Diese Anfrage muss von deiner Schule oder deinen Eltern geprüft werden. Die Website bleibt blockiert."

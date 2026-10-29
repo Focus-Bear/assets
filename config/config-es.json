@@ -6409,6 +6409,10 @@
         "malformedWebsite": "No se ha podido clasificar de forma segura la dirección de un sitio web. Se ha bloqueado el acceso, pero no se ha podido sincronizar este intento.",
         "recheckWebsite": "Volver a conectar y comprobar",
         "browserUnsupported": "Este navegador no puede confirmar el bloqueo de sitios web administrado. Comprueba sus permisos y utiliza un navegador compatible.",
+        "blockIpAddressUrls": "Bloquear sitios web abiertos por dirección IP",
+        "blockIpAddressUrlsHint": "Impide abrir sitios por su número (como 142.250.70.78) para saltarse el bloqueo por categorías. Las impresoras, los routers y otras direcciones de la red local siguen funcionando.",
+        "ipAddressUrlReason": "Abierto por dirección IP",
+        "ipAddressUrlBlockedBody": "Tu horario de seguridad bloquea los sitios web abiertos con una dirección numérica (una dirección IP) en lugar de su nombre. Abre el sitio web por su nombre.",
         "firefoxUpgradeRequired": "Actualiza la extensión de Focus Bear para Firefox para utilizar el bloqueo de sitios web del centro educativo y vuelve a conectar Firefox.",
         "appealAllowed": "Este sitio web ha superado la revisión de seguridad. Se está verificando de nuevo el acceso antes de volver a abrirlo.",
         "appealReviewRequired": "Esta solicitud necesita la revisión de tu centro educativo o de tu madre, padre o tutor. El sitio web sigue bloqueado."

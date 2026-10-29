@@ -6010,6 +6010,10 @@
     "malformedWebsite": "Une adresse de site n’a pas pu être classée en toute sécurité. L’accès a été bloqué, mais cette tentative n’a pas pu être synchronisée.",
     "recheckWebsite": "Reconnecter et revérifier",
     "browserUnsupported": "Ce navigateur ne peut pas confirmer le blocage géré des sites. Vérifie les autorisations du navigateur et utilise un navigateur pris en charge.",
+    "blockIpAddressUrls": "Bloquer les sites web ouverts par adresse IP",
+    "blockIpAddressUrlsHint": "Empêche d’ouvrir des sites par leur numéro (comme 142.250.70.78) pour contourner le blocage par catégorie. Les imprimantes, les routeurs et les autres adresses du réseau local fonctionnent toujours.",
+    "ipAddressUrlReason": "Ouvert par adresse IP",
+    "ipAddressUrlBlockedBody": "Ton emploi du temps de sécurité bloque les sites web ouverts par une adresse numérique (une adresse IP) au lieu de leur nom. Ouvre le site web par son nom.",
     "firefoxUpgradeRequired": "Mets à jour l’extension Firefox de Focus Bear pour utiliser le blocage des sites scolaires, puis reconnecte Firefox.",
     "appealAllowed": "Ce site a passé la révision de sécurité. L’accès est en cours de nouvelle vérification avant sa réouverture.",
     "appealReviewRequired": "Cette demande doit être examinée par ton école ou ton parent. Le site reste bloqué."
