@@ -3610,6 +3610,7 @@
     "alertLimitedUsageVcInfo":{
         "title": "You are running the Basic FREE Version of Focus Bear",
         "subTitle": "Basic version limits the number of habits to <COUNT> per routine. You'll be able to do your first <COUNT> habits. Upgrade to unlock unlimited access and other premium features.",
+        "breakSubTitle": "Basic version limits break habits to your first <COUNT>. Upgrade to unlock unlimited access and other premium features.",
         "buttonUpgradeNowText": "Upgrade now",
         "buttonContinueText": "Continue with Basic Version"
     },
@@ -3641,6 +3642,8 @@
         "buttonUpgradeNowText": "Upgrade now",
         "titleLimitedBlockUrls": "Max 3 blocked urls can be added in Basic version.",
         "titleLimitedBlockApps": "Max 3 blocked apps can be added in Basic version.",
+        "titleBasicPlanBlockedUrlsFull": "Max <COUNT> blocked urls can be added in Basic version.",
+        "titleBasicPlanBlockedAppsFull": "Max <COUNT> blocked apps can be added in Basic version.",
         "titleNoAiBlocking": "AI blocking is only supported in Pro edition.",
         "titleNoGeekMode": "Geek mode is only supported in Pro edition."
     },

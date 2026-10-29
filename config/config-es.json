@@ -3608,6 +3608,7 @@
     "alertLimitedUsageVcInfo":{
         "title": "Estás ejecutando la versión básica GRATIS de Focus Bear",
         "subTitle": "La versión básica limita el número de hábitos a <COUNT> por rutina. Podrás hacer tus primeros <COUNT> hábitos. Actualiza a premium para desbloquear el acceso ilimitado y otras características premium.",
+        "breakSubTitle": "La versión básica limita los hábitos de descanso a tus primeros <COUNT>. Actualiza a premium para desbloquear el acceso ilimitado y otras características premium.",
         "buttonUpgradeNowText": "Mejorar ahora",
         "buttonContinueText": "Seguir con Versión Básica"
     },
@@ -3639,6 +3640,8 @@
         "buttonUpgradeNowText": "Mejorar ahora",
         "titleLimitedBlockUrls": "Max 3 urls bloqueadas en la versión Básica.",
         "titleLimitedBlockApps": "Max 3 apps bloqueadas en la versión Básica.",
+        "titleBasicPlanBlockedUrlsFull": "Max <COUNT> urls bloqueadas en la versión Básica.",
+        "titleBasicPlanBlockedAppsFull": "Max <COUNT> apps bloqueadas en la versión Básica.",
         "titleNoAiBlocking": "Bloqueo IA sólo es posible en la edición Pro.",
         "titleNoGeekMode": "Modo Geek sólo es posible en la edición Pro."
     },
