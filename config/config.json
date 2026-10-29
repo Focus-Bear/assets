@@ -890,7 +890,7 @@
         "allWebsitesAllowedText": "All websites are allowed",
         "infoAlwaysBlockedUrlsText": "Super distracting sites are automatically blocked",
         "titleWorkToBreakRatio": "Work to break ratio:",
-        "descriptionWorkToBreakRatio": "For every <WORKRATIO> minutes you focus, you will have a <BREAKRATIO> minutes break.",
+        "descriptionWorkToBreakRatio": "For every <WORKRATIO> minutes you focus, you will have a <BREAKRATIO>-minute break.",
         "toText": "to",
         "workRatioEmptyErrorText": "Work to break ratio can not be empty.",
         "breakRatioEmptyErrorText": "Break ratio can not be empty.",
@@ -6005,7 +6005,7 @@
         "buttonNoThanks": "No thanks",
         "buttonContinue": "Make me indistractible",
         "pointFirstText": "The AI never knows who you are.",
-        "pointSecondText": "Your browsing stays private — we don't share it with AI providers.",
+        "pointSecondText": "To check a page we send the AI only its address, title and a short description, never who you are, and it isn't used to train models.",
         "pointThirdText": "You can turn this off whenever you like.",
         "bubbleText": "I see far too many distracting websites."
     },
@@ -6073,7 +6073,7 @@
         "subTitle": "We can suggest distractions based on your job - so you can stay in the zone.",
         "buttonNoThanks": "I’ll pick them myself",
         "buttonContinue": "Yes, help me pick!",
-        "bubbleText": "Don’t worry, the AI provider doesn’t get your data!"
+        "bubbleText": "Don’t worry, the AI only sees the page, never who you are!"
     },
     "onboardingAllowedUrlsVcInfo": {
         "title": "What websites do you use for work?",
@@ -6167,6 +6167,11 @@
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
+        "keyboardShortcutsDescriptionText": "Set global keyboard shortcuts to instantly open Brain Dump, Focus Music, or Task List from anywhere on your computer.",
+        "lastBreakActivityFinishedText": "<ACTIVITY> finished!✅ Nice break. 💪",
+        "setPasswordFirstText": "Set a password first",
+        "newBlockListTitle": "New block list",
+        "distractionBlockingStepsBubbleText": "Set up distraction blocking in two quick steps!",
         "minimiseWindowTooltip": "Minimise",
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",
