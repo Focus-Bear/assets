@@ -6167,6 +6167,7 @@
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
+        "superFocusPasswordAdviceText": "To make super focus session more effective, we recommend setting a password in Settings (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "keyboardShortcutsDescriptionText": "Set global keyboard shortcuts to instantly open Brain Dump, Focus Music, or Task List from anywhere on your computer.",
         "lastBreakActivityFinishedText": "<ACTIVITY> finished!✅ Nice break. 💪",
         "setPasswordFirstText": "Set a password first",
