@@ -6004,7 +6004,7 @@
         "buttonNoThanks": "No, gracias",
         "buttonContinue": "Hazme indistraíble",
         "pointFirstText": "La IA nunca sabe quién eres.",
-        "pointSecondText": "Para revisar una página solo enviamos a la IA su dirección, su título y una breve descripción, nunca quién eres, y no se usa para entrenar modelos.",
+        "pointSecondText": "La IA solo ve la página en la que estás y tu objetivo de enfoque, nunca quién eres.",
         "pointThirdText": "Puedes desactivarlo cuando quieras.",
         "bubbleText": "Veo demasiados sitios web que me distraen."
     },
@@ -6072,7 +6072,7 @@
         "subTitle": "Podemos sugerirte distracciones según tu trabajo, para que mantengas la concentración.",
         "buttonNoThanks": "Las escogeré yo mismo",
         "buttonContinue": "¡Sí, ayúdame a elegir!",
-        "bubbleText": "¡No te preocupes, la IA solo ve la página, nunca quién eres!"
+        "bubbleText": "¡No te preocupes, la IA nunca sabe quién eres!"
     },
     "onboardingAllowedUrlsVcInfo": {
         "title": "¿Qué sitios web usas para trabajar?",

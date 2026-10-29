@@ -6006,7 +6006,7 @@
         "buttonNoThanks": "No thanks",
         "buttonContinue": "Make me indistractible",
         "pointFirstText": "The AI never knows who you are.",
-        "pointSecondText": "To check a page we send the AI only its address, title and a short description, never who you are, and it isn't used to train models.",
+        "pointSecondText": "The AI only sees the page you're on and your focus goal, never who you are.",
         "pointThirdText": "You can turn this off whenever you like.",
         "bubbleText": "I see far too many distracting websites."
     },
@@ -6074,7 +6074,7 @@
         "subTitle": "We can suggest distractions based on your job - so you can stay in the zone.",
         "buttonNoThanks": "I’ll pick them myself",
         "buttonContinue": "Yes, help me pick!",
-        "bubbleText": "Don’t worry, the AI only sees the page, never who you are!"
+        "bubbleText": "Don’t worry, the AI never knows who you are!"
     },
     "onboardingAllowedUrlsVcInfo": {
         "title": "What websites do you use for work?",
