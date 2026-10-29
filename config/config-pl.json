@@ -7175,5 +7175,8 @@
         "unlockedBody": "'<EXTENSION>' jest wyłączone, więc możesz znowu korzystać z <BROWSER>.",
         "closeButton": "Zamknij",
         "extensionPageBlocked": "Strony '<EXTENSION>' są zablokowane, dopóki działa kontrola szkoły lub rodziców: może wyświetlać strony, których Focus Bear nie może sprawdzić."
+    },
+    "schoolFeaturePolicyInfo": {
+        "turnedOffBySchoolText": "Wyłączone przez Twoją szkołę"
     }
 }
