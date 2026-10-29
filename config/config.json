@@ -6411,6 +6411,10 @@
         "malformedWebsite": "A website address could not be safely classified. Access was blocked, but this attempt could not be synced.",
         "recheckWebsite": "Reconnect and recheck",
         "browserUnsupported": "This browser cannot confirm managed website blocking. Check browser permissions and use a supported browser.",
+        "blockIpAddressUrls": "Block websites opened by IP address",
+        "blockIpAddressUrlsHint": "Stops sites being opened by number (like 142.250.70.78) to get around category blocking. Printers, routers and other local network addresses still work.",
+        "ipAddressUrlReason": "Opened by IP address",
+        "ipAddressUrlBlockedBody": "Your safety schedule blocks websites opened by a number address (an IP address) instead of their name. Open the website by its name.",
         "firefoxUpgradeRequired": "Update the Focus Bear Firefox extension to use school website blocking, then reconnect Firefox.",
         "appealAllowed": "This website passed the safety review. Access is being verified again before reopening it.",
         "appealReviewRequired": "This request needs review by your school or parent. The website remains blocked."

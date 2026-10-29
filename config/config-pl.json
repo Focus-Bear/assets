@@ -6010,6 +6010,10 @@
     "malformedWebsite": "Nie udało się bezpiecznie sklasyfikować adresu strony. Dostęp został zablokowany, ale tej próby nie udało się zsynchronizować.",
     "recheckWebsite": "Połącz ponownie i sprawdź",
     "browserUnsupported": "Ta przeglądarka nie może potwierdzić zarządzanego blokowania stron. Sprawdź uprawnienia przeglądarki i użyj obsługiwanej przeglądarki.",
+    "blockIpAddressUrls": "Blokuj strony otwierane przez adres IP",
+    "blockIpAddressUrlsHint": "Uniemożliwia otwieranie stron po numerze (np. 142.250.70.78) w celu obejścia blokowania kategorii. Drukarki, routery i inne adresy w sieci lokalnej nadal działają.",
+    "ipAddressUrlReason": "Otwarto przez adres IP",
+    "ipAddressUrlBlockedBody": "Twój harmonogram bezpieczeństwa blokuje strony otwierane przez adres liczbowy (adres IP) zamiast nazwy. Otwórz stronę, wpisując jej nazwę.",
     "firefoxUpgradeRequired": "Zaktualizuj rozszerzenie Focus Bear dla Firefoksa, aby korzystać ze szkolnego blokowania stron, a potem połącz Firefoksa ponownie.",
     "appealAllowed": "Ta strona przeszła przegląd bezpieczeństwa. Dostęp jest ponownie weryfikowany przed jej otwarciem.",
     "appealReviewRequired": "Tę prośbę musi sprawdzić twoja szkoła lub rodzic. Strona pozostaje zablokowana."
