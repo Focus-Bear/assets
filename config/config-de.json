@@ -7148,5 +7148,8 @@
         "unlockedBody": "'<EXTENSION>' ist aus, du kannst <BROWSER> wieder verwenden.",
         "closeButton": "Schließen",
         "extensionPageBlocked": "Seiten von '<EXTENSION>' sind gesperrt, solange die Schul- oder Elternkontrollen aktiv sind: Die Erweiterung kann Websites anzeigen, die Focus Bear nicht prüfen kann."
+    },
+    "schoolFeaturePolicyInfo": {
+        "turnedOffBySchoolText": "Von deiner Schule deaktiviert"
     }
 }

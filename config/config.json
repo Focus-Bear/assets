@@ -7107,5 +7107,8 @@
         "unlockedBody": "'<EXTENSION>' is off, so you can use <BROWSER> again.",
         "closeButton": "Close",
         "extensionPageBlocked": "Pages of '<EXTENSION>' are blocked while school or home controls are on: it can show websites Focus Bear can't check."
+    },
+    "schoolFeaturePolicyInfo": {
+        "turnedOffBySchoolText": "Turned off by your school"
     }
 }
