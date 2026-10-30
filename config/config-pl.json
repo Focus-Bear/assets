@@ -6528,6 +6528,9 @@
     "discardConfirmText": "Odrzucić ten wykład? Jego nagranie, transkrypcja i notatki zostaną usunięte z tego komputera."
   },
   "focusBearBrowserInfo": {
+    "buttonZoomIn": "Powiększ (⌘+)",
+    "buttonZoomOut": "Pomniejsz (⌘−)",
+    "buttonResetZoom": "Rzeczywisty rozmiar (⌘0)",
     "sharePickerTitle": "Wybierz, co udostępnić stronie <SITE>",
     "sharePickerKindTab": "Karta przeglądarki",
     "sharePickerKindWindow": "Okno",

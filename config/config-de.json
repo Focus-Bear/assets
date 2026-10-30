@@ -6528,6 +6528,9 @@
     "discardConfirmText": "Diese Vorlesung verwerfen? Aufnahme, Transkript und Notizen werden von diesem Computer gelöscht."
   },
   "focusBearBrowserInfo": {
+    "buttonZoomIn": "Vergrößern (⌘+)",
+    "buttonZoomOut": "Verkleinern (⌘−)",
+    "buttonResetZoom": "Originalgröße (⌘0)",
     "sharePickerTitle": "Auswählen, was mit <SITE> geteilt werden soll",
     "sharePickerKindTab": "Browser-Tab",
     "sharePickerKindWindow": "Fenster",

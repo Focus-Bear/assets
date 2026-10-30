@@ -6485,6 +6485,9 @@
         "discardConfirmText": "¿Descartar esta clase? Su grabación, su transcripción y tus notas se eliminan de este equipo."
     },
     "focusBearBrowserInfo": {
+    "buttonZoomIn": "Acercar (⌘+)",
+    "buttonZoomOut": "Alejar (⌘−)",
+    "buttonResetZoom": "Tamaño real (⌘0)",
         "sharePickerTitle": "Elige qué compartir con <SITE>",
         "sharePickerKindTab": "Pestaña del navegador",
         "sharePickerKindWindow": "Ventana",
