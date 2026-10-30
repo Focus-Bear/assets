@@ -6083,6 +6083,9 @@
   "reviseInfo": {
     "higherEffort": "Dokładniejsze rozumowanie",
     "higherEffortHelp": "Wykorzystuje więcej rozumowania i może potrwać dłużej. AI nadal może popełniać błędy.",
+    "assistNotHelpful": "Nieprzydatne",
+    "assistThinkHarderNext": "Dziękujemy. Następna odpowiedź będzie dokładniej przemyślana, więc może potrwać dłużej.",
+    "assistDisclaimer": "AI nadal może popełniać błędy.",
     "chatOriginInteractive": "Nowa rozmowa",
     "interactiveChatHelp": "Porozmawiaj o tym, czego chcesz się nauczyć, zadawaj dodatkowe pytania, a następnie wygeneruj fiszki z tej rozmowy.",
     "conversationPlaceholder": "Czego chcesz się nauczyć?",

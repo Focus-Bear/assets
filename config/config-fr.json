@@ -6083,6 +6083,9 @@
   "reviseInfo": {
     "higherEffort": "Approfondir le raisonnement",
     "higherEffortHelp": "Utilise davantage de raisonnement et peut prendre plus de temps. L’IA peut toujours se tromper.",
+    "assistNotHelpful": "Pas utile",
+    "assistThinkHarderNext": "Merci. La prochaine réponse approfondira le raisonnement et peut donc prendre plus de temps.",
+    "assistDisclaimer": "L’IA peut toujours se tromper.",
     "chatOriginInteractive": "Nouvelle conversation",
     "interactiveChatHelp": "Discutez de ce que vous souhaitez apprendre, posez des questions complémentaires, puis générez des fiches à partir de cette conversation.",
     "conversationPlaceholder": "Que souhaitez-vous apprendre ?",
