@@ -1535,6 +1535,9 @@
     "reviseInfo": {
       "higherEffort": "Razonar más",
       "higherEffortHelp": "Utiliza más razonamiento y puede tardar más. La IA aún puede cometer errores.",
+      "assistNotHelpful": "No es útil",
+      "assistThinkHarderNext": "Gracias. La próxima respuesta razonará más, así que puede tardar más.",
+      "assistDisclaimer": "La IA aún puede cometer errores.",
       "chatOriginInteractive": "Nueva conversación",
       "interactiveChatHelp": "Habla sobre lo que quieres aprender, haz preguntas de seguimiento y luego genera tarjetas a partir de esta conversación.",
       "conversationPlaceholder": "¿Qué te gustaría aprender?",

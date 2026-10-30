@@ -1535,6 +1535,9 @@
     "reviseInfo": {
       "higherEffort": "Think harder",
       "higherEffortHelp": "Uses more reasoning and may take longer. AI can still make mistakes.",
+      "assistNotHelpful": "Not helpful",
+      "assistThinkHarderNext": "Thanks. The next answer will think harder, so it may take longer.",
+      "assistDisclaimer": "AI can still make mistakes.",
       "chatOriginInteractive": "New conversation",
       "interactiveChatHelp": "Discuss what you want to learn, ask follow-up questions, then generate cards from this conversation.",
       "conversationPlaceholder": "What would you like to learn?",

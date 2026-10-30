@@ -6083,6 +6083,9 @@
   "reviseInfo": {
     "higherEffort": "Gründlicher nachdenken",
     "higherEffortHelp": "Nutzt mehr Denkaufwand und kann länger dauern. Die KI kann weiterhin Fehler machen.",
+    "assistNotHelpful": "Nicht hilfreich",
+    "assistThinkHarderNext": "Danke. Die nächste Antwort denkt gründlicher nach und kann daher länger dauern.",
+    "assistDisclaimer": "Die KI kann weiterhin Fehler machen.",
     "chatOriginInteractive": "Neues Gespräch",
     "interactiveChatHelp": "Besprich, was du lernen möchtest, stelle Rückfragen und erstelle anschließend Karten aus diesem Gespräch.",
     "conversationPlaceholder": "Was möchtest du lernen?",
