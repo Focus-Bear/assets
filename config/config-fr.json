@@ -4399,6 +4399,8 @@
       "tryAgainText": "Réessayer"
   },
   "scheduleViewInfo": {
+    "setUpHabits": "Configurer vos habitudes",
+    "setUpHabitsMessage": "Préparez-vous avant de commencer à travailler avec une routine matinale",
     "habitInOrderOnly": "Tes réglages demandent de faire les habitudes dans l’ordre, donc celle-ci attend son tour. Pour la faire maintenant, active « Autoriser à faire les habitudes dans le désordre » dans les Réglages.",
     "unnamedHabit": "Habitude sans nom",
       "tasksDurationHint": "Durée : saisis des minutes (30), 45m ou 1h, puis Entrée",

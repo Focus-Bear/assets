@@ -4765,6 +4765,8 @@
         "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
+    "setUpHabits": "Set up habits",
+    "setUpHabitsMessage": "Warm up before you start work with a morning routine",
       "unnamedHabit": "Unnamed habit",
         "tasksDurationHint": "Duration: type minutes (30), 45m or 1h, then Enter",
         "routineTimeInvalidWindows": "Type a time like 7:30, 07:30 or 7:30pm.",
