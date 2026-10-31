@@ -2649,6 +2649,7 @@
         "buttonDontAskAgainText": "Remember my choice"
     },
     "focusMusicInfo": {
+        "ownMusicHintText": "Add your own music using a Spotify or YouTube Music link. Many people find music with lyrics distracting.",
         "a11yRemoveTrack": "Remove %@",
         "a11yStopTrack": "Stop %@",
         "a11yPlayTrack": "Play %@",

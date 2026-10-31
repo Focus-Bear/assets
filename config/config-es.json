@@ -2648,6 +2648,7 @@
         "buttonDontAskAgainText": "Recordar mi elección"
     },
     "focusMusicInfo": {
+        "ownMusicHintText": "Añade tu propia música con un enlace de Spotify o YouTube Music. A muchas personas les distrae la música con letra.",
         "a11yRemoveTrack": "Quitar %@",
         "a11yStopTrack": "Detener %@",
         "a11yPlayTrack": "Reproducir %@",
