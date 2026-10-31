@@ -2387,7 +2387,7 @@
         "titleWithHold": "{0} (hold {1}s)",
         "accessibilityLabel": "{0}, hold for {1} seconds",
         "holdOrActivate": "Hold {0}s or click {1} times",
-        "activationProgress": "{0} of {1} · wait 1s between clicks",
+        "activationProgress": "{0}/{1} · 1s between clicks",
         "activationHelp": "Click or activate repeatedly, at least one second apart. You can take longer between activations."
     },
     "popUpBlockConfirmVcInfo": {

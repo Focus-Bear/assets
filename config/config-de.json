@@ -2000,7 +2000,7 @@
     "titleWithHold": "{0} ({1} s halten)",
     "accessibilityLabel": "{0}, {1} Sekunden gedrückt halten",
     "holdOrActivate": "{0}s halten oder {1}-mal klicken",
-    "activationProgress": "{0} von {1} · 1s zwischen Klicks warten",
+    "activationProgress": "{0}/{1} · 1s Abstand",
     "activationHelp": "Klicke oder aktiviere die Schaltfläche mehrmals mit mindestens einer Sekunde Abstand. Du kannst dir auch länger Zeit lassen."
   },
   "popUpBlockConfirmVcInfo": {

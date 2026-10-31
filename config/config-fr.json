@@ -2000,7 +2000,7 @@
     "titleWithHold": "{0} (maintenir {1} s)",
     "accessibilityLabel": "{0}, maintenir {1} secondes",
     "holdOrActivate": "Maintiens {0}s ou clique {1} fois",
-    "activationProgress": "{0} sur {1} · attends 1s entre les clics",
+    "activationProgress": "{0}/{1} · attends 1s",
     "activationHelp": "Clique ou active le bouton plusieurs fois, à au moins une seconde d’intervalle. Tu peux attendre plus longtemps."
   },
   "popUpBlockConfirmVcInfo": {

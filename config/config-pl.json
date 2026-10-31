@@ -2000,7 +2000,7 @@
     "titleWithHold": "{0} (przytrzymaj {1} s)",
     "accessibilityLabel": "{0}, przytrzymaj {1} sekund",
     "holdOrActivate": "Przytrzymaj {0}s lub kliknij {1} razy",
-    "activationProgress": "{0} z {1} · odczekaj 1s między kliknięciami",
+    "activationProgress": "{0}/{1} · odczekaj 1s",
     "activationHelp": "Kliknij lub aktywuj przycisk kilka razy w odstępach co najmniej jednej sekundy. Możesz robić dłuższe przerwy."
   },
   "popUpBlockConfirmVcInfo": {

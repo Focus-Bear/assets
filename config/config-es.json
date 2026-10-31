@@ -2387,7 +2387,7 @@
         "titleWithHold": "{0} (mantén {1} s)",
         "accessibilityLabel": "{0}, mantén pulsado {1} segundos",
         "holdOrActivate": "Mantén {0}s o pulsa {1} veces",
-        "activationProgress": "{0} de {1} · espera 1s entre pulsaciones",
+        "activationProgress": "{0}/{1} · espera 1s",
         "activationHelp": "Haz clic o activa el botón varias veces, dejando al menos un segundo entre cada activación. Puedes esperar más tiempo."
     },
     "popUpBlockConfirmVcInfo": {
