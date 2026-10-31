@@ -1992,13 +1992,16 @@
   "skipHabitVcInfo": {
     "title": "Nawyk zostanie pominięty za",
     "buttonDoHabitsText": "Zmieniłem zdanie — zrobię swoje nawyki",
-    "holdTitle": "Przytrzymaj przycisk, aby pominąć ten nawyk",
+    "holdTitle": "Potwierdź pominięcie tego nawyku",
     "holdButtonText": "Pomiń nawyk"
   },
   "holdToConfirmInfo": {
     "keepHolding": "Trzymaj dalej…",
     "titleWithHold": "{0} (przytrzymaj {1} s)",
-    "accessibilityLabel": "{0}, przytrzymaj {1} sekund"
+    "accessibilityLabel": "{0}, przytrzymaj {1} sekund",
+    "holdOrActivate": "Trzymaj {0}s / kliknij {1}×",
+    "activationProgress": "{0}/{1} · odczekaj 1s",
+    "activationHelp": "Kliknij lub aktywuj przycisk kilka razy w odstępach co najmniej jednej sekundy. Możesz robić dłuższe przerwy."
   },
   "popUpBlockConfirmVcInfo": {
     "title": "Czy musisz korzystać z <URL>, gdy skupiasz się na <FOCUSTYPE>?",
