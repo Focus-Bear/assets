@@ -6528,6 +6528,9 @@
     "discardConfirmText": "Supprimer ce cours ? Son enregistrement, sa transcription et ses notes seront effacés de cet ordinateur."
   },
   "focusBearBrowserInfo": {
+    "buttonZoomIn": "Zoom avant (⌘+)",
+    "buttonZoomOut": "Zoom arrière (⌘−)",
+    "buttonResetZoom": "Taille réelle (⌘0)",
     "sharePickerTitle": "Choisissez ce que vous voulez partager avec <SITE>",
     "sharePickerKindTab": "Onglet du navigateur",
     "sharePickerKindWindow": "Fenêtre",

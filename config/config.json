@@ -6487,6 +6487,9 @@
         "discardConfirmText": "Discard this lecture? Its recording, transcript and notes are deleted from this computer."
     },
     "focusBearBrowserInfo": {
+    "buttonZoomIn": "Zoom in (⌘+)",
+    "buttonZoomOut": "Zoom out (⌘−)",
+    "buttonResetZoom": "Actual size (⌘0)",
         "sharePickerTitle": "Choose what to share with <SITE>",
         "sharePickerKindTab": "Browser tab",
         "sharePickerKindWindow": "Window",
