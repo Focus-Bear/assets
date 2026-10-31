@@ -1209,6 +1209,8 @@
     "tabViewAccountabilityBuddyTitle": "Verantwortungspartner"
   },
   "passwordPreferencesInfo": {
+    "buttonStrictSettingsText": "Einstellungen während superstrenger Fokussitzungen oder geplanter Blockierungen ändern",
+    "strictSettingsExplanation": "Erfordert dein Passwort, solange eine davon aktiv ist. Andere Passwortregeln gelten weiterhin.",
     "buttonPostponeEveningHabitAfterCutOffText": "Abendroutine nach der Grenzzeit verschieben",
     "titleSetPassword": "Passwort festlegen",
     "titleChangePassword": "Passwort ändern",

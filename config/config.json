@@ -1206,6 +1206,8 @@
         "tabViewAccountabilityBuddyTitle": "Accountability Buddy"
     },
     "passwordPreferencesInfo": {
+    "buttonStrictSettingsText": "Changing settings during super-strict focus sessions or blocking schedules",
+    "strictSettingsExplanation": "Requires your password while either is running. Other password rules still apply.",
         "titleSetPassword": "Set Password",
         "titleChangePassword": "Change Password",
         "newPasswordPlaceholderText": "New Password",

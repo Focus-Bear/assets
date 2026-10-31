@@ -1206,6 +1206,8 @@
         "tabViewAccountabilityBuddyTitle": "Compañer@ de responsabilidad"
     },
     "passwordPreferencesInfo": {
+    "buttonStrictSettingsText": "Cambiar ajustes durante sesiones de enfoque o bloqueos programados superestrictos",
+    "strictSettingsExplanation": "Requiere tu contraseña mientras alguno esté activo. Las demás reglas de contraseña siguen aplicándose.",
         "buttonPostponeEveningHabitAfterCutOffText": "Posponiendo la rutina nocturna después de la hora límite",
         "titleSetPassword": "Configurar la contraseña",
         "titleChangePassword": "Cambiar Contraseña",
