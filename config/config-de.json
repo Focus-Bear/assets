@@ -2261,6 +2261,7 @@
     "buttonDontAskAgainText": "Meine Wahl merken"
   },
   "focusMusicInfo": {
+    "ownMusicHintText": "Füge deine eigene Musik über einen Spotify- oder YouTube-Music-Link hinzu. Viele Menschen empfinden Musik mit Gesang als ablenkend.",
     "a11yRemoveTrack": "%@ entfernen",
     "a11yStopTrack": "%@ stoppen",
     "a11yPlayTrack": "%@ abspielen",
