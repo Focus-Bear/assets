@@ -3047,7 +3047,7 @@
     "ui_ShowDockIcon": "Włącz to ustawienie, aby wyświetlić ikonę Focus Bear w Docku. Kliknięcie ikony w Docku otworzy menu Focus Bear.",
     "ui_SelectLanguage": "Przetłumaczyliśmy aplikację na kilka języków. Wybierz tutaj preferowany język. Jeśli potrzebujesz innego języka, napisz do nas na support@focusbear.io",
     "ui_AutoCloseAfterRoutine": "Gdy włączone, okno aplikacji zamknie się automatycznie po ukończeniu, pominięciu lub odłożeniu porannej lub wieczornej rutyny. Gdy wyłączone, aplikacja pozostanie otwarta, abyś mógł od razu rozpocząć sesję skupienia.",
-    "ui_DarkMode": "Opcja przyjazna dla oczu! Wybierz tryb ciemny, aby zmniejszyć jasność ekranu i zmęczenie oczu.",
+    "ui_DarkMode": "Wybierz jasny lub ciemny wygląd albo użyj ustawień systemowych.",
     "ui_HideDockInAllowedAppActivities": "Tryb bez rozpraszaczy! Czasem ikony aplikacji w Docku rozpraszają. Włącz to ustawienie, aby ukryć Dock podczas wykonywania nawyków z dozwolonymi aplikacjami. Na przykład możesz mieć nawyk prowadzenia dziennika, który daje dostęp tylko do aplikacji do dziennika. Po włączeniu tego ustawienia nie zobaczysz Docku z jego wszystkimi pokusami.",
     "accessibility_ReduceMotion": "Po ukończeniu nawyków pokazujemy animowane GIF-y z misiem. Jeśli nie podobają Ci się te animacje lub powodują dyskomfort fizyczny, możesz je wyłączyć.",
     "accessibility_PlaySound": "Po ukończeniu nawyków odtwarzamy efekty dźwiękowe w stylu gier wideo (dźwięk!), abyś poczuł satysfakcję z postępów. Jeśli nie podobają Ci się te dźwięki, możesz je wyłączyć. Możesz też napisać do nas na support@focusbear.io, jeśli chciałbyś mieć możliwość dostosowania efektów dźwiękowych.",

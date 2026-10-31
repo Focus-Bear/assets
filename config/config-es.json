@@ -3426,7 +3426,7 @@
         "ui_ShowDockIcon": "Activa esta opción para mostrar el icono de Focus Bear en tu Dock. Si haces clic en el icono del Dock, se abrirá el menú de Focus Bear.",
         "ui_SelectLanguage": "Hemos traducido la app a algunos idiomas. Elige aquí el idioma que prefieras. Si necesitas otro idioma, escríbenos a support@focusbear.io.",
         "ui_AutoCloseAfterRoutine": "Cuando está activado, la ventana se cerrará automáticamente al completar, omitir o posponer una rutina. Cuando está desactivado, la app permanecerá abierta para que puedas iniciar una sesión de enfoque de inmediato.",
-        "ui_DarkMode": "¡Opción amigable para los ojos! Opta por el modo oscuro para reducir el brillo de la pantalla y la fatiga visual.",
+        "ui_DarkMode": "Elige una apariencia clara u oscura, o sigue la configuración del sistema.",
         "ui_HideDockInAllowedAppActivities": "¡Modo sin distracciones! A veces los iconos de las apps en el dock distraen. Activa esta opción para ocultar el dock mientras realizas hábitos con apps permitidas. Por ejemplo, podrías tener un hábito de journaling que sólo te permita acceder a tu app de journaling. Si activas esta opción, no verás el dock con todas sus tentaciones.",
         "accessibility_ReduceMotion": "Mostramos GIFs animados de osos después de completar tus hábitos. Si no te gustan estas animaciones o experimentas molestias físicas, puedes desactivarlas.",
         "accessibility_PlaySound": "Reproducimos efectos de sonido estilo videojuego (¡ding!) después de completar tus hábitos para que te sientas bien con tu progreso. Si no te gustan estos efectos de sonido, puedes desactivarlos. También puedes enviarnos un correo a: support@focusbear.io si quieres personalizar los efectos de sonido.",
