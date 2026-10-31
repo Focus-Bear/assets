@@ -2379,13 +2379,16 @@
     "skipHabitVcInfo": {
         "title": "Skipping habit in",
         "buttonDoHabitsText": "I changed my mind - I'll do my habits",
-        "holdTitle": "Hold the button to skip this habit",
+        "holdTitle": "Confirm skipping this habit",
         "holdButtonText": "Skip habit"
     },
     "holdToConfirmInfo": {
         "keepHolding": "Keep holding…",
         "titleWithHold": "{0} (hold {1}s)",
-        "accessibilityLabel": "{0}, hold for {1} seconds"
+        "accessibilityLabel": "{0}, hold for {1} seconds",
+        "holdOrActivate": "Hold {0}s or click {1} times",
+        "activationProgress": "{0} of {1} · wait 1s between clicks",
+        "activationHelp": "Click or activate repeatedly, at least one second apart. You can take longer between activations."
     },
     "popUpBlockConfirmVcInfo": {
         "title": "Do you need to use <URL> when you're focusing on <FOCUSTYPE>?",

@@ -1992,13 +1992,16 @@
   "skipHabitVcInfo": {
     "title": "Habitude ignorée dans",
     "buttonDoHabitsText": "J'ai changé d'avis — je fais mes habitudes",
-    "holdTitle": "Maintiens le bouton enfoncé pour ignorer cette habitude",
+    "holdTitle": "Confirme que tu veux passer cette habitude",
     "holdButtonText": "Ignorer l’habitude"
   },
   "holdToConfirmInfo": {
     "keepHolding": "Continue d’appuyer…",
     "titleWithHold": "{0} (maintenir {1} s)",
-    "accessibilityLabel": "{0}, maintenir {1} secondes"
+    "accessibilityLabel": "{0}, maintenir {1} secondes",
+    "holdOrActivate": "Maintiens {0}s ou clique {1} fois",
+    "activationProgress": "{0} sur {1} · attends 1s entre les clics",
+    "activationHelp": "Clique ou active le bouton plusieurs fois, à au moins une seconde d’intervalle. Tu peux attendre plus longtemps."
   },
   "popUpBlockConfirmVcInfo": {
     "title": "As-tu besoin d'utiliser <URL> pendant que tu te concentres sur <FOCUSTYPE> ?",

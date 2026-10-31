@@ -2379,13 +2379,16 @@
     "skipHabitVcInfo": {
         "title": "Posponer habito ahora",
         "buttonDoHabitsText": "Cambié de opinión – Trabajaré en mis hábitos",
-        "holdTitle": "Mantén pulsado el botón para saltar este hábito",
+        "holdTitle": "Confirma que quieres omitir este hábito",
         "holdButtonText": "Saltar hábito"
     },
     "holdToConfirmInfo": {
         "keepHolding": "Sigue pulsando…",
         "titleWithHold": "{0} (mantén {1} s)",
-        "accessibilityLabel": "{0}, mantén pulsado {1} segundos"
+        "accessibilityLabel": "{0}, mantén pulsado {1} segundos",
+        "holdOrActivate": "Mantén {0}s o pulsa {1} veces",
+        "activationProgress": "{0} de {1} · espera 1s entre pulsaciones",
+        "activationHelp": "Haz clic o activa el botón varias veces, dejando al menos un segundo entre cada activación. Puedes esperar más tiempo."
     },
     "popUpBlockConfirmVcInfo": {
         "title": "¿Necesitas usar <URL> cuando te enfocas en <FOCUSTYPE>?",
