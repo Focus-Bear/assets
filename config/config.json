@@ -3424,7 +3424,7 @@
         "ui_ShowDockIcon": "Enable this setting to show the Focus Bear app icon in your Dock. If you click on the dock icon, it will open the Focus Bear menu.",
         "ui_SelectLanguage": "We’ve translated the app into a few languages. Choose your preferred language here. Let us know if you need a different language by emailing support@focusbear.io",
         "ui_AutoCloseAfterRoutine": "When enabled, the app window will automatically close after you complete, skip or postpone a morning or evening routine. When disabled, the app will stay open so you can start a focus session straight away.",
-        "ui_DarkMode": "Eye-friendly option! Opt for Dark Mode to reduce screen brightness and eye strain.",
+        "ui_DarkMode": "Choose a light or dark appearance, or follow your system settings.",
         "ui_HideDockInAllowedAppActivities": "Distraction-free mode! Sometimes app icons in the dock are distracting. Toggle this setting on to hide the dock while you’re doing habits with allowed apps. For example, you could have a journaling habit that only gives you access to your journaling app. If you enable this setting, you won’t see the dock with all its temptations.",
         "accessibility_ReduceMotion": "We show animated Bear GIFs after you complete habits. If you don’t like these animations or experience physical discomfort, you can turn off the animations.",
         "accessibility_PlaySound": "We play video game style sound effects (ding!) after you complete habits to make you feel good about your progress. If you don’t like these sound effects, you can turn them off. You can also email us: support@focusbear.io if you’d like to be able to customize the sound effects.",
