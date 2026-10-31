@@ -1209,6 +1209,8 @@
     "tabViewAccountabilityBuddyTitle": "Partner odpowiedzialności"
   },
   "passwordPreferencesInfo": {
+    "buttonStrictSettingsText": "Zmiana ustawień podczas superścisłych sesji skupienia lub zaplanowanych blokad",
+    "strictSettingsExplanation": "Wymaga hasła, gdy którakolwiek z nich jest aktywna. Pozostałe reguły dotyczące hasła nadal obowiązują.",
     "buttonPostponeEveningHabitAfterCutOffText": "Odłożenie wieczornej rutyny po godzinie granicznej",
     "titleSetPassword": "Ustaw hasło",
     "titleChangePassword": "Zmień hasło",

@@ -1209,6 +1209,8 @@
     "tabViewAccountabilityBuddyTitle": "Partenaire de responsabilisation"
   },
   "passwordPreferencesInfo": {
+    "buttonStrictSettingsText": "Modifier les réglages pendant les sessions de concentration ou les blocages programmés super stricts",
+    "strictSettingsExplanation": "Exige votre mot de passe tant que l’un des deux est actif. Les autres règles de mot de passe restent applicables.",
     "buttonPostponeEveningHabitAfterCutOffText": "Report de la routine du soir après l'heure limite",
     "titleSetPassword": "Définir un mot de passe",
     "titleChangePassword": "Changer le mot de passe",
