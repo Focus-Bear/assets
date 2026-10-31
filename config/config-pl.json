@@ -4399,6 +4399,8 @@
       "tryAgainText": "Spróbuj ponownie"
   },
   "scheduleViewInfo": {
+    "setUpHabits": "Skonfiguruj nawyki",
+    "setUpHabitsMessage": "Przygotuj się do pracy dzięki porannej rutynie",
     "habitInOrderOnly": "Twoje ustawienia wymagają wykonywania nawyków po kolei, więc ten czeka na swoją kolej. Aby wykonać go teraz, włącz „Zezwalaj na wykonywanie nawyków w dowolnej kolejności” w Ustawieniach.",
     "unnamedHabit": "Nawyk bez nazwy",
       "tasksDurationHint": "Czas trwania: wpisz minuty (30), 45m lub 1h, a potem Enter",

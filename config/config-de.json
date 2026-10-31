@@ -4399,6 +4399,8 @@
       "tryAgainText": "Erneut versuchen"
   },
   "scheduleViewInfo": {
+    "setUpHabits": "Gewohnheiten einrichten",
+    "setUpHabitsMessage": "Starte mit einer Morgenroutine in deinen Arbeitstag",
     "habitInOrderOnly": "Deine Einstellungen verlangen Gewohnheiten der Reihe nach, deshalb wartet diese, bis sie dran ist. Um sie jetzt zu machen, schalte in den Einstellungen „Gewohnheiten in beliebiger Reihenfolge erlauben“ ein.",
     "unnamedHabit": "Unbenannte Gewohnheit",
       "tasksDurationHint": "Dauer: Minuten eingeben (30), 45m oder 1h, dann Eingabetaste",

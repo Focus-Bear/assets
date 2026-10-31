@@ -4763,6 +4763,8 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+    "setUpHabits": "Configura tus hábitos",
+    "setUpHabitsMessage": "Prepárate antes de empezar a trabajar con una rutina matutina",
       "unnamedHabit": "Hábito sin nombre",
         "tasksDurationHint": "Duración: escribe minutos (30), 45m o 1h y pulsa Intro",
         "routineTimeInvalidWindows": "Escribe una hora como 7:30, 07:30 o 7:30pm.",
