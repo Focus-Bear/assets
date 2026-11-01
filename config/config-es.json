@@ -7202,5 +7202,13 @@
     },
     "schoolFeaturePolicyInfo": {
         "turnedOffBySchoolText": "Desactivado por tu colegio"
-    }
+    },
+  "sessionSignInInfo": {
+    "signInAgainTitle": "Vuelve a iniciar sesión para seguir sincronizando",
+    "signInAgainDetail": "Tu sesión de Focus Bear ha caducado. El bloqueo sigue activo con los ajustes que ya hay en este Mac.",
+    "signInAgainButton": "Volver a iniciar sesión",
+    "signInAgainInProgress": "Iniciando sesión…",
+    "signInAgainDifferentAccount": "Esa es otra cuenta. Inicia sesión con la cuenta que usaba este Mac.",
+    "signInAgainFailed": "No se completó el inicio de sesión. El bloqueo sigue activo; inténtalo de nuevo."
+  }
 }

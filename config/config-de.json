@@ -4443,6 +4443,14 @@
       "offlineDetailText": "Prüf deine Internetverbindung. Nichts, was du hier tust, geht verloren; es wird synchronisiert, sobald du wieder online bist.",
       "tryAgainText": "Erneut versuchen"
   },
+  "sessionSignInInfo": {
+    "signInAgainTitle": "Melde dich erneut an, um weiter zu synchronisieren",
+    "signInAgainDetail": "Deine Focus-Bear-Anmeldung ist abgelaufen. Deine Blockierung bleibt aktiv – mit den Einstellungen, die schon auf diesem Mac sind.",
+    "signInAgainButton": "Erneut anmelden",
+    "signInAgainInProgress": "Anmeldung läuft…",
+    "signInAgainDifferentAccount": "Das war ein anderes Konto. Melde dich mit dem Konto an, das dieser Mac verwendet hat.",
+    "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal."
+  },
   "scheduleViewInfo": {
     "habitInOrderOnly": "Deine Einstellungen verlangen Gewohnheiten der Reihe nach, deshalb wartet diese, bis sie dran ist. Um sie jetzt zu machen, schalte in den Einstellungen „Gewohnheiten in beliebiger Reihenfolge erlauben“ ein.",
     "unnamedHabit": "Unbenannte Gewohnheit",

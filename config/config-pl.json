@@ -4443,6 +4443,14 @@
       "offlineDetailText": "Sprawdź połączenie z internetem. Nic, co tu zrobisz, nie przepadnie; zsynchronizuje się, gdy wrócisz do sieci.",
       "tryAgainText": "Spróbuj ponownie"
   },
+  "sessionSignInInfo": {
+    "signInAgainTitle": "Zaloguj się ponownie, aby dalej synchronizować",
+    "signInAgainDetail": "Twoje logowanie do Focus Bear wygasło. Blokowanie nadal działa, korzystając z ustawień zapisanych na tym Macu.",
+    "signInAgainButton": "Zaloguj się ponownie",
+    "signInAgainInProgress": "Logowanie…",
+    "signInAgainDifferentAccount": "To było inne konto. Zaloguj się na konto, którego używał ten Mac.",
+    "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie."
+  },
   "scheduleViewInfo": {
     "habitInOrderOnly": "Twoje ustawienia wymagają wykonywania nawyków po kolei, więc ten czeka na swoją kolej. Aby wykonać go teraz, włącz „Zezwalaj na wykonywanie nawyków w dowolnej kolejności” w Ustawieniach.",
     "unnamedHabit": "Nawyk bez nazwy",
