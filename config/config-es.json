@@ -6484,6 +6484,8 @@
         "message": "Focus Bear se cerró de forma inesperada, así que se está volviendo a abrir.",
         "crashLoop": "Focus Bear se sigue cerrando de forma inesperada. Lo volverá a intentar en unos segundos.",
         "stillStarting": "Focus Bear está tardando más de lo normal en abrirse.",
+        "gaveUpTitle": "Focus Bear dejó de reiniciarse solo",
+        "gaveUpMessage": "Focus Bear se siguió cerrando de forma inesperada, así que no se volverá a abrir automáticamente. Abre Focus Bear tú mismo cuando quieras.",
         "relaunchButton": "Volver a abrir Focus Bear",
         "closeButton": "Cerrar",
         "phaseStartingApp": "Abriendo Focus Bear…",

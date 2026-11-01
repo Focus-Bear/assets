@@ -6090,6 +6090,8 @@
     "message": "Focus Bear wurde unerwartet beendet und startet deshalb neu.",
     "crashLoop": "Focus Bear wird immer wieder unerwartet beendet. In ein paar Sekunden wird es erneut versucht.",
     "stillStarting": "Der Start von Focus Bear dauert länger als üblich.",
+    "gaveUpTitle": "Focus Bear startet nicht mehr automatisch neu",
+    "gaveUpMessage": "Focus Bear wurde immer wieder unerwartet beendet und wird deshalb nicht mehr automatisch neu gestartet. Öffne Focus Bear selbst, wenn du so weit bist.",
     "relaunchButton": "Focus Bear neu starten",
     "closeButton": "Schließen",
     "phaseStartingApp": "Focus Bear wird gestartet…",
