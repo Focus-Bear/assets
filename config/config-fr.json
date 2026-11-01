@@ -2161,7 +2161,10 @@
     "duplicateName": "Une liste de blocage portant ce nom existe déjà.",
     "renameBlockList": "Renommer cette liste de blocage",
     "showBlockList": "Afficher dans les sélecteurs",
-    "nameTaken": "Une liste de blocage nommée « <NAME> » existe déjà."
+    "nameTaken": "Une liste de blocage nommée « <NAME> » existe déjà.",
+    "askIntentionToggle": "Demander une intention avant de bloquer les sites et apps super distrayants",
+    "askIntentionCaption": "Activé : en ouvrant l’un de ces sites ou apps, tu peux définir une intention et l’utiliser un moment. Désactivé : ils sont bloqués immédiatement.",
+    "askIntentionLockedCaption": "Le mode Super strict les bloque toujours immédiatement. Baisse ton niveau de sévérité dans Réglages → Sévérité pour changer cela."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Bienvenue sur Focus Bear",

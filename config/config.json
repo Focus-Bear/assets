@@ -2548,7 +2548,10 @@
       "searchEntries": "Search URLs and apps",
       "searchOrAddEntries": "Search or add URLs and apps",
       "showBlockList": "Show in pickers",
-        "nameTaken": "A block list named “<NAME>” already exists."
+        "nameTaken": "A block list named “<NAME>” already exists.",
+        "askIntentionToggle": "Ask for an intention before blocking super distracting sites and apps",
+        "askIntentionCaption": "When this is on, opening one of these sites or apps lets you set an intention and use it for a while. When it's off, they're blocked straight away.",
+        "askIntentionLockedCaption": "Super Strict always blocks these straight away. Lower your strictness level in Settings → Strictness to change this."
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Welcome to Focus Bear",

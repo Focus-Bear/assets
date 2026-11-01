@@ -2161,7 +2161,10 @@
     "searchEntries": "Szukaj adresów URL i aplikacji",
     "searchOrAddEntries": "Szukaj lub dodaj adresy URL i aplikacje",
     "showBlockList": "Pokaż na listach wyboru",
-    "nameTaken": "Lista blokowania o nazwie „<NAME>” już istnieje."
+    "nameTaken": "Lista blokowania o nazwie „<NAME>” już istnieje.",
+    "askIntentionToggle": "Pytaj o intencję przed zablokowaniem bardzo rozpraszających stron i aplikacji",
+    "askIntentionCaption": "Gdy to jest włączone, po otwarciu jednej z tych stron lub aplikacji możesz ustawić intencję i korzystać z niej przez chwilę. Gdy jest wyłączone, są blokowane od razu.",
+    "askIntentionLockedCaption": "Tryb Bardzo rygorystyczny zawsze blokuje je od razu. Aby to zmienić, obniż poziom rygorystyczności w Ustawienia → Rygorystyczność."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Witaj w Focus Bear",
