@@ -4391,6 +4391,13 @@
     "keepPlannedDays": "Ne pas modifier les tâches prévues pour aujourd’hui ou demain",
     "outcomeUnavailable": "Le résultat d’un projet ne peut pas encore être enregistré — il faut une mise à jour du serveur. Utilise l’échéance et l’importance pour l’instant."
   },
+  "announcementsInfo": {
+      "learnMoreText": "En savoir plus",
+      "dismissText": "Ignorer",
+      "dismissAccessibilityText": "Ignorer l’annonce",
+      "waitingCountText": "{count} de plus",
+      "cardAccessibilityText": "Annonce"
+  },
   "serverReachabilityInfo": {
       "serverTroubleBannerText": "Impossible de joindre Focus Bear pour l’instant — affichage de ce qui est enregistré sur ce Mac.",
       "offlineBannerText": "Tu es hors ligne — affichage de ce qui est enregistré sur ce Mac.",

@@ -4391,6 +4391,13 @@
     "keepPlannedDays": "Aufgaben für heute oder morgen nicht ändern",
     "outcomeUnavailable": "Das Ergebnis eines Projekts kann noch nicht gespeichert werden – dafür ist ein Server-Update nötig. Nutze vorerst Fälligkeitsdatum und Wichtigkeit."
   },
+  "announcementsInfo": {
+      "learnMoreText": "Mehr erfahren",
+      "dismissText": "Ausblenden",
+      "dismissAccessibilityText": "Ankündigung ausblenden",
+      "waitingCountText": "{count} weitere",
+      "cardAccessibilityText": "Ankündigung"
+  },
   "serverReachabilityInfo": {
       "serverTroubleBannerText": "Focus Bear ist gerade nicht erreichbar – angezeigt wird, was auf diesem Mac gespeichert ist.",
       "offlineBannerText": "Du bist offline – angezeigt wird, was auf diesem Mac gespeichert ist.",
