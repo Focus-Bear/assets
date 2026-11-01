@@ -5711,6 +5711,8 @@
         "errorBlockListMissing": "Update block list ⚠️",
         "alertSelectBlockList": "Please select block list.",
         "alertInvalidTime": "Please enter a complete time, including AM or PM, in the From and Till fields before saving.",
+        "labelEndsNextDay": "Ends the next day",
+        "alertSameStartEndTime": "The start and end time can't be the same.",
         "titleScheduleOverlapAlert": "Time Overlap Detected",
         "subTitleScheduleOverlapAlert": "This blocking schedule's time overlaps with an existing one. Do you want to save it anyway?",
         "buttonSaveBlockAnyway": "Save Anyway",
