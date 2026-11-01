@@ -4398,6 +4398,14 @@
       "offlineDetailText": "Vérifie ta connexion internet. Rien de ce que tu fais ici n’est perdu ; tout se synchronisera quand tu seras de nouveau en ligne.",
       "tryAgainText": "Réessayer"
   },
+  "sessionSignInInfo": {
+    "signInAgainTitle": "Reconnecte-toi pour continuer la synchronisation",
+    "signInAgainDetail": "Ta connexion à Focus Bear a expiré. Ton blocage reste actif, avec les réglages déjà présents sur ce Mac.",
+    "signInAgainButton": "Se reconnecter",
+    "signInAgainInProgress": "Connexion…",
+    "signInAgainDifferentAccount": "C'était un autre compte. Connecte-toi avec le compte qu'utilisait ce Mac.",
+    "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie."
+  },
   "scheduleViewInfo": {
     "habitInOrderOnly": "Tes réglages demandent de faire les habitudes dans l’ordre, donc celle-ci attend son tour. Pour la faire maintenant, active « Autoriser à faire les habitudes dans le désordre » dans les Réglages.",
     "unnamedHabit": "Habitude sans nom",

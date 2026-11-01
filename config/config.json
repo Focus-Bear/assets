@@ -7154,5 +7154,13 @@
     },
     "schoolFeaturePolicyInfo": {
         "turnedOffBySchoolText": "Turned off by your school"
-    }
+    },
+  "sessionSignInInfo": {
+    "signInAgainTitle": "Sign in again to keep syncing",
+    "signInAgainDetail": "Your Focus Bear sign-in has expired. Your blocking stays on, using the settings already on this Mac.",
+    "signInAgainButton": "Sign in again",
+    "signInAgainInProgress": "Signing in…",
+    "signInAgainDifferentAccount": "That was a different account. Sign in with the account this Mac was using.",
+    "signInAgainFailed": "Sign-in didn't finish. Your blocking is still on — try again."
+  }
 }
