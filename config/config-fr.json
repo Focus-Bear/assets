@@ -3739,7 +3739,10 @@
     "unsavedFrequencyTurnOnButton": "Activer les pauses",
     "unsavedFrequencyDiscardButton": "Abandonner le changement",
     "unsavedFrequencyCancelButton": "Annuler",
-    "buttonBreakSettings": "Réglages des pauses"
+    "buttonBreakSettings": "Réglages des pauses",
+    "postponedBreaksTitleText": "Les pauses sont en attente",
+    "postponedBreaksDescriptionText": "Ta routine est reportée, donc aucune pause n’est prévue. Les pauses reviendront une fois tes habitudes terminées. Pour continuer à recevoir des pauses pendant qu’une routine est reportée, active « <SETTING> » dans Réglages › Pauses.",
+    "postponedBreaksSettingsButtonText": "Ouvrir Réglages › Pauses"
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Partagé avec vous",
