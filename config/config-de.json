@@ -1340,7 +1340,15 @@
     "deleteAccountSuccessTitle": "Konto gelöscht",
     "deleteAccountSuccessText": "Dein Konto wurde erfolgreich gelöscht.",
     "deleteAccountFailedTitle": "Konto konnte nicht gelöscht werden",
-    "deleteAccountFailedText": "Beim Löschen deines Kontos ist etwas schiefgelaufen. Bitte überprüfe deine Internetverbindung und versuche es erneut."
+    "deleteAccountFailedText": "Beim Löschen deines Kontos ist etwas schiefgelaufen. Bitte überprüfe deine Internetverbindung und versuche es erneut.",
+    "guestAccountTitle": "Du nutzt ein Gastkonto",
+    "guestAccountDescription": "Erstelle ein Konto, um deinen Fortschritt und deine Einstellungen zu speichern und sie zu behalten, wenn du das Gerät wechselst oder neu installierst.",
+    "buttonCreateAccountText": "Konto erstellen",
+    "createAccountAccessibilityLabel": "Ein Konto erstellen",
+    "createAccountFormTitle": "Erstelle dein Konto",
+    "createAccountFormDescription": "Füge eine E-Mail-Adresse und ein Passwort hinzu, um dein Gastkonto in ein dauerhaftes Konto umzuwandeln. Deine aktuellen Einstellungen und dein Fortschritt bleiben erhalten.",
+    "createAccountEmailPlaceholder": "E-Mail",
+    "createAccountPasswordPlaceholder": "Passwort (mind. 8 Zeichen)"
   },
   "activityPostponeInfo": {
     "postponeHabitsText": "Wenn etwas Dringendes ansteht, kannst du Gewohnheiten um ein paar Minuten verschieben.",
@@ -2803,6 +2811,7 @@
   },
   "settingsNew": {
     "searchSettingsLabel": "Einstellungen durchsuchen",
+    "searchSettingsPlaceholder": "Suchen",
     "uiSettingTitle": "Oberfläche",
     "accessibilitySettingTitle": "Bedienungshilfen",
     "aISettingTitle": "KI-Funktionen",

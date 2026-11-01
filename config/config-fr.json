@@ -1340,7 +1340,15 @@
     "deleteAccountSuccessTitle": "Compte supprimé",
     "deleteAccountSuccessText": "Ton compte a été supprimé avec succès.",
     "deleteAccountFailedTitle": "Impossible de supprimer le compte",
-    "deleteAccountFailedText": "Une erreur s'est produite lors de la suppression de ton compte. Vérifie ta connexion internet et réessaie."
+    "deleteAccountFailedText": "Une erreur s'est produite lors de la suppression de ton compte. Vérifie ta connexion internet et réessaie.",
+    "guestAccountTitle": "Tu utilises un compte invité",
+    "guestAccountDescription": "Crée un compte pour sauvegarder ta progression et tes réglages, et les garder si tu changes d’appareil ou réinstalles l’app.",
+    "buttonCreateAccountText": "Créer un compte",
+    "createAccountAccessibilityLabel": "Créer un compte",
+    "createAccountFormTitle": "Crée ton compte",
+    "createAccountFormDescription": "Ajoute un e-mail et un mot de passe pour transformer ton compte invité en compte permanent. Tes réglages et ta progression actuels sont conservés.",
+    "createAccountEmailPlaceholder": "E-mail",
+    "createAccountPasswordPlaceholder": "Mot de passe (8 caractères min.)"
   },
   "activityPostponeInfo": {
     "postponeHabitsText": "Si tu as quelque chose d'urgent, tu peux reporter tes habitudes de quelques minutes.",
@@ -2803,6 +2811,7 @@
   },
   "settingsNew": {
     "searchSettingsLabel": "Rechercher dans les réglages",
+    "searchSettingsPlaceholder": "Rechercher",
     "uiSettingTitle": "Interface",
     "accessibilitySettingTitle": "Accessibilité",
     "aISettingTitle": "Fonctionnalités IA",

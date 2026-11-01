@@ -1337,7 +1337,15 @@
         "deleteAccountSuccessTitle": "Account Deleted",
         "deleteAccountSuccessText": "Your account has been successfully deleted.",
         "deleteAccountFailedTitle": "Unable to Delete Account",
-        "deleteAccountFailedText": "Something went wrong while deleting your account. Please check your internet connection and try again."
+        "deleteAccountFailedText": "Something went wrong while deleting your account. Please check your internet connection and try again.",
+        "guestAccountTitle": "You're using a guest account",
+        "guestAccountDescription": "Create an account to save your progress and settings, and keep them if you change or reinstall on another device.",
+        "buttonCreateAccountText": "Create account",
+        "createAccountAccessibilityLabel": "Create an account",
+        "createAccountFormTitle": "Create your account",
+        "createAccountFormDescription": "Add an email and password to turn your guest account into a permanent one. Your current settings and progress are kept.",
+        "createAccountEmailPlaceholder": "Email",
+        "createAccountPasswordPlaceholder": "Password (min 8 characters)"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
@@ -3189,6 +3197,7 @@
     },
     "settingsNew": {
         "searchSettingsLabel": "Search settings",
+        "searchSettingsPlaceholder": "Search",
         "uiSettingTitle": "UI",
         "accessibilitySettingTitle": "Accessibility",
         "aISettingTitle": "AI Features",
