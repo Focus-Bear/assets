@@ -5315,6 +5315,7 @@
     "errorBlockListMissing": "Blockliste aktualisieren ⚠️",
     "alertSelectBlockList": "Bitte wähle eine Blockliste aus.",
     "alertInvalidTime": "Bitte gib in den Feldern „Von“ und „Bis“ eine vollständige Uhrzeit inklusive AM oder PM ein, bevor du speicherst.",
+    "alertInvalidTime24h": "Bitte gib vor dem Speichern in den Feldern Von und Bis eine vollständige Uhrzeit ein, zum Beispiel 19:15.",
     "titleScheduleOverlapAlert": "Zeitüberschneidung erkannt",
     "subTitleScheduleOverlapAlert": "Die Zeit dieses Blockierzeitplans überschneidet sich mit einem bestehenden. Möchtest du trotzdem speichern?",
     "buttonSaveBlockAnyway": "Trotzdem speichern",

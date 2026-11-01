@@ -5315,6 +5315,7 @@
     "errorBlockListMissing": "Mettre à jour la liste de blocage ⚠️",
     "alertSelectBlockList": "Merci de sélectionner une liste de blocage.",
     "alertInvalidTime": "Merci de saisir une heure complète, avec AM ou PM, dans les champs De et À avant d'enregistrer.",
+    "alertInvalidTime24h": "Saisis une heure complète, par exemple 19:15, dans les champs De et Jusqu'à avant d'enregistrer.",
     "titleScheduleOverlapAlert": "Chevauchement horaire détecté",
     "subTitleScheduleOverlapAlert": "L'horaire de cet emploi du temps de blocage chevauche un emploi du temps existant. Veux-tu quand même l'enregistrer ?",
     "buttonSaveBlockAnyway": "Enregistrer quand même",

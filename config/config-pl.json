@@ -5315,6 +5315,7 @@
     "errorBlockListMissing": "Zaktualizuj listę blokad ⚠️",
     "alertSelectBlockList": "Wybierz listę blokad.",
     "alertInvalidTime": "Wpisz pełną godzinę, wraz z AM lub PM, w polach Od i Do przed zapisaniem.",
+    "alertInvalidTime24h": "Przed zapisaniem wpisz pełną godzinę, na przykład 19:15, w polach Od i Do.",
     "titleScheduleOverlapAlert": "Wykryto nakładanie się czasów",
     "subTitleScheduleOverlapAlert": "Godziny tego harmonogramu blokowania nakładają się na istniejący. Czy mimo to chcesz go zapisać?",
     "buttonSaveBlockAnyway": "Zapisz mimo to",
