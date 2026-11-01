@@ -4469,6 +4469,7 @@
     "routineCompleted": "Ukończona",
     "eveningRoutineHabits": "Nawyki wieczornej rutyny",
     "habitsSuffix": "nawyki",
+    "postponedUntil": "Przełożona do <TIME>",
     "play": "Start",
     "done": "Gotowe",
     "skip": "Pomiń",

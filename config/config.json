@@ -4827,6 +4827,7 @@
         "routineCompleted": "Completed",
         "eveningRoutineHabits": "Evening routine habits",
         "habitsSuffix": "habits",
+        "postponedUntil": "Postponed until <TIME>",
         "play": "Play",
         "done": "Done",
         "skip": "Skip",
