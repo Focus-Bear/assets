@@ -4104,7 +4104,10 @@
         "unsavedFrequencyTurnOnButton": "Activar descansos",
         "unsavedFrequencyDiscardButton": "Descartar cambio",
         "unsavedFrequencyCancelButton": "Cancelar",
-        "buttonBreakSettings": "Configuración de descansos"
+        "buttonBreakSettings": "Configuración de descansos",
+        "postponedBreaksTitleText": "Los descansos están en pausa",
+        "postponedBreaksDescriptionText": "Tu rutina está pospuesta, así que no hay ningún descanso programado. Los descansos volverán cuando completes tus hábitos. Para seguir recibiendo descansos mientras una rutina está pospuesta, activa \"<SETTING>\" en Ajustes › Descansos.",
+        "postponedBreaksSettingsButtonText": "Abrir Ajustes › Descansos"
     },
     "toDoListViewInfo":{
         "sharedWithYouBadgeText": "Compartido contigo",

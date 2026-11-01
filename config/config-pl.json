@@ -3739,7 +3739,10 @@
     "unsavedFrequencyTurnOnButton": "Włącz przerwy",
     "unsavedFrequencyDiscardButton": "Odrzuć zmianę",
     "unsavedFrequencyCancelButton": "Anuluj",
-    "buttonBreakSettings": "Ustawienia przerw"
+    "buttonBreakSettings": "Ustawienia przerw",
+    "postponedBreaksTitleText": "Przerwy są wstrzymane",
+    "postponedBreaksDescriptionText": "Twoja rutyna jest odłożona, więc żadna przerwa nie jest zaplanowana. Przerwy wrócą, gdy ukończysz swoje nawyki. Aby nadal otrzymywać przerwy, gdy rutyna jest odłożona, włącz „<SETTING>” w Ustawienia › Przerwy.",
+    "postponedBreaksSettingsButtonText": "Otwórz Ustawienia › Przerwy"
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Udostępnione Tobie",

@@ -4106,7 +4106,10 @@
         "unsavedFrequencyTurnOnButton": "Turn breaks on",
         "unsavedFrequencyDiscardButton": "Discard change",
         "unsavedFrequencyCancelButton": "Cancel",
-        "buttonBreakSettings": "Break settings"
+        "buttonBreakSettings": "Break settings",
+        "postponedBreaksTitleText": "Breaks are on hold",
+        "postponedBreaksDescriptionText": "Your routine is postponed, so no break is scheduled. Breaks come back once your habits are done. To keep getting breaks while a routine is postponed, turn on \"<SETTING>\" in Settings › Breaks.",
+        "postponedBreaksSettingsButtonText": "Open Settings › Breaks"
     },
     "toDoListViewInfo":{
         "sharedWithYouBadgeText": "Shared with you",

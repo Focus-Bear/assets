@@ -3739,7 +3739,10 @@
     "unsavedFrequencyTurnOnButton": "Pausen einschalten",
     "unsavedFrequencyDiscardButton": "Änderung verwerfen",
     "unsavedFrequencyCancelButton": "Abbrechen",
-    "buttonBreakSettings": "Pauseneinstellungen"
+    "buttonBreakSettings": "Pauseneinstellungen",
+    "postponedBreaksTitleText": "Pausen sind angehalten",
+    "postponedBreaksDescriptionText": "Deine Routine ist verschoben, deshalb ist keine Pause geplant. Pausen kommen zurück, sobald deine Gewohnheiten erledigt sind. Wenn du auch während einer verschobenen Routine Pausen bekommen möchtest, aktiviere \"<SETTING>\" unter Einstellungen › Pausen.",
+    "postponedBreaksSettingsButtonText": "Einstellungen › Pausen öffnen"
   },
   "toDoListViewInfo": {
         "sharedWithYouBadgeText": "Mit dir geteilt",
