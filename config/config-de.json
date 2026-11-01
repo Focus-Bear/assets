@@ -2107,6 +2107,8 @@
     "allowListEmptyAiOffNotice": "Deine Blockliste gilt weiterhin. Alles andere ist erlaubt, bis du hier etwas hinzufügst.",
     "stillBlockedFromBlockList": "Weiterhin durch deine Blockliste blockiert: <ITEMS>",
     "itemsAndCountMore": "<ITEMS> und <COUNT> weitere",
+    "meetingsListCallNotice": "Während eines Anrufs sind die Websites und Apps, die diese Liste blockiert, erlaubt, außer „<SETTING>“ ist aktiviert.",
+    "openMeetingSettings": "Meeting-Einstellungen",
     "blockListAiOffNotice": "Websites und Apps auf deiner Blockliste werden blockiert. Alles andere wird zugelassen.",
     "websitesLabel": "Websites",
     "noSearchMatches": "Nichts in dieser Liste passt zu deiner Suche.",
