@@ -4400,6 +4400,13 @@
     "keepPlannedDays": "Nie zmieniaj zadań zaplanowanych na dziś lub jutro",
     "outcomeUnavailable": "Rezultatu projektu nie można jeszcze zapisać — wymaga to aktualizacji serwera. Na razie użyj terminu i ważności."
   },
+  "announcementsInfo": {
+      "learnMoreText": "Dowiedz się więcej",
+      "dismissText": "Odrzuć",
+      "dismissAccessibilityText": "Odrzuć ogłoszenie",
+      "waitingCountText": "jeszcze {count}",
+      "cardAccessibilityText": "Ogłoszenie"
+  },
   "serverReachabilityInfo": {
       "serverTroubleBannerText": "Nie można teraz połączyć się z Focus Bear — wyświetlamy to, co zapisano na tym Macu.",
       "offlineBannerText": "Jesteś offline — wyświetlamy to, co zapisano na tym Macu.",

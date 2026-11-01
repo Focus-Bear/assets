@@ -4766,6 +4766,13 @@
         "outcomeUnavailable": "A project's outcome can't be saved yet — it needs a server update. Use the due date and importance for now.",
       "keepPlannedDays": "Don't change tasks scheduled for today or tomorrow"
     },
+    "announcementsInfo": {
+        "learnMoreText": "Learn more",
+        "dismissText": "Dismiss",
+        "dismissAccessibilityText": "Dismiss announcement",
+        "waitingCountText": "{count} more",
+        "cardAccessibilityText": "Announcement"
+    },
     "serverReachabilityInfo": {
         "serverTroubleBannerText": "Can't reach Focus Bear right now — showing what's saved on this Mac.",
         "offlineBannerText": "You're offline — showing what's saved on this Mac.",

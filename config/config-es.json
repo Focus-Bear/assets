@@ -4764,6 +4764,13 @@
         "outcomeUnavailable": "Todavía no se puede guardar el resultado de un proyecto: requiere una actualización del servidor. Usa la fecha de entrega y la importancia por ahora.",
       "keepPlannedDays": "No cambiar las tareas programadas para hoy o mañana"
     },
+    "announcementsInfo": {
+        "learnMoreText": "Más información",
+        "dismissText": "Descartar",
+        "dismissAccessibilityText": "Descartar anuncio",
+        "waitingCountText": "{count} más",
+        "cardAccessibilityText": "Anuncio"
+    },
     "serverReachabilityInfo": {
         "serverTroubleBannerText": "No podemos conectar con Focus Bear ahora mismo: mostrando lo guardado en este Mac.",
         "offlineBannerText": "Estás sin conexión: mostrando lo guardado en este Mac.",
