@@ -2163,7 +2163,10 @@
     "hiddenSuffix": " (Ausgeblendet)",
     "searchEntries": "URLs und Apps durchsuchen",
     "searchOrAddEntries": "URLs und Apps suchen oder hinzufügen",
-    "nameTaken": "Eine Sperrliste namens „<NAME>“ gibt es bereits."
+    "nameTaken": "Eine Sperrliste namens „<NAME>“ gibt es bereits.",
+    "askIntentionToggle": "Vor dem Blockieren super ablenkender Websites und Apps nach einer Absicht fragen",
+    "askIntentionCaption": "Wenn das an ist, kannst du beim Öffnen einer dieser Websites oder Apps eine Absicht festlegen und sie eine Weile nutzen. Wenn es aus ist, werden sie sofort blockiert.",
+    "askIntentionLockedCaption": "„Super streng“ blockiert diese immer sofort. Senke deine Strenge unter Einstellungen → Strenge, um das zu ändern."
   },
   "onboardingBlockedUrlsInfo": {
     "title": "Willkommen bei Focus Bear",
