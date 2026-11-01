@@ -4833,6 +4833,7 @@
         "routineCompleted": "Completado",
         "eveningRoutineHabits": "Hábitos de la rutina nocturna",
         "habitsSuffix": "hábitos",
+        "postponedUntil": "Pospuesta hasta las <TIME>",
         "play": "Iniciar",
         "done": "Hecho",
         "skip": "Saltar",

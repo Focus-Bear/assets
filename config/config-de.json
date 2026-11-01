@@ -4472,6 +4472,7 @@
     "routineCompleted": "Abgeschlossen",
     "eveningRoutineHabits": "Gewohnheiten der Abendroutine",
     "habitsSuffix": "Gewohnheiten",
+    "postponedUntil": "Verschoben bis <TIME>",
     "play": "Start",
     "done": "Erledigt",
     "skip": "Überspringen",
