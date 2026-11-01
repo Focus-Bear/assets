@@ -6095,6 +6095,8 @@
     "message": "Focus Bear s'est fermé de façon inattendue, il redémarre donc.",
     "crashLoop": "Focus Bear continue de se fermer de façon inattendue. Nouvel essai dans quelques secondes.",
     "stillStarting": "Focus Bear met plus de temps que d'habitude à démarrer.",
+    "gaveUpTitle": "Focus Bear a cessé de redémarrer",
+    "gaveUpMessage": "Focus Bear a continué de se fermer de façon inattendue : il ne sera donc plus relancé automatiquement. Ouvrez Focus Bear vous-même quand vous serez prêt.",
     "relaunchButton": "Relancer Focus Bear",
     "closeButton": "Fermer",
     "phaseStartingApp": "Démarrage de Focus Bear…",
