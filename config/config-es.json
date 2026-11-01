@@ -3381,7 +3381,8 @@
         "talkToHumanSentText": "Gracias, tu mensaje ya está con el equipo. Te responderemos por correo electrónico.",
         "reportContactEmailPlaceholder": "Tu correo electrónico (opcional)",
         "reportContactEmailHint": "Estás usando Focus Bear sin una cuenta. Añade un correo electrónico si quieres que te respondamos.",
-        "reportContactEmailInvalid": "Introduce un correo electrónico válido o déjalo en blanco."
+        "reportContactEmailInvalid": "Introduce un correo electrónico válido o déjalo en blanco.",
+        "reportShareBrowsingHistoryText": "Enviar también los sitios web y títulos de ventana de mis últimos 30 minutos. Esto incluye mi historial de navegación y ayuda con los problemas de bloqueo."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
@@ -3907,7 +3908,8 @@
     },
     "webViewLoadFailedVcInfo":{
         "title": "No se pudo cargar. Por favor, comprueba tu conexión.",
-        "buttonReloadText": "Recargar"
+        "buttonReloadText": "Recargar",
+        "titleStoppedWorking": "Esta página dejó de funcionar. Haz clic en Recargar para abrirla de nuevo."
     },
     "taskPlayerVcInfo":{
         "changeTrackTooltip": "Cambiar música de enfoque",
@@ -4015,7 +4017,9 @@
         "descriptionEmailSent": "Hemos enviado un enlace de verificación a tu correo. Revisa tu bandeja de entrada para verificar tu cuenta.",
         "titleEmailFailed": "No se pudo enviar el correo de verificación",
         "descriptionEmailFailed": "Algo salió mal al enviar el correo de verificación. Por favor, intenta de nuevo más tarde.",
-        "resendWaitText": "Espera <SECONDS> segundos antes de volver a enviar el correo de confirmación."
+        "resendWaitText": "Espera <SECONDS> segundos antes de volver a enviar el correo de confirmación.",
+        "emailSentToText": "Enviado a <EMAIL>.",
+        "emailNotReceivedHelpText": "¿No te ha llegado? Puede tardar unos minutos, así que revisa también tu carpeta de spam o correo no deseado por si hay un correo de noreply@focusbear.io. Si sigue sin llegar, escribe a support@focusbear.io."
     },
     "researchSettingsVcInfo":{
         "titleDataCollectionMode": "Modo de recopilación de datos",
