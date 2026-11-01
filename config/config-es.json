@@ -1,4 +1,14 @@
 {
+  "sessionExpiredInfo": {
+    "message": "Tu sesión de Focus Bear ha caducado. El bloqueo sigue activo, pero nada se sincronizará hasta que vuelvas a iniciar sesión.",
+    "buttonSignIn": "Iniciar sesión",
+    "buttonLater": "Más tarde",
+    "cardTitle": "Sesión caducada",
+    "cardBody": "Tu sesión ha caducado. El bloqueo sigue activo. Inicia sesión para volver a sincronizar.",
+    "menuItemSignIn": "Volver a iniciar sesión...",
+    "trayTooltip": "Focus Bear - sesión caducada, inicia sesión",
+    "saveFailedRetryText": "No se han podido guardar tus cambios. Inténtalo de nuevo."
+  },
   "meetingActionReview": {
     "title": "Revisar acciones de la reunión",
     "explanation": "Edita cada acción y pulsa + para añadirla a tu lista de tareas. Al finalizar la revisión, tus acciones no añadidas se marcarán como irrelevantes en la nota de la reunión.",
