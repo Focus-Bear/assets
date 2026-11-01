@@ -3385,7 +3385,8 @@
         "talkToHumanSentText": "Thanks, your message is with the team. We'll reply by email.",
         "reportContactEmailPlaceholder": "Your email (optional)",
         "reportContactEmailHint": "You're using Focus Bear without an account. Add an email if you'd like us to reply.",
-        "reportContactEmailInvalid": "Please enter a valid email address, or leave it blank."
+        "reportContactEmailInvalid": "Please enter a valid email address, or leave it blank.",
+        "reportShareBrowsingHistoryText": "Also send the websites and window titles from my last 30 minutes. This includes my browsing history, and helps with blocking problems."
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirm your morning routine",
@@ -3911,7 +3912,8 @@
     },
     "webViewLoadFailedVcInfo":{
         "title": "Failed to load. Please check your connection.",
-        "buttonReloadText": "Reload"
+        "buttonReloadText": "Reload",
+        "titleStoppedWorking": "This page stopped working. Click Reload to open it again."
     },
     "taskPlayerVcInfo":{
         "changeTrackTooltip": "Change focus music",
@@ -4019,7 +4021,9 @@
         "descriptionEmailSent": "We've sent a verification link to your email. Please check your inbox to verify your account.",
         "titleEmailFailed": "Failed to Send Verification Email",
         "descriptionEmailFailed": "Something went wrong while sending the verification email. Please try again later.",
-        "resendWaitText": "Please wait <SECONDS> seconds before resending the confirmation email."
+        "resendWaitText": "Please wait <SECONDS> seconds before resending the confirmation email.",
+        "emailSentToText": "Sent to <EMAIL>.",
+        "emailNotReceivedHelpText": "Didn't get it? It can take a few minutes, so check your spam or junk folder for an email from noreply@focusbear.io. If it still hasn't arrived, email support@focusbear.io."
     },
     "researchSettingsVcInfo":{
         "titleDataCollectionMode": "Data Collection Mode",
