@@ -1340,7 +1340,15 @@
     "deleteAccountSuccessTitle": "Konto usunięte",
     "deleteAccountSuccessText": "Twoje konto zostało pomyślnie usunięte.",
     "deleteAccountFailedTitle": "Nie udało się usunąć konta",
-    "deleteAccountFailedText": "Coś poszło nie tak podczas usuwania twojego konta. Sprawdź swoje połączenie z internetem i spróbuj ponownie."
+    "deleteAccountFailedText": "Coś poszło nie tak podczas usuwania twojego konta. Sprawdź swoje połączenie z internetem i spróbuj ponownie.",
+    "guestAccountTitle": "Korzystasz z konta gościa",
+    "guestAccountDescription": "Utwórz konto, aby zapisać postępy i ustawienia oraz zachować je po zmianie urządzenia lub ponownej instalacji.",
+    "buttonCreateAccountText": "Utwórz konto",
+    "createAccountAccessibilityLabel": "Utwórz konto",
+    "createAccountFormTitle": "Utwórz swoje konto",
+    "createAccountFormDescription": "Dodaj adres e-mail i hasło, aby zamienić konto gościa w stałe konto. Twoje obecne ustawienia i postępy zostaną zachowane.",
+    "createAccountEmailPlaceholder": "E-mail",
+    "createAccountPasswordPlaceholder": "Hasło (min. 8 znaków)"
   },
   "activityPostponeInfo": {
     "postponeHabitsText": "Jeśli masz coś pilnego, możesz odłożyć nawyki na kilka minut.",
@@ -2798,6 +2806,7 @@
   },
   "settingsNew": {
     "searchSettingsLabel": "Szukaj w ustawieniach",
+    "searchSettingsPlaceholder": "Szukaj",
     "uiSettingTitle": "Interfejs",
     "accessibilitySettingTitle": "Ułatwienia dostępu",
     "aISettingTitle": "Funkcje AI",

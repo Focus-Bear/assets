@@ -1337,7 +1337,15 @@
         "deleteAccountSuccessTitle": "Cuenta eliminada",
         "deleteAccountSuccessText": "Tu cuenta ha sido eliminada exitosamente.",
         "deleteAccountFailedTitle": "No se pudo eliminar la cuenta",
-        "deleteAccountFailedText": "Algo salió mal al eliminar tu cuenta. Revisa tu conexión a internet e intenta de nuevo."
+        "deleteAccountFailedText": "Algo salió mal al eliminar tu cuenta. Revisa tu conexión a internet e intenta de nuevo.",
+        "guestAccountTitle": "Estás usando una cuenta de invitado",
+        "guestAccountDescription": "Crea una cuenta para guardar tu progreso y tu configuración, y conservarlos si cambias de dispositivo o reinstalas la app.",
+        "buttonCreateAccountText": "Crear cuenta",
+        "createAccountAccessibilityLabel": "Crear una cuenta",
+        "createAccountFormTitle": "Crea tu cuenta",
+        "createAccountFormDescription": "Añade un correo electrónico y una contraseña para convertir tu cuenta de invitado en una permanente. Se conservan tu configuración y tu progreso actuales.",
+        "createAccountEmailPlaceholder": "Correo electrónico",
+        "createAccountPasswordPlaceholder": "Contraseña (mínimo 8 caracteres)"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -3182,6 +3190,7 @@
     },
     "settingsNew": {
         "searchSettingsLabel": "Buscar en la configuración",
+        "searchSettingsPlaceholder": "Buscar",
         "uiSettingTitle": "IU",
         "accessibilitySettingTitle": "Accesibilidad",
         "aISettingTitle": "Funciones de IA",
