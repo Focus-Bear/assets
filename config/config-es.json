@@ -4881,6 +4881,7 @@
         "eveningRoutineHabits": "Hábitos de la rutina nocturna",
         "habitsSuffix": "hábitos",
         "postponedUntil": "Pospuesta hasta las <TIME>",
+        "postponedTag": "Pospuesta",
         "play": "Iniciar",
         "done": "Hecho",
         "skip": "Saltar",
