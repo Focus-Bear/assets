@@ -1526,6 +1526,7 @@
     "couldNotFileMeetingNotesText": "Certaines notes de réunion n’ont pas pu être déplacées. Réessaie dans un instant."
   },
   "statsViewInfo": {
+    "pepTalkSavedMessageNoticeTextWindows": "Le serveur de Focus Bear ne répond pas, alors voici un message enregistré sur ce PC.",
     "tabGoals": "Tes objectifs",
     "tabProgress": "Progression",
     "tabStreak": "Série",
@@ -2888,6 +2889,8 @@
     "packId": "f522e5d0-6e40-4dd4-9010-338529a7223e"
   },
   "timeTrackerVcInfo": {
+    "pointFirstTextWindows": "La confidentialité avant tout : les données sont stockées localement sur ton PC",
+    "pointFourthTextWindows": "Suis le temps passé en réunion et lorsque tu es loin de ton PC",
     "title": "Découvre Focus Bear Time Tracker",
     "description": "Focus Bear Time Tracker t'aide à analyser ta productivité en suivant le temps que tu passes sur différents sites web et applications. Tu peux catégoriser automatiquement les journaux de temps par projet (pratique pour les feuilles de temps).",
     "pointFirstText": "La confidentialité avant tout : les données sont stockées localement sur ton Mac",
@@ -4450,6 +4453,8 @@
       "cardAccessibilityText": "Annonce"
   },
   "serverReachabilityInfo": {
+    "serverTroubleBannerTextWindows": "Impossible de joindre Focus Bear pour l’instant — affichage de ce qui est enregistré sur ce PC.",
+    "offlineBannerTextWindows": "Tu es hors ligne — affichage de ce qui est enregistré sur ce PC.",
       "serverTroubleBannerText": "Impossible de joindre Focus Bear pour l’instant — affichage de ce qui est enregistré sur ce Mac.",
       "offlineBannerText": "Tu es hors ligne — affichage de ce qui est enregistré sur ce Mac.",
       "serverTroubleDetailText": "Le serveur de Focus Bear rencontre des problèmes. Rien de ce que tu fais ici n’est perdu ; tout se synchronisera quand le serveur sera revenu.",
@@ -4938,6 +4943,9 @@
     "routineStartNow": "Commencer la routine maintenant"
   },
   "timeTrackerViewInfo": {
+    "ttStatusNotInstalledWindows": "Non installé",
+    "ttStatusInstalledWindows": "Installé (non lancé)",
+    "ttStatusRunningWindows": "En cours d'exécution",
     "menuTimeTracker": "Suivi du temps",
     "ttToday": "Aujourd'hui",
     "ttUpdated": "Mis à jour",
