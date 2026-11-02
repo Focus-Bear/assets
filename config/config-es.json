@@ -1913,6 +1913,7 @@
         "dismissText": "Descartar"
     },
     "statsViewInfo": {
+      "pepTalkSavedMessageNoticeTextWindows": "El servidor de Focus Bear no responde, así que aquí tienes un mensaje guardado en este PC.",
         "tabGoals": "Tus metas",
         "tabProgress": "Progreso",
         "tabStreak": "Racha",
@@ -3272,6 +3273,8 @@
         "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
     },
     "timeTrackerVcInfo": {
+      "pointFirstTextWindows": "Primero la privacidad: los datos se almacenan localmente en tu PC",
+      "pointFourthTextWindows": "Controla el tiempo que pasas en reuniones y cuando estás lejos de tu PC",
         "title": "Introduciendo Focus Bear Time Tracker",
         "description": "Focus Bear Time Tracker te ayuda a analizar tu productividad mediante el seguimiento del tiempo que pasas en diferentes sitios web y aplicaciones. Puedes clasificar automáticamente los registros de tiempo en diferentes proyectos (útil para hojas de horas).",
         "pointFirstText": "Primero la privacidad: los datos se almacenan localmente en tu Mac",
@@ -4814,6 +4817,8 @@
         "cardAccessibilityText": "Anuncio"
     },
     "serverReachabilityInfo": {
+      "serverTroubleBannerTextWindows": "No podemos conectar con Focus Bear ahora mismo: mostrando lo guardado en este PC.",
+      "offlineBannerTextWindows": "Estás sin conexión: mostrando lo guardado en este PC.",
         "serverTroubleBannerText": "No podemos conectar con Focus Bear ahora mismo: mostrando lo guardado en este Mac.",
         "offlineBannerText": "Estás sin conexión: mostrando lo guardado en este Mac.",
         "serverTroubleDetailText": "El servidor de Focus Bear tiene problemas. No se pierde nada de lo que hagas aquí; se sincronizará cuando el servidor vuelva.",
@@ -5294,6 +5299,9 @@
       "routineStartNow": "Empezar rutina ahora"
     },
     "timeTrackerViewInfo":{
+      "ttStatusNotInstalledWindows": "No instalado",
+      "ttStatusInstalledWindows": "Instalado (no se está ejecutando)",
+      "ttStatusRunningWindows": "En ejecución",
         "menuTimeTracker": "Seguimiento de tiempo",
         "ttToday": "Hoy",
         "ttUpdated": "Actualizado",
