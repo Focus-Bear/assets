@@ -1526,6 +1526,7 @@
     "couldNotFileMeetingNotesText": "Nie udało się przenieść niektórych notatek ze spotkań. Spróbuj ponownie za chwilę."
   },
   "statsViewInfo": {
+    "pepTalkSavedMessageNoticeTextWindows": "Serwer Focus Bear nie odpowiada, więc oto wiadomość zapisana na tym komputerze.",
     "tabGoals": "Twoje cele",
     "tabProgress": "Postęp",
     "tabStreak": "Seria",
@@ -2888,6 +2889,8 @@
     "packId": "f522e5d0-6e40-4dd4-9010-338529a7223e"
   },
   "timeTrackerVcInfo": {
+    "pointFirstTextWindows": "Prywatność przede wszystkim: dane są przechowywane lokalnie na twoim komputerze",
+    "pointFourthTextWindows": "Śledź czas spotkań oraz okresy, gdy jesteś z dala od komputera",
     "title": "Przedstawiamy Focus Bear Time Tracker",
     "description": "Focus Bear Time Tracker pomaga analizować twoją produktywność, śledząc, ile czasu spędzasz na różnych stronach i w aplikacjach. Możesz automatycznie przypisywać zarejestrowany czas do różnych projektów (przydatne przy kartach czasu pracy).",
     "pointFirstText": "Prywatność przede wszystkim: dane są przechowywane lokalnie na twoim Macu",
@@ -4450,6 +4453,8 @@
       "cardAccessibilityText": "Ogłoszenie"
   },
   "serverReachabilityInfo": {
+    "serverTroubleBannerTextWindows": "Nie można teraz połączyć się z Focus Bear — wyświetlamy to, co zapisano na tym komputerze.",
+    "offlineBannerTextWindows": "Jesteś offline — wyświetlamy to, co zapisano na tym komputerze.",
       "serverTroubleBannerText": "Nie można teraz połączyć się z Focus Bear — wyświetlamy to, co zapisano na tym Macu.",
       "offlineBannerText": "Jesteś offline — wyświetlamy to, co zapisano na tym Macu.",
       "serverTroubleDetailText": "Serwer Focus Bear ma problemy. Nic, co tu zrobisz, nie przepadnie; zsynchronizuje się, gdy serwer wróci.",
@@ -4938,6 +4943,9 @@
     "routineStartNow": "Rozpocznij rutynę teraz"
   },
   "timeTrackerViewInfo": {
+    "ttStatusNotInstalledWindows": "Nie zainstalowano",
+    "ttStatusInstalledWindows": "Zainstalowano (nie działa)",
+    "ttStatusRunningWindows": "Działa",
     "menuTimeTracker": "Śledzenie czasu",
     "ttToday": "Dzisiaj",
     "ttUpdated": "Zaktualizowano",
