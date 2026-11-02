@@ -5380,6 +5380,7 @@
     "taskChangedTo": "Tâche changée : {0}",
     "reportBadAiTooltip": "Signaler une mauvaise décision de l’IA",
     "reportBadAiDone": "Merci — signalé pour examen",
+    "reportBadAiDoneAllowed": "Merci — signalé pour examen. Autorisé pour cette session de focus.",
     "aiReasonPrefix": "Raison de l’IA :",
     "alignmentScorePrefix": "Alignement avec ton focus :",
     "aiDecisionNoDetail": "Aucune raison de l’IA enregistrée pour cette décision.",
