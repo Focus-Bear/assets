@@ -5776,6 +5776,7 @@
         "taskChangedTo": "Task changed to {0}",
         "reportBadAiTooltip": "Report a bad AI decision",
         "reportBadAiDone": "Thanks — reported for review",
+        "reportBadAiDoneAllowed": "Thanks — reported for review. It's allowed for this focus session.",
         "aiReasonPrefix": "AI reason:",
         "alignmentScorePrefix": "Focus alignment:",
         "aiDecisionNoDetail": "No AI reason recorded for this decision.",
