@@ -1,4 +1,10 @@
 {
+  "featureSwitches": {
+    "localRelevanceModel": {
+      "enabled": true,
+      "rolloutPercent": 100
+    }
+  },
   "meetingActionReview": {
     "title": "Besprechungsaufgaben prüfen",
     "explanation": "Bearbeite jede Aufgabe und füge sie mit + deiner Aufgabenliste hinzu. Beim Abschließen der Prüfung werden deine nicht hinzugefügten Aufgaben in der Besprechungsnotiz als irrelevant markiert.",

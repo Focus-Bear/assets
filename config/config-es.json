@@ -1,4 +1,10 @@
 {
+  "featureSwitches": {
+    "localRelevanceModel": {
+      "enabled": true,
+      "rolloutPercent": 100
+    }
+  },
   "meetingActionReview": {
     "title": "Revisar acciones de la reunión",
     "explanation": "Edita cada acción y pulsa + para añadirla a tu lista de tareas. Al finalizar la revisión, tus acciones no añadidas se marcarán como irrelevantes en la nota de la reunión.",

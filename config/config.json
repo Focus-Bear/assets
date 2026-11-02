@@ -1,4 +1,10 @@
 {
+  "featureSwitches": {
+    "localRelevanceModel": {
+      "enabled": true,
+      "rolloutPercent": 100
+    }
+  },
   "meetingActionReview": {
     "title": "Review meeting actions",
     "explanation": "Edit each action and press + to add it to your ToDo list. Finish review marks your unadded actions as irrelevant in the meeting note.",
