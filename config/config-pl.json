@@ -355,6 +355,8 @@
     "titleSettingHabitsProgress": "Włącz funkcje",
     "toolTipMeetingsText": "Wykryliśmy rozmowę wideo i nie będziemy w tym czasie pokazywać przerw.",
     "toolTipPresentingText": "Prezentacja: Focus Bear nie będzie pytać AI o strony, dopóki nie przestaniesz udostępniać ekranu",
+    "presentingDeferredCheckInTitle": "Prezentujesz, więc Focus Bear nie zasłoni Twojego ekranu",
+    "presentingDeferredCheckInMessage": "Zapyta, gdy przestaniesz udostępniać ekran.",
     "unblockNotAvailableText": "Jesteś w trybie super surowym – zmień ustawienia, aby odblokować.",
     "unblockNotAvailableForFocusBlockedUrlText": "Nie można odblokować tej strony, bo znajduje się na liście adresów zablokowanych w tej sesji skupienia.",
     "buttonEndFocusSessionText": "Skończyłem, zakończ sesję skupienia",
