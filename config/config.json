@@ -5664,7 +5664,20 @@
         "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
         "menuRowUnavailableSpoken": "unavailable",
         "menuRowLockedSpoken": "locked",
-        "preferencesLockedTooltip": "Needs your password right now. Click to enter it."
+        "preferencesLockedTooltip": "Needs your password right now. Click to enter it.",
+        "toolUnlocksLockedCount": "<COUNT> focus tools to be unlocked",
+        "toolUnlocksLockedCountOne": "1 focus tool to be unlocked",
+        "toolUnlocksNextFirstSession": "Start a focus session",
+        "toolUnlocksNextCalendar": "Connect your calendar",
+        "toolUnlocksNextFocusHours": "Focus for <HOURS> hours",
+        "toolUnlocksExplainFirstSession": "Complete your first focus session to unlock <TOOLS>.",
+        "toolUnlocksExplainCalendar": "Connect your calendar in the Day Plan to unlock the time awareness tools: <TOOLS>.",
+        "toolUnlocksExplainFocusHours": "Focus for <HOURS> hours in total to unlock <TOOLS>.",
+        "toolUnlocksFocusedSoFar": "You've focused for <DONE> so far.",
+        "toolUnlocksOpenDayPlan": "Open Day Plan",
+        "toolUnlocksUnlocked": "Unlocked: <TOOLS>",
+        "toolUnlocksListAnd": "and",
+        "toolUnlocksRowHint": "Shows how to unlock them"
     },
     "browsersTabAuditVcInfo":{
         "title": "Tab Audit",
