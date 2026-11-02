@@ -3633,6 +3633,14 @@
     "checkBoxShareAppData": "Udostępnij nazwę aplikacji i intencję skupienia zespołowi Focus Bear",
     "titleApp": "Aplikacja:"
   },
+  "jevDoubleCheckInfo": {
+    "checking": "To nie wygląda na istotne - sprawdzamy ponownie",
+    "revertedSite": "Przepraszamy, AI sprawdziła ponownie i ta strona jest jednak w porządku.",
+    "revertedApp": "Przepraszamy, AI sprawdziła ponownie i ta aplikacja jest jednak w porządku.",
+    "reportButton": "Zgłoś złą decyzję",
+    "reported": "Dzięki, zgłoszono",
+    "dismissButton": "Zamknij"
+  },
   "customRoutineTimeVcInfo": {
     "title": "Twoja <ROUTINE> zaczyna się za",
     "selectMinutesText": "Wybierz liczbę minut odroczenia:",

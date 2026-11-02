@@ -4000,6 +4000,14 @@
         "checkBoxShareAppData": "Share App name and focus intention with Focus Bear team",
         "titleApp": "App:"
     },
+    "jevDoubleCheckInfo": {
+        "checking": "This doesn't look relevant - double checking",
+        "revertedSite": "Sorry AI double checked and this site is actually ok.",
+        "revertedApp": "Sorry AI double checked and this app is actually ok.",
+        "reportButton": "Report bad decision",
+        "reported": "Thanks, reported",
+        "dismissButton": "Dismiss"
+    },
     "customRoutineTimeVcInfo":{
         "title": "Your <ROUTINE> starts in",
         "selectMinutesText": "Select minutes to postpone:",

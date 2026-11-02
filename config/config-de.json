@@ -3633,6 +3633,14 @@
     "checkBoxShareAppData": "App-Namen und Fokus-Absicht mit dem Focus Bear Team teilen",
     "titleApp": "App:"
   },
+  "jevDoubleCheckInfo": {
+    "checking": "Das scheint nicht relevant zu sein – wird noch einmal geprüft",
+    "revertedSite": "Entschuldigung, die KI hat noch einmal geprüft und diese Website ist doch in Ordnung.",
+    "revertedApp": "Entschuldigung, die KI hat noch einmal geprüft und diese App ist doch in Ordnung.",
+    "reportButton": "Falsche Entscheidung melden",
+    "reported": "Danke, gemeldet",
+    "dismissButton": "Schließen"
+  },
   "customRoutineTimeVcInfo": {
     "title": "Deine <ROUTINE> beginnt in",
     "selectMinutesText": "Minuten zum Verschieben auswählen:",
