@@ -5268,7 +5268,20 @@
     "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
     "menuRowUnavailableSpoken": "nicht verfügbar",
     "menuRowLockedSpoken": "gesperrt",
-    "preferencesLockedTooltip": "Benötigt gerade dein Passwort. Klicke, um es einzugeben."
+    "preferencesLockedTooltip": "Benötigt gerade dein Passwort. Klicke, um es einzugeben.",
+    "toolUnlocksLockedCount": "Noch <COUNT> Fokus-Tools freizuschalten",
+    "toolUnlocksLockedCountOne": "Noch 1 Fokus-Tool freizuschalten",
+    "toolUnlocksNextFirstSession": "Starte eine Fokus-Sitzung",
+    "toolUnlocksNextCalendar": "Verbinde deinen Kalender",
+    "toolUnlocksNextFocusHours": "Fokussiere dich <HOURS> Stunden lang",
+    "toolUnlocksExplainFirstSession": "Schließe deine erste Fokus-Sitzung ab, um <TOOLS> freizuschalten.",
+    "toolUnlocksExplainCalendar": "Verbinde deinen Kalender im Tagesplan, um die Tools für Zeitbewusstsein freizuschalten: <TOOLS>.",
+    "toolUnlocksExplainFocusHours": "Fokussiere dich insgesamt <HOURS> Stunden lang, um <TOOLS> freizuschalten.",
+    "toolUnlocksFocusedSoFar": "Bisher hast du dich <DONE> lang fokussiert.",
+    "toolUnlocksOpenDayPlan": "Tagesplan öffnen",
+    "toolUnlocksUnlocked": "Freigeschaltet: <TOOLS>",
+    "toolUnlocksListAnd": "und",
+    "toolUnlocksRowHint": "Zeigt, wie du sie freischaltest"
   },
   "browsersTabAuditVcInfo": {
     "title": "Tab-Audit",

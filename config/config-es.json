@@ -5662,7 +5662,20 @@
         "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
         "menuRowUnavailableSpoken": "no disponible",
         "menuRowLockedSpoken": "bloqueado",
-        "preferencesLockedTooltip": "Necesita tu contraseña ahora mismo. Haz clic para introducirla."
+        "preferencesLockedTooltip": "Necesita tu contraseña ahora mismo. Haz clic para introducirla.",
+        "toolUnlocksLockedCount": "<COUNT> herramientas de enfoque por desbloquear",
+        "toolUnlocksLockedCountOne": "1 herramienta de enfoque por desbloquear",
+        "toolUnlocksNextFirstSession": "Inicia una sesión de enfoque",
+        "toolUnlocksNextCalendar": "Conecta tu calendario",
+        "toolUnlocksNextFocusHours": "Concéntrate durante <HOURS> horas",
+        "toolUnlocksExplainFirstSession": "Completa tu primera sesión de enfoque para desbloquear <TOOLS>.",
+        "toolUnlocksExplainCalendar": "Conecta tu calendario en el Plan del día para desbloquear las herramientas de conciencia del tiempo: <TOOLS>.",
+        "toolUnlocksExplainFocusHours": "Concéntrate durante <HOURS> horas en total para desbloquear <TOOLS>.",
+        "toolUnlocksFocusedSoFar": "Llevas <DONE> de enfoque hasta ahora.",
+        "toolUnlocksOpenDayPlan": "Abrir el Plan del día",
+        "toolUnlocksUnlocked": "Desbloqueado: <TOOLS>",
+        "toolUnlocksListAnd": "y",
+        "toolUnlocksRowHint": "Muestra cómo desbloquearlas"
     },
     "browsersTabAuditVcInfo":{
         "title": "Auditoría de pestañas",

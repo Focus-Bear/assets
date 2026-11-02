@@ -5268,7 +5268,20 @@
     "sectionShortcutTooltip": "<SECTION> (<SHORTCUT>)",
     "menuRowUnavailableSpoken": "indisponible",
     "menuRowLockedSpoken": "verrouillé",
-    "preferencesLockedTooltip": "Ton mot de passe est nécessaire pour l’instant. Clique pour le saisir."
+    "preferencesLockedTooltip": "Ton mot de passe est nécessaire pour l’instant. Clique pour le saisir.",
+    "toolUnlocksLockedCount": "<COUNT> outils de concentration à débloquer",
+    "toolUnlocksLockedCountOne": "1 outil de concentration à débloquer",
+    "toolUnlocksNextFirstSession": "Démarre une session de concentration",
+    "toolUnlocksNextCalendar": "Connecte ton calendrier",
+    "toolUnlocksNextFocusHours": "Concentre-toi pendant <HOURS> heures",
+    "toolUnlocksExplainFirstSession": "Termine ta première session de concentration pour débloquer <TOOLS>.",
+    "toolUnlocksExplainCalendar": "Connecte ton calendrier dans le Plan de journée pour débloquer les outils de conscience du temps : <TOOLS>.",
+    "toolUnlocksExplainFocusHours": "Concentre-toi pendant <HOURS> heures au total pour débloquer <TOOLS>.",
+    "toolUnlocksFocusedSoFar": "Temps de concentration jusqu’ici : <DONE>.",
+    "toolUnlocksOpenDayPlan": "Ouvrir le Plan de journée",
+    "toolUnlocksUnlocked": "Débloqué : <TOOLS>",
+    "toolUnlocksListAnd": "et",
+    "toolUnlocksRowHint": "Montre comment les débloquer"
   },
   "browsersTabAuditVcInfo": {
     "title": "Audit des onglets",
