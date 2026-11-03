@@ -5491,6 +5491,9 @@
         "removeText": "Remove"
     },
     "menuView":{
+        "blockingPermissionsLimitedWindows": "Focus Bear isn't running as administrator, so it can't close apps that run as administrator. Other blocking can continue.",
+        "menuPin": "Keep the menu open",
+        "menuUnpin": "Let the menu close",
         "blockingPausedTitle": "Blocking paused · <TIME> left",
         "blockingPausedExplanation": "Nothing is being blocked until <TIME>, even in a focus session. Blocking comes back on by itself then.",
         "a11yOpenFocusBearMenu": "Open Focus Bear menu",

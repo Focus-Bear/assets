@@ -5489,6 +5489,9 @@
         "removeText": "Eliminar"
     },
     "menuView":{
+        "blockingPermissionsLimitedWindows": "Focus Bear no se está ejecutando como administrador, así que no puede cerrar las apps que se ejecutan como administrador. El resto del bloqueo puede continuar.",
+        "menuPin": "Mantener el menú abierto",
+        "menuUnpin": "Dejar que el menú se cierre",
         "blockingPausedTitle": "Bloqueo en pausa · quedan <TIME>",
         "blockingPausedExplanation": "No se bloquea nada hasta las <TIME>, ni siquiera en una sesión de enfoque. A esa hora, el bloqueo se reactiva solo.",
         "a11yOpenFocusBearMenu": "Abrir el menú de Focus Bear",

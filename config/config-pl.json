@@ -5085,6 +5085,9 @@
     "insertEmoji": "Wstaw emoji"
   },
   "menuView": {
+    "blockingPermissionsLimitedWindows": "Focus Bear nie działa jako administrator, więc nie może zamykać aplikacji uruchomionych jako administrator. Pozostałe blokowanie może działać dalej.",
+    "menuPin": "Nie zamykaj menu",
+    "menuUnpin": "Pozwól zamknąć menu",
     "blockingPausedTitle": "Blokowanie wstrzymane · zostało <TIME>",
     "blockingPausedExplanation": "Do <TIME> nic nie jest blokowane, nawet w sesji skupienia. Potem blokowanie samo włączy się ponownie.",
     "a11yOpenFocusBearMenu": "Otwórz menu Focus Bear",
