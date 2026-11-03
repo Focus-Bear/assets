@@ -5394,6 +5394,7 @@
     "taskChangedTo": "Aufgabe geändert zu {0}",
     "reportBadAiTooltip": "Schlechte KI-Entscheidung melden",
     "reportBadAiDone": "Danke — zur Prüfung gemeldet",
+    "reportBadAiDoneAllowed": "Danke — zur Prüfung gemeldet. Für diese Fokus-Sitzung erlaubt.",
     "aiReasonPrefix": "KI-Grund:",
     "alignmentScorePrefix": "Fokus-Übereinstimmung:",
     "aiDecisionNoDetail": "Für diese Entscheidung wurde kein KI-Grund festgehalten.",
