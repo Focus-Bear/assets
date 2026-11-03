@@ -19,6 +19,8 @@
     "noProject": "Bez projektu"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "Uwzględnij w każdej przerwie",
+        "includeInEveryBreakHelp": "Włączone: ta aktywność jest w każdej przerwie i jest też proponowana w trybie biurowym. Wyłączone: Focus Bear wybiera ją losowo do niektórych przerw.",
         "frequencyLabel": "Częstotliwość przerw (minuty)",
         "invalidFrequency": "Wpisz liczbę całkowitą od %d do %d minut.",
         "fullBody": "Całe ciało",
