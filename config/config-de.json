@@ -5426,6 +5426,9 @@
     "offlineTitle": "Du bist offline",
     "offlineBody": "Dein Buddy braucht eine Internetverbindung, um zu prüfen, ob das gerade relevant ist. Halte die Taste gedrückt, um es trotzdem freizuschalten, oder bleib fokussiert.",
     "offlineHoldButton": "Zum Freischalten gedrückt halten",
+    "unavailableTitle": "Dein Buddy erreicht die KI nicht",
+    "unavailableBody": "Die KI-Prüfung antwortet gerade nicht, deshalb kann dein Buddy nicht erkennen, ob das relevant ist. Halte die Taste gedrückt, um es trotzdem freizuschalten, oder bleib fokussiert.",
+    "offlineHoldHelp": "Halte sie {seconds} Sekunden lang gedrückt, oder wähle die Taste aus und halte Leertaste oder Eingabetaste gedrückt. Es wird dann für {minutes} Minuten freigeschaltet.",
     "reportBadAiPlaceholder": "Das ist relevant, weil …",
     "reportBadAiPrompt": "Was war falsch?",
     "reportBadAiSend": "Meldung senden"

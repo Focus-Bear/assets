@@ -5426,6 +5426,9 @@
     "offlineTitle": "Tu es hors ligne",
     "offlineBody": "Ton partenaire a besoin d’une connexion internet pour vérifier si c’est pertinent en ce moment. Maintiens le bouton pour le débloquer quand même, ou reste concentré.",
     "offlineHoldButton": "Maintiens pour débloquer",
+    "unavailableTitle": "Ton partenaire n’arrive pas à joindre l’IA",
+    "unavailableBody": "La vérification par l’IA ne répond pas pour le moment, donc ton partenaire ne peut pas savoir si c’est pertinent. Maintiens le bouton pour le débloquer quand même, ou reste concentré.",
+    "offlineHoldHelp": "Maintiens-le enfoncé {seconds} secondes, ou sélectionne le bouton et maintiens Espace ou Entrée. C’est débloqué pendant {minutes} minutes.",
     "reportBadAiPlaceholder": "C’est pertinent parce que…",
     "reportBadAiPrompt": "Qu’est-ce que l’IA a mal jugé ?",
     "reportBadAiSend": "Envoyer le signalement"

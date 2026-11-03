@@ -5426,6 +5426,9 @@
     "offlineTitle": "Jesteś offline",
     "offlineBody": "Twój kumpel potrzebuje połączenia z internetem, aby sprawdzić, czy to jest teraz istotne. Przytrzymaj przycisk, aby mimo to odblokować, albo zachowaj skupienie.",
     "offlineHoldButton": "Przytrzymaj, aby odblokować",
+    "unavailableTitle": "Twój kumpel nie może połączyć się z AI",
+    "unavailableBody": "Sprawdzanie przez AI nie odpowiada w tej chwili, więc twój kumpel nie może ocenić, czy to jest istotne. Przytrzymaj przycisk, aby mimo to odblokować, albo zachowaj skupienie.",
+    "offlineHoldHelp": "Przytrzymaj go przez {seconds} s albo zaznacz przycisk i przytrzymaj Spację lub Enter. Odblokowanie trwa {minutes} min.",
     "reportBadAiPlaceholder": "To jest istotne, ponieważ…",
     "reportBadAiPrompt": "Co zostało źle ocenione?",
     "reportBadAiSend": "Wyślij zgłoszenie"

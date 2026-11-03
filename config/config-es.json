@@ -5830,6 +5830,9 @@
         "offlineTitle": "Estás sin conexión",
         "offlineBody": "Tu compañero necesita conexión a internet para comprobar si esto es relevante ahora mismo. Mantén pulsado el botón para desbloquearlo de todos modos, o mantén el enfoque.",
         "offlineHoldButton": "Mantén pulsado para desbloquear",
+        "unavailableTitle": "Tu compañero no puede contactar con la IA",
+        "unavailableBody": "La comprobación de IA no responde ahora mismo, así que tu compañero no puede saber si esto es relevante. Mantén pulsado el botón para desbloquearlo de todos modos, o mantén el enfoque.",
+        "offlineHoldHelp": "Mantenlo pulsado {seconds} segundos, o selecciona el botón y mantén pulsada la barra espaciadora o Intro. Se desbloquea durante {minutes} minutos.",
         "reportBadAiPlaceholder": "Esto es relevante porque…",
         "reportBadAiPrompt": "¿En qué se equivocó?",
         "reportBadAiSend": "Enviar informe"
