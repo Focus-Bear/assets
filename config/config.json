@@ -5812,6 +5812,9 @@
         "offlineTitle": "You're offline",
         "offlineBody": "Your buddy needs an internet connection to check whether this is relevant right now. Hold the button to unlock it anyway, or stay focused.",
         "offlineHoldButton": "Hold to unlock",
+        "unavailableTitle": "Your buddy can't reach the AI",
+        "unavailableBody": "The AI check isn't responding right now, so your buddy can't tell whether this is relevant. Hold the button to unlock it anyway, or stay focused.",
+        "offlineHoldHelp": "Keep it pressed for {seconds} seconds, or focus the button and hold Space or Enter. It unlocks for {minutes} minutes.",
         "reportBadAiPlaceholder": "This is relevant because…",
         "reportBadAiPrompt": "What did it get wrong?",
         "reportBadAiSend": "Send report"
