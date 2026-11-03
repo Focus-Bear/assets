@@ -7371,5 +7371,12 @@
     "errorNetwork": "Prüfe deine Internetverbindung und versuche es erneut.",
     "errorFeatureLocked": "KI-Vorschläge sind für dein Konto deaktiviert.",
     "errorTaskFailed": "Die Routinevorschläge konnten nicht erstellt werden. Bitte versuche es erneut."
+  },
+  "firefoxExtensionInfo": {
+    "title": "Installiere die Focus-Bear-Erweiterung für Firefox",
+    "message": "Ohne seine Erweiterung kann Focus Bear nicht zuverlässig sehen, welche Seiten du in Firefox öffnest, und blockiert Ablenkungen dort deshalb vielleicht nicht. Installiere die Erweiterung und starte Firefox dann neu.",
+    "buttonGet": "Erweiterung holen",
+    "buttonNotNow": "Nicht jetzt",
+    "buttonNever": "Nicht mehr anzeigen"
   }
 }
