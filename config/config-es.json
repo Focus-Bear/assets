@@ -4163,6 +4163,10 @@
         "postponedBreaksSettingsButtonText": "Abrir Ajustes › Descansos"
     },
     "toDoListViewInfo":{
+        "moveStatusUpWindowsText": "Subir \"<TITLE>\"",
+        "moveStatusDownWindowsText": "Bajar \"<TITLE>\"",
+        "removeStatusWindowsText": "Quitar \"<TITLE>\"",
+        "memberRoleWindowsText": "Rol",
         "sharedWithYouBadgeText": "Compartido contigo",
         "attachmentPendingText": "Listo para subir cuando guardes la tarea.",
         "attachmentRetryText": "La tarea se ha guardado. Guarda de nuevo para reintentar los archivos pendientes.",
@@ -4653,6 +4657,12 @@
       "outcomePostponeWeeksText": "Se puede posponer unas semanas"
     },
     "localForecastViewInfo": {
+        "chartViewWindows": "Gráfico",
+        "tableViewWindows": "Tabla",
+        "dayColumnWindows": "Día",
+        "otherTimeWindows": "Ya pasado, o huecos demasiado cortos para trabajar",
+        "dayTasksHeadingWindows": "Trabajo de tareas previsto para <DAY>",
+        "dayNoTasksWindows": "No hay trabajo de tareas previsto para este día.",
         "cannotMoveHeading": "No se pueden mover — mayor resultado primero (<COUNT>)",
         "cannotMoveFirst": "Resuelve estas primero: sus fechas determinan todo lo de abajo.",
         "suggestedDateHint": "Sugerencia: <DATE>, el primer día con hueco. Pulsa Intro para usarla o escribe otra fecha.",
