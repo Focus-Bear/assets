@@ -29,6 +29,8 @@
     "noProject": "No project"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "Include in every break",
+        "includeInEveryBreakHelp": "On: this activity is in every break, and is offered in office mode too. Off: Focus Bear picks it at random for some breaks.",
         "frequencyLabel": "Break frequency (minutes)",
         "invalidFrequency": "Enter a whole number from %d to %d minutes.",
         "fullBody": "Full body",

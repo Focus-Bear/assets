@@ -29,6 +29,8 @@
     "noProject": "Sin proyecto"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "Incluir en cada descanso",
+        "includeInEveryBreakHelp": "Activado: esta actividad está en cada descanso y también se ofrece en el modo oficina. Desactivado: Focus Bear la elige al azar para algunos descansos.",
         "frequencyLabel": "Frecuencia de las pausas (minutos)",
         "invalidFrequency": "Introduce un número entero entre %d y %d minutos.",
         "fullBody": "Cuerpo completo",

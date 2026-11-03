@@ -19,6 +19,8 @@
     "noProject": "Aucun projet"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "Inclure dans chaque pause",
+        "includeInEveryBreakHelp": "Activé : cette activité fait partie de chaque pause et est aussi proposée en mode bureau. Désactivé : Focus Bear la choisit au hasard pour certaines pauses.",
         "frequencyLabel": "Fréquence des pauses (minutes)",
         "invalidFrequency": "Saisissez un nombre entier entre %d et %d minutes.",
         "fullBody": "Corps entier",

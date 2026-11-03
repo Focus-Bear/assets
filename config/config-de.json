@@ -19,6 +19,8 @@
     "noProject": "Kein Projekt"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "In jede Pause aufnehmen",
+        "includeInEveryBreakHelp": "An: Diese Aktivität ist in jeder Pause dabei und wird auch im Büromodus angeboten. Aus: Focus Bear wählt sie für manche Pausen zufällig aus.",
         "frequencyLabel": "Pausenabstand (Minuten)",
         "invalidFrequency": "Gib eine ganze Zahl zwischen %d und %d Minuten ein.",
         "fullBody": "Ganzkörper",
