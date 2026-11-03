@@ -3801,6 +3801,10 @@
     "postponedBreaksSettingsButtonText": "Einstellungen › Pausen öffnen"
   },
   "toDoListViewInfo": {
+        "moveStatusUpWindowsText": "\"<TITLE>\" nach oben verschieben",
+        "moveStatusDownWindowsText": "\"<TITLE>\" nach unten verschieben",
+        "removeStatusWindowsText": "\"<TITLE>\" entfernen",
+        "memberRoleWindowsText": "Rolle",
         "sharedWithYouBadgeText": "Mit dir geteilt",
         "attachmentPendingText": "Wird hochgeladen, sobald du die Aufgabe speicherst.",
         "attachmentRetryText": "Die Aufgabe wurde gespeichert. Speichere erneut, um die übrigen Dateien noch einmal hochzuladen.",
@@ -4291,6 +4295,12 @@
         "tasksToDoCountText": "<COUNT> offen"
   },
   "localForecastViewInfo": {
+    "chartViewWindows": "Diagramm",
+    "tableViewWindows": "Tabelle",
+    "dayColumnWindows": "Tag",
+    "otherTimeWindows": "Bereits vorbei oder Lücken, die zum Arbeiten zu kurz sind",
+    "dayTasksHeadingWindows": "Für <DAY> geplante Aufgabenarbeit",
+    "dayNoTasksWindows": "Für diesen Tag ist keine Aufgabenarbeit geplant.",
     "cannotMoveHeading": "Nicht verschiebbar — höchstes Ergebnis zuerst (<COUNT>)",
     "cannotMoveFirst": "Kläre diese zuerst — ihre Termine bestimmen alles darunter.",
     "suggestedDateHint": "Vorschlag: <DATE>, der erste Tag mit freier Zeit. Drücke die Eingabetaste, um ihn zu übernehmen, oder gib ein anderes Datum ein.",

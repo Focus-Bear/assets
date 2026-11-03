@@ -3801,6 +3801,10 @@
     "postponedBreaksSettingsButtonText": "Otwórz Ustawienia › Przerwy"
   },
   "toDoListViewInfo": {
+        "moveStatusUpWindowsText": "Przenieś „<TITLE>” w górę",
+        "moveStatusDownWindowsText": "Przenieś „<TITLE>” w dół",
+        "removeStatusWindowsText": "Usuń „<TITLE>”",
+        "memberRoleWindowsText": "Rola",
         "sharedWithYouBadgeText": "Udostępnione Tobie",
         "attachmentPendingText": "Plik zostanie przesłany po zapisaniu zadania.",
         "attachmentRetryText": "Zadanie zostało zapisane. Zapisz ponownie, aby ponowić przesyłanie pozostałych plików.",
@@ -4291,6 +4295,12 @@
         "tasksToDoCountText": "Do zrobienia: <COUNT>"
   },
   "localForecastViewInfo": {
+    "chartViewWindows": "Wykres",
+    "tableViewWindows": "Tabela",
+    "dayColumnWindows": "Dzień",
+    "otherTimeWindows": "Już minęło lub przerwy zbyt krótkie na pracę",
+    "dayTasksHeadingWindows": "Praca nad zadaniami zaplanowana na <DAY>",
+    "dayNoTasksWindows": "Na ten dzień nie zaplanowano pracy nad zadaniami.",
     "cannotMoveHeading": "Nie można przenieść — najpierw najwyższy rezultat (<COUNT>)",
     "cannotMoveFirst": "Zajmij się nimi najpierw — ich daty wpływają na wszystko poniżej.",
     "suggestedDateHint": "Sugestia: <DATE>, pierwszy dzień z wolnym czasem. Naciśnij Enter, aby ją przyjąć, lub wpisz inną datę.",

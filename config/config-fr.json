@@ -3801,6 +3801,10 @@
     "postponedBreaksSettingsButtonText": "Ouvrir Réglages › Pauses"
   },
   "toDoListViewInfo": {
+        "moveStatusUpWindowsText": "Monter « <TITLE> »",
+        "moveStatusDownWindowsText": "Descendre « <TITLE> »",
+        "removeStatusWindowsText": "Supprimer « <TITLE> »",
+        "memberRoleWindowsText": "Rôle",
         "sharedWithYouBadgeText": "Partagé avec vous",
         "attachmentPendingText": "Prêt à être envoyé lorsque vous enregistrerez la tâche.",
         "attachmentRetryText": "La tâche a été enregistrée. Enregistrez à nouveau pour réessayer les fichiers restants.",
@@ -4291,6 +4295,12 @@
         "tasksToDoCountText": "<COUNT> à faire"
   },
   "localForecastViewInfo": {
+    "chartViewWindows": "Graphique",
+    "tableViewWindows": "Tableau",
+    "dayColumnWindows": "Jour",
+    "otherTimeWindows": "Déjà passé, ou créneaux trop courts pour travailler",
+    "dayTasksHeadingWindows": "Travail sur les tâches prévu pour <DAY>",
+    "dayNoTasksWindows": "Aucun travail sur les tâches n'est prévu ce jour-là.",
     "cannotMoveHeading": "Impossible à déplacer — résultat le plus élevé d’abord (<COUNT>)",
     "cannotMoveFirst": "Réglez-les d’abord : leurs dates déterminent tout ce qui suit.",
     "suggestedDateHint": "Suggestion : <DATE>, le premier jour où il reste du temps. Appuyez sur Entrée pour l’utiliser ou saisissez une autre date.",
