@@ -5,6 +5,16 @@
       "rolloutPercent": 100
     }
   },
+  "sessionExpiredInfo": {
+    "message": "Your Focus Bear session has expired. Blocking keeps running, but nothing will sync until you sign in again.",
+    "buttonSignIn": "Sign in",
+    "buttonLater": "Later",
+    "cardTitle": "Session expired",
+    "cardBody": "Your session has expired. Blocking keeps running. Sign in to sync again.",
+    "menuItemSignIn": "Sign in again...",
+    "trayTooltip": "Focus Bear - session expired, sign in again",
+    "saveFailedRetryText": "Your changes couldn't be saved. Please try again."
+  },
   "meetingActionReview": {
     "title": "Review meeting actions",
     "explanation": "Edit each action and press + to add it to your ToDo list. Finish review marks your unadded actions as irrelevant in the meeting note.",
@@ -25,6 +35,8 @@
     "noProject": "No project"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "Include in every break",
+        "includeInEveryBreakHelp": "On: this activity is in every break, and is offered in office mode too. Off: Focus Bear picks it at random for some breaks.",
         "frequencyLabel": "Break frequency (minutes)",
         "invalidFrequency": "Enter a whole number from %d to %d minutes.",
         "fullBody": "Full body",
@@ -382,6 +394,11 @@
         "toolTipPresentingText": "Presenting: Focus Bear won't ask the AI about sites until you stop sharing",
         "presentingDeferredCheckInTitle": "You're presenting, so Focus Bear won't cover your screen",
         "presentingDeferredCheckInMessage": "It will check in after you stop sharing.",
+        "presentingWarningSiteTitle": "This site doesn't appear to be relevant.",
+        "presentingWarningAppTitle": "This app doesn't appear to be relevant.",
+        "presentingWarningHiddenFromShare": "Don't worry, this isn't visible on your screenshare.",
+        "presentingWarningMayShowInShare": "Focus Bear asks macOS to hide this from your screenshare, but some apps may still show it.",
+        "presentingWarningDismiss": "Dismiss",
         "unblockNotAvailableText": "You're in super strict mode - change your settings to unblock",
         "unblockNotAvailableForFocusBlockedUrlText": "You can't unblock this site because it's currently listed under the blocked URLs for your focus session",
         "buttonEndFocusSessionText": "I'm done, End focus session",
@@ -1919,6 +1936,7 @@
         "dismissText": "Dismiss"
     },
     "statsViewInfo": {
+      "pepTalkSavedMessageNoticeTextWindows": "Focus Bear's server isn't answering, so here's a message saved on this PC.",
         "tabGoals": "Your Goals",
         "tabProgress": "Progress",
         "tabStreak": "Streak",
@@ -3280,6 +3298,8 @@
         "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
     },
     "timeTrackerVcInfo": {
+      "pointFirstTextWindows": "Privacy first: data is stored locally on your PC",
+      "pointFourthTextWindows": "Track time on meetings and when you're away from your PC",
         "title": "Introducing Focus Bear Time Tracker",
         "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).",
         "pointFirstText": "Privacy first: data is stored locally on your Mac",
@@ -4166,6 +4186,10 @@
         "postponedBreaksSettingsButtonText": "Open Settings › Breaks"
     },
     "toDoListViewInfo":{
+        "moveStatusUpWindowsText": "Move \"<TITLE>\" up",
+        "moveStatusDownWindowsText": "Move \"<TITLE>\" down",
+        "removeStatusWindowsText": "Remove \"<TITLE>\"",
+        "memberRoleWindowsText": "Role",
         "sharedWithYouBadgeText": "Shared with you",
         "attachmentPendingText": "Ready to upload when you save the task.",
         "attachmentRetryText": "The task was saved. Save again to retry the remaining files.",
@@ -4656,6 +4680,12 @@
       "outcomePostponeYearsText": "Can postpone for years"
     },
     "localForecastViewInfo": {
+        "chartViewWindows": "Chart",
+        "tableViewWindows": "Table",
+        "dayColumnWindows": "Day",
+        "otherTimeWindows": "Already past, or gaps too short to work in",
+        "dayTasksHeadingWindows": "Task work planned for <DAY>",
+        "dayNoTasksWindows": "No task work is planned for this day.",
         "cannotMoveHeading": "Can’t be moved — highest outcome first (<COUNT>)",
         "cannotMoveFirst": "Fix these first — their dates shape everything below.",
         "suggestedDateHint": "Suggested: <DATE>, the first day there’s room. Press Return to use it, or type another date.",
@@ -4822,6 +4852,8 @@
         "cardAccessibilityText": "Announcement"
     },
     "serverReachabilityInfo": {
+      "serverTroubleBannerTextWindows": "Can't reach Focus Bear right now — showing what's saved on this PC.",
+      "offlineBannerTextWindows": "You're offline — showing what's saved on this PC.",
         "serverTroubleBannerText": "Can't reach Focus Bear right now — showing what's saved on this Mac.",
         "offlineBannerText": "You're offline — showing what's saved on this Mac.",
         "serverTroubleDetailText": "Focus Bear's server is having problems. Nothing you do here is lost; it syncs when the server is back.",
@@ -5000,6 +5032,26 @@
         "scheduleSettingsLayout": "Layout",
         "eventNotesLabel": "Description (shared with other attendees)",
         "eventPrivateNotesLabel": "My private notes (only you)",
+        "noCalendarsMessageWindows": "Connect your Google or Microsoft calendar first, then choose which calendars your Day Plan shows.",
+        "eventDateLabelWindows": "Date",
+        "eventDescriptionLabelWindows": "Description",
+        "eventFocusBearCalendarWindows": "Focus Bear",
+        "eventFocusBearCalendarHintWindows": "Saved to your Focus Bear account, so it shows on your other devices and the web. Google and Microsoft calendars are connected read-only.",
+        "eventSyncedCalendarWindows": "Synced calendar",
+        "eventSaveErrorWindows": "Couldn't save the event. Check your connection and try again.",
+        "eventTimeInvalidWindows": "Type the times like 7:30 am or 19:30.",
+        "eventDeleteWindows": "Delete event",
+        "eventDeleteConfirmWindows": "Delete this event?",
+        "eventDeleteSeriesConfirmWindows": "This is a repeating event. Delete all events in the series?",
+        "eventRevertWindows": "Undo my Day Plan edit",
+        "eventRevertConfirmWindows": "Go back to the meeting as your calendar has it?",
+        "eventDeleteErrorWindows": "Couldn't delete the event. Check your connection and try again.",
+        "chooseCalendarsErrorWindows": "Some calendars couldn't be changed. Check your connection and try again.",
+        "eventEditHintWindows": "Click to edit this event",
+        "eventTitleRequiredWindows": "Give the event a title.",
+        "eventTitleTooLongWindows": "That title is too long.",
+        "eventTooLongWindows": "An event can be at most 24 hours long.",
+        "eventEndBeforeStartWindows": "The event has to end after it starts.",
         "freeTimeToday": "🕒 %@ free",
         "tasksForDay": "Tasks for %@",
         "tasksShowCompleted": "Show completed",
@@ -5302,6 +5354,9 @@
       "routineStartNow": "Start routine now"
     },
     "timeTrackerViewInfo":{
+      "ttStatusNotInstalledWindows": "Not installed",
+      "ttStatusInstalledWindows": "Installed (not running)",
+      "ttStatusRunningWindows": "Running",
         "menuTimeTracker": "Time Tracker",
         "ttToday": "Today",
         "ttUpdated": "Updated",
@@ -5474,6 +5529,9 @@
         "removeText": "Remove"
     },
     "menuView":{
+        "blockingPermissionsLimitedWindows": "Focus Bear isn't running as administrator, so it can't close apps that run as administrator. Other blocking can continue.",
+        "menuPin": "Keep the menu open",
+        "menuUnpin": "Let the menu close",
         "blockingPausedTitle": "Blocking paused · <TIME> left",
         "blockingPausedExplanation": "Nothing is being blocked until <TIME>, even in a focus session. Blocking comes back on by itself then.",
         "a11yOpenFocusBearMenu": "Open Focus Bear menu",
@@ -5746,6 +5804,7 @@
         "errorBlockListMissing": "Update block list ⚠️",
         "alertSelectBlockList": "Please select block list.",
         "alertInvalidTime": "Please enter a complete time, including AM or PM, in the From and Till fields before saving.",
+        "alertInvalidTime24h": "Please enter a complete time, such as 19:15, in the From and Till fields before saving.",
         "titleScheduleOverlapAlert": "Time Overlap Detected",
         "subTitleScheduleOverlapAlert": "This blocking schedule's time overlaps with an existing one. Do you want to save it anyway?",
         "buttonSaveBlockAnyway": "Save Anyway",
@@ -5782,6 +5841,7 @@
         "taskChangedTo": "Task changed to {0}",
         "reportBadAiTooltip": "Report a bad AI decision",
         "reportBadAiDone": "Thanks — reported for review",
+        "reportBadAiDoneAllowed": "Thanks — reported for review. It's allowed for this focus session.",
         "aiReasonPrefix": "AI reason:",
         "alignmentScorePrefix": "Focus alignment:",
         "aiDecisionNoDetail": "No AI reason recorded for this decision.",
@@ -5813,6 +5873,9 @@
         "offlineTitle": "You're offline",
         "offlineBody": "Your buddy needs an internet connection to check whether this is relevant right now. Hold the button to unlock it anyway, or stay focused.",
         "offlineHoldButton": "Hold to unlock",
+        "unavailableTitle": "Your buddy can't reach the AI",
+        "unavailableBody": "The AI check isn't responding right now, so your buddy can't tell whether this is relevant. Hold the button to unlock it anyway, or stay focused.",
+        "offlineHoldHelp": "Keep it pressed for {seconds} seconds, or focus the button and hold Space or Enter. It unlocks for {minutes} minutes.",
         "reportBadAiPlaceholder": "This is relevant because…",
         "reportBadAiPrompt": "What did it get wrong?",
         "reportBadAiSend": "Send report"
@@ -5855,6 +5918,7 @@
         "pleaseWaitText": "Please wait for your buddy to accept the invitation before creating an unlock request.",
         "callBuddyText": "We suggest you call your buddy {0} and ask them to unlock. They'll have an email with instructions.",
         "requestFailedText": "Request Unlock Failed -  Please try again later",
+        "tooManyRequestsText": "You've sent several unlock requests in a short time. Please wait a minute, then try again.",
         "noPendingRequestText": "Please create an unlock request first, then wait for your buddy to approve it before refreshing.",
         "noApprovedRequestText": "No approved request found yet. Please wait for your buddy to approve, then try again.",
         "aiBuddyWindowTitle": "Accountability Buddy",
@@ -6264,6 +6328,9 @@
         "minimiseWindowTooltip": "Minimise",
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",
+        "autostartTrayHint": "Focus Bear is running in the system tray — click the bear to open it.",
+        "autostartTrayHintOpen": "Open Focus Bear",
+        "typeNewTaskHintText": "Type a new task",
         "newVersionAvailable": "A new version of Focus Bear is available. Do you wish to update to the latest version of Focus Bear?",
         "newUpdateAvailable": "New Update Available",
         "alreadyRunningLatestVersion": "You are already running the latest version of Focus Bear.",
@@ -7244,7 +7311,27 @@
         "attachTooLarge": "<NAME> is too big to attach. Each file can be up to <SIZE>.",
         "attachTotalTooLarge": "<NAME> would take the attachments over <SIZE> in total.",
         "attachUnsupported": "Claude can't read <NAME>. Attach images, PDFs, text files or Office documents.",
-        "attachUnreadable": "Couldn't read <NAME>."
+        "attachUnreadable": "Couldn't read <NAME>.",
+        "planFirstToggle": "Ask questions and show a plan first",
+        "planFirstOnHint": "Claude asks its questions and shows you a plan before it changes anything.",
+        "planFirstOffHint": "Your instructions look clear, so Claude starts straight away. It still asks before deleting files or contacting anyone.",
+        "handOffDirectMessage": "Claude is starting on it now",
+        "sensitiveDeletes": "This deletes files.",
+        "sensitiveOutsideFolder": "This changes files outside the working folder.",
+        "sensitivePushes": "This pushes code to a shared repository.",
+        "sensitiveReachesOutside": "This reaches outside your Mac: it may send, post or change something other people can see.",
+        "statusHandedBack": "Claude handed this back to you",
+        "statusFailed": "Failed",
+        "outcomeDone": "Done. Nothing is left for you to do.",
+        "outcomeNeedsYou": "Needs you. Claude couldn't finish this on its own.",
+        "outcomeStepsLeft": "Needs you. Claude did its part; the steps below are yours.",
+        "outcomeUnconfirmed": "Needs you. Claude didn't say whether it finished, so check its reply.",
+        "outcomeFailed": "Failed. Claude couldn't do this task.",
+        "nextStepsHeading": "Next steps",
+        "nextStepsSubtasksNote": "Also added to the task as subtasks.",
+        "outputsHeading": "Outputs",
+        "outputShowInFinder": "Show <NAME> in Finder",
+        "outputOpenLink": "Open <NAME>"
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Turn off '<EXTENSION>'",
@@ -7331,5 +7418,12 @@
     "errorNetwork": "Check your internet connection and try again.",
     "errorFeatureLocked": "AI suggestions are turned off for your account.",
     "errorTaskFailed": "Routine suggestions could not be generated. Please try again."
+  },
+  "firefoxExtensionInfo": {
+    "title": "Install the Focus Bear extension for Firefox",
+    "message": "Focus Bear can't reliably see which sites you open in Firefox without its extension, so it may not block distractions there. Install the extension, then restart Firefox.",
+    "buttonGet": "Get the extension",
+    "buttonNotNow": "Not now",
+    "buttonNever": "Don't show again"
   }
 }

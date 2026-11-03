@@ -25,6 +25,8 @@
     "noProject": "Kein Projekt"
   },
     "microbreakSettingsInfo": {
+        "includeInEveryBreak": "In jede Pause aufnehmen",
+        "includeInEveryBreakHelp": "An: Diese Aktivität ist in jeder Pause dabei und wird auch im Büromodus angeboten. Aus: Focus Bear wählt sie für manche Pausen zufällig aus.",
         "frequencyLabel": "Pausenabstand (Minuten)",
         "invalidFrequency": "Gib eine ganze Zahl zwischen %d und %d Minuten ein.",
         "fullBody": "Ganzkörper",
@@ -363,6 +365,11 @@
     "toolTipPresentingText": "Präsentation: Focus Bear fragt die KI nicht zu Websites, bis du die Bildschirmfreigabe beendest",
     "presentingDeferredCheckInTitle": "Du präsentierst, daher verdeckt Focus Bear deinen Bildschirm nicht",
     "presentingDeferredCheckInMessage": "Es fragt nach, sobald du die Freigabe beendest.",
+    "presentingWarningSiteTitle": "Diese Website scheint nicht relevant zu sein.",
+    "presentingWarningAppTitle": "Diese App scheint nicht relevant zu sein.",
+    "presentingWarningHiddenFromShare": "Keine Sorge, das ist in deiner Bildschirmfreigabe nicht zu sehen.",
+    "presentingWarningMayShowInShare": "Focus Bear bittet macOS, dies in deiner Bildschirmfreigabe auszublenden, aber manche Apps zeigen es vielleicht trotzdem.",
+    "presentingWarningDismiss": "Schließen",
     "unblockNotAvailableText": "Du bist im super-strikten Modus – ändere deine Einstellungen, um zu entsperren.",
     "unblockNotAvailableForFocusBlockedUrlText": "Diese Seite lässt sich nicht entsperren, da sie in den blockierten URLs deiner Fokussitzung steht.",
     "buttonEndFocusSessionText": "Ich bin fertig, Fokussitzung beenden",
@@ -1532,6 +1539,7 @@
     "couldNotFileMeetingNotesText": "Einige Besprechungsnotizen konnten nicht verschoben werden. Versuch es gleich noch einmal."
   },
   "statsViewInfo": {
+    "pepTalkSavedMessageNoticeTextWindows": "Der Focus-Bear-Server antwortet nicht, darum hier eine Nachricht, die auf diesem PC gespeichert ist.",
     "tabGoals": "Deine Ziele",
     "tabProgress": "Fortschritt",
     "tabStreak": "Serie",
@@ -2894,6 +2902,8 @@
     "packId": "f522e5d0-6e40-4dd4-9010-338529a7223e"
   },
   "timeTrackerVcInfo": {
+    "pointFirstTextWindows": "Privatsphäre zuerst: Daten werden lokal auf deinem PC gespeichert",
+    "pointFourthTextWindows": "Erfasse die Zeit für Meetings und wenn du nicht an deinem PC bist",
     "title": "Wir stellen vor: Focus Bear Time Tracker",
     "description": "Focus Bear Time Tracker hilft dir, deine Produktivität zu analysieren, indem er erfasst, wie viel Zeit du auf verschiedenen Websites und in Apps verbringst. Du kannst Zeiteinträge automatisch verschiedenen Projekten zuordnen (praktisch für Stundenzettel).",
     "pointFirstText": "Privatsphäre zuerst: Daten werden lokal auf deinem Mac gespeichert",
@@ -3799,6 +3809,10 @@
     "postponedBreaksSettingsButtonText": "Einstellungen › Pausen öffnen"
   },
   "toDoListViewInfo": {
+        "moveStatusUpWindowsText": "\"<TITLE>\" nach oben verschieben",
+        "moveStatusDownWindowsText": "\"<TITLE>\" nach unten verschieben",
+        "removeStatusWindowsText": "\"<TITLE>\" entfernen",
+        "memberRoleWindowsText": "Rolle",
         "sharedWithYouBadgeText": "Mit dir geteilt",
         "attachmentPendingText": "Wird hochgeladen, sobald du die Aufgabe speicherst.",
         "attachmentRetryText": "Die Aufgabe wurde gespeichert. Speichere erneut, um die übrigen Dateien noch einmal hochzuladen.",
@@ -4289,6 +4303,12 @@
         "tasksToDoCountText": "<COUNT> offen"
   },
   "localForecastViewInfo": {
+    "chartViewWindows": "Diagramm",
+    "tableViewWindows": "Tabelle",
+    "dayColumnWindows": "Tag",
+    "otherTimeWindows": "Bereits vorbei oder Lücken, die zum Arbeiten zu kurz sind",
+    "dayTasksHeadingWindows": "Für <DAY> geplante Aufgabenarbeit",
+    "dayNoTasksWindows": "Für diesen Tag ist keine Aufgabenarbeit geplant.",
     "cannotMoveHeading": "Nicht verschiebbar — höchstes Ergebnis zuerst (<COUNT>)",
     "cannotMoveFirst": "Kläre diese zuerst — ihre Termine bestimmen alles darunter.",
     "suggestedDateHint": "Vorschlag: <DATE>, der erste Tag mit freier Zeit. Drücke die Eingabetaste, um ihn zu übernehmen, oder gib ein anderes Datum ein.",
@@ -4456,6 +4476,8 @@
       "cardAccessibilityText": "Ankündigung"
   },
   "serverReachabilityInfo": {
+    "serverTroubleBannerTextWindows": "Focus Bear ist gerade nicht erreichbar – angezeigt wird, was auf diesem PC gespeichert ist.",
+    "offlineBannerTextWindows": "Du bist offline – angezeigt wird, was auf diesem PC gespeichert ist.",
       "serverTroubleBannerText": "Focus Bear ist gerade nicht erreichbar – angezeigt wird, was auf diesem Mac gespeichert ist.",
       "offlineBannerText": "Du bist offline – angezeigt wird, was auf diesem Mac gespeichert ist.",
       "serverTroubleDetailText": "Der Focus-Bear-Server hat Probleme. Nichts, was du hier tust, geht verloren; es wird synchronisiert, sobald der Server wieder da ist.",
@@ -4646,6 +4668,26 @@
     "scheduleSettingsLayout": "Layout",
     "eventNotesLabel": "Beschreibung (für alle Teilnehmenden sichtbar)",
     "eventPrivateNotesLabel": "Meine privaten Notizen (nur für dich)",
+    "noCalendarsMessageWindows": "Verbinde zuerst deinen Google- oder Microsoft-Kalender und wähle dann, welche Kalender dein Tagesplan zeigt.",
+    "eventDateLabelWindows": "Datum",
+    "eventDescriptionLabelWindows": "Beschreibung",
+    "eventFocusBearCalendarWindows": "Focus Bear",
+    "eventFocusBearCalendarHintWindows": "Wird in deinem Focus Bear-Konto gespeichert und erscheint so auf deinen anderen Geräten und im Web. Google- und Microsoft-Kalender sind schreibgeschützt verbunden.",
+    "eventSyncedCalendarWindows": "Synchronisierter Kalender",
+    "eventSaveErrorWindows": "Der Termin konnte nicht gespeichert werden. Prüfe deine Verbindung und versuche es erneut.",
+    "eventTimeInvalidWindows": "Gib die Zeiten so ein: 7:30 am oder 19:30.",
+    "eventDeleteWindows": "Termin löschen",
+    "eventDeleteConfirmWindows": "Diesen Termin löschen?",
+    "eventDeleteSeriesConfirmWindows": "Dies ist ein wiederkehrender Termin. Alle Termine der Serie löschen?",
+    "eventRevertWindows": "Meine Änderung im Tagesplan rückgängig machen",
+    "eventRevertConfirmWindows": "Zum Termin zurückkehren, wie er in deinem Kalender steht?",
+    "eventDeleteErrorWindows": "Der Termin konnte nicht gelöscht werden. Prüfe deine Verbindung und versuche es erneut.",
+    "chooseCalendarsErrorWindows": "Einige Kalender konnten nicht geändert werden. Prüfe deine Verbindung und versuche es erneut.",
+    "eventEditHintWindows": "Klicke, um diesen Termin zu bearbeiten",
+    "eventTitleRequiredWindows": "Gib dem Termin einen Titel.",
+    "eventTitleTooLongWindows": "Dieser Titel ist zu lang.",
+    "eventTooLongWindows": "Ein Termin darf höchstens 24 Stunden dauern.",
+    "eventEndBeforeStartWindows": "Der Termin muss nach seinem Beginn enden.",
     "freeTimeToday": "🕒 %@ frei",
     "tasksForDay": "Aufgaben für %@",
     "tasksShowCompleted": "Erledigte anzeigen",
@@ -4944,6 +4986,9 @@
     "routineStartNow": "Routine jetzt starten"
   },
   "timeTrackerViewInfo": {
+    "ttStatusNotInstalledWindows": "Nicht installiert",
+    "ttStatusInstalledWindows": "Installiert (läuft nicht)",
+    "ttStatusRunningWindows": "Läuft",
     "menuTimeTracker": "Zeiterfassung",
     "ttToday": "Heute",
     "ttUpdated": "Aktualisiert",
@@ -5078,6 +5123,9 @@
     "insertEmoji": "Emoji einfügen"
   },
   "menuView": {
+    "blockingPermissionsLimitedWindows": "Focus Bear läuft nicht als Administrator und kann daher keine Apps schließen, die als Administrator laufen. Andere Blockierungen funktionieren weiterhin.",
+    "menuPin": "Menü geöffnet lassen",
+    "menuUnpin": "Menü wieder schließen lassen",
     "blockingPausedTitle": "Blockieren pausiert · noch <TIME>",
     "blockingPausedExplanation": "Bis <TIME> wird nichts blockiert, auch nicht in einer Fokus-Session. Danach schaltet sich das Blockieren von selbst wieder ein.",
     "a11yOpenFocusBearMenu": "Focus-Bear-Menü öffnen",
@@ -5350,6 +5398,7 @@
     "errorBlockListMissing": "Blockliste aktualisieren ⚠️",
     "alertSelectBlockList": "Bitte wähle eine Blockliste aus.",
     "alertInvalidTime": "Bitte gib in den Feldern „Von“ und „Bis“ eine vollständige Uhrzeit inklusive AM oder PM ein, bevor du speicherst.",
+    "alertInvalidTime24h": "Bitte gib vor dem Speichern in den Feldern Von und Bis eine vollständige Uhrzeit ein, zum Beispiel 19:15.",
     "titleScheduleOverlapAlert": "Zeitüberschneidung erkannt",
     "subTitleScheduleOverlapAlert": "Die Zeit dieses Blockierzeitplans überschneidet sich mit einem bestehenden. Möchtest du trotzdem speichern?",
     "buttonSaveBlockAnyway": "Trotzdem speichern",
@@ -5386,6 +5435,7 @@
     "taskChangedTo": "Aufgabe geändert zu {0}",
     "reportBadAiTooltip": "Schlechte KI-Entscheidung melden",
     "reportBadAiDone": "Danke — zur Prüfung gemeldet",
+    "reportBadAiDoneAllowed": "Danke — zur Prüfung gemeldet. Für diese Fokus-Sitzung erlaubt.",
     "aiReasonPrefix": "KI-Grund:",
     "alignmentScorePrefix": "Fokus-Übereinstimmung:",
     "aiDecisionNoDetail": "Für diese Entscheidung wurde kein KI-Grund festgehalten.",
@@ -5417,6 +5467,9 @@
     "offlineTitle": "Du bist offline",
     "offlineBody": "Dein Buddy braucht eine Internetverbindung, um zu prüfen, ob das gerade relevant ist. Halte die Taste gedrückt, um es trotzdem freizuschalten, oder bleib fokussiert.",
     "offlineHoldButton": "Zum Freischalten gedrückt halten",
+    "unavailableTitle": "Dein Buddy erreicht die KI nicht",
+    "unavailableBody": "Die KI-Prüfung antwortet gerade nicht, deshalb kann dein Buddy nicht erkennen, ob das relevant ist. Halte die Taste gedrückt, um es trotzdem freizuschalten, oder bleib fokussiert.",
+    "offlineHoldHelp": "Halte sie {seconds} Sekunden lang gedrückt, oder wähle die Taste aus und halte Leertaste oder Eingabetaste gedrückt. Es wird dann für {minutes} Minuten freigeschaltet.",
     "reportBadAiPlaceholder": "Das ist relevant, weil …",
     "reportBadAiPrompt": "Was war falsch?",
     "reportBadAiSend": "Meldung senden"
@@ -5459,6 +5512,7 @@
     "pleaseWaitText": "Bitte warte, bis dein Buddy die Einladung angenommen hat, bevor du eine Freischaltanfrage erstellst.",
     "callBuddyText": "Wir empfehlen dir, deinen Buddy {0} anzurufen und ihn um die Freischaltung zu bitten. Er/Sie hat eine E-Mail mit Anweisungen erhalten.",
     "requestFailedText": "Freischaltanfrage fehlgeschlagen — bitte versuche es später erneut",
+    "tooManyRequestsText": "Du hast in kurzer Zeit mehrere Entsperranfragen gesendet. Bitte warte eine Minute und versuche es dann erneut.",
     "noPendingRequestText": "Erstelle zuerst eine Freischalt-Anfrage und warte auf die Zustimmung deines Buddys, bevor du aktualisierst.",
     "noApprovedRequestText": "Noch keine genehmigte Anfrage gefunden. Warte auf die Zustimmung deines Buddys und versuch es dann erneut.",
     "aiBuddyWindowTitle": "Accountability-Buddy",
@@ -5868,6 +5922,9 @@
     "minimiseWindowTooltip": "Minimieren",
     "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
     "runningbg": "Focus Bear läuft im Hintergrund",
+    "autostartTrayHint": "Focus Bear läuft im Infobereich der Taskleiste — klicke auf den Bären, um es zu öffnen.",
+    "autostartTrayHintOpen": "Focus Bear öffnen",
+    "typeNewTaskHintText": "Neue Aufgabe eingeben",
     "newVersionAvailable": "Eine neue Version von Focus Bear ist verfügbar. Möchtest du auf die neueste Version von Focus Bear aktualisieren?",
     "newUpdateAvailable": "Neues Update verfügbar",
     "alreadyRunningLatestVersion": "Du nutzt bereits die neueste Version von Focus Bear.",
@@ -7293,7 +7350,27 @@
         "attachTooLarge": "<NAME> ist zu groß. Jede Datei darf bis zu <SIZE> groß sein.",
         "attachTotalTooLarge": "Mit <NAME> wären die Anhänge insgesamt größer als <SIZE>.",
         "attachUnsupported": "Claude kann <NAME> nicht lesen. Hänge Bilder, PDFs, Textdateien oder Office-Dokumente an.",
-        "attachUnreadable": "<NAME> konnte nicht gelesen werden."
+        "attachUnreadable": "<NAME> konnte nicht gelesen werden.",
+        "planFirstToggle": "Zuerst Fragen stellen und einen Plan zeigen",
+        "planFirstOnHint": "Claude stellt seine Fragen und zeigt dir einen Plan, bevor es etwas ändert.",
+        "planFirstOffHint": "Deine Anweisungen wirken klar, also legt Claude sofort los. Bevor es Dateien löscht oder jemanden kontaktiert, fragt es trotzdem.",
+        "handOffDirectMessage": "Claude legt jetzt los",
+        "sensitiveDeletes": "Damit werden Dateien gelöscht.",
+        "sensitiveOutsideFolder": "Damit werden Dateien außerhalb des Arbeitsordners geändert.",
+        "sensitivePushes": "Damit wird Code in ein gemeinsames Repository übertragen.",
+        "sensitiveReachesOutside": "Das geht über deinen Mac hinaus: Es kann etwas senden, veröffentlichen oder ändern, das andere sehen.",
+        "statusHandedBack": "Claude hat dir das zurückgegeben",
+        "statusFailed": "Fehlgeschlagen",
+        "outcomeDone": "Fertig. Für dich bleibt nichts zu tun.",
+        "outcomeNeedsYou": "Braucht dich. Claude konnte das nicht allein fertigstellen.",
+        "outcomeStepsLeft": "Braucht dich. Claude hat seinen Teil erledigt; die Schritte unten sind deine.",
+        "outcomeUnconfirmed": "Braucht dich. Claude hat nicht gesagt, ob es fertig ist, also prüfe seine Antwort.",
+        "outcomeFailed": "Fehlgeschlagen. Claude konnte diese Aufgabe nicht erledigen.",
+        "nextStepsHeading": "Nächste Schritte",
+        "nextStepsSubtasksNote": "Auch als Unteraufgaben zur Aufgabe hinzugefügt.",
+        "outputsHeading": "Ergebnisse",
+        "outputShowInFinder": "<NAME> im Finder zeigen",
+        "outputOpenLink": "<NAME> öffnen"
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "'<EXTENSION>' ausschalten",
@@ -7372,5 +7449,12 @@
     "errorNetwork": "Prüfe deine Internetverbindung und versuche es erneut.",
     "errorFeatureLocked": "KI-Vorschläge sind für dein Konto deaktiviert.",
     "errorTaskFailed": "Die Routinevorschläge konnten nicht erstellt werden. Bitte versuche es erneut."
+  },
+  "firefoxExtensionInfo": {
+    "title": "Installiere die Focus-Bear-Erweiterung für Firefox",
+    "message": "Ohne seine Erweiterung kann Focus Bear nicht zuverlässig sehen, welche Seiten du in Firefox öffnest, und blockiert Ablenkungen dort deshalb vielleicht nicht. Installiere die Erweiterung und starte Firefox dann neu.",
+    "buttonGet": "Erweiterung holen",
+    "buttonNotNow": "Nicht jetzt",
+    "buttonNever": "Nicht mehr anzeigen"
   }
 }
