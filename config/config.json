@@ -124,7 +124,11 @@
         "alertBtnCancel": "Cancel",
         "alertNotConnectedTitle": "Not Connected",
         "alertNotConnectedMessage": "Focus Bear couldn't read your current Wi-Fi network. Make sure Location Services are enabled for Focus Bear.",
-        "permissionWarningText": "⚠️ Location permission required to read Wi-Fi network name. Enable it in System Settings → Privacy & Security → Location Services."
+        "permissionWarningText": "⚠️ Location permission required to read Wi-Fi network name. Enable it in System Settings → Privacy & Security → Location Services.",
+        "windowsPermissionWarningText": "⚠️ Windows needs location permission before Focus Bear can see your Wi-Fi network's name. Turn on Location services and \"Let desktop apps access your location\" in Settings → Privacy & security → Location. Focus Bear only reads the network name; it doesn't use your location.",
+        "windowsOpenLocationSettingsText": "Open Location settings",
+        "windowsNotConnectedMessage": "Focus Bear couldn't read your current Wi-Fi network. Check that you're connected to Wi-Fi and try again, or add the network by name with Add.",
+        "windowsNoWifiMessage": "This PC isn't using Wi-Fi, so there's no network to add. You can still add one by name with Add."
     },
     "eveningShutdownInfo":{
         "title": "Well done on finishing your evening routine",
