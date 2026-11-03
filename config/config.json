@@ -1,4 +1,14 @@
 {
+  "sessionExpiredInfo": {
+    "message": "Your Focus Bear session has expired. Blocking keeps running, but nothing will sync until you sign in again.",
+    "buttonSignIn": "Sign in",
+    "buttonLater": "Later",
+    "cardTitle": "Session expired",
+    "cardBody": "Your session has expired. Blocking keeps running. Sign in to sync again.",
+    "menuItemSignIn": "Sign in again...",
+    "trayTooltip": "Focus Bear - session expired, sign in again",
+    "saveFailedRetryText": "Your changes couldn't be saved. Please try again."
+  },
   "meetingActionReview": {
     "title": "Review meeting actions",
     "explanation": "Edit each action and press + to add it to your ToDo list. Finish review marks your unadded actions as irrelevant in the meeting note.",
