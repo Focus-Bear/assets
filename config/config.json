@@ -1928,6 +1928,7 @@
         "dismissText": "Dismiss"
     },
     "statsViewInfo": {
+      "pepTalkSavedMessageNoticeTextWindows": "Focus Bear's server isn't answering, so here's a message saved on this PC.",
         "tabGoals": "Your Goals",
         "tabProgress": "Progress",
         "tabStreak": "Streak",
@@ -3289,6 +3290,8 @@
         "packId":"f522e5d0-6e40-4dd4-9010-338529a7223e"
     },
     "timeTrackerVcInfo": {
+      "pointFirstTextWindows": "Privacy first: data is stored locally on your PC",
+      "pointFourthTextWindows": "Track time on meetings and when you're away from your PC",
         "title": "Introducing Focus Bear Time Tracker",
         "description": "Focus Bear Time Tracker helps you analyse your productivity by tracking how much time you spend on different websites and apps. You can automatically categorise time logs into different projects (helpful for timesheets).",
         "pointFirstText": "Privacy first: data is stored locally on your Mac",
@@ -4831,6 +4834,8 @@
         "cardAccessibilityText": "Announcement"
     },
     "serverReachabilityInfo": {
+      "serverTroubleBannerTextWindows": "Can't reach Focus Bear right now — showing what's saved on this PC.",
+      "offlineBannerTextWindows": "You're offline — showing what's saved on this PC.",
         "serverTroubleBannerText": "Can't reach Focus Bear right now — showing what's saved on this Mac.",
         "offlineBannerText": "You're offline — showing what's saved on this Mac.",
         "serverTroubleDetailText": "Focus Bear's server is having problems. Nothing you do here is lost; it syncs when the server is back.",
@@ -5311,6 +5316,9 @@
       "routineStartNow": "Start routine now"
     },
     "timeTrackerViewInfo":{
+      "ttStatusNotInstalledWindows": "Not installed",
+      "ttStatusInstalledWindows": "Installed (not running)",
+      "ttStatusRunningWindows": "Running",
         "menuTimeTracker": "Time Tracker",
         "ttToday": "Today",
         "ttUpdated": "Updated",
