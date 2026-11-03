@@ -7408,5 +7408,12 @@
     "errorNetwork": "Comprueba tu conexión a internet e inténtalo de nuevo.",
     "errorFeatureLocked": "Las sugerencias con IA están desactivadas en tu cuenta.",
     "errorTaskFailed": "No se pudieron generar las sugerencias de rutina. Inténtalo de nuevo."
+  },
+  "firefoxExtensionInfo": {
+    "title": "Instala la extensión de Focus Bear para Firefox",
+    "message": "Sin su extensión, Focus Bear no puede ver con fiabilidad qué sitios abres en Firefox, así que puede que no bloquee las distracciones allí. Instala la extensión y reinicia Firefox.",
+    "buttonGet": "Obtener la extensión",
+    "buttonNotNow": "Ahora no",
+    "buttonNever": "No volver a mostrar"
   }
 }

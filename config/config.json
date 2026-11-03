@@ -7410,5 +7410,12 @@
     "errorNetwork": "Check your internet connection and try again.",
     "errorFeatureLocked": "AI suggestions are turned off for your account.",
     "errorTaskFailed": "Routine suggestions could not be generated. Please try again."
+  },
+  "firefoxExtensionInfo": {
+    "title": "Install the Focus Bear extension for Firefox",
+    "message": "Focus Bear can't reliably see which sites you open in Firefox without its extension, so it may not block distractions there. Install the extension, then restart Firefox.",
+    "buttonGet": "Get the extension",
+    "buttonNotNow": "Not now",
+    "buttonNever": "Don't show again"
   }
 }

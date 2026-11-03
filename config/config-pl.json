@@ -7441,5 +7441,12 @@
     "errorNetwork": "Sprawdź połączenie z internetem i spróbuj ponownie.",
     "errorFeatureLocked": "Propozycje AI są wyłączone na Twoim koncie.",
     "errorTaskFailed": "Nie udało się wygenerować propozycji rutyny. Spróbuj ponownie."
+  },
+  "firefoxExtensionInfo": {
+    "title": "Zainstaluj rozszerzenie Focus Bear dla Firefoksa",
+    "message": "Bez rozszerzenia Focus Bear nie widzi niezawodnie, jakie strony otwierasz w Firefoksie, więc może tam nie blokować rozpraszaczy. Zainstaluj rozszerzenie, a potem uruchom ponownie Firefoksa.",
+    "buttonGet": "Pobierz rozszerzenie",
+    "buttonNotNow": "Nie teraz",
+    "buttonNever": "Nie pokazuj ponownie"
   }
 }
