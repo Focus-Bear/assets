@@ -1,4 +1,10 @@
 {
+  "featureSwitches": {
+    "localRelevanceModel": {
+      "enabled": true,
+      "rolloutPercent": 100
+    }
+  },
   "meetingActionReview": {
     "title": "Przejrzyj zadania ze spotkania",
     "explanation": "Edytuj każde zadanie i naciśnij +, aby dodać je do listy zadań. Zakończenie przeglądu oznaczy Twoje niedodane zadania jako nieistotne w notatce ze spotkania.",

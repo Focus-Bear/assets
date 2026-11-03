@@ -1,4 +1,10 @@
 {
+  "featureSwitches": {
+    "localRelevanceModel": {
+      "enabled": true,
+      "rolloutPercent": 100
+    }
+  },
   "sessionExpiredInfo": {
     "message": "Tu sesión de Focus Bear ha caducado. El bloqueo sigue activo, pero nada se sincronizará hasta que vuelvas a iniciar sesión.",
     "buttonSignIn": "Iniciar sesión",

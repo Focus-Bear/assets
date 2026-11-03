@@ -1,4 +1,10 @@
 {
+  "featureSwitches": {
+    "localRelevanceModel": {
+      "enabled": true,
+      "rolloutPercent": 100
+    }
+  },
   "sessionExpiredInfo": {
     "message": "Your Focus Bear session has expired. Blocking keeps running, but nothing will sync until you sign in again.",
     "buttonSignIn": "Sign in",
