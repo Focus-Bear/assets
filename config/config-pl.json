@@ -106,7 +106,7 @@
     "alertNotConnectedTitle": "Brak połączenia",
     "alertNotConnectedMessage": "Focus Bear nie mógł odczytać bieżącej sieci Wi-Fi. Upewnij się, że usługi lokalizacji są włączone dla Focus Bear.",
     "permissionWarningText": "⚠️ Wymagane uprawnienie lokalizacji, aby odczytać nazwę sieci Wi-Fi. Włącz je w Ustawieniach systemowych → Prywatność i bezpieczeństwo → Usługi lokalizacji.",
-    "windowsPermissionWarningText": "⚠️ Windows potrzebuje uprawnienia do lokalizacji, aby Focus Bear mógł zobaczyć nazwę Twojej sieci Wi-Fi. Włącz „Usługi lokalizacji” i „Zezwalaj aplikacjom klasycznym na dostęp do Twojej lokalizacji” w Ustawienia → Prywatność i zabezpieczenia → Lokalizacja. Focus Bear odczytuje tylko nazwę sieci; nie używa Twojej lokalizacji.",
+    "windowsPermissionWarningText": "⚠️ Aby sprawdzić, z którą siecią Wi-Fi masz połączenie, Windows musi mieć włączony dostęp do lokalizacji dla aplikacji klasycznych. Przejdź do Ustawienia → Prywatność i zabezpieczenia → Lokalizacja i włącz „Usługi lokalizacji” oraz „Zezwalaj aplikacjom klasycznym na dostęp do Twojej lokalizacji”. Focus Bear odczytuje tylko nazwę sieci Wi-Fi, z którą masz połączenie, aby przełączać się między trybem biurowym a trybem pracy zdalnej. Nigdy nie odczytuje Twojej pozycji GPS.",
     "windowsOpenLocationSettingsText": "Otwórz ustawienia lokalizacji",
     "windowsNotConnectedMessage": "Focus Bear nie mógł odczytać Twojej bieżącej sieci Wi-Fi. Sprawdź, czy masz połączenie z Wi-Fi, i spróbuj ponownie albo dodaj sieć po nazwie za pomocą Dodaj.",
     "windowsNoWifiMessage": "Ten komputer nie korzysta z Wi-Fi, więc nie ma sieci do dodania. Nadal możesz dodać sieć po nazwie za pomocą Dodaj."
