@@ -142,7 +142,11 @@
         "alertBtnCancel": "Cancelar",
         "alertNotConnectedTitle": "Sin conexión",
         "alertNotConnectedMessage": "Focus Bear no pudo leer tu red Wi-Fi actual. Asegúrate de que los Servicios de Localización estén activados para Focus Bear.",
-        "permissionWarningText": "⚠️ Se requiere permiso de ubicación para leer el nombre de la red Wi-Fi. Actívalo en Ajustes del Sistema → Privacidad y seguridad → Servicios de Localización."
+        "permissionWarningText": "⚠️ Se requiere permiso de ubicación para leer el nombre de la red Wi-Fi. Actívalo en Ajustes del Sistema → Privacidad y seguridad → Servicios de Localización.",
+        "windowsPermissionWarningText": "⚠️ Para ver a qué red Wi-Fi estás conectado, Windows necesita que el acceso a la ubicación esté activado para las aplicaciones de escritorio. Ve a Configuración → Privacidad y seguridad → Ubicación y activa \"Servicios de ubicación\" y \"Permitir que las aplicaciones de escritorio accedan a tu ubicación\". Focus Bear solo lee el nombre de la red Wi-Fi a la que estás conectado, para cambiar entre el modo Oficina y el modo Teletrabajo. Nunca lee tu ubicación GPS.",
+        "windowsOpenLocationSettingsText": "Abrir la configuración de ubicación",
+        "windowsNotConnectedMessage": "Focus Bear no pudo leer tu red Wi-Fi actual. Comprueba que estás conectado a una red Wi-Fi y vuelve a intentarlo, o añade la red por su nombre con Añadir.",
+        "windowsNoWifiMessage": "Este PC no está usando Wi-Fi, así que no hay ninguna red que añadir. Puedes añadir una por su nombre con Añadir."
     },
     "eveningShutdownInfo":{
         "title": "Bien hecho por terminar tu rutina nocturna",

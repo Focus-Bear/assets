@@ -113,7 +113,11 @@
     "alertBtnCancel": "Abbrechen",
     "alertNotConnectedTitle": "Nicht verbunden",
     "alertNotConnectedMessage": "Focus Bear konnte dein aktuelles WLAN-Netzwerk nicht auslesen. Stelle sicher, dass die Ortungsdienste für Focus Bear aktiviert sind.",
-    "permissionWarningText": "⚠️ Standortberechtigung erforderlich, um den WLAN-Netzwerknamen zu lesen. Aktiviere sie in Systemeinstellungen → Datenschutz & Sicherheit → Ortungsdienste."
+    "permissionWarningText": "⚠️ Standortberechtigung erforderlich, um den WLAN-Netzwerknamen zu lesen. Aktiviere sie in Systemeinstellungen → Datenschutz & Sicherheit → Ortungsdienste.",
+    "windowsPermissionWarningText": "⚠️ Um zu sehen, mit welchem WLAN du verbunden bist, muss Windows den Standortzugriff für Desktop-Apps erlauben. Gehe zu Einstellungen → Datenschutz und Sicherheit → Standort und aktiviere \"Standortdienste\" und \"Desktop-Apps den Zugriff auf deinen Standort erlauben\". Focus Bear liest nur den Namen des WLANs, mit dem du verbunden bist, um zwischen Büromodus und Homeoffice-Modus zu wechseln. Deine GPS-Position liest es nie.",
+    "windowsOpenLocationSettingsText": "Standorteinstellungen öffnen",
+    "windowsNotConnectedMessage": "Focus Bear konnte dein aktuelles WLAN nicht lesen. Prüfe, ob du mit einem WLAN verbunden bist, und versuche es erneut, oder füge das Netzwerk mit Hinzufügen per Namen hinzu.",
+    "windowsNoWifiMessage": "Dieser PC nutzt kein WLAN, daher gibt es kein Netzwerk zum Hinzufügen. Du kannst trotzdem eines mit Hinzufügen per Namen hinzufügen."
   },
   "eveningShutdownInfo": {
     "title": "Gut gemacht, du hast deine Abendroutine beendet",
