@@ -6850,7 +6850,9 @@
     "habitPlayerOpenInBrowser": "Otwórz w przeglądarce",
     "habitPlayerOpenInBrowserHelp": "Wyjdź z trybu pełnoekranowego i otwórz tę stronę w swojej zwykłej przeglądarce",
     "habitPlayerTimeLeft": "Pozostało <TIME>",
-    "addressCalculationCopy": "Kopiuj wynik"
+    "addressCalculationCopy": "Kopiuj wynik",
+    "tabStateInCall": "W trakcie rozmowy: używa kamery lub mikrofonu",
+    "importChromeNoProfilesPc": "Nie znaleziono żadnych zakładek Chrome na tym komputerze."
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Transkrypcja na żywo",

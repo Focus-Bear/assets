@@ -6809,7 +6809,9 @@
         "habitPlayerOpenInBrowser": "Abrir en el navegador",
         "habitPlayerOpenInBrowserHelp": "Salir de pantalla completa y abrir esta página en tu navegador habitual",
         "habitPlayerTimeLeft": "Quedan <TIME>",
-        "addressCalculationCopy": "Copiar resultado"
+        "addressCalculationCopy": "Copiar resultado",
+        "tabStateInCall": "En una llamada: usando tu cámara o micrófono",
+        "importChromeNoProfilesPc": "No se encontraron marcadores de Chrome en este PC."
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Transcripción en directo",

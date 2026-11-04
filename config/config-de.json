@@ -6850,7 +6850,9 @@
     "habitPlayerOpenInBrowser": "Im Browser öffnen",
     "habitPlayerOpenInBrowserHelp": "Vollbild verlassen und diese Seite in deinem gewohnten Browser öffnen",
     "habitPlayerTimeLeft": "Noch <TIME>",
-    "addressCalculationCopy": "Ergebnis kopieren"
+    "addressCalculationCopy": "Ergebnis kopieren",
+    "tabStateInCall": "Im Anruf: verwendet deine Kamera oder dein Mikrofon",
+    "importChromeNoProfilesPc": "Auf diesem PC wurden keine Chrome-Lesezeichen gefunden."
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Live-Transkript",

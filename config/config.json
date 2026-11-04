@@ -6811,7 +6811,9 @@
         "habitPlayerOpenInBrowser": "Open in browser",
         "habitPlayerOpenInBrowserHelp": "Leave full screen and open this page in your usual browser",
         "habitPlayerTimeLeft": "<TIME> left",
-        "addressCalculationCopy": "Copy result"
+        "addressCalculationCopy": "Copy result",
+        "tabStateInCall": "In a call: using your camera or microphone",
+        "importChromeNoProfilesPc": "Couldn't find any Chrome bookmarks on this PC."
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Live transcript",
