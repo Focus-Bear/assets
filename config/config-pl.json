@@ -6913,7 +6913,11 @@
     "chatLogsAttachFailedText": "Nie udało się dołączyć logów. Możesz je wysłać z sekcji „Zgłoś problem”.",
     "buttonOpenReportProblemFromChat": "Otwórz „Zgłoś problem”",
     "chatReportProblemPrefillText": "<TITLE> (zgłoszone w Czacie z Focus Bear)",
-    "chatReportProblemPrefillWithTicketText": "<TITLE> (zgłoszone w Czacie z Focus Bear, zgłoszenie nr <TICKET>)"
+    "chatReportProblemPrefillWithTicketText": "<TITLE> (zgłoszone w Czacie z Focus Bear, zgłoszenie nr <TICKET>)",
+    "chatClaudeDelegationReadyText": "„<TITLE>” czeka na Claude'a. Sprawdź instrukcje w oknie Przekaż Claude'owi, a potem naciśnij Przekaż.",
+    "chatClaudeDelegationSettingOffText": "Aby przekazać „<TITLE>” Claude'owi, włącz „Zezwalaj na przekazywanie zadań Claude'owi” w Ustawienia → Funkcje AI, a potem naciśnij Przekaż Claude'owi przy zadaniu w swoim planie dnia.",
+    "chatClaudeDelegationCliMissingText": "Aby przekazać „<TITLE>” Claude'owi, zainstaluj Claude Code na tym Macu, a potem naciśnij Przekaż Claude'owi przy zadaniu w swoim planie dnia.",
+    "buttonOpenClaudeDelegationFromChat": "Otwórz Przekaż Claude'owi"
   },
   "noteMediaInfo": {
     "pdfTitle": "PDF",
@@ -7376,7 +7380,15 @@
         "nextStepsSubtasksNote": "Dodane też do zadania jako podzadania.",
         "outputsHeading": "Wyniki",
         "outputShowInFinder": "Pokaż <NAME> w Finderze",
-        "outputOpenLink": "Otwórz <NAME>"
+        "outputOpenLink": "Otwórz <NAME>",
+        "statusScheduled": "Zacznie rano",
+        "scheduledHeading": "Claude zacznie o <TIME> (<HOURS> godz. przed początkiem twojego dnia).",
+        "scheduledReason": "Minęła twoja godzina graniczna, więc Claude poczeka do rana. Możesz to zamknąć: Claude zacznie sam, nawet jeśli Focus Bear uruchomi się ponownie.",
+        "scheduledSetUpHint": "Minęła twoja godzina graniczna, więc Claude zacznie o <TIME> (<HOURS> godz. przed początkiem twojego dnia).",
+        "startNow": "Zacznij teraz",
+        "startNowHelp": "Niech Claude zacznie teraz. Wymaga hasła ustawionego na czas po godzinie granicznej.",
+        "cancelSchedule": "Anuluj",
+        "cancelScheduleHelp": "Nie rozpoczynaj tego delegowania. Możesz delegować zadanie ponownie później."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Wyłącz '<EXTENSION>'",

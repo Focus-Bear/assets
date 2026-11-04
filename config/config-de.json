@@ -6913,7 +6913,11 @@
     "chatLogsAttachFailedText": "Die Protokolle konnten nicht angehängt werden. Du kannst sie stattdessen über „Problem melden“ senden.",
     "buttonOpenReportProblemFromChat": "„Problem melden“ öffnen",
     "chatReportProblemPrefillText": "<TITLE> (gemeldet in „Mit Focus Bear chatten“)",
-    "chatReportProblemPrefillWithTicketText": "<TITLE> (gemeldet in „Mit Focus Bear chatten“, Meldung Nr. <TICKET>)"
+    "chatReportProblemPrefillWithTicketText": "<TITLE> (gemeldet in „Mit Focus Bear chatten“, Meldung Nr. <TICKET>)",
+    "chatClaudeDelegationReadyText": "„<TITLE>“ ist bereit für Claude. Prüfe die Anweisungen unter An Claude delegieren und drücke dann Delegieren.",
+    "chatClaudeDelegationSettingOffText": "Um „<TITLE>“ an Claude zu übergeben, schalte „Aufgaben an Claude delegieren erlauben“ unter Einstellungen → KI-Funktionen ein und drücke dann bei der Aufgabe in deinem Tagesplan An Claude delegieren.",
+    "chatClaudeDelegationCliMissingText": "Um „<TITLE>“ an Claude zu übergeben, installiere Claude Code auf diesem Mac und drücke dann bei der Aufgabe in deinem Tagesplan An Claude delegieren.",
+    "buttonOpenClaudeDelegationFromChat": "An Claude delegieren öffnen"
   },
   "noteMediaInfo": {
     "pdfTitle": "PDF",
@@ -7376,7 +7380,15 @@
         "nextStepsSubtasksNote": "Auch als Unteraufgaben zur Aufgabe hinzugefügt.",
         "outputsHeading": "Ergebnisse",
         "outputShowInFinder": "<NAME> im Finder zeigen",
-        "outputOpenLink": "<NAME> öffnen"
+        "outputOpenLink": "<NAME> öffnen",
+        "statusScheduled": "Beginnt morgens",
+        "scheduledHeading": "Claude beginnt um <TIME> (<HOURS> Stunden bevor dein Tag beginnt).",
+        "scheduledReason": "Deine Abschaltzeit ist vorbei, deshalb wartet Claude bis zum Morgen. Du kannst das hier schließen: Claude beginnt von selbst, auch wenn Focus Bear neu startet.",
+        "scheduledSetUpHint": "Deine Abschaltzeit ist vorbei, deshalb beginnt Claude um <TIME> (<HOURS> Stunden bevor dein Tag beginnt).",
+        "startNow": "Jetzt starten",
+        "startNowHelp": "Claude jetzt starten. Fragt nach dem Passwort, das du für die Zeit nach deiner Abschaltzeit festgelegt hast.",
+        "cancelSchedule": "Abbrechen",
+        "cancelScheduleHelp": "Diese Delegierung nicht starten. Du kannst die Aufgabe später erneut delegieren."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "'<EXTENSION>' ausschalten",
