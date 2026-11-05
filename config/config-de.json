@@ -158,6 +158,7 @@
     "descriptionHabitsText": "Jede Gewohnheit hat einen Countdown-Timer und, falls sinnvoll, ein eingebettetes YouTube-Video. Du kannst deine Gewohnheiten später bearbeiten."
   },
   "activityInfo": {
+    "breakBrainDumpSavedText": "Deine Gedankenablage ist in den Notizen gespeichert",
     "buttonSwitchToFullMovementBreak": "Zu voller Bewegungspause wechseln",
     "buttonSwitchToSeatedBreak": "Zu Sitzpause wechseln",
     "breakModeSwitchHelp": "Deine aktuelle Aktivität und dein Fortschritt bleiben unverändert. Die restlichen Pausenaktivitäten nutzen den gewählten Modus.",
@@ -233,6 +234,7 @@
     "titleEveningRoutinePausedForMeeting": "Deine Abendroutine pausiert für <MEETING>. Sie geht um <TIME> weiter, oder starte jetzt eine Gewohnheit, um sie fortzusetzen."
   },
   "focusProgressInfo": {
+    "openFocusSessionText": "Fokus-Sitzung in Focus Bear öffnen",
     "pauseText": "Pause",
     "resumeText": "Fortsetzen",
     "endFocusSessionText": "Sitzung beenden"

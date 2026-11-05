@@ -158,6 +158,7 @@
     "descriptionHabitsText": "Chaque habitude a un minuteur et, si cela a du sens, une vidéo YouTube intégrée. Tu pourras modifier tes habitudes plus tard."
   },
   "activityInfo": {
+    "breakBrainDumpSavedText": "Ton vide-tête est enregistré dans les notes",
     "buttonSwitchToFullMovementBreak": "Passer à une pause en mouvement complet",
     "buttonSwitchToSeatedBreak": "Passer à une pause assise",
     "breakModeSwitchHelp": "Ton activité en cours et ta progression restent inchangées. Les activités restantes de la pause utilisent le mode sélectionné.",
@@ -233,6 +234,7 @@
     "titleEveningRoutinePausedForMeeting": "Ta routine du soir est en pause pour <MEETING>. Elle reprend à <TIME>, ou commence une habitude pour la reprendre maintenant."
   },
   "focusProgressInfo": {
+    "openFocusSessionText": "Ouvrir la session de concentration dans Focus Bear",
     "pauseText": "Pause",
     "resumeText": "Reprendre",
     "endFocusSessionText": "Terminer la session"

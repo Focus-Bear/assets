@@ -158,6 +158,7 @@
     "descriptionHabitsText": "Każdy nawyk ma odliczanie czasu, a jeśli to ma sens, osadzony film z YouTube. Możesz edytować swoje nawyki później."
   },
   "activityInfo": {
+    "breakBrainDumpSavedText": "Twój zrzut myśli jest zapisany w notatkach",
     "buttonSwitchToFullMovementBreak": "Przełącz na przerwę z pełnym ruchem",
     "buttonSwitchToSeatedBreak": "Przełącz na przerwę na siedząco",
     "breakModeSwitchHelp": "Twoja bieżąca aktywność i postęp pozostają bez zmian. Pozostałe aktywności w przerwie użyją wybranego trybu.",
@@ -233,6 +234,7 @@
     "titleEveningRoutinePausedForMeeting": "Twoja wieczorna rutyna jest wstrzymana na czas <MEETING>. Wznowi się o <TIME> albo rozpocznij nawyk, aby wznowić ją teraz."
   },
   "focusProgressInfo": {
+    "openFocusSessionText": "Otwórz sesję skupienia w Focus Bear",
     "pauseText": "Pauza",
     "resumeText": "Wznów",
     "endFocusSessionText": "Zakończ sesję"
