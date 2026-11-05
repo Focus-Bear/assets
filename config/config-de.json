@@ -3766,7 +3766,8 @@
     "buttonMarkCurrentTaskAsCompleted": "Vorherige Aufgabe als erledigt markieren",
     "titleNewTask": "Neue Aufgabe:",
     "titlePreviousTask": "Vorherige Aufgabe:",
-    "cannotChangeIntentionInSuperStrictText": "Das Fokusziel kann im Modus „Eiserner Fokus“ nicht geändert werden"
+    "cannotChangeIntentionInSuperStrictText": "Das Fokusziel kann im Modus „Eiserner Fokus“ nicht geändert werden",
+    "cannotChangeIntentionInSuperStrictAiText": "Das Fokusziel kann im Modus „Eiserner Fokus“ nicht geändert werden, solange die KI-Blockierung aktiv ist"
   },
   "popUpSaveThisTaskForLaterVcInfo": {
     "title": "Möchtest du das als Aufgabe für später speichern?",
@@ -5209,6 +5210,8 @@
     "menuStartFocus": "FOKUSSITZUNG STARTEN",
     "menuFocusMinutes": "%d MIN",
     "menuChangeTimeHint": "ZEIT MIT + UND – ÄNDERN",
+    "menuAddSessionMinutes": "%d Minuten hinzufügen",
+    "menuRemoveSessionMinutes": "%d Minuten abziehen",
     "menuTapToStart": "ZUM STARTEN TIPPEN",
     "menuStart": "Start",
     "menuPause": "Pause",

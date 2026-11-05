@@ -4143,7 +4143,8 @@
         "buttonMarkCurrentTaskAsCompleted": "Mark the previous task as complete",
         "titleNewTask": "New task:",
         "titlePreviousTask": "Previous task:",
-        "cannotChangeIntentionInSuperStrictText": "Focus goal cannot be changed in super strict mode"
+        "cannotChangeIntentionInSuperStrictText": "Focus goal cannot be changed in super strict mode",
+        "cannotChangeIntentionInSuperStrictAiText": "Focus goal can't be changed in super strict mode while AI blocking is on"
     },
     "popUpSaveThisTaskForLaterVcInfo":{
         "title": "Do you want to save this as a task for later?",
@@ -5615,6 +5616,8 @@
         "menuStartFocus": "START FOCUS SESSION",
         "menuFocusMinutes": "%d MIN",
         "menuChangeTimeHint": "CHANGE THE TIME WITH + AND -",
+        "menuAddSessionMinutes": "Add %d minutes",
+        "menuRemoveSessionMinutes": "Take %d minutes off",
         "menuTapToStart": "TAP TO START",
         "menuStart": "Start",
         "menuPause": "Pause",

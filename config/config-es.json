@@ -4141,7 +4141,8 @@
         "buttonMarkCurrentTaskAsCompleted": "Marcar la tarea anterior como completada",
         "titleNewTask": "Nueva tarea:",
         "titlePreviousTask": "Tarea anterior:",
-        "cannotChangeIntentionInSuperStrictText": "El objetivo de enfoque no se puede cambiar en el modo súper estricto"
+        "cannotChangeIntentionInSuperStrictText": "El objetivo de enfoque no se puede cambiar en el modo súper estricto",
+        "cannotChangeIntentionInSuperStrictAiText": "El objetivo de enfoque no se puede cambiar en el modo súper estricto mientras el bloqueo con IA está activado"
     },
     "popUpSaveThisTaskForLaterVcInfo":{
         "title": "¿Quieres guardar esto como una tarea para más tarde?",
@@ -5613,6 +5614,8 @@
         "menuStartFocus": "INICIAR SESIÓN DE ENFOQUE",
         "menuFocusMinutes": "%d MIN",
         "menuChangeTimeHint": "CAMBIA EL TIEMPO CON + Y -",
+        "menuAddSessionMinutes": "Añadir %d minutos",
+        "menuRemoveSessionMinutes": "Quitar %d minutos",
         "menuTapToStart": "TOCA PARA INICIAR",
         "menuStart": "Iniciar",
         "menuPause": "Pausar",
