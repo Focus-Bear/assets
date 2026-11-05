@@ -187,6 +187,7 @@
         "descriptionHabitsText": "Each habit has a countdown timer and if it makes sense, an embedded Youtube video. You can edit your habits later."
     },
     "activityInfo": {
+        "breakBrainDumpSavedText": "Your brain dump is saved in notes",
         "buttonSwitchToFullMovementBreak": "Switch to full movement break",
         "buttonSwitchToSeatedBreak": "Switch to seated break",
         "breakModeSwitchHelp": "Your current activity and progress stay unchanged. Remaining break activities use the selected mode.",
@@ -262,6 +263,7 @@
         "titleEveningRoutinePausedForMeeting": "Your evening routine is paused for <MEETING>. It resumes at <TIME>, or begin a habit to resume it now."
     },
     "focusProgressInfo": {
+        "openFocusSessionText": "Open the focus session in Focus Bear",
         "pauseText": "Pause",
         "resumeText": "Resume",
         "endFocusSessionText": "End Session"
