@@ -4883,6 +4883,10 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+    "calendarConnectFirst": "Conectar un calendario",
+    "calendarConnectAnother": "Conectar otro calendario",
+    "settingsCalendarsTitle": "Calendarios",
+    "settingsCalendarsBody": "Conecta calendarios de Google o Microsoft en el panel de Focus Bear. Sus reuniones aparecen en tu Plan del día.",
     "setUpHabits": "Configura tus hábitos",
     "setUpHabitsMessage": "Prepárate antes de empezar a trabajar con una rutina matutina",
       "unnamedHabit": "Hábito sin nombre",
