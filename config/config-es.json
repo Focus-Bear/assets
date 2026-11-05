@@ -6922,7 +6922,14 @@
         "deleteFailedText": "No se pudo eliminar. Inténtalo de nuevo.",
         "deleteForbiddenText": "Solo quien lo añadió, el autor de la nota o un administrador del proyecto puede eliminarlo.",
         "doneText": "Listo",
-        "cancelText": "Cancelar"
+        "cancelText": "Cancelar",
+        "attachPDFText": "Adjuntar PDF",
+        "attachPDFHelpText": "Adjunta un PDF a esta nota. Todas las personas que pueden ver la nota pueden abrirlo.",
+        "uploadingRecordingText": "Subiendo tu nota de voz…",
+        "attachFailedText": "No se pudo adjuntar. Inténtalo de nuevo.",
+        "attachForbiddenText": "Ya no puedes añadir contenido a esta nota.",
+        "pdfLimitReachedText": "Esta nota ya tiene 20 PDF, el máximo que admite una nota.",
+        "recordingLimitReachedText": "Esta nota ya tiene 20 grabaciones, el máximo que admite una nota."
     },
     "notePDFInfo": {
         "attachText": "Adjuntar PDF o PowerPoint",

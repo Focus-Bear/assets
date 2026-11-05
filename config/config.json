@@ -6924,7 +6924,14 @@
         "deleteFailedText": "Could not delete it. Please try again.",
         "deleteForbiddenText": "Only the person who added it, the note's author or a project admin can delete it.",
         "doneText": "Done",
-        "cancelText": "Cancel"
+        "cancelText": "Cancel",
+        "attachPDFText": "Attach PDF",
+        "attachPDFHelpText": "Attach a PDF to this note. Everyone who can see the note can open it.",
+        "uploadingRecordingText": "Uploading your voice note…",
+        "attachFailedText": "Could not attach it. Please try again.",
+        "attachForbiddenText": "You can no longer add to this note.",
+        "pdfLimitReachedText": "This note already has 20 PDFs, the most a note can hold.",
+        "recordingLimitReachedText": "This note already has 20 recordings, the most a note can hold."
     },
     "notePDFInfo": {
         "attachText": "Attach PDF or PowerPoint",

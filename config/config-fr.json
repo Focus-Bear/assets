@@ -6963,7 +6963,14 @@
     "deleteFailedText": "Impossible de le supprimer. Réessaie.",
     "deleteForbiddenText": "Seule la personne qui l’a ajouté, l’auteur de la note ou un admin du projet peut le supprimer.",
     "doneText": "Terminé",
-    "cancelText": "Annuler"
+    "cancelText": "Annuler",
+    "attachPDFText": "Joindre un PDF",
+    "attachPDFHelpText": "Joins un PDF à cette note. Toutes les personnes qui voient la note peuvent l’ouvrir.",
+    "uploadingRecordingText": "Envoi de ta note vocale…",
+    "attachFailedText": "Impossible de le joindre. Réessaie.",
+    "attachForbiddenText": "Tu ne peux plus rien ajouter à cette note.",
+    "pdfLimitReachedText": "Cette note contient déjà 20 PDF, le maximum pour une note.",
+    "recordingLimitReachedText": "Cette note contient déjà 20 enregistrements, le maximum pour une note."
   },
   "notePDFInfo": {
     "attachText": "Joindre un PDF ou un PowerPoint",
