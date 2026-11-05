@@ -5225,7 +5225,13 @@
     "ttProjectNetworking": "Networking",
     "ttProjectAi": "KI-Assistent",
     "ttProjectBreak": "Pause/Erholung",
-    "ttProjectSleep": "Schlaf"
+    "ttProjectSleep": "Schlaf",
+    "ttCall": "Anruf",
+    "ttCallWith": "{0}-Anruf",
+    "ttOnACall": "In einem Anruf",
+    "ttRuleCall": "Anruf",
+    "ttOpTitleContains": "Titel enthält",
+    "ttRuleCallHint": "Wörter im Fenstertitel des Meetings oder der Name der Anruf-App (z. B. Zoom)."
   },
   "localReportStatus": {
     "reportDocuments": "Dokumente",
