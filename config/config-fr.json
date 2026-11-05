@@ -5225,7 +5225,13 @@
     "ttProjectNetworking": "Réseautage",
     "ttProjectAi": "Assistant IA",
     "ttProjectBreak": "Pause/repos",
-    "ttProjectSleep": "Sommeil"
+    "ttProjectSleep": "Sommeil",
+    "ttCall": "Appel",
+    "ttCallWith": "Appel {0}",
+    "ttOnACall": "En appel",
+    "ttRuleCall": "Appel",
+    "ttOpTitleContains": "le titre contient",
+    "ttRuleCallHint": "Des mots du titre de la fenêtre de la réunion, ou le nom de l'app d'appel (par ex. Zoom)."
   },
   "localReportStatus": {
     "reportDocuments": "Documents",

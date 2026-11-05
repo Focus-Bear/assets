@@ -5225,7 +5225,13 @@
     "ttProjectNetworking": "Networking",
     "ttProjectAi": "Asystent AI",
     "ttProjectBreak": "Przerwa/odpoczynek",
-    "ttProjectSleep": "Sen"
+    "ttProjectSleep": "Sen",
+    "ttCall": "Rozmowa",
+    "ttCallWith": "Rozmowa w {0}",
+    "ttOnACall": "W trakcie rozmowy",
+    "ttRuleCall": "Rozmowa",
+    "ttOpTitleContains": "tytuł zawiera",
+    "ttRuleCallHint": "Słowa z tytułu okna spotkania lub nazwa aplikacji do rozmów (np. Zoom)."
   },
   "localReportStatus": {
     "reportDocuments": "Dokumenty",
