@@ -709,7 +709,7 @@
         "toolTipPomodoroSessionText": "Start a Focus session to get deep work done.",
         "menuItemResumeFocusTitle": "Resume Focus Session",
         "menuItemPauseFocusTitle": "Pause Focus Session",
-        "menuItemBlockingDisabledTitle": "Blocking turned off",
+        "menuItemBlockingDisabledTitle": "Nothing is blocked right now",
         "toolTipBlockingDisabled": "Blocking disabled because you chose to only activate blocks during focus sessions.",
         "toolTipButtonEditBlockingSchedule": "Edit blocking schedule",
         "menuItemStartMorningHabitsFirstTimeTitle": "Start morning routine",
@@ -728,7 +728,7 @@
         "stateActive": "Active",
         "statePaused": "Paused",
         "buttonAddBlockingSchedule": "Add blocking schedule",
-        "addBlockingScheduleInfo": "Blocking is off because no custom blocking schedules have been added.",
+        "addBlockingScheduleInfo": "Blocking turns on during focus sessions. Add a blocking schedule if you'd like it to turn on by itself at set times too.",
         "titleBlockingSchedule": "Blocking Schedule",
         "buttonEditFocusModeDuration": "Click here to update duration, intention and current task",
         "buttonEnable": "Enable",
@@ -1940,6 +1940,18 @@
         "dismissText": "Dismiss"
     },
     "statsViewInfo": {
+      "achievementsTitle": "Achievements",
+      "achievementsSubtitle": "Tick these off to get the most out of Focus Bear. Click a step to go straight there.",
+      "achievementsProgress": "{done} of {total} done",
+      "achievementsLevelComplete": "Level {level} complete!",
+      "achievementStep_create_account": "Create an account",
+      "achievementStep_first_focus_session": "Complete your first focus session",
+      "achievementStep_block_list": "Set up your block list",
+      "achievementStep_blocking_schedule": "Set up a blocking schedule",
+      "achievementStep_allow_list": "Add the websites you use for work",
+      "achievementStep_connect_calendar": "Connect your calendar to the Day Plan",
+      "achievementStep_habits": "Set up your habits",
+      "achievementStep_breaks": "Set up your breaks",
       "pepTalkSavedMessageNoticeTextWindows": "Focus Bear's server isn't answering, so here's a message saved on this PC.",
         "tabGoals": "Your Goals",
         "tabProgress": "Progress",
@@ -3768,6 +3780,9 @@
         "focusSettingsText": "Focus Settings"
     },
     "focusStartVcInfo":{
+        "blockingNoticeTitle": "Nothing is blocked right now",
+        "blockingNoticeBody": "Blocking turns on when you start a focus session. Want it to turn on by itself at set times too?",
+        "blockingNoticeButton": "Set up a blocking schedule",
         "titleSimple": "Start a focus session",
         "titleAdvancedPrefix": "Start ",
         "titleAdvancedEmphasis": "an advanced",
@@ -5549,7 +5564,7 @@
         "blockingOffWhy": "Why?",
         "blockingOffDeactivated": "Focus Bear is deactivated, so nothing is being blocked.",
         "blockingOffPermissions": "Focus Bear is missing the macOS permissions it needs to block websites and apps.",
-        "blockingOffNoSchedule": "You haven't set up a blocking schedule yet.",
+        "blockingOffNoSchedule": "Blocking turns on during focus sessions. Add a blocking schedule if you'd like it to turn on by itself at set times too.",
         "blockingOffPaused": "Your blocking schedule is paused.",
         "blockingOffNoScheduleNow": "No blocking schedule covers right now, and no focus session is running.",
         "blockingOffNoBrowser": "No browser is set up for blocking, so websites won't be blocked.",
@@ -5675,6 +5690,7 @@
         "menuChangeTask": "Change task"
     },
     "leftMenuVcInfo":{
+        "menuAchievements": "Achievements",
         "menuBrowser": "Browser",
         "showKeyboardShortcutReminders": "Show keyboard shortcut reminders",
         "collapseMenuTooltip": "Collapse menu",

@@ -680,7 +680,7 @@
     "toolTipPomodoroSessionText": "Starte eine Fokussitzung für konzentrierte Arbeit.",
     "menuItemResumeFocusTitle": "Fokussitzung fortsetzen",
     "menuItemPauseFocusTitle": "Fokussitzung pausieren",
-    "menuItemBlockingDisabledTitle": "Blockierung ausgeschaltet",
+    "menuItemBlockingDisabledTitle": "Gerade wird nichts blockiert",
     "toolTipBlockingDisabled": "Blockierung deaktiviert, weil du sie nur während Fokussitzungen aktivieren wolltest.",
     "toolTipButtonEditBlockingSchedule": "Blockierplan bearbeiten",
     "menuItemStartMorningHabitsFirstTimeTitle": "Morgenroutine starten",
@@ -699,7 +699,7 @@
     "stateActive": "Aktiv",
     "statePaused": "Pausiert",
     "buttonAddBlockingSchedule": "Blockierplan hinzufügen",
-    "addBlockingScheduleInfo": "Die Blockierung ist aus, weil noch keine eigenen Blockierpläne angelegt wurden.",
+    "addBlockingScheduleInfo": "Die Blockierung ist während Fokus-Sitzungen aktiv. Lege einen Blockierplan an, wenn sie sich auch zu festen Zeiten von selbst einschalten soll.",
     "titleBlockingSchedule": "Blockierplan",
     "buttonEditFocusModeDuration": "Hier klicken, um Dauer, Absicht und aktuelle Aufgabe zu ändern",
     "buttonEnable": "Aktivieren",
@@ -1543,6 +1543,18 @@
     "couldNotFileMeetingNotesText": "Einige Besprechungsnotizen konnten nicht verschoben werden. Versuch es gleich noch einmal."
   },
   "statsViewInfo": {
+    "achievementsTitle": "Erfolge",
+    "achievementsSubtitle": "Hake diese Schritte ab, um das Beste aus Focus Bear herauszuholen. Klicke auf einen Schritt, um direkt dorthin zu gelangen.",
+    "achievementsProgress": "{done} von {total} erledigt",
+    "achievementsLevelComplete": "Level {level} geschafft!",
+    "achievementStep_create_account": "Konto erstellen",
+    "achievementStep_first_focus_session": "Deine erste Fokus-Sitzung abschließen",
+    "achievementStep_block_list": "Deine Blockierliste einrichten",
+    "achievementStep_blocking_schedule": "Einen Blockierplan einrichten",
+    "achievementStep_allow_list": "Die Websites hinzufügen, die du für die Arbeit nutzt",
+    "achievementStep_connect_calendar": "Deinen Kalender mit dem Tagesplan verbinden",
+    "achievementStep_habits": "Deine Gewohnheiten einrichten",
+    "achievementStep_breaks": "Deine Pausen einrichten",
     "pepTalkSavedMessageNoticeTextWindows": "Der Focus-Bear-Server antwortet nicht, darum hier eine Nachricht, die auf diesem PC gespeichert ist.",
     "tabGoals": "Deine Ziele",
     "tabProgress": "Fortschritt",
@@ -3391,6 +3403,9 @@
     "focusSettingsText": "Fokus-Einstellungen"
   },
   "focusStartVcInfo": {
+    "blockingNoticeTitle": "Gerade wird nichts blockiert",
+    "blockingNoticeBody": "Die Blockierung startet, wenn du eine Fokus-Sitzung beginnst. Soll sie sich auch zu festen Zeiten von selbst einschalten?",
+    "blockingNoticeButton": "Blockierplan einrichten",
     "titleSimple": "Starte eine Fokussitzung",
     "titleAdvancedPrefix": "Starte ",
     "titleAdvancedEmphasis": "eine erweiterte",
@@ -5143,7 +5158,7 @@
     "blockingOffWhy": "Warum?",
     "blockingOffDeactivated": "Focus Bear ist deaktiviert, es wird also nichts blockiert.",
     "blockingOffPermissions": "Focus Bear fehlen die macOS-Berechtigungen, die zum Blockieren von Websites und Apps nötig sind.",
-    "blockingOffNoSchedule": "Du hast noch keinen Blockierplan eingerichtet.",
+    "blockingOffNoSchedule": "Die Blockierung ist während Fokus-Sitzungen aktiv. Lege einen Blockierplan an, wenn sie sich auch zu festen Zeiten von selbst einschalten soll.",
     "blockingOffPaused": "Dein Blockierplan ist pausiert.",
     "blockingOffNoScheduleNow": "Gerade greift kein Blockierplan, und es läuft keine Fokus-Session.",
     "blockingOffNoBrowser": "Es ist kein Browser fürs Blockieren eingerichtet, deshalb werden keine Websites blockiert.",
@@ -5269,6 +5284,7 @@
     "menuChangeTask": "Aufgabe wechseln"
   },
   "leftMenuVcInfo": {
+        "menuAchievements": "Erfolge",
         "menuBrowser": "Browser",
         "showKeyboardShortcutReminders": "Erinnerungen an Tastenkombinationen anzeigen",
     "menuStats": "Statistiken",

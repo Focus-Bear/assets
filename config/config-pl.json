@@ -680,7 +680,7 @@
     "toolTipPomodoroSessionText": "Rozpocznij sesję skupienia, aby popracować głęboko.",
     "menuItemResumeFocusTitle": "Wznów sesję skupienia",
     "menuItemPauseFocusTitle": "Wstrzymaj sesję skupienia",
-    "menuItemBlockingDisabledTitle": "Blokowanie wyłączone",
+    "menuItemBlockingDisabledTitle": "W tej chwili nic nie jest blokowane",
     "toolTipBlockingDisabled": "Blokowanie wyłączone, bo wybrałeś włączanie blokad tylko podczas sesji skupienia.",
     "toolTipButtonEditBlockingSchedule": "Edytuj harmonogram blokowania",
     "menuItemStartMorningHabitsFirstTimeTitle": "Rozpocznij poranną rutynę",
@@ -699,7 +699,7 @@
     "stateActive": "Aktywny",
     "statePaused": "Wstrzymany",
     "buttonAddBlockingSchedule": "Dodaj harmonogram blokowania",
-    "addBlockingScheduleInfo": "Blokowanie jest wyłączone, bo nie dodano własnych harmonogramów.",
+    "addBlockingScheduleInfo": "Blokowanie działa podczas sesji skupienia. Dodaj harmonogram blokowania, jeśli chcesz, żeby włączało się też samo o ustalonych porach.",
     "titleBlockingSchedule": "Harmonogram blokowania",
     "buttonEditFocusModeDuration": "Kliknij tutaj, aby zmienić czas trwania, zamiar i bieżące zadanie",
     "buttonEnable": "Włącz",
@@ -1543,6 +1543,18 @@
     "couldNotFileMeetingNotesText": "Nie udało się przenieść niektórych notatek ze spotkań. Spróbuj ponownie za chwilę."
   },
   "statsViewInfo": {
+    "achievementsTitle": "Osiągnięcia",
+    "achievementsSubtitle": "Odhacz te kroki, aby w pełni korzystać z Focus Bear. Kliknij krok, aby przejść prosto do niego.",
+    "achievementsProgress": "Zrobione: {done} z {total}",
+    "achievementsLevelComplete": "Poziom {level} ukończony!",
+    "achievementStep_create_account": "Utwórz konto",
+    "achievementStep_first_focus_session": "Ukończ pierwszą sesję skupienia",
+    "achievementStep_block_list": "Skonfiguruj listę blokowanych",
+    "achievementStep_blocking_schedule": "Ustaw harmonogram blokowania",
+    "achievementStep_allow_list": "Dodaj strony, których używasz do pracy",
+    "achievementStep_connect_calendar": "Połącz kalendarz z planem dnia",
+    "achievementStep_habits": "Skonfiguruj nawyki",
+    "achievementStep_breaks": "Skonfiguruj przerwy",
     "pepTalkSavedMessageNoticeTextWindows": "Serwer Focus Bear nie odpowiada, więc oto wiadomość zapisana na tym komputerze.",
     "tabGoals": "Twoje cele",
     "tabProgress": "Postęp",
@@ -3391,6 +3403,9 @@
     "focusSettingsText": "Ustawienia skupienia"
   },
   "focusStartVcInfo": {
+    "blockingNoticeTitle": "W tej chwili nic nie jest blokowane",
+    "blockingNoticeBody": "Blokowanie włącza się, gdy zaczynasz sesję skupienia. Chcesz, żeby włączało się też samo o ustalonych porach?",
+    "blockingNoticeButton": "Ustaw harmonogram blokowania",
     "titleSimple": "Rozpocznij sesję skupienia",
     "titleAdvancedPrefix": "Rozpocznij ",
     "titleAdvancedEmphasis": "zaawansowaną",
@@ -5143,7 +5158,7 @@
     "blockingOffWhy": "Dlaczego?",
     "blockingOffDeactivated": "Focus Bear jest dezaktywowany, więc nic nie jest blokowane.",
     "blockingOffPermissions": "Focus Bear nie ma uprawnień macOS potrzebnych do blokowania stron i aplikacji.",
-    "blockingOffNoSchedule": "Nie masz jeszcze skonfigurowanego harmonogramu blokowania.",
+    "blockingOffNoSchedule": "Blokowanie działa podczas sesji skupienia. Dodaj harmonogram blokowania, jeśli chcesz, żeby włączało się też samo o ustalonych porach.",
     "blockingOffPaused": "Twój harmonogram blokowania jest wstrzymany.",
     "blockingOffNoScheduleNow": "Żaden harmonogram blokowania nie obejmuje tego momentu i nie trwa żadna sesja skupienia.",
     "blockingOffNoBrowser": "Żadna przeglądarka nie jest skonfigurowana do blokowania, więc strony nie będą blokowane.",
@@ -5269,6 +5284,7 @@
     "menuChangeTask": "Zmień zadanie"
   },
   "leftMenuVcInfo": {
+        "menuAchievements": "Osiągnięcia",
         "menuBrowser": "Przeglądarka",
         "showKeyboardShortcutReminders": "Pokazuj przypomnienia o skrótach klawiszowych",
     "menuStats": "Statystyki",
