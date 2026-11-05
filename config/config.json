@@ -267,6 +267,7 @@
         "endFocusSessionText": "End Session"
     },
     "common": {
+        "websiteEntryBlankText": "Type a website, like reddit.com. Spaces on their own can't be added.",
         "emailId": "support@focusbear.io",
         "appBlockNotificationAllowButton": "Oops I actually need it",
         "unlockMachineButtonText": "Unlock the machine",
@@ -1940,6 +1941,9 @@
         "dismissText": "Dismiss"
     },
     "statsViewInfo": {
+      "leaderboardUsernameMissingTitleText": "You haven't set a leaderboard username",
+      "leaderboardUsernameMissingText": "You won't appear on the leaderboard until you choose one. Other people only ever see this name.",
+      "leaderboardSetUsernameButtonText": "Set username",
       "pepTalkSavedMessageNoticeTextWindows": "Focus Bear's server isn't answering, so here's a message saved on this PC.",
         "tabGoals": "Your Goals",
         "tabProgress": "Progress",
@@ -7432,5 +7436,9 @@
     "buttonGet": "Get the extension",
     "buttonNotNow": "Not now",
     "buttonNever": "Don't show again"
+  },
+  "lateNoMoreInfo": {
+    "lnmConnectCalendarText": "Connect a calendar",
+    "lnmConnectAnotherCalendarText": "Connect another calendar"
   }
 }
