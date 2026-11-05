@@ -6963,7 +6963,14 @@
     "deleteFailedText": "Konnte nicht gelöscht werden. Bitte versuch es noch einmal.",
     "deleteForbiddenText": "Nur die Person, die es hinzugefügt hat, die Autorin oder der Autor der Notiz oder ein Projekt-Admin kann es löschen.",
     "doneText": "Fertig",
-    "cancelText": "Abbrechen"
+    "cancelText": "Abbrechen",
+    "attachPDFText": "PDF anhängen",
+    "attachPDFHelpText": "Hänge ein PDF an diese Notiz an. Alle, die die Notiz sehen können, können es öffnen.",
+    "uploadingRecordingText": "Deine Sprachnotiz wird hochgeladen…",
+    "attachFailedText": "Anhängen fehlgeschlagen. Bitte versuche es erneut.",
+    "attachForbiddenText": "Du kannst dieser Notiz nichts mehr hinzufügen.",
+    "pdfLimitReachedText": "Diese Notiz hat bereits 20 PDFs, mehr kann eine Notiz nicht enthalten.",
+    "recordingLimitReachedText": "Diese Notiz hat bereits 20 Aufnahmen, mehr kann eine Notiz nicht enthalten."
   },
   "notePDFInfo": {
     "attachText": "PDF oder PowerPoint anhängen",

@@ -6963,7 +6963,14 @@
     "deleteFailedText": "Nie udało się usunąć. Spróbuj ponownie.",
     "deleteForbiddenText": "Usunąć je może tylko osoba, która je dodała, autor notatki lub administrator projektu.",
     "doneText": "Gotowe",
-    "cancelText": "Anuluj"
+    "cancelText": "Anuluj",
+    "attachPDFText": "Dołącz PDF",
+    "attachPDFHelpText": "Dołącz plik PDF do tej notatki. Każdy, kto widzi notatkę, może go otworzyć.",
+    "uploadingRecordingText": "Przesyłanie notatki głosowej…",
+    "attachFailedText": "Nie udało się dołączyć. Spróbuj ponownie.",
+    "attachForbiddenText": "Nie możesz już nic dodać do tej notatki.",
+    "pdfLimitReachedText": "Ta notatka ma już 20 plików PDF, najwięcej, ile może mieć notatka.",
+    "recordingLimitReachedText": "Ta notatka ma już 20 nagrań, najwięcej, ile może mieć notatka."
   },
   "notePDFInfo": {
     "attachText": "Załącz PDF lub PowerPoint",
