@@ -3689,7 +3689,14 @@
     "revertedApp": "Entschuldigung, die KI hat noch einmal geprüft und diese App ist doch in Ordnung.",
     "reportButton": "Falsche Entscheidung melden",
     "reported": "Danke, gemeldet",
-    "dismissButton": "Schließen"
+    "dismissButton": "Schließen",
+    "reportPrompt": "Was war falsch?",
+    "reportPlaceholder": "Sag uns, was die KI falsch gemacht hat",
+    "chipRelevantSite": "Diese Website war relevant",
+    "chipRelevantApp": "Diese App war relevant",
+    "chipShouldBlock": "Das hätte blockiert werden sollen",
+    "sendButton": "Senden",
+    "cancelButton": "Abbrechen"
   },
   "customRoutineTimeVcInfo": {
     "title": "Deine <ROUTINE> beginnt in",
@@ -7524,5 +7531,11 @@
   "lateNoMoreInfo": {
     "lnmConnectCalendarText": "Kalender verbinden",
     "lnmConnectAnotherCalendarText": "Weiteren Kalender verbinden"
+  },
+  "createTaskLinkInfo": {
+    "saved": "In Focus Bear gespeichert: <TITLE>",
+    "failed": "Konnte nicht in Focus Bear gespeichert werden: <TITLE>",
+    "openButton": "Öffnen",
+    "dismissButton": "Schließen"
   }
 }

@@ -4066,7 +4066,14 @@
         "revertedApp": "Sorry AI double checked and this app is actually ok.",
         "reportButton": "Report bad decision",
         "reported": "Thanks, reported",
-        "dismissButton": "Dismiss"
+        "dismissButton": "Dismiss",
+        "reportPrompt": "What was wrong?",
+        "reportPlaceholder": "Tell us what the AI got wrong",
+        "chipRelevantSite": "This site was relevant",
+        "chipRelevantApp": "This app was relevant",
+        "chipShouldBlock": "This should have been blocked",
+        "sendButton": "Send",
+        "cancelButton": "Cancel"
     },
     "customRoutineTimeVcInfo":{
         "title": "Your <ROUTINE> starts in",
@@ -7493,5 +7500,11 @@
   "lateNoMoreInfo": {
     "lnmConnectCalendarText": "Connect a calendar",
     "lnmConnectAnotherCalendarText": "Connect another calendar"
+  },
+  "createTaskLinkInfo": {
+    "saved": "Saved to Focus Bear: <TITLE>",
+    "failed": "Couldn’t save to Focus Bear: <TITLE>",
+    "openButton": "Open",
+    "dismissButton": "Dismiss"
   }
 }
