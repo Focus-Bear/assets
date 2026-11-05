@@ -3766,7 +3766,8 @@
     "buttonMarkCurrentTaskAsCompleted": "Oznacz poprzednie zadanie jako ukończone",
     "titleNewTask": "Nowe zadanie:",
     "titlePreviousTask": "Poprzednie zadanie:",
-    "cannotChangeIntentionInSuperStrictText": "Cel skupienia nie może być zmieniony w trybie żelaznego skupienia"
+    "cannotChangeIntentionInSuperStrictText": "Cel skupienia nie może być zmieniony w trybie żelaznego skupienia",
+    "cannotChangeIntentionInSuperStrictAiText": "Cel skupienia nie może być zmieniony w trybie żelaznego skupienia, gdy blokowanie AI jest włączone"
   },
   "popUpSaveThisTaskForLaterVcInfo": {
     "title": "Czy chcesz zapisać to jako zadanie na później?",
@@ -5209,6 +5210,8 @@
     "menuStartFocus": "ROZPOCZNIJ SESJĘ SKUPIENIA",
     "menuFocusMinutes": "%d MIN",
     "menuChangeTimeHint": "ZMIEŃ CZAS ZA POMOCĄ + I −",
+    "menuAddSessionMinutes": "Dodaj %d minut",
+    "menuRemoveSessionMinutes": "Odejmij %d minut",
     "menuTapToStart": "KLIKNIJ, ABY ZACZĄĆ",
     "menuStart": "Start",
     "menuPause": "Pauza",

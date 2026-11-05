@@ -3766,7 +3766,8 @@
     "buttonMarkCurrentTaskAsCompleted": "Marquer la tâche précédente comme terminée",
     "titleNewTask": "Nouvelle tâche :",
     "titlePreviousTask": "Tâche précédente :",
-    "cannotChangeIntentionInSuperStrictText": "L'objectif de focus ne peut pas être modifié en mode focus de fer"
+    "cannotChangeIntentionInSuperStrictText": "L'objectif de focus ne peut pas être modifié en mode focus de fer",
+    "cannotChangeIntentionInSuperStrictAiText": "L'objectif de focus ne peut pas être modifié en mode focus de fer tant que le blocage par IA est activé"
   },
   "popUpSaveThisTaskForLaterVcInfo": {
     "title": "Veux-tu enregistrer ceci comme tâche pour plus tard ?",
@@ -5209,6 +5210,8 @@
     "menuStartFocus": "DÉMARRER LA SESSION",
     "menuFocusMinutes": "%d MIN",
     "menuChangeTimeHint": "MODIFIE LA DURÉE AVEC + ET −",
+    "menuAddSessionMinutes": "Ajouter %d minutes",
+    "menuRemoveSessionMinutes": "Retirer %d minutes",
     "menuTapToStart": "APPUIE POUR DÉMARRER",
     "menuStart": "Démarrer",
     "menuPause": "Pause",
