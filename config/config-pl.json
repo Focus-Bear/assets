@@ -238,6 +238,7 @@
     "endFocusSessionText": "Zakończ sesję"
   },
   "common": {
+    "websiteEntryBlankText": "Wpisz stronę, np. reddit.com. Same spacje nie mogą zostać dodane.",
     "emailId": "support@focusbear.io",
     "appBlockNotificationAllowButton": "Ups, jednak tego potrzebuję",
     "unlockMachineButtonText": "Zaczynajmy",
@@ -1555,6 +1556,9 @@
     "achievementStep_connect_calendar": "Połącz kalendarz z planem dnia",
     "achievementStep_habits": "Skonfiguruj nawyki",
     "achievementStep_breaks": "Skonfiguruj przerwy",
+    "leaderboardUsernameMissingTitleText": "Nie ustawiono nazwy użytkownika w rankingu",
+    "leaderboardUsernameMissingText": "Nie pojawisz się w rankingu, dopóki jej nie wybierzesz. Inni widzą tylko tę nazwę.",
+    "leaderboardSetUsernameButtonText": "Ustaw nazwę",
     "pepTalkSavedMessageNoticeTextWindows": "Serwer Focus Bear nie odpowiada, więc oto wiadomość zapisana na tym komputerze.",
     "tabGoals": "Twoje cele",
     "tabProgress": "Postęp",
@@ -7479,5 +7483,9 @@
     "buttonGet": "Pobierz rozszerzenie",
     "buttonNotNow": "Nie teraz",
     "buttonNever": "Nie pokazuj ponownie"
+  },
+  "lateNoMoreInfo": {
+    "lnmConnectCalendarText": "Połącz kalendarz",
+    "lnmConnectAnotherCalendarText": "Połącz kolejny kalendarz"
   }
 }

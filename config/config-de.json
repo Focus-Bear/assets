@@ -238,6 +238,7 @@
     "endFocusSessionText": "Sitzung beenden"
   },
   "common": {
+    "websiteEntryBlankText": "Gib eine Website ein, z. B. reddit.com. Nur Leerzeichen können nicht hinzugefügt werden.",
     "emailId": "support@focusbear.io",
     "appBlockNotificationAllowButton": "Ups, ich brauche es doch",
     "unlockMachineButtonText": "Los geht's",
@@ -1555,6 +1556,9 @@
     "achievementStep_connect_calendar": "Deinen Kalender mit dem Tagesplan verbinden",
     "achievementStep_habits": "Deine Gewohnheiten einrichten",
     "achievementStep_breaks": "Deine Pausen einrichten",
+    "leaderboardUsernameMissingTitleText": "Du hast noch keinen Bestenlisten-Benutzernamen festgelegt",
+    "leaderboardUsernameMissingText": "Du erscheinst erst in der Bestenliste, wenn du einen wählst. Andere sehen nur diesen Namen.",
+    "leaderboardSetUsernameButtonText": "Namen festlegen",
     "pepTalkSavedMessageNoticeTextWindows": "Der Focus-Bear-Server antwortet nicht, darum hier eine Nachricht, die auf diesem PC gespeichert ist.",
     "tabGoals": "Deine Ziele",
     "tabProgress": "Fortschritt",
@@ -7479,5 +7483,9 @@
     "buttonGet": "Erweiterung holen",
     "buttonNotNow": "Nicht jetzt",
     "buttonNever": "Nicht mehr anzeigen"
+  },
+  "lateNoMoreInfo": {
+    "lnmConnectCalendarText": "Kalender verbinden",
+    "lnmConnectAnotherCalendarText": "Weiteren Kalender verbinden"
   }
 }
