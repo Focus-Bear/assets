@@ -4517,6 +4517,10 @@
     "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie."
   },
   "scheduleViewInfo": {
+    "calendarConnectFirst": "Połącz kalendarz",
+    "calendarConnectAnother": "Połącz kolejny kalendarz",
+    "settingsCalendarsTitle": "Kalendarze",
+    "settingsCalendarsBody": "Połącz kalendarze Google lub Microsoft w panelu Focus Bear. Ich spotkania pojawią się w planie dnia.",
     "setUpHabits": "Skonfiguruj nawyki",
     "setUpHabitsMessage": "Przygotuj się do pracy dzięki porannej rutynie",
     "habitInOrderOnly": "Twoje ustawienia wymagają wykonywania nawyków po kolei, więc ten czeka na swoją kolej. Aby wykonać go teraz, włącz „Zezwalaj na wykonywanie nawyków w dowolnej kolejności” w Ustawieniach.",

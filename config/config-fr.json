@@ -4517,6 +4517,10 @@
     "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie."
   },
   "scheduleViewInfo": {
+    "calendarConnectFirst": "Connecter un calendrier",
+    "calendarConnectAnother": "Connecter un autre calendrier",
+    "settingsCalendarsTitle": "Calendriers",
+    "settingsCalendarsBody": "Connecte des calendriers Google ou Microsoft depuis le tableau de bord Focus Bear. Leurs réunions apparaissent dans ton Plan de la journée.",
     "setUpHabits": "Configurer vos habitudes",
     "setUpHabitsMessage": "Préparez-vous avant de commencer à travailler avec une routine matinale",
     "habitInOrderOnly": "Tes réglages demandent de faire les habitudes dans l’ordre, donc celle-ci attend son tour. Pour la faire maintenant, active « Autoriser à faire les habitudes dans le désordre » dans les Réglages.",

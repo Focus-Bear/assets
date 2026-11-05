@@ -4885,6 +4885,10 @@
         "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
+    "calendarConnectFirst": "Connect a calendar",
+    "calendarConnectAnother": "Connect another calendar",
+    "settingsCalendarsTitle": "Calendars",
+    "settingsCalendarsBody": "Connect Google or Microsoft calendars on the Focus Bear dashboard. Their meetings show in your Day Plan.",
     "setUpHabits": "Set up habits",
     "setUpHabitsMessage": "Warm up before you start work with a morning routine",
       "unnamedHabit": "Unnamed habit",
