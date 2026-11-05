@@ -681,7 +681,7 @@
     "toolTipPomodoroSessionText": "Lance une session de focus pour du travail en profondeur.",
     "menuItemResumeFocusTitle": "Reprendre la session",
     "menuItemPauseFocusTitle": "Mettre la session en pause",
-    "menuItemBlockingDisabledTitle": "Blocage désactivé",
+    "menuItemBlockingDisabledTitle": "Rien n'est bloqué pour le moment",
     "toolTipBlockingDisabled": "Blocage désactivé car tu as choisi de ne l'activer que pendant les sessions de focus.",
     "toolTipButtonEditBlockingSchedule": "Modifier l'horaire de blocage",
     "menuItemStartMorningHabitsFirstTimeTitle": "Démarrer la routine du matin",
@@ -700,7 +700,7 @@
     "stateActive": "Actif",
     "statePaused": "En pause",
     "buttonAddBlockingSchedule": "Ajouter un horaire de blocage",
-    "addBlockingScheduleInfo": "Le blocage est désactivé car aucun horaire personnalisé n'a été ajouté.",
+    "addBlockingScheduleInfo": "Le blocage s'active pendant les sessions de concentration. Ajoute un horaire de blocage si tu veux qu'il s'active aussi tout seul à certaines heures.",
     "titleBlockingSchedule": "Horaire de blocage",
     "buttonEditFocusModeDuration": "Clique ici pour modifier la durée, l'intention et la tâche en cours",
     "buttonEnable": "Activer",
@@ -1544,6 +1544,18 @@
     "couldNotFileMeetingNotesText": "Certaines notes de réunion n’ont pas pu être déplacées. Réessaie dans un instant."
   },
   "statsViewInfo": {
+    "achievementsTitle": "Succès",
+    "achievementsSubtitle": "Coche ces étapes pour tirer le meilleur de Focus Bear. Clique sur une étape pour y aller directement.",
+    "achievementsProgress": "{done} sur {total} faits",
+    "achievementsLevelComplete": "Niveau {level} terminé !",
+    "achievementStep_create_account": "Créer un compte",
+    "achievementStep_first_focus_session": "Terminer ta première session de concentration",
+    "achievementStep_block_list": "Configurer ta liste de blocage",
+    "achievementStep_blocking_schedule": "Configurer un horaire de blocage",
+    "achievementStep_allow_list": "Ajouter les sites que tu utilises pour le travail",
+    "achievementStep_connect_calendar": "Connecter ton calendrier au Plan de la journée",
+    "achievementStep_habits": "Configurer tes habitudes",
+    "achievementStep_breaks": "Configurer tes pauses",
     "leaderboardUsernameMissingTitleText": "Vous n'avez pas encore choisi de nom d'utilisateur pour le classement",
     "leaderboardUsernameMissingText": "Vous n'apparaîtrez pas dans le classement tant que vous n'en aurez pas choisi un. Les autres ne verront que ce nom.",
     "leaderboardSetUsernameButtonText": "Choisir un nom",
@@ -3395,6 +3407,9 @@
     "focusSettingsText": "Paramètres de focus"
   },
   "focusStartVcInfo": {
+    "blockingNoticeTitle": "Rien n'est bloqué pour le moment",
+    "blockingNoticeBody": "Le blocage s'active quand tu démarres une session de concentration. Tu veux aussi qu'il s'active tout seul à certaines heures ?",
+    "blockingNoticeButton": "Configurer un horaire de blocage",
     "titleSimple": "Lance une session de concentration",
     "titleAdvancedPrefix": "Lance ",
     "titleAdvancedEmphasis": "une session avancée",
@@ -5147,7 +5162,7 @@
     "blockingOffWhy": "Pourquoi ?",
     "blockingOffDeactivated": "Focus Bear est désactivé, donc rien n’est bloqué.",
     "blockingOffPermissions": "Il manque à Focus Bear les autorisations macOS nécessaires pour bloquer les sites web et les apps.",
-    "blockingOffNoSchedule": "Tu n’as pas encore configuré d’horaire de blocage.",
+    "blockingOffNoSchedule": "Le blocage s'active pendant les sessions de concentration. Ajoute un horaire de blocage si tu veux qu'il s'active aussi tout seul à certaines heures.",
     "blockingOffPaused": "Ton horaire de blocage est en pause.",
     "blockingOffNoScheduleNow": "Aucun horaire de blocage ne couvre ce moment et aucune session de concentration n’est en cours.",
     "blockingOffNoBrowser": "Aucun navigateur n’est configuré pour le blocage, donc les sites web ne seront pas bloqués.",
@@ -5273,6 +5288,7 @@
     "menuChangeTask": "Changer de tâche"
   },
   "leftMenuVcInfo": {
+        "menuAchievements": "Succès",
         "menuBrowser": "Navigateur",
         "showKeyboardShortcutReminders": "Afficher les rappels de raccourcis clavier",
     "menuStats": "Statistiques",

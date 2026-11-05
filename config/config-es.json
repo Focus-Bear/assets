@@ -710,7 +710,7 @@
         "toolTipPomodoroSessionText": "Inicia una sesión Pomodoro para trabajar en profundidad.",
         "menuItemResumeFocusTitle": "Reanudar Sesión de Enfoque",
         "menuItemPauseFocusTitle": "Pausar Sesión de Enfoque",
-        "menuItemBlockingDisabledTitle": "Bloqueo desactivado",
+        "menuItemBlockingDisabledTitle": "Ahora mismo no se bloquea nada",
         "toolTipBlockingDisabled": "Bloqueo desactivado porque elegiste activar los bloqueos sólo durante las sesiones de enfoque.",
         "toolTipButtonEditBlockingSchedule": "Editar horario de bloqueo",
         "menuItemStartMorningHabitsFirstTimeTitle": "Iniciar rutina matutina",
@@ -729,7 +729,7 @@
         "stateActive": "Activo",
         "statePaused": "En pausa",
         "buttonAddBlockingSchedule": "Agregar horario de bloqueo",
-        "addBlockingScheduleInfo": "El bloqueo está desactivado porque no se han agregado horarios de bloqueo personalizados.",
+        "addBlockingScheduleInfo": "El bloqueo se activa durante las sesiones de concentración. Añade un horario de bloqueo si quieres que también se active solo a ciertas horas.",
         "titleBlockingSchedule": "Horario de bloqueo",
         "buttonEditFocusModeDuration": "Haz clic aquí para actualizar la duración, la intención y la tarea actual",
         "buttonEnable": "Activar",
@@ -1941,6 +1941,18 @@
         "dismissText": "Descartar"
     },
     "statsViewInfo": {
+      "achievementsTitle": "Logros",
+      "achievementsSubtitle": "Completa estos pasos para sacar el máximo partido a Focus Bear. Haz clic en un paso para ir directamente.",
+      "achievementsProgress": "{done} de {total} hechos",
+      "achievementsLevelComplete": "¡Nivel {level} completado!",
+      "achievementStep_create_account": "Crear una cuenta",
+      "achievementStep_first_focus_session": "Completar tu primera sesión de concentración",
+      "achievementStep_block_list": "Configurar tu lista de bloqueo",
+      "achievementStep_blocking_schedule": "Configurar un horario de bloqueo",
+      "achievementStep_allow_list": "Añadir los sitios web que usas para trabajar",
+      "achievementStep_connect_calendar": "Conectar tu calendario al Plan del día",
+      "achievementStep_habits": "Configurar tus hábitos",
+      "achievementStep_breaks": "Configurar tus descansos",
       "leaderboardUsernameMissingTitleText": "Aún no has elegido un nombre de usuario para la clasificación",
       "leaderboardUsernameMissingText": "No aparecerás en la clasificación hasta que elijas uno. Los demás solo verán este nombre.",
       "leaderboardSetUsernameButtonText": "Elegir nombre",
@@ -3770,6 +3782,9 @@
         "focusSettingsText": "Configuración de enfoque"
     },
     "focusStartVcInfo":{
+        "blockingNoticeTitle": "Ahora mismo no se bloquea nada",
+        "blockingNoticeBody": "El bloqueo se activa cuando empiezas una sesión de concentración. ¿Quieres que también se active solo a ciertas horas?",
+        "blockingNoticeButton": "Configurar un horario de bloqueo",
         "titleSimple": "Inicia una sesión de concentración",
         "titleAdvancedPrefix": "Inicia una sesión de concentración ",
         "titleAdvancedEmphasis": "avanzada",
@@ -5551,7 +5566,7 @@
         "blockingOffWhy": "¿Por qué?",
         "blockingOffDeactivated": "Focus Bear está desactivado, así que no se está bloqueando nada.",
         "blockingOffPermissions": "A Focus Bear le faltan los permisos de macOS que necesita para bloquear sitios web y aplicaciones.",
-        "blockingOffNoSchedule": "Todavía no has configurado un horario de bloqueo.",
+        "blockingOffNoSchedule": "El bloqueo se activa durante las sesiones de concentración. Añade un horario de bloqueo si quieres que también se active solo a ciertas horas.",
         "blockingOffPaused": "Tu horario de bloqueo está en pausa.",
         "blockingOffNoScheduleNow": "Ningún horario de bloqueo cubre este momento y no hay ninguna sesión de enfoque en curso.",
         "blockingOffNoBrowser": "Ningún navegador está configurado para el bloqueo, así que no se bloquearán los sitios web.",
@@ -5677,6 +5692,7 @@
         "menuChangeTask": "Cambiar tarea"
     },
     "leftMenuVcInfo":{
+        "menuAchievements": "Logros",
         "menuBrowser": "Navegador",
         "showKeyboardShortcutReminders": "Mostrar recordatorios de atajos de teclado",
         "menuTimeTracker": "Seguimiento de tiempo",
