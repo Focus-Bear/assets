@@ -6941,7 +6941,11 @@
     "chatLogsAttachFailedText": "Impossible de joindre les journaux. Tu peux les envoyer depuis « Signaler un problème ».",
     "buttonOpenReportProblemFromChat": "Ouvrir « Signaler un problème »",
     "chatReportProblemPrefillText": "<TITLE> (signalé dans « Discuter avec Focus Bear »)",
-    "chatReportProblemPrefillWithTicketText": "<TITLE> (signalé dans « Discuter avec Focus Bear », signalement n° <TICKET>)"
+    "chatReportProblemPrefillWithTicketText": "<TITLE> (signalé dans « Discuter avec Focus Bear », signalement n° <TICKET>)",
+    "chatClaudeDelegationReadyText": "« <TITLE> » est prête pour Claude. Vérifie les instructions dans Déléguer à Claude, puis appuie sur Déléguer.",
+    "chatClaudeDelegationSettingOffText": "Pour confier « <TITLE> » à Claude, active « Autoriser la délégation de tâches à Claude » dans Réglages → Fonctionnalités IA, puis appuie sur Déléguer à Claude sur la tâche dans ton plan du jour.",
+    "chatClaudeDelegationCliMissingText": "Pour confier « <TITLE> » à Claude, installe Claude Code sur ce Mac, puis appuie sur Déléguer à Claude sur la tâche dans ton plan du jour.",
+    "buttonOpenClaudeDelegationFromChat": "Ouvrir Déléguer à Claude"
   },
   "noteMediaInfo": {
     "pdfTitle": "PDF",
@@ -7404,7 +7408,15 @@
         "nextStepsSubtasksNote": "Aussi ajoutées à la tâche comme sous-tâches.",
         "outputsHeading": "Résultats",
         "outputShowInFinder": "Afficher <NAME> dans le Finder",
-        "outputOpenLink": "Ouvrir <NAME>"
+        "outputOpenLink": "Ouvrir <NAME>",
+        "statusScheduled": "Commence le matin",
+        "scheduledHeading": "Claude commencera à <TIME> (<HOURS> heures avant le début de ta journée).",
+        "scheduledReason": "Ton heure limite est passée, donc Claude attend le matin. Tu peux fermer ceci : Claude commencera tout seul, même si Focus Bear redémarre.",
+        "scheduledSetUpHint": "Ton heure limite est passée, donc Claude commencera à <TIME> (<HOURS> heures avant le début de ta journée).",
+        "startNow": "Commencer maintenant",
+        "startNowHelp": "Faire commencer Claude maintenant. Demande le mot de passe que tu as défini pour après ton heure limite.",
+        "cancelSchedule": "Annuler",
+        "cancelScheduleHelp": "Ne pas lancer cette délégation. Tu pourras déléguer la tâche plus tard."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Désactive '<EXTENSION>'",
