@@ -460,6 +460,8 @@
         "taskCreated": "Tarea \"<TASK>\" creada exitosamente."
     },
     "callNotifier": {
+        "meetingTooltipText": "Focus Bear detectó que tu micrófono o cámara están en uso, así que no mostraremos recordatorios de descanso durante la reunión. Una sesión de enfoque o un horario de bloqueo sigue bloqueando como siempre.",
+        "meetingTooltipBreaksOnText": "Focus Bear detectó que tu micrófono o cámara están en uso. Elegiste mantener los recordatorios de descanso durante las reuniones, así que seguirán apareciendo. Una sesión de enfoque o un horario de bloqueo sigue bloqueando como siempre.",
         "micUsageText": "está usando tu micrófono",
         "webcamUsageText": "está usando tu cámara web"
     },
@@ -6664,6 +6666,12 @@
         "allWebsitesAllowed": "Todos los sitios web están permitidos"
     },
     "managedBlockingInfo": {
+        "appWindowBlocked": "<SITE> no está permitido ahora, así que se minimizó esta ventana de <BROWSER>.",
+        "browserUnchecked": "Los controles de la escuela o del hogar no pueden revisar <APP_NAME>, así que se minimizó. Usa Chrome, Edge, Firefox, Brave o Vivaldi.",
+        "quitLocked": "No puedes cerrar Focus Bear mientras los controles de la escuela o del hogar estén activos. Pide ayuda a tu escuela o a tu padre, madre o tutor si hay que desactivarlo.",
+        "signOutLocked": "No puedes cerrar sesión en Focus Bear mientras los controles de la escuela o del hogar estén activos. Pide ayuda a tu escuela o a tu padre, madre o tutor.",
+        "blocklist": "Sitios web bloqueados",
+        "blockedApps": "Aplicaciones bloqueadas",
         "blocklistBodySchool": "Este sitio web está en la lista de sitios web bloqueados de tu escuela.",
         "blocklistBodyHome": "Este sitio web está en la lista de sitios web bloqueados del hogar.",
         "appBlockedSchool": "El horario <POLICY> de tu escuela bloquea <APP_NAME>.",
