@@ -21,7 +21,8 @@ try {
     isGrizzlyMode ||
     strict_blocking ||
     isConfirmedDistraction ||
-    isBrainDumpBlock;
+    isBrainDumpBlock ||
+    isUnblockUnavailableForActivity;
 
   if (!old_url || shouldSkipUnblockPrompt) {
     cuddlyBearBtn.classList.remove('btn');
