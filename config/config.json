@@ -7740,6 +7740,9 @@
   },
   "historyImportInfo": {
     "offerTitle": "See where your time goes",
+    "offerPrefilled": "From your history: {0} sites are ticked below and {1} added to your work sites. Untick any you don't want blocked before you proceed.",
+    "legendPrefill": "Distracting sites are ticked on your block list on the next page, where you make the final choice. Productive sites are added to the websites you use for work. Neutral sites are left as they are.",
+    "privacySavedPrefill": "Only the sites you mark as distracting or productive are used: distracting ones are ticked on your block list for you to confirm, and productive ones are added to your work sites. Nothing else is kept.",
     "offerBody": "Import your browser history to find the sites you spend the most time on, then choose which ones to block.",
     "offerButton": "Import my browser history",
     "offerDone": "From your history: {0} sites added to your block list and {1} to your work sites.",

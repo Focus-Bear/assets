@@ -7771,6 +7771,9 @@
   },
   "historyImportInfo": {
     "offerTitle": "Sieh, wohin deine Zeit geht",
+    "offerPrefilled": "Aus deinem Verlauf: {0} Websites sind unten angehakt und {1} wurden zu deinen Arbeits-Websites hinzugefügt. Entferne den Haken bei allen, die du nicht blockieren willst, bevor du fortfährst.",
+    "legendPrefill": "Ablenkende Websites sind auf der nächsten Seite in deiner Sperrliste angehakt, dort triffst du die endgültige Wahl. Produktive Websites werden zu den Websites hinzugefügt, die du für die Arbeit nutzt. Neutrale Websites bleiben unverändert.",
+    "privacySavedPrefill": "Es werden nur die Websites verwendet, die du als ablenkend oder produktiv markierst: Ablenkende werden in deiner Sperrliste zur Bestätigung angehakt, produktive werden zu deinen Arbeits-Websites hinzugefügt. Sonst wird nichts gespeichert.",
     "offerBody": "Importiere deinen Browserverlauf, um die Websites zu finden, auf denen du die meiste Zeit verbringst, und wähle dann aus, welche blockiert werden.",
     "offerButton": "Meinen Browserverlauf importieren",
     "offerDone": "Aus deinem Verlauf: {0} Websites zu deiner Sperrliste und {1} zu deinen Arbeits-Websites hinzugefügt.",

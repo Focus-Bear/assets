@@ -7738,6 +7738,9 @@
   },
   "historyImportInfo": {
     "offerTitle": "Descubre en qué se te va el tiempo",
+    "offerPrefilled": "De tu historial: {0} sitios marcados abajo y {1} añadidos a tus sitios de trabajo. Desmarca los que no quieras bloquear antes de continuar.",
+    "legendPrefill": "Los sitios de distracción aparecen marcados en tu lista de bloqueo en la página siguiente, donde decides al final. Los productivos se añaden a los sitios web que usas para trabajar. Los neutrales se quedan como están.",
+    "privacySavedPrefill": "Solo se usan los sitios que marques como distracción o productivos: los de distracción aparecen marcados en tu lista de bloqueo para que lo confirmes, y los productivos se añaden a tus sitios de trabajo. No se guarda nada más.",
     "offerBody": "Importa el historial de tu navegador para ver los sitios en los que pasas más tiempo y luego elige cuáles bloquear.",
     "offerButton": "Importar mi historial",
     "offerDone": "De tu historial: {0} sitios añadidos a tu lista de bloqueo y {1} a tus sitios de trabajo.",

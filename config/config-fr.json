@@ -7771,6 +7771,9 @@
   },
   "historyImportInfo": {
     "offerTitle": "Vois où passe ton temps",
+    "offerPrefilled": "D'après ton historique : {0} sites sont cochés ci-dessous et {1} ajoutés à tes sites de travail. Décoche ceux que tu ne veux pas bloquer avant de continuer.",
+    "legendPrefill": "Les sites distrayants sont cochés dans ta liste de blocage à la page suivante, où tu fais le choix final. Les sites productifs sont ajoutés aux sites que tu utilises pour travailler. Les sites neutres restent tels quels.",
+    "privacySavedPrefill": "Seuls les sites que tu marques comme distrayants ou productifs sont utilisés : les distrayants sont cochés dans ta liste de blocage pour que tu confirmes, et les productifs sont ajoutés à tes sites de travail. Rien d'autre n'est conservé.",
     "offerBody": "Importe l'historique de ton navigateur pour trouver les sites où tu passes le plus de temps, puis choisis ceux à bloquer.",
     "offerButton": "Importer mon historique",
     "offerDone": "D'après ton historique : {0} sites ajoutés à ta liste de blocage et {1} à tes sites de travail.",
