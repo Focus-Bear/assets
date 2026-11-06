@@ -3019,6 +3019,11 @@
         "buttonDoNotSetPasswordText": "No establecer contraseña"
     },
     "menuTourVcInfo": {
+        "buttonSkipText": "Omitir",
+        "expandDescription": "Haz clic en el icono de expandir, arriba del menú, para abrir la aplicación completa de Focus Bear.",
+        "expandTitle": "Abre la aplicación completa",
+        "descriptionHiddenTray": "Focus Bear está entre tus iconos ocultos. Haz clic en la flecha ^ de la barra de tareas y luego en el oso para abrir el menú de Focus Bear.",
+        "trayTitle": "Aquí encontrarás Focus Bear",
         "title": "Menú de Focus Bear",
         "buttonGetStartedText": "Iniciar",
         "buttonNextText": "Siguiente >",
@@ -3271,6 +3276,9 @@
       "stepAsideNotice": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado."
     },
     "settingsNew": {
+        "blockingScheduleEmptyButton": "Añadir un horario",
+        "blockingScheduleEmptyBody": "Un horario bloquea tus distracciones a horas fijas, como cada mañana entre semana, para que no tengas que acordarte de empezar una sesión de concentración.",
+        "blockingScheduleEmptyTitle": "Aún no hay horarios de bloqueo",
         "searchSettingsLabel": "Buscar en la configuración",
         "searchSettingsPlaceholder": "Buscar",
         "uiSettingTitle": "IU",
@@ -3809,9 +3817,9 @@
         "focusSettingsText": "Configuración de enfoque"
     },
     "focusStartVcInfo":{
-        "blockingNoticeTitle": "Ahora mismo no se bloquea nada",
-        "blockingNoticeBody": "El bloqueo se activa cuando empiezas una sesión de concentración. ¿Quieres que también se active solo a ciertas horas?",
-        "blockingNoticeButton": "Configurar un horario de bloqueo",
+        "blockingNoticeTitle": "Elige qué bloquear",
+        "blockingNoticeBody": "Todavía no se bloquea nada. Elige los sitios y las apps que te distraen y Focus Bear los bloqueará mientras te concentras.",
+        "blockingNoticeButton": "Configura tu lista de bloqueo",
         "titleSimple": "Inicia una sesión de concentración",
         "titleAdvancedPrefix": "Inicia una sesión de concentración ",
         "titleAdvancedEmphasis": "avanzada",
@@ -4918,6 +4926,7 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+    "dismissHabitSetup": "Ocultar esta sugerencia",
     "calendarConnectFirst": "Conectar un calendario",
     "calendarConnectAnother": "Conectar otro calendario",
     "settingsCalendarsTitle": "Calendarios",

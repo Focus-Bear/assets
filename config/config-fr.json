@@ -2609,6 +2609,11 @@
     "buttonDoNotSetPasswordText": "Ne pas définir de mot de passe"
   },
   "menuTourVcInfo": {
+    "buttonSkipText": "Passer",
+    "expandDescription": "Clique sur l'icône d'agrandissement en haut du menu pour ouvrir l'application Focus Bear complète.",
+    "expandTitle": "Ouvrir l'application complète",
+    "descriptionHiddenTray": "Focus Bear se trouve dans tes icônes masquées. Clique sur la flèche ^ dans la barre des tâches, puis sur l'ours, pour ouvrir le menu Focus Bear.",
+    "trayTitle": "Voici où trouver Focus Bear",
     "title": "Menu Focus Bear",
     "buttonGetStartedText": "Commencer",
     "buttonNextText": "Suivant >",
@@ -2861,6 +2866,9 @@
     "stepAsideNotice": "Focus Bear s’écarte pendant 30 secondes au maximum pour que vous puissiez l’activer. Il revient dès que c’est activé."
   },
   "settingsNew": {
+    "blockingScheduleEmptyButton": "Ajouter un horaire",
+    "blockingScheduleEmptyBody": "Un horaire bloque tes distractions à des heures fixes, par exemple chaque matin en semaine, pour que tu n'aies pas à penser à lancer une session de concentration.",
+    "blockingScheduleEmptyTitle": "Aucun horaire de blocage pour l'instant",
     "searchSettingsLabel": "Rechercher dans les réglages",
     "searchSettingsPlaceholder": "Rechercher",
     "uiSettingTitle": "Interface",
@@ -3418,9 +3426,9 @@
     "focusSettingsText": "Paramètres de focus"
   },
   "focusStartVcInfo": {
-    "blockingNoticeTitle": "Rien n'est bloqué pour le moment",
-    "blockingNoticeBody": "Le blocage s'active quand tu démarres une session de concentration. Tu veux aussi qu'il s'active tout seul à certaines heures ?",
-    "blockingNoticeButton": "Configurer un horaire de blocage",
+    "blockingNoticeTitle": "Choisis ce qu'il faut bloquer",
+    "blockingNoticeBody": "Rien n'est bloqué pour l'instant. Choisis les sites et applications qui te distraient, et Focus Bear les bloquera pendant que tu te concentres.",
+    "blockingNoticeButton": "Configurer ta liste de blocage",
     "titleSimple": "Lance une session de concentration",
     "titleAdvancedPrefix": "Lance ",
     "titleAdvancedEmphasis": "une session avancée",
@@ -4536,6 +4544,7 @@
     "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie."
   },
   "scheduleViewInfo": {
+    "dismissHabitSetup": "Masquer cette suggestion",
     "calendarConnectFirst": "Connecter un calendrier",
     "calendarConnectAnother": "Connecter un autre calendrier",
     "settingsCalendarsTitle": "Calendriers",

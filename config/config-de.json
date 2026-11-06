@@ -2609,6 +2609,11 @@
     "buttonDoNotSetPasswordText": "Kein Passwort festlegen"
   },
   "menuTourVcInfo": {
+    "buttonSkipText": "Überspringen",
+    "expandDescription": "Klicke oben im Menü auf das Erweitern-Symbol, um die ganze Focus Bear-App zu öffnen.",
+    "expandTitle": "Die ganze App öffnen",
+    "descriptionHiddenTray": "Focus Bear ist bei deinen ausgeblendeten Symbolen. Klicke in der Taskleiste auf den Pfeil ^ und dann auf den Bären, um das Focus Bear-Menü zu öffnen.",
+    "trayTitle": "Hier findest du Focus Bear",
     "title": "Focus Bear Menü",
     "buttonGetStartedText": "Loslegen",
     "buttonNextText": "Weiter >",
@@ -2861,6 +2866,9 @@
     "stepAsideNotice": "Focus Bear geht bis zu 30 Sekunden aus dem Weg, damit du das einschalten kannst. Sobald es eingeschaltet ist, ist Focus Bear wieder da."
   },
   "settingsNew": {
+    "blockingScheduleEmptyButton": "Zeitplan hinzufügen",
+    "blockingScheduleEmptyBody": "Ein Zeitplan blockiert deine Ablenkungen zu festen Zeiten, zum Beispiel jeden Werktagmorgen, damit du nicht daran denken musst, eine Fokussitzung zu starten.",
+    "blockingScheduleEmptyTitle": "Noch keine Blockierzeitpläne",
     "searchSettingsLabel": "Einstellungen durchsuchen",
     "searchSettingsPlaceholder": "Suchen",
     "uiSettingTitle": "Oberfläche",
@@ -3418,9 +3426,9 @@
     "focusSettingsText": "Fokus-Einstellungen"
   },
   "focusStartVcInfo": {
-    "blockingNoticeTitle": "Gerade wird nichts blockiert",
-    "blockingNoticeBody": "Die Blockierung startet, wenn du eine Fokus-Sitzung beginnst. Soll sie sich auch zu festen Zeiten von selbst einschalten?",
-    "blockingNoticeButton": "Blockierplan einrichten",
+    "blockingNoticeTitle": "Wähle aus, was blockiert wird",
+    "blockingNoticeBody": "Noch ist nichts blockiert. Wähle die Websites und Apps, die dich ablenken, und Focus Bear blockiert sie, während du dich konzentrierst.",
+    "blockingNoticeButton": "Blockierliste einrichten",
     "titleSimple": "Starte eine Fokussitzung",
     "titleAdvancedPrefix": "Starte ",
     "titleAdvancedEmphasis": "eine erweiterte",
@@ -4536,6 +4544,7 @@
     "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal."
   },
   "scheduleViewInfo": {
+    "dismissHabitSetup": "Diesen Vorschlag ausblenden",
     "calendarConnectFirst": "Kalender verbinden",
     "calendarConnectAnother": "Weiteren Kalender verbinden",
     "settingsCalendarsTitle": "Kalender",

@@ -2609,6 +2609,11 @@
     "buttonDoNotSetPasswordText": "Nie ustawiaj hasła"
   },
   "menuTourVcInfo": {
+    "buttonSkipText": "Pomiń",
+    "expandDescription": "Kliknij ikonę rozwijania u góry menu, aby otworzyć pełną aplikację Focus Bear.",
+    "expandTitle": "Otwórz pełną aplikację",
+    "descriptionHiddenTray": "Focus Bear jest wśród ukrytych ikon. Kliknij strzałkę ^ na pasku zadań, a potem niedźwiedzia, aby otworzyć menu Focus Bear.",
+    "trayTitle": "Tutaj znajdziesz Focus Bear",
     "title": "Menu Focus Bear",
     "buttonGetStartedText": "Rozpocznij",
     "buttonNextText": "Dalej >",
@@ -2861,6 +2866,9 @@
     "stepAsideNotice": "Focus Bear schodzi z drogi na maksymalnie 30 sekund, aby można było to włączyć. Wraca, gdy tylko zostanie włączone."
   },
   "settingsNew": {
+    "blockingScheduleEmptyButton": "Dodaj harmonogram",
+    "blockingScheduleEmptyBody": "Harmonogram blokuje rozpraszacze o stałych porach, na przykład w każdy poranek dnia roboczego, więc nie musisz pamiętać o rozpoczęciu sesji skupienia.",
+    "blockingScheduleEmptyTitle": "Nie masz jeszcze harmonogramów blokowania",
     "searchSettingsLabel": "Szukaj w ustawieniach",
     "searchSettingsPlaceholder": "Szukaj",
     "uiSettingTitle": "Interfejs",
@@ -3418,9 +3426,9 @@
     "focusSettingsText": "Ustawienia skupienia"
   },
   "focusStartVcInfo": {
-    "blockingNoticeTitle": "W tej chwili nic nie jest blokowane",
-    "blockingNoticeBody": "Blokowanie włącza się, gdy zaczynasz sesję skupienia. Chcesz, żeby włączało się też samo o ustalonych porach?",
-    "blockingNoticeButton": "Ustaw harmonogram blokowania",
+    "blockingNoticeTitle": "Wybierz, co blokować",
+    "blockingNoticeBody": "Nic nie jest jeszcze blokowane. Wybierz strony i aplikacje, które cię rozpraszają, a Focus Bear zablokuje je, gdy się skupiasz.",
+    "blockingNoticeButton": "Skonfiguruj listę blokowania",
     "titleSimple": "Rozpocznij sesję skupienia",
     "titleAdvancedPrefix": "Rozpocznij ",
     "titleAdvancedEmphasis": "zaawansowaną",
@@ -4536,6 +4544,7 @@
     "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie."
   },
   "scheduleViewInfo": {
+    "dismissHabitSetup": "Ukryj tę sugestię",
     "calendarConnectFirst": "Połącz kalendarz",
     "calendarConnectAnother": "Połącz kolejny kalendarz",
     "settingsCalendarsTitle": "Kalendarze",
