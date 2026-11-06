@@ -1786,6 +1786,7 @@
     "buttonSignUpWithGoogle": "Mit Google registrieren",
     "buttonSignUpWithApple": "Mit Apple registrieren",
     "buttonSignUpWithEmail": "Mit E-Mail registrieren",
+    "buttonSignUpAnonymously": "Anonym registrieren",
     "buttonSignInOldAccountText": "Du hast bereits ein Focus Bear-Konto? Anmelden",
     "buttonCreateAccount": "Konto erstellen",
     "orText": "ODER",
@@ -2651,6 +2652,12 @@
     "buttonDoNotSetPasswordText": "Kein Passwort festlegen"
   },
   "menuTourVcInfo": {
+    "buttonSkipText": "Überspringen",
+    "expandDescription": "Klicke oben im Menü auf <EXPAND_ICON>, um Focus Bear zu öffnen und deine erste Fokus-Sitzung zu starten.",
+    "expandIconName": "Erweitern-Symbol",
+    "expandTitle": "Starte deine erste Fokus-Sitzung",
+    "descriptionHiddenTray": "Focus Bear ist bei deinen ausgeblendeten Symbolen. Klicke in der Taskleiste auf den Pfeil ^ und dann auf den Bären, um das Focus Bear-Menü zu öffnen.",
+    "trayTitle": "Hier findest du Focus Bear",
     "title": "Focus Bear Menü",
     "buttonGetStartedText": "Loslegen",
     "buttonNextText": "Weiter >",
@@ -2903,6 +2910,9 @@
     "stepAsideNotice": "Focus Bear geht bis zu 30 Sekunden aus dem Weg, damit du das einschalten kannst. Sobald es eingeschaltet ist, ist Focus Bear wieder da."
   },
   "settingsNew": {
+    "blockingScheduleEmptyButton": "Zeitplan hinzufügen",
+    "blockingScheduleEmptyBody": "Ein Zeitplan blockiert deine Ablenkungen zu festen Zeiten, zum Beispiel jeden Werktagmorgen, damit du nicht daran denken musst, eine Fokussitzung zu starten.",
+    "blockingScheduleEmptyTitle": "Noch keine Blockierzeitpläne",
     "searchSettingsLabel": "Einstellungen durchsuchen",
     "searchSettingsPlaceholder": "Suchen",
     "uiSettingTitle": "Oberfläche",
@@ -3460,9 +3470,9 @@
     "focusSettingsText": "Fokus-Einstellungen"
   },
   "focusStartVcInfo": {
-    "blockingNoticeTitle": "Gerade wird nichts blockiert",
-    "blockingNoticeBody": "Die Blockierung startet, wenn du eine Fokus-Sitzung beginnst. Soll sie sich auch zu festen Zeiten von selbst einschalten?",
-    "blockingNoticeButton": "Blockierplan einrichten",
+    "blockingNoticeTitle": "Wähle aus, was blockiert wird",
+    "blockingNoticeBody": "Noch ist nichts blockiert. Wähle die Websites und Apps, die dich ablenken, und Focus Bear blockiert sie, während du dich konzentrierst.",
+    "blockingNoticeButton": "Blockierliste einrichten",
     "titleSimple": "Starte eine Fokussitzung",
     "titleAdvancedPrefix": "Starte ",
     "titleAdvancedEmphasis": "eine erweiterte",
@@ -4582,6 +4592,7 @@
     "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal."
   },
   "scheduleViewInfo": {
+    "dismissHabitSetup": "Diesen Vorschlag ausblenden",
     "calendarConnectFirst": "Kalender verbinden",
     "calendarConnectAnother": "Weiteren Kalender verbinden",
     "settingsCalendarsTitle": "Kalender",
@@ -5450,6 +5461,7 @@
     "menuAddTaskHint": "Enter zum Hinzufügen, Esc zum Abbrechen",
     "menuDayPlan": "Tagesplan",
     "menuViewFullDayPlan": "Ganzen Tagesplan ansehen",
+    "menuViewOpenApp": "Focus Bear öffnen",
     "menuBreaks": "Pausen",
     "menuTakeBreak": "Mach eine achtsame Pause",
     "menuStartBreak": "Jetzt Pause starten",
@@ -7823,6 +7835,10 @@
   },
   "historyImportInfo": {
     "offerTitle": "Sieh, wohin deine Zeit geht",
+    "offerPrefilled": "Aus deinem Verlauf: {0} Websites sind unten angehakt und {1} wurden zu deinen Arbeits-Websites hinzugefügt. Entferne den Haken bei allen, die du nicht blockieren willst, bevor du fortfährst.",
+    "offerPrefilledNoWorkSites": "Aus deinem Verlauf: {0} Websites sind unten angehakt. Entferne den Haken bei allen, die du nicht blockieren willst, bevor du fortfährst.",
+    "legendPrefill": "Ablenkende Websites sind auf der nächsten Seite in deiner Sperrliste angehakt, dort triffst du die endgültige Wahl. Produktive Websites werden zu den Websites hinzugefügt, die du für die Arbeit nutzt. Neutrale Websites bleiben unverändert.",
+    "privacySavedPrefill": "Es werden nur die Websites verwendet, die du als ablenkend oder produktiv markierst: Ablenkende werden in deiner Sperrliste zur Bestätigung angehakt, produktive werden zu deinen Arbeits-Websites hinzugefügt. Sonst wird nichts gespeichert.",
     "offerBody": "Importiere deinen Browserverlauf, um die Websites zu finden, auf denen du die meiste Zeit verbringst, und wähle dann aus, welche blockiert werden.",
     "offerButton": "Meinen Browserverlauf importieren",
     "offerDone": "Aus deinem Verlauf: {0} Websites zu deiner Sperrliste und {1} zu deinen Arbeits-Websites hinzugefügt.",

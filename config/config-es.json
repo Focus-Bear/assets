@@ -416,7 +416,7 @@
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
         "tabBlockedAppsText": "Aplicaciones Bloqueadas",
         "toDoListWindowTitle": "Focus Bear - Lista de Tareas",
-        "completedText": "Completedo",
+        "completedText": "Completado",
         "inProgressText": "En Progreso",
         "notStartedText": "Sin Iniciar",
         "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos.",
@@ -2199,6 +2199,7 @@
         "buttonSignUpWithGoogle": "Regístrate con Google",
         "buttonSignUpWithApple": "Regístrate con Apple",
         "buttonSignUpWithEmail": "Regístrate con correo electrónico",
+        "buttonSignUpAnonymously": "Registrarme de forma anónima",
         "buttonSignInOldAccountText": "¿Ya tienes una cuenta de Focus Bear? Inicia sesión",
         "buttonCreateAccount": "Crea tu cuenta",
         "orText": "O",
@@ -3061,6 +3062,12 @@
         "buttonDoNotSetPasswordText": "No establecer contraseña"
     },
     "menuTourVcInfo": {
+        "buttonSkipText": "Omitir",
+        "expandDescription": "Haz clic en <EXPAND_ICON>, arriba del menú, para abrir Focus Bear y empezar tu primera sesión de concentración.",
+        "expandIconName": "icono de expandir",
+        "expandTitle": "Empieza tu primera sesión de concentración",
+        "descriptionHiddenTray": "Focus Bear está entre tus iconos ocultos. Haz clic en la flecha ^ de la barra de tareas y luego en el oso para abrir el menú de Focus Bear.",
+        "trayTitle": "Aquí encontrarás Focus Bear",
         "title": "Menú de Focus Bear",
         "buttonGetStartedText": "Iniciar",
         "buttonNextText": "Siguiente >",
@@ -3313,6 +3320,9 @@
       "stepAsideNotice": "Focus Bear se aparta durante un máximo de 30 segundos para que puedas activarlo. Vuelve en cuanto esté activado."
     },
     "settingsNew": {
+        "blockingScheduleEmptyButton": "Añadir un horario",
+        "blockingScheduleEmptyBody": "Un horario bloquea tus distracciones a horas fijas, como cada mañana entre semana, para que no tengas que acordarte de empezar una sesión de concentración.",
+        "blockingScheduleEmptyTitle": "Aún no hay horarios de bloqueo",
         "searchSettingsLabel": "Buscar en la configuración",
         "searchSettingsPlaceholder": "Buscar",
         "uiSettingTitle": "IU",
@@ -3851,9 +3861,9 @@
         "focusSettingsText": "Configuración de enfoque"
     },
     "focusStartVcInfo":{
-        "blockingNoticeTitle": "Ahora mismo no se bloquea nada",
-        "blockingNoticeBody": "El bloqueo se activa cuando empiezas una sesión de concentración. ¿Quieres que también se active solo a ciertas horas?",
-        "blockingNoticeButton": "Configurar un horario de bloqueo",
+        "blockingNoticeTitle": "Elige qué bloquear",
+        "blockingNoticeBody": "Todavía no se bloquea nada. Elige los sitios y las apps que te distraen y Focus Bear los bloqueará mientras te concentras.",
+        "blockingNoticeButton": "Configura tu lista de bloqueo",
         "titleSimple": "Inicia una sesión de concentración",
         "titleAdvancedPrefix": "Inicia una sesión de concentración ",
         "titleAdvancedEmphasis": "avanzada",
@@ -4964,6 +4974,7 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+    "dismissHabitSetup": "Ocultar esta sugerencia",
     "calendarConnectFirst": "Conectar un calendario",
     "calendarConnectAnother": "Conectar otro calendario",
     "settingsCalendarsTitle": "Calendarios",
@@ -5870,6 +5881,7 @@
         "menuAddTaskHint": "Intro para añadir, Esc para cancelar",
         "menuDayPlan": "Plan del día",
         "menuViewFullDayPlan": "Ver plan del día completo",
+        "menuViewOpenApp": "Abrir Focus Bear",
         "menuBreaks": "Descansos",
         "menuTakeBreak": "Tómate un descanso consciente",
         "menuStartBreak": "Iniciar un descanso ahora",
@@ -7790,6 +7802,10 @@
   },
   "historyImportInfo": {
     "offerTitle": "Descubre en qué se te va el tiempo",
+    "offerPrefilled": "De tu historial: {0} sitios marcados abajo y {1} añadidos a tus sitios de trabajo. Desmarca los que no quieras bloquear antes de continuar.",
+    "offerPrefilledNoWorkSites": "De tu historial: {0} sitios marcados abajo. Desmarca los que no quieras bloquear antes de continuar.",
+    "legendPrefill": "Los sitios de distracción aparecen marcados en tu lista de bloqueo en la página siguiente, donde decides al final. Los productivos se añaden a los sitios web que usas para trabajar. Los neutrales se quedan como están.",
+    "privacySavedPrefill": "Solo se usan los sitios que marques como distracción o productivos: los de distracción aparecen marcados en tu lista de bloqueo para que lo confirmes, y los productivos se añaden a tus sitios de trabajo. No se guarda nada más.",
     "offerBody": "Importa el historial de tu navegador para ver los sitios en los que pasas más tiempo y luego elige cuáles bloquear.",
     "offerButton": "Importar mi historial",
     "offerDone": "De tu historial: {0} sitios añadidos a tu lista de bloqueo y {1} a tus sitios de trabajo.",

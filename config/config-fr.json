@@ -1786,6 +1786,7 @@
     "buttonSignUpWithGoogle": "S'inscrire avec Google",
     "buttonSignUpWithApple": "S'inscrire avec Apple",
     "buttonSignUpWithEmail": "S'inscrire avec e-mail",
+    "buttonSignUpAnonymously": "S'inscrire anonymement",
     "buttonSignInOldAccountText": "Tu as déjà un compte Focus Bear ? Se connecter",
     "buttonCreateAccount": "Créer ton compte",
     "orText": "OU",
@@ -2651,6 +2652,12 @@
     "buttonDoNotSetPasswordText": "Ne pas définir de mot de passe"
   },
   "menuTourVcInfo": {
+    "buttonSkipText": "Passer",
+    "expandDescription": "Clique sur <EXPAND_ICON> en haut du menu pour ouvrir Focus Bear et lancer ta première session de concentration.",
+    "expandIconName": "icône d'agrandissement",
+    "expandTitle": "Lance ta première session de concentration",
+    "descriptionHiddenTray": "Focus Bear se trouve dans tes icônes masquées. Clique sur la flèche ^ dans la barre des tâches, puis sur l'ours, pour ouvrir le menu Focus Bear.",
+    "trayTitle": "Voici où trouver Focus Bear",
     "title": "Menu Focus Bear",
     "buttonGetStartedText": "Commencer",
     "buttonNextText": "Suivant >",
@@ -2903,6 +2910,9 @@
     "stepAsideNotice": "Focus Bear s’écarte pendant 30 secondes au maximum pour que vous puissiez l’activer. Il revient dès que c’est activé."
   },
   "settingsNew": {
+    "blockingScheduleEmptyButton": "Ajouter un horaire",
+    "blockingScheduleEmptyBody": "Un horaire bloque tes distractions à des heures fixes, par exemple chaque matin en semaine, pour que tu n'aies pas à penser à lancer une session de concentration.",
+    "blockingScheduleEmptyTitle": "Aucun horaire de blocage pour l'instant",
     "searchSettingsLabel": "Rechercher dans les réglages",
     "searchSettingsPlaceholder": "Rechercher",
     "uiSettingTitle": "Interface",
@@ -3460,9 +3470,9 @@
     "focusSettingsText": "Paramètres de focus"
   },
   "focusStartVcInfo": {
-    "blockingNoticeTitle": "Rien n'est bloqué pour le moment",
-    "blockingNoticeBody": "Le blocage s'active quand tu démarres une session de concentration. Tu veux aussi qu'il s'active tout seul à certaines heures ?",
-    "blockingNoticeButton": "Configurer un horaire de blocage",
+    "blockingNoticeTitle": "Choisis ce qu'il faut bloquer",
+    "blockingNoticeBody": "Rien n'est bloqué pour l'instant. Choisis les sites et applications qui te distraient, et Focus Bear les bloquera pendant que tu te concentres.",
+    "blockingNoticeButton": "Configurer ta liste de blocage",
     "titleSimple": "Lance une session de concentration",
     "titleAdvancedPrefix": "Lance ",
     "titleAdvancedEmphasis": "une session avancée",
@@ -4582,6 +4592,7 @@
     "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie."
   },
   "scheduleViewInfo": {
+    "dismissHabitSetup": "Masquer cette suggestion",
     "calendarConnectFirst": "Connecter un calendrier",
     "calendarConnectAnother": "Connecter un autre calendrier",
     "settingsCalendarsTitle": "Calendriers",
@@ -5450,6 +5461,7 @@
     "menuAddTaskHint": "Entrée pour ajouter, Échap pour annuler",
     "menuDayPlan": "Plan de la journée",
     "menuViewFullDayPlan": "Voir le plan complet",
+    "menuViewOpenApp": "Ouvrir Focus Bear",
     "menuBreaks": "Pauses",
     "menuTakeBreak": "Prends une pause consciente",
     "menuStartBreak": "Commencer une pause",
@@ -7823,6 +7835,10 @@
   },
   "historyImportInfo": {
     "offerTitle": "Vois où passe ton temps",
+    "offerPrefilled": "D'après ton historique : {0} sites sont cochés ci-dessous et {1} ajoutés à tes sites de travail. Décoche ceux que tu ne veux pas bloquer avant de continuer.",
+    "offerPrefilledNoWorkSites": "D'après ton historique : {0} sites sont cochés ci-dessous. Décoche ceux que tu ne veux pas bloquer avant de continuer.",
+    "legendPrefill": "Les sites distrayants sont cochés dans ta liste de blocage à la page suivante, où tu fais le choix final. Les sites productifs sont ajoutés aux sites que tu utilises pour travailler. Les sites neutres restent tels quels.",
+    "privacySavedPrefill": "Seuls les sites que tu marques comme distrayants ou productifs sont utilisés : les distrayants sont cochés dans ta liste de blocage pour que tu confirmes, et les productifs sont ajoutés à tes sites de travail. Rien d'autre n'est conservé.",
     "offerBody": "Importe l'historique de ton navigateur pour trouver les sites où tu passes le plus de temps, puis choisis ceux à bloquer.",
     "offerButton": "Importer mon historique",
     "offerDone": "D'après ton historique : {0} sites ajoutés à ta liste de blocage et {1} à tes sites de travail.",

@@ -2199,6 +2199,7 @@
         "buttonSignUpWithGoogle": "Sign Up with Google",
         "buttonSignUpWithApple": "Sign Up with Apple",
         "buttonSignUpWithEmail": "Sign Up with email",
+        "buttonSignUpAnonymously": "Sign up anonymously",
         "buttonSignInOldAccountText": "Already have a Focus Bear account? Sign In",
         "buttonCreateAccount": "Create Your Account",
         "orText": "OR",
@@ -3063,6 +3064,12 @@
         "buttonDoNotSetPasswordText": "Do not set password"
     },
     "menuTourVcInfo": {
+        "buttonSkipText": "Skip",
+        "expandDescription": "Click <EXPAND_ICON> at the top of the menu to open Focus Bear and start your first focus session.",
+        "expandIconName": "expand icon",
+        "expandTitle": "Start your first focus session",
+        "descriptionHiddenTray": "Focus Bear is in your hidden icons. Click the ^ arrow in the taskbar, then the bear, to open the Focus Bear menu.",
+        "trayTitle": "Here's where to find Focus Bear",
         "title": "Focus Bear Menu",
         "buttonGetStartedText": "Get Started",
         "buttonNextText": "Next >",
@@ -3315,6 +3322,9 @@
       "stepAsideNotice": "Focus Bear is out of the way for up to 30 seconds so you can switch this on. It comes back as soon as it's on."
     },
     "settingsNew": {
+        "blockingScheduleEmptyButton": "Add a schedule",
+        "blockingScheduleEmptyBody": "A schedule blocks your distractions at set times, like every weekday morning, so you don't have to remember to start a focus session.",
+        "blockingScheduleEmptyTitle": "No blocking schedules yet",
         "searchSettingsLabel": "Search settings",
         "searchSettingsPlaceholder": "Search",
         "uiSettingTitle": "UI",
@@ -3853,9 +3863,9 @@
         "focusSettingsText": "Focus Settings"
     },
     "focusStartVcInfo":{
-        "blockingNoticeTitle": "Nothing is blocked right now",
-        "blockingNoticeBody": "Blocking turns on when you start a focus session. Want it to turn on by itself at set times too?",
-        "blockingNoticeButton": "Set up a blocking schedule",
+        "blockingNoticeTitle": "Choose what to block",
+        "blockingNoticeBody": "Nothing is blocked yet. Pick the sites and apps that pull you away, and Focus Bear will block them while you focus.",
+        "blockingNoticeButton": "Set up your block list",
         "titleSimple": "Start a focus session",
         "titleAdvancedPrefix": "Start ",
         "titleAdvancedEmphasis": "an advanced",
@@ -4966,6 +4976,7 @@
         "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
+    "dismissHabitSetup": "Hide this suggestion",
     "calendarConnectFirst": "Connect a calendar",
     "calendarConnectAnother": "Connect another calendar",
     "settingsCalendarsTitle": "Calendars",
@@ -5872,6 +5883,7 @@
         "menuAddTaskHint": "Enter to add, Esc to cancel",
         "menuDayPlan": "Day Plan",
         "menuViewFullDayPlan": "View full day plan",
+        "menuViewOpenApp": "Open Focus Bear",
         "menuBreaks": "Breaks",
         "menuTakeBreak": "Take a mindful break",
         "menuStartBreak": "Start a break now",
@@ -7792,6 +7804,10 @@
   },
   "historyImportInfo": {
     "offerTitle": "See where your time goes",
+    "offerPrefilled": "From your history: {0} sites are ticked below and {1} added to your work sites. Untick any you don't want blocked before you proceed.",
+    "offerPrefilledNoWorkSites": "From your history: {0} sites are ticked below. Untick any you don't want blocked before you proceed.",
+    "legendPrefill": "Distracting sites are ticked on your block list on the next page, where you make the final choice. Productive sites are added to the websites you use for work. Neutral sites are left as they are.",
+    "privacySavedPrefill": "Only the sites you mark as distracting or productive are used: distracting ones are ticked on your block list for you to confirm, and productive ones are added to your work sites. Nothing else is kept.",
     "offerBody": "Import your browser history to find the sites you spend the most time on, then choose which ones to block.",
     "offerButton": "Import my browser history",
     "offerDone": "From your history: {0} sites added to your block list and {1} to your work sites.",

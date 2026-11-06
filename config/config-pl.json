@@ -1786,6 +1786,7 @@
     "buttonSignUpWithGoogle": "Zarejestruj się przez Google",
     "buttonSignUpWithApple": "Zarejestruj się przez Apple",
     "buttonSignUpWithEmail": "Zarejestruj się przez e-mail",
+    "buttonSignUpAnonymously": "Zarejestruj się anonimowo",
     "buttonSignInOldAccountText": "Masz już konto Focus Bear? Zaloguj się",
     "buttonCreateAccount": "Utwórz konto",
     "orText": "LUB",
@@ -2651,6 +2652,12 @@
     "buttonDoNotSetPasswordText": "Nie ustawiaj hasła"
   },
   "menuTourVcInfo": {
+    "buttonSkipText": "Pomiń",
+    "expandDescription": "Kliknij <EXPAND_ICON> u góry menu, aby otworzyć Focus Bear i rozpocząć pierwszą sesję skupienia.",
+    "expandIconName": "ikona rozwijania",
+    "expandTitle": "Rozpocznij pierwszą sesję skupienia",
+    "descriptionHiddenTray": "Focus Bear jest wśród ukrytych ikon. Kliknij strzałkę ^ na pasku zadań, a potem niedźwiedzia, aby otworzyć menu Focus Bear.",
+    "trayTitle": "Tutaj znajdziesz Focus Bear",
     "title": "Menu Focus Bear",
     "buttonGetStartedText": "Rozpocznij",
     "buttonNextText": "Dalej >",
@@ -2903,6 +2910,9 @@
     "stepAsideNotice": "Focus Bear schodzi z drogi na maksymalnie 30 sekund, aby można było to włączyć. Wraca, gdy tylko zostanie włączone."
   },
   "settingsNew": {
+    "blockingScheduleEmptyButton": "Dodaj harmonogram",
+    "blockingScheduleEmptyBody": "Harmonogram blokuje rozpraszacze o stałych porach, na przykład w każdy poranek dnia roboczego, więc nie musisz pamiętać o rozpoczęciu sesji skupienia.",
+    "blockingScheduleEmptyTitle": "Nie masz jeszcze harmonogramów blokowania",
     "searchSettingsLabel": "Szukaj w ustawieniach",
     "searchSettingsPlaceholder": "Szukaj",
     "uiSettingTitle": "Interfejs",
@@ -3460,9 +3470,9 @@
     "focusSettingsText": "Ustawienia skupienia"
   },
   "focusStartVcInfo": {
-    "blockingNoticeTitle": "W tej chwili nic nie jest blokowane",
-    "blockingNoticeBody": "Blokowanie włącza się, gdy zaczynasz sesję skupienia. Chcesz, żeby włączało się też samo o ustalonych porach?",
-    "blockingNoticeButton": "Ustaw harmonogram blokowania",
+    "blockingNoticeTitle": "Wybierz, co blokować",
+    "blockingNoticeBody": "Nic nie jest jeszcze blokowane. Wybierz strony i aplikacje, które cię rozpraszają, a Focus Bear zablokuje je, gdy się skupiasz.",
+    "blockingNoticeButton": "Skonfiguruj listę blokowania",
     "titleSimple": "Rozpocznij sesję skupienia",
     "titleAdvancedPrefix": "Rozpocznij ",
     "titleAdvancedEmphasis": "zaawansowaną",
@@ -4582,6 +4592,7 @@
     "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie."
   },
   "scheduleViewInfo": {
+    "dismissHabitSetup": "Ukryj tę sugestię",
     "calendarConnectFirst": "Połącz kalendarz",
     "calendarConnectAnother": "Połącz kolejny kalendarz",
     "settingsCalendarsTitle": "Kalendarze",
@@ -5450,6 +5461,7 @@
     "menuAddTaskHint": "Enter, aby dodać, Esc, aby anulować",
     "menuDayPlan": "Plan dnia",
     "menuViewFullDayPlan": "Zobacz pełny plan dnia",
+    "menuViewOpenApp": "Otwórz Focus Bear",
     "menuBreaks": "Przerwy",
     "menuTakeBreak": "Zrób uważną przerwę",
     "menuStartBreak": "Zacznij przerwę teraz",
@@ -7823,6 +7835,10 @@
   },
   "historyImportInfo": {
     "offerTitle": "Zobacz, na co idzie Twój czas",
+    "offerPrefilled": "Z Twojej historii: {0} stron zaznaczono poniżej, a {1} dodano do Twoich stron do pracy. Odznacz te, których nie chcesz blokować, zanim przejdziesz dalej.",
+    "offerPrefilledNoWorkSites": "Z Twojej historii: {0} stron zaznaczono poniżej. Odznacz te, których nie chcesz blokować, zanim przejdziesz dalej.",
+    "legendPrefill": "Rozpraszające strony są zaznaczone na Twojej liście blokowanych na następnej stronie, gdzie podejmujesz ostateczną decyzję. Produktywne strony są dodawane do stron, których używasz do pracy. Neutralne strony pozostają bez zmian.",
+    "privacySavedPrefill": "Używane są tylko strony oznaczone jako rozpraszające lub produktywne: rozpraszające są zaznaczone na Twojej liście blokowanych do potwierdzenia, a produktywne są dodawane do Twoich stron do pracy. Nic więcej nie jest przechowywane.",
     "offerBody": "Zaimportuj historię przeglądarki, aby znaleźć strony, na których spędzasz najwięcej czasu, a potem wybierz, które zablokować.",
     "offerButton": "Importuj moją historię przeglądania",
     "offerDone": "Z Twojej historii: {0} stron dodanych do listy blokowanych i {1} do stron do pracy.",
