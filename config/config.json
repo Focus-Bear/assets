@@ -460,6 +460,8 @@
         "taskCreated": "\"<TASK>\" task created successfully."
     },
     "callNotifier": {
+        "meetingTooltipText": "Focus Bear detected that your microphone or camera is in use, so we won't show break reminders during the meeting. A focus session or blocking schedule keeps blocking as usual.",
+        "meetingTooltipBreaksOnText": "Focus Bear detected that your microphone or camera is in use. You've chosen to keep break reminders on during meetings, so they'll still appear. A focus session or blocking schedule keeps blocking as usual.",
         "micUsageText": "is using your microphone",
         "webcamUsageText": "is using your webcam"
     },
@@ -6666,6 +6668,12 @@
         "allWebsitesAllowed": "All websites are allowed"
     },
     "managedBlockingInfo": {
+        "appWindowBlocked": "<SITE> isn't allowed right now, so this <BROWSER> window was minimised.",
+        "browserUnchecked": "<APP_NAME> can't be checked by your school or home controls, so it was minimised. Use Chrome, Edge, Firefox, Brave or Vivaldi instead.",
+        "quitLocked": "Focus Bear can't be closed while school or home controls are on. Ask your school or a parent if it needs to be turned off.",
+        "signOutLocked": "You can't sign out of Focus Bear while school or home controls are on. Ask your school or a parent for help.",
+        "blocklist": "Blocked websites",
+        "blockedApps": "Blocked apps",
         "blocklistBodySchool": "This website is on your school's blocked websites list.",
         "blocklistBodyHome": "This website is on your home blocked websites list.",
         "appBlockedSchool": "<APP_NAME> is blocked by your school's <POLICY> schedule.",

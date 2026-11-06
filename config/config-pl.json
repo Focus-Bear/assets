@@ -431,6 +431,8 @@
     "taskCreated": "Zadanie „<TASK>” zostało utworzone."
   },
   "callNotifier": {
+    "meetingTooltipText": "Focus Bear wykrył, że twój mikrofon lub kamera są w użyciu, więc nie będziemy pokazywać przypomnień o przerwie podczas spotkania. Sesja skupienia lub harmonogram blokowania nadal blokuje jak zwykle.",
+    "meetingTooltipBreaksOnText": "Focus Bear wykrył, że twój mikrofon lub kamera są w użyciu. Wybrałeś, aby przypomnienia o przerwie pozostały włączone podczas spotkań, więc nadal będą się pojawiać. Sesja skupienia lub harmonogram blokowania nadal blokuje jak zwykle.",
     "micUsageText": "korzysta z Twojego mikrofonu",
     "webcamUsageText": "korzysta z Twojej kamery internetowej"
   },
@@ -6244,6 +6246,12 @@
     "allWebsitesAllowed": "Wszystkie strony są dozwolone"
   },
   "managedBlockingInfo": {
+    "appWindowBlocked": "Strona <SITE> jest teraz niedozwolona, więc to okno przeglądarki <BROWSER> zostało zminimalizowane.",
+    "browserUnchecked": "Kontrola szkolna lub domowa nie może sprawdzić aplikacji <APP_NAME>, więc została zminimalizowana. Zamiast niej użyj Chrome, Edge, Firefox, Brave lub Vivaldi.",
+    "quitLocked": "Nie można zamknąć Focus Bear, gdy włączona jest kontrola szkolna lub domowa. Zapytaj szkołę lub rodzica, jeśli trzeba ją wyłączyć.",
+    "signOutLocked": "Nie możesz wylogować się z Focus Bear, gdy włączona jest kontrola szkolna lub domowa. Poproś o pomoc szkołę lub rodzica.",
+    "blocklist": "Zablokowane strony",
+    "blockedApps": "Zablokowane aplikacje",
     "blocklistBodySchool": "Ta strona jest na liście stron zablokowanych przez Twoją szkołę.",
     "blocklistBodyHome": "Ta strona jest na domowej liście zablokowanych stron.",
     "appBlockedSchool": "Aplikacja <APP_NAME> jest zablokowana przez szkolny harmonogram <POLICY>.",

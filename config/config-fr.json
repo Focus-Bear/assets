@@ -431,6 +431,8 @@
     "taskCreated": "Tâche « <TASK> » créée."
   },
   "callNotifier": {
+    "meetingTooltipText": "Focus Bear a détecté que ton micro ou ta caméra est utilisé, donc nous n'afficherons pas de rappels de pause pendant la réunion. Une session de concentration ou un horaire de blocage continue de bloquer comme d'habitude.",
+    "meetingTooltipBreaksOnText": "Focus Bear a détecté que ton micro ou ta caméra est utilisé. Tu as choisi de garder les rappels de pause pendant les réunions, donc ils continueront de s'afficher. Une session de concentration ou un horaire de blocage continue de bloquer comme d'habitude.",
     "micUsageText": "utilise ton microphone",
     "webcamUsageText": "utilise ta webcam"
   },
@@ -6244,6 +6246,12 @@
     "allWebsitesAllowed": "Tous les sites sont autorisés"
   },
   "managedBlockingInfo": {
+    "appWindowBlocked": "<SITE> n'est pas autorisé pour le moment, donc cette fenêtre <BROWSER> a été réduite.",
+    "browserUnchecked": "Les contrôles scolaires ou familiaux ne peuvent pas vérifier <APP_NAME>, donc l'app a été réduite. Utilise plutôt Chrome, Edge, Firefox, Brave ou Vivaldi.",
+    "quitLocked": "Focus Bear ne peut pas être fermé tant que les contrôles scolaires ou familiaux sont activés. Demande à ton école ou à un parent s'ils doivent être désactivés.",
+    "signOutLocked": "Tu ne peux pas te déconnecter de Focus Bear tant que les contrôles scolaires ou familiaux sont activés. Demande de l'aide à ton école ou à un parent.",
+    "blocklist": "Sites bloqués",
+    "blockedApps": "Apps bloquées",
     "blocklistBodySchool": "Ce site figure sur la liste des sites bloqués de ton école.",
     "blocklistBodyHome": "Ce site figure sur la liste familiale des sites bloqués.",
     "appBlockedSchool": "L’horaire <POLICY> de ton école bloque <APP_NAME>.",
