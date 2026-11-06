@@ -374,7 +374,7 @@
         "alertOnboardingVideoText": "Podrás utilizar el menú de Focus Bear en cuanto hayas terminado de ver el vídeo de introducción.",
         "tabBlockedAppsText": "Aplicaciones Bloqueadas",
         "toDoListWindowTitle": "Focus Bear - Lista de Tareas",
-        "completedText": "Completedo",
+        "completedText": "Completado",
         "inProgressText": "En Progreso",
         "notStartedText": "Sin Iniciar",
         "cutOffTimePassedsubTitle": "Tus hábitos de alta prioridad comenzarán después de 5 segundos.",
@@ -7739,6 +7739,7 @@
   "historyImportInfo": {
     "offerTitle": "Descubre en qué se te va el tiempo",
     "offerPrefilled": "De tu historial: {0} sitios marcados abajo y {1} añadidos a tus sitios de trabajo. Desmarca los que no quieras bloquear antes de continuar.",
+    "offerPrefilledNoWorkSites": "De tu historial: {0} sitios marcados abajo. Desmarca los que no quieras bloquear antes de continuar.",
     "legendPrefill": "Los sitios de distracción aparecen marcados en tu lista de bloqueo en la página siguiente, donde decides al final. Los productivos se añaden a los sitios web que usas para trabajar. Los neutrales se quedan como están.",
     "privacySavedPrefill": "Solo se usan los sitios que marques como distracción o productivos: los de distracción aparecen marcados en tu lista de bloqueo para que lo confirmes, y los productivos se añaden a tus sitios de trabajo. No se guarda nada más.",
     "offerBody": "Importa el historial de tu navegador para ver los sitios en los que pasas más tiempo y luego elige cuáles bloquear.",
