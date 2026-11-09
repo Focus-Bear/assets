@@ -7708,6 +7708,7 @@
         "interruptedPlan": "Focus Bear uruchomił się ponownie, gdy plan Claude'a na ciebie czekał. Wznów, aby zobaczyć go ponownie.",
         "interruptedQuestions": "Focus Bear uruchomił się ponownie, gdy Claude czekał na twoje odpowiedzi. Wznów, aby odpowiedzieć.",
         "interruptedApproval": "Focus Bear uruchomił się ponownie, gdy Claude czekał na twoją zgodę (<REQUEST>). Wznów, a zapyta ponownie.",
+        "resumedAfterRestart": "Focus Bear uruchomił się ponownie — Claude kontynuuje tam, gdzie skończył.",
         "ranCommands": "Uruchomiono polecenia: <COUNT>",
         "usedTools": "Użyto narzędzi: <COUNT>",
         "workStartedMessage": "OK, Claude się tym zajmuje 🤓",

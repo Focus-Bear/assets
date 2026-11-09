@@ -7669,6 +7669,7 @@
         "interruptedPlan": "Focus Bear restarted while Claude's plan was ready for you. Resume to see it again.",
         "interruptedQuestions": "Focus Bear restarted while Claude was waiting for your answers. Resume to answer them.",
         "interruptedApproval": "Focus Bear restarted while Claude was waiting for your approval (<REQUEST>). Resume and it will ask again.",
+        "resumedAfterRestart": "Focus Bear restarted — picking up where Claude left off.",
         "ranCommands": "Ran <COUNT> commands",
         "usedTools": "Used <COUNT> tools",
         "workStartedMessage": "Ok Claude is on it 🤓",
