@@ -1844,6 +1844,9 @@
   },
   "upgradeNowUrl": "https://dashboard.focusbear.io/manage-subscription",
   "customLoginVcInfo": {
+    "signUpHeading": "Crée ton compte Focus Bear",
+    "passwordRuleMet": "respectée",
+    "passwordRuleNotMet": "pas encore respectée",
     "titleSignIn": "Connexion",
     "titleSignUp": "Inscription",
     "subTitleCreateAccount": "Créer un compte",
