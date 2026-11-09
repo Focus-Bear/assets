@@ -1336,6 +1336,8 @@
         "buttonShortenHabitsText": "Shortening habits on the Day Plan"
     },
     "blockedUrlsViewInfo": {
+        "buttonAddAccessibilityLabel": "Add website",
+        "buttonRemoveAccessibilityLabel": "Remove selected website",
         "title": "Super Distracting Sites",
         "invalidDomainText": "Adding * will block all urls. Please use another combination.",
         "subTitleText": "Which sites do you waste time on? Focus Bear will help you be more intentional about how you use these sites. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the site.",
@@ -2607,6 +2609,7 @@
         "buttonContinueText": "Continue"
     },
     "blockListViewInfo": {
+        "removeEntryNamed": "Remove <NAME>",
         "blockListMode": "Block List",
         "allowListMode": "Allow List",
         "changeListMode": "Switch between editing your block list and your allow list",
@@ -3145,6 +3148,8 @@
         "buttonBlockAppText": "I'm done. Block this app now"
     },
     "blockedAppsViewInfo": {
+        "buttonAddAccessibilityLabel": "Add app",
+        "buttonRemoveAccessibilityLabel": "Remove selected app",
         "title": "Super Distracting Apps",
         "subTitleText": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions. The rest of the time, Focus Bear will ask you why you want to use the app.",
         "checkBoxText": "Immediately block super distracting apps",
@@ -3152,6 +3157,8 @@
         "subTitleTextNew": "Which apps do you waste time on? Focus Bear will help you be more intentional about how you use these apps. They will be blocked during focus sessions and blocking schedules."
     },
     "alwaysAllowedAppsViewInfo": {
+        "buttonAddAccessibilityLabel": "Add always allowed app",
+        "buttonRemoveAccessibilityLabel": "Remove selected always allowed app",
         "title": "Always Allowed Apps",
         "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
@@ -6132,6 +6139,8 @@
         "buttonCancel": "Cancel"
     },
     "blockingScheduleEditorVcInfo":{
+        "chooseBlockIcon": "Choose block icon",
+        "noBlockIcon": "No icon",
         "titleActiveTime": "Active time",
         "titleEveryday": "Everyday",
         "titleStrictnessFlexible": "Flexible",
@@ -7788,6 +7797,10 @@
     "signInAgainFailed": "Sign-in didn't finish. Your blocking is still on — try again."
   },
   "routineSuggestionsInfo": {
+    "addCustomGoalButton": "Add custom goal",
+    "addHabitToMorning": "Add habit to Morning Routine",
+    "addHabitToEvening": "Add habit to Evening Routine",
+    "addActivityToBreaks": "Add activity to Break Activities",
     "progressLabel": "Step %d of %d",
     "goBack": "Go back",
     "notNow": "Not now",

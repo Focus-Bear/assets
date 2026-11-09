@@ -1329,6 +1329,8 @@
     "buttonShortenHabitsText": "Skracanie nawyków w Planie dnia"
   },
   "blockedUrlsViewInfo": {
+    "buttonAddAccessibilityLabel": "Dodaj witrynę",
+    "buttonRemoveAccessibilityLabel": "Usuń wybraną witrynę",
     "title": "Bardzo rozpraszające witryny",
     "invalidDomainText": "Dodanie * zablokuje wszystkie adresy URL. Użyj innej kombinacji.",
     "subTitleText": "Na jakich witrynach tracisz czas? Focus Bear pomoże Ci bardziej świadomie korzystać z tych witryn. Będą one blokowane podczas sesji skupienia. W pozostałym czasie Focus Bear zapyta Cię, dlaczego chcesz skorzystać z witryny.",
@@ -2194,6 +2196,7 @@
     "buttonContinueText": "Dalej"
   },
   "blockListViewInfo": {
+    "removeEntryNamed": "Usuń <NAME>",
     "blockListMode": "Lista blokowania",
     "allowListMode": "Lista dozwolonych",
     "changeListMode": "Przełączaj między edycją listy blokowania a listą dozwolonych",
@@ -2733,6 +2736,8 @@
     "buttonBlockAppText": "Skończyłem. Zablokuj tę aplikację teraz"
   },
   "blockedAppsViewInfo": {
+    "buttonAddAccessibilityLabel": "Dodaj aplikację",
+    "buttonRemoveAccessibilityLabel": "Usuń wybraną aplikację",
     "title": "Bardzo rozpraszające aplikacje",
     "subTitleText": "Na jakich aplikacjach tracisz czas? Focus Bear pomoże ci świadomiej korzystać z tych aplikacji. Będą one blokowane podczas sesji skupienia. W pozostałym czasie Focus Bear zapyta cię, dlaczego chcesz użyć danej aplikacji.",
     "checkBoxText": "Natychmiast blokuj bardzo rozpraszające aplikacje",
@@ -2740,6 +2745,8 @@
     "subTitleTextNew": "Na jakich aplikacjach tracisz czas? Focus Bear pomoże ci świadomiej korzystać z tych aplikacji. Będą one blokowane podczas sesji skupienia i harmonogramów blokowania."
   },
   "alwaysAllowedAppsViewInfo": {
+    "buttonAddAccessibilityLabel": "Dodaj zawsze dozwoloną aplikację",
+    "buttonRemoveAccessibilityLabel": "Usuń wybraną zawsze dozwoloną aplikację",
     "title": "Zawsze dozwolone aplikacje",
     "subTitleText": "Aplikacje dodane tutaj nigdy nie zostaną zablokowane, niezależnie od trybu skupienia, harmonogramów blokowania czy ustawień rygoru. Użyj tego dla najważniejszych aplikacji, do których zawsze potrzebujesz dostępu."
   },
@@ -5710,6 +5717,8 @@
     "buttonCancel": "Anuluj"
   },
   "blockingScheduleEditorVcInfo": {
+    "chooseBlockIcon": "Wybierz ikonę blokady",
+    "noBlockIcon": "Brak ikony",
     "titleActiveTime": "Czas aktywny",
     "titleEveryday": "Codziennie",
     "titleStrictnessFlexible": "Elastyczny",
@@ -7819,6 +7828,10 @@
         "turnedOffBySchoolText": "Wyłączone przez Twoją szkołę"
     },
   "routineSuggestionsInfo": {
+    "addCustomGoalButton": "Dodaj własny cel",
+    "addHabitToMorning": "Dodaj nawyk do porannej rutyny",
+    "addHabitToEvening": "Dodaj nawyk do wieczornej rutyny",
+    "addActivityToBreaks": "Dodaj aktywność do aktywności na przerwy",
     "progressLabel": "Krok %d z %d",
     "goBack": "Wstecz",
     "notNow": "Nie teraz",
