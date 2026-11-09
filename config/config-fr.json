@@ -7708,6 +7708,7 @@
         "interruptedPlan": "Focus Bear a redémarré alors que le plan de Claude t'attendait. Reprends pour le revoir.",
         "interruptedQuestions": "Focus Bear a redémarré pendant que Claude attendait tes réponses. Reprends pour y répondre.",
         "interruptedApproval": "Focus Bear a redémarré pendant que Claude attendait ton accord (<REQUEST>). Reprends et il redemandera.",
+        "resumedAfterRestart": "Focus Bear a redémarré — Claude reprend là où il s'était arrêté.",
         "ranCommands": "<COUNT> commandes exécutées",
         "usedTools": "<COUNT> outils utilisés",
         "workStartedMessage": "Ok, Claude s'en occupe 🤓",
