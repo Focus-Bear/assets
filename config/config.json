@@ -1,4 +1,12 @@
 {
+  "afterCutoffRoutineLockInfo": {
+    "title": "Routine timing is locked until tomorrow",
+    "bannerText": "It's past your cutoff time. You can still change your morning routine's habits: add, remove, reorder or rename them, and change their durations and descriptions. Routine start times, your cutoff time, tonight's evening routine, your other routines and breaks stay locked until tomorrow, and changes to them are undone when you save.",
+    "gateText": "It's past your cutoff time, so routine start times, your cutoff time, tonight's evening routine, your other routines and breaks are locked until tomorrow. You can still change your morning routine's habits, as long as at least one is left.",
+    "buttonUnlock": "Unlock with password",
+    "undoneTitle": "Some changes were undone",
+    "undoneText": "It's past your cutoff time, so routine start times, your cutoff time, tonight's evening routine, your other routines and breaks are locked until tomorrow. Your morning routine's habits were saved."
+  },
   "focusSessionCompleteInfo": {
     "title": "GREAT JOB!",
     "subtitle": "Focus session complete — look at you getting things done.",

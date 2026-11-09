@@ -1,4 +1,12 @@
 {
+  "afterCutoffRoutineLockInfo": {
+    "title": "El horario de tus rutinas está bloqueado hasta mañana",
+    "bannerText": "Ya pasó tu hora límite. Aún puedes cambiar los hábitos de tu rutina de la mañana: añadirlos, quitarlos, reordenarlos o renombrarlos, y cambiar su duración y su descripción. Las horas de inicio de las rutinas, tu hora límite, la rutina de esta noche, tus otras rutinas y los descansos quedan bloqueados hasta mañana, y los cambios en ellos se deshacen al guardar.",
+    "gateText": "Ya pasó tu hora límite, así que las horas de inicio de las rutinas, tu hora límite, la rutina de esta noche, tus otras rutinas y los descansos están bloqueados hasta mañana. Aún puedes cambiar los hábitos de tu rutina de la mañana, siempre que quede al menos uno.",
+    "buttonUnlock": "Desbloquear con contraseña",
+    "undoneTitle": "Se deshicieron algunos cambios",
+    "undoneText": "Ya pasó tu hora límite, así que las horas de inicio de las rutinas, tu hora límite, la rutina de esta noche, tus otras rutinas y los descansos están bloqueados hasta mañana. Los hábitos de tu rutina de la mañana se guardaron."
+  },
   "focusSessionCompleteInfo": {
     "title": "¡BUEN TRABAJO!",
     "subtitle": "Sesión de concentración completada: ¡mira todo lo que has logrado!",

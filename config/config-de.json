@@ -1,4 +1,12 @@
 {
+  "afterCutoffRoutineLockInfo": {
+    "title": "Die Zeiten deiner Routinen sind bis morgen gesperrt",
+    "bannerText": "Deine Grenzzeit ist vorbei. Die Gewohnheiten deiner Morgenroutine kannst du weiterhin ändern: hinzufügen, entfernen, umsortieren oder umbenennen und ihre Dauer und Beschreibung anpassen. Die Startzeiten der Routinen, deine Grenzzeit, die heutige Abendroutine, deine anderen Routinen und die Pausen bleiben bis morgen gesperrt, und Änderungen daran werden beim Speichern rückgängig gemacht.",
+    "gateText": "Deine Grenzzeit ist vorbei, deshalb sind die Startzeiten der Routinen, deine Grenzzeit, die heutige Abendroutine, deine anderen Routinen und die Pausen bis morgen gesperrt. Die Gewohnheiten deiner Morgenroutine kannst du weiterhin ändern, solange mindestens eine übrig bleibt.",
+    "buttonUnlock": "Mit Passwort entsperren",
+    "undoneTitle": "Einige Änderungen wurden rückgängig gemacht",
+    "undoneText": "Deine Grenzzeit ist vorbei, deshalb sind die Startzeiten der Routinen, deine Grenzzeit, die heutige Abendroutine, deine anderen Routinen und die Pausen bis morgen gesperrt. Die Gewohnheiten deiner Morgenroutine wurden gespeichert."
+  },
   "focusSessionCompleteInfo": {
     "title": "GROSSARTIG!",
     "subtitle": "Fokus-Sitzung abgeschlossen – schau, was du alles geschafft hast.",
