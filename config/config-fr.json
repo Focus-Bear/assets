@@ -1329,6 +1329,8 @@
     "buttonShortenHabitsText": "Raccourcir des habitudes dans le Plan de la journée"
   },
   "blockedUrlsViewInfo": {
+    "buttonAddAccessibilityLabel": "Ajouter un site web",
+    "buttonRemoveAccessibilityLabel": "Retirer le site web sélectionné",
     "title": "Sites super distrayants",
     "invalidDomainText": "Ajouter * bloquera toutes les URL. Merci d'utiliser une autre combinaison.",
     "subTitleText": "Sur quels sites perds-tu du temps ? Focus Bear t'aide à être plus intentionnel(le) dans l'utilisation de ces sites. Ils seront bloqués pendant les sessions de concentration. Le reste du temps, Focus Bear te demandera pourquoi tu veux utiliser le site.",
@@ -2194,6 +2196,7 @@
     "buttonContinueText": "Continuer"
   },
   "blockListViewInfo": {
+    "removeEntryNamed": "Supprimer <NAME>",
     "blockListMode": "Liste de blocage",
     "allowListMode": "Liste d'autorisation",
     "changeListMode": "Bascule entre la modification de ta liste de blocage et de ta liste d'autorisation",
@@ -2733,6 +2736,8 @@
     "buttonBlockAppText": "J'ai terminé. Bloquer cette appli maintenant"
   },
   "blockedAppsViewInfo": {
+    "buttonAddAccessibilityLabel": "Ajouter une app",
+    "buttonRemoveAccessibilityLabel": "Retirer l’app sélectionnée",
     "title": "Applications super distrayantes",
     "subTitleText": "Sur quelles applications perds-tu du temps ? Focus Bear t'aidera à être plus intentionnel dans l'utilisation de ces applications. Elles seront bloquées pendant les sessions de concentration. Le reste du temps, Focus Bear te demandera pourquoi tu veux utiliser l'application.",
     "checkBoxText": "Bloquer immédiatement les applications super distrayantes",
@@ -2740,6 +2745,8 @@
     "subTitleTextNew": "Sur quelles applications perds-tu du temps ? Focus Bear t'aidera à être plus intentionnel dans l'utilisation de ces applications. Elles seront bloquées pendant les sessions de concentration et les plannings de blocage."
   },
   "alwaysAllowedAppsViewInfo": {
+    "buttonAddAccessibilityLabel": "Ajouter une app toujours autorisée",
+    "buttonRemoveAccessibilityLabel": "Retirer l’app toujours autorisée sélectionnée",
     "title": "Applications toujours autorisées",
     "subTitleText": "Les applications ajoutées ici ne seront jamais bloquées, quels que soient le mode concentration, les plannings de blocage ou les paramètres de sévérité. Utilise cette option pour les applications essentielles auxquelles tu as toujours besoin d'accéder."
   },
@@ -5710,6 +5717,8 @@
     "buttonCancel": "Annuler"
   },
   "blockingScheduleEditorVcInfo": {
+    "chooseBlockIcon": "Choisir l’icône du blocage",
+    "noBlockIcon": "Aucune icône",
     "titleActiveTime": "Plage active",
     "titleEveryday": "Tous les jours",
     "titleStrictnessFlexible": "Flexible",
@@ -7818,6 +7827,10 @@
         "turnedOffBySchoolText": "Désactivé par ton école"
     },
   "routineSuggestionsInfo": {
+    "addCustomGoalButton": "Ajouter un objectif personnalisé",
+    "addHabitToMorning": "Ajouter une habitude à la routine du matin",
+    "addHabitToEvening": "Ajouter une habitude à la routine du soir",
+    "addActivityToBreaks": "Ajouter une activité aux activités de pause",
     "progressLabel": "Étape %d sur %d",
     "goBack": "Retour",
     "notNow": "Pas maintenant",

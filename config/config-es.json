@@ -1336,6 +1336,8 @@
         "buttonShortenHabitsText": "Acortar hábitos en el Plan del día"
     },
     "blockedUrlsViewInfo": {
+        "buttonAddAccessibilityLabel": "Añadir sitio web",
+        "buttonRemoveAccessibilityLabel": "Quitar el sitio web seleccionado",
         "title": "Sitios Super Distractores",
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utiliza otra combinación.",
         "subTitleText": "¿En qué sitios pierdes el tiempo? Focus Bear te ayudará a ser más consciente de cómo utilizas estos sitios. Se bloquearán durante las sesiones de enfoque. El resto del tiempo, Focus Bear te preguntará por qué quieres utilizar el sitio.",
@@ -2607,6 +2609,7 @@
         "buttonContinueText": "Continuar"
     },
     "blockListViewInfo": {
+        "removeEntryNamed": "Eliminar <NAME>",
         "blockListMode": "Lista de bloqueo",
         "allowListMode": "Lista de permitidos",
         "changeListMode": "Cambia entre editar tu lista de bloqueo y tu lista de permitidos",
@@ -3143,6 +3146,8 @@
         "buttonBlockAppText": "Terminé. Bloquear esta aplicación ahora"
     },
     "blockedAppsViewInfo": {
+        "buttonAddAccessibilityLabel": "Añadir app",
+        "buttonRemoveAccessibilityLabel": "Quitar la app seleccionada",
         "title": "Aplicaciones Super Distractoras",
         "subTitleText": "¿En qué aplicaciones pierdes el tiempo? Focus Bear te ayudará a ser más consciente de cómo usas estas aplicaciones. Se bloquearán durante las sesiones de enfoque. El resto del tiempo, Focus Bear te preguntará por qué quieres usar la aplicación.",
         "checkBoxText": "Bloquear inmediatamente aplicaciones súper distractoras",
@@ -3150,6 +3155,8 @@
         "subTitleTextNew": "¿En qué apps pierdes tiempo? Focus Bear te ayudará a usar estas apps de manera más intencional. Se bloquearán durante las sesiones de enfoque y los horarios de bloqueo."
     },
     "alwaysAllowedAppsViewInfo": {
+        "buttonAddAccessibilityLabel": "Añadir app siempre permitida",
+        "buttonRemoveAccessibilityLabel": "Quitar la app siempre permitida seleccionada",
         "title": "Aplicaciones Siempre Permitidas",
         "subTitleText": "Las aplicaciones añadidas aquí nunca serán bloqueadas, independientemente del modo de enfoque, los horarios de bloqueo o la configuración de restricción. Usa esto para aplicaciones esenciales a las que siempre necesitas acceso."
     },
@@ -6130,6 +6137,8 @@
         "buttonCancel": "Cancelar"
     },
     "blockingScheduleEditorVcInfo":{
+        "chooseBlockIcon": "Elegir icono del bloqueo",
+        "noBlockIcon": "Sin icono",
         "titleActiveTime": "Horario activo",
         "titleEveryday": "Todos los días",
         "titleStrictnessFlexible": "Flexible",
@@ -7785,6 +7794,10 @@
     "signInAgainFailed": "No se completó el inicio de sesión. El bloqueo sigue activo; inténtalo de nuevo."
   },
   "routineSuggestionsInfo": {
+    "addCustomGoalButton": "Añadir objetivo personalizado",
+    "addHabitToMorning": "Añadir hábito a la rutina de mañana",
+    "addHabitToEvening": "Añadir hábito a la rutina de noche",
+    "addActivityToBreaks": "Añadir actividad a las actividades de descanso",
     "progressLabel": "Paso %d de %d",
     "goBack": "Volver",
     "notNow": "Ahora no",
