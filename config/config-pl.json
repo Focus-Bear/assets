@@ -1,4 +1,12 @@
 {
+  "afterCutoffRoutineLockInfo": {
+    "title": "Godziny twoich rutyn są zablokowane do jutra",
+    "bannerText": "Minęła twoja godzina graniczna. Nadal możesz zmieniać nawyki porannej rutyny: dodawać je, usuwać, zmieniać ich kolejność i nazwy, a także czas trwania i opis. Godziny rozpoczęcia rutyn, twoja godzina graniczna, dzisiejsza wieczorna rutyna, pozostałe rutyny i przerwy pozostają zablokowane do jutra, a ich zmiany zostaną cofnięte przy zapisie.",
+    "gateText": "Minęła twoja godzina graniczna, więc godziny rozpoczęcia rutyn, twoja godzina graniczna, dzisiejsza wieczorna rutyna, pozostałe rutyny i przerwy są zablokowane do jutra. Nadal możesz zmieniać nawyki porannej rutyny, o ile zostanie co najmniej jeden.",
+    "buttonUnlock": "Odblokuj hasłem",
+    "undoneTitle": "Część zmian została cofnięta",
+    "undoneText": "Minęła twoja godzina graniczna, więc godziny rozpoczęcia rutyn, twoja godzina graniczna, dzisiejsza wieczorna rutyna, pozostałe rutyny i przerwy są zablokowane do jutra. Nawyki porannej rutyny zostały zapisane."
+  },
   "focusSessionCompleteInfo": {
     "title": "ŚWIETNA ROBOTA!",
     "subtitle": "Sesja skupienia zakończona — zobacz, ile udało ci się zrobić.",

@@ -1,4 +1,12 @@
 {
+  "afterCutoffRoutineLockInfo": {
+    "title": "Les horaires de tes routines sont verrouillés jusqu'à demain",
+    "bannerText": "Ton heure limite est passée. Tu peux toujours modifier les habitudes de ta routine du matin : en ajouter, en retirer, les réordonner ou les renommer, et changer leur durée et leur description. Les heures de début des routines, ton heure limite, la routine de ce soir, tes autres routines et les pauses restent verrouillées jusqu'à demain, et les changements qui les concernent sont annulés à l'enregistrement.",
+    "gateText": "Ton heure limite est passée : les heures de début des routines, ton heure limite, la routine de ce soir, tes autres routines et les pauses sont donc verrouillées jusqu'à demain. Tu peux toujours modifier les habitudes de ta routine du matin, tant qu'il en reste au moins une.",
+    "buttonUnlock": "Déverrouiller avec le mot de passe",
+    "undoneTitle": "Certains changements ont été annulés",
+    "undoneText": "Ton heure limite est passée : les heures de début des routines, ton heure limite, la routine de ce soir, tes autres routines et les pauses sont donc verrouillées jusqu'à demain. Les habitudes de ta routine du matin ont été enregistrées."
+  },
   "focusSessionCompleteInfo": {
     "title": "BRAVO !",
     "subtitle": "Session de concentration terminée — regarde tout ce que tu as accompli.",
