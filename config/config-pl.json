@@ -5647,6 +5647,7 @@
   },
   "leftMenuVcInfo": {
         "menuAchievements": "Osiągnięcia",
+        "removeAchievementsFromSidebar": "Usuń Osiągnięcia z paska bocznego",
         "menuBrowser": "Przeglądarka",
         "showKeyboardShortcutReminders": "Pokazuj przypomnienia o skrótach klawiszowych",
     "menuStats": "Statystyki",

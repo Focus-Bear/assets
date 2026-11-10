@@ -5647,6 +5647,7 @@
   },
   "leftMenuVcInfo": {
         "menuAchievements": "Erfolge",
+        "removeAchievementsFromSidebar": "Erfolge aus der Seitenleiste entfernen",
         "menuBrowser": "Browser",
         "showKeyboardShortcutReminders": "Erinnerungen an Tastenkombinationen anzeigen",
     "menuStats": "Statistiken",

@@ -5647,6 +5647,7 @@
   },
   "leftMenuVcInfo": {
         "menuAchievements": "Succès",
+        "removeAchievementsFromSidebar": "Retirer Succès de la barre latérale",
         "menuBrowser": "Navigateur",
         "showKeyboardShortcutReminders": "Afficher les rappels de raccourcis clavier",
     "menuStats": "Statistiques",

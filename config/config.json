@@ -6050,6 +6050,7 @@
     },
     "leftMenuVcInfo":{
         "menuAchievements": "Achievements",
+        "removeAchievementsFromSidebar": "Remove Achievements from the sidebar",
         "menuBrowser": "Browser",
         "showKeyboardShortcutReminders": "Show keyboard shortcut reminders",
         "collapseMenuTooltip": "Collapse menu",
