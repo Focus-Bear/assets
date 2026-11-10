@@ -5873,7 +5873,11 @@
       "queuedStartsAt": "Starts at <TIME>",
       "queuedLateNightDetail": "Filed late at night, so Claude waits 2 hours before starting.",
       "reviewOpensAt": "Reviewing opens at <TIME>",
-      "reviewLockedExplanation": "You can still report new problems and add detail to open reports."
+      "reviewLockedExplanation": "You can still report new problems and add detail to open reports.",
+      "reportNumber": "#<NUMBER>",
+      "reportNumberAccessibility": "Report number <NUMBER>",
+      "copyReportNumber": "Copy report number",
+      "reportNumberCopied": "Copied"
     },
     "projectNoteEditor": {
       "loading": "Loading note…",

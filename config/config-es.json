@@ -5871,7 +5871,11 @@
       "queuedStartsAt": "Empieza a las <TIME>",
       "queuedLateNightDetail": "Enviado de madrugada, así que Claude espera 2 horas antes de empezar.",
       "reviewOpensAt": "La revisión se abre a las <TIME>",
-      "reviewLockedExplanation": "Puedes seguir informando de problemas nuevos y añadir detalles a los informes abiertos."
+      "reviewLockedExplanation": "Puedes seguir informando de problemas nuevos y añadir detalles a los informes abiertos.",
+      "reportNumber": "#<NUMBER>",
+      "reportNumberAccessibility": "Informe número <NUMBER>",
+      "copyReportNumber": "Copiar número de informe",
+      "reportNumberCopied": "Copiado"
     },
     "projectNoteEditor": {
       "loading": "Cargando nota…",
