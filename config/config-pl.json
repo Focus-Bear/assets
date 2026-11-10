@@ -6153,7 +6153,7 @@
     "buttonNoThanks": "Nie, dziękuję",
     "buttonContinue": "Uodpornij mnie na rozpraszacze",
     "pointFirstText": "AI nigdy nie wie, kim jesteś.",
-    "pointSecondText": "Twoja aktywność w przeglądarce pozostaje prywatna — nie udostępniamy jej dostawcom AI.",
+    "pointSecondText": "Aby sprawdzić stronę, wysyłamy jej adres i tytuł wraz z tym, nad czym pracujesz, do naszego dostawcy AI — nigdy twojego imienia, e-maila ani konta.",
     "pointThirdText": "Możesz to wyłączyć, kiedy tylko zechcesz.",
     "bubbleText": "Widzę zdecydowanie za dużo rozpraszających stron."
   },
@@ -8050,6 +8050,22 @@
     "permissionWaiting": "Czekam na macOS…",
     "permissionsDone": "Gotowe",
     "permissionsSkip": "Pomiń na razie",
-    "permissionsSkipNote": "Bez nich blokowanie działa w trybie ograniczonym: Focus Bear nie widzi i nie blokuje wszystkiego, co wybrano. Ekran skupienia będzie Ci o tym przypominać."
+    "permissionsSkipNote": "Bez nich blokowanie działa w trybie ograniczonym: Focus Bear nie widzi i nie blokuje wszystkiego, co wybrano. Ekran skupienia będzie Ci o tym przypominać.",
+    "aiWhy": "Lista blokowania zatrzymuje tylko strony, które na nią dodasz. AI porównuje każdą stronę z tym, nad czym właśnie pracujesz: to, co pomaga, przechodzi, a reszta jest blokowana — nawet na stronach, o których nigdy byś nie pomyślał.",
+    "aiDetailsButton": "Dowiedz się więcej",
+    "disclosureExpanded": "rozwinięte",
+    "disclosureCollapsed": "zwinięte",
+    "aiDetailsSentTitle": "Co jest wysyłane",
+    "aiDetailsSentBody": "Gdy podczas sesji skupienia otwierasz stronę lub aplikację, Focus Bear wysyła na nasz serwer adres i tytuł strony (albo nazwę aplikacji i tytuł jej okna), twoją intencję skupienia, bieżące zadanie i pozostałe zadania z tej sesji oraz powody podane w tej sesji, aby coś odblokować. Dołączane są też zapisane szczegóły twojej pracy i typowe rozpraszacze, jeśli je dodałeś. Nasz serwer przekazuje to wszystko dostawcy AI.",
+    "aiDetailsNotSentTitle": "Co nie jest wysyłane",
+    "aiDetailsNotSentBody": "Twoje imię, adres e-mail i konto nigdy nie trafiają do dostawcy AI. Nasz serwer wie, którego konta dotyczy sprawdzenie, bo w ten sposób jesteś zalogowany, ale nie przekazuje tego dalej. Skraca też adres do witryny i strony oraz ewentualnych wyszukiwanych fraz, usuwając wszystko inne, np. kody śledzące. Twój Mac nigdy nie wysyła treści strony, historii przeglądania ani niczego, co wpisujesz na stronach. Jeśli stronie brakuje tytułu lub opisu, nasz serwer sam pobiera publiczną wersję strony, bez żadnych twoich logowań.",
+    "aiDetailsWhoTitle": "Kto to sprawdza",
+    "aiDetailsWhoBody": "Nasz serwer przekazuje sprawdzenie naszemu dostawcy AI, obecnie Gemini od Google, a szybkie wstępne sprawdzenie wykonuje TypeSafe. Odpowiadają, czy strona lub aplikacja pasuje do twojego zadania, i dlaczego.",
+    "aiDetailsKeptTitle": "Co jest przechowywane",
+    "aiDetailsKeptBody": "Nie zapisujemy odwiedzanych przez ciebie stron na twoim koncie Focus Bear. Nasz serwer przechowuje tytuły i opisy publicznych stron przez jeden dzień, bez powiązania z tobą. Jeśli sprawdzenie się nie powiedzie, jego szczegóły mogą trafić do naszych dzienników błędów, abyśmy mogli to naprawić. Ten Mac prowadzi własny dziennik ostatnich sprawdzeń, który zostaje tutaj, chyba że wyślesz nam go ze zgłoszeniem problemu.",
+    "aiDetailsOnMacTitle": "Co zostaje na tym Macu",
+    "aiDetailsOnMacBody": "Najpierw patrzy model Focus Bear działający na samym Macu. Gdy jest pewien, że strona lub aplikacja pasuje do twojego zadania, od razu cię wpuszcza i prosi o drugą opinię tylko wtedy, gdy zostaniesz dłużej. Niedawno sprawdzona strona lub aplikacja dostaje odpowiedź z pamięci, zamiast być wysyłana ponownie.",
+    "aiDetailsWhyTitle": "Dlaczego to pomaga",
+    "aiDetailsWhyBody": "Lista blokowania nie odróżni wykładu na YouTube od wciągającej króliczej nory ani researchu od bezmyślnego przewijania. Porównywanie każdej strony z tym, co właśnie robisz, przepuszcza to, co przydatne, i zatrzymuje resztę — bez potrzeby aktualizowania listy."
   }
 }
