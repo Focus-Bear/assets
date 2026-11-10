@@ -4855,6 +4855,10 @@
       "outcomePostponeWeeksText": "Se puede posponer unas semanas"
     },
     "localForecastViewInfo": {
+        "linkedBlockQueueTitle": "Mostrar las <COUNT> tareas en <BLOCK>",
+        "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
+        "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> días)",
+        "linkedBlockQueueNoEstimate": "sin estimación",
         "linkedBlockBooked": "<BLOCK> está lleno hasta el <DATE> (tareas que ya contiene: <COUNT>). Alarga <BLOCK> o libera tiempo esos días para que esta quepa antes.",
         "linkedBlockNoSlot": "<BLOCK> no encuentra hueco en <COUNT> de esos días: tu rutina se queda sin espacio antes. Acorta u omite otros hábitos esos días para hacerle sitio.",
         "linkedBlockFallbackName": "Su hábito o evento vinculado",
