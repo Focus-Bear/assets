@@ -4855,6 +4855,9 @@
       "outcomePostponeWeeksText": "Se puede posponer unas semanas"
     },
     "localForecastViewInfo": {
+        "linkedBlockBooked": "<BLOCK> está lleno hasta el <DATE> (tareas que ya contiene: <COUNT>). Alarga <BLOCK> o libera tiempo esos días para que esta quepa antes.",
+        "linkedBlockNoSlot": "<BLOCK> no encuentra hueco en <COUNT> de esos días: tu rutina se queda sin espacio antes. Acorta u omite otros hábitos esos días para hacerle sitio.",
+        "linkedBlockFallbackName": "Su hábito o evento vinculado",
         "chartViewWindows": "Gráfico",
         "tableViewWindows": "Tabla",
         "dayColumnWindows": "Día",
@@ -5036,6 +5039,14 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+    "tasksSnoozeExplainTitle": "Por qué esta sugerencia",
+    "tasksSnoozeExplainFree": "%1$@ tiene %2$@ libres después de sus propias tareas. Esta necesita %3$@.",
+    "tasksSnoozeExplainLinked": "Va en tu %1$@ (vinculado a %2$@), al que le quedan %3$@ ese día.",
+    "tasksSnoozeExplainLinkedAny": "Va en tu %1$@, al que le quedan %2$@ ese día.",
+    "tasksSnoozeExplainSkipped": "Omitidos: %@.",
+    "tasksSnoozeExplainSkippedOver": "%1$@ (excedido en %2$@)",
+    "tasksSnoozeExplainSkippedShort": "%1$@ (solo %2$@ libres)",
+    "tasksSnoozeExplainSkippedMore": "%d más",
     "calendarConnectFirst": "Conectar un calendario",
     "calendarConnectAnother": "Conectar otro calendario",
     "settingsCalendarsTitle": "Calendarios",
