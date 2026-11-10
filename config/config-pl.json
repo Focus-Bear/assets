@@ -6153,7 +6153,7 @@
     "buttonNoThanks": "Nie, dziękuję",
     "buttonContinue": "Uodpornij mnie na rozpraszacze",
     "pointFirstText": "AI nigdy nie wie, kim jesteś.",
-    "pointSecondText": "Aby sprawdzić stronę pod kątem twojego bieżącego zadania, wysyłamy jej adres i tytuł do naszego dostawcy AI — nigdy twojego imienia, e-maila ani konta.",
+    "pointSecondText": "Aby sprawdzić stronę, wysyłamy jej adres i tytuł wraz z tym, nad czym pracujesz, do naszego dostawcy AI — nigdy twojego imienia, e-maila ani konta.",
     "pointThirdText": "Możesz to wyłączyć, kiedy tylko zechcesz.",
     "bubbleText": "Widzę zdecydowanie za dużo rozpraszających stron."
   },
@@ -8045,7 +8045,7 @@
     "disclosureExpanded": "rozwinięte",
     "disclosureCollapsed": "zwinięte",
     "aiDetailsSentTitle": "Co jest wysyłane",
-    "aiDetailsSentBody": "Gdy podczas sesji skupienia otwierasz stronę lub aplikację, Focus Bear wysyła na nasz serwer adres i tytuł strony (albo nazwę aplikacji i tytuł jej okna), twoją intencję skupienia, bieżące zadanie i pozostałe zadania z tej sesji oraz powody podane w tej sesji, aby coś odblokować. Jeśli powiedziałeś nam, czym się zajmujesz i co zwykle cię rozprasza, to również jest dołączane.",
+    "aiDetailsSentBody": "Gdy podczas sesji skupienia otwierasz stronę lub aplikację, Focus Bear wysyła na nasz serwer adres i tytuł strony (albo nazwę aplikacji i tytuł jej okna), twoją intencję skupienia, bieżące zadanie i pozostałe zadania z tej sesji oraz powody podane w tej sesji, aby coś odblokować. Dołączane są też zapisane szczegóły twojej pracy i typowe rozpraszacze, jeśli je dodałeś. Nasz serwer przekazuje to wszystko dostawcy AI.",
     "aiDetailsNotSentTitle": "Co nie jest wysyłane",
     "aiDetailsNotSentBody": "Twoje imię, adres e-mail i konto nigdy nie trafiają do dostawcy AI. Nasz serwer wie, którego konta dotyczy sprawdzenie, bo w ten sposób jesteś zalogowany, ale nie przekazuje tego dalej. Skraca też adres do witryny i strony oraz ewentualnych wyszukiwanych fraz, usuwając wszystko inne, np. kody śledzące. Twój Mac nigdy nie wysyła treści strony, historii przeglądania ani niczego, co wpisujesz na stronach. Jeśli stronie brakuje tytułu lub opisu, nasz serwer sam pobiera publiczną wersję strony, bez żadnych twoich logowań.",
     "aiDetailsWhoTitle": "Kto to sprawdza",

@@ -6554,7 +6554,7 @@
         "buttonNoThanks": "No, gracias",
         "buttonContinue": "Hazme indistraíble",
         "pointFirstText": "La IA nunca sabe quién eres.",
-        "pointSecondText": "Para comprobar una página con tu tarea actual, enviamos su dirección y su título a nuestro proveedor de IA — nunca tu nombre, tu correo ni tu cuenta.",
+        "pointSecondText": "Para comprobar una página, enviamos su dirección y su título, junto con aquello en lo que estás trabajando, a nuestro proveedor de IA — nunca tu nombre, tu correo ni tu cuenta.",
         "pointThirdText": "Puedes desactivarlo cuando quieras.",
         "bubbleText": "Veo demasiados sitios web que me distraen."
     },
@@ -8012,7 +8012,7 @@
     "disclosureExpanded": "expandido",
     "disclosureCollapsed": "contraído",
     "aiDetailsSentTitle": "Qué se envía",
-    "aiDetailsSentBody": "Cuando abres una página o una app durante una sesión de enfoque, Focus Bear envía a nuestro servidor la dirección y el título de la página (o el nombre de la app y el título de su ventana), tu intención de enfoque, tu tarea actual y las demás tareas de esta sesión, y los motivos que hayas dado en esta sesión para desbloquear algo. Si nos has contado a qué te dedicas y qué suele distraerte, también se incluye.",
+    "aiDetailsSentBody": "Cuando abres una página o una app durante una sesión de enfoque, Focus Bear envía a nuestro servidor la dirección y el título de la página (o el nombre de la app y el título de su ventana), tu intención de enfoque, tu tarea actual y las demás tareas de esta sesión, y los motivos que hayas dado en esta sesión para desbloquear algo. También se incluyen los detalles de tu trabajo y tus distracciones habituales guardados, si los has añadido. Nuestro servidor pasa todo esto al proveedor de IA.",
     "aiDetailsNotSentTitle": "Qué no se envía",
     "aiDetailsNotSentBody": "Tu nombre, tu correo electrónico y tu cuenta nunca llegan al proveedor de IA. Nuestro servidor sabe de qué cuenta es cada comprobación, porque así has iniciado sesión, pero no lo transmite. Además, acorta la dirección al sitio y la página, más los términos de búsqueda, y descarta todo lo demás, como los códigos de seguimiento. Tu Mac nunca envía el contenido de la página, tu historial de navegación ni nada de lo que escribes en los sitios web. Si a una página le falta el título o la descripción, nuestro servidor consulta la página pública por su cuenta, sin ninguno de tus inicios de sesión.",
     "aiDetailsWhoTitle": "Quién lo comprueba",

@@ -6153,7 +6153,7 @@
     "buttonNoThanks": "Non merci",
     "buttonContinue": "Rends-moi indistrayable",
     "pointFirstText": "L'IA ne sait jamais qui tu es.",
-    "pointSecondText": "Pour comparer une page à ta tâche en cours, nous envoyons son adresse et son titre à notre fournisseur d'IA — jamais ton nom, ton e-mail ni ton compte.",
+    "pointSecondText": "Pour vérifier une page, nous envoyons son adresse et son titre, avec ce sur quoi tu travailles, à notre fournisseur d'IA — jamais ton nom, ton e-mail ni ton compte.",
     "pointThirdText": "Tu peux désactiver ça quand tu veux.",
     "bubbleText": "Je vois bien trop de sites web distrayants."
   },
@@ -8045,7 +8045,7 @@
     "disclosureExpanded": "développé",
     "disclosureCollapsed": "réduit",
     "aiDetailsSentTitle": "Ce qui est envoyé",
-    "aiDetailsSentBody": "Quand tu ouvres une page ou une app pendant une session de concentration, Focus Bear envoie à notre serveur l'adresse et le titre de la page (ou le nom de l'app et le titre de sa fenêtre), ton intention de concentration, ta tâche en cours et les autres tâches de cette session, ainsi que les raisons que tu as données pendant cette session pour débloquer quelque chose. Si tu nous as dit quel travail tu fais et ce qui te distrait d'habitude, c'est inclus aussi.",
+    "aiDetailsSentBody": "Quand tu ouvres une page ou une app pendant une session de concentration, Focus Bear envoie à notre serveur l'adresse et le titre de la page (ou le nom de l'app et le titre de sa fenêtre), ton intention de concentration, ta tâche en cours et les autres tâches de cette session, ainsi que les raisons que tu as données pendant cette session pour débloquer quelque chose. Les détails de ton travail et tes distractions habituelles enregistrés sont aussi inclus, si tu les as ajoutés. Notre serveur transmet tout cela au fournisseur d'IA.",
     "aiDetailsNotSentTitle": "Ce qui n'est pas envoyé",
     "aiDetailsNotSentBody": "Ton nom, ton adresse e-mail et ton compte n'arrivent jamais au fournisseur d'IA. Notre serveur sait à quel compte correspond une vérification, puisque c'est ainsi que tu es connecté, mais il ne le transmet pas. Il raccourcit aussi l'adresse au site et à la page, plus les éventuels termes de recherche, et supprime tout le reste, comme les codes de suivi. Ton Mac n'envoie jamais le contenu de la page, ton historique de navigation ni ce que tu tapes sur les sites. S'il manque le titre ou la description d'une page, notre serveur consulte lui-même la page publique, sans aucune de tes connexions.",
     "aiDetailsWhoTitle": "Qui vérifie",

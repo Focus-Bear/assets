@@ -6153,7 +6153,7 @@
     "buttonNoThanks": "Nein danke",
     "buttonContinue": "Mach mich unablenkbar",
     "pointFirstText": "Die KI weiß nie, wer du bist.",
-    "pointSecondText": "Um eine Seite mit deiner aktuellen Aufgabe abzugleichen, senden wir ihre Adresse und ihren Titel an unseren KI-Anbieter – niemals deinen Namen, deine E-Mail-Adresse oder dein Konto.",
+    "pointSecondText": "Um eine Seite zu prüfen, senden wir ihre Adresse und ihren Titel zusammen mit dem, woran du gerade arbeitest, an unseren KI-Anbieter – niemals deinen Namen, deine E-Mail-Adresse oder dein Konto.",
     "pointThirdText": "Du kannst das jederzeit ausschalten.",
     "bubbleText": "Ich sehe viel zu viele ablenkende Websites."
   },
@@ -8045,7 +8045,7 @@
     "disclosureExpanded": "ausgeklappt",
     "disclosureCollapsed": "eingeklappt",
     "aiDetailsSentTitle": "Was gesendet wird",
-    "aiDetailsSentBody": "Wenn du während einer Fokus-Sitzung eine Seite oder App öffnest, sendet Focus Bear unserem Server die Adresse und den Titel der Seite (oder den Namen der App und den Fenstertitel), deine Fokus-Absicht, deine aktuelle Aufgabe und die anderen Aufgaben dieser Sitzung sowie alle Gründe, die du in dieser Sitzung zum Entsperren angegeben hast. Wenn du uns gesagt hast, welche Arbeit du machst und was dich normalerweise ablenkt, wird das ebenfalls mitgeschickt.",
+    "aiDetailsSentBody": "Wenn du während einer Fokus-Sitzung eine Seite oder App öffnest, sendet Focus Bear unserem Server die Adresse und den Titel der Seite (oder den Namen der App und den Fenstertitel), deine Fokus-Absicht, deine aktuelle Aufgabe und die anderen Aufgaben dieser Sitzung sowie alle Gründe, die du in dieser Sitzung zum Entsperren angegeben hast. Auch deine gespeicherten Angaben zu deiner Arbeit und deinen typischen Ablenkungen werden mitgeschickt, falls du sie hinzugefügt hast. Unser Server gibt all das an den KI-Anbieter weiter.",
     "aiDetailsNotSentTitle": "Was nicht gesendet wird",
     "aiDetailsNotSentBody": "Dein Name, deine E-Mail-Adresse und dein Konto erreichen den KI-Anbieter nie. Unser Server weiß, für welches Konto eine Prüfung ist, weil du so angemeldet bist, gibt das aber nicht weiter. Außerdem kürzt er die Adresse auf die Website und die Seite plus eventuelle Suchbegriffe und entfernt alles andere, etwa Tracking-Codes. Dein Mac sendet nie den Inhalt der Seite, deinen Browserverlauf oder etwas, das du auf Websites eintippst. Fehlen einer Seite Titel oder Beschreibung, ruft unser Server die öffentliche Seite selbst ab – ohne deine Logins.",
     "aiDetailsWhoTitle": "Wer prüft",

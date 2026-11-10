@@ -6556,7 +6556,7 @@
         "buttonNoThanks": "No thanks",
         "buttonContinue": "Make me indistractible",
         "pointFirstText": "The AI never knows who you are.",
-        "pointSecondText": "To check a page against your current task, we send its address and title to our AI provider — never your name, email or account.",
+        "pointSecondText": "To check a page, we send its address and title, along with what you’re working on, to our AI provider — never your name, email or account.",
         "pointThirdText": "You can turn this off whenever you like.",
         "bubbleText": "I see far too many distracting websites."
     },
@@ -8014,7 +8014,7 @@
     "disclosureExpanded": "expanded",
     "disclosureCollapsed": "collapsed",
     "aiDetailsSentTitle": "What’s sent",
-    "aiDetailsSentBody": "When you open a page or app during a focus session, Focus Bear sends our server the page’s address and title (or the app’s name and window title), your focus intention, your current task and the other tasks in this session, and any reasons you’ve given this session to unlock something. If you’ve told us what work you do and what usually distracts you, that’s included too.",
+    "aiDetailsSentBody": "When you open a page or app during a focus session, Focus Bear sends our server the page’s address and title (or the app’s name and window title), your focus intention, your current task and the other tasks in this session, and any reasons you’ve given this session to unlock something. Your saved job details and typical distractions are included too, if you’ve added them. Our server passes all of this to the AI provider.",
     "aiDetailsNotSentTitle": "What isn’t sent",
     "aiDetailsNotSentBody": "Your name, email address and account never reach the AI provider. Our server knows which account a check is for, because that’s how you’re signed in, but it doesn’t pass that on. It also shortens the address to the site and page plus any search terms, dropping everything else, such as tracking codes. Your Mac never sends the page’s contents, your browsing history or anything you type into websites. If a page’s title or description is missing, our server looks up the public page itself, without any of your logins.",
     "aiDetailsWhoTitle": "Who checks it",
