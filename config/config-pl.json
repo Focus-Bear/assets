@@ -5765,6 +5765,9 @@
   "blockingScheduleEditorVcInfo": {
     "chooseBlockIcon": "Wybierz ikonę blokady",
     "noBlockIcon": "Brak ikony",
+    "blockingStarts": "Początek blokowania",
+    "blockingEnds": "Koniec blokowania",
+    "scheduleTemplates": "Szablony harmonogramu",
     "titleActiveTime": "Czas aktywny",
     "titleEveryday": "Codziennie",
     "titleStrictnessFlexible": "Elastyczny",

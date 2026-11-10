@@ -6166,6 +6166,9 @@
     "blockingScheduleEditorVcInfo":{
         "chooseBlockIcon": "Elegir icono del bloqueo",
         "noBlockIcon": "Sin icono",
+        "blockingStarts": "El bloqueo empieza",
+        "blockingEnds": "El bloqueo termina",
+        "scheduleTemplates": "Plantillas de horario",
         "titleActiveTime": "Horario activo",
         "titleEveryday": "Todos los días",
         "titleStrictnessFlexible": "Flexible",

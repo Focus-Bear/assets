@@ -5765,6 +5765,9 @@
   "blockingScheduleEditorVcInfo": {
     "chooseBlockIcon": "Choisir l’icône du blocage",
     "noBlockIcon": "Aucune icône",
+    "blockingStarts": "Début du blocage",
+    "blockingEnds": "Fin du blocage",
+    "scheduleTemplates": "Modèles de planning",
     "titleActiveTime": "Plage active",
     "titleEveryday": "Tous les jours",
     "titleStrictnessFlexible": "Flexible",

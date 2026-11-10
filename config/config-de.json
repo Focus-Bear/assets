@@ -5765,6 +5765,9 @@
   "blockingScheduleEditorVcInfo": {
     "chooseBlockIcon": "Symbol für die Sperre wählen",
     "noBlockIcon": "Kein Symbol",
+    "blockingStarts": "Blockierung beginnt",
+    "blockingEnds": "Blockierung endet",
+    "scheduleTemplates": "Zeitplanvorlagen",
     "titleActiveTime": "Aktive Zeit",
     "titleEveryday": "Jeden Tag",
     "titleStrictnessFlexible": "Flexibel",
