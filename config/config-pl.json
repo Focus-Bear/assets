@@ -5468,7 +5468,7 @@
     "reworkNeededDetail": "Po ostatnim przeglądzie dodano twoją opinię, więc zgłoszenie wróciło do nas.",
     "screenshotOpenFailed": "Nie udało się otworzyć tego zrzutu ekranu. Odśwież zgłoszenia i spróbuj ponownie.",
     "fixEvidenceScreenshots": "Zrzuty ekranu potwierdzające poprawkę",
-    "screenshots": "Zrzuty ekranu",
+    "screenshots": "Zrzuty ekranu problemu",
     "searchPlaceholder": "Szukaj zgłoszeń",
     "queuedUntilBedtime": "W kolejce, dopóki nie pójdziesz spać",
     "queuedUntilBedtimeDetail": "Zgłoszone po 18:00, więc Claude zajmie się tym o 23:00.",
@@ -5647,6 +5647,7 @@
   },
   "leftMenuVcInfo": {
         "menuAchievements": "Osiągnięcia",
+        "removeAchievementsFromSidebar": "Usuń Osiągnięcia z paska bocznego",
         "menuBrowser": "Przeglądarka",
         "showKeyboardShortcutReminders": "Pokazuj przypomnienia o skrótach klawiszowych",
     "menuStats": "Statystyki",

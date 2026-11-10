@@ -5468,7 +5468,7 @@
     "reworkNeededDetail": "Tu as ajouté un commentaire après la dernière vérification, donc ce rapport est revenu chez nous.",
     "screenshotOpenFailed": "Impossible d’ouvrir cette capture d’écran. Actualise les rapports et réessaie.",
     "fixEvidenceScreenshots": "Captures de preuve de la correction",
-    "screenshots": "Captures d’écran",
+    "screenshots": "Captures d’écran du problème",
     "searchPlaceholder": "Rechercher des rapports",
     "queuedUntilBedtime": "En attente jusqu’à ce que tu ailles te coucher",
     "queuedUntilBedtimeDetail": "Envoyé après 18 h, donc Claude s’y met à 23 h.",
@@ -5647,6 +5647,7 @@
   },
   "leftMenuVcInfo": {
         "menuAchievements": "Succès",
+        "removeAchievementsFromSidebar": "Retirer Succès de la barre latérale",
         "menuBrowser": "Navigateur",
         "showKeyboardShortcutReminders": "Afficher les rappels de raccourcis clavier",
     "menuStats": "Statistiques",
