@@ -4483,6 +4483,9 @@
         "tasksToDoCountText": "<COUNT> offen"
   },
   "localForecastViewInfo": {
+    "linkedBlockBooked": "<BLOCK> ist bis <DATE> voll (Aufgaben darin: <COUNT>). Verlängere <BLOCK> oder schaffe an diesen Tagen Zeit, damit diese früher hineinpasst.",
+    "linkedBlockNoSlot": "<BLOCK> findet an <COUNT> dieser Tage keinen Platz: Deiner Routine geht vorher der Raum aus. Kürze oder überspringe an diesen Tagen andere Gewohnheiten.",
+    "linkedBlockFallbackName": "Die verknüpfte Gewohnheit oder der verknüpfte Termin",
     "chartViewWindows": "Diagramm",
     "tableViewWindows": "Tabelle",
     "dayColumnWindows": "Tag",
@@ -4673,6 +4676,14 @@
     "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal."
   },
   "scheduleViewInfo": {
+    "tasksSnoozeExplainTitle": "Warum dieser Vorschlag",
+    "tasksSnoozeExplainFree": "%1$@ hat nach den eigenen Aufgaben %2$@ frei. Diese braucht %3$@.",
+    "tasksSnoozeExplainLinked": "Kommt in dein %1$@ (verknüpft mit %2$@), das an diesem Tag noch %3$@ hat.",
+    "tasksSnoozeExplainLinkedAny": "Kommt in dein %1$@, das an diesem Tag noch %2$@ hat.",
+    "tasksSnoozeExplainSkipped": "Übersprungen: %@.",
+    "tasksSnoozeExplainSkippedOver": "%1$@ (um %2$@ überbucht)",
+    "tasksSnoozeExplainSkippedShort": "%1$@ (nur %2$@ frei)",
+    "tasksSnoozeExplainSkippedMore": "%d weitere",
     "calendarConnectFirst": "Kalender verbinden",
     "calendarConnectAnother": "Weiteren Kalender verbinden",
     "settingsCalendarsTitle": "Kalender",

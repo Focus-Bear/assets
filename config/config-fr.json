@@ -4483,6 +4483,9 @@
         "tasksToDoCountText": "<COUNT> à faire"
   },
   "localForecastViewInfo": {
+    "linkedBlockBooked": "<BLOCK> est complet jusqu’au <DATE> (tâches déjà dedans : <COUNT>). Allonge <BLOCK> ou libère du temps ces jours-là pour la caser plus tôt.",
+    "linkedBlockNoSlot": "<BLOCK> ne trouve pas de créneau sur <COUNT> de ces jours : ta routine manque de place avant. Raccourcis ou saute d’autres habitudes ces jours-là pour lui faire de la place.",
+    "linkedBlockFallbackName": "Son habitude ou événement lié",
     "chartViewWindows": "Graphique",
     "tableViewWindows": "Tableau",
     "dayColumnWindows": "Jour",
@@ -4673,6 +4676,14 @@
     "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie."
   },
   "scheduleViewInfo": {
+    "tasksSnoozeExplainTitle": "Pourquoi cette suggestion",
+    "tasksSnoozeExplainFree": "%1$@ a %2$@ de libre après ses propres tâches. Celle-ci demande %3$@.",
+    "tasksSnoozeExplainLinked": "Va dans ton %1$@ (lié à %2$@), qui a encore %3$@ ce jour-là.",
+    "tasksSnoozeExplainLinkedAny": "Va dans ton %1$@, qui a encore %2$@ ce jour-là.",
+    "tasksSnoozeExplainSkipped": "Ignorés : %@.",
+    "tasksSnoozeExplainSkippedOver": "%1$@ (dépassé de %2$@)",
+    "tasksSnoozeExplainSkippedShort": "%1$@ (seulement %2$@ de libre)",
+    "tasksSnoozeExplainSkippedMore": "%d de plus",
     "calendarConnectFirst": "Connecter un calendrier",
     "calendarConnectAnother": "Connecter un autre calendrier",
     "settingsCalendarsTitle": "Calendriers",

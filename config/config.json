@@ -4857,6 +4857,9 @@
       "outcomePostponeYearsText": "Can postpone for years"
     },
     "localForecastViewInfo": {
+        "linkedBlockBooked": "<BLOCK> is full until <DATE> (tasks already in it: <COUNT>). Lengthen <BLOCK>, or free up time on those days, to fit this sooner.",
+        "linkedBlockNoSlot": "<BLOCK> finds no slot on <COUNT> of those days: your routine runs out of room before it. Shorten or skip other habits on those days to make room.",
+        "linkedBlockFallbackName": "Its linked habit or event",
         "chartViewWindows": "Chart",
         "tableViewWindows": "Table",
         "dayColumnWindows": "Day",
@@ -5038,6 +5041,14 @@
         "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
+    "tasksSnoozeExplainTitle": "Why this suggestion",
+    "tasksSnoozeExplainFree": "%1$@ has %2$@ free after its own tasks. This needs %3$@.",
+    "tasksSnoozeExplainLinked": "Goes in your %1$@ (linked to %2$@), which has %3$@ left that day.",
+    "tasksSnoozeExplainLinkedAny": "Goes in your %1$@, which has %2$@ left that day.",
+    "tasksSnoozeExplainSkipped": "Skipped: %@.",
+    "tasksSnoozeExplainSkippedOver": "%1$@ (over by %2$@)",
+    "tasksSnoozeExplainSkippedShort": "%1$@ (only %2$@ free)",
+    "tasksSnoozeExplainSkippedMore": "+%d more",
     "calendarConnectFirst": "Connect a calendar",
     "calendarConnectAnother": "Connect another calendar",
     "settingsCalendarsTitle": "Calendars",
