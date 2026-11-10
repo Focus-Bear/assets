@@ -4827,6 +4827,8 @@
         "showInTaskListText": "Ver en la lista de tareas",
         "assignedToText": "Asignada a <NAME>",
         "subtaskProgressText": "<DONE> de <TOTAL> subtareas hechas",
+        "cardDurationSpokenText": "Duración <COUNT> minutos",
+        "cardDurationSpokenOneMinuteText": "Duración 1 minuto",
         "showSubtasksText": "Mostrar subtareas",
         "hideSubtasksText": "Ocultar subtareas",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",

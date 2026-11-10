@@ -4450,6 +4450,8 @@
     "showInTaskListText": "Pokaż na liście zadań",
         "assignedToText": "Przypisane do: <NAME>",
         "subtaskProgressText": "Ukończone podzadania: <DONE> z <TOTAL>",
+        "cardDurationSpokenText": "Czas trwania w minutach: <COUNT>",
+        "cardDurationSpokenOneMinuteText": "Czas trwania: 1 minuta",
         "showSubtasksText": "Pokaż podzadania",
         "hideSubtasksText": "Ukryj podzadania",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
