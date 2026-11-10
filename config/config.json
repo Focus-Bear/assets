@@ -6556,7 +6556,7 @@
         "buttonNoThanks": "No thanks",
         "buttonContinue": "Make me indistractible",
         "pointFirstText": "The AI never knows who you are.",
-        "pointSecondText": "Your browsing stays private — we don't share it with AI providers.",
+        "pointSecondText": "To check a page against your current task, we send its address and title to our AI provider — never your name, email or account.",
         "pointThirdText": "You can turn this off whenever you like.",
         "bubbleText": "I see far too many distracting websites."
     },
@@ -8008,6 +8008,22 @@
     "permissionWaiting": "Waiting for macOS…",
     "permissionsDone": "Done",
     "permissionsSkip": "Skip for now",
-    "permissionsSkipNote": "Without these, blocking runs in reduced mode: Focus Bear can't see or block everything you chose. The focus screen will remind you."
+    "permissionsSkipNote": "Without these, blocking runs in reduced mode: Focus Bear can't see or block everything you chose. The focus screen will remind you.",
+    "aiWhy": "A block list only stops the sites you put on it. AI checks each page against what you’re working on right now, so what helps gets through and what doesn’t is blocked — even on sites you’d never think to list.",
+    "aiDetailsButton": "Tell me more",
+    "disclosureExpanded": "expanded",
+    "disclosureCollapsed": "collapsed",
+    "aiDetailsSentTitle": "What’s sent",
+    "aiDetailsSentBody": "When you open a page or app during a focus session, Focus Bear sends our server the page’s address and title (or the app’s name and window title), your focus intention, your current task and the other tasks in this session, and any reasons you’ve given this session to unlock something. If you’ve told us what work you do and what usually distracts you, that’s included too.",
+    "aiDetailsNotSentTitle": "What isn’t sent",
+    "aiDetailsNotSentBody": "Your name, email address and account never reach the AI provider. Our server knows which account a check is for, because that’s how you’re signed in, but it doesn’t pass that on. It also shortens the address to the site and page plus any search terms, dropping everything else, such as tracking codes. Your Mac never sends the page’s contents, your browsing history or anything you type into websites. If a page’s title or description is missing, our server looks up the public page itself, without any of your logins.",
+    "aiDetailsWhoTitle": "Who checks it",
+    "aiDetailsWhoBody": "Our server passes the check to our AI provider, currently Google’s Gemini, with a quick first look by TypeSafe. They answer whether the page or app fits your task, and why.",
+    "aiDetailsKeptTitle": "What’s kept",
+    "aiDetailsKeptBody": "We don’t save the pages you visit to your Focus Bear account. Our server keeps public page titles and descriptions for a day, not linked to you. If a check goes wrong, its details can end up in our error logs so we can fix it. This Mac keeps its own log of recent checks, which stays here unless you send it to us with a problem report.",
+    "aiDetailsOnMacTitle": "What stays on this Mac",
+    "aiDetailsOnMacBody": "Focus Bear’s on-device model looks first. When it’s sure a page or app fits your task, it lets you in straight away and only asks for a second opinion if you stay. A page or app checked recently is answered from memory instead of being sent again.",
+    "aiDetailsWhyTitle": "Why it helps",
+    "aiDetailsWhyBody": "A block list can’t tell a lecture on YouTube from a rabbit hole, or research from scrolling. Checking each page against what you’re doing right now lets the useful ones through and stops the rest, without you keeping a list up to date."
   }
 }

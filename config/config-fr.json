@@ -6153,7 +6153,7 @@
     "buttonNoThanks": "Non merci",
     "buttonContinue": "Rends-moi indistrayable",
     "pointFirstText": "L'IA ne sait jamais qui tu es.",
-    "pointSecondText": "Ta navigation reste privée — nous ne la partageons pas avec les fournisseurs d'IA.",
+    "pointSecondText": "Pour comparer une page à ta tâche en cours, nous envoyons son adresse et son titre à notre fournisseur d'IA — jamais ton nom, ton e-mail ni ton compte.",
     "pointThirdText": "Tu peux désactiver ça quand tu veux.",
     "bubbleText": "Je vois bien trop de sites web distrayants."
   },
@@ -8039,6 +8039,22 @@
     "permissionWaiting": "En attente de macOS…",
     "permissionsDone": "Terminé",
     "permissionsSkip": "Ignorer pour l'instant",
-    "permissionsSkipNote": "Sans elles, le blocage fonctionne en mode réduit : Focus Bear ne peut pas voir ni bloquer tout ce que vous avez choisi. L'écran de concentration vous le rappellera."
+    "permissionsSkipNote": "Sans elles, le blocage fonctionne en mode réduit : Focus Bear ne peut pas voir ni bloquer tout ce que vous avez choisi. L'écran de concentration vous le rappellera.",
+    "aiWhy": "Une liste de blocage n'arrête que les sites que tu y mets. L'IA compare chaque page à ce sur quoi tu travailles en ce moment : ce qui t'aide passe, le reste est bloqué — même sur des sites auxquels tu n'aurais jamais pensé.",
+    "aiDetailsButton": "En savoir plus",
+    "disclosureExpanded": "développé",
+    "disclosureCollapsed": "réduit",
+    "aiDetailsSentTitle": "Ce qui est envoyé",
+    "aiDetailsSentBody": "Quand tu ouvres une page ou une app pendant une session de concentration, Focus Bear envoie à notre serveur l'adresse et le titre de la page (ou le nom de l'app et le titre de sa fenêtre), ton intention de concentration, ta tâche en cours et les autres tâches de cette session, ainsi que les raisons que tu as données pendant cette session pour débloquer quelque chose. Si tu nous as dit quel travail tu fais et ce qui te distrait d'habitude, c'est inclus aussi.",
+    "aiDetailsNotSentTitle": "Ce qui n'est pas envoyé",
+    "aiDetailsNotSentBody": "Ton nom, ton adresse e-mail et ton compte n'arrivent jamais au fournisseur d'IA. Notre serveur sait à quel compte correspond une vérification, puisque c'est ainsi que tu es connecté, mais il ne le transmet pas. Il raccourcit aussi l'adresse au site et à la page, plus les éventuels termes de recherche, et supprime tout le reste, comme les codes de suivi. Ton Mac n'envoie jamais le contenu de la page, ton historique de navigation ni ce que tu tapes sur les sites. S'il manque le titre ou la description d'une page, notre serveur consulte lui-même la page publique, sans aucune de tes connexions.",
+    "aiDetailsWhoTitle": "Qui vérifie",
+    "aiDetailsWhoBody": "Notre serveur transmet la vérification à notre fournisseur d'IA, actuellement Gemini de Google, avec un premier coup d'œil rapide de TypeSafe. Ils répondent si la page ou l'app correspond à ta tâche, et pourquoi.",
+    "aiDetailsKeptTitle": "Ce qui est conservé",
+    "aiDetailsKeptBody": "Nous n'enregistrons pas les pages que tu visites dans ton compte Focus Bear. Notre serveur garde les titres et descriptions des pages publiques pendant une journée, sans lien avec toi. Si une vérification se passe mal, ses détails peuvent apparaître dans nos journaux d'erreurs pour que nous puissions corriger le problème. Ce Mac tient son propre journal des vérifications récentes, qui reste ici sauf si tu nous l'envoies avec un signalement de problème.",
+    "aiDetailsOnMacTitle": "Ce qui reste sur ce Mac",
+    "aiDetailsOnMacBody": "Le modèle de Focus Bear qui tourne sur le Mac regarde en premier. Quand il est sûr qu'une page ou une app correspond à ta tâche, il te laisse passer tout de suite et ne demande un second avis que si tu restes. Une page ou une app vérifiée récemment reçoit une réponse de mémoire au lieu d'être renvoyée.",
+    "aiDetailsWhyTitle": "Pourquoi ça aide",
+    "aiDetailsWhyBody": "Une liste de blocage ne fait pas la différence entre un cours sur YouTube et une spirale de vidéos, ni entre une recherche et du défilement sans fin. Comparer chaque page à ce que tu fais en ce moment laisse passer l'utile et arrête le reste, sans que tu aies à tenir une liste à jour."
   }
 }

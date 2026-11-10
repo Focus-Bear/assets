@@ -6153,7 +6153,7 @@
     "buttonNoThanks": "Nein danke",
     "buttonContinue": "Mach mich unablenkbar",
     "pointFirstText": "Die KI weiß nie, wer du bist.",
-    "pointSecondText": "Dein Surfverhalten bleibt privat – wir geben es nicht an KI-Anbieter weiter.",
+    "pointSecondText": "Um eine Seite mit deiner aktuellen Aufgabe abzugleichen, senden wir ihre Adresse und ihren Titel an unseren KI-Anbieter – niemals deinen Namen, deine E-Mail-Adresse oder dein Konto.",
     "pointThirdText": "Du kannst das jederzeit ausschalten.",
     "bubbleText": "Ich sehe viel zu viele ablenkende Websites."
   },
@@ -8039,6 +8039,22 @@
     "permissionWaiting": "Warte auf macOS…",
     "permissionsDone": "Fertig",
     "permissionsSkip": "Vorerst überspringen",
-    "permissionsSkipNote": "Ohne sie läuft das Blockieren eingeschränkt: Focus Bear kann nicht alles sehen oder blockieren, was du gewählt hast. Der Fokus-Bildschirm erinnert dich daran."
+    "permissionsSkipNote": "Ohne sie läuft das Blockieren eingeschränkt: Focus Bear kann nicht alles sehen oder blockieren, was du gewählt hast. Der Fokus-Bildschirm erinnert dich daran.",
+    "aiWhy": "Eine Sperrliste stoppt nur die Seiten, die du einträgst. Die KI gleicht jede Seite mit dem ab, woran du gerade arbeitest: Was hilft, kommt durch, was nicht hilft, wird blockiert – auch auf Seiten, an die du nie gedacht hättest.",
+    "aiDetailsButton": "Mehr erfahren",
+    "disclosureExpanded": "ausgeklappt",
+    "disclosureCollapsed": "eingeklappt",
+    "aiDetailsSentTitle": "Was gesendet wird",
+    "aiDetailsSentBody": "Wenn du während einer Fokus-Sitzung eine Seite oder App öffnest, sendet Focus Bear unserem Server die Adresse und den Titel der Seite (oder den Namen der App und den Fenstertitel), deine Fokus-Absicht, deine aktuelle Aufgabe und die anderen Aufgaben dieser Sitzung sowie alle Gründe, die du in dieser Sitzung zum Entsperren angegeben hast. Wenn du uns gesagt hast, welche Arbeit du machst und was dich normalerweise ablenkt, wird das ebenfalls mitgeschickt.",
+    "aiDetailsNotSentTitle": "Was nicht gesendet wird",
+    "aiDetailsNotSentBody": "Dein Name, deine E-Mail-Adresse und dein Konto erreichen den KI-Anbieter nie. Unser Server weiß, für welches Konto eine Prüfung ist, weil du so angemeldet bist, gibt das aber nicht weiter. Außerdem kürzt er die Adresse auf die Website und die Seite plus eventuelle Suchbegriffe und entfernt alles andere, etwa Tracking-Codes. Dein Mac sendet nie den Inhalt der Seite, deinen Browserverlauf oder etwas, das du auf Websites eintippst. Fehlen einer Seite Titel oder Beschreibung, ruft unser Server die öffentliche Seite selbst ab – ohne deine Logins.",
+    "aiDetailsWhoTitle": "Wer prüft",
+    "aiDetailsWhoBody": "Unser Server gibt die Prüfung an unseren KI-Anbieter weiter, derzeit Gemini von Google, mit einem schnellen ersten Blick durch TypeSafe. Sie antworten, ob die Seite oder App zu deiner Aufgabe passt, und warum.",
+    "aiDetailsKeptTitle": "Was gespeichert wird",
+    "aiDetailsKeptBody": "Wir speichern die Seiten, die du besuchst, nicht in deinem Focus-Bear-Konto. Unser Server behält Titel und Beschreibungen öffentlicher Seiten einen Tag lang, ohne Bezug zu dir. Wenn bei einer Prüfung etwas schiefgeht, können ihre Details in unseren Fehlerprotokollen landen, damit wir es beheben können. Dieser Mac führt ein eigenes Protokoll der letzten Prüfungen, das hier bleibt, außer du schickst es uns mit einer Problemmeldung.",
+    "aiDetailsOnMacTitle": "Was auf diesem Mac bleibt",
+    "aiDetailsOnMacBody": "Zuerst schaut das Modell von Focus Bear direkt auf dem Mac. Ist es sicher, dass eine Seite oder App zu deiner Aufgabe passt, lässt es dich sofort durch und holt nur eine zweite Meinung ein, wenn du bleibst. Eine kürzlich geprüfte Seite oder App wird aus dem Gedächtnis beantwortet, statt erneut gesendet zu werden.",
+    "aiDetailsWhyTitle": "Warum das hilft",
+    "aiDetailsWhyBody": "Eine Sperrliste kann eine Vorlesung auf YouTube nicht von einem Kaninchenbau unterscheiden, oder Recherche von Scrollen. Wenn jede Seite mit dem abgeglichen wird, was du gerade tust, kommt das Nützliche durch und der Rest wird gestoppt – ohne dass du eine Liste pflegen musst."
   }
 }

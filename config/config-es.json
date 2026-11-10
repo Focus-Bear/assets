@@ -6554,7 +6554,7 @@
         "buttonNoThanks": "No, gracias",
         "buttonContinue": "Hazme indistraíble",
         "pointFirstText": "La IA nunca sabe quién eres.",
-        "pointSecondText": "Tu navegación se mantiene privada — no la compartimos con proveedores de IA.",
+        "pointSecondText": "Para comprobar una página con tu tarea actual, enviamos su dirección y su título a nuestro proveedor de IA — nunca tu nombre, tu correo ni tu cuenta.",
         "pointThirdText": "Puedes desactivarlo cuando quieras.",
         "bubbleText": "Veo demasiados sitios web que me distraen."
     },
@@ -8006,6 +8006,22 @@
     "permissionWaiting": "Esperando a macOS…",
     "permissionsDone": "Listo",
     "permissionsSkip": "Omitir por ahora",
-    "permissionsSkipNote": "Sin ellos, el bloqueo funciona en modo reducido: Focus Bear no puede ver ni bloquear todo lo que elegiste. La pantalla de enfoque te lo recordará."
+    "permissionsSkipNote": "Sin ellos, el bloqueo funciona en modo reducido: Focus Bear no puede ver ni bloquear todo lo que elegiste. La pantalla de enfoque te lo recordará.",
+    "aiWhy": "Una lista de bloqueo solo detiene los sitios que añades. La IA compara cada página con lo que estás haciendo ahora mismo: lo que te ayuda pasa y lo que no se bloquea, incluso en sitios que nunca se te ocurriría añadir.",
+    "aiDetailsButton": "Cuéntame más",
+    "disclosureExpanded": "expandido",
+    "disclosureCollapsed": "contraído",
+    "aiDetailsSentTitle": "Qué se envía",
+    "aiDetailsSentBody": "Cuando abres una página o una app durante una sesión de enfoque, Focus Bear envía a nuestro servidor la dirección y el título de la página (o el nombre de la app y el título de su ventana), tu intención de enfoque, tu tarea actual y las demás tareas de esta sesión, y los motivos que hayas dado en esta sesión para desbloquear algo. Si nos has contado a qué te dedicas y qué suele distraerte, también se incluye.",
+    "aiDetailsNotSentTitle": "Qué no se envía",
+    "aiDetailsNotSentBody": "Tu nombre, tu correo electrónico y tu cuenta nunca llegan al proveedor de IA. Nuestro servidor sabe de qué cuenta es cada comprobación, porque así has iniciado sesión, pero no lo transmite. Además, acorta la dirección al sitio y la página, más los términos de búsqueda, y descarta todo lo demás, como los códigos de seguimiento. Tu Mac nunca envía el contenido de la página, tu historial de navegación ni nada de lo que escribes en los sitios web. Si a una página le falta el título o la descripción, nuestro servidor consulta la página pública por su cuenta, sin ninguno de tus inicios de sesión.",
+    "aiDetailsWhoTitle": "Quién lo comprueba",
+    "aiDetailsWhoBody": "Nuestro servidor pasa la comprobación a nuestro proveedor de IA, actualmente Gemini de Google, con un primer vistazo rápido de TypeSafe. Responden si la página o la app encaja con tu tarea, y por qué.",
+    "aiDetailsKeptTitle": "Qué se guarda",
+    "aiDetailsKeptBody": "No guardamos en tu cuenta de Focus Bear las páginas que visitas. Nuestro servidor conserva durante un día los títulos y descripciones de páginas públicas, sin vincularlos a ti. Si una comprobación falla, sus detalles pueden quedar en nuestros registros de errores para que podamos arreglarlo. Este Mac guarda su propio registro de comprobaciones recientes, que se queda aquí salvo que nos lo envíes con un informe de problema.",
+    "aiDetailsOnMacTitle": "Qué se queda en este Mac",
+    "aiDetailsOnMacBody": "Primero mira el modelo de Focus Bear que funciona en el propio Mac. Cuando está seguro de que una página o app encaja con tu tarea, te deja pasar al instante y solo pide una segunda opinión si te quedas. Una página o app comprobada hace poco se responde de memoria en lugar de enviarse de nuevo.",
+    "aiDetailsWhyTitle": "Por qué ayuda",
+    "aiDetailsWhyBody": "Una lista de bloqueo no distingue una clase en YouTube de un agujero sin fondo, ni la investigación del scroll infinito. Comparar cada página con lo que haces ahora mismo deja pasar lo útil y frena lo demás, sin que tengas que mantener una lista al día."
   }
 }
