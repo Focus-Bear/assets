@@ -4857,6 +4857,10 @@
       "outcomePostponeYearsText": "Can postpone for years"
     },
     "localForecastViewInfo": {
+        "linkedBlockQueueTitle": "Show the <COUNT> tasks in <BLOCK>",
+        "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
+        "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> days)",
+        "linkedBlockQueueNoEstimate": "no estimate",
         "linkedBlockBooked": "<BLOCK> is full until <DATE> (tasks already in it: <COUNT>). Lengthen <BLOCK>, or free up time on those days, to fit this sooner.",
         "linkedBlockNoSlot": "<BLOCK> finds no slot on <COUNT> of those days: your routine runs out of room before it. Shorten or skip other habits on those days to make room.",
         "linkedBlockFallbackName": "Its linked habit or event",

@@ -4483,6 +4483,10 @@
         "tasksToDoCountText": "<COUNT> offen"
   },
   "localForecastViewInfo": {
+    "linkedBlockQueueTitle": "Die <COUNT> Aufgaben in <BLOCK> zeigen",
+    "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
+    "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> Tage)",
+    "linkedBlockQueueNoEstimate": "keine Schätzung",
     "linkedBlockBooked": "<BLOCK> ist bis <DATE> voll (Aufgaben darin: <COUNT>). Verlängere <BLOCK> oder schaffe an diesen Tagen Zeit, damit diese früher hineinpasst.",
     "linkedBlockNoSlot": "<BLOCK> findet an <COUNT> dieser Tage keinen Platz: Deiner Routine geht vorher der Raum aus. Kürze oder überspringe an diesen Tagen andere Gewohnheiten.",
     "linkedBlockFallbackName": "Die verknüpfte Gewohnheit oder der verknüpfte Termin",
