@@ -6157,6 +6157,9 @@
     "blockingScheduleEditorVcInfo":{
         "chooseBlockIcon": "Choose block icon",
         "noBlockIcon": "No icon",
+        "blockingStarts": "Blocking starts",
+        "blockingEnds": "Blocking ends",
+        "scheduleTemplates": "Schedule templates",
         "titleActiveTime": "Active time",
         "titleEveryday": "Everyday",
         "titleStrictnessFlexible": "Flexible",
