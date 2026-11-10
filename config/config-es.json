@@ -4868,6 +4868,7 @@
       "outcomePostponeWeeksText": "Se puede posponer unas semanas"
     },
     "localForecastViewInfo": {
+        "taskProjectPicker": "Proyecto",
         "linkedBlockQueueTitle": "Mostrar las <COUNT> tareas en <BLOCK>",
         "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
         "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> días)",

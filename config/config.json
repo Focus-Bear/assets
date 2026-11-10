@@ -4870,6 +4870,7 @@
       "outcomePostponeYearsText": "Can postpone for years"
     },
     "localForecastViewInfo": {
+        "taskProjectPicker": "Project",
         "linkedBlockQueueTitle": "Show the <COUNT> tasks in <BLOCK>",
         "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
         "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> days)",

@@ -4492,6 +4492,7 @@
         "tasksToDoCountText": "<COUNT> à faire"
   },
   "localForecastViewInfo": {
+    "taskProjectPicker": "Projet",
     "linkedBlockQueueTitle": "Afficher les <COUNT> tâches dans <BLOCK>",
     "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
     "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> jours)",
