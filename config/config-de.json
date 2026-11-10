@@ -4452,6 +4452,8 @@
     "showInTaskListText": "In der Aufgabenliste anzeigen",
         "assignedToText": "Zugewiesen an <NAME>",
         "subtaskProgressText": "<DONE> von <TOTAL> Teilaufgaben erledigt",
+        "cardDurationSpokenText": "Dauer <COUNT> Minuten",
+        "cardDurationSpokenOneMinuteText": "Dauer 1 Minute",
         "showSubtasksText": "Teilaufgaben anzeigen",
         "hideSubtasksText": "Teilaufgaben ausblenden",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
