@@ -4401,6 +4401,7 @@
         "searchPlaceholder": "Search...",
         "filterText": "Filter",
         "moreOptionsText": "More Options",
+        "sortByText": "Sort by",
         "sortSmartText": "Smart",
         "sortSmartTooltip": "Smart sort — ADHD-friendly. Sorted by TOP score, highest priority first.",
         "sortChronologicalText": "Newest",
