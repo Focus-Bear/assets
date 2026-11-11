@@ -6138,6 +6138,7 @@
         "menuNotes": "Notes",
         "menuFocusToolsSubtitleNotes": "Music, notes & to-dos",
         "blockingOffBrowserNotResponding": "Your browser has stopped telling Focus Bear which page is open, so websites aren't being checked. Quitting and reopening the browser usually fixes it.",
+        "blockingOffNamedBrowserNotResponding": "<BROWSER> isn't telling Focus Bear which page is open, so websites in <BROWSER> aren't being checked. Other blocking keeps working. If this keeps happening, quit and reopen <BROWSER>.",
         "blockingOffFixBrowserNotResponding": "Check browser setup",
         "menuNoCurrentTask": "No task chosen",
         "menuMarkTaskComplete": "Mark as complete",
