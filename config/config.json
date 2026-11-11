@@ -8019,6 +8019,13 @@
   },
   "historyImportInfo": {
     "privacyTitleMac": "Your history stays on this Mac",
+    "personaliseTitleMac": "Personalise your blocklist based on your browser history",
+    "onDeviceMac": "Your history never leaves your computer - we analyse it on your device",
+    "exampleCaptionMac": "Here’s an example of what you’ll see next. You choose whether each site is distracting, neutral or productive.",
+    "exampleImageLabelMac": "Example: a list of websites, each marked distracting, neutral or productive",
+    "personaliseCheckboxMac": "Use my browsing history to personalise my blocklist",
+    "detailsButtonMac": "Tell me more",
+    "reasonCommonlyProductiveMac": "Usually used for work",
     "privacyBrowsersMac": "We look at Safari, Chrome, Arc, Brave, Edge, Opera, Vivaldi and Firefox. Browser pages, files, localhost and local network addresses are left out.",
     "consentCheckboxMac": "It's OK for Focus Bear to read my browser history on this Mac",
     "safariAccessTitleMac": "Include Safari too?",
@@ -8068,6 +8075,7 @@
   },
   "blockingSetupInfo": {
     "suggestionTitle": "Choose what to block",
+    "stagePersonalise": "Personalise",
     "suggestionBody": "Nothing is blocked yet. Pick the sites and apps that pull you away, and Focus Bear will block them while you focus.",
     "suggestionButton": "Set up your block list",
     "suggestionDismiss": "Dismiss this suggestion",

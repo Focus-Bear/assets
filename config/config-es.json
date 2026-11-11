@@ -8017,6 +8017,13 @@
   },
   "historyImportInfo": {
     "privacyTitleMac": "Tu historial se queda en este Mac",
+    "personaliseTitleMac": "Personaliza tu lista de bloqueo según tu historial de navegación",
+    "onDeviceMac": "Tu historial nunca sale de tu ordenador: lo analizamos en tu dispositivo",
+    "exampleCaptionMac": "Este es un ejemplo de lo que verás a continuación. Tú eliges si cada sitio es una distracción, neutral o productivo.",
+    "exampleImageLabelMac": "Ejemplo: una lista de sitios web, cada uno marcado como distracción, neutral o productivo",
+    "personaliseCheckboxMac": "Usar mi historial de navegación para personalizar mi lista de bloqueo",
+    "detailsButtonMac": "Cuéntame más",
+    "reasonCommonlyProductiveMac": "Se suele usar para trabajar",
     "privacyBrowsersMac": "Revisamos Safari, Chrome, Arc, Brave, Edge, Opera, Vivaldi y Firefox. Se excluyen las páginas del navegador, los archivos, localhost y las direcciones de la red local.",
     "consentCheckboxMac": "Acepto que Focus Bear lea mi historial de navegación en este Mac",
     "safariAccessTitleMac": "¿Incluir también Safari?",
@@ -8066,6 +8073,7 @@
   },
   "blockingSetupInfo": {
     "suggestionTitle": "Elige qué bloquear",
+    "stagePersonalise": "Personalizar",
     "suggestionBody": "Todavía no hay nada bloqueado. Elige los sitios y las apps que te distraen y Focus Bear los bloqueará mientras te concentras.",
     "suggestionButton": "Configura tu lista de bloqueo",
     "suggestionDismiss": "Descartar esta sugerencia",
