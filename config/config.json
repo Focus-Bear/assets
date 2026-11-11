@@ -6187,6 +6187,7 @@
         "disableReasonFocusSummary": "Disabled because your all-day summary is visible. Go to the Habits tab to continue.",
         "disableReasonShutoffTime": "Disabled because it’s your shutoff time. Go to the Habits tab to continue.",
         "disableReasonMircoBreaks": "Disabled because your micro break is in progress. Go to the Micro Break tab to continue.",
+        "disableReasonSettingsPassword": "Disabled because your password rule protects this right now. Finish your routine to open it.",
         "disableReasonCustomRoutine": "Disabled because your custom routine is in progress. Go to the Custom Routine tab to continue.",
         "superStrictNeedPasswordText": "You're running in Super Strict mode and no password is set. You will need to set a password to pause this custom schedule.",
         "menuNotes": "Notes",

@@ -5780,6 +5780,7 @@
     "disableReasonFocusSummary": "Wyłączone, ponieważ widoczne jest podsumowanie całego dnia. Przejdź do zakładki Nawyki, aby kontynuować.",
     "disableReasonShutoffTime": "Wyłączone, ponieważ nadszedł twój czas wyłączenia. Przejdź do zakładki Nawyki, aby kontynuować.",
     "disableReasonMircoBreaks": "Wyłączone, ponieważ trwa twoja mikroprzerwa. Przejdź do zakładki Mikroprzerwa, aby kontynuować.",
+    "disableReasonSettingsPassword": "Wyłączone, ponieważ twoja reguła hasła teraz to chroni. Zakończ rutynę, aby to otworzyć.",
     "disableReasonCustomRoutine": "Wyłączone, ponieważ trwa twoja własna rutyna. Przejdź do zakładki Własna rutyna, aby kontynuować.",
     "superStrictNeedPasswordText": "Działasz w trybie Super rygorystycznym i nie ustawiono hasła. Aby wstrzymać ten własny harmonogram, musisz ustawić hasło.",
     "menuNotes": "Notatki",

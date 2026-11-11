@@ -5780,6 +5780,7 @@
     "disableReasonFocusSummary": "Désactivé car ton résumé de la journée est affiché. Va dans l'onglet Habitudes pour continuer.",
     "disableReasonShutoffTime": "Désactivé car c'est ton heure d'arrêt. Va dans l'onglet Habitudes pour continuer.",
     "disableReasonMircoBreaks": "Désactivé car ta micro-pause est en cours. Va dans l'onglet Micro-pause pour continuer.",
+    "disableReasonSettingsPassword": "Désactivé car ta règle de mot de passe le protège en ce moment. Termine ta routine pour l'ouvrir.",
     "disableReasonCustomRoutine": "Désactivé car ta routine personnalisée est en cours. Va dans l'onglet Routine personnalisée pour continuer.",
     "superStrictNeedPasswordText": "Tu es en mode Super strict et aucun mot de passe n'est défini. Tu devras définir un mot de passe pour mettre en pause ce planning personnalisé.",
     "menuNotes": "Notes",
