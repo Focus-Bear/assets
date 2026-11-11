@@ -5731,6 +5731,7 @@
     "menuNotes": "Notizen",
     "menuFocusToolsSubtitleNotes": "Musik, Notizen & To-dos",
     "blockingOffBrowserNotResponding": "Dein Browser meldet Focus Bear nicht mehr, welche Seite offen ist, deshalb werden Websites nicht geprüft. Meist hilft es, den Browser zu beenden und neu zu öffnen.",
+    "blockingOffNamedBrowserNotResponding": "<BROWSER> meldet Focus Bear nicht, welche Seite offen ist, deshalb werden Websites in <BROWSER> nicht geprüft. Alles andere wird weiterhin blockiert. Wenn das wieder passiert, beende <BROWSER> und öffne es neu.",
     "blockingOffFixBrowserNotResponding": "Browser-Einrichtung prüfen",
     "menuNoCurrentTask": "Keine Aufgabe gewählt",
     "menuMarkTaskComplete": "Als erledigt markieren",

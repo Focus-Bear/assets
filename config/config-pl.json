@@ -5731,6 +5731,7 @@
     "menuNotes": "Notatki",
     "menuFocusToolsSubtitleNotes": "Muzyka, notatki i zadania",
     "blockingOffBrowserNotResponding": "Twoja przeglądarka przestała informować Focus Bear, która strona jest otwarta, więc strony nie są sprawdzane. Zwykle pomaga zamknięcie i ponowne otwarcie przeglądarki.",
+    "blockingOffNamedBrowserNotResponding": "<BROWSER> nie informuje Focus Bear, która strona jest otwarta, więc strony w <BROWSER> nie są sprawdzane. Pozostałe blokowanie działa dalej. Jeśli to się powtarza, zamknij i ponownie otwórz <BROWSER>.",
     "blockingOffFixBrowserNotResponding": "Sprawdź konfigurację przeglądarki",
     "menuNoCurrentTask": "Nie wybrano zadania",
     "menuMarkTaskComplete": "Oznacz jako ukończone",

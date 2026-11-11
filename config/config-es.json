@@ -6136,6 +6136,7 @@
         "menuNotes": "Notas",
         "menuFocusToolsSubtitleNotes": "Música, notas y tareas",
         "blockingOffBrowserNotResponding": "Tu navegador ha dejado de indicarle a Focus Bear qué página está abierta, así que no se están comprobando los sitios web. Normalmente se soluciona cerrando y volviendo a abrir el navegador.",
+        "blockingOffNamedBrowserNotResponding": "<BROWSER> no le está indicando a Focus Bear qué página está abierta, así que no se están comprobando los sitios web en <BROWSER>. El resto del bloqueo sigue funcionando. Si sigue pasando, cierra y vuelve a abrir <BROWSER>.",
         "blockingOffFixBrowserNotResponding": "Revisar la configuración del navegador",
         "menuNoCurrentTask": "Ninguna tarea elegida",
         "menuMarkTaskComplete": "Marcar como completada",
