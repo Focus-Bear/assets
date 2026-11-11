@@ -47,7 +47,9 @@
     "cancel": "Abbrechen",
     "unitHour": "Std.",
     "unitMinute": "Min.",
-    "unitSecond": "Sek."
+    "unitSecond": "Sek.",
+    "breakGroupTitle": "Ich brauche eine Pause",
+    "focusGroupTitle": "Mehr Fokus, bitte!"
   },
   "featureSwitches": {
     "localRelevanceModel": {
