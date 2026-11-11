@@ -1198,7 +1198,14 @@
       "titleTotalTimeOnBlockedSItes": "Time spent on super distracting sites:",
       "titleTotalDistractingSites": "Total distracting sites blocked:",
       "titleTimeSpentOnBreaks": "Total time spent on breaks:",
-      "totalBreaksTimeText": "Total time spent on breaks: <TIME>"
+      "totalBreaksTimeText": "Total time spent on breaks: <TIME>",
+      "statTotalFocusTimeText": "Temps de concentration total",
+      "statBlocksCompletedText": "Blocs de concentration",
+      "statLongestBlockText": "Bloc le plus long",
+      "noFocusBlocksText": "Pas encore de bloc de concentration aujourd'hui.",
+      "durationHoursShortText": "<H> h",
+      "durationMinutesShortText": "<M> min",
+      "durationSecondsShortText": "<S> s"
     },
     "discourageDefaultFocusInfo": {
       "title": "Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
