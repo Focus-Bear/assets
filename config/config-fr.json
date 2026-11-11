@@ -7951,7 +7951,13 @@
         "startNow": "Commencer maintenant",
         "startNowHelp": "Faire commencer Claude maintenant. Demande le mot de passe que tu as défini pour après ton heure limite.",
         "cancelSchedule": "Annuler",
-        "cancelScheduleHelp": "Ne pas lancer cette délégation. Tu pourras déléguer la tâche plus tard."
+        "cancelScheduleHelp": "Ne pas lancer cette délégation. Tu pourras déléguer la tâche plus tard.",
+        "cancelDelegation": "Annuler la délégation",
+        "cancelDelegationHelp": "Ne pas lancer cette délégation. Tes instructions restent ici comme brouillon, pour que tu puisses déléguer à nouveau plus tard.",
+        "updateSchedule": "Mettre à jour",
+        "updateScheduleHelp": "Donner ces instructions à Claude quand il commence.",
+        "queuedEditUnsaved": "Appuie sur Mettre à jour pour que Claude reçoive ces modifications au démarrage.",
+        "queuedEditSaved": "Mis à jour. Claude commencera avec ces instructions."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Désactive '<EXTENSION>'",

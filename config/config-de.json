@@ -7951,7 +7951,13 @@
         "startNow": "Jetzt starten",
         "startNowHelp": "Claude jetzt starten. Fragt nach dem Passwort, das du für die Zeit nach deiner Abschaltzeit festgelegt hast.",
         "cancelSchedule": "Abbrechen",
-        "cancelScheduleHelp": "Diese Delegierung nicht starten. Du kannst die Aufgabe später erneut delegieren."
+        "cancelScheduleHelp": "Diese Delegierung nicht starten. Du kannst die Aufgabe später erneut delegieren.",
+        "cancelDelegation": "Delegierung abbrechen",
+        "cancelDelegationHelp": "Diese Delegierung nicht starten. Deine Anweisungen bleiben hier als Entwurf, damit du später erneut delegieren kannst.",
+        "updateSchedule": "Aktualisieren",
+        "updateScheduleHelp": "Claude bekommt diese Anweisungen, wenn es startet.",
+        "queuedEditUnsaved": "Drücke „Aktualisieren“, damit Claude diese Änderungen beim Start bekommt.",
+        "queuedEditSaved": "Aktualisiert. Claude startet mit diesen Anweisungen."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "'<EXTENSION>' ausschalten",

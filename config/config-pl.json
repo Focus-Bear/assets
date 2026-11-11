@@ -7951,7 +7951,13 @@
         "startNow": "Zacznij teraz",
         "startNowHelp": "Niech Claude zacznie teraz. Wymaga hasła ustawionego na czas po godzinie granicznej.",
         "cancelSchedule": "Anuluj",
-        "cancelScheduleHelp": "Nie rozpoczynaj tego delegowania. Możesz delegować zadanie ponownie później."
+        "cancelScheduleHelp": "Nie rozpoczynaj tego delegowania. Możesz delegować zadanie ponownie później.",
+        "cancelDelegation": "Anuluj delegowanie",
+        "cancelDelegationHelp": "Nie uruchamiaj tego delegowania. Twoje instrukcje zostaną tu jako szkic, więc możesz delegować ponownie później.",
+        "updateSchedule": "Aktualizuj",
+        "updateScheduleHelp": "Przekaż Claude te instrukcje, gdy zacznie.",
+        "queuedEditUnsaved": "Naciśnij Aktualizuj, aby Claude otrzymał te zmiany przy starcie.",
+        "queuedEditSaved": "Zaktualizowano. Claude zacznie z tymi instrukcjami."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Wyłącz '<EXTENSION>'",
