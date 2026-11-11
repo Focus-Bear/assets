@@ -4401,6 +4401,7 @@
         "searchPlaceholder": "Buscar...",
         "filterText": "Filtrar",
         "moreOptionsText": "Más opciones",
+        "sortByText": "Ordenar por",
         "sortSmartText": "Inteligente",
         "sortSmartTooltip": "Orden inteligente — apto para TDAH. Ordenado por puntuación TOP, mayor prioridad primero.",
         "sortChronologicalText": "Recientes",
