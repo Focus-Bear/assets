@@ -4027,6 +4027,8 @@
     "sortByText": "Trier par",
     "sortSmartText": "Intelligent",
     "sortSmartTooltip": "Tri intelligent — adapté au TDAH. Trié par score TOP, priorité la plus haute en premier.",
+    "sortTopLabel": "TOP",
+    "topInfoText": "TOP = Timeline (échéance) × Outcome (résultat) ÷ Perspiration (effort) : l’urgence de l’échéance au vu du travail à faire, multipliée par l’importance de la tâche, divisée par l’effort qu’elle demande. Le score le plus élevé passe en premier, et les tâches en retard montent chaque jour.",
     "sortChronologicalText": "Récentes",
     "sortChronologicalTooltip": "Tri chronologique. Les tâches créées le plus récemment en premier.",
     "sortDueDateText": "Échéance",

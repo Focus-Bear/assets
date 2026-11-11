@@ -4404,6 +4404,8 @@
         "sortByText": "Ordenar por",
         "sortSmartText": "Inteligente",
         "sortSmartTooltip": "Orden inteligente — apto para TDAH. Ordenado por puntuación TOP, mayor prioridad primero.",
+        "sortTopLabel": "TOP",
+        "topInfoText": "TOP = Timeline (tiempo) × Outcome (resultado) ÷ Perspiration (esfuerzo): lo apremiante que es la fecha de vencimiento para el trabajo que implica, por lo que importa la tarea, dividido por el esfuerzo que requiere. Primero va la puntuación más alta, y las tareas vencidas suben cada día.",
         "sortChronologicalText": "Recientes",
         "sortChronologicalTooltip": "Orden cronológico. Las tareas creadas más recientemente primero.",
         "sortDueDateText": "Vencimiento",

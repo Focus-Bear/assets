@@ -4029,6 +4029,8 @@
     "sortByText": "Sortieren nach",
     "sortSmartText": "Smart",
     "sortSmartTooltip": "Smarte Sortierung — ADHS-freundlich. Sortiert nach TOP-Score, höchste Priorität zuerst.",
+    "sortTopLabel": "TOP",
+    "topInfoText": "TOP = Timeline (Zeitrahmen) × Outcome (Ergebnis) ÷ Perspiration (Anstrengung): wie drängend die Fälligkeit für den Aufwand ist, mal wie wichtig die Aufgabe ist, geteilt durch die nötige Anstrengung. Der höchste Wert steht oben, und überfällige Aufgaben steigen jeden Tag weiter.",
     "sortChronologicalText": "Neueste",
     "sortChronologicalTooltip": "Chronologische Sortierung. Zuletzt erstellte Aufgaben zuerst.",
     "sortDueDateText": "Fälligkeit",
