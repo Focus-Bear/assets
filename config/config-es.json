@@ -1205,7 +1205,14 @@
             "titleTotalTimeOnBlockedSItes": "Tiempo en sitios súper distractores:",
             "titleTotalDistractingSites": "Total de sitios distractores bloqueados:",
             "titleTimeSpentOnBreaks": "Tiempo total dedicado a los descansos:",
-            "totalBreaksTimeText": "Tiempo total dedicado a los descansos: <TIME>"
+            "totalBreaksTimeText": "Tiempo total dedicado a los descansos: <TIME>",
+            "statTotalFocusTimeText": "Tiempo total de enfoque",
+            "statBlocksCompletedText": "Bloques de enfoque",
+            "statLongestBlockText": "Bloque más largo",
+            "noFocusBlocksText": "Aún no hay bloques de enfoque hoy.",
+            "durationHoursShortText": "<H> h",
+            "durationMinutesShortText": "<M> min",
+            "durationSecondsShortText": "<S> s"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Estás seguro/a? Es bastante fácil distraerte sin usar un modo de enfoque más restrictivo",
