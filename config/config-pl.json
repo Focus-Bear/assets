@@ -4027,6 +4027,8 @@
     "sortByText": "Sortuj według",
     "sortSmartText": "Inteligentne",
     "sortSmartTooltip": "Sortowanie inteligentne — przyjazne ADHD. Według wyniku TOP, najwyższy priorytet pierwszy.",
+    "sortTopLabel": "TOP",
+    "topInfoText": "TOP = Timeline (termin) × Outcome (efekt) ÷ Perspiration (wysiłek): jak pilny jest termin przy tej ilości pracy, razy to, jak ważne jest zadanie, podzielone przez potrzebny wysiłek. Najwyższy wynik jest pierwszy, a zaległe zadania rosną z każdym dniem.",
     "sortChronologicalText": "Najnowsze",
     "sortChronologicalTooltip": "Sortowanie chronologiczne. Najnowsze zadania pierwsze.",
     "sortDueDateText": "Termin",

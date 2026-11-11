@@ -4404,6 +4404,8 @@
         "sortByText": "Sort by",
         "sortSmartText": "Smart",
         "sortSmartTooltip": "Smart sort — ADHD-friendly. Sorted by TOP score, highest priority first.",
+        "sortTopLabel": "TOP",
+        "topInfoText": "TOP = Timeline × Outcome ÷ Perspiration: how pressing the due date is for the work involved, times how much the task matters, divided by the effort it takes. The highest score comes first, and overdue tasks climb every day.",
         "sortChronologicalText": "Newest",
         "sortChronologicalTooltip": "Chronological sort. Most recently created tasks first.",
         "sortDueDateText": "Due date",
