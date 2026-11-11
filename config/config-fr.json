@@ -47,7 +47,9 @@
     "cancel": "Annuler",
     "unitHour": "h",
     "unitMinute": "min",
-    "unitSecond": "s"
+    "unitSecond": "s",
+    "breakGroupTitle": "J'ai besoin d'une pause",
+    "focusGroupTitle": "Encore plus de concentration !"
   },
   "featureSwitches": {
     "localRelevanceModel": {
