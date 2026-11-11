@@ -8038,6 +8038,13 @@
   },
   "historyImportInfo": {
     "privacyTitleMac": "Twoja historia zostaje na tym Macu",
+    "personaliseTitleMac": "Dopasuj listę blokowanych na podstawie historii przeglądarki",
+    "onDeviceMac": "Twoja historia nigdy nie opuszcza Twojego komputera – analizujemy ją na Twoim urządzeniu",
+    "exampleCaptionMac": "Oto przykład tego, co zobaczysz dalej. Ty decydujesz, czy każda strona jest rozpraszająca, neutralna czy produktywna.",
+    "exampleImageLabelMac": "Przykład: lista stron, z których każda jest oznaczona jako rozpraszająca, neutralna lub produktywna",
+    "personaliseCheckboxMac": "Użyj mojej historii przeglądania, aby dopasować moją listę blokowanych",
+    "detailsButtonMac": "Dowiedz się więcej",
+    "reasonCommonlyProductiveMac": "Zwykle używana do pracy",
     "privacyBrowsersMac": "Sprawdzamy Safari, Chrome, Arc, Brave, Edge, Operę, Vivaldi i Firefoksa. Pomijamy strony przeglądarki, pliki, localhost i adresy sieci lokalnej.",
     "consentCheckboxMac": "Zgadzam się, aby Focus Bear odczytał moją historię przeglądania na tym Macu",
     "safariAccessTitleMac": "Uwzględnić też Safari?",
@@ -8087,6 +8094,7 @@
   },
   "blockingSetupInfo": {
     "suggestionTitle": "Wybierz, co blokować",
+    "stagePersonalise": "Dopasowanie",
     "suggestionBody": "Nic jeszcze nie jest zablokowane. Wybierz strony i aplikacje, które Cię rozpraszają, a Focus Bear zablokuje je, gdy będziesz się skupiać.",
     "suggestionButton": "Skonfiguruj listę blokowanych",
     "suggestionDismiss": "Odrzuć tę sugestię",

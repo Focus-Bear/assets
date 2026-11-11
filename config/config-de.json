@@ -8038,6 +8038,13 @@
   },
   "historyImportInfo": {
     "privacyTitleMac": "Dein Verlauf bleibt auf diesem Mac",
+    "personaliseTitleMac": "Personalisiere deine Sperrliste anhand deines Browserverlaufs",
+    "onDeviceMac": "Dein Verlauf verlässt nie deinen Computer – wir analysieren ihn auf deinem Gerät",
+    "exampleCaptionMac": "Hier ist ein Beispiel dafür, was du als Nächstes siehst. Du entscheidest, ob jede Website ablenkend, neutral oder produktiv ist.",
+    "exampleImageLabelMac": "Beispiel: eine Liste von Websites, jede als ablenkend, neutral oder produktiv markiert",
+    "personaliseCheckboxMac": "Meinen Browserverlauf verwenden, um meine Sperrliste zu personalisieren",
+    "detailsButtonMac": "Mehr erfahren",
+    "reasonCommonlyProductiveMac": "Wird meist zum Arbeiten genutzt",
     "privacyBrowsersMac": "Wir sehen uns Safari, Chrome, Arc, Brave, Edge, Opera, Vivaldi und Firefox an. Browserseiten, Dateien, localhost und Adressen im lokalen Netzwerk bleiben außen vor.",
     "consentCheckboxMac": "Focus Bear darf meinen Browserverlauf auf diesem Mac lesen",
     "safariAccessTitleMac": "Safari auch einbeziehen?",
@@ -8087,6 +8094,7 @@
   },
   "blockingSetupInfo": {
     "suggestionTitle": "Wähle, was blockiert werden soll",
+    "stagePersonalise": "Personalisieren",
     "suggestionBody": "Noch ist nichts blockiert. Wähle die Websites und Apps, die dich ablenken, und Focus Bear blockiert sie, während du dich konzentrierst.",
     "suggestionButton": "Sperrliste einrichten",
     "suggestionDismiss": "Diesen Vorschlag ausblenden",
