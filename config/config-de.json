@@ -5780,6 +5780,7 @@
     "disableReasonFocusSummary": "Deaktiviert, weil deine Tageszusammenfassung angezeigt wird. Gehe zum Tab „Gewohnheiten“, um fortzufahren.",
     "disableReasonShutoffTime": "Deaktiviert, weil deine Abschaltzeit erreicht ist. Gehe zum Tab „Gewohnheiten“, um fortzufahren.",
     "disableReasonMircoBreaks": "Deaktiviert, weil deine Mikropause läuft. Gehe zum Tab „Mikropause“, um fortzufahren.",
+    "disableReasonSettingsPassword": "Deaktiviert, weil deine Passwortregel das gerade schützt. Beende deine Routine, um es zu öffnen.",
     "disableReasonCustomRoutine": "Deaktiviert, weil deine individuelle Routine läuft. Gehe zum Tab „Individuelle Routine“, um fortzufahren.",
     "superStrictNeedPasswordText": "Du befindest dich im Super-Strict-Modus, und es ist kein Passwort festgelegt. Du musst ein Passwort einrichten, um diesen individuellen Zeitplan zu pausieren.",
     "menuNotes": "Notizen",
