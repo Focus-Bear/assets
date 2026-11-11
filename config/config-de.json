@@ -4536,6 +4536,7 @@
         "deleteRepeatingTaskAllText": "Alle löschen, mit Verlauf"
   },
   "localForecastViewInfo": {
+    "taskProjectPicker": "Projekt",
     "linkedBlockQueueTitle": "Die <COUNT> Aufgaben in <BLOCK> zeigen",
     "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
     "linkedBlockQueueSpan": "<FIRST> – <LAST> (<COUNT> Tage)",
