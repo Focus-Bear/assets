@@ -7889,7 +7889,13 @@
         "startNow": "Empezar ahora",
         "startNowHelp": "Hace que Claude empiece ahora. Pide la contraseña que configuraste para después de tu hora límite.",
         "cancelSchedule": "Cancelar",
-        "cancelScheduleHelp": "No empezar esta delegación. Puedes volver a delegar la tarea más tarde."
+        "cancelScheduleHelp": "No empezar esta delegación. Puedes volver a delegar la tarea más tarde.",
+        "cancelDelegation": "Cancelar delegación",
+        "cancelDelegationHelp": "No empezar esta delegación. Tus instrucciones se quedan aquí como borrador, para que puedas volver a delegar más tarde.",
+        "updateSchedule": "Actualizar",
+        "updateScheduleHelp": "Dale a Claude estas instrucciones cuando empiece.",
+        "queuedEditUnsaved": "Pulsa Actualizar para que Claude reciba estos cambios cuando empiece.",
+        "queuedEditSaved": "Actualizado. Claude empezará con estas instrucciones."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Desactiva '<EXTENSION>'",

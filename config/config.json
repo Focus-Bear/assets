@@ -7891,7 +7891,13 @@
         "startNow": "Start now",
         "startNowHelp": "Start Claude now. Asks for the password you set for after your cutoff time.",
         "cancelSchedule": "Cancel",
-        "cancelScheduleHelp": "Don't start this delegation. You can delegate the task again later."
+        "cancelScheduleHelp": "Don't start this delegation. You can delegate the task again later.",
+        "cancelDelegation": "Cancel delegation",
+        "cancelDelegationHelp": "Don't start this delegation. Your instructions stay here as a draft, so you can delegate again later.",
+        "updateSchedule": "Update",
+        "updateScheduleHelp": "Give Claude these instructions when it starts.",
+        "queuedEditUnsaved": "Press Update to give Claude these changes when it starts.",
+        "queuedEditSaved": "Updated. Claude will start with these instructions."
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Turn off '<EXTENSION>'",
