@@ -4786,7 +4786,8 @@
     "signInAgainButton": "Erneut anmelden",
     "signInAgainInProgress": "Anmeldung läuft…",
     "signInAgainDifferentAccount": "Das war ein anderes Konto. Melde dich mit dem Konto an, das dieser Mac verwendet hat.",
-    "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal."
+    "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal.",
+    "signInEndingDetail": "Deine Focus-Bear-Anmeldung endet bald (<TIME>). Bis dahin funktioniert alles, und deine Blockierung bleibt in jedem Fall aktiv."
   },
   "scheduleViewInfo": {
     "tasksSnoozeExplainTitle": "Warum dieser Vorschlag",

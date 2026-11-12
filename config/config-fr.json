@@ -4786,7 +4786,8 @@
     "signInAgainButton": "Se reconnecter",
     "signInAgainInProgress": "Connexion…",
     "signInAgainDifferentAccount": "C'était un autre compte. Connecte-toi avec le compte qu'utilisait ce Mac.",
-    "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie."
+    "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie.",
+    "signInEndingDetail": "Ta connexion à Focus Bear se termine bientôt (<TIME>). Tout fonctionne jusque-là, et ton blocage reste actif dans tous les cas."
   },
   "scheduleViewInfo": {
     "tasksSnoozeExplainTitle": "Pourquoi cette suggestion",

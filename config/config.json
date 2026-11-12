@@ -7998,6 +7998,7 @@
     "signInAgainInProgress": "Signing in…",
     "signInAgainDifferentAccount": "That was a different account. Sign in with the account this Mac was using.",
     "signInAgainFailed": "Sign-in didn't finish. Your blocking is still on — try again.",
+    "signInEndingDetail": "Your Focus Bear sign-in ends at <TIME>. Everything keeps working until then, and your blocking stays on either way.",
     "breakSetupTitleText": "Set up breaks",
     "breakSetupSubtitleText": "Short, regular breaks keep your energy, focus and posture up.",
     "breakSetupFrequencyQuestionText": "How often do you want to take breaks?",
