@@ -2285,6 +2285,8 @@
     "oneBlockCount": "1 blocage",
     "allowedCountWindows": "<COUNT> autorisés",
     "oneAllowedCountWindows": "1 autorisé",
+    "allowedCount": "<COUNT> autorisés",
+    "oneAllowedCount": "1 autorisé",
     "searchPlaceholder": "Ajoute une URL à cette liste de blocage",
     "searchPlaceholderForCategory": "Ajoute une URL à <CATEGORY>",
     "addEntry": "Ajouter",
