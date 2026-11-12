@@ -8204,5 +8204,16 @@
     "permissionsDone": "Done",
     "permissionsSkip": "Skip for now",
     "permissionsSkipNote": "Without these, blocking runs in reduced mode: Focus Bear can't see or block everything you chose. The focus screen will remind you."
+  },
+  "sessionProblemInfo": {
+    "offlineTitle": "You're offline",
+    "offlineBody": "This computer can't reach Focus Bear, so your to-dos and habits can't load or sync. Check your internet connection. Blocking keeps running.",
+    "serverTitle": "Focus Bear can't reach its servers",
+    "serverBody": "Your internet connection is fine: the problem is on our side. Your to-dos and habits will load again as soon as our servers answer. Blocking keeps running.",
+    "signInTitle": "Please sign in again",
+    "signInBody": "Your sign-in has expired, so Focus Bear can't load or save your to-dos, habits and settings. Your internet connection is fine. Blocking keeps running in the meantime.",
+    "buttonRetry": "Try again",
+    "buttonSignIn": "Sign in again",
+    "retryingText": "Trying again…"
   }
 }

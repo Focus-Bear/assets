@@ -8235,5 +8235,16 @@
     "permissionsDone": "Fertig",
     "permissionsSkip": "Vorerst überspringen",
     "permissionsSkipNote": "Ohne sie läuft das Blockieren eingeschränkt: Focus Bear kann nicht alles sehen oder blockieren, was du gewählt hast. Der Fokus-Bildschirm erinnert dich daran."
+  },
+  "sessionProblemInfo": {
+    "offlineTitle": "Du bist offline",
+    "offlineBody": "Dieser Computer kann Focus Bear nicht erreichen, deshalb können deine To-dos und Gewohnheiten nicht geladen oder synchronisiert werden. Prüfe deine Internetverbindung. Die Blockierung bleibt aktiv.",
+    "serverTitle": "Focus Bear erreicht seine Server nicht",
+    "serverBody": "Deine Internetverbindung ist in Ordnung: Das Problem liegt bei uns. Deine To-dos und Gewohnheiten werden wieder geladen, sobald unsere Server antworten. Die Blockierung bleibt aktiv.",
+    "signInTitle": "Bitte melde dich erneut an",
+    "signInBody": "Deine Anmeldung ist abgelaufen, deshalb kann Focus Bear deine To-dos, Gewohnheiten und Einstellungen nicht laden oder speichern. Deine Internetverbindung ist in Ordnung. Die Blockierung bleibt in der Zwischenzeit aktiv.",
+    "buttonRetry": "Erneut versuchen",
+    "buttonSignIn": "Erneut anmelden",
+    "retryingText": "Erneuter Versuch…"
   }
 }

@@ -8235,5 +8235,16 @@
     "permissionsDone": "Terminé",
     "permissionsSkip": "Ignorer pour l'instant",
     "permissionsSkipNote": "Sans elles, le blocage fonctionne en mode réduit : Focus Bear ne peut pas voir ni bloquer tout ce que vous avez choisi. L'écran de concentration vous le rappellera."
+  },
+  "sessionProblemInfo": {
+    "offlineTitle": "Vous êtes hors ligne",
+    "offlineBody": "Cet ordinateur ne parvient pas à joindre Focus Bear : vos tâches et habitudes ne peuvent donc pas se charger ni se synchroniser. Vérifiez votre connexion internet. Le blocage reste actif.",
+    "serverTitle": "Focus Bear ne parvient pas à joindre ses serveurs",
+    "serverBody": "Votre connexion internet fonctionne : le problème vient de chez nous. Vos tâches et habitudes se rechargeront dès que nos serveurs répondront. Le blocage reste actif.",
+    "signInTitle": "Veuillez vous reconnecter",
+    "signInBody": "Votre session a expiré : Focus Bear ne peut donc pas charger ni enregistrer vos tâches, habitudes et réglages. Votre connexion internet fonctionne. En attendant, le blocage reste actif.",
+    "buttonRetry": "Réessayer",
+    "buttonSignIn": "Se reconnecter",
+    "retryingText": "Nouvelle tentative…"
   }
 }
