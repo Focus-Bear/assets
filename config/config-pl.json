@@ -2285,6 +2285,8 @@
     "oneBlockCount": "1 blokada",
     "allowedCountWindows": "Dozwolone: <COUNT>",
     "oneAllowedCountWindows": "Dozwolone: 1",
+    "allowedCount": "Dozwolone: <COUNT>",
+    "oneAllowedCount": "Dozwolone: 1",
     "searchPlaceholder": "Dodaj nowy adres URL do tej listy blokowania",
     "searchPlaceholderForCategory": "Dodaj nowy adres URL do <CATEGORY>",
     "addEntry": "Dodaj",

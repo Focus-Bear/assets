@@ -2702,6 +2702,8 @@
         "oneBlockCount": "1 block",
         "allowedCountWindows": "<COUNT> allowed",
         "oneAllowedCountWindows": "1 allowed",
+        "allowedCount": "<COUNT> allowed",
+        "oneAllowedCount": "1 allowed",
         "searchPlaceholder": "Add a new URL to this blocklist",
         "searchPlaceholderForCategory": "Add a new URL to <CATEGORY>",
         "addEntry": "Add",
