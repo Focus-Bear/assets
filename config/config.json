@@ -2700,6 +2700,8 @@
         "createNewBlockList": "Create New Block",
         "blocksCount": "<COUNT> blocks",
         "oneBlockCount": "1 block",
+        "allowedCountWindows": "<COUNT> allowed",
+        "oneAllowedCountWindows": "1 allowed",
         "searchPlaceholder": "Add a new URL to this blocklist",
         "searchPlaceholderForCategory": "Add a new URL to <CATEGORY>",
         "addEntry": "Add",

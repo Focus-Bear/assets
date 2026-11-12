@@ -2700,6 +2700,8 @@
         "createNewBlockList": "Crear nueva lista",
         "blocksCount": "<COUNT> bloqueos",
         "oneBlockCount": "1 bloqueo",
+        "allowedCountWindows": "<COUNT> permitidos",
+        "oneAllowedCountWindows": "1 permitido",
         "searchPlaceholder": "Agrega una nueva URL a esta lista de bloqueo",
         "searchPlaceholderForCategory": "Agrega una nueva URL a <CATEGORY>",
         "addEntry": "Agregar",

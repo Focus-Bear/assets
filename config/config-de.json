@@ -2283,6 +2283,8 @@
     "createNewBlockList": "Neue Liste erstellen",
     "blocksCount": "<COUNT> Sperren",
     "oneBlockCount": "1 Sperre",
+    "allowedCountWindows": "<COUNT> erlaubt",
+    "oneAllowedCountWindows": "1 erlaubt",
     "searchPlaceholder": "Neue URL zu dieser Blockliste hinzufügen",
     "searchPlaceholderForCategory": "Neue URL zu <CATEGORY> hinzufügen",
     "addEntry": "Hinzufügen",
