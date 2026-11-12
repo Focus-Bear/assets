@@ -8237,5 +8237,16 @@
     "permissionsDone": "Gotowe",
     "permissionsSkip": "Pomiń na razie",
     "permissionsSkipNote": "Bez nich blokowanie działa w trybie ograniczonym: Focus Bear nie widzi i nie blokuje wszystkiego, co wybrano. Ekran skupienia będzie Ci o tym przypominać."
+  },
+  "sessionProblemInfo": {
+    "offlineTitle": "Jesteś offline",
+    "offlineBody": "Ten komputer nie może połączyć się z Focus Bear, więc Twoje zadania i nawyki nie mogą się wczytać ani zsynchronizować. Sprawdź połączenie z internetem. Blokowanie nadal działa.",
+    "serverTitle": "Focus Bear nie może połączyć się ze swoimi serwerami",
+    "serverBody": "Twoje połączenie z internetem działa: problem leży po naszej stronie. Zadania i nawyki wczytają się ponownie, gdy tylko nasze serwery odpowiedzą. Blokowanie nadal działa.",
+    "signInTitle": "Zaloguj się ponownie",
+    "signInBody": "Twoja sesja wygasła, więc Focus Bear nie może wczytać ani zapisać Twoich zadań, nawyków i ustawień. Twoje połączenie z internetem działa. W międzyczasie blokowanie nadal działa.",
+    "buttonRetry": "Spróbuj ponownie",
+    "buttonSignIn": "Zaloguj się ponownie",
+    "retryingText": "Ponawianie…"
   }
 }

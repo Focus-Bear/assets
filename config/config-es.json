@@ -8204,5 +8204,16 @@
     "permissionsDone": "Listo",
     "permissionsSkip": "Omitir por ahora",
     "permissionsSkipNote": "Sin ellos, el bloqueo funciona en modo reducido: Focus Bear no puede ver ni bloquear todo lo que elegiste. La pantalla de enfoque te lo recordará."
+  },
+  "sessionProblemInfo": {
+    "offlineTitle": "Sin conexión",
+    "offlineBody": "Este ordenador no puede conectarse a Focus Bear, así que tus tareas y hábitos no se pueden cargar ni sincronizar. Comprueba tu conexión a internet. El bloqueo sigue activo.",
+    "serverTitle": "Focus Bear no puede conectar con sus servidores",
+    "serverBody": "Tu conexión a internet funciona bien: el problema es nuestro. Tus tareas y hábitos se cargarán de nuevo en cuanto nuestros servidores respondan. El bloqueo sigue activo.",
+    "signInTitle": "Vuelve a iniciar sesión",
+    "signInBody": "Tu sesión ha caducado, así que Focus Bear no puede cargar ni guardar tus tareas, hábitos y ajustes. Tu conexión a internet funciona bien. Mientras tanto, el bloqueo sigue activo.",
+    "buttonRetry": "Reintentar",
+    "buttonSignIn": "Iniciar sesión de nuevo",
+    "retryingText": "Reintentando…"
   }
 }
