@@ -4786,7 +4786,8 @@
     "signInAgainButton": "Zaloguj się ponownie",
     "signInAgainInProgress": "Logowanie…",
     "signInAgainDifferentAccount": "To było inne konto. Zaloguj się na konto, którego używał ten Mac.",
-    "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie."
+    "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie.",
+    "signInEndingDetail": "Twoje logowanie do Focus Bear wkrótce się skończy (<TIME>). Do tego czasu wszystko działa, a blokowanie i tak pozostaje włączone."
   },
   "scheduleViewInfo": {
     "tasksSnoozeExplainTitle": "Dlaczego ta propozycja",

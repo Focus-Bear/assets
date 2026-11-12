@@ -7996,6 +7996,7 @@
     "signInAgainInProgress": "Iniciando sesión…",
     "signInAgainDifferentAccount": "Esa es otra cuenta. Inicia sesión con la cuenta que usaba este Mac.",
     "signInAgainFailed": "No se completó el inicio de sesión. El bloqueo sigue activo; inténtalo de nuevo.",
+    "signInEndingDetail": "Tu sesión de Focus Bear termina pronto (<TIME>). Todo sigue funcionando hasta entonces y el bloqueo sigue activo en cualquier caso.",
     "breakSetupTitleText": "Configura tus descansos",
     "breakSetupSubtitleText": "Los descansos cortos y regulares mantienen tu energía, tu concentración y tu postura.",
     "breakSetupFrequencyQuestionText": "¿Cada cuánto quieres tomar un descanso?",
