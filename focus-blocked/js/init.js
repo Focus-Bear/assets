@@ -94,6 +94,19 @@ const isMorningOrEveningBlock = [
   FOCUS_BLOCK_OPTION.EVENING,
   FOCUS_BLOCK_OPTION.EVENING_HABIT,
 ].includes(block_type);
+// A habit, break or routine activity that blocks everything outside its allowed URLs. The app
+// only honours "unblock it" there when the activity runs a focus mode in Cuddly Bear mode, and
+// it says so with cuddly_bear_mode=true; otherwise the button did nothing (#291).
+const isHabitActivityBlock = [
+  FOCUS_BLOCK_OPTION.MORNING_HABIT,
+  FOCUS_BLOCK_OPTION.EVENING_HABIT,
+  FOCUS_BLOCK_OPTION.BREAK_ACTIVITY,
+  FOCUS_BLOCK_OPTION.SPECIAL_ACTIVITY,
+  FOCUS_BLOCK_OPTION.CUSTOM_ROUTINE,
+].includes(block_type);
+const isCuddlyBearModeActivity = urlParams.get('cuddly_bear_mode') === 'true';
+const isUnblockUnavailableForActivity =
+  isHabitActivityBlock && !isCuddlyBearModeActivity;
 const flags = urlParams.get('flags') ?? [];
 const focusBlockMode =
   urlParams.get('block_mode') === FOCUS_BLOCK_MODE.GRIZZLY
