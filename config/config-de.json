@@ -1318,6 +1318,8 @@
   },
   "enterPasswordViewInfo": {
     "title": "Gib das Passwort ein, um fortzufahren",
+    "strictScheduleLockTitle": "Durch deinen strengen Blockierplan gesperrt",
+    "strictScheduleLockMessage": "„<NAME>“ läuft bis <TIME>. Blockieren und Einstellungen bleiben bis dahin gesperrt, damit der Plan nicht gelockert werden kann. Gib dein Passwort ein, um sie trotzdem zu öffnen.",
     "passwordPlaceholderText": "Passwort",
     "buttonResetPasswordText": "Passwort zurücksetzen",
     "blankPasswordErrorTitle": "Das Passwort darf nicht leer sein.",
@@ -5856,6 +5858,7 @@
     "menuRowUnavailableSpoken": "nicht verfügbar",
     "menuRowLockedSpoken": "gesperrt",
     "preferencesLockedTooltip": "Benötigt gerade dein Passwort. Klicke, um es einzugeben.",
+    "preferencesLockedStrictScheduleTooltip": "Durch deinen strengen Blockierplan „<NAME>“ bis <TIME> gesperrt. Klicke, um dein Passwort einzugeben.",
     "toolUnlocksLockedCount": "Noch <COUNT> Fokus-Tools freizuschalten",
     "toolUnlocksLockedCountOne": "Noch 1 Fokus-Tool freizuschalten",
     "toolUnlocksNextFirstSession": "Starte eine Fokus-Sitzung",

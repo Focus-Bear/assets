@@ -1318,6 +1318,8 @@
   },
   "enterPasswordViewInfo": {
     "title": "Entre le mot de passe pour continuer",
+    "strictScheduleLockTitle": "Verrouillé par ton programme de blocage strict",
+    "strictScheduleLockMessage": "« <NAME> » dure jusqu’à <TIME>. Le blocage et les réglages restent verrouillés jusque-là, pour que le programme ne puisse pas être assoupli. Entre ton mot de passe pour les ouvrir quand même.",
     "passwordPlaceholderText": "Mot de passe",
     "buttonResetPasswordText": "Réinitialiser le mot de passe",
     "blankPasswordErrorTitle": "Le mot de passe ne peut pas être vide.",
@@ -5856,6 +5858,7 @@
     "menuRowUnavailableSpoken": "indisponible",
     "menuRowLockedSpoken": "verrouillé",
     "preferencesLockedTooltip": "Ton mot de passe est nécessaire pour l’instant. Clique pour le saisir.",
+    "preferencesLockedStrictScheduleTooltip": "Verrouillé par ton programme de blocage strict « <NAME> » jusqu’à <TIME>. Clique pour saisir ton mot de passe.",
     "toolUnlocksLockedCount": "<COUNT> outils de concentration à débloquer",
     "toolUnlocksLockedCountOne": "1 outil de concentration à débloquer",
     "toolUnlocksNextFirstSession": "Démarre une session de concentration",
