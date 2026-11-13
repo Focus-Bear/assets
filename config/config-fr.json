@@ -8124,7 +8124,13 @@
     "saved": "Enregistré dans Focus Bear : <TITLE>",
     "failed": "Impossible d’enregistrer dans Focus Bear : <TITLE>",
     "openButton": "Ouvrir",
-    "dismissButton": "Fermer"
+    "dismissButton": "Fermer",
+    "dueLabel": "Échéance",
+    "durationLabel": "Durée",
+    "projectLabel": "Projet",
+    "durationMinutes": "<MINUTES> min",
+    "durationHours": "<HOURS> h",
+    "durationHoursMinutes": "<HOURS> h <MINUTES> min"
   },
   "historyImportInfo": {
     "privacyTitleMac": "Votre historique reste sur ce Mac",

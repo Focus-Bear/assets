@@ -8124,7 +8124,13 @@
     "saved": "Zapisano w Focus Bear: <TITLE>",
     "failed": "Nie udało się zapisać w Focus Bear: <TITLE>",
     "openButton": "Otwórz",
-    "dismissButton": "Zamknij"
+    "dismissButton": "Zamknij",
+    "dueLabel": "Termin",
+    "durationLabel": "Czas trwania",
+    "projectLabel": "Projekt",
+    "durationMinutes": "<MINUTES> min",
+    "durationHours": "<HOURS> godz.",
+    "durationHoursMinutes": "<HOURS> godz. <MINUTES> min"
   },
   "historyImportInfo": {
     "privacyTitleMac": "Twoja historia zostaje na tym Macu",

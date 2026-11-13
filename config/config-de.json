@@ -8124,7 +8124,13 @@
     "saved": "In Focus Bear gespeichert: <TITLE>",
     "failed": "Konnte nicht in Focus Bear gespeichert werden: <TITLE>",
     "openButton": "Öffnen",
-    "dismissButton": "Schließen"
+    "dismissButton": "Schließen",
+    "dueLabel": "Fällig",
+    "durationLabel": "Dauer",
+    "projectLabel": "Projekt",
+    "durationMinutes": "<MINUTES> Min.",
+    "durationHours": "<HOURS> Std.",
+    "durationHoursMinutes": "<HOURS> Std. <MINUTES> Min."
   },
   "historyImportInfo": {
     "privacyTitleMac": "Dein Verlauf bleibt auf diesem Mac",
