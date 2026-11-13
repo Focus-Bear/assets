@@ -7441,7 +7441,11 @@
         "attachFailedText": "Could not attach it. Please try again.",
         "attachForbiddenText": "You can no longer add to this note.",
         "pdfLimitReachedText": "This note already has 20 PDFs, the most a note can hold.",
-        "recordingLimitReachedText": "This note already has 20 recordings, the most a note can hold."
+        "recordingLimitReachedText": "This note already has 20 recordings, the most a note can hold.",
+        "openPDFHelpText": "Open this PDF to read it, highlight it and write on it. Your annotations are saved into the PDF, so everyone who can see the note sees them.",
+        "annotationsWaitingText": "Annotations saved on this Mac. They're added to the note once it can be reached.",
+        "annotationsNotUploadedText": "Couldn't add your annotations to the note yet. They're saved on this Mac and will be tried again.",
+        "annotationsLimitReachedText": "Your annotations are saved on this Mac, but this note already has 20 PDFs, so they can't be added. Delete a PDF to make room."
     },
     "notePDFInfo": {
         "attachText": "Attach PDF or PowerPoint",
@@ -7511,7 +7515,21 @@
         "textSizeText": "Text size",
         "pointSizeText": "<SIZE> pt",
         "boldText": "Bold (⌘B)",
-        "moveTextBoxText": "Drag to move this text box"
+        "moveTextBoxText": "Drag to move this text box",
+        "toolShortcutsHelpText": "Press H to highlight. Delete removes the picked text box.",
+        "markupStyleDescription": "Mark text with",
+        "markupHighlightText": "Highlight",
+        "markupUnderlineText": "Underline",
+        "markupStrikeOutText": "Strikethrough",
+        "hintUnderlineText": "Select some text to underline it.",
+        "hintStrikeOutText": "Select some text to strike it through.",
+        "hintDeleteTextBoxText": "Press Delete to remove the picked text box.",
+        "undoHelpText": "Undo (⌘Z)",
+        "redoText": "Redo",
+        "redoHelpText": "Redo (⇧⌘Z)",
+        "pagesDescription": "Pages",
+        "showPagesText": "Show pages",
+        "hidePagesText": "Hide pages"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Attach a PDF to this note to type and draw on it. PowerPoint files are turned into a PDF on this computer first, with PowerPoint.",

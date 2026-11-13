@@ -7500,7 +7500,11 @@
     "attachFailedText": "Anhängen fehlgeschlagen. Bitte versuche es erneut.",
     "attachForbiddenText": "Du kannst dieser Notiz nichts mehr hinzufügen.",
     "pdfLimitReachedText": "Diese Notiz hat bereits 20 PDFs, mehr kann eine Notiz nicht enthalten.",
-    "recordingLimitReachedText": "Diese Notiz hat bereits 20 Aufnahmen, mehr kann eine Notiz nicht enthalten."
+    "recordingLimitReachedText": "Diese Notiz hat bereits 20 Aufnahmen, mehr kann eine Notiz nicht enthalten.",
+    "openPDFHelpText": "Öffne dieses PDF, um es zu lesen, zu markieren und darauf zu schreiben. Deine Anmerkungen werden im PDF gespeichert, sodass alle, die die Notiz sehen können, sie auch sehen.",
+    "annotationsWaitingText": "Anmerkungen auf diesem Mac gespeichert. Sie werden der Notiz hinzugefügt, sobald sie erreichbar ist.",
+    "annotationsNotUploadedText": "Deine Anmerkungen konnten der Notiz noch nicht hinzugefügt werden. Sie sind auf diesem Mac gespeichert, und es wird erneut versucht.",
+    "annotationsLimitReachedText": "Deine Anmerkungen sind auf diesem Mac gespeichert, aber diese Notiz hat bereits 20 PDFs, daher können sie nicht hinzugefügt werden. Lösche ein PDF, um Platz zu schaffen."
   },
   "notePDFInfo": {
     "attachText": "PDF oder PowerPoint anhängen",
@@ -7570,7 +7574,21 @@
     "textSizeText": "Schriftgröße",
     "pointSizeText": "<SIZE> pt",
     "boldText": "Fett (⌘B)",
-    "moveTextBoxText": "Ziehen, um dieses Textfeld zu verschieben"
+    "moveTextBoxText": "Ziehen, um dieses Textfeld zu verschieben",
+    "toolShortcutsHelpText": "Drücke H zum Markieren. Die Löschtaste entfernt das ausgewählte Textfeld.",
+    "markupStyleDescription": "Text kennzeichnen mit",
+    "markupHighlightText": "Markieren",
+    "markupUnderlineText": "Unterstreichen",
+    "markupStrikeOutText": "Durchstreichen",
+    "hintUnderlineText": "Wähle Text aus, um ihn zu unterstreichen.",
+    "hintStrikeOutText": "Wähle Text aus, um ihn durchzustreichen.",
+    "hintDeleteTextBoxText": "Drücke die Löschtaste, um das ausgewählte Textfeld zu entfernen.",
+    "undoHelpText": "Widerrufen (⌘Z)",
+    "redoText": "Wiederholen",
+    "redoHelpText": "Wiederholen (⇧⌘Z)",
+    "pagesDescription": "Seiten",
+    "showPagesText": "Seiten einblenden",
+    "hidePagesText": "Seiten ausblenden"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Hänge ein PDF an diese Notiz an, um darauf zu schreiben und zu zeichnen. PowerPoint-Dateien werden zuerst auf diesem Computer mit PowerPoint in ein PDF umgewandelt.",
