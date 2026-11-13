@@ -3233,7 +3233,12 @@
     "reportContactEmailPlaceholder": "Deine E-Mail-Adresse (optional)",
     "reportContactEmailHint": "Du nutzt Focus Bear ohne Konto. Gib eine E-Mail-Adresse an, wenn du eine Antwort möchtest.",
     "reportContactEmailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein oder lass das Feld leer.",
-    "reportShareBrowsingHistoryText": "Auch die Websites und Fenstertitel meiner letzten 30 Minuten senden. Das umfasst meinen Browserverlauf und hilft bei Problemen mit dem Blockieren."
+    "reportShareBrowsingHistoryText": "Auch die Websites und Fenstertitel meiner letzten 30 Minuten senden. Das umfasst meinen Browserverlauf und hilft bei Problemen mit dem Blockieren.",
+    "reportScreenshotEnlargeHintText": "Zum Vergrößern klicken",
+    "reportScreenshotEnlargeLabelText": "Screenshot <INDEX>, vergrößern",
+    "reportScreenshotRemoveLabelText": "Screenshot <INDEX> entfernen",
+    "reportScreenshotPreviewTitleText": "Screenshot <INDEX> von <COUNT>",
+    "buttonCloseScreenshotPreviewText": "Schließen"
   },
   "confirmMorningRoutineTimeVcInfo": {
     "title": "Bestätige deine Morgenroutine",

@@ -3642,7 +3642,12 @@
         "reportContactEmailPlaceholder": "Tu correo electrónico (opcional)",
         "reportContactEmailHint": "Estás usando Focus Bear sin una cuenta. Añade un correo electrónico si quieres que te respondamos.",
         "reportContactEmailInvalid": "Introduce un correo electrónico válido o déjalo en blanco.",
-        "reportShareBrowsingHistoryText": "Enviar también los sitios web y títulos de ventana de mis últimos 30 minutos. Esto incluye mi historial de navegación y ayuda con los problemas de bloqueo."
+        "reportShareBrowsingHistoryText": "Enviar también los sitios web y títulos de ventana de mis últimos 30 minutos. Esto incluye mi historial de navegación y ayuda con los problemas de bloqueo.",
+        "reportScreenshotEnlargeHintText": "Haz clic para ampliar",
+        "reportScreenshotEnlargeLabelText": "Captura de pantalla <INDEX>, ampliar",
+        "reportScreenshotRemoveLabelText": "Quitar captura de pantalla <INDEX>",
+        "reportScreenshotPreviewTitleText": "Captura de pantalla <INDEX> de <COUNT>",
+        "buttonCloseScreenshotPreviewText": "Cerrar"
     },
     "confirmMorningRoutineTimeVcInfo": {
         "title": "Confirmar tu rutina matutina",
