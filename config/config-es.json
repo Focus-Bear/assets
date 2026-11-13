@@ -7439,7 +7439,11 @@
         "attachFailedText": "No se pudo adjuntar. Inténtalo de nuevo.",
         "attachForbiddenText": "Ya no puedes añadir contenido a esta nota.",
         "pdfLimitReachedText": "Esta nota ya tiene 20 PDF, el máximo que admite una nota.",
-        "recordingLimitReachedText": "Esta nota ya tiene 20 grabaciones, el máximo que admite una nota."
+        "recordingLimitReachedText": "Esta nota ya tiene 20 grabaciones, el máximo que admite una nota.",
+        "openPDFHelpText": "Abre este PDF para leerlo, resaltarlo y escribir en él. Tus anotaciones se guardan en el PDF, así que todas las personas que pueden ver la nota las ven.",
+        "annotationsWaitingText": "Anotaciones guardadas en este Mac. Se añaden a la nota en cuanto se pueda conectar con ella.",
+        "annotationsNotUploadedText": "Todavía no se pudieron añadir tus anotaciones a la nota. Están guardadas en este Mac y se volverá a intentar.",
+        "annotationsLimitReachedText": "Tus anotaciones están guardadas en este Mac, pero esta nota ya tiene 20 PDF, así que no se pueden añadir. Elimina un PDF para hacer sitio."
     },
     "notePDFInfo": {
         "attachText": "Adjuntar PDF o PowerPoint",
@@ -7509,7 +7513,21 @@
         "textSizeText": "Tamaño del texto",
         "pointSizeText": "<SIZE> pt",
         "boldText": "Negrita (⌘B)",
-        "moveTextBoxText": "Arrastra para mover este cuadro de texto"
+        "moveTextBoxText": "Arrastra para mover este cuadro de texto",
+        "toolShortcutsHelpText": "Pulsa H para resaltar. La tecla Eliminar quita el cuadro de texto seleccionado.",
+        "markupStyleDescription": "Marcar el texto con",
+        "markupHighlightText": "Resaltar",
+        "markupUnderlineText": "Subrayar",
+        "markupStrikeOutText": "Tachar",
+        "hintUnderlineText": "Selecciona texto para subrayarlo.",
+        "hintStrikeOutText": "Selecciona texto para tacharlo.",
+        "hintDeleteTextBoxText": "Pulsa Eliminar para quitar el cuadro de texto seleccionado.",
+        "undoHelpText": "Deshacer (⌘Z)",
+        "redoText": "Rehacer",
+        "redoHelpText": "Rehacer (⇧⌘Z)",
+        "pagesDescription": "Páginas",
+        "showPagesText": "Mostrar páginas",
+        "hidePagesText": "Ocultar páginas"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Adjunta un PDF a esta nota para escribir y dibujar en él. Los archivos de PowerPoint se convierten primero en PDF en este equipo, con PowerPoint.",

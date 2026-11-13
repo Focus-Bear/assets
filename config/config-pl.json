@@ -7500,7 +7500,11 @@
     "attachFailedText": "Nie udało się dołączyć. Spróbuj ponownie.",
     "attachForbiddenText": "Nie możesz już nic dodać do tej notatki.",
     "pdfLimitReachedText": "Ta notatka ma już 20 plików PDF, najwięcej, ile może mieć notatka.",
-    "recordingLimitReachedText": "Ta notatka ma już 20 nagrań, najwięcej, ile może mieć notatka."
+    "recordingLimitReachedText": "Ta notatka ma już 20 nagrań, najwięcej, ile może mieć notatka.",
+    "openPDFHelpText": "Otwórz ten PDF, aby go czytać, wyróżniać i pisać na nim. Twoje adnotacje są zapisywane w pliku PDF, więc widzi je każdy, kto ma dostęp do notatki.",
+    "annotationsWaitingText": "Adnotacje zapisane na tym Macu. Zostaną dodane do notatki, gdy tylko będzie dostępna.",
+    "annotationsNotUploadedText": "Nie udało się jeszcze dodać adnotacji do notatki. Są zapisane na tym Macu i spróbujemy ponownie.",
+    "annotationsLimitReachedText": "Twoje adnotacje są zapisane na tym Macu, ale ta notatka ma już 20 plików PDF, więc nie można ich dodać. Usuń jeden PDF, aby zrobić miejsce."
   },
   "notePDFInfo": {
     "attachText": "Załącz PDF lub PowerPoint",
@@ -7570,7 +7574,21 @@
     "textSizeText": "Rozmiar tekstu",
     "pointSizeText": "<SIZE> pkt",
     "boldText": "Pogrubienie (⌘B)",
-    "moveTextBoxText": "Przeciągnij, aby przesunąć to pole tekstowe"
+    "moveTextBoxText": "Przeciągnij, aby przesunąć to pole tekstowe",
+    "toolShortcutsHelpText": "Naciśnij H, aby wyróżnić. Klawisz Delete usuwa wybrane pole tekstowe.",
+    "markupStyleDescription": "Oznacz tekst przez",
+    "markupHighlightText": "Wyróżnij",
+    "markupUnderlineText": "Podkreśl",
+    "markupStrikeOutText": "Przekreśl",
+    "hintUnderlineText": "Zaznacz tekst, aby go podkreślić.",
+    "hintStrikeOutText": "Zaznacz tekst, aby go przekreślić.",
+    "hintDeleteTextBoxText": "Naciśnij Delete, aby usunąć wybrane pole tekstowe.",
+    "undoHelpText": "Cofnij (⌘Z)",
+    "redoText": "Ponów",
+    "redoHelpText": "Ponów (⇧⌘Z)",
+    "pagesDescription": "Strony",
+    "showPagesText": "Pokaż strony",
+    "hidePagesText": "Ukryj strony"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Dołącz plik PDF do tej notatki, aby na nim pisać i rysować. Pliki PowerPoint są najpierw zamieniane na PDF na tym komputerze za pomocą programu PowerPoint.",

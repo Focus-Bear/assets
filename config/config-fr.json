@@ -7500,7 +7500,11 @@
     "attachFailedText": "Impossible de le joindre. Réessaie.",
     "attachForbiddenText": "Tu ne peux plus rien ajouter à cette note.",
     "pdfLimitReachedText": "Cette note contient déjà 20 PDF, le maximum pour une note.",
-    "recordingLimitReachedText": "Cette note contient déjà 20 enregistrements, le maximum pour une note."
+    "recordingLimitReachedText": "Cette note contient déjà 20 enregistrements, le maximum pour une note.",
+    "openPDFHelpText": "Ouvre ce PDF pour le lire, le surligner et écrire dessus. Tes annotations sont enregistrées dans le PDF, donc toutes les personnes qui voient la note les voient.",
+    "annotationsWaitingText": "Annotations enregistrées sur ce Mac. Elles seront ajoutées à la note dès qu’elle sera joignable.",
+    "annotationsNotUploadedText": "Impossible d’ajouter tes annotations à la note pour l’instant. Elles sont enregistrées sur ce Mac et un nouvel essai aura lieu.",
+    "annotationsLimitReachedText": "Tes annotations sont enregistrées sur ce Mac, mais cette note contient déjà 20 PDF, elles ne peuvent donc pas être ajoutées. Supprime un PDF pour faire de la place."
   },
   "notePDFInfo": {
     "attachText": "Joindre un PDF ou un PowerPoint",
@@ -7570,7 +7574,21 @@
     "textSizeText": "Taille du texte",
     "pointSizeText": "<SIZE> pt",
     "boldText": "Gras (⌘B)",
-    "moveTextBoxText": "Fais glisser pour déplacer cette zone de texte"
+    "moveTextBoxText": "Fais glisser pour déplacer cette zone de texte",
+    "toolShortcutsHelpText": "Appuie sur H pour surligner. La touche Supprimer retire la zone de texte sélectionnée.",
+    "markupStyleDescription": "Marquer le texte par",
+    "markupHighlightText": "Surligner",
+    "markupUnderlineText": "Souligner",
+    "markupStrikeOutText": "Barrer",
+    "hintUnderlineText": "Sélectionne du texte pour le souligner.",
+    "hintStrikeOutText": "Sélectionne du texte pour le barrer.",
+    "hintDeleteTextBoxText": "Appuie sur Supprimer pour retirer la zone de texte sélectionnée.",
+    "undoHelpText": "Annuler (⌘Z)",
+    "redoText": "Rétablir",
+    "redoHelpText": "Rétablir (⇧⌘Z)",
+    "pagesDescription": "Pages",
+    "showPagesText": "Afficher les pages",
+    "hidePagesText": "Masquer les pages"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Joins un PDF à cette note pour écrire et dessiner dessus. Les fichiers PowerPoint sont d'abord convertis en PDF sur cet ordinateur, avec PowerPoint.",
