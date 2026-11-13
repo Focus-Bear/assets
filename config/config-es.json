@@ -1325,6 +1325,8 @@
     },
     "enterPasswordViewInfo": {
         "title": "Por favor ingresa la contraseña para continuar",
+        "strictScheduleLockTitle": "Bloqueado por tu horario de bloqueo estricto",
+        "strictScheduleLockMessage": "“<NAME>” dura hasta las <TIME>. Bloqueo y Ajustes siguen bloqueados hasta entonces para que el horario no se pueda relajar. Introduce tu contraseña para abrirlos de todos modos.",
         "passwordPlaceholderText": "Contraseña",
         "buttonResetPasswordText": "Restablecer contraseña",
         "blankPasswordErrorTitle": "La contraseña no puede estar en blanco.",
@@ -6260,6 +6262,7 @@
         "menuRowUnavailableSpoken": "no disponible",
         "menuRowLockedSpoken": "bloqueado",
         "preferencesLockedTooltip": "Necesita tu contraseña ahora mismo. Haz clic para introducirla.",
+        "preferencesLockedStrictScheduleTooltip": "Bloqueado por tu horario de bloqueo estricto “<NAME>” hasta las <TIME>. Haz clic para introducir tu contraseña.",
         "toolUnlocksLockedCount": "<COUNT> herramientas de enfoque por desbloquear",
         "toolUnlocksLockedCountOne": "1 herramienta de enfoque por desbloquear",
         "toolUnlocksNextFirstSession": "Inicia una sesión de enfoque",

@@ -1325,6 +1325,8 @@
     },
     "enterPasswordViewInfo": {
         "title": "Please enter the password to continue",
+        "strictScheduleLockTitle": "Locked by your strict blocking schedule",
+        "strictScheduleLockMessage": "“<NAME>” runs until <TIME>. Blocking and Settings stay locked until then, so the schedule can't be loosened. Enter your password to open them anyway.",
         "passwordPlaceholderText": "Password",
         "buttonResetPasswordText": "Reset Password",
         "blankPasswordErrorTitle": "Password cannot be blank.",
@@ -6262,6 +6264,7 @@
         "menuRowUnavailableSpoken": "unavailable",
         "menuRowLockedSpoken": "locked",
         "preferencesLockedTooltip": "Needs your password right now. Click to enter it.",
+        "preferencesLockedStrictScheduleTooltip": "Locked by your strict blocking schedule “<NAME>” until <TIME>. Click to enter your password.",
         "toolUnlocksLockedCount": "<COUNT> focus tools to be unlocked",
         "toolUnlocksLockedCountOne": "1 focus tool to be unlocked",
         "toolUnlocksNextFirstSession": "Start a focus session",
