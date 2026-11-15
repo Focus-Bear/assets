@@ -3175,7 +3175,12 @@
         "descriptionEveningRoutine": "Tu rutina nocturna no inicia automáticamente el primer día. Haz clic en Iniciar rutina nocturna para activar tu primera rutina.",
         "tourTools": "Herramientas",
         "descriptionTools": "Una colección de herramientas útiles, incluyendo Brain Dump, Lista de tareas/Reproductor de tareas, música para enfocarte y más.",
-        "descriptionSystemTray": "Focus Bear sigue ejecutándose en la bandeja del sistema. Haz clic en el ícono para abrir el Menú de Focus Bear."
+        "descriptionSystemTray": "Focus Bear sigue ejecutándose en la bandeja del sistema. Haz clic en el ícono para abrir el Menú de Focus Bear.",
+        "descriptionPinToTaskbar": "Windows oculta los íconos nuevos detrás de la flecha ^. Para mantener Focus Bear en tu barra de tareas:\n\n• Haz clic en \"Abrir la configuración de la barra de tareas\" aquí abajo, busca Focus Bear en \"Otros iconos de la bandeja del sistema\" y actívalo.\n\n• O haz clic en la flecha ^ y arrastra el oso a tu barra de tareas.",
+        "descriptionPinToTaskbarWindows10": "Windows oculta los íconos nuevos detrás de la flecha ^. Para mantener Focus Bear en tu barra de tareas:\n\n• Haz clic en \"Abrir la configuración de la barra de tareas\" aquí abajo, luego en \"Seleccionar los iconos que aparecerán en la barra de tareas\" y activa Focus Bear.\n\n• O haz clic en la flecha ^ y arrastra el oso a tu barra de tareas.",
+        "descriptionPinnedToTaskbar": "¡Listo! Focus Bear ya está en tu barra de tareas. Haz clic en él cuando quieras para abrir el Menú de Focus Bear.",
+        "linkOpenTaskbarSettings": "Abrir la configuración de la barra de tareas",
+        "linkPinToTaskbar": "Mantén el oso visible en la barra de tareas"
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",
@@ -3443,7 +3448,9 @@
         "buttonFlashFirmwareText": "Actualizar Firmware",
         "focusButtonFirmwareDownloadedText": "Se descargaron nuevas actualizaciones de firmware. Haz clic en el botón \"Actualizar Firmware\" para instalar la última versión en el dispositivo. Este proceso reinicia el dispositivo en modo bootloader, verifica que la imagen coincida con el chip y lo reinicia — la configuración y los hábitos guardados en NVS se mantienen. La conexión serial se libera durante la actualización y se restablece al finalizar.",
         "focusButtonFlashCompleteText": "Actualización completa — el dispositivo se está reiniciando.",
-        "focusButtonNotDetectedText": "No detectado — haz clic en \"Buscar actualizaciones\" para instalar el firmware"
+        "focusButtonNotDetectedText": "No detectado — haz clic en \"Buscar actualizaciones\" para instalar el firmware",
+        "noSearchResultsText": "Ningún ajuste coincide con \"<QUERY>\".",
+        "searchSettingTitle": "Buscar"
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",

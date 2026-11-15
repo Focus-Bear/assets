@@ -3177,7 +3177,12 @@
         "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine.",
         "tourTools": "Tools",
         "descriptionTools": "A collection of helpful tools including Brain Dump, To-Do List/To-Do Player, focus music, and more.",
-        "descriptionSystemTray": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu."
+        "descriptionSystemTray": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu.",
+        "descriptionPinToTaskbar": "Windows hides new icons behind the ^ arrow. To keep Focus Bear on your taskbar:\n\n• Click \"Open taskbar settings\" below, then find Focus Bear under \"Other system tray icons\" and turn it on.\n\n• Or click the ^ arrow and drag the bear onto your taskbar.",
+        "descriptionPinToTaskbarWindows10": "Windows hides new icons behind the ^ arrow. To keep Focus Bear on your taskbar:\n\n• Click \"Open taskbar settings\" below, then click \"Select which icons appear on the taskbar\" and turn Focus Bear on.\n\n• Or click the ^ arrow and drag the bear onto your taskbar.",
+        "descriptionPinnedToTaskbar": "Nice - Focus Bear is now on your taskbar. Click it any time to bring up the Focus Bear Menu.",
+        "linkOpenTaskbarSettings": "Open taskbar settings",
+        "linkPinToTaskbar": "Keep the bear visible on the taskbar"
     },
     "relaxModeVcInfo":{
         "title": "Sites you saved for Free Time mode:",
@@ -3445,7 +3450,9 @@
         "buttonFlashFirmwareText": "Flash Firmware",
         "focusButtonFirmwareDownloadedText": "New Firmware updates downloaded. Click on \"Flash Firmware\" button to install the latest firmware on the device. Flashing reboots the device into its bootloader, verifies the image matches the chip, and restarts — settings and habits in NVS are kept. The serial connection is released during flashing and restored afterwards.",
         "focusButtonFlashCompleteText": "Flash complete — device is rebooting.",
-        "focusButtonNotDetectedText": "Not detected — click \"Check for Updates\" to install firmware"
+        "focusButtonNotDetectedText": "Not detected — click \"Check for Updates\" to install firmware",
+        "noSearchResultsText": "No settings match \"<QUERY>\".",
+        "searchSettingTitle": "Search"
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
