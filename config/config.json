@@ -2242,7 +2242,36 @@
         "durationHoursText": "Duration (hours)",
         "filterPlaceholder": "Filter",
         "sessionSaveFailedText": "Could not save the focus session",
-        "focusLogTimeText": "Time"
+        "focusLogTimeText": "Time",
+        "hatsHistory": {
+            "title": "Hats History",
+            "balance": "Balance",
+            "hatsUnitOne": "hat",
+            "hatsUnitOther": "hats",
+            "focusSession": "Focus Session",
+            "task": "Task completed",
+            "habit": "Habit completed",
+            "sleep": "Sleep",
+            "activeMinutes": "Active minutes",
+            "appUnlocked": "App unlocked",
+            "unlockMeta": "{time} · {minutes} min",
+            "buddy": "Hats from a buddy",
+            "bonus": "Bonus hats",
+            "onboardingSteps": {
+                "sign_up": "Signed up",
+                "screen_time": "Allowed screen time access",
+                "distracting_apps": "Picked distracting apps",
+                "focus_rules": "Set focus rules",
+                "hat_limit": "Set a hat limit",
+                "routine": "Built a routine",
+                "notifications": "Turned on notifications"
+            },
+            "empty": "No hats yet. Finish a focus session or a habit to earn your first ones.",
+            "loadFailed": "Couldn't load your hats history.",
+            "loadMore": "Load more",
+            "today": "Today",
+            "yesterday": "Yesterday"
+        }
     },
     "askLogInVcInfo": {
         "buttonSignUpAnonymously": "Sign up anonymously",

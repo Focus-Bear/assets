@@ -2242,7 +2242,36 @@
         "durationHoursText": "Duración (horas)",
         "filterPlaceholder": "Filtrar",
         "sessionSaveFailedText": "No se pudo guardar la sesión de enfoque",
-        "focusLogTimeText": "Hora"
+        "focusLogTimeText": "Hora",
+        "hatsHistory": {
+            "title": "Historial de sombreros",
+            "balance": "Saldo",
+            "hatsUnitOne": "sombrero",
+            "hatsUnitOther": "sombreros",
+            "focusSession": "Sesión de enfoque",
+            "task": "Tarea completada",
+            "habit": "Hábito completado",
+            "sleep": "Sueño",
+            "activeMinutes": "Minutos activos",
+            "appUnlocked": "App desbloqueada",
+            "unlockMeta": "{time} · {minutes} min",
+            "buddy": "Sombreros de un compañero",
+            "bonus": "Sombreros extra",
+            "onboardingSteps": {
+                "sign_up": "Te registraste",
+                "screen_time": "Diste acceso al tiempo de pantalla",
+                "distracting_apps": "Elegiste apps que te distraen",
+                "focus_rules": "Configuraste reglas de enfoque",
+                "hat_limit": "Pusiste un límite de sombreros",
+                "routine": "Creaste una rutina",
+                "notifications": "Activaste las notificaciones"
+            },
+            "empty": "Aún no tienes sombreros. Termina una sesión de enfoque o un hábito para ganar los primeros.",
+            "loadFailed": "No se pudo cargar tu historial de sombreros.",
+            "loadMore": "Cargar más",
+            "today": "Hoy",
+            "yesterday": "Ayer"
+        }
     },
     "askLogInVcInfo": {
         "buttonSignUpAnonymously": "Registrarse de forma anónima",

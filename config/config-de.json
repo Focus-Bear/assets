@@ -1825,7 +1825,36 @@
     "durationHoursText": "Dauer (Stunden)",
     "filterPlaceholder": "Filtern",
     "sessionSaveFailedText": "Die Fokussitzung konnte nicht gespeichert werden",
-    "focusLogTimeText": "Uhrzeit"
+    "focusLogTimeText": "Uhrzeit",
+    "hatsHistory": {
+      "title": "Hut-Verlauf",
+      "balance": "Guthaben",
+      "hatsUnitOne": "Hut",
+      "hatsUnitOther": "Hüte",
+      "focusSession": "Fokus-Session",
+      "task": "Aufgabe erledigt",
+      "habit": "Gewohnheit erledigt",
+      "sleep": "Schlaf",
+      "activeMinutes": "Aktive Minuten",
+      "appUnlocked": "App entsperrt",
+      "unlockMeta": "{time} · {minutes} Min.",
+      "buddy": "Hüte von einem Buddy",
+      "bonus": "Bonus-Hüte",
+      "onboardingSteps": {
+        "sign_up": "Registriert",
+        "screen_time": "Bildschirmzeit-Zugriff erlaubt",
+        "distracting_apps": "Ablenkende Apps ausgewählt",
+        "focus_rules": "Fokusregeln festgelegt",
+        "hat_limit": "Hut-Limit festgelegt",
+        "routine": "Routine erstellt",
+        "notifications": "Benachrichtigungen aktiviert"
+      },
+      "empty": "Noch keine Hüte. Schließe eine Fokus-Session oder eine Gewohnheit ab, um deine ersten zu verdienen.",
+      "loadFailed": "Dein Hut-Verlauf konnte nicht geladen werden.",
+      "loadMore": "Mehr laden",
+      "today": "Heute",
+      "yesterday": "Gestern"
+    }
   },
   "askLogInVcInfo": {
     "buttonSignUpAnonymously": "Anonym registrieren",
