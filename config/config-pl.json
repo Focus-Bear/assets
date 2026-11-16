@@ -1849,6 +1849,7 @@
         "routine": "Utworzenie rutyny",
         "notifications": "Włączenie powiadomień"
       },
+      "habitLimitReached": "Nawyki dają kapelusze maksymalnie za {minutes} minut dziennie. Ten dzień osiągnął ten limit, więc późniejsze nawyki nie dały żadnych kapeluszy.",
       "empty": "Na razie brak kapeluszy. Ukończ sesję skupienia lub nawyk, aby zdobyć pierwsze.",
       "loadFailed": "Nie udało się wczytać historii kapeluszy.",
       "loadMore": "Wczytaj więcej",

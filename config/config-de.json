@@ -1849,6 +1849,7 @@
         "routine": "Routine erstellt",
         "notifications": "Benachrichtigungen aktiviert"
       },
+      "habitLimitReached": "Gewohnheiten bringen Hüte für bis zu {minutes} Minuten pro Tag. Dieser Tag hat das erreicht, daher brachten spätere Gewohnheiten keine Hüte mehr.",
       "empty": "Noch keine Hüte. Schließe eine Fokus-Session oder eine Gewohnheit ab, um deine ersten zu verdienen.",
       "loadFailed": "Dein Hut-Verlauf konnte nicht geladen werden.",
       "loadMore": "Mehr laden",

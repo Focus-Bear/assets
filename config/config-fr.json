@@ -1849,6 +1849,7 @@
         "routine": "Routine créée",
         "notifications": "Notifications activées"
       },
+      "habitLimitReached": "Les habitudes rapportent des chapeaux pendant {minutes} minutes par jour au maximum. Cette journée a atteint cette limite, donc ses habitudes suivantes n'en ont rapporté aucun.",
       "empty": "Pas encore de chapeaux. Termine une session de concentration ou une habitude pour gagner les premiers.",
       "loadFailed": "Impossible de charger ton historique de chapeaux.",
       "loadMore": "Charger plus",
