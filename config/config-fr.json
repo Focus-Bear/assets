@@ -1320,6 +1320,7 @@
     "title": "Entre le mot de passe pour continuer",
     "strictScheduleLockTitle": "Verrouillé par ton programme de blocage strict",
     "strictScheduleLockMessage": "« <NAME> » dure jusqu’à <TIME>. Le blocage et les réglages restent verrouillés jusque-là, pour que le programme ne puisse pas être assoupli. Entre ton mot de passe pour les ouvrir quand même.",
+    "strictScheduleFocusSessionMessage": "« <NAME> » dure jusqu’à <TIME>. Démarrer ou prolonger une session de concentration maintenant le remplace, donc il faut ton mot de passe.",
     "passwordPlaceholderText": "Mot de passe",
     "buttonResetPasswordText": "Réinitialiser le mot de passe",
     "blankPasswordErrorTitle": "Le mot de passe ne peut pas être vide.",

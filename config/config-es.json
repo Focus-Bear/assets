@@ -1327,6 +1327,7 @@
         "title": "Por favor ingresa la contraseña para continuar",
         "strictScheduleLockTitle": "Bloqueado por tu horario de bloqueo estricto",
         "strictScheduleLockMessage": "“<NAME>” dura hasta las <TIME>. Bloqueo y Ajustes siguen bloqueados hasta entonces para que el horario no se pueda relajar. Introduce tu contraseña para abrirlos de todos modos.",
+        "strictScheduleFocusSessionMessage": "“<NAME>” dura hasta las <TIME>. Iniciar o alargar una sesión de enfoque ahora lo sustituye, así que necesita tu contraseña.",
         "passwordPlaceholderText": "Contraseña",
         "buttonResetPasswordText": "Restablecer contraseña",
         "blankPasswordErrorTitle": "La contraseña no puede estar en blanco.",

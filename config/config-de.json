@@ -1320,6 +1320,7 @@
     "title": "Gib das Passwort ein, um fortzufahren",
     "strictScheduleLockTitle": "Durch deinen strengen Blockierplan gesperrt",
     "strictScheduleLockMessage": "„<NAME>“ läuft bis <TIME>. Blockieren und Einstellungen bleiben bis dahin gesperrt, damit der Plan nicht gelockert werden kann. Gib dein Passwort ein, um sie trotzdem zu öffnen.",
+    "strictScheduleFocusSessionMessage": "„<NAME>“ läuft bis <TIME>. Eine Fokus-Sitzung, die du jetzt startest oder verlängerst, löst ihn ab – deshalb braucht sie dein Passwort.",
     "passwordPlaceholderText": "Passwort",
     "buttonResetPasswordText": "Passwort zurücksetzen",
     "blankPasswordErrorTitle": "Das Passwort darf nicht leer sein.",
