@@ -7753,6 +7753,8 @@
         "postureHideCameraText": "Hide camera",
         "postureCameraTitle": "Posture camera",
         "postureGapText": "Ear-to-shoulder gap: <NUMBER>",
+        "postureGapEyesText": "Eye-to-shoulder gap: <NUMBER>",
+        "postureGapNoseText": "Nose-to-shoulder gap: <NUMBER>",
         "postureGapUsualText": "Your usual: <NUMBER> · raised below <LIMIT>",
         "postureCameraPrivacyText": "Only you see this: it's left out of screen sharing, and nothing is saved."
     },

@@ -7812,6 +7812,8 @@
     "postureHideCameraText": "Masquer la caméra",
     "postureCameraTitle": "Caméra de posture",
     "postureGapText": "Écart oreille-épaule : <NUMBER>",
+    "postureGapEyesText": "Écart œil-épaule : <NUMBER>",
+    "postureGapNoseText": "Écart nez-épaule : <NUMBER>",
     "postureGapUsualText": "Votre valeur habituelle : <NUMBER> · remontées sous <LIMIT>",
     "postureCameraPrivacyText": "Vous seul le voyez : il est exclu du partage d’écran, et rien n’est enregistré."
   },
