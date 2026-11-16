@@ -7588,7 +7588,9 @@
     "redoHelpText": "Rétablir (⇧⌘Z)",
     "pagesDescription": "Pages",
     "showPagesText": "Afficher les pages",
-    "hidePagesText": "Masquer les pages"
+    "hidePagesText": "Masquer les pages",
+    "openFailedText": "Impossible d’ouvrir ce PDF.",
+    "retryText": "Réessayer"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Joins un PDF à cette note pour écrire et dessiner dessus. Les fichiers PowerPoint sont d'abord convertis en PDF sur cet ordinateur, avec PowerPoint.",

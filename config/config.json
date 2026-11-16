@@ -7529,7 +7529,9 @@
         "redoHelpText": "Redo (⇧⌘Z)",
         "pagesDescription": "Pages",
         "showPagesText": "Show pages",
-        "hidePagesText": "Hide pages"
+        "hidePagesText": "Hide pages",
+        "openFailedText": "Couldn't open this PDF.",
+        "retryText": "Try again"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Attach a PDF to this note to type and draw on it. PowerPoint files are turned into a PDF on this computer first, with PowerPoint.",

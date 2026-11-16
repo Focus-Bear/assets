@@ -7588,7 +7588,9 @@
     "redoHelpText": "Ponów (⇧⌘Z)",
     "pagesDescription": "Strony",
     "showPagesText": "Pokaż strony",
-    "hidePagesText": "Ukryj strony"
+    "hidePagesText": "Ukryj strony",
+    "openFailedText": "Nie udało się otworzyć tego pliku PDF.",
+    "retryText": "Spróbuj ponownie"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Dołącz plik PDF do tej notatki, aby na nim pisać i rysować. Pliki PowerPoint są najpierw zamieniane na PDF na tym komputerze za pomocą programu PowerPoint.",

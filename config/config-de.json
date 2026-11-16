@@ -7588,7 +7588,9 @@
     "redoHelpText": "Wiederholen (⇧⌘Z)",
     "pagesDescription": "Seiten",
     "showPagesText": "Seiten einblenden",
-    "hidePagesText": "Seiten ausblenden"
+    "hidePagesText": "Seiten ausblenden",
+    "openFailedText": "Dieses PDF konnte nicht geöffnet werden.",
+    "retryText": "Erneut versuchen"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Hänge ein PDF an diese Notiz an, um darauf zu schreiben und zu zeichnen. PowerPoint-Dateien werden zuerst auf diesem Computer mit PowerPoint in ein PDF umgewandelt.",

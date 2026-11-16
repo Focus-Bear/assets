@@ -7527,7 +7527,9 @@
         "redoHelpText": "Rehacer (⇧⌘Z)",
         "pagesDescription": "Páginas",
         "showPagesText": "Mostrar páginas",
-        "hidePagesText": "Ocultar páginas"
+        "hidePagesText": "Ocultar páginas",
+        "openFailedText": "No se pudo abrir este PDF.",
+        "retryText": "Reintentar"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Adjunta un PDF a esta nota para escribir y dibujar en él. Los archivos de PowerPoint se convierten primero en PDF en este equipo, con PowerPoint.",
