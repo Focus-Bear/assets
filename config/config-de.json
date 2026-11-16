@@ -5061,6 +5061,8 @@
     "tasksSettings": "Aufgabeneinstellungen",
     "tasksSelectedCount": "%d ausgewählt",
     "tasksClearSelection": "Aufheben",
+    "tasksSelectAll": "Alle auswählen",
+    "tasksSelectAllHint": "Wählt alle offenen Aufgaben in der Liste aus (⌘A)",
     "tasksStartFocusing": "Fokussieren starten",
     "tasksStartFocusingHint": "Eine Fokussitzung mit den ausgewählten Aufgaben starten, ihre Projekte als Ziel",
     "tasksSnoozeHint": "Verschieben – auf einen anderen Tag",

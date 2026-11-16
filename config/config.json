@@ -5425,6 +5425,8 @@
         "tasksSettings": "Task settings",
         "tasksSelectedCount": "%d selected",
         "tasksClearSelection": "Clear",
+        "tasksSelectAll": "Select all",
+        "tasksSelectAllHint": "Select every task still to do in the list (⌘A)",
         "tasksStartFocusing": "Start focusing",
         "tasksStartFocusingHint": "Start a focus session with the selected tasks, their projects as the goal",
         "tasksSnoozeHint": "Snooze — move to another day",

@@ -5061,6 +5061,8 @@
     "tasksSettings": "Ustawienia zadań",
     "tasksSelectedCount": "Wybrano: %d",
     "tasksClearSelection": "Wyczyść",
+    "tasksSelectAll": "Zaznacz wszystko",
+    "tasksSelectAllHint": "Zaznacza wszystkie zadania do zrobienia na liście (⌘A)",
     "tasksStartFocusing": "Zacznij się skupiać",
     "tasksStartFocusingHint": "Rozpocznij sesję skupienia z wybranymi zadaniami, z ich projektami jako celem",
     "tasksSnoozeHint": "Przełóż – przenieś na inny dzień",
