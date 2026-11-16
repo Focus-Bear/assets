@@ -6197,7 +6197,8 @@
         "blockingOffFixBrowserNotResponding": "Revisar la configuración del navegador",
         "menuNoCurrentTask": "Ninguna tarea elegida",
         "menuMarkTaskComplete": "Marcar como completada",
-        "menuChangeTask": "Cambiar tarea"
+        "menuChangeTask": "Cambiar tarea",
+        "a11yFloatingBar": "Barra de Focus Bear"
     },
     "leftMenuVcInfo":{
         "menuAchievements": "Logros",
