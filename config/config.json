@@ -6250,7 +6250,8 @@
         "blockingOffFixBrowserNotResponding": "Check browser setup",
         "menuNoCurrentTask": "No task chosen",
         "menuMarkTaskComplete": "Mark as complete",
-        "menuChangeTask": "Change task"
+        "menuChangeTask": "Change task",
+        "a11yFloatingBar": "Focus Bear bar"
     },
     "leftMenuVcInfo":{
         "menuAchievements": "Achievements",
