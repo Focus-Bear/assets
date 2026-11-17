@@ -1325,6 +1325,9 @@
   },
   "enterPasswordViewInfo": {
     "title": "Wpisz hasło, aby kontynuować",
+    "strictScheduleLockTitle": "Zablokowane przez Twój ścisły harmonogram blokowania",
+    "strictScheduleLockMessage": "„<NAME>” trwa do <TIME>. Blokowanie i Ustawienia pozostają do tego czasu zablokowane, żeby nie dało się złagodzić harmonogramu. Wpisz hasło, aby mimo to je otworzyć.",
+    "strictScheduleFocusSessionMessage": "„<NAME>” trwa do <TIME>. Rozpoczęcie lub przedłużenie sesji skupienia teraz go zastępuje, więc wymaga hasła.",
     "passwordPlaceholderText": "Hasło",
     "buttonResetPasswordText": "Zresetuj hasło",
     "blankPasswordErrorTitle": "Hasło nie może być puste.",
@@ -5877,6 +5880,7 @@
     "menuRowUnavailableSpoken": "niedostępne",
     "menuRowLockedSpoken": "zablokowane",
     "preferencesLockedTooltip": "Teraz wymaga hasła. Kliknij, aby je wpisać.",
+    "preferencesLockedStrictScheduleTooltip": "Zablokowane przez Twój ścisły harmonogram blokowania „<NAME>” do <TIME>. Kliknij, aby wpisać hasło.",
     "toolUnlocksLockedCount": "Narzędzia skupienia do odblokowania: <COUNT>",
     "toolUnlocksLockedCountOne": "Narzędzia skupienia do odblokowania: 1",
     "toolUnlocksNextFirstSession": "Rozpocznij sesję skupienia",
