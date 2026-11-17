@@ -2288,6 +2288,7 @@
     "appsAllowedCountWindows": "Dozwolone aplikacje: <COUNT>",
     "oneAppAllowedCountWindows": "Dozwolone aplikacje: 1",
     "allAppsBlockedWindows": "Wszystkie aplikacje zablokowane",
+    "allAppsAllowedWindows": "Wszystkie aplikacje dozwolone",
     "allowedCount": "Dozwolone: <COUNT>",
     "oneAllowedCount": "Dozwolone: 1",
     "searchPlaceholder": "Dodaj nowy adres URL do tej listy blokowania",

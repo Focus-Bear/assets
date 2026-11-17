@@ -2715,6 +2715,7 @@
         "appsAllowedCountWindows": "<COUNT> apps allowed",
         "oneAppAllowedCountWindows": "1 app allowed",
         "allAppsBlockedWindows": "All apps blocked",
+        "allAppsAllowedWindows": "All apps allowed",
         "allowedCount": "<COUNT> allowed",
         "oneAllowedCount": "1 allowed",
         "searchPlaceholder": "Add a new URL to this blocklist",
