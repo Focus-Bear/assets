@@ -5084,6 +5084,8 @@
     "tasksSettings": "Réglages des tâches",
     "tasksSelectedCount": "%d sélectionnée(s)",
     "tasksClearSelection": "Effacer",
+    "tasksSelectAll": "Tout sélectionner",
+    "tasksSelectAllHint": "Sélectionne toutes les tâches à faire de la liste (⌘A)",
     "tasksStartFocusing": "Commencer à se concentrer",
     "tasksStartFocusingHint": "Lancer une session de concentration avec les tâches sélectionnées, leurs projets comme objectif",
     "tasksSnoozeHint": "Reporter — déplacer à un autre jour",
