@@ -4,21 +4,22 @@ on:
   push:
     paths:
       - 'config/**/*.json'
+      - '.github/workflows/main.yml'
+      - '.github/workflows/check-json.sh'
+      - '.github/workflows/check-config-json.py'
   pull_request:
     paths:
       - 'config/**/*.json'
+      - '.github/workflows/main.yml'
+      - '.github/workflows/check-json.sh'
+      - '.github/workflows/check-config-json.py'
 
 jobs:
   check-keys:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Check JSON keys
-        run: |
-          bash ./.github/workflows/check-json.sh
-        continue-on-error: false
+      - name: Check config JSON (valid, no duplicate keys, missing translations)
+        run: bash ./.github/workflows/check-json.sh
