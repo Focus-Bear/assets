@@ -6461,9 +6461,7 @@
         "titleMissingBlockList": "Lista de bloqueo faltante",
         "buttonSaveWithoutAiText": "Continuar de todos modos",
         "bodyAllowListNoAiWarningText": "La lista de bloqueo '<BLOCKLIST>' usa una lista de permitidos sin IA, lo que significa que se te pedirá aprobación muy a menudo.\n\nTe sugerimos que hagas el horario más estricto o que actives la IA.",
-        "warningScheduleStartedNoAiText": "Se inició '<SCHEDULE>' sin IA. Su lista de bloqueo '<BLOCKLIST>' usa una lista de permitidos sin IA, lo que significa que se te pedirá aprobación muy a menudo.\n\nTe sugerimos que hagas el horario más estricto o que actives la IA.",
-        "labelEndsNextDay": "Termina al día siguiente",
-        "alertSameStartEndTime": "La hora de inicio y la de fin no pueden ser la misma."
+        "warningScheduleStartedNoAiText": "Se inició '<SCHEDULE>' sin IA. Su lista de bloqueo '<BLOCKLIST>' usa una lista de permitidos sin IA, lo que significa que se te pedirá aprobación muy a menudo.\n\nTe sugerimos que hagas el horario más estricto o que actives la IA."
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausando horario personalizado - <SCHEDULE>",
@@ -6601,8 +6599,7 @@
         "titleExtendReasonMismatch": "Espera un momento",
         "fallbackExtendReasonMismatch": "Eso no parece coincidir con el objetivo de esta sesi\u00f3n de concentraci\u00f3n.",
         "buttonExtendReasonRevise": "Cambiar mi respuesta",
-        "buttonExtendReasonAnyway": "Extender de todos modos",
-        "requestCooldownText": "Puedes enviar una solicitud de desbloqueo por hora. La siguiente será posible en {0} min. Mientras tanto, pide a tu compañer@ que apruebe la solicitud que ya enviaste."
+        "buttonExtendReasonAnyway": "Extender de todos modos"
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Tu profesor(a) ha iniciado una sesión de enfoque de clase",
@@ -7257,25 +7254,10 @@
         "firefoxUpgradeRequired": "Actualiza la extensión de Focus Bear para Firefox para utilizar el bloqueo de sitios web del centro educativo y vuelve a conectar Firefox.",
         "appealAllowed": "Este sitio web ha superado la revisión de seguridad. Se está verificando de nuevo el acceso antes de volver a abrirlo.",
         "appealReviewRequired": "Esta solicitud necesita la revisión de tu centro educativo o de tu madre, padre o tutor. El sitio web sigue bloqueado.",
-        "extensionGraceTitle": "Desactiva <EXTENSION>",
-        "extensionGraceClass": "Desactiva o quita <EXTENSION> en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará durante la clase.",
-        "extensionGraceManaged": "Desactiva o quita <EXTENSION> en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará mientras los controles de la escuela o del hogar estén activos.",
-        "extensionGraceCountdown": "Quedan <SECONDS> segundos",
-        "extensionGraceSteps": "1. En <BROWSER>, abre una pestaña nueva y ve a <EXTENSIONS_PAGE>\n2. Busca <EXTENSION> y desactívala, o haz clic en Quitar.",
-        "openExtensionsPage": "Abrir extensiones de <BROWSER>",
-        "extensionLockedTitle": "<BROWSER> está bloqueado",
-        "extensionLocked": "<EXTENSION> sigue activa, así que <BROWSER> está bloqueado. Aún puedes abrir su página de extensiones: desactiva la extensión allí y <BROWSER> se desbloqueará.",
-        "extensionGraceResolved": "Gracias, todo listo. <BROWSER> sigue desbloqueado.",
-        "extensionUnlocked": "Gracias, todo listo. <BROWSER> está desbloqueado.",
-        "sideSurfaceBlocked": "Un panel lateral o una ventana emergente de una extensión en <BROWSER> está mostrando <SITE>, que no está permitido ahora. Ciérralo para seguir usando <BROWSER>.",
         "appWindowBlocked": "<SITE> no está permitido ahora, así que se minimizó esta ventana de <BROWSER>.",
         "browserUnchecked": "Los controles de la escuela o del hogar no pueden revisar <APP_NAME>, así que se minimizó. Usa Chrome, Edge, Firefox, Brave o Vivaldi.",
         "quitLocked": "No puedes cerrar Focus Bear mientras los controles de la escuela o del hogar estén activos. Pide ayuda a tu escuela o a tu padre, madre o tutor si hay que desactivarlo.",
         "signOutLocked": "No puedes cerrar sesión en Focus Bear mientras los controles de la escuela o del hogar estén activos. Pide ayuda a tu escuela o a tu padre, madre o tutor.",
-        "quitLockedSchool": "No puedes cerrar Focus Bear mientras los controles de la escuela estén activos. Pide ayuda a tu escuela si hay que desactivarlo.",
-        "signOutLockedSchool": "No puedes cerrar sesión en Focus Bear mientras los controles de la escuela estén activos. Pide ayuda a tu escuela.",
-        "settingsLockedSchool": "Los ajustes están bloqueados por los controles de tu escuela. Pide ayuda a tu escuela si hay que cambiar algo.",
-        "settingsLockedBodySchool": "El horario escolar es de solo lectura. Los ajustes generales de la aplicación permanecen bloqueados.",
         "blocklist": "Sitios web bloqueados",
         "blockedApps": "Aplicaciones bloqueadas"
     },
