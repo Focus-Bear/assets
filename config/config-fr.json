@@ -1836,7 +1836,37 @@
     "durationHoursText": "Durée (heures)",
     "filterPlaceholder": "Filtrer",
     "sessionSaveFailedText": "Impossible d’enregistrer la session de concentration",
-    "focusLogTimeText": "Heure"
+    "focusLogTimeText": "Heure",
+    "hatsHistory": {
+      "title": "Historique des chapeaux",
+      "balance": "Solde",
+      "hatsUnitOne": "chapeau",
+      "hatsUnitOther": "chapeaux",
+      "focusSession": "Session de concentration",
+      "task": "Tâche terminée",
+      "habit": "Habitude terminée",
+      "sleep": "Sommeil",
+      "activeMinutes": "Minutes actives",
+      "appUnlocked": "App débloquée",
+      "unlockMeta": "{time} · {minutes} min",
+      "buddy": "Chapeaux d'un ami",
+      "bonus": "Chapeaux bonus",
+      "onboardingSteps": {
+        "sign_up": "Inscription",
+        "screen_time": "Accès au temps d'écran autorisé",
+        "distracting_apps": "Apps distrayantes choisies",
+        "focus_rules": "Règles de concentration définies",
+        "hat_limit": "Limite de chapeaux définie",
+        "routine": "Routine créée",
+        "notifications": "Notifications activées"
+      },
+      "habitLimitReached": "Les habitudes rapportent des chapeaux pendant {minutes} minutes par jour au maximum. Cette journée a atteint cette limite, donc ses habitudes suivantes n'en ont rapporté aucun.",
+      "empty": "Pas encore de chapeaux. Termine une session de concentration ou une habitude pour gagner les premiers.",
+      "loadFailed": "Impossible de charger ton historique de chapeaux.",
+      "loadMore": "Charger plus",
+      "today": "Aujourd'hui",
+      "yesterday": "Hier"
+    }
   },
   "askLogInVcInfo": {
     "buttonSignUpAnonymously": "S'inscrire anonymement",
