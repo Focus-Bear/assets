@@ -8156,6 +8156,8 @@
         "markdownPreviewTooLarge": "This file is too large to preview here (<SIZE>). Open it to read it.",
         "markdownPreviewMissing": "This file isn't there any more. It may have been moved, renamed or deleted.",
         "markdownPreviewUnreadable": "Focus Bear can't read this file as text. Open it to read it.",
+        "outputOpenNamedFile": "Open <NAME>",
+        "filePreviewUnreadable": "Focus Bear can't show this file here. Open it in its own app to see it.",
         "statusScheduled": "Starts in the morning",
         "delegateButtonStatus": "Delegated to Claude · <STATUS>",
         "delegateButtonStatusHelp": "Open this task's delegation to see where Claude is.",

@@ -8178,6 +8178,8 @@
         "markdownPreviewTooLarge": "Ten plik jest za duży na podgląd (<SIZE>). Otwórz go, aby go przeczytać.",
         "markdownPreviewMissing": "Tego pliku już tu nie ma. Mógł zostać przeniesiony, przemianowany lub usunięty.",
         "markdownPreviewUnreadable": "Focus Bear nie może odczytać tego pliku jako tekstu. Otwórz go, aby go przeczytać.",
+        "outputOpenNamedFile": "Otwórz <NAME>",
+        "filePreviewUnreadable": "Focus Bear nie może tu pokazać tego pliku. Otwórz go w jego aplikacji, aby go zobaczyć.",
         "statusScheduled": "Zacznie rano",
         "delegateButtonStatus": "Przekazane Claude'owi · <STATUS>",
         "delegateButtonStatusHelp": "Otwórz przekazanie tego zadania, aby zobaczyć, na jakim etapie jest Claude.",
