@@ -7868,6 +7868,8 @@
     "postureHideCameraText": "Kamera ausblenden",
     "postureCameraTitle": "Haltungskamera",
     "postureGapText": "Abstand Ohr–Schulter: <NUMBER>",
+    "postureGapEyesText": "Abstand Auge–Schulter: <NUMBER>",
+    "postureGapNoseText": "Abstand Nase–Schulter: <NUMBER>",
     "postureGapUsualText": "Dein üblicher Wert: <NUMBER> · hochgezogen unter <LIMIT>",
     "postureCameraPrivacyText": "Nur du siehst das: Es wird beim Bildschirmteilen ausgeblendet, und nichts wird gespeichert."
   },

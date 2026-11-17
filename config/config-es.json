@@ -7882,6 +7882,8 @@
         "postureHideCameraText": "Ocultar cámara",
         "postureCameraTitle": "Cámara de postura",
         "postureGapText": "Distancia oreja-hombro: <NUMBER>",
+        "postureGapEyesText": "Distancia ojo-hombro: <NUMBER>",
+        "postureGapNoseText": "Distancia nariz-hombro: <NUMBER>",
         "postureGapUsualText": "Lo habitual: <NUMBER> · levantados por debajo de <LIMIT>",
         "postureCameraPrivacyText": "Solo lo ves tú: no aparece al compartir pantalla y no se guarda nada."
     },

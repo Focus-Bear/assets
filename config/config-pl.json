@@ -7868,6 +7868,8 @@
     "postureHideCameraText": "Ukryj kamerę",
     "postureCameraTitle": "Kamera postawy",
     "postureGapText": "Odstęp ucho–ramię: <NUMBER>",
+    "postureGapEyesText": "Odstęp oko–ramię: <NUMBER>",
+    "postureGapNoseText": "Odstęp nos–ramię: <NUMBER>",
     "postureGapUsualText": "Twoja zwykła wartość: <NUMBER> · uniesione poniżej <LIMIT>",
     "postureCameraPrivacyText": "Widzisz to tylko Ty: nie pojawia się przy udostępnianiu ekranu i nic nie jest zapisywane."
   },
