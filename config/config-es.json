@@ -959,8 +959,8 @@
         "titlePomodoroShortcut": "Atajo para iniciar sesión de enfoque:",
         "recordShorcutText": "Grabar Acceso Directo",
         "alertShortcutErrorText": "Por favor, usa otra combinación de teclas.",
-        "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Super Distracting Sites\" durante los descansos de la sesión de super enfoque",
-        "blockUrlsDuringMeetingsText": "Bloquear \"Super Distracting Sites\" durante Reuniones",
+        "titleDoNotBlockUrlsInPomodoroBreak": "No bloquear \"Sitios Super Distractores\" durante los descansos de la sesión de super enfoque",
+        "blockUrlsDuringMeetingsText": "Bloquear \"Sitios Super Distractores\" durante Reuniones",
         "allowOutOfOrderHabitsText": "Permitir hacer hábitos sin orden",
         "settingRequireIntentionText": "intención al posponer",
         "descriptionSettingRequireIntention": "Si está activado, cuando intentes posponer, Focus Bear te pedirá que escribas tus planes sobre lo que harás mientras pospones tus hábitos. Debes introducir al menos 10 caracteres.",
@@ -3925,7 +3925,7 @@
     },
     "microBreaksSettingsVcInfo":{
         "enableBreaksText": "Activar Descansos",
-        "titleDoNotBlockSuperDistractingUrls": "No bloquear \"Super Distracting Sites\" en los descansos",
+        "titleDoNotBlockSuperDistractingUrls": "No bloquear \"Sitios Super Distractores\" en los descansos",
         "titleNaturalBreaks": "Detectar pausas naturales",
         "titleAutoStartBreaks": "Iniciar los descansos automáticamente"
     },
@@ -6884,7 +6884,7 @@
         "subTitle": "Podemos sugerirte distracciones según tu trabajo, para que mantengas la concentración.",
         "buttonNoThanks": "Las escogeré yo mismo",
         "buttonContinue": "¡Sí, ayúdame a elegir!",
-        "bubbleText": "¡No te preocupes, el proveedor de IA no recibe tus datos!"
+        "bubbleText": "¡No te preocupes, la IA nunca sabe quién eres!"
     },
     "onboardingAllowedUrlsVcInfo": {
         "title": "¿Qué sitios web usas para trabajar?",
