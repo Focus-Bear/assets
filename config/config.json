@@ -514,7 +514,9 @@
     },
     "callNotifier": {
         "micUsageText": "is using your microphone",
-        "webcamUsageText": "is using your webcam"
+        "webcamUsageText": "is using your webcam",
+        "meetingTooltipText": "Focus Bear detected that your microphone or camera is in use, so we won't show break reminders during the meeting. A focus session or blocking schedule keeps blocking as usual.",
+        "meetingTooltipBreaksOnText": "Focus Bear detected that your microphone or camera is in use. You've chosen to keep break reminders on during meetings, so they'll still appear. A focus session or blocking schedule keeps blocking as usual."
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -1248,7 +1250,14 @@
             "titleTotalTimeOnBlockedSItes": "Time spent on super distracting sites:",
             "titleTotalDistractingSites": "Total distracting sites blocked:",
             "titleTimeSpentOnBreaks": "Total time spent on breaks:",
-            "totalBreaksTimeText": "Total time spent on breaks: <TIME>"
+            "totalBreaksTimeText": "Total time spent on breaks: <TIME>",
+            "statTotalFocusTimeText": "Total focus time",
+            "statBlocksCompletedText": "Focus blocks",
+            "statLongestBlockText": "Longest block",
+            "noFocusBlocksText": "No focus blocks yet today.",
+            "durationHoursShortText": "<H>h",
+            "durationMinutesShortText": "<M>m",
+            "durationSecondsShortText": "<S>s"
         },
         "discourageDefaultFocusInfo": {
             "title": "Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
@@ -1484,7 +1493,8 @@
         "createAccountFormTitle": "Create your account",
         "createAccountFormDescription": "Add an email and password to turn your guest account into a permanent one. Your current settings and progress are kept.",
         "createAccountEmailPlaceholder": "Email",
-        "createAccountPasswordPlaceholder": "Password (min 8 characters)"
+        "createAccountPasswordPlaceholder": "Password (min 8 characters)",
+        "titleGuestAccount": "You're using a guest account"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
@@ -3183,7 +3193,12 @@
         "descriptionEveningRoutine": "Your evening routine does not start automatically on the first day. Click Start evening routine to kick off your first routine.",
         "tourTools": "Tools",
         "descriptionTools": "A collection of helpful tools including Brain Dump, To-Do List/To-Do Player, focus music, and more.",
-        "descriptionSystemTray": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu."
+        "descriptionSystemTray": "Focus Bear keeps running in System Tray. Click on the icon to bring up the Focus Bear Menu.",
+        "linkPinToTaskbar": "Keep the bear visible on the taskbar",
+        "linkOpenTaskbarSettings": "Open taskbar settings",
+        "descriptionPinToTaskbar": "Windows hides new icons behind the ^ arrow. To keep Focus Bear on your taskbar:\n\n• Click \"Open taskbar settings\" below, then find Focus Bear under \"Other system tray icons\" and turn it on.\n\n• Or click the ^ arrow and drag the bear onto your taskbar.",
+        "descriptionPinToTaskbarWindows10": "Windows hides new icons behind the ^ arrow. To keep Focus Bear on your taskbar:\n\n• Click \"Open taskbar settings\" below, then click \"Select which icons appear on the taskbar\" and turn Focus Bear on.\n\n• Or click the ^ arrow and drag the bear onto your taskbar.",
+        "descriptionPinnedToTaskbar": "Nice - Focus Bear is now on your taskbar. Click it any time to bring up the Focus Bear Menu."
     },
     "relaxModeVcInfo":{
         "title": "Sites you saved for Free Time mode:",
@@ -3454,7 +3469,9 @@
         "buttonFlashFirmwareText": "Flash Firmware",
         "focusButtonFirmwareDownloadedText": "New Firmware updates downloaded. Click on \"Flash Firmware\" button to install the latest firmware on the device. Flashing reboots the device into its bootloader, verifies the image matches the chip, and restarts — settings and habits in NVS are kept. The serial connection is released during flashing and restored afterwards.",
         "focusButtonFlashCompleteText": "Flash complete — device is rebooting.",
-        "focusButtonNotDetectedText": "Not detected — click \"Check for Updates\" to install firmware"
+        "focusButtonNotDetectedText": "Not detected — click \"Check for Updates\" to install firmware",
+        "searchSettingTitle": "Search",
+        "noSearchResultsText": "No settings match \"<QUERY>\"."
     },
     "impactMeasurementVcInfo": {
         "title": "Analyse Your Sleep and Mood",
@@ -6364,7 +6381,9 @@
         "titleMissingBlockList": "Missing block list",
         "buttonSaveWithoutAiText": "Continue anyway",
         "bodyAllowListNoAiWarningText": "The '<BLOCKLIST>' block list uses an Allow List without AI, which means you're going to get asked for approval a lot.\n\nWe suggest you either make the schedule stricter or enable AI.",
-        "warningScheduleStartedNoAiText": "'<SCHEDULE>' started with AI off. Its '<BLOCKLIST>' block list uses an Allow List without AI, which means you're going to get asked for approval a lot.\n\nWe suggest you either make the schedule stricter or enable AI."
+        "warningScheduleStartedNoAiText": "'<SCHEDULE>' started with AI off. Its '<BLOCKLIST>' block list uses an Allow List without AI, which means you're going to get asked for approval a lot.\n\nWe suggest you either make the schedule stricter or enable AI.",
+        "labelEndsNextDay": "Ends the next day",
+        "alertSameStartEndTime": "The start and end time can't be the same."
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausing Custom schedule - <SCHEDULE>",
@@ -6501,7 +6520,8 @@
         "titleExtendReasonMismatch": "Hang on a second",
         "fallbackExtendReasonMismatch": "That doesn't sound like what this focus session is for.",
         "buttonExtendReasonRevise": "Change my answer",
-        "buttonExtendReasonAnyway": "Extend anyway"
+        "buttonExtendReasonAnyway": "Extend anyway",
+        "requestCooldownText": "You can send one unlock request an hour. The next one is possible in {0} min. Until then, ask your buddy to approve the request you already sent."
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Your teacher started a class focus session",
@@ -6908,7 +6928,14 @@
         "iMightUseIt": "I might use it",
         "downloadingUpdate": "Downloading Update",
         "downloadProgress": "Downloading Update: {0} of {1}",
-        "allWebsitesAllowed": "All websites are allowed"
+        "allWebsitesAllowed": "All websites are allowed",
+        "keyboardShortcutsHintText": "Click a box and press a key combination (include Ctrl, Alt, Shift or ⊞ Win). Press Esc to cancel.",
+        "superFocusPasswordAdviceText": "To make super focus session more effective, we recommend setting a password in Settings (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
+        "distractionBlockingStepsBubbleText": "Set up distraction blocking in two quick steps!",
+        "newBlockListTitle": "New block list",
+        "setPasswordFirstText": "Set a password first",
+        "lastBreakActivityFinishedText": "<ACTIVITY> finished!✅ Nice break. 💪",
+        "keyboardShortcutsDescriptionText": "Set global keyboard shortcuts to instantly open Brain Dump, Focus Music, or Task List from anywhere on your computer."
     },
     "managedBlockingInfo": {
         "blocklistBodySchool": "This website is on your school's blocked websites list.",
@@ -7133,7 +7160,28 @@
         "ipAddressUrlBlockedBody": "Your safety schedule blocks websites opened by a number address (an IP address) instead of their name. Open the website by its name.",
         "firefoxUpgradeRequired": "Update the Focus Bear Firefox extension to use school website blocking, then reconnect Firefox.",
         "appealAllowed": "This website passed the safety review. Access is being verified again before reopening it.",
-        "appealReviewRequired": "This request needs review by your school or parent. The website remains blocked."
+        "appealReviewRequired": "This request needs review by your school or parent. The website remains blocked.",
+        "extensionGraceTitle": "Turn off <EXTENSION>",
+        "extensionGraceClass": "Turn off or remove <EXTENSION> in <BROWSER> within <SECONDS> seconds, or <BROWSER> will be locked during class.",
+        "extensionGraceManaged": "Turn off or remove <EXTENSION> in <BROWSER> within <SECONDS> seconds, or <BROWSER> will be locked while school or home controls are on.",
+        "extensionGraceCountdown": "<SECONDS> seconds left",
+        "extensionGraceSteps": "1. In <BROWSER>, open a new tab and go to <EXTENSIONS_PAGE>\n2. Find <EXTENSION> and switch it off, or click Remove.",
+        "openExtensionsPage": "Open <BROWSER> extensions",
+        "extensionLockedTitle": "<BROWSER> is locked",
+        "extensionLocked": "<EXTENSION> is still on, so <BROWSER> is locked. You can still open its Extensions page: turn the extension off there and <BROWSER> unlocks.",
+        "extensionGraceResolved": "Thanks, all set. <BROWSER> stays unlocked.",
+        "extensionUnlocked": "Thanks, all set. <BROWSER> is unlocked.",
+        "sideSurfaceBlocked": "A side panel or extension popup in <BROWSER> is showing <SITE>, which isn't allowed right now. Close it to keep using <BROWSER>.",
+        "appWindowBlocked": "<SITE> isn't allowed right now, so this <BROWSER> window was minimised.",
+        "browserUnchecked": "<APP_NAME> can't be checked by your school or home controls, so it was minimised. Use Chrome, Edge, Firefox, Brave or Vivaldi instead.",
+        "quitLocked": "Focus Bear can't be closed while school or home controls are on. Ask your school or a parent if it needs to be turned off.",
+        "signOutLocked": "You can't sign out of Focus Bear while school or home controls are on. Ask your school or a parent for help.",
+        "quitLockedSchool": "Focus Bear can't be closed while school controls are on. Ask your school if it needs to be turned off.",
+        "signOutLockedSchool": "You can't sign out of Focus Bear while school controls are on. Ask your school for help.",
+        "settingsLockedSchool": "Settings are locked by your school's controls. Ask your school if something needs to change.",
+        "settingsLockedBodySchool": "Your school schedule is read-only. General app settings stay locked.",
+        "blocklist": "Blocked websites",
+        "blockedApps": "Blocked apps"
     },
     "accessibilityNamesInfo": {
         "focusSessionPage": "Focus session",

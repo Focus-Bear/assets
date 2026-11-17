@@ -514,7 +514,9 @@
     },
     "callNotifier": {
         "micUsageText": "está usando tu micrófono",
-        "webcamUsageText": "está usando tu cámara web"
+        "webcamUsageText": "está usando tu cámara web",
+        "meetingTooltipText": "Focus Bear detectó que tu micrófono o cámara están en uso, así que no mostraremos recordatorios de descanso durante la reunión. Una sesión de enfoque o un horario de bloqueo sigue bloqueando como siempre.",
+        "meetingTooltipBreaksOnText": "Focus Bear detectó que tu micrófono o cámara están en uso. Elegiste mantener los recordatorios de descanso durante las reuniones, así que seguirán apareciendo. Una sesión de enfoque o un horario de bloqueo sigue bloqueando como siempre."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando...",
@@ -701,7 +703,19 @@
         "unlockingFirstTimeText": "Desbloqueando por 30 minutos.",
         "cancelledEveningRoutineReminderText": "(Por cierto, cancelaste tu rutina de la tarde. Si cambiaste de opinión y quieres realizar tus hábitos de la tarde, haz clic en **Reanudar rutina de la tarde**)",
         "buttonResumeEveningRoutine": "Reanudar rutina de la tarde",
-        "buttonUnlockComputer": "Desbloquear computadora"
+        "buttonUnlockComputer": "Desbloquear computadora",
+        "buttonMoreOptionsText": "Más estadísticas",
+        "buttonAccordionMoreOptionsText": "Reflexiona sobre la sesión",
+        "tourTitleStarRating": "Califica tu sesión",
+        "tourSubTitleStarRating": "Guardado en tu registro de sesiones de enfoque para que puedas revisar lo que lograste.",
+        "tourTitleNextGoal": "Objetivo de la próxima sesión",
+        "tourSubTitleNextGoal": "Establece tu objetivo de enfoque para la próxima sesión",
+        "focusModeFocusedTitles": ["¡Lo lograste!", "¡Estuviste en tu zona!", "¡Trabajo profundo logrado!"],
+        "focusModeDecentTitles": ["Nada mal", "Sesión decente"],
+        "focusModeDistractedTitles": ["Se colaron algunas distracciones", "Concéntrate al máximo en la próxima sesión"],
+        "buttonContinueMicroBreak": "Continuar descanso",
+        "subtitleNew": "Bloque de enfoque completado: ¡registra tu logro para hacer seguimiento de tu progreso!",
+        "buttonAccordionAchievement": "✨ Registra tu logro"
     },
     "settings": {
         "title": "Ingresa la configuración JSON a continuación:",
@@ -1248,7 +1262,14 @@
             "titleTotalTimeOnBlockedSItes": "Tiempo en sitios súper distractores:",
             "titleTotalDistractingSites": "Total de sitios distractores bloqueados:",
             "titleTimeSpentOnBreaks": "Tiempo total dedicado a los descansos:",
-            "totalBreaksTimeText": "Tiempo total dedicado a los descansos: <TIME>"
+            "totalBreaksTimeText": "Tiempo total dedicado a los descansos: <TIME>",
+            "statTotalFocusTimeText": "Tiempo total de enfoque",
+            "statBlocksCompletedText": "Bloques de enfoque",
+            "statLongestBlockText": "Bloque más largo",
+            "noFocusBlocksText": "Aún no hay bloques de enfoque hoy.",
+            "durationHoursShortText": "<H> h",
+            "durationMinutesShortText": "<M> min",
+            "durationSecondsShortText": "<S> s"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Estás seguro/a? Es bastante fácil distraerte sin usar un modo de enfoque más restrictivo",
@@ -1484,7 +1505,8 @@
         "createAccountFormTitle": "Crea tu cuenta",
         "createAccountFormDescription": "Añade un correo electrónico y una contraseña para convertir tu cuenta de invitado en una permanente. Se conservan tu configuración y tu progreso actuales.",
         "createAccountEmailPlaceholder": "Correo electrónico",
-        "createAccountPasswordPlaceholder": "Contraseña (mínimo 8 caracteres)"
+        "createAccountPasswordPlaceholder": "Contraseña (mínimo 8 caracteres)",
+        "titleGuestAccount": "Estás usando una cuenta de invitado"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -3181,7 +3203,12 @@
         "descriptionEveningRoutine": "Tu rutina nocturna no inicia automáticamente el primer día. Haz clic en Iniciar rutina nocturna para activar tu primera rutina.",
         "tourTools": "Herramientas",
         "descriptionTools": "Una colección de herramientas útiles, incluyendo Brain Dump, Lista de tareas/Reproductor de tareas, música para enfocarte y más.",
-        "descriptionSystemTray": "Focus Bear sigue ejecutándose en la bandeja del sistema. Haz clic en el ícono para abrir el Menú de Focus Bear."
+        "descriptionSystemTray": "Focus Bear sigue ejecutándose en la bandeja del sistema. Haz clic en el ícono para abrir el Menú de Focus Bear.",
+        "linkPinToTaskbar": "Mantén el oso visible en la barra de tareas",
+        "linkOpenTaskbarSettings": "Abrir la configuración de la barra de tareas",
+        "descriptionPinToTaskbar": "Windows oculta los íconos nuevos detrás de la flecha ^. Para mantener Focus Bear en tu barra de tareas:\n\n• Haz clic en \"Abrir la configuración de la barra de tareas\" aquí abajo, busca Focus Bear en \"Otros iconos de la bandeja del sistema\" y actívalo.\n\n• O haz clic en la flecha ^ y arrastra el oso a tu barra de tareas.",
+        "descriptionPinToTaskbarWindows10": "Windows oculta los íconos nuevos detrás de la flecha ^. Para mantener Focus Bear en tu barra de tareas:\n\n• Haz clic en \"Abrir la configuración de la barra de tareas\" aquí abajo, luego en \"Seleccionar los iconos que aparecerán en la barra de tareas\" y activa Focus Bear.\n\n• O haz clic en la flecha ^ y arrastra el oso a tu barra de tareas.",
+        "descriptionPinnedToTaskbar": "¡Listo! Focus Bear ya está en tu barra de tareas. Haz clic en él cuando quieras para abrir el Menú de Focus Bear."
     },
     "relaxModeVcInfo":{
         "title": "Sitios que guardaste para el modo Relajado:",
@@ -3452,7 +3479,9 @@
         "buttonFlashFirmwareText": "Actualizar Firmware",
         "focusButtonFirmwareDownloadedText": "Se descargaron nuevas actualizaciones de firmware. Haz clic en el botón \"Actualizar Firmware\" para instalar la última versión en el dispositivo. Este proceso reinicia el dispositivo en modo bootloader, verifica que la imagen coincida con el chip y lo reinicia — la configuración y los hábitos guardados en NVS se mantienen. La conexión serial se libera durante la actualización y se restablece al finalizar.",
         "focusButtonFlashCompleteText": "Actualización completa — el dispositivo se está reiniciando.",
-        "focusButtonNotDetectedText": "No detectado — haz clic en \"Buscar actualizaciones\" para instalar el firmware"
+        "focusButtonNotDetectedText": "No detectado — haz clic en \"Buscar actualizaciones\" para instalar el firmware",
+        "searchSettingTitle": "Buscar",
+        "noSearchResultsText": "Ningún ajuste coincide con \"<QUERY>\"."
     },
     "impactMeasurementVcInfo": {
         "title": "Analiza tu sueño y estado de ánimo",
@@ -6362,7 +6391,9 @@
         "titleMissingBlockList": "Lista de bloqueo faltante",
         "buttonSaveWithoutAiText": "Continuar de todos modos",
         "bodyAllowListNoAiWarningText": "La lista de bloqueo '<BLOCKLIST>' usa una lista de permitidos sin IA, lo que significa que se te pedirá aprobación muy a menudo.\n\nTe sugerimos que hagas el horario más estricto o que actives la IA.",
-        "warningScheduleStartedNoAiText": "Se inició '<SCHEDULE>' sin IA. Su lista de bloqueo '<BLOCKLIST>' usa una lista de permitidos sin IA, lo que significa que se te pedirá aprobación muy a menudo.\n\nTe sugerimos que hagas el horario más estricto o que actives la IA."
+        "warningScheduleStartedNoAiText": "Se inició '<SCHEDULE>' sin IA. Su lista de bloqueo '<BLOCKLIST>' usa una lista de permitidos sin IA, lo que significa que se te pedirá aprobación muy a menudo.\n\nTe sugerimos que hagas el horario más estricto o que actives la IA.",
+        "labelEndsNextDay": "Termina al día siguiente",
+        "alertSameStartEndTime": "La hora de inicio y la de fin no pueden ser la misma."
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausando horario personalizado - <SCHEDULE>",
@@ -6499,7 +6530,8 @@
         "titleExtendReasonMismatch": "Espera un momento",
         "fallbackExtendReasonMismatch": "Eso no parece coincidir con el objetivo de esta sesi\u00f3n de concentraci\u00f3n.",
         "buttonExtendReasonRevise": "Cambiar mi respuesta",
-        "buttonExtendReasonAnyway": "Extender de todos modos"
+        "buttonExtendReasonAnyway": "Extender de todos modos",
+        "requestCooldownText": "Puedes enviar una solicitud de desbloqueo por hora. La siguiente será posible en {0} min. Mientras tanto, pide a tu compañer@ que apruebe la solicitud que ya enviaste."
     },
     "teacherSessionInfo":{
         "invitePromptTitle": "Tu profesor(a) ha iniciado una sesión de enfoque de clase",
@@ -6906,7 +6938,14 @@
         "iMightUseIt": "Tal vez lo use",
         "downloadingUpdate": "Descargando Actualización",
         "downloadProgress": "Descargando Actualización: {0} de {1}",
-        "allWebsitesAllowed": "Todos los sitios web están permitidos"
+        "allWebsitesAllowed": "Todos los sitios web están permitidos",
+        "keyboardShortcutsHintText": "Haz clic en un cuadro y pulsa una combinación de teclas (incluye Ctrl, Alt, Mayús o ⊞ Win). Pulsa Esc para cancelar.",
+        "superFocusPasswordAdviceText": "Para que la sesión de superenfoque sea más eficaz, te recomendamos que establezcas una contraseña en Ajustes (pídele a otra persona que lo haga por ti), ya que de lo contrario podrás cancelar los modos de enfoque antes de que se acabe el tiempo.",
+        "distractionBlockingStepsBubbleText": "¡Configura el bloqueo de distracciones en dos pasos rápidos!",
+        "newBlockListTitle": "Nueva lista de bloqueo",
+        "setPasswordFirstText": "Primero establece una contraseña",
+        "lastBreakActivityFinishedText": "¡<ACTIVITY> terminado!✅ Buen descanso. 💪",
+        "keyboardShortcutsDescriptionText": "Configura atajos de teclado globales para abrir al instante Brain Dump, Focus Music o la lista de tareas desde cualquier lugar de tu ordenador."
     },
     "managedBlockingInfo": {
         "blocklistBodySchool": "Este sitio web está en la lista de sitios web bloqueados de tu escuela.",
@@ -7131,7 +7170,28 @@
         "ipAddressUrlBlockedBody": "Tu horario de seguridad bloquea los sitios web abiertos con una dirección numérica (una dirección IP) en lugar de su nombre. Abre el sitio web por su nombre.",
         "firefoxUpgradeRequired": "Actualiza la extensión de Focus Bear para Firefox para utilizar el bloqueo de sitios web del centro educativo y vuelve a conectar Firefox.",
         "appealAllowed": "Este sitio web ha superado la revisión de seguridad. Se está verificando de nuevo el acceso antes de volver a abrirlo.",
-        "appealReviewRequired": "Esta solicitud necesita la revisión de tu centro educativo o de tu madre, padre o tutor. El sitio web sigue bloqueado."
+        "appealReviewRequired": "Esta solicitud necesita la revisión de tu centro educativo o de tu madre, padre o tutor. El sitio web sigue bloqueado.",
+        "extensionGraceTitle": "Desactiva <EXTENSION>",
+        "extensionGraceClass": "Desactiva o quita <EXTENSION> en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará durante la clase.",
+        "extensionGraceManaged": "Desactiva o quita <EXTENSION> en <BROWSER> en menos de <SECONDS> segundos, o <BROWSER> se bloqueará mientras los controles de la escuela o del hogar estén activos.",
+        "extensionGraceCountdown": "Quedan <SECONDS> segundos",
+        "extensionGraceSteps": "1. En <BROWSER>, abre una pestaña nueva y ve a <EXTENSIONS_PAGE>\n2. Busca <EXTENSION> y desactívala, o haz clic en Quitar.",
+        "openExtensionsPage": "Abrir extensiones de <BROWSER>",
+        "extensionLockedTitle": "<BROWSER> está bloqueado",
+        "extensionLocked": "<EXTENSION> sigue activa, así que <BROWSER> está bloqueado. Aún puedes abrir su página de extensiones: desactiva la extensión allí y <BROWSER> se desbloqueará.",
+        "extensionGraceResolved": "Gracias, todo listo. <BROWSER> sigue desbloqueado.",
+        "extensionUnlocked": "Gracias, todo listo. <BROWSER> está desbloqueado.",
+        "sideSurfaceBlocked": "Un panel lateral o una ventana emergente de una extensión en <BROWSER> está mostrando <SITE>, que no está permitido ahora. Ciérralo para seguir usando <BROWSER>.",
+        "appWindowBlocked": "<SITE> no está permitido ahora, así que se minimizó esta ventana de <BROWSER>.",
+        "browserUnchecked": "Los controles de la escuela o del hogar no pueden revisar <APP_NAME>, así que se minimizó. Usa Chrome, Edge, Firefox, Brave o Vivaldi.",
+        "quitLocked": "No puedes cerrar Focus Bear mientras los controles de la escuela o del hogar estén activos. Pide ayuda a tu escuela o a tu padre, madre o tutor si hay que desactivarlo.",
+        "signOutLocked": "No puedes cerrar sesión en Focus Bear mientras los controles de la escuela o del hogar estén activos. Pide ayuda a tu escuela o a tu padre, madre o tutor.",
+        "quitLockedSchool": "No puedes cerrar Focus Bear mientras los controles de la escuela estén activos. Pide ayuda a tu escuela si hay que desactivarlo.",
+        "signOutLockedSchool": "No puedes cerrar sesión en Focus Bear mientras los controles de la escuela estén activos. Pide ayuda a tu escuela.",
+        "settingsLockedSchool": "Los ajustes están bloqueados por los controles de tu escuela. Pide ayuda a tu escuela si hay que cambiar algo.",
+        "settingsLockedBodySchool": "El horario escolar es de solo lectura. Los ajustes generales de la aplicación permanecen bloqueados.",
+        "blocklist": "Sitios web bloqueados",
+        "blockedApps": "Aplicaciones bloqueadas"
     },
     "accessibilityNamesInfo": {
         "focusSessionPage": "Sesión de enfoque",
