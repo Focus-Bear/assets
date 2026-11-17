@@ -47,7 +47,11 @@
 
 .toast {
   position: fixed;
-  top: 0;
+  /* Below the fixed "Oops I actually need this" button (.cuddlyBearBtn, top: 1rem), which the
+     tip used to cover (windows-app-v2 #1869 item 9). */
+  top: 3.5rem;
+  max-width: min(640px, calc(100vw - 2rem));
+  pointer-events: none;
   left: 50%;
   transform: translate(-50%, -100%);
   opacity: 0;
@@ -64,6 +68,7 @@
 .toast.visible {
   transform: translate(-50%, 0);
   opacity: 1;
+  pointer-events: auto;
 }
 
 @media only screen and (max-width: 1024px) {
