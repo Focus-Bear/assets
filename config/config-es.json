@@ -337,6 +337,7 @@
         "breakBrainDumpHintText": "Anota aquí una idea para poder soltarla durante el descanso: se guarda en tu volcado de ideas.",
         "breakSettingsButtonText": "Ajustes de microdescansos",
         "breakBrainDumpEmptyText": "Haz un volcado rápido de ideas",
+        "breakBrainDumpAfterBreakText": "Antes del descanso anotaste:",
         "breakStartTitleText": "¡Hora de un microdescanso!",
         "breakStartSubtitleText": "Mantengamos la mente y el cuerpo despiertos",
         "breakAutoStartCountdownText": "Empieza automáticamente en <TIME>",
