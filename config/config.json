@@ -5318,6 +5318,12 @@
         "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
+    "eventDurationLabelWindows": "Duration",
+    "eventDurationCustomWindows": "Custom",
+    "eventDurationMinutesWindows": "%d min",
+    "eventDurationHoursWindows": "%d h",
+    "eventLateNoMoreHintWindows": "Late No More reminds you before it starts, like any meeting.",
+    "addEventTooltipWindows": "Add a call or appointment at a set time. It goes in your calendar, and Late No More reminds you before it starts.",
     "tasksSnoozeExplainTitle": "Why this suggestion",
     "tasksSnoozeExplainFree": "%1$@ has %2$@ free after its own tasks. This needs %3$@.",
     "tasksSnoozeExplainLinked": "Goes in your %1$@ (linked to %2$@), which has %3$@ left that day.",

@@ -4923,6 +4923,12 @@
     "signInEndingDetail": "Ta connexion à Focus Bear se termine bientôt (<TIME>). Tout fonctionne jusque-là, et ton blocage reste actif dans tous les cas."
   },
   "scheduleViewInfo": {
+    "eventDurationLabelWindows": "Durée",
+    "eventDurationCustomWindows": "Personnalisée",
+    "eventDurationMinutesWindows": "%d min",
+    "eventDurationHoursWindows": "%d h",
+    "eventLateNoMoreHintWindows": "Late No More te prévient avant le début, comme pour n'importe quelle réunion.",
+    "addEventTooltipWindows": "Ajoute un appel ou un rendez-vous à une heure précise. Il est enregistré dans ton calendrier, et Late No More te prévient avant le début.",
     "tasksSnoozeExplainTitle": "Pourquoi cette suggestion",
     "tasksSnoozeExplainFree": "%1$@ a %2$@ de libre après ses propres tâches. Celle-ci demande %3$@.",
     "tasksSnoozeExplainLinked": "Va dans ton %1$@ (lié à %2$@), qui a encore %3$@ ce jour-là.",

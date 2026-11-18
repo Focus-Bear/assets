@@ -5328,6 +5328,12 @@
         "tryAgainText": "Reintentar"
     },
     "scheduleViewInfo":{
+    "eventDurationLabelWindows": "Duración",
+    "eventDurationCustomWindows": "Personalizada",
+    "eventDurationMinutesWindows": "%d min",
+    "eventDurationHoursWindows": "%d h",
+    "eventLateNoMoreHintWindows": "Late No More te avisa antes de que empiece, como con cualquier reunión.",
+    "addEventTooltipWindows": "Añade una llamada o cita a una hora fija. Se guarda en tu calendario y Late No More te avisa antes de que empiece.",
     "tasksSnoozeExplainTitle": "Por qué esta sugerencia",
     "tasksSnoozeExplainFree": "%1$@ tiene %2$@ libres después de sus propias tareas. Esta necesita %3$@.",
     "tasksSnoozeExplainLinked": "Va en tu %1$@ (vinculado a %2$@), al que le quedan %3$@ ese día.",
