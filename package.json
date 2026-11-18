@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compare": "node index.js",
-    "build": "ncc build index.js"
+    "build": "ncc build index.js",
+    "test:blocked-page": "node --test focus-blocked/tests/*.test.cjs"
   },
   "bugs": {
     "url": "https://github.com/Focus-Bear/assets/issues"
@@ -14,5 +15,8 @@
     "@actions/core": "^1.10.0",
     "@vercel/ncc": "^0.34.0",
     "flat": "^5.0.2"
+  },
+  "devDependencies": {
+    "jsdom": "^20.0.3"
   }
 }

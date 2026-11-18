@@ -1,8 +1,8 @@
-if (
+if (!isManagedSafetyBlock && (
   isonboarding ||
   show_tour ||
   !localStorage.getItem(LOCAL_STORAGE.IS_INTRO_SHOWED)
-) {
+)) {
   const tour = new TourGuideClient({
     steps: [
       {

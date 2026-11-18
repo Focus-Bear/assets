@@ -38,7 +38,7 @@ if (current_url && typeof isValidUrl !== 'undefined') {
         : current_url.indexOf('?')
     );
 
-    domain = new URL(decodeURIComponent(old_url)).hostname;
+    domain = new URL(old_url).hostname;
     isExternalHintRequired = Object.values(EXTERNAL_HINT_DOMAINS).includes(
       domain
     );
@@ -49,6 +49,7 @@ if (current_url && typeof isValidUrl !== 'undefined') {
 
 const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
+const isManagedSafetyBlock = block_type === FOCUS_BLOCK_OPTION.MANAGED_SAFETY;
 const blocked_reason = urlParams.get('reason');
 // Set by the Mac app's AI check-in when the user saved what they were doing as a task for later. The
 // headline arrives already translated; the task name is the user's own text.
@@ -56,7 +57,7 @@ const saved_task = urlParams.get('saved_task');
 const saved_task_headline = urlParams.get('saved_task_headline') ?? '';
 const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
-const isonboarding = urlParams.get('isonboarding') === 'true';
+const isonboarding = !isManagedSafetyBlock && (urlParams.get('isonboarding') === 'true');
 
 let encouraging_info = {};
 try {
@@ -78,11 +79,11 @@ const isPageReloaded = Boolean(
   localStorage.getItem(LOCAL_STORAGE.IS_PAGE_RELOADED)
 );
 const version = urlParams.get('version');
-const show_tour = urlParams.get('show_tour') === 'true';
+const show_tour = !isManagedSafetyBlock && (urlParams.get('show_tour') === 'true');
 const confirmSuperDistracting =
-  urlParams.get('confirm_super_distracting') === 'true';
+  !isManagedSafetyBlock && (urlParams.get('confirm_super_distracting') === 'true');
 const confirmAIDistractingURL =
-  urlParams.get('confirm_ai_distracting_url') === 'true';
+  !isManagedSafetyBlock && (urlParams.get('confirm_ai_distracting_url') === 'true');
 const focusModeIntention = urlParams.get('focus_mode_intention') ?? '';
 const shouldActivateSuperDistractionBlock = [
   FOCUS_BLOCK_OPTION.FOCUS_BLOCK_ALWAYS_OLD,
@@ -114,8 +115,8 @@ const focusBlockMode =
     : FOCUS_BLOCK_MODE.CUDDLY;
 
 const aiFocusBlockVerificationEnabled =
-  urlParams.get('ai-focus-block-verification-enabled') === 'true';
-const aiFocusBlockEnabled = urlParams.get('ai-focus-block-enabled') === 'true';
+  !isManagedSafetyBlock && (urlParams.get('ai-focus-block-verification-enabled') === 'true');
+const aiFocusBlockEnabled = !isManagedSafetyBlock && (urlParams.get('ai-focus-block-enabled') === 'true');
 const aiRelevanceScore = urlParams.get('ai-relevance-score') || 0;
 const aiRelevanceExplanation = urlParams.get('ai-relevance-explanation') || '';
 const aiConvinceResponse = urlParams.get('ai-convince-response') || '';
