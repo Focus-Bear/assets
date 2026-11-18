@@ -14,6 +14,10 @@ on:
       - '.github/workflows/check-json.sh'
       - '.github/workflows/check-config-json.py'
 
+# Both steps only read the checked-out config files, so the GITHUB_TOKEN needs nothing more.
+permissions:
+  contents: read
+
 jobs:
   check-keys:
     runs-on: ubuntu-latest
