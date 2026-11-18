@@ -25,6 +25,9 @@ const FOCUS_BLOCK_OPTION = {
   MORNING_HABIT: 'morning-habit',
   EVENING: 'evening',
   EVENING_HABIT: 'evening-habit',
+  BREAK_ACTIVITY: 'break-activity',
+  SPECIAL_ACTIVITY: 'special-activity',
+  CUSTOM_ROUTINE: 'custom-routine',
 };
 
 const LANGUAGE = {

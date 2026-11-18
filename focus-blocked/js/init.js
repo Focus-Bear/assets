@@ -51,6 +51,10 @@ const focus_mode = urlParams.get('focus_mode') ?? null;
 const block_type = urlParams.get('block_type') ?? null;
 const isManagedSafetyBlock = block_type === FOCUS_BLOCK_OPTION.MANAGED_SAFETY;
 const blocked_reason = urlParams.get('reason');
+// Set by the Mac app's AI check-in when the user saved what they were doing as a task for later. The
+// headline arrives already translated; the task name is the user's own text.
+const saved_task = urlParams.get('saved_task');
+const saved_task_headline = urlParams.get('saved_task_headline') ?? '';
 const strict_blocking = urlParams.get('strict_blocking') === 'true';
 const font = urlParams.get('font');
 const isonboarding = !isManagedSafetyBlock && (urlParams.get('isonboarding') === 'true');
@@ -91,6 +95,19 @@ const isMorningOrEveningBlock = [
   FOCUS_BLOCK_OPTION.EVENING,
   FOCUS_BLOCK_OPTION.EVENING_HABIT,
 ].includes(block_type);
+// A habit, break or routine activity that blocks everything outside its allowed URLs. The app
+// only honours "unblock it" there when the activity runs a focus mode in Cuddly Bear mode, and
+// it says so with cuddly_bear_mode=true; otherwise the button did nothing (#291).
+const isHabitActivityBlock = [
+  FOCUS_BLOCK_OPTION.MORNING_HABIT,
+  FOCUS_BLOCK_OPTION.EVENING_HABIT,
+  FOCUS_BLOCK_OPTION.BREAK_ACTIVITY,
+  FOCUS_BLOCK_OPTION.SPECIAL_ACTIVITY,
+  FOCUS_BLOCK_OPTION.CUSTOM_ROUTINE,
+].includes(block_type);
+const isCuddlyBearModeActivity = urlParams.get('cuddly_bear_mode') === 'true';
+const isUnblockUnavailableForActivity =
+  isHabitActivityBlock && !isCuddlyBearModeActivity;
 const flags = urlParams.get('flags') ?? [];
 const focusBlockMode =
   urlParams.get('block_mode') === FOCUS_BLOCK_MODE.GRIZZLY

@@ -1,0 +1,53 @@
+name: Notify Mac-App of config changes
+
+# Mac-App PRs fail their "Config <-> Assets Sync" check while the strings they add are not yet on
+# this repo's main. When config changes land here, start Mac-App's "Re-run Assets Sync Checks"
+# workflow (.github/workflows/rerun-assets-sync.yml), which re-runs only the PRs whose missing keys
+# are now all present here. That workflow does the re-running with Mac-App's own GITHUB_TOKEN; this
+# job only starts it.
+#
+# Needs the repo secret MAC_APP_DISPATCH_TOKEN: a fine-grained personal access token with resource
+# owner Focus-Bear, repository access limited to Focus-Bear/Mac-App, and the single repository
+# permission "Actions: Read and write" (what POST .../actions/workflows/{id}/dispatches requires;
+# Metadata: Read is added automatically). It deliberately does NOT use repository_dispatch, which
+# would need "Contents: Read and write" and so the power to push code to Mac-App. Without the secret
+# this job logs a warning and does nothing.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'config/**'
+
+# Merging several assets PRs in a row would start one run each; Mac-App collapses those itself, and
+# a newer push here supersedes an older one, so cancel the older one.
+concurrency:
+  group: notify-mac-app
+  cancel-in-progress: true
+
+env:
+  TARGET_REPOSITORY: Focus-Bear/Mac-App
+  TARGET_WORKFLOW: rerun-assets-sync.yml
+  # workflow_dispatch runs the workflow as it exists on this ref, which must be Mac-App's default
+  # branch for the re-run to use the reviewed version of its script.
+  TARGET_REF: main-human-verified
+
+jobs:
+  notify-mac-app:
+    name: Ask Mac-App to re-run assets sync checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: Start Mac-App's re-run workflow
+        env:
+          GH_TOKEN: ${{ secrets.MAC_APP_DISPATCH_TOKEN }}
+          MERGE_SHA: ${{ github.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::MAC_APP_DISPATCH_TOKEN is not set; Mac-App was not notified. Run its 'Re-run Assets Sync Checks' workflow by hand."
+            exit 0
+          fi
+          gh api --method POST "repos/$TARGET_REPOSITORY/actions/workflows/$TARGET_WORKFLOW/dispatches" \
+            -f ref="$TARGET_REF"
+          echo "Started $TARGET_WORKFLOW on $TARGET_REPOSITORY@$TARGET_REF after $MERGE_SHA."

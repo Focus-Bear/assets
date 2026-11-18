@@ -252,6 +252,20 @@ picture > img {
   display: none;
 }
 
+.saved-task-message {
+  text-align: center;
+}
+
+.saved-task-message > .saved-task-headline {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.saved-task-message > .saved-task-name {
+  font-size: 1.15rem;
+  margin-top: 0.25rem;
+}
+
 #privacyContainer button {
   width: fit-content;
   padding: 6px 20px;
