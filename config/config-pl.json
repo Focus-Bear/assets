@@ -308,6 +308,7 @@
     "breakBrainDumpHintText": "Zapisz tu myśl, żeby odpuścić ją na czas przerwy — trafi do twojego zrzutu myśli.",
     "breakSettingsButtonText": "Ustawienia mikroprzerw",
     "breakBrainDumpEmptyText": "Zrób szybki zrzut myśli",
+    "breakBrainDumpAfterBreakText": "Twoja notatka sprzed przerwy:",
     "breakStartTitleText": "Czas na mikroprzerwę!",
     "breakStartSubtitleText": "Utrzymajmy umysł i ciało w formie",
     "breakAutoStartCountdownText": "Automatyczny start za <TIME>",
