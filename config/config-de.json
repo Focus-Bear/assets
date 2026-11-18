@@ -308,6 +308,7 @@
     "breakBrainDumpHintText": "Park hier einen Gedanken, damit du ihn für die Pause loslassen kannst — er wird in deinem Brain Dump gespeichert.",
     "breakSettingsButtonText": "Mikropausen-Einstellungen",
     "breakBrainDumpEmptyText": "Schnell einen Brain Dump machen",
+    "breakBrainDumpAfterBreakText": "Vor deiner Pause hast du notiert:",
     "breakStartTitleText": "Zeit für eine Mikropause!",
     "breakStartSubtitleText": "Lass uns Kopf und Körper fit halten",
     "breakAutoStartCountdownText": "Startet automatisch in <TIME>",
