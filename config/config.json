@@ -2239,6 +2239,8 @@
         "leaderboardYourPositionText": "Your position",
         "leaderboardYouText": "You",
         "leaderboardSetUsernameNudgeText": "Set a leaderboard username below to appear on the leaderboard.",
+      "leaderboardHatsText": "Hats",
+      "leaderboardSetUsernameAboveNudgeText": "Set a leaderboard username at the top of this page to appear on the leaderboard.",
         "streakValueText": "Streak: {streak}",
         "daysCompletedOutOfText": "{completed} days completed out of last {total} days",
         "daysCompletedOutOfExpectedText": "Last {window} days: {completed} completed, {forgiven} weekend days forgiven",
@@ -5126,7 +5128,10 @@
       "deleteRepeatingTaskTitleText": "Delete repeating task",
       "deleteRepeatingTaskMessageText": "Deleting this task stops it repeating. Completed ones stay in your history unless you delete those too.",
       "deleteRepeatingTaskStopText": "Delete and stop repeating",
-      "deleteRepeatingTaskAllText": "Delete all, including history"
+      "deleteRepeatingTaskAllText": "Delete all, including history",
+        "rescheduleText": "Reschedule",
+        "changeDueDateText": "Change due date",
+        "currentDueDateText": "Currently due: <DATE>"
     },
     "localForecastViewInfo": {
         "taskProjectPicker": "Project",
@@ -5554,6 +5559,8 @@
         "tasksNewProjectSave": "Save",
         "tasksNewProjectCreate": "Create",
         "tasksSnooze": "Snooze",
+    "tasksReschedule": "Reschedule",
+    "tasksCurrentlyPlannedFor": "Currently planned for %@",
         "tasksRemove": "Remove",
         "tasksDetailsTitle": "Task details",
         "dayFixLink": "Fix",
