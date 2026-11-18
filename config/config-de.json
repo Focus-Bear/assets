@@ -49,7 +49,23 @@
     "unitMinute": "Min.",
     "unitSecond": "Sek.",
     "breakGroupTitle": "Ich brauche eine Pause",
-    "focusGroupTitle": "Mehr Fokus, bitte!"
+    "focusGroupTitle": "Mehr Fokus, bitte!",
+    "detailClose": "Schließen",
+    "focusTimeDetailHeading": "In dieser Sitzung genutzte Apps und Websites",
+    "distractionsDetailHeading": "In dieser Sitzung aufgerufene Ablenkungen",
+    "columnRank": "#",
+    "columnApp": "App/Website",
+    "columnTime": "Zeit",
+    "columnShare": "% der Sitzung",
+    "shareValue": "<PERCENT> %",
+    "shareBelow": "< <PERCENT> %",
+    "usageRowAccessibility": "<RANK>. <NAME>, <TIME>, <SHARE> der Sitzung",
+    "alignmentInfo": "Wie viel dieser Sitzung auf Apps und Websites entfiel, die zu deinem Fokusziel passen, alle 5 Minuten gemessen.",
+    "alignmentPointTooltip": "Ausrichtungswert: <SCORE>",
+    "alignmentPointAccessibility": "<TIME>, Ausrichtungswert <SCORE>",
+    "noUsage": "In dieser Sitzung wurden keine Apps oder Websites erfasst.",
+    "noDistractions": "Keine Ablenkungen in dieser Sitzung. Gut gemacht!",
+    "noAlignmentChart": "Diese Sitzung war zu kurz für ein Diagramm."
   },
   "featureSwitches": {
     "localRelevanceModel": {
