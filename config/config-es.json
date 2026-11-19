@@ -7839,6 +7839,8 @@
         "liveBannerRecordingText": "Grabando",
         "liveBannerOpenNoteText": "Abrir nota",
         "liveBannerAccessibilityText": "Grabando <TITLE>, <TIME>",
+        "sharingIndicatorNoteText": "Mientras graba, macOS muestra Focus Bear como “Compartiendo” en la barra de menús: macOS solo deja que una app oiga el sonido de la llamada, o busque diapositivas, mediante la grabación de pantalla. Todo se queda en este Mac, y nadie en la llamada ve tu pantalla a menos que la presentes. “Dejar de compartir” ahí detiene esa parte de la grabación.",
+        "sharingIndicatorQuestionText": "Por qué macOS dice que Focus Bear está compartiendo",
         "transcriptAfterStopText": "La transcripción en directo no está disponible en este Mac ahora mismo, así que la transcripción se hará a partir de la grabación cuando pulses Detener.",
         "recoveredNoticeText": "Se ha recuperado tu grabación de las <TIME>: transcribiendo…",
         "autoStoppedNoticeText": "Grabación guardada: la reunión ha terminado.",

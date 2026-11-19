@@ -7851,6 +7851,8 @@
     "liveBannerRecordingText": "Nagrywanie",
     "liveBannerOpenNoteText": "Otwórz notatkę",
     "liveBannerAccessibilityText": "Nagrywanie: <TITLE>, <TIME>",
+    "sharingIndicatorNoteText": "Podczas nagrywania macOS pokazuje Focus Bear na pasku menu jako „Udostępnianie”: macOS pozwala aplikacji słyszeć dźwięk rozmowy lub szukać slajdów tylko przez nagrywanie ekranu. Wszystko zostaje na tym Macu i nikt w rozmowie nie widzi Twojego ekranu, chyba że go prezentujesz. „Zatrzymaj udostępnianie” zatrzymuje tam tę część nagrania.",
+    "sharingIndicatorQuestionText": "Dlaczego macOS mówi, że Focus Bear udostępnia",
     "transcriptAfterStopText": "Transkrypcja na żywo nie jest teraz dostępna na tym Macu, więc transkrypcja zostanie utworzona z nagrania po naciśnięciu Zatrzymaj.",
     "recoveredNoticeText": "Odzyskano nagranie z <TIME> — trwa transkrypcja…",
     "autoStoppedNoticeText": "Nagranie zapisane — spotkanie się zakończyło.",

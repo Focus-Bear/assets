@@ -7829,6 +7829,8 @@
         "liveBannerRecordingText": "Recording",
         "liveBannerOpenNoteText": "Open note",
         "liveBannerAccessibilityText": "Recording <TITLE>, <TIME>",
+        "sharingIndicatorNoteText": "While it records, macOS shows Focus Bear as “Currently Sharing” in the menu bar: macOS only lets an app hear the call's sound, or look for slides, through Screen Recording. It all stays on this Mac, and nobody in the call sees your screen unless you present. Stop Sharing there stops that part of the recording.",
+        "sharingIndicatorQuestionText": "Why macOS says Focus Bear is sharing",
         "transcriptAfterStopText": "The live transcript isn't available on this Mac right now, so the transcript is made from the recording after you press Stop.",
         "recoveredNoticeText": "Recovered your recording from <TIME> — transcribing…",
         "autoStoppedNoticeText": "Recording saved — the meeting ended.",

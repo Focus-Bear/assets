@@ -7851,6 +7851,8 @@
     "liveBannerRecordingText": "Enregistrement",
     "liveBannerOpenNoteText": "Ouvrir la note",
     "liveBannerAccessibilityText": "Enregistrement de <TITLE>, <TIME>",
+    "sharingIndicatorNoteText": "Pendant l’enregistrement, macOS affiche Focus Bear comme « En cours de partage » dans la barre des menus : macOS ne permet à une app d’entendre le son de l’appel, ou de chercher des diapositives, qu’avec l’enregistrement de l’écran. Tout reste sur ce Mac, et personne dans l’appel ne voit votre écran, sauf si vous le présentez. « Arrêter le partage » y arrête cette partie de l’enregistrement.",
+    "sharingIndicatorQuestionText": "Pourquoi macOS indique que Focus Bear partage",
     "transcriptAfterStopText": "La transcription en direct n'est pas disponible sur ce Mac pour le moment : la transcription sera faite à partir de l'enregistrement quand vous appuierez sur Arrêter.",
     "recoveredNoticeText": "Votre enregistrement de <TIME> a été récupéré — transcription en cours…",
     "autoStoppedNoticeText": "Enregistrement sauvegardé — la réunion est terminée.",
