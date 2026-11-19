@@ -1897,6 +1897,10 @@
       "activeMinutes": "Aktywne minuty",
       "appUnlocked": "Odblokowana aplikacja",
       "unlockMeta": "{time} · {minutes} min",
+      "focusWhyEngaged": "Sesja {session} min · {percent}% zaangażowania → {engaged} min nad zadaniem → {hats}",
+      "focusWhyDuration": "{minutes} min skupienia × {rate} na minutę → {hats}",
+      "focusWhyDailyLimit": "(dzienny limit skupienia go ograniczył)",
+      "focusWhyButton": "Skąd te kapelusze",
       "buddy": "Kapelusze od znajomego",
       "bonus": "Dodatkowe kapelusze",
       "onboardingSteps": {

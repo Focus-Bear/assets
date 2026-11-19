@@ -2315,6 +2315,10 @@
             "activeMinutes": "Active minutes",
             "appUnlocked": "App unlocked",
             "unlockMeta": "{time} · {minutes} min",
+            "focusWhyEngaged": "{session} min session · {percent}% engaged → {engaged} min on task → {hats}",
+            "focusWhyDuration": "{minutes} min focused × {rate} a minute → {hats}",
+            "focusWhyDailyLimit": "(the day's focus limit capped it)",
+            "focusWhyButton": "Why these hats",
             "buddy": "Hats from a buddy",
             "bonus": "Bonus hats",
             "onboardingSteps": {
