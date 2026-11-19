@@ -8212,7 +8212,19 @@
         "updateSchedule": "Actualizar",
         "updateScheduleHelp": "Dale a Claude estas instrucciones cuando empiece.",
         "queuedEditUnsaved": "Pulsa Actualizar para que Claude reciba estos cambios cuando empiece.",
-        "queuedEditSaved": "Actualizado. Claude empezará con estas instrucciones."
+        "queuedEditSaved": "Actualizado. Claude empezará con estas instrucciones.",
+        "heldMessageNote": "En espera hasta las <TIME>: se envía cuando empieza tu día",
+        "heldMessagesHint": "Ya pasó tu hora límite, así que lo que envíes ahora espera hasta las <TIME>.",
+        "heldMessagesLabel": "Mensajes que esperan a la mañana",
+        "heldMessageEdit": "Editar",
+        "heldMessageEditHelp": "Cambia este mensaje antes de que llegue a Claude.",
+        "heldMessageCancel": "Cancelar mensaje",
+        "heldMessageCancelHelp": "No enviar este mensaje a Claude.",
+        "heldMessageSave": "Guardar",
+        "heldMessageSaveHelp": "Guarda tus cambios (⌘Return). El mensaje sigue esperando hasta la mañana.",
+        "heldMessageDiscardEdit": "Descartar cambios",
+        "heldMessageDiscardEditHelp": "Deja el mensaje como estaba.",
+        "heldMessageEditorLabel": "Mensaje para Claude"
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Desactiva '<EXTENSION>'",
