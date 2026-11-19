@@ -1897,6 +1897,10 @@
       "activeMinutes": "Minutes actives",
       "appUnlocked": "App débloquée",
       "unlockMeta": "{time} · {minutes} min",
+      "focusWhyEngaged": "Session de {session} min · {percent} % d'engagement → {engaged} min sur la tâche → {hats}",
+      "focusWhyDuration": "{minutes} min de concentration × {rate} chapeaux par minute → {hats}",
+      "focusWhyDailyLimit": "(la limite quotidienne de concentration l'a plafonné)",
+      "focusWhyButton": "Pourquoi ces chapeaux",
       "buddy": "Chapeaux d'un ami",
       "bonus": "Chapeaux bonus",
       "onboardingSteps": {

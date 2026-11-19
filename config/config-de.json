@@ -1897,6 +1897,10 @@
       "activeMinutes": "Aktive Minuten",
       "appUnlocked": "App entsperrt",
       "unlockMeta": "{time} · {minutes} Min.",
+      "focusWhyEngaged": "{session} Min. Sitzung · {percent} % bei der Sache → {engaged} Min. an der Aufgabe → {hats}",
+      "focusWhyDuration": "{minutes} Min. fokussiert × {rate} Hüte pro Minute → {hats}",
+      "focusWhyDailyLimit": "(das tägliche Fokuslimit hat gekürzt)",
+      "focusWhyButton": "Warum diese Hüte",
       "buddy": "Hüte von einem Buddy",
       "bonus": "Bonus-Hüte",
       "onboardingSteps": {

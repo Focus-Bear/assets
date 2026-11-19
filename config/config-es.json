@@ -2327,6 +2327,10 @@
             "activeMinutes": "Minutos activos",
             "appUnlocked": "App desbloqueada",
             "unlockMeta": "{time} · {minutes} min",
+            "focusWhyEngaged": "Sesión de {session} min · {percent}% de atención → {engaged} min en la tarea → {hats}",
+            "focusWhyDuration": "{minutes} min de concentración × {rate} sombreros por minuto → {hats}",
+            "focusWhyDailyLimit": "(el límite diario de concentración lo recortó)",
+            "focusWhyButton": "Por qué estos sombreros",
             "buddy": "Sombreros de un compañero",
             "bonus": "Sombreros extra",
             "onboardingSteps": {
