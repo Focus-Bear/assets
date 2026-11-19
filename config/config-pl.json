@@ -8224,7 +8224,19 @@
         "updateSchedule": "Aktualizuj",
         "updateScheduleHelp": "Przekaż Claude te instrukcje, gdy zacznie.",
         "queuedEditUnsaved": "Naciśnij Aktualizuj, aby Claude otrzymał te zmiany przy starcie.",
-        "queuedEditSaved": "Zaktualizowano. Claude zacznie z tymi instrukcjami."
+        "queuedEditSaved": "Zaktualizowano. Claude zacznie z tymi instrukcjami.",
+        "heldMessageNote": "Wstrzymane do <TIME> — wyśle się, gdy zacznie się twój dzień",
+        "heldMessagesHint": "Minęła twoja godzina graniczna, więc to, co teraz wyślesz, poczeka do <TIME>.",
+        "heldMessagesLabel": "Wiadomości czekające do rana",
+        "heldMessageEdit": "Edytuj",
+        "heldMessageEditHelp": "Zmień tę wiadomość, zanim trafi do Claude.",
+        "heldMessageCancel": "Anuluj wiadomość",
+        "heldMessageCancelHelp": "Nie wysyłaj tej wiadomości do Claude.",
+        "heldMessageSave": "Zapisz",
+        "heldMessageSaveHelp": "Zachowaj zmiany (⌘Return). Wiadomość nadal czeka do rana.",
+        "heldMessageDiscardEdit": "Odrzuć zmiany",
+        "heldMessageDiscardEditHelp": "Zostaw wiadomość bez zmian.",
+        "heldMessageEditorLabel": "Wiadomość dla Claude"
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Wyłącz '<EXTENSION>'",

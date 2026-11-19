@@ -8224,7 +8224,19 @@
         "updateSchedule": "Aktualisieren",
         "updateScheduleHelp": "Claude bekommt diese Anweisungen, wenn es startet.",
         "queuedEditUnsaved": "Drücke „Aktualisieren“, damit Claude diese Änderungen beim Start bekommt.",
-        "queuedEditSaved": "Aktualisiert. Claude startet mit diesen Anweisungen."
+        "queuedEditSaved": "Aktualisiert. Claude startet mit diesen Anweisungen.",
+        "heldMessageNote": "Wartet bis <TIME> – wird gesendet, wenn dein Tag beginnt",
+        "heldMessagesHint": "Deine Schlusszeit ist vorbei, also wartet, was du jetzt sendest, bis <TIME>.",
+        "heldMessagesLabel": "Nachrichten, die auf den Morgen warten",
+        "heldMessageEdit": "Bearbeiten",
+        "heldMessageEditHelp": "Ändere diese Nachricht, bevor sie an Claude geht.",
+        "heldMessageCancel": "Nachricht verwerfen",
+        "heldMessageCancelHelp": "Diese Nachricht nicht an Claude senden.",
+        "heldMessageSave": "Speichern",
+        "heldMessageSaveHelp": "Behält deine Änderungen (⌘Return). Die Nachricht wartet weiter bis zum Morgen.",
+        "heldMessageDiscardEdit": "Änderungen verwerfen",
+        "heldMessageDiscardEditHelp": "Lässt die Nachricht, wie sie war.",
+        "heldMessageEditorLabel": "Nachricht an Claude"
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "'<EXTENSION>' ausschalten",
