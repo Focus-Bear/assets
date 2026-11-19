@@ -8211,6 +8211,9 @@
         "cancelDelegationHelp": "No empezar esta delegación. Tus instrucciones se quedan aquí como borrador, para que puedas volver a delegar más tarde.",
         "updateSchedule": "Actualizar",
         "updateScheduleHelp": "Dale a Claude estas instrucciones cuando empiece.",
+        "taskDetailsLabel": "Claude",
+        "taskDetailsDelegateHelp": "Guarda los cambios de esta tarea y abre Delegar a Claude.",
+        "openDelegation": "Abrir delegación",
         "queuedEditUnsaved": "Pulsa Actualizar para que Claude reciba estos cambios cuando empiece.",
         "queuedEditSaved": "Actualizado. Claude empezará con estas instrucciones."
     },

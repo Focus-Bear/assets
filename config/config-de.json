@@ -8223,6 +8223,9 @@
         "cancelDelegationHelp": "Diese Delegierung nicht starten. Deine Anweisungen bleiben hier als Entwurf, damit du später erneut delegieren kannst.",
         "updateSchedule": "Aktualisieren",
         "updateScheduleHelp": "Claude bekommt diese Anweisungen, wenn es startet.",
+        "taskDetailsLabel": "Claude",
+        "taskDetailsDelegateHelp": "Speichert deine Änderungen an dieser Aufgabe und öffnet dann „An Claude delegieren“.",
+        "openDelegation": "Delegation öffnen",
         "queuedEditUnsaved": "Drücke „Aktualisieren“, damit Claude diese Änderungen beim Start bekommt.",
         "queuedEditSaved": "Aktualisiert. Claude startet mit diesen Anweisungen."
     },

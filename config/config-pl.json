@@ -8223,6 +8223,9 @@
         "cancelDelegationHelp": "Nie uruchamiaj tego delegowania. Twoje instrukcje zostaną tu jako szkic, więc możesz delegować ponownie później.",
         "updateSchedule": "Aktualizuj",
         "updateScheduleHelp": "Przekaż Claude te instrukcje, gdy zacznie.",
+        "taskDetailsLabel": "Claude",
+        "taskDetailsDelegateHelp": "Zapisuje zmiany w tym zadaniu, a potem otwiera Przekaż Claude'owi.",
+        "openDelegation": "Otwórz przekazanie",
         "queuedEditUnsaved": "Naciśnij Aktualizuj, aby Claude otrzymał te zmiany przy starcie.",
         "queuedEditSaved": "Zaktualizowano. Claude zacznie z tymi instrukcjami."
     },
