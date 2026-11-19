@@ -6624,6 +6624,7 @@
         "aiBuddyRecoveryHoldHelp": "Mantenlo pulsado, o enfoca el botón y mantén la barra espaciadora o Intro. Si lo sueltas, los 10 segundos empiezan de nuevo.",
         "aiBuddyRecoveryRetry": "Intentar otra vez con mi compañero",
         "aiBuddyStartForMinutes": "Iniciar sesión de concentración · {minutes} minutos",
+        "aiBuddyStartForOneMinute": "Iniciar sesión de concentración · 1 minuto",
         "aiBuddyMeetingPausePrompt": "Tu sesión de reunión está aplazando tus hábitos. ¿Por qué quieres pausarla en lugar de volver a tus hábitos?",
         "aiBuddyMeetingPauseButton": "Pausar sesión de reunión",
         "aiBuddyMeetingStopPrompt": "Tu sesión de reunión está aplazando tus hábitos. ¿Por qué quieres terminarla antes y seguir aplazando tus hábitos?",
