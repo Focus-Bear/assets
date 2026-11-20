@@ -4923,6 +4923,8 @@
     "signInEndingDetail": "Ta connexion à Focus Bear se termine bientôt (<TIME>). Tout fonctionne jusque-là, et ton blocage reste actif dans tous les cas."
   },
   "scheduleViewInfo": {
+    "habitPlayerTab": "Lecteur d’habitudes",
+    "dayPlanTab": "Plan de la journée",
     "tasksSnoozeExplainTitle": "Pourquoi cette suggestion",
     "tasksSnoozeExplainFree": "%1$@ a %2$@ de libre après ses propres tâches. Celle-ci demande %3$@.",
     "tasksSnoozeExplainLinked": "Va dans ton %1$@ (lié à %2$@), qui a encore %3$@ ce jour-là.",
