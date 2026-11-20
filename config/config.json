@@ -5126,7 +5126,17 @@
       "deleteRepeatingTaskTitleText": "Delete repeating task",
       "deleteRepeatingTaskMessageText": "Deleting this task stops it repeating. Completed ones stay in your history unless you delete those too.",
       "deleteRepeatingTaskStopText": "Delete and stop repeating",
-      "deleteRepeatingTaskAllText": "Delete all, including history"
+      "deleteRepeatingTaskAllText": "Delete all, including history",
+      "quickAddNamePlaceholderText": "Task name",
+      "quickAddNameLabelText": "New task name",
+      "quickAddDurationPlaceholderText": "Duration",
+      "quickAddDurationLabelText": "Duration, for example 30 or 1h",
+      "quickAddHintText": "Return adds it · Tab for duration and outcome · Esc cancels",
+      "quickAddTaskAddedText": "Task added: <TITLE>",
+      "quickAddNotSavedText": "Not saved",
+      "quickAddRetryText": "Retry",
+      "addTaskToColumnText": "Add task to <NAME>",
+      "newTaskWithDetailsText": "New task with details"
     },
     "localForecastViewInfo": {
         "taskProjectPicker": "Project",

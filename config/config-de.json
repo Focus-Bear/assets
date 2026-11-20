@@ -4721,7 +4721,17 @@
         "deleteRepeatingTaskTitleText": "Wiederkehrende Aufgabe löschen",
         "deleteRepeatingTaskMessageText": "Wenn du diese Aufgabe löschst, wiederholt sie sich nicht mehr. Erledigte bleiben in deinem Verlauf, außer du löschst auch sie.",
         "deleteRepeatingTaskStopText": "Löschen und Wiederholung beenden",
-        "deleteRepeatingTaskAllText": "Alle löschen, mit Verlauf"
+        "deleteRepeatingTaskAllText": "Alle löschen, mit Verlauf",
+        "quickAddNamePlaceholderText": "Aufgabenname",
+        "quickAddNameLabelText": "Name der neuen Aufgabe",
+        "quickAddDurationPlaceholderText": "Dauer",
+        "quickAddDurationLabelText": "Dauer, zum Beispiel 30 oder 1h",
+        "quickAddHintText": "Eingabe fügt sie hinzu · Tab für Dauer und Ergebnis · Esc bricht ab",
+        "quickAddTaskAddedText": "Aufgabe hinzugefügt: <TITLE>",
+        "quickAddNotSavedText": "Nicht gespeichert",
+        "quickAddRetryText": "Erneut versuchen",
+        "addTaskToColumnText": "Aufgabe zu <NAME> hinzufügen",
+        "newTaskWithDetailsText": "Neue Aufgabe mit Details"
   },
   "localForecastViewInfo": {
     "taskProjectPicker": "Projekt",
