@@ -5527,6 +5527,8 @@
     "ttWhat": "Co robiłeś?",
     "ttRuleProject": "Projekt",
     "ttIdleBody": "Nie było Cię od {0} do {1} ({2}). Co robiłeś?",
+    "ttIdleBodyBetween": "Nie było Cię łącznie przez {2}, między {0} a {1}. Co robiłeś?",
+    "ttTimeYesterday": "wczoraj {0}",
     "ttBreak": "Przerwa",
     "ttAddPart": "Podziel na kolejną aktywność",
     "ttPartWhatName": "Aktywność {0}: co",
