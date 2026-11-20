@@ -8223,6 +8223,8 @@
         "cancelDelegationHelp": "Ne pas lancer cette délégation. Tes instructions restent ici comme brouillon, pour que tu puisses déléguer à nouveau plus tard.",
         "updateSchedule": "Mettre à jour",
         "updateScheduleHelp": "Donner ces instructions à Claude quand il commence.",
+        "draftRestored": "Brouillon restauré",
+        "draftRestoredHelp": "Ce que tu étais en train d’écrire ici est revenu. Envoie-le, ou vide le champ pour l’effacer.",
         "queuedEditUnsaved": "Appuie sur Mettre à jour pour que Claude reçoive ces modifications au démarrage.",
         "queuedEditSaved": "Mis à jour. Claude commencera avec ces instructions."
     },

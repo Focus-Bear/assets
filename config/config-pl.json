@@ -8223,6 +8223,8 @@
         "cancelDelegationHelp": "Nie uruchamiaj tego delegowania. Twoje instrukcje zostaną tu jako szkic, więc możesz delegować ponownie później.",
         "updateSchedule": "Aktualizuj",
         "updateScheduleHelp": "Przekaż Claude te instrukcje, gdy zacznie.",
+        "draftRestored": "Przywrócono wersję roboczą",
+        "draftRestoredHelp": "To, co tu wpisywałeś, wróciło. Wyślij to albo wyczyść pole, aby to odrzucić.",
         "queuedEditUnsaved": "Naciśnij Aktualizuj, aby Claude otrzymał te zmiany przy starcie.",
         "queuedEditSaved": "Zaktualizowano. Claude zacznie z tymi instrukcjami."
     },
