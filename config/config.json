@@ -5922,6 +5922,8 @@
       "ttWhat": "What did you do?",
       "ttRuleProject": "Project",
       "ttIdleBody": "You were away from {0} to {1} ({2}). What were you doing?",
+      "ttIdleBodyBetween": "You were away for {2} between {0} and {1}. What were you doing?",
+      "ttTimeYesterday": "{0} yesterday",
       "ttBreak": "Break",
       "ttAddPart": "Split into another activity",
       "ttPartWhatName": "Activity {0}: what",
