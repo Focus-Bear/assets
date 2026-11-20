@@ -8178,6 +8178,8 @@
         "outcomeDone": "Terminé. Il ne te reste rien à faire.",
         "outcomeNeedsYou": "Besoin de toi. Claude n'a pas pu terminer seul.",
         "statusWaitingForYou": "En attente de toi",
+        "statusReplyHeld": "Ta réponse est en attente jusqu’à <TIME>",
+        "replyHeldHelp": "Elle part à Claude quand ta journée commence. Ouvre la conversation pour la modifier ou l’annuler.",
         "waitingForYouHelp": "Claude t'a posé une question. Ouvre la conversation et réponds pour qu'il puisse continuer.",
         "outcomeWaitingForYou": "En attente de toi. Claude t'a posé une question ci-dessus et continuera dès que tu répondras.",
         "outcomeStepsLeft": "Besoin de toi. Claude a fait sa part ; les étapes ci-dessous sont pour toi.",

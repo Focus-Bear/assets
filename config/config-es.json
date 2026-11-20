@@ -8166,6 +8166,8 @@
         "outcomeDone": "Hecho. No te queda nada por hacer.",
         "outcomeNeedsYou": "Te necesita. Claude no pudo terminarlo por su cuenta.",
         "statusWaitingForYou": "Esperándote",
+        "statusReplyHeld": "Tu respuesta está en espera hasta las <TIME>",
+        "replyHeldHelp": "Se envía a Claude cuando empieza tu día. Abre la conversación para editarla o cancelarla.",
         "waitingForYouHelp": "Claude te ha preguntado algo. Abre la conversación y responde para que pueda continuar.",
         "outcomeWaitingForYou": "Esperándote. Claude te ha preguntado algo arriba y continuará en cuanto respondas.",
         "outcomeStepsLeft": "Te necesita. Claude hizo su parte; los pasos de abajo te tocan a ti.",
