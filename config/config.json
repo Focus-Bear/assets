@@ -8010,6 +8010,8 @@
         "trayStatusText": "Focus Bear — recording a meeting"
     },
     "claudeDelegationInfo": {
+        "todoEditorDelegateHelp": "Saves your changes to this task, then opens Delegate to Claude. If it isn't on a Day Plan yet, it's added to today's.",
+        "todoListDelegateHelp": "Opens Delegate to Claude for this task. If it isn't on a Day Plan yet, it's added to today's.",
         "settingTitle": "Allow delegating tasks to Claude",
         "settingDescription": "Adds a “Delegate to Claude” button to your Day Plan tasks. Claude Code runs on this Mac with your own Claude account: it asks you questions about the task first, then works on it in a folder you choose.",
         "cliMissing": "Claude Code isn't installed on this Mac.",

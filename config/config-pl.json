@@ -8032,6 +8032,8 @@
         "trayStatusText": "Focus Bear — nagrywa spotkanie"
     },
     "claudeDelegationInfo": {
+        "todoEditorDelegateHelp": "Zapisuje zmiany w tym zadaniu, a potem otwiera Przekaż Claude'owi. Jeśli zadania nie ma jeszcze w żadnym Planie dnia, trafia do dzisiejszego.",
+        "todoListDelegateHelp": "Otwiera Przekaż Claude'owi dla tego zadania. Jeśli zadania nie ma jeszcze w żadnym Planie dnia, trafia do dzisiejszego.",
         "settingTitle": "Zezwalaj na przekazywanie zadań Claude'owi",
         "settingDescription": "Dodaje przycisk „Przekaż Claude'owi” do zadań w Planie dnia. Claude Code działa na tym Macu z twoim własnym kontem Claude: najpierw zadaje pytania o zadanie, a potem pracuje nad nim w wybranym przez ciebie folderze.",
         "cliMissing": "Claude Code nie jest zainstalowany na tym Macu.",

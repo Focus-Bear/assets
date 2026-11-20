@@ -8020,6 +8020,8 @@
         "trayStatusText": "Focus Bear — grabando una reunión"
     },
     "claudeDelegationInfo": {
+        "todoEditorDelegateHelp": "Guarda los cambios de esta tarea y abre Delegar a Claude. Si aún no está en un Plan del día, se añade al de hoy.",
+        "todoListDelegateHelp": "Abre Delegar a Claude para esta tarea. Si aún no está en un Plan del día, se añade al de hoy.",
         "settingTitle": "Permitir delegar tareas a Claude",
         "settingDescription": "Añade un botón “Delegar a Claude” a las tareas de tu Plan del día. Claude Code se ejecuta en este Mac con tu propia cuenta de Claude: primero te hace preguntas sobre la tarea y luego trabaja en ella en una carpeta que tú eliges.",
         "cliMissing": "Claude Code no está instalado en este Mac.",
