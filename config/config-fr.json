@@ -8224,7 +8224,7 @@
         "updateSchedule": "Mettre à jour",
         "updateScheduleHelp": "Donner ces instructions à Claude quand il commence.",
         "draftRestored": "Brouillon restauré",
-        "draftRestoredHelp": "Ce que tu avais écrit avant le redémarrage de Focus Bear est revenu. Envoie-le, ou vide le champ pour l’effacer.",
+        "draftRestoredHelp": "Ce que tu étais en train d’écrire ici est revenu. Envoie-le, ou vide le champ pour l’effacer.",
         "queuedEditUnsaved": "Appuie sur Mettre à jour pour que Claude reçoive ces modifications au démarrage.",
         "queuedEditSaved": "Mis à jour. Claude commencera avec ces instructions."
     },

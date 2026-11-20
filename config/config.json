@@ -8202,7 +8202,7 @@
         "updateSchedule": "Update",
         "updateScheduleHelp": "Give Claude these instructions when it starts.",
         "draftRestored": "Draft restored",
-        "draftRestoredHelp": "What you typed before Focus Bear restarted is back. Send it, or clear the box to discard it.",
+        "draftRestoredHelp": "What you were typing here is back. Send it, or clear the box to discard it.",
         "queuedEditUnsaved": "Press Update to give Claude these changes when it starts.",
         "queuedEditSaved": "Updated. Claude will start with these instructions."
     },

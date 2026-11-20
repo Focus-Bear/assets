@@ -8212,7 +8212,7 @@
         "updateSchedule": "Actualizar",
         "updateScheduleHelp": "Dale a Claude estas instrucciones cuando empiece.",
         "draftRestored": "Borrador recuperado",
-        "draftRestoredHelp": "Lo que escribiste antes de que Focus Bear se reiniciara ha vuelto. Envíalo o vacía el cuadro para descartarlo.",
+        "draftRestoredHelp": "Lo que estabas escribiendo aquí ha vuelto. Envíalo o vacía el cuadro para descartarlo.",
         "queuedEditUnsaved": "Pulsa Actualizar para que Claude reciba estos cambios cuando empiece.",
         "queuedEditSaved": "Actualizado. Claude empezará con estas instrucciones."
     },

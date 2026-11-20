@@ -8224,7 +8224,7 @@
         "updateSchedule": "Aktualisieren",
         "updateScheduleHelp": "Claude bekommt diese Anweisungen, wenn es startet.",
         "draftRestored": "Entwurf wiederhergestellt",
-        "draftRestoredHelp": "Was du vor dem Neustart von Focus Bear geschrieben hast, ist wieder da. Sende es ab oder leere das Feld, um es zu verwerfen.",
+        "draftRestoredHelp": "Was du hier geschrieben hast, ist wieder da. Sende es ab oder leere das Feld, um es zu verwerfen.",
         "queuedEditUnsaved": "Drücke „Aktualisieren“, damit Claude diese Änderungen beim Start bekommt.",
         "queuedEditSaved": "Aktualisiert. Claude startet mit diesen Anweisungen."
     },
