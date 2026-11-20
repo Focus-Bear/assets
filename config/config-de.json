@@ -5746,6 +5746,7 @@
     "blockedOnBackendDetail": "Die Mac-Seite ist fertig, aber das lässt sich erst testen, wenn eine Backend-Änderung gemergt und ausgerollt ist.",
     "noSearchMatches": "Keine Meldungen passen zu deiner Suche.",
     "openInPreview": "In Vorschau öffnen",
+    "openingScreenshot": "Bildschirmfoto wird geöffnet…",
     "pasteImage": "Bild einfügen",
     "pasteImageFailed": "Das Bild konnte nicht angehängt werden. Kopiere es erneut und versuch es noch mal.",
     "pasteImageHint": "Kopiere einen Screenshot und füge ihn hier ein.",

@@ -6141,6 +6141,7 @@
       "blockedOnBackendDetail": "The Mac side is done, but this cannot be tested until a backend change is merged and deployed.",
       "noSearchMatches": "No reports match your search.",
       "openInPreview": "Open in Preview",
+      "openingScreenshot": "Opening screenshot…",
       "pasteImage": "Paste image",
       "pasteImageFailed": "Couldn't attach that image. Copy it again and retry.",
       "pasteImageHint": "Copy a screenshot, then paste it here.",

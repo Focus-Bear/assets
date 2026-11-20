@@ -6151,6 +6151,7 @@
       "blockedOnBackendDetail": "La parte de Mac está lista, pero no se puede probar hasta que se fusione y despliegue un cambio en el servidor.",
       "noSearchMatches": "Ningún informe coincide con tu búsqueda.",
       "openInPreview": "Abrir en Vista Previa",
+      "openingScreenshot": "Abriendo captura de pantalla…",
       "pasteImage": "Pegar imagen",
       "pasteImageFailed": "No se pudo adjuntar esa imagen. Cópiala de nuevo e inténtalo.",
       "pasteImageHint": "Copia una captura y pégala aquí.",
