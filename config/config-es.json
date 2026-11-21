@@ -1729,7 +1729,8 @@
         "moveMeetingNotesText": "Mover",
         "meetingNotesFiledText": "Notas de reuniones movidas a Grabaciones de reuniones: <COUNT>",
         "couldNotFileMeetingNotesText": "Algunas notas de reuniones no se pudieron mover. Inténtalo de nuevo en un momento.",
-        "refreshNotesText": "Actualizar"
+        "refreshNotesText": "Actualizar",
+        "movingNoteText": "Moviendo la nota…"
     },
     "noteImagesInfo": {
       "insertImageText": "Insertar imagen",
@@ -2101,7 +2102,8 @@
         "deleteCard": "Eliminar tarjeta",
         "selectCardHint": "Marca o desmarca esta tarjeta",
         "savingCard": "Guardando la tarjeta y sus imágenes…",
-        "picturesNotAdded": "La tarjeta se guardó, pero no se pudieron añadir algunas imágenes ({count}). Abre la tarjeta y vuelve a añadirlas cuando tengas conexión."
+        "picturesNotAdded": "La tarjeta se guardó, pero no se pudieron añadir algunas imágenes ({count}). Abre la tarjeta y vuelve a añadirlas cuando tengas conexión.",
+        "addImageAfterSaving": "Guarda la tarjeta y ábrela después para añadir imágenes."
     },
     "voiceNotesInfo": {
         "transcribeVoiceNoteText": "Transcribir nota de voz",
@@ -7380,7 +7382,9 @@
         "liveTranscriptNoRecognizerText": "Windows no tiene reconocimiento de voz para <LANGUAGE> en este equipo. Añade el paquete de voz del idioma en Configuración › Hora e idioma. La grabación continúa.",
         "recordingCouldNotUploadText": "No se pudo subir tu grabación. Se conserva en este equipo y Notas te ofrecerá enviarla de nuevo.",
         "recordingCouldNotSaveText": "No se pudo añadir la grabación a la nota. Se conserva en este equipo y Notas te ofrecerá enviarla de nuevo.",
-        "continuationsNotSavedText": "Parte de la transcripción no cabía en esta nota y todavía no se pudo guardar como una nota aparte. Vuelve a guardar la nota para intentarlo otra vez."
+        "continuationsNotSavedText": "Parte de la transcripción no cabía en esta nota y todavía no se pudo guardar como una nota aparte. Vuelve a guardar la nota para intentarlo otra vez.",
+        "microphoneBlockedText": "Windows no deja que las aplicaciones de escritorio usen el micrófono, así que no se puede grabar nada. Activa el acceso al micrófono en Configuración y vuelve a intentarlo.",
+        "pausedBySleepText": "La grabación se pausó porque el equipo entró en suspensión. Pulsa Reanudar para continuar."
     },
     "lectureRecordingInfo": {
         "windowTitle": "Grabar una clase",
@@ -8017,7 +8021,11 @@
         "noPlaybackDeviceText": "No se encontraron altavoces ni auriculares, así que no se puede grabar el sonido de la reunión.",
         "microphoneBlockedText": "Windows no deja que las aplicaciones de escritorio usen el micrófono, así que tu propia voz no se grabará. Activa el acceso al micrófono en Configuración.",
         "openMicrophoneSettingsText": "Abrir la configuración del micrófono",
-        "trayStatusText": "Focus Bear — grabando una reunión"
+        "trayStatusText": "Focus Bear — grabando una reunión",
+        "playerMissingText": "Focus Bear no puede reproducir grabaciones en este equipo porque el Reproductor de Windows Media no está instalado. Abre la grabación en tu reproductor de vídeo.",
+        "openRecordingText": "Abrir la grabación",
+        "openRecordingHelpText": "Abre la grabación en tu reproductor de vídeo, donde puedes verla a cualquier tamaño.",
+        "sleepStoppedNoticeText": "Grabación guardada: tu equipo entró en suspensión. Si la reunión sigue en curso, puedes grabar el resto como una grabación nueva."
     },
     "claudeDelegationInfo": {
         "settingTitle": "Permitir delegar tareas a Claude",

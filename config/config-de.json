@@ -1708,7 +1708,8 @@
     "fileMeetingNotesConfirmText": "Gefundene Besprechungsnotizen: <COUNT>. Jede wiederkehrende Besprechung bekommt einen eigenen Ordner. An den Notizen ändert sich nichts, und du kannst jede davon zurück in Persönliche Notizen verschieben.",
     "moveMeetingNotesText": "Verschieben",
     "meetingNotesFiledText": "In Besprechungsaufnahmen verschobene Besprechungsnotizen: <COUNT>",
-    "couldNotFileMeetingNotesText": "Einige Besprechungsnotizen konnten nicht verschoben werden. Versuch es gleich noch einmal."
+    "couldNotFileMeetingNotesText": "Einige Besprechungsnotizen konnten nicht verschoben werden. Versuch es gleich noch einmal.",
+    "movingNoteText": "Notiz wird verschoben…"
   },
   "statsViewInfo": {
     "achievementsTitle": "Erfolge",
@@ -7299,7 +7300,8 @@
     "deleteCard": "Karte löschen",
     "selectCardHint": "Wählt diese Karte aus oder ab",
     "savingCard": "Karte und Bilder werden gespeichert …",
-    "picturesNotAdded": "Die Karte ist gespeichert, aber einige Bilder konnten nicht hinzugefügt werden ({count}). Öffne die Karte und füge sie erneut hinzu, wenn du online bist."
+    "picturesNotAdded": "Die Karte ist gespeichert, aber einige Bilder konnten nicht hinzugefügt werden ({count}). Öffne die Karte und füge sie erneut hinzu, wenn du online bist.",
+    "addImageAfterSaving": "Speichere die Karte und öffne sie dann, um Bilder hinzuzufügen."
   },
   "voiceNotesInfo": {
     "transcribeVoiceNoteText": "Sprachnotiz transkribieren",
@@ -7392,7 +7394,9 @@
     "liveTranscriptNoRecognizerText": "Windows hat auf diesem Computer keine Spracherkennung für <LANGUAGE>. Füge das Sprachpaket der Sprache unter Einstellungen › Zeit und Sprache hinzu. Die Aufnahme läuft weiter.",
     "recordingCouldNotUploadText": "Deine Aufnahme konnte nicht hochgeladen werden. Sie bleibt auf diesem Computer, und Notizen bietet an, sie erneut zu senden.",
     "recordingCouldNotSaveText": "Die Aufnahme konnte der Notiz nicht hinzugefügt werden. Sie bleibt auf diesem Computer, und Notizen bietet an, sie erneut zu senden.",
-    "continuationsNotSavedText": "Ein Teil des Transkripts passte nicht in diese Notiz und konnte noch nicht als eigene Notiz gespeichert werden. Speichere die Notiz erneut, um es noch einmal zu versuchen."
+    "continuationsNotSavedText": "Ein Teil des Transkripts passte nicht in diese Notiz und konnte noch nicht als eigene Notiz gespeichert werden. Speichere die Notiz erneut, um es noch einmal zu versuchen.",
+    "microphoneBlockedText": "Windows erlaubt Desktop-Apps nicht, das Mikrofon zu verwenden, daher kann nichts aufgenommen werden. Erlaube den Mikrofonzugriff in den Einstellungen und versuch es dann erneut.",
+    "pausedBySleepText": "Die Aufnahme wurde pausiert, weil der Computer in den Energiesparmodus gewechselt ist. Drück „Fortsetzen“, um weiterzumachen."
   },
   "lectureRecordingInfo": {
     "windowTitle": "Eine Vorlesung aufnehmen",
@@ -8029,7 +8033,11 @@
         "noPlaybackDeviceText": "Es wurden keine Lautsprecher oder Kopfhörer gefunden, daher kann der Ton des Meetings nicht aufgenommen werden.",
         "microphoneBlockedText": "Windows erlaubt Desktop-Apps nicht, das Mikrofon zu verwenden, daher wird deine eigene Stimme nicht aufgenommen. Erlaube den Mikrofonzugriff in den Einstellungen.",
         "openMicrophoneSettingsText": "Mikrofoneinstellungen öffnen",
-        "trayStatusText": "Focus Bear — nimmt ein Meeting auf"
+        "trayStatusText": "Focus Bear — nimmt ein Meeting auf",
+        "playerMissingText": "Focus Bear kann auf diesem Computer keine Aufnahmen abspielen, weil der Windows Media Player nicht installiert ist. Öffne die Aufnahme stattdessen in deinem Videoplayer.",
+        "openRecordingText": "Aufnahme öffnen",
+        "openRecordingHelpText": "Öffnet die Aufnahme in deinem Videoplayer, wo du sie in jeder Größe ansehen kannst.",
+        "sleepStoppedNoticeText": "Aufnahme gespeichert – dein Computer ist in den Energiesparmodus gewechselt. Wenn das Meeting noch läuft, kannst du den Rest als neue Aufnahme aufnehmen."
     },
     "claudeDelegationInfo": {
         "settingTitle": "Aufgaben an Claude delegieren erlauben",

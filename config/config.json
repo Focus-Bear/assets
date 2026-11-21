@@ -1717,7 +1717,8 @@
         "moveMeetingNotesText": "Move",
         "meetingNotesFiledText": "Meeting notes moved into Meeting Recordings: <COUNT>",
         "couldNotFileMeetingNotesText": "Some meeting notes couldn't be moved. Try again in a moment.",
-        "refreshNotesText": "Refresh"
+        "refreshNotesText": "Refresh",
+        "movingNoteText": "Moving the note…"
     },
     "noteImagesInfo": {
       "insertImageText": "Insert image",
@@ -2089,7 +2090,8 @@
         "deleteCard": "Delete card",
         "selectCardHint": "Ticks or unticks this card",
         "savingCard": "Saving the card and its pictures…",
-        "picturesNotAdded": "The card is saved, but some pictures couldn't be added ({count}). Open the card and add them again when you're online."
+        "picturesNotAdded": "The card is saved, but some pictures couldn't be added ({count}). Open the card and add them again when you're online.",
+        "addImageAfterSaving": "Save the card, then open it to add pictures."
     },
     "voiceNotesInfo": {
         "transcribeVoiceNoteText": "Transcribe voice note",
@@ -7370,7 +7372,9 @@
         "liveTranscriptNoRecognizerText": "Windows has no speech recognition for <LANGUAGE> on this computer. Add the language's speech pack in Settings › Time & language. The recording carries on.",
         "recordingCouldNotUploadText": "Couldn't upload your recording. It's kept on this computer, and Notes offers to send it again.",
         "recordingCouldNotSaveText": "Couldn't add the recording to the note. It's kept on this computer, and Notes offers to send it again.",
-        "continuationsNotSavedText": "Part of the transcript didn't fit in this note and couldn't be saved as a note of its own yet. Save the note again to try once more."
+        "continuationsNotSavedText": "Part of the transcript didn't fit in this note and couldn't be saved as a note of its own yet. Save the note again to try once more.",
+        "microphoneBlockedText": "Windows isn't letting desktop apps use the microphone, so nothing can be recorded. Turn on microphone access in Settings, then try again.",
+        "pausedBySleepText": "Recording paused because the computer went to sleep. Press Resume to carry on."
     },
     "lectureRecordingInfo": {
         "windowTitle": "Record a lecture",
@@ -8007,7 +8011,11 @@
         "noPlaybackDeviceText": "No speakers or headphones were found, so the meeting's sound can't be recorded.",
         "microphoneBlockedText": "Windows is stopping desktop apps from using the microphone, so your own voice won't be recorded. Turn on microphone access in Settings.",
         "openMicrophoneSettingsText": "Open microphone settings",
-        "trayStatusText": "Focus Bear — recording a meeting"
+        "trayStatusText": "Focus Bear — recording a meeting",
+        "playerMissingText": "Focus Bear can't play recordings on this computer, because Windows Media Player isn't installed. Open the recording in your video player instead.",
+        "openRecordingText": "Open recording",
+        "openRecordingHelpText": "Opens the recording in your video player, where you can watch it at any size.",
+        "sleepStoppedNoticeText": "Recording saved — your computer went to sleep. If the meeting is still going, you can record the rest as a new recording."
     },
     "claudeDelegationInfo": {
         "settingTitle": "Allow delegating tasks to Claude",
