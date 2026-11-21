@@ -1708,7 +1708,8 @@
     "fileMeetingNotesConfirmText": "Notes de réunion trouvées : <COUNT>. Chaque réunion récurrente a son propre dossier. Rien ne change dans les notes, et tu peux remettre n’importe laquelle dans Notes personnelles.",
     "moveMeetingNotesText": "Déplacer",
     "meetingNotesFiledText": "Notes de réunion déplacées dans Enregistrements de réunions : <COUNT>",
-    "couldNotFileMeetingNotesText": "Certaines notes de réunion n’ont pas pu être déplacées. Réessaie dans un instant."
+    "couldNotFileMeetingNotesText": "Certaines notes de réunion n’ont pas pu être déplacées. Réessaie dans un instant.",
+    "movingNoteText": "Déplacement de la note…"
   },
   "statsViewInfo": {
     "achievementsTitle": "Succès",
@@ -7299,7 +7300,8 @@
     "deleteCard": "Supprimer la carte",
     "selectCardHint": "Coche ou décoche cette carte",
     "savingCard": "Enregistrement de la carte et de ses images…",
-    "picturesNotAdded": "La carte est enregistrée, mais certaines images n’ont pas pu être ajoutées ({count}). Ouvre la carte et ajoute-les à nouveau quand tu es en ligne."
+    "picturesNotAdded": "La carte est enregistrée, mais certaines images n’ont pas pu être ajoutées ({count}). Ouvre la carte et ajoute-les à nouveau quand tu es en ligne.",
+    "addImageAfterSaving": "Enregistre la carte, puis ouvre-la pour ajouter des images."
   },
   "voiceNotesInfo": {
     "transcribeVoiceNoteText": "Transcrire une note vocale",
@@ -7392,7 +7394,9 @@
     "liveTranscriptNoRecognizerText": "Windows n’a pas de reconnaissance vocale pour <LANGUAGE> sur cet ordinateur. Ajoute le module vocal de la langue dans Paramètres › Heure et langue. L’enregistrement continue.",
     "recordingCouldNotUploadText": "Impossible d’envoyer ton enregistrement. Il est conservé sur cet ordinateur, et Notes proposera de l’envoyer à nouveau.",
     "recordingCouldNotSaveText": "Impossible d’ajouter l’enregistrement à la note. Il est conservé sur cet ordinateur, et Notes proposera de l’envoyer à nouveau.",
-    "continuationsNotSavedText": "Une partie de la transcription ne tenait pas dans cette note et n’a pas encore pu être enregistrée comme note à part. Enregistre de nouveau la note pour réessayer."
+    "continuationsNotSavedText": "Une partie de la transcription ne tenait pas dans cette note et n’a pas encore pu être enregistrée comme note à part. Enregistre de nouveau la note pour réessayer.",
+    "microphoneBlockedText": "Windows empêche les applications de bureau d’utiliser le micro : rien ne peut être enregistré. Autorise l’accès au micro dans les Paramètres, puis réessaie.",
+    "pausedBySleepText": "Enregistrement en pause car l’ordinateur s’est mis en veille. Appuie sur Reprendre pour continuer."
   },
   "lectureRecordingInfo": {
     "windowTitle": "Enregistrer un cours",
@@ -8029,7 +8033,11 @@
         "noPlaybackDeviceText": "Aucun haut-parleur ni casque n'a été trouvé : le son de la réunion ne peut pas être enregistré.",
         "microphoneBlockedText": "Windows empêche les applications de bureau d'utiliser le micro : votre propre voix ne sera pas enregistrée. Autorisez l'accès au micro dans les Paramètres.",
         "openMicrophoneSettingsText": "Ouvrir les paramètres du micro",
-        "trayStatusText": "Focus Bear — enregistrement d'une réunion"
+        "trayStatusText": "Focus Bear — enregistrement d'une réunion",
+        "playerMissingText": "Focus Bear ne peut pas lire les enregistrements sur cet ordinateur, car le Lecteur Windows Media n'est pas installé. Ouvrez plutôt l'enregistrement dans votre lecteur vidéo.",
+        "openRecordingText": "Ouvrir l'enregistrement",
+        "openRecordingHelpText": "Ouvre l'enregistrement dans votre lecteur vidéo, où vous pouvez le regarder à la taille de votre choix.",
+        "sleepStoppedNoticeText": "Enregistrement sauvegardé — votre ordinateur s'est mis en veille. Si la réunion continue, vous pouvez enregistrer la suite dans un nouvel enregistrement."
     },
     "claudeDelegationInfo": {
         "settingTitle": "Autoriser la délégation de tâches à Claude",

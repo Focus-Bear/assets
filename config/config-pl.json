@@ -1708,7 +1708,8 @@
     "fileMeetingNotesConfirmText": "Znalezione notatki ze spotkań: <COUNT>. Każde cykliczne spotkanie ma własny folder. Treść notatek się nie zmienia, a każdą z nich możesz przenieść z powrotem do Notatek osobistych.",
     "moveMeetingNotesText": "Przenieś",
     "meetingNotesFiledText": "Notatki ze spotkań przeniesione do folderu Nagrania spotkań: <COUNT>",
-    "couldNotFileMeetingNotesText": "Nie udało się przenieść niektórych notatek ze spotkań. Spróbuj ponownie za chwilę."
+    "couldNotFileMeetingNotesText": "Nie udało się przenieść niektórych notatek ze spotkań. Spróbuj ponownie za chwilę.",
+    "movingNoteText": "Przenoszenie notatki…"
   },
   "statsViewInfo": {
     "achievementsTitle": "Osiągnięcia",
@@ -7299,7 +7300,8 @@
     "deleteCard": "Usuń fiszkę",
     "selectCardHint": "Zaznacza lub odznacza tę fiszkę",
     "savingCard": "Zapisywanie fiszki i jej obrazów…",
-    "picturesNotAdded": "Fiszka jest zapisana, ale nie udało się dodać niektórych obrazów ({count}). Otwórz fiszkę i dodaj je ponownie, gdy będziesz online."
+    "picturesNotAdded": "Fiszka jest zapisana, ale nie udało się dodać niektórych obrazów ({count}). Otwórz fiszkę i dodaj je ponownie, gdy będziesz online.",
+    "addImageAfterSaving": "Zapisz fiszkę, a potem otwórz ją, aby dodać obrazy."
   },
   "voiceNotesInfo": {
     "transcribeVoiceNoteText": "Przetranskrybuj notatkę głosową",
@@ -7392,7 +7394,9 @@
     "liveTranscriptNoRecognizerText": "Windows nie ma na tym komputerze rozpoznawania mowy dla języka <LANGUAGE>. Dodaj pakiet mowy dla tego języka w Ustawienia › Czas i język. Nagrywanie trwa dalej.",
     "recordingCouldNotUploadText": "Nie udało się przesłać nagrania. Zostaje na tym komputerze, a Notatki zaproponują ponowne wysłanie.",
     "recordingCouldNotSaveText": "Nie udało się dodać nagrania do notatki. Zostaje na tym komputerze, a Notatki zaproponują ponowne wysłanie.",
-    "continuationsNotSavedText": "Część transkrypcji nie zmieściła się w tej notatce i nie udało się jej jeszcze zapisać jako osobnej notatki. Zapisz notatkę ponownie, aby spróbować jeszcze raz."
+    "continuationsNotSavedText": "Część transkrypcji nie zmieściła się w tej notatce i nie udało się jej jeszcze zapisać jako osobnej notatki. Zapisz notatkę ponownie, aby spróbować jeszcze raz.",
+    "microphoneBlockedText": "Windows nie pozwala aplikacjom klasycznym używać mikrofonu, więc nic nie da się nagrać. Włącz dostęp do mikrofonu w Ustawieniach i spróbuj ponownie.",
+    "pausedBySleepText": "Nagrywanie wstrzymane, bo komputer przeszedł w stan uśpienia. Naciśnij Wznów, aby kontynuować."
   },
   "lectureRecordingInfo": {
     "windowTitle": "Nagraj wykład",
@@ -8029,7 +8033,11 @@
         "noPlaybackDeviceText": "Nie znaleziono głośników ani słuchawek, więc nie można nagrać dźwięku spotkania.",
         "microphoneBlockedText": "Windows nie pozwala aplikacjom klasycznym używać mikrofonu, więc twój głos nie zostanie nagrany. Włącz dostęp do mikrofonu w Ustawieniach.",
         "openMicrophoneSettingsText": "Otwórz ustawienia mikrofonu",
-        "trayStatusText": "Focus Bear — nagrywa spotkanie"
+        "trayStatusText": "Focus Bear — nagrywa spotkanie",
+        "playerMissingText": "Focus Bear nie może odtwarzać nagrań na tym komputerze, bo nie zainstalowano programu Windows Media Player. Otwórz nagranie w swoim odtwarzaczu wideo.",
+        "openRecordingText": "Otwórz nagranie",
+        "openRecordingHelpText": "Otwiera nagranie w twoim odtwarzaczu wideo, gdzie możesz je oglądać w dowolnym rozmiarze.",
+        "sleepStoppedNoticeText": "Nagranie zapisane — komputer przeszedł w stan uśpienia. Jeśli spotkanie nadal trwa, możesz nagrać resztę jako nowe nagranie."
     },
     "claudeDelegationInfo": {
         "settingTitle": "Zezwalaj na przekazywanie zadań Claude'owi",
