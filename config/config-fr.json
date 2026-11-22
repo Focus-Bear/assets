@@ -8224,7 +8224,7 @@
         "updateSchedule": "Mettre à jour",
         "updateScheduleHelp": "Donner ces instructions à Claude quand il commence.",
         "taskDetailsLabel": "Claude",
-        "taskDetailsDelegateHelp": "Enregistre vos modifications de cette tâche, puis ouvre Déléguer à Claude.",
+        "taskDetailsDelegateHelp": "Enregistre tes modifications de cette tâche, puis ouvre Déléguer à Claude.",
         "openDelegation": "Ouvrir la délégation",
         "queuedEditUnsaved": "Appuie sur Mettre à jour pour que Claude reçoive ces modifications au démarrage.",
         "queuedEditSaved": "Mis à jour. Claude commencera avec ces instructions."
