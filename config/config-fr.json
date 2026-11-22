@@ -8040,6 +8040,8 @@
         "sleepStoppedNoticeText": "Enregistrement sauvegardé — votre ordinateur s'est mis en veille. Si la réunion continue, vous pouvez enregistrer la suite dans un nouvel enregistrement."
     },
     "claudeDelegationInfo": {
+        "todoEditorDelegateHelp": "Enregistre tes modifications de cette tâche, puis ouvre Déléguer à Claude. Si elle n'est encore dans aucun Plan de la journée, elle est ajoutée à celui d'aujourd'hui.",
+        "todoListDelegateHelp": "Ouvre Déléguer à Claude pour cette tâche. Si elle n'est encore dans aucun Plan de la journée, elle est ajoutée à celui d'aujourd'hui.",
         "settingTitle": "Autoriser la délégation de tâches à Claude",
         "settingDescription": "Ajoute un bouton « Déléguer à Claude » aux tâches de ton Plan de la journée. Claude Code s'exécute sur ce Mac avec ton propre compte Claude : il te pose d'abord des questions sur la tâche, puis y travaille dans un dossier que tu choisis.",
         "cliMissing": "Claude Code n'est pas installé sur ce Mac.",

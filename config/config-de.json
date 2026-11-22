@@ -8040,6 +8040,8 @@
         "sleepStoppedNoticeText": "Aufnahme gespeichert – dein Computer ist in den Energiesparmodus gewechselt. Wenn das Meeting noch läuft, kannst du den Rest als neue Aufnahme aufnehmen."
     },
     "claudeDelegationInfo": {
+        "todoEditorDelegateHelp": "Speichert deine Änderungen an dieser Aufgabe und öffnet dann „An Claude delegieren“. Steht sie noch in keinem Tagesplan, kommt sie in den von heute.",
+        "todoListDelegateHelp": "Öffnet „An Claude delegieren“ für diese Aufgabe. Steht sie noch in keinem Tagesplan, kommt sie in den von heute.",
         "settingTitle": "Aufgaben an Claude delegieren erlauben",
         "settingDescription": "Fügt deinen Tagesplan-Aufgaben eine Schaltfläche „An Claude delegieren“ hinzu. Claude Code läuft auf diesem Mac mit deinem eigenen Claude-Konto: Es stellt dir zuerst Fragen zur Aufgabe und arbeitet dann in einem Ordner deiner Wahl daran.",
         "cliMissing": "Claude Code ist auf diesem Mac nicht installiert.",
