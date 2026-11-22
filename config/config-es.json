@@ -8533,6 +8533,16 @@
     "libraryNoMatches": "No hay hábitos que coincidan",
     "habitPacksTitle": "Paquetes de hábitos",
     "habitPacksHint": "Explora e instala paquetes de hábitos en el panel de Focus Bear.",
-    "habitPacksOpen": "Explorar paquetes de hábitos"
+    "habitPacksOpen": "Explorar paquetes de hábitos",
+    "nameSuggestionsTitle": "Sugerencias de la biblioteca de hábitos",
+    "nameSuggestionsHint": "Mientras escribes, se sugieren hábitos de la biblioteca que coinciden. Pulsa la flecha abajo para recorrerlos, Intro para usar uno y Escape para cerrar la lista.",
+    "nameSuggestionsCount": "%d sugerencias de la biblioteca de hábitos",
+    "sectionExpanded": "Desplegado",
+    "sectionCollapsed": "Plegado",
+    "sectionToggleHint": "Muestra u oculta los hábitos de esta rutina.",
+    "habitCountOne": "1 hábito",
+    "habitCountOther": "%d hábitos",
+    "jumpTo": "Ir a",
+    "jumpToNamed": "Ir a %@"
   }
 }

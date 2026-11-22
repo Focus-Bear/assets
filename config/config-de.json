@@ -8517,6 +8517,16 @@
     "libraryNoMatches": "Keine passenden Gewohnheiten",
     "habitPacksTitle": "Gewohnheitspakete",
     "habitPacksHint": "Gewohnheitspakete findest und installierst du im Focus-Bear-Dashboard.",
-    "habitPacksOpen": "Gewohnheitspakete durchsuchen"
+    "habitPacksOpen": "Gewohnheitspakete durchsuchen",
+    "nameSuggestionsTitle": "Vorschläge aus der Gewohnheitsbibliothek",
+    "nameSuggestionsHint": "Während du tippst, werden passende Gewohnheiten aus der Bibliothek vorgeschlagen. Drücke den Pfeil nach unten, um sie durchzugehen, Return, um eine zu übernehmen, und Escape, um die Liste zu schließen.",
+    "nameSuggestionsCount": "%d Vorschläge aus der Gewohnheitsbibliothek",
+    "sectionExpanded": "Ausgeklappt",
+    "sectionCollapsed": "Eingeklappt",
+    "sectionToggleHint": "Zeigt oder verbirgt die Gewohnheiten dieser Routine.",
+    "habitCountOne": "1 Gewohnheit",
+    "habitCountOther": "%d Gewohnheiten",
+    "jumpTo": "Springen zu",
+    "jumpToNamed": "Zu %@ springen"
   }
 }

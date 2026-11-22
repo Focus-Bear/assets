@@ -8517,6 +8517,16 @@
     "libraryNoMatches": "Aucune habitude correspondante",
     "habitPacksTitle": "Packs d'habitudes",
     "habitPacksHint": "Parcours et installe des packs d'habitudes sur le tableau de bord Focus Bear.",
-    "habitPacksOpen": "Parcourir les packs d'habitudes"
+    "habitPacksOpen": "Parcourir les packs d'habitudes",
+    "nameSuggestionsTitle": "Suggestions de la bibliothèque d'habitudes",
+    "nameSuggestionsHint": "Pendant que tu tapes, des habitudes correspondantes de la bibliothèque te sont suggérées. Appuie sur la flèche vers le bas pour les parcourir, sur Retour pour en utiliser une et sur Échap pour fermer la liste.",
+    "nameSuggestionsCount": "%d suggestions de la bibliothèque d'habitudes",
+    "sectionExpanded": "Déplié",
+    "sectionCollapsed": "Replié",
+    "sectionToggleHint": "Affiche ou masque les habitudes de cette routine.",
+    "habitCountOne": "1 habitude",
+    "habitCountOther": "%d habitudes",
+    "jumpTo": "Aller à",
+    "jumpToNamed": "Aller à %@"
   }
 }

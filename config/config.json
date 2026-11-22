@@ -8523,6 +8523,16 @@
     "libraryNoMatches": "No matching habits",
     "habitPacksTitle": "Habit packs",
     "habitPacksHint": "Browse and install habit packs on the Focus Bear dashboard.",
-    "habitPacksOpen": "Browse habit packs"
+    "habitPacksOpen": "Browse habit packs",
+    "nameSuggestionsTitle": "Suggestions from the habit library",
+    "nameSuggestionsHint": "As you type, matching habits from the library are suggested. Press the down arrow to go through them, Return to use one, and Escape to close the list.",
+    "nameSuggestionsCount": "%d suggestions from the habit library",
+    "sectionExpanded": "Expanded",
+    "sectionCollapsed": "Collapsed",
+    "sectionToggleHint": "Shows or hides this routine's habits.",
+    "habitCountOne": "1 habit",
+    "habitCountOther": "%d habits",
+    "jumpTo": "Jump to",
+    "jumpToNamed": "Jump to %@"
   }
 }

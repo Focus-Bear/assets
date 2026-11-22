@@ -8517,6 +8517,16 @@
     "libraryNoMatches": "Brak pasujących nawyków",
     "habitPacksTitle": "Pakiety nawyków",
     "habitPacksHint": "Przeglądaj i instaluj pakiety nawyków w panelu Focus Bear.",
-    "habitPacksOpen": "Przeglądaj pakiety nawyków"
+    "habitPacksOpen": "Przeglądaj pakiety nawyków",
+    "nameSuggestionsTitle": "Propozycje z biblioteki nawyków",
+    "nameSuggestionsHint": "Podczas pisania podpowiadamy pasujące nawyki z biblioteki. Naciśnij strzałkę w dół, aby je przeglądać, Return, aby użyć jednego, i Escape, aby zamknąć listę.",
+    "nameSuggestionsCount": "Propozycje z biblioteki nawyków: %d",
+    "sectionExpanded": "Rozwinięte",
+    "sectionCollapsed": "Zwinięte",
+    "sectionToggleHint": "Pokazuje lub ukrywa nawyki tej rutyny.",
+    "habitCountOne": "1 nawyk",
+    "habitCountOther": "Nawyki: %d",
+    "jumpTo": "Przejdź do",
+    "jumpToNamed": "Przejdź do: %@"
   }
 }
