@@ -4722,7 +4722,20 @@
         "deleteRepeatingTaskTitleText": "Usuń powtarzające się zadanie",
         "deleteRepeatingTaskMessageText": "Usunięcie tego zadania kończy jego powtarzanie. Ukończone zostają w historii, chyba że je też usuniesz.",
         "deleteRepeatingTaskStopText": "Usuń i zakończ powtarzanie",
-        "deleteRepeatingTaskAllText": "Usuń wszystkie, z historią"
+        "deleteRepeatingTaskAllText": "Usuń wszystkie, z historią",
+        "quickAddNamePlaceholderText": "Nazwa zadania",
+        "quickAddNameLabelText": "Nazwa nowego zadania",
+        "quickAddDurationPlaceholderText": "Czas trwania",
+        "quickAddDurationLabelText": "Czas trwania, na przykład 30 lub 1h",
+        "quickAddDueDatePlaceholderText": "Termin",
+        "quickAddDueDateLabelText": "Termin, na przykład tomorrow, fri lub 27 Nov. Zostaw puste, aby użyć najbliższego wolnego dnia",
+        "quickAddDueDateCalendarText": "Wybierz termin w kalendarzu",
+        "quickAddHintText": "Enter dodaje · Tab przechodzi do czasu, terminu i wyniku · Esc anuluje",
+        "quickAddTaskAddedText": "Dodano zadanie: <TITLE>",
+        "quickAddNotSavedText": "Nie zapisano",
+        "quickAddRetryText": "Ponów",
+        "addTaskToColumnText": "Dodaj zadanie do <NAME>",
+        "newTaskWithDetailsText": "Nowe zadanie ze szczegółami"
   },
   "localForecastViewInfo": {
     "taskProjectPicker": "Projekt",
