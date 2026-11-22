@@ -5934,6 +5934,8 @@
       "ttWhat": "¿Qué hiciste?",
       "ttRuleProject": "Proyecto",
       "ttIdleBody": "Estuviste fuera de {0} a {1} ({2}). ¿Qué estabas haciendo?",
+      "ttIdleBodyBetween": "Estuviste fuera {2} en total, entre {0} y {1}. ¿Qué estabas haciendo?",
+      "ttTimeYesterday": "{0} de ayer",
       "ttBreak": "Descanso",
       "ttAddPart": "Dividir en otra actividad",
       "ttPartWhatName": "Actividad {0}: qué",

@@ -5528,6 +5528,8 @@
     "ttWhat": "Qu'avez-vous fait ?",
     "ttRuleProject": "Projet",
     "ttIdleBody": "Vous étiez absent de {0} à {1} ({2}). Que faisiez-vous ?",
+    "ttIdleBodyBetween": "Tu as été absent pendant {2} au total, entre {0} et {1}. Que faisais-tu ?",
+    "ttTimeYesterday": "{0} hier",
     "ttBreak": "Pause",
     "ttAddPart": "Répartir sur une autre activité",
     "ttPartWhatName": "Activité {0} : quoi",
