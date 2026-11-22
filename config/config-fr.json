@@ -4470,7 +4470,7 @@
     "timelineSummaryNoDatesText": "<NAME> — <STATUS>",
     "timelineDetailSeparatorText": ", ",
     "timelineEmptyText": "Aucun projet n'a de travail prévu dans les trois prochains mois.",
-    "timelineUnavailableText": "La chronologie a besoin de vos prévisions, qui n'ont pas pu être calculées. L'essentiel liste toujours vos projets.",
+    "timelineUnavailableText": "La chronologie a besoin de tes prévisions, qui n'ont pas pu être calculées. L'essentiel liste toujours tes projets.",
     "timelineWeekOfText": "Semaine du <DATE>",
     "timelineWeekTotalText": "<DURATION> prévues",
     "timelineWeekEmptyText": "Aucun travail prévu cette semaine",
