@@ -5320,6 +5320,8 @@
         "tryAgainText": "Try again"
     },
     "scheduleViewInfo":{
+    "habitPlayerTab": "Habit Player",
+    "dayPlanTab": "Day Plan",
     "tasksSnoozeExplainTitle": "Why this suggestion",
     "tasksSnoozeExplainFree": "%1$@ has %2$@ free after its own tasks. This needs %3$@.",
     "tasksSnoozeExplainLinked": "Goes in your %1$@ (linked to %2$@), which has %3$@ left that day.",

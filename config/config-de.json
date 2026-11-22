@@ -4924,6 +4924,8 @@
     "signInEndingDetail": "Deine Focus-Bear-Anmeldung endet bald (<TIME>). Bis dahin funktioniert alles, und deine Blockierung bleibt in jedem Fall aktiv."
   },
   "scheduleViewInfo": {
+    "habitPlayerTab": "Gewohnheits-Player",
+    "dayPlanTab": "Tagesplan",
     "tasksSnoozeExplainTitle": "Warum dieser Vorschlag",
     "tasksSnoozeExplainFree": "%1$@ hat nach den eigenen Aufgaben %2$@ frei. Diese braucht %3$@.",
     "tasksSnoozeExplainLinked": "Kommt in dein %1$@ (verknüpft mit %2$@), das an diesem Tag noch %3$@ hat.",
