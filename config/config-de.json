@@ -1529,6 +1529,7 @@
     "deleteAccountSuccessText": "Dein Konto wurde erfolgreich gelöscht.",
     "deleteAccountFailedTitle": "Konto konnte nicht gelöscht werden",
     "deleteAccountFailedText": "Beim Löschen deines Kontos ist etwas schiefgelaufen. Bitte überprüfe deine Internetverbindung und versuche es erneut.",
+    "deletingAccountText": "Dein Konto wird gelöscht…",
     "guestAccountTitle": "Du nutzt ein Gastkonto",
     "guestAccountDescription": "Erstelle ein Konto, um deinen Fortschritt und deine Einstellungen zu speichern und sie zu behalten, wenn du das Gerät wechselst oder neu installierst.",
     "buttonCreateAccountText": "Konto erstellen",

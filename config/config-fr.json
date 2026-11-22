@@ -1529,6 +1529,7 @@
     "deleteAccountSuccessText": "Ton compte a été supprimé avec succès.",
     "deleteAccountFailedTitle": "Impossible de supprimer le compte",
     "deleteAccountFailedText": "Une erreur s'est produite lors de la suppression de ton compte. Vérifie ta connexion internet et réessaie.",
+    "deletingAccountText": "Suppression de ton compte…",
     "guestAccountTitle": "Tu utilises un compte invité",
     "guestAccountDescription": "Crée un compte pour sauvegarder ta progression et tes réglages, et les garder si tu changes d’appareil ou réinstalles l’app.",
     "buttonCreateAccountText": "Créer un compte",
