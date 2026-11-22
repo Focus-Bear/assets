@@ -373,6 +373,8 @@
         "stayFocusedText": "OK - Stay focused throughout the day!",
         "letsCreatAccountText": "Now let's set up an account for you",
         "buttonAbortText": "Exit Fullscreen",
+        "buttonExitText": "Exit",
+        "buttonExitFullScreenText": "Exit full screen",
         "buttonCancelText": "Cancel",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
