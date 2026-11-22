@@ -4924,6 +4924,12 @@
     "signInEndingDetail": "Deine Focus-Bear-Anmeldung endet bald (<TIME>). Bis dahin funktioniert alles, und deine Blockierung bleibt in jedem Fall aktiv."
   },
   "scheduleViewInfo": {
+    "eventDurationLabelWindows": "Dauer",
+    "eventDurationCustomWindows": "Benutzerdefiniert",
+    "eventDurationMinutesWindows": "%d Min.",
+    "eventDurationHoursWindows": "%d Std.",
+    "eventLateNoMoreHintWindows": "Late No More erinnert dich vor Beginn, wie bei jedem Meeting.",
+    "addEventTooltipWindows": "Füge einen Anruf oder Termin zu einer festen Uhrzeit hinzu. Er landet in deinem Kalender, und Late No More erinnert dich vor Beginn.",
     "tasksSnoozeExplainTitle": "Warum dieser Vorschlag",
     "tasksSnoozeExplainFree": "%1$@ hat nach den eigenen Aufgaben %2$@ frei. Diese braucht %3$@.",
     "tasksSnoozeExplainLinked": "Kommt in dein %1$@ (verknüpft mit %2$@), das an diesem Tag noch %3$@ hat.",

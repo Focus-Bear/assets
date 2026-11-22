@@ -4924,6 +4924,12 @@
     "signInEndingDetail": "Twoje logowanie do Focus Bear wkrótce się skończy (<TIME>). Do tego czasu wszystko działa, a blokowanie i tak pozostaje włączone."
   },
   "scheduleViewInfo": {
+    "eventDurationLabelWindows": "Czas trwania",
+    "eventDurationCustomWindows": "Własny",
+    "eventDurationMinutesWindows": "%d min",
+    "eventDurationHoursWindows": "%d godz.",
+    "eventLateNoMoreHintWindows": "Late No More przypomni ci przed rozpoczęciem, jak przy każdym spotkaniu.",
+    "addEventTooltipWindows": "Dodaj rozmowę lub wizytę o stałej godzinie. Trafi do twojego kalendarza, a Late No More przypomni ci przed rozpoczęciem.",
     "tasksSnoozeExplainTitle": "Dlaczego ta propozycja",
     "tasksSnoozeExplainFree": "%1$@ ma %2$@ wolnego po własnych zadaniach. To zadanie potrzebuje %3$@.",
     "tasksSnoozeExplainLinked": "Trafia do: %1$@ (powiązane z %2$@), gdzie tego dnia zostało %3$@.",
