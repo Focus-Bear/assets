@@ -1088,7 +1088,8 @@
       "labelRating": "Oceń swoją produktywność",
       "ratingStar": "<COUNT> z 5",
       "buttonSave": "Zapisz",
-      "savedReflection": "Zapisano — zostanie dodane do dziennika tej sesji.",
+      "savedReflection": "Zapisano w dzienniku tej sesji.",
+      "savedReflectionLater": "Jeszcze nie wysłano. Zostanie dodane do dziennika tej sesji, gdy opuścisz ten ekran.",
       "buttonStartNewSession": "Rozpocznij nową sesję",
       "buttonExtendSession": "Przedłuż sesję",
       "menuExtendMinutes": "Przedłuż o <MINUTES> min",
@@ -4175,6 +4176,8 @@
     "breakNextTitleText": "Przerwy są włączone"
   },
   "toDoListViewInfo": {
+        "mergeProjectSharedNoteText": "Tego projektu nie można połączyć z innym, dopóki są w nim inne osoby: tylko osoba, która utworzyła zadanie, może przenieść je do innego projektu.",
+        "projectMergeIncompleteText": "Nadal są w projekcie <PROJECT>, który nie został zarchiwizowany",
         "moveStatusUpWindowsText": "Przenieś „<TITLE>” w górę",
         "moveStatusDownWindowsText": "Przenieś „<TITLE>” w dół",
         "removeStatusWindowsText": "Usuń „<TITLE>”",
@@ -4725,6 +4728,7 @@
         "deleteRepeatingTaskAllText": "Usuń wszystkie, z historią"
   },
   "localForecastViewInfo": {
+    "meetingsKnownDaysWindows": "Spotkania są znane tylko na najbliższe <COUNT> dni. Późniejsze dni nie pokazują żadnych, więc wyglądają na wolniejsze, niż są, a plan przełożenia nie proponuje dat po tym okresie.",
     "taskProjectPicker": "Projekt",
     "linkedBlockQueueTitle": "Pokaż zadania w <BLOCK> (<COUNT>)",
     "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
@@ -4923,6 +4927,11 @@
     "signInAgainFailed": "Logowanie nie zostało ukończone. Blokowanie nadal działa — spróbuj ponownie.",
     "signInEndingDetail": "Twoje logowanie do Focus Bear wkrótce się skończy (<TIME>). Do tego czasu wszystko działa, a blokowanie i tak pozostaje włączone."
   },
+  "settingsVcInfo": {
+      "themeFollowsWindowsNoteWindows": "Focus Bear korzysta teraz z ustawienia trybu ciemnego systemu Windows, więc stał się ciemny. Możesz to zmienić w dowolnej chwili w Ustawienia > UI > Tryb ciemny.",
+      "themeFollowsWindowsKeepWindows": "Nadal jak w Windows",
+      "themeFollowsWindowsLightWindows": "Wróć do trybu jasnego"
+  },
   "scheduleViewInfo": {
     "tasksSnoozeExplainTitle": "Dlaczego ta propozycja",
     "tasksSnoozeExplainFree": "%1$@ ma %2$@ wolnego po własnych zadaniach. To zadanie potrzebuje %3$@.",
@@ -4946,6 +4955,11 @@
       "habitTimingNothingWindows": "Poranne nawyki są wykonywane w każdy dzień, w który są zaplanowane — wybierz te dni tutaj.",
       "habitShortenHintWindows": "Dotyczy tylko %@ i tylko tego komputera. Wszędzie indziej nawyk zachowuje swoją prawdziwą długość.",
       "habitSaveFailedWindows": "Nie udało się zapisać na twoim koncie. Sprawdź połączenie i spróbuj ponownie.",
+      "settingsServerUnreachableWindows": "Nie udało się połączyć z serwerem, więc nic nie zostało zmienione. Sprawdź połączenie i spróbuj ponownie.",
+      "settingsServerUnreachableRetryWindows": "Nie udało się połączyć z serwerem, więc nic nie zostało zmienione. Spróbować ponownie?",
+      "settingsTryAgainWindows": "Spróbuj ponownie",
+      "editHabitsUndoChangedElsewhereWindows": "To zostało w międzyczasie zmienione gdzie indziej, więc nie ma już czego cofać.",
+      "editHabitsUndonePartlyWindows": "Zmiana cofnięta, z wyjątkiem tego, co w międzyczasie zmieniono gdzie indziej.",
       "habitPickEmojiWindows": "Emoji (Win + . otwiera panel emoji)",
       "habitMoreOptionsWindows": "Więcej opcji w Edytuj nawyki…",
       "habitFocusModeUnknownWindows": "(już ustawiony tryb skupienia)",

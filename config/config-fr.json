@@ -1088,7 +1088,8 @@
       "labelRating": "Évalue ta productivité",
       "ratingStar": "<COUNT> sur 5",
       "buttonSave": "Enregistrer",
-      "savedReflection": "Enregistré — ce sera ajouté au journal de cette session.",
+      "savedReflection": "Enregistré dans le journal de cette session.",
+      "savedReflectionLater": "Pas encore envoyé. Ce sera ajouté au journal de cette session quand tu quitteras cet écran.",
       "buttonStartNewSession": "Démarrer une nouvelle session",
       "buttonExtendSession": "Prolonger la session",
       "menuExtendMinutes": "Prolonger de <MINUTES> minutes",
@@ -4175,6 +4176,8 @@
     "breakNextTitleText": "Les pauses sont activées"
   },
   "toDoListViewInfo": {
+        "mergeProjectSharedNoteText": "Ce projet ne peut pas être fusionné avec un autre tant que d'autres personnes y participent : seule la personne qui a créé une tâche peut la déplacer vers un autre projet.",
+        "projectMergeIncompleteText": "Elles sont toujours dans <PROJECT>, qui n'a pas été archivé",
         "moveStatusUpWindowsText": "Monter « <TITLE> »",
         "moveStatusDownWindowsText": "Descendre « <TITLE> »",
         "removeStatusWindowsText": "Supprimer « <TITLE> »",
@@ -4725,6 +4728,7 @@
         "deleteRepeatingTaskAllText": "Tout supprimer, historique compris"
   },
   "localForecastViewInfo": {
+    "meetingsKnownDaysWindows": "Les réunions ne sont connues que pour les <COUNT> prochains jours. Les jours suivants n'en affichent aucune, ils paraissent donc plus libres qu'ils ne le sont, et le plan de report ne propose pas de dates au-delà.",
     "taskProjectPicker": "Projet",
     "linkedBlockQueueTitle": "Afficher les <COUNT> tâches dans <BLOCK>",
     "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
@@ -4923,6 +4927,11 @@
     "signInAgainFailed": "La connexion n'a pas abouti. Ton blocage reste actif — réessaie.",
     "signInEndingDetail": "Ta connexion à Focus Bear se termine bientôt (<TIME>). Tout fonctionne jusque-là, et ton blocage reste actif dans tous les cas."
   },
+  "settingsVcInfo": {
+      "themeFollowsWindowsNoteWindows": "Focus Bear suit maintenant le réglage du mode sombre de Windows, il est donc passé en sombre. Tu peux changer cela à tout moment dans Réglages > UI > Mode sombre.",
+      "themeFollowsWindowsKeepWindows": "Continuer à suivre Windows",
+      "themeFollowsWindowsLightWindows": "Revenir au mode clair"
+  },
   "scheduleViewInfo": {
     "tasksSnoozeExplainTitle": "Pourquoi cette suggestion",
     "tasksSnoozeExplainFree": "%1$@ a %2$@ de libre après ses propres tâches. Celle-ci demande %3$@.",
@@ -4946,6 +4955,11 @@
       "habitTimingNothingWindows": "Les habitudes du matin ont lieu chaque jour où elles sont programmées — choisis ces jours ici.",
       "habitShortenHintWindows": "S’applique uniquement le %@, et seulement sur cet ordinateur. L’habitude garde sa vraie durée partout ailleurs.",
       "habitSaveFailedWindows": "Impossible d’enregistrer sur ton compte. Vérifie ta connexion et réessaie.",
+      "settingsServerUnreachableWindows": "Impossible de joindre le serveur, donc rien n'a été modifié. Vérifie ta connexion et réessaie.",
+      "settingsServerUnreachableRetryWindows": "Impossible de joindre le serveur, donc rien n'a été modifié. Réessayer ?",
+      "settingsTryAgainWindows": "Réessayer",
+      "editHabitsUndoChangedElsewhereWindows": "Cela a été modifié ailleurs entre-temps, il n'y a donc plus rien à annuler.",
+      "editHabitsUndonePartlyWindows": "Modification annulée, sauf ce qui a été modifié ailleurs entre-temps.",
       "habitPickEmojiWindows": "Emoji (Win + . ouvre le panneau des emojis)",
       "habitMoreOptionsWindows": "Plus d’options dans Modifier les habitudes…",
       "habitFocusModeUnknownWindows": "(le mode concentration déjà défini)",

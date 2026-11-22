@@ -1124,7 +1124,8 @@
             "labelRating": "Valora tu productividad",
             "ratingStar": "<COUNT> de 5",
             "buttonSave": "Guardar",
-            "savedReflection": "Guardado: se añadirá al registro de esta sesión.",
+            "savedReflection": "Guardado en el registro de esta sesión.",
+            "savedReflectionLater": "Aún no se ha enviado. Se añadirá al registro de esta sesión cuando salgas de esta pantalla.",
             "buttonStartNewSession": "Iniciar una nueva sesión",
             "buttonExtendSession": "Ampliar sesión",
             "menuExtendMinutes": "Ampliar <MINUTES> minutos",
@@ -4591,6 +4592,8 @@
         "breakSetupTurnOnButtonText": "Activar descansos"
     },
     "toDoListViewInfo":{
+        "mergeProjectSharedNoteText": "Este proyecto no se puede combinar con otro mientras haya otras personas en él: solo quien creó una tarea puede moverla a otro proyecto.",
+        "projectMergeIncompleteText": "Siguen en <PROJECT>, que no se ha archivado",
         "moveStatusUpWindowsText": "Subir \"<TITLE>\"",
         "moveStatusDownWindowsText": "Bajar \"<TITLE>\"",
         "removeStatusWindowsText": "Quitar \"<TITLE>\"",
@@ -5141,6 +5144,7 @@
       "deleteRepeatingTaskAllText": "Eliminar todas, con el historial"
     },
     "localForecastViewInfo": {
+        "meetingsKnownDaysWindows": "Solo se conocen las reuniones de los próximos <COUNT> días. Los días posteriores no muestran ninguna, así que parecen más libres de lo que son, y el plan de reprogramación no propone fechas más allá de ellos.",
         "taskProjectPicker": "Proyecto",
         "linkedBlockQueueTitle": "Mostrar las <COUNT> tareas en <BLOCK>",
         "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
@@ -5329,6 +5333,11 @@
         "offlineDetailText": "Revisa tu conexión a internet. No se pierde nada de lo que hagas aquí; se sincronizará cuando vuelvas a estar en línea.",
         "tryAgainText": "Reintentar"
     },
+    "settingsVcInfo": {
+        "themeFollowsWindowsNoteWindows": "Focus Bear ahora sigue el modo oscuro de Windows, así que se ha puesto oscuro. Puedes cambiarlo cuando quieras en Ajustes > UI > Modo Oscuro.",
+        "themeFollowsWindowsKeepWindows": "Seguir como Windows",
+        "themeFollowsWindowsLightWindows": "Volver al modo claro"
+    },
     "scheduleViewInfo":{
     "tasksSnoozeExplainTitle": "Por qué esta sugerencia",
     "tasksSnoozeExplainFree": "%1$@ tiene %2$@ libres después de sus propias tareas. Esta necesita %3$@.",
@@ -5351,6 +5360,11 @@
         "habitTimingNothingWindows": "Los hábitos de la mañana se hacen todos los días en que están programados: elige esos días aquí.",
         "habitShortenHintWindows": "Se aplica solo el %@ y solo en este ordenador. En todos los demás sitios el hábito mantiene su duración real.",
         "habitSaveFailedWindows": "No se pudo guardar en tu cuenta. Comprueba tu conexión e inténtalo de nuevo.",
+        "settingsServerUnreachableWindows": "No se pudo conectar con el servidor, así que no se cambió nada. Comprueba tu conexión e inténtalo de nuevo.",
+        "settingsServerUnreachableRetryWindows": "No se pudo conectar con el servidor, así que no se cambió nada. ¿Intentar de nuevo?",
+        "settingsTryAgainWindows": "Intentar de nuevo",
+        "editHabitsUndoChangedElsewhereWindows": "Esto ya se cambió en otro lugar, así que no queda nada por deshacer.",
+        "editHabitsUndonePartlyWindows": "Cambio deshecho, salvo lo que ya se cambió en otro lugar.",
         "habitPickEmojiWindows": "Emoji (Win + . abre el panel de emojis)",
         "habitMoreOptionsWindows": "Más opciones en Editar hábitos…",
         "habitFocusModeUnknownWindows": "(el modo de concentración ya configurado)",

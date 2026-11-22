@@ -1112,7 +1112,8 @@
             "labelRating": "Rate your productivity",
             "ratingStar": "<COUNT> out of 5",
             "buttonSave": "Save",
-            "savedReflection": "Saved — it will be added to this session's log.",
+            "savedReflection": "Saved to this session's log.",
+            "savedReflectionLater": "Not sent yet. It will be added to this session's log when you leave this screen.",
             "buttonStartNewSession": "Start a new session",
             "buttonExtendSession": "Extend session",
             "menuExtendMinutes": "Extend by <MINUTES> minutes",
@@ -4581,6 +4582,8 @@
         "breakSetupTurnOnButtonText": "Turn on breaks"
     },
     "toDoListViewInfo":{
+        "mergeProjectSharedNoteText": "This project can't be merged into another one while other people are in it: only the person who created a task can move it to another project.",
+        "projectMergeIncompleteText": "They are still in <PROJECT>, which has not been archived",
         "moveStatusUpWindowsText": "Move \"<TITLE>\" up",
         "moveStatusDownWindowsText": "Move \"<TITLE>\" down",
         "removeStatusWindowsText": "Remove \"<TITLE>\"",
@@ -5131,6 +5134,7 @@
       "deleteRepeatingTaskAllText": "Delete all, including history"
     },
     "localForecastViewInfo": {
+        "meetingsKnownDaysWindows": "Meetings are only known for the next <COUNT> days. Later days show none, so they look freer than they are, and the reschedule plan doesn’t propose dates past them.",
         "taskProjectPicker": "Project",
         "linkedBlockQueueTitle": "Show the <COUNT> tasks in <BLOCK>",
         "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
@@ -5319,6 +5323,11 @@
         "offlineDetailText": "Check your internet connection. Nothing you do here is lost; it syncs when you're back online.",
         "tryAgainText": "Try again"
     },
+    "settingsVcInfo": {
+        "themeFollowsWindowsNoteWindows": "Focus Bear now follows your Windows dark mode setting, so it has turned dark. You can change this any time in Settings > UI > Dark Mode.",
+        "themeFollowsWindowsKeepWindows": "Keep following Windows",
+        "themeFollowsWindowsLightWindows": "Switch back to light"
+    },
     "scheduleViewInfo":{
     "tasksSnoozeExplainTitle": "Why this suggestion",
     "tasksSnoozeExplainFree": "%1$@ has %2$@ free after its own tasks. This needs %3$@.",
@@ -5341,6 +5350,11 @@
         "habitTimingNothingWindows": "Morning habits run every day they're scheduled — pick those days here.",
         "habitShortenHintWindows": "Applies on %@ only, and only on this computer. The habit keeps its real length everywhere else.",
         "habitSaveFailedWindows": "Couldn't save to your account. Check your connection and try again.",
+        "settingsServerUnreachableWindows": "Couldn't reach the server, so nothing was changed. Check your connection and try again.",
+        "settingsServerUnreachableRetryWindows": "Couldn't reach the server, so nothing was changed. Try again?",
+        "settingsTryAgainWindows": "Try again",
+        "editHabitsUndoChangedElsewhereWindows": "This has been changed somewhere else since, so there is nothing left to undo.",
+        "editHabitsUndonePartlyWindows": "Change undone, except what has been changed somewhere else since.",
         "habitPickEmojiWindows": "Emoji (Win + . opens the emoji panel)",
         "habitMoreOptionsWindows": "More options in Edit habits…",
         "habitFocusModeUnknownWindows": "(the focus mode already set)",
