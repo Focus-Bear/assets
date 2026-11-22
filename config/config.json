@@ -510,7 +510,8 @@
         "trayIconTooltipText": "Focus Bear",
         "trayIconBalloonText": "Focus Bear",
         "unblockNotAvailableNewText": "You're in Grizzly Bear mode - change your settings to unblock",
-        "taskCreated": "\"<TASK>\" task created successfully."
+        "taskCreated": "\"<TASK>\" task created successfully.",
+        "habitBrowserUnreadableText": "Focus Bear can't read this browser's address bar, so it can't be used during this habit. Use Chrome or Edge for the habit's websites."
     },
     "callNotifier": {
         "micUsageText": "is using your microphone",
@@ -7564,7 +7565,22 @@
         "habitPlayerTimeLeft": "<TIME> left",
         "addressCalculationCopy": "Copy result",
         "tabStateInCall": "In a call: using your camera or microphone",
-        "importChromeNoProfilesPc": "Couldn't find any Chrome bookmarks on this PC."
+        "importChromeNoProfilesPc": "Couldn't find any Chrome bookmarks on this PC.",
+        "settingEnableTitle": "Enable the Focus Bear Browser",
+        "settingEnableDescription": "A browser built into Focus Bear, where every page goes through your blocking. When this is on, Browser appears under Tools.",
+        "settingTurnedOffByManager": "Turned off by your school or parent.",
+        "settingLockedByManager": "Locked by your school or parent.",
+        "settingHiddenWhileBrowsersBlocked": "On, but hidden right now. Chrome, Edge and Firefox are all blocked as apps, so this browser is blocked too. It comes back when they're allowed again.",
+        "settingTurnOffConfirm": "Turn off the Focus Bear Browser? Its <COUNT> open tabs will close. Your sign-ins and bookmarks are kept.",
+        "settingTurnOffConfirmOne": "Turn off the Focus Bear Browser? Its open tab will close. Your sign-ins and bookmarks are kept.",
+        "settingTurnOffButton": "Turn off",
+        "settingKeepOnButton": "Keep it on",
+        "turnedOffByManager": "The Focus Bear Browser is turned off by your school or parent right now.",
+        "blockedLikeOtherBrowsers": "Browsers are blocked right now, so the Focus Bear Browser is too.",
+        "profileStillClearing": "The browser is still clearing the last session's data. Close it and open it again in a moment.",
+        "downloadStarted": "Downloading <NAME> to your Downloads folder…",
+        "downloadFinishedShowInFolder": "Downloaded <NAME>. Click here to show it in its folder.",
+        "fileChooserBlocked": "Choosing a file isn't available here while Focus Bear runs as administrator. Drag the file onto the page instead."
     },
     "notesLiveTranscriptInfo": {
         "liveTranscriptTitle": "Live transcript",
@@ -7629,7 +7645,8 @@
         "chatClaudeDelegationReadyText": "“<TITLE>” is ready for Claude. Check the instructions in Delegate to Claude, then press Delegate.",
         "chatClaudeDelegationSettingOffText": "To hand “<TITLE>” to Claude, turn on “Allow delegating tasks to Claude” in Settings → AI Features, then press Delegate to Claude on the task in your Day Plan.",
         "chatClaudeDelegationCliMissingText": "To hand “<TITLE>” to Claude, install Claude Code on this Mac, then press Delegate to Claude on the task in your Day Plan.",
-        "buttonOpenClaudeDelegationFromChat": "Open Delegate to Claude"
+        "buttonOpenClaudeDelegationFromChat": "Open Delegate to Claude",
+        "chatErrorLockedBySchoolText": "Turned off by your school"
     },
     "noteMediaInfo": {
         "pdfTitle": "PDF",

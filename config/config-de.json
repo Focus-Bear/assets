@@ -481,7 +481,8 @@
     "trayIconTooltipText": "Focus Bear",
     "trayIconBalloonText": "Focus Bear",
     "unblockNotAvailableNewText": "Du bist im Grizzlybär-Modus – ändere deine Einstellungen, um zu entsperren.",
-    "taskCreated": "Aufgabe „<TASK>“ wurde erstellt."
+    "taskCreated": "Aufgabe „<TASK>“ wurde erstellt.",
+    "habitBrowserUnreadableText": "Focus Bear kann die Adressleiste dieses Browsers nicht lesen, deshalb kann er während dieser Gewohnheit nicht verwendet werden. Nutze Chrome oder Edge für die Websites der Gewohnheit."
   },
   "callNotifier": {
     "meetingTooltipText": "Focus Bear hat erkannt, dass dein Mikrofon oder deine Kamera verwendet wird, daher zeigen wir während des Meetings keine Pausenerinnerungen an. Eine Fokus-Sitzung oder ein Blockierzeitplan blockiert wie gewohnt weiter.",
@@ -7586,7 +7587,22 @@
     "habitPlayerTimeLeft": "Noch <TIME>",
     "addressCalculationCopy": "Ergebnis kopieren",
     "tabStateInCall": "Im Anruf: verwendet deine Kamera oder dein Mikrofon",
-    "importChromeNoProfilesPc": "Auf diesem PC wurden keine Chrome-Lesezeichen gefunden."
+    "importChromeNoProfilesPc": "Auf diesem PC wurden keine Chrome-Lesezeichen gefunden.",
+    "settingEnableTitle": "Focus Bear Browser aktivieren",
+    "settingEnableDescription": "Ein in Focus Bear eingebauter Browser, in dem jede Seite durch deine Blockierung läuft. Wenn das aktiviert ist, erscheint „Browser“ unter „Werkzeuge“.",
+    "settingTurnedOffByManager": "Von deiner Schule oder deinen Eltern deaktiviert.",
+    "settingLockedByManager": "Von deiner Schule oder deinen Eltern gesperrt.",
+    "settingHiddenWhileBrowsersBlocked": "Aktiviert, aber gerade ausgeblendet. Chrome, Edge und Firefox sind als Apps blockiert, also ist dieser Browser auch blockiert. Er ist wieder da, sobald sie wieder erlaubt sind.",
+    "settingTurnOffConfirm": "Focus Bear Browser deaktivieren? Seine <COUNT> offenen Tabs werden geschlossen. Deine Anmeldungen und Lesezeichen bleiben erhalten.",
+    "settingTurnOffConfirmOne": "Focus Bear Browser deaktivieren? Sein offener Tab wird geschlossen. Deine Anmeldungen und Lesezeichen bleiben erhalten.",
+    "settingTurnOffButton": "Deaktivieren",
+    "settingKeepOnButton": "Aktiviert lassen",
+    "turnedOffByManager": "Der Focus Bear Browser ist gerade von deiner Schule oder deinen Eltern deaktiviert.",
+    "blockedLikeOtherBrowsers": "Browser sind gerade blockiert, also auch der Focus Bear Browser.",
+    "profileStillClearing": "Der Browser löscht noch die Daten der letzten Sitzung. Schließ ihn und öffne ihn gleich noch einmal.",
+    "downloadStarted": "<NAME> wird in deinen Downloads-Ordner heruntergeladen …",
+    "downloadFinishedShowInFolder": "<NAME> heruntergeladen. Klick hier, um die Datei im Ordner anzuzeigen.",
+    "fileChooserBlocked": "Eine Datei auswählen geht hier nicht, solange Focus Bear als Administrator läuft. Zieh die Datei stattdessen auf die Seite."
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Live-Transkript",
@@ -7651,7 +7667,8 @@
     "chatClaudeDelegationReadyText": "„<TITLE>“ ist bereit für Claude. Prüfe die Anweisungen unter An Claude delegieren und drücke dann Delegieren.",
     "chatClaudeDelegationSettingOffText": "Um „<TITLE>“ an Claude zu übergeben, schalte „Aufgaben an Claude delegieren erlauben“ unter Einstellungen → KI-Funktionen ein und drücke dann bei der Aufgabe in deinem Tagesplan An Claude delegieren.",
     "chatClaudeDelegationCliMissingText": "Um „<TITLE>“ an Claude zu übergeben, installiere Claude Code auf diesem Mac und drücke dann bei der Aufgabe in deinem Tagesplan An Claude delegieren.",
-    "buttonOpenClaudeDelegationFromChat": "An Claude delegieren öffnen"
+    "buttonOpenClaudeDelegationFromChat": "An Claude delegieren öffnen",
+    "chatErrorLockedBySchoolText": "Von deiner Schule deaktiviert"
   },
   "noteMediaInfo": {
     "pdfTitle": "PDF",

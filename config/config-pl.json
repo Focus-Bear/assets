@@ -481,7 +481,8 @@
     "trayIconTooltipText": "Focus Bear",
     "trayIconBalloonText": "Focus Bear",
     "unblockNotAvailableNewText": "Jesteś w trybie Grizzly – zmień ustawienia, aby odblokować.",
-    "taskCreated": "Zadanie „<TASK>” zostało utworzone."
+    "taskCreated": "Zadanie „<TASK>” zostało utworzone.",
+    "habitBrowserUnreadableText": "Focus Bear nie może odczytać paska adresu tej przeglądarki, więc nie można jej używać podczas tego nawyku. Do stron tego nawyku użyj Chrome lub Edge."
   },
   "callNotifier": {
     "meetingTooltipText": "Focus Bear wykrył, że twój mikrofon lub kamera są w użyciu, więc nie będziemy pokazywać przypomnień o przerwie podczas spotkania. Sesja skupienia lub harmonogram blokowania nadal blokuje jak zwykle.",
@@ -7586,7 +7587,22 @@
     "habitPlayerTimeLeft": "Pozostało <TIME>",
     "addressCalculationCopy": "Kopiuj wynik",
     "tabStateInCall": "W trakcie rozmowy: używa kamery lub mikrofonu",
-    "importChromeNoProfilesPc": "Nie znaleziono żadnych zakładek Chrome na tym komputerze."
+    "importChromeNoProfilesPc": "Nie znaleziono żadnych zakładek Chrome na tym komputerze.",
+    "settingEnableTitle": "Włącz przeglądarkę Focus Bear",
+    "settingEnableDescription": "Przeglądarka wbudowana w Focus Bear, w której każda strona przechodzi przez Twoje blokowanie. Gdy to ustawienie jest włączone, Przeglądarka pojawia się w Narzędziach.",
+    "settingTurnedOffByManager": "Wyłączone przez Twoją szkołę lub Twojego rodzica.",
+    "settingLockedByManager": "Zablokowane przez Twoją szkołę lub Twojego rodzica.",
+    "settingHiddenWhileBrowsersBlocked": "Włączona, ale teraz ukryta. Chrome, Edge i Firefox są zablokowane jako aplikacje, więc ta przeglądarka też. Wróci, gdy znów będą dozwolone.",
+    "settingTurnOffConfirm": "Wyłączyć przeglądarkę Focus Bear? Otwarte karty (<COUNT>) zostaną zamknięte. Twoje logowania i zakładki zostaną zachowane.",
+    "settingTurnOffConfirmOne": "Wyłączyć przeglądarkę Focus Bear? Otwarta karta zostanie zamknięta. Twoje logowania i zakładki zostaną zachowane.",
+    "settingTurnOffButton": "Wyłącz",
+    "settingKeepOnButton": "Zostaw włączoną",
+    "turnedOffByManager": "Przeglądarka Focus Bear jest teraz wyłączona przez Twoją szkołę lub Twojego rodzica.",
+    "blockedLikeOtherBrowsers": "Przeglądarki są teraz zablokowane, więc przeglądarka Focus Bear też.",
+    "profileStillClearing": "Przeglądarka nadal usuwa dane z ostatniej sesji. Zamknij ją i otwórz ponownie za chwilę.",
+    "downloadStarted": "Pobieranie <NAME> do folderu Pobrane…",
+    "downloadFinishedShowInFolder": "Pobrano <NAME>. Kliknij tutaj, aby pokazać plik w folderze.",
+    "fileChooserBlocked": "Nie można tu wybrać pliku, gdy Focus Bear działa jako administrator. Zamiast tego przeciągnij plik na stronę."
   },
   "notesLiveTranscriptInfo": {
     "liveTranscriptTitle": "Transkrypcja na żywo",
@@ -7651,7 +7667,8 @@
     "chatClaudeDelegationReadyText": "„<TITLE>” czeka na Claude'a. Sprawdź instrukcje w oknie Przekaż Claude'owi, a potem naciśnij Przekaż.",
     "chatClaudeDelegationSettingOffText": "Aby przekazać „<TITLE>” Claude'owi, włącz „Zezwalaj na przekazywanie zadań Claude'owi” w Ustawienia → Funkcje AI, a potem naciśnij Przekaż Claude'owi przy zadaniu w swoim planie dnia.",
     "chatClaudeDelegationCliMissingText": "Aby przekazać „<TITLE>” Claude'owi, zainstaluj Claude Code na tym Macu, a potem naciśnij Przekaż Claude'owi przy zadaniu w swoim planie dnia.",
-    "buttonOpenClaudeDelegationFromChat": "Otwórz Przekaż Claude'owi"
+    "buttonOpenClaudeDelegationFromChat": "Otwórz Przekaż Claude'owi",
+    "chatErrorLockedBySchoolText": "Wyłączone przez Twoją szkołę"
   },
   "noteMediaInfo": {
     "pdfTitle": "PDF",
