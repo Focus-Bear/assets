@@ -1088,7 +1088,8 @@
       "labelRating": "Bewerte deine Produktivität",
       "ratingStar": "<COUNT> von 5",
       "buttonSave": "Speichern",
-      "savedReflection": "Gespeichert – wird zum Protokoll dieser Sitzung hinzugefügt.",
+      "savedReflection": "Im Protokoll dieser Sitzung gespeichert.",
+      "savedReflectionLater": "Noch nicht gesendet. Es wird dem Protokoll dieser Sitzung hinzugefügt, wenn du diesen Bildschirm verlässt.",
       "buttonStartNewSession": "Neue Sitzung starten",
       "buttonExtendSession": "Sitzung verlängern",
       "menuExtendMinutes": "Um <MINUTES> Minuten verlängern",
@@ -4175,6 +4176,8 @@
     "breakNextTitleText": "Pausen sind eingeschaltet"
   },
   "toDoListViewInfo": {
+        "mergeProjectSharedNoteText": "Dieses Projekt kann nicht mit einem anderen zusammengeführt werden, solange andere Personen daran beteiligt sind: Nur wer eine Aufgabe erstellt hat, kann sie in ein anderes Projekt verschieben.",
+        "projectMergeIncompleteText": "Sie sind noch in <PROJECT>, das nicht archiviert wurde",
         "moveStatusUpWindowsText": "\"<TITLE>\" nach oben verschieben",
         "moveStatusDownWindowsText": "\"<TITLE>\" nach unten verschieben",
         "removeStatusWindowsText": "\"<TITLE>\" entfernen",
@@ -4725,6 +4728,7 @@
         "deleteRepeatingTaskAllText": "Alle löschen, mit Verlauf"
   },
   "localForecastViewInfo": {
+    "meetingsKnownDaysWindows": "Meetings sind nur für die nächsten <COUNT> Tage bekannt. Spätere Tage zeigen keine, wirken also freier, als sie sind, und der Plan zum Verschieben schlägt keine Termine danach vor.",
     "taskProjectPicker": "Projekt",
     "linkedBlockQueueTitle": "Die <COUNT> Aufgaben in <BLOCK> zeigen",
     "linkedBlockQueueRow": "<TITLE> · <DURATION> · <DAYS>",
@@ -4923,6 +4927,11 @@
     "signInAgainFailed": "Die Anmeldung wurde nicht abgeschlossen. Deine Blockierung ist weiter aktiv – versuche es noch einmal.",
     "signInEndingDetail": "Deine Focus-Bear-Anmeldung endet bald (<TIME>). Bis dahin funktioniert alles, und deine Blockierung bleibt in jedem Fall aktiv."
   },
+  "settingsVcInfo": {
+      "themeFollowsWindowsNoteWindows": "Focus Bear folgt jetzt der Dunkelmodus-Einstellung von Windows und ist deshalb dunkel geworden. Du kannst das jederzeit unter Einstellungen > UI > Dunkelmodus ändern.",
+      "themeFollowsWindowsKeepWindows": "Windows weiter folgen",
+      "themeFollowsWindowsLightWindows": "Zurück zum hellen Modus"
+  },
   "scheduleViewInfo": {
     "tasksSnoozeExplainTitle": "Warum dieser Vorschlag",
     "tasksSnoozeExplainFree": "%1$@ hat nach den eigenen Aufgaben %2$@ frei. Diese braucht %3$@.",
@@ -4946,6 +4955,11 @@
       "habitTimingNothingWindows": "Morgengewohnheiten laufen an jedem Tag, für den sie geplant sind – wähle diese Tage hier aus.",
       "habitShortenHintWindows": "Gilt nur am %@ und nur auf diesem Computer. Überall sonst behält die Gewohnheit ihre echte Länge.",
       "habitSaveFailedWindows": "Speichern in deinem Konto fehlgeschlagen. Prüfe deine Verbindung und versuch es erneut.",
+      "settingsServerUnreachableWindows": "Der Server war nicht erreichbar, daher wurde nichts geändert. Prüfe deine Verbindung und versuche es noch einmal.",
+      "settingsServerUnreachableRetryWindows": "Der Server war nicht erreichbar, daher wurde nichts geändert. Noch einmal versuchen?",
+      "settingsTryAgainWindows": "Erneut versuchen",
+      "editHabitsUndoChangedElsewhereWindows": "Das wurde inzwischen an anderer Stelle geändert, es gibt also nichts mehr rückgängig zu machen.",
+      "editHabitsUndonePartlyWindows": "Änderung rückgängig gemacht, außer dem, was inzwischen an anderer Stelle geändert wurde.",
       "habitPickEmojiWindows": "Emoji (Win + . öffnet die Emoji-Auswahl)",
       "habitMoreOptionsWindows": "Weitere Optionen unter Gewohnheiten bearbeiten …",
       "habitFocusModeUnknownWindows": "(der bereits festgelegte Fokusmodus)",
