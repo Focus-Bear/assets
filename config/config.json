@@ -337,6 +337,7 @@
         "breakBrainDumpHintText": "Park a thought here so you can let it go for the break — it saves to your brain dump.",
         "breakSettingsButtonText": "Microbreak Settings",
         "breakBrainDumpEmptyText": "Make a quick braindump",
+        "breakBrainDumpAfterBreakText": "Before your break, you noted:",
         "breakStartTitleText": "Time for a microbreak!",
         "breakStartSubtitleText": "Let’s keep your mind and body sharp",
         "breakAutoStartCountdownText": "Starting automatically in <TIME>",

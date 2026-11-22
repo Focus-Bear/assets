@@ -308,6 +308,7 @@
     "breakBrainDumpHintText": "Note une pensée ici pour pouvoir la lâcher le temps de la pause — elle est enregistrée dans ton vide-cerveau.",
     "breakSettingsButtonText": "Réglages des micro-pauses",
     "breakBrainDumpEmptyText": "Faire un vide-cerveau rapide",
+    "breakBrainDumpAfterBreakText": "Avant ta pause, tu as noté :",
     "breakStartTitleText": "C'est l'heure d'une micro-pause !",
     "breakStartSubtitleText": "Gardons l'esprit et le corps en forme",
     "breakAutoStartCountdownText": "Démarrage automatique dans <TIME>",
