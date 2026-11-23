@@ -83,6 +83,7 @@
     "noteFailed": "No se pudo guardar la nota de la reunión. Las tareas añadidas están a salvo. Reintenta abajo.",
     "forYou": "Para ti",
     "forOthers": "Para otras personas",
+    "unassigned": "Sin asignar",
     "project": "Proyecto",
     "noProject": "Sin proyecto"
   },
