@@ -1822,6 +1822,8 @@
     "leaderboardYourPositionText": "Twoja pozycja",
     "leaderboardYouText": "Ty",
     "leaderboardSetUsernameNudgeText": "Ustaw poniżej nazwę użytkownika w rankingu, aby się w nim pojawić.",
+    "leaderboardHatsText": "Kapelusze",
+    "leaderboardSetUsernameAboveNudgeText": "Ustaw nazwę użytkownika w rankingu na górze tej strony, aby się w nim pojawić.",
     "streakValueText": "Seria: {streak}",
     "daysCompletedOutOfText": "{completed} dni ukończonych z ostatnich {total} dni",
     "daysCompletedOutOfExpectedText": "Ostatnie {window} dni: {completed} ukończonych, {forgiven} dni weekendowych pominiętych",
@@ -4722,7 +4724,10 @@
         "deleteRepeatingTaskTitleText": "Usuń powtarzające się zadanie",
         "deleteRepeatingTaskMessageText": "Usunięcie tego zadania kończy jego powtarzanie. Ukończone zostają w historii, chyba że je też usuniesz.",
         "deleteRepeatingTaskStopText": "Usuń i zakończ powtarzanie",
-        "deleteRepeatingTaskAllText": "Usuń wszystkie, z historią"
+        "deleteRepeatingTaskAllText": "Usuń wszystkie, z historią",
+        "rescheduleText": "Przeplanuj",
+        "changeDueDateText": "Zmień termin",
+        "currentDueDateText": "Obecny termin: <DATE>"
   },
   "localForecastViewInfo": {
     "taskProjectPicker": "Projekt",
@@ -5164,6 +5169,8 @@
     "tasksNewProjectSave": "Zapisz",
     "tasksNewProjectCreate": "Utwórz",
     "tasksSnooze": "Przełóż",
+    "tasksReschedule": "Przeplanuj",
+    "tasksCurrentlyPlannedFor": "Obecnie zaplanowane na %@",
     "tasksRemove": "Usuń",
     "tasksDetailsTitle": "Szczegóły zadania",
       "dayFixLink": "Napraw",

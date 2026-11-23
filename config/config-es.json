@@ -2253,6 +2253,8 @@
         "leaderboardYourPositionText": "Tu posición",
         "leaderboardYouText": "Tú",
         "leaderboardSetUsernameNudgeText": "Elige un nombre de usuario para la clasificación abajo para aparecer en ella.",
+      "leaderboardHatsText": "Sombreros",
+      "leaderboardSetUsernameAboveNudgeText": "Elige un nombre de usuario para la clasificación en la parte superior de esta página para aparecer en ella.",
         "streakValueText": "Racha: {streak}",
         "daysCompletedOutOfText": "{completed} días completados de los últimos {total} días",
         "daysCompletedOutOfExpectedText": "Últimos {window} días: {completed} completados, {forgiven} días de fin de semana perdonados",
@@ -5138,7 +5140,10 @@
       "deleteRepeatingTaskTitleText": "Eliminar tarea que se repite",
       "deleteRepeatingTaskMessageText": "Si eliminas esta tarea, dejará de repetirse. Las ya completadas se quedan en tu historial, salvo que también las elimines.",
       "deleteRepeatingTaskStopText": "Eliminar y dejar de repetir",
-      "deleteRepeatingTaskAllText": "Eliminar todas, con el historial"
+      "deleteRepeatingTaskAllText": "Eliminar todas, con el historial",
+        "rescheduleText": "Reprogramar",
+        "changeDueDateText": "Cambiar fecha de vencimiento",
+        "currentDueDateText": "Vence actualmente: <DATE>"
     },
     "localForecastViewInfo": {
         "taskProjectPicker": "Proyecto",
@@ -5570,6 +5575,8 @@
         "tasksNewProjectSave": "Guardar",
         "tasksNewProjectCreate": "Crear",
         "tasksSnooze": "Posponer",
+    "tasksReschedule": "Reprogramar",
+    "tasksCurrentlyPlannedFor": "Planificada actualmente para %@",
         "tasksRemove": "Eliminar",
         "tasksDetailsTitle": "Detalles de la tarea",
         "dayFixLink": "Ajustar",

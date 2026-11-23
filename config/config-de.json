@@ -1822,6 +1822,8 @@
     "leaderboardYourPositionText": "Deine Position",
     "leaderboardYouText": "Du",
     "leaderboardSetUsernameNudgeText": "Lege unten einen Bestenlisten-Benutzernamen fest, um in der Bestenliste zu erscheinen.",
+    "leaderboardHatsText": "Hüte",
+    "leaderboardSetUsernameAboveNudgeText": "Lege oben auf dieser Seite einen Bestenlisten-Benutzernamen fest, um in der Bestenliste zu erscheinen.",
     "streakValueText": "Serie: {streak}",
     "daysCompletedOutOfText": "{completed} Tage von den letzten {total} Tagen geschafft",
     "daysCompletedOutOfExpectedText": "Letzte {window} Tage: {completed} geschafft, {forgiven} Wochenendtage erlassen",
@@ -4722,7 +4724,10 @@
         "deleteRepeatingTaskTitleText": "Wiederkehrende Aufgabe löschen",
         "deleteRepeatingTaskMessageText": "Wenn du diese Aufgabe löschst, wiederholt sie sich nicht mehr. Erledigte bleiben in deinem Verlauf, außer du löschst auch sie.",
         "deleteRepeatingTaskStopText": "Löschen und Wiederholung beenden",
-        "deleteRepeatingTaskAllText": "Alle löschen, mit Verlauf"
+        "deleteRepeatingTaskAllText": "Alle löschen, mit Verlauf",
+        "rescheduleText": "Neu planen",
+        "changeDueDateText": "Fälligkeitsdatum ändern",
+        "currentDueDateText": "Derzeit fällig: <DATE>"
   },
   "localForecastViewInfo": {
     "taskProjectPicker": "Projekt",
@@ -5164,6 +5169,8 @@
     "tasksNewProjectSave": "Speichern",
     "tasksNewProjectCreate": "Erstellen",
     "tasksSnooze": "Verschieben",
+    "tasksReschedule": "Neu planen",
+    "tasksCurrentlyPlannedFor": "Derzeit geplant für %@",
     "tasksRemove": "Entfernen",
     "tasksDetailsTitle": "Aufgabendetails",
       "dayFixLink": "Anpassen",
