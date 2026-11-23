@@ -6459,7 +6459,10 @@
         "toolUnlocksOpenDayPlan": "Open Day Plan",
         "toolUnlocksUnlocked": "Unlocked: <TOOLS>",
         "toolUnlocksListAnd": "and",
-        "toolUnlocksRowHint": "Shows how to unlock them"
+        "toolUnlocksRowHint": "Shows how to unlock them",
+        "toolUnlocksNextCreateAccount": "Create an account",
+        "toolUnlocksExplainCreateAccount": "Create an account, then connect your calendar on the Focus Bear dashboard to unlock the time awareness tools: <TOOLS>.",
+        "toolUnlocksCalendarNeedsAccount": "Calendars are connected on the Focus Bear dashboard, which needs an account. Create one first, then connect your calendar."
     },
     "browsersTabAuditVcInfo":{
         "title": "Tab Audit",

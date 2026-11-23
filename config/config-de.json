@@ -6024,7 +6024,10 @@
     "toolUnlocksOpenDayPlan": "Tagesplan öffnen",
     "toolUnlocksUnlocked": "Freigeschaltet: <TOOLS>",
     "toolUnlocksListAnd": "und",
-    "toolUnlocksRowHint": "Zeigt, wie du sie freischaltest"
+    "toolUnlocksRowHint": "Zeigt, wie du sie freischaltest",
+    "toolUnlocksNextCreateAccount": "Erstelle ein Konto",
+    "toolUnlocksExplainCreateAccount": "Erstelle ein Konto und verbinde dann deinen Kalender im Focus-Bear-Dashboard, um die Tools für Zeitbewusstsein freizuschalten: <TOOLS>.",
+    "toolUnlocksCalendarNeedsAccount": "Kalender werden im Focus-Bear-Dashboard verbunden, und dafür brauchst du ein Konto. Erstelle zuerst eines und verbinde dann deinen Kalender."
   },
   "browsersTabAuditVcInfo": {
     "title": "Tab-Audit",
