@@ -6024,7 +6024,10 @@
     "toolUnlocksOpenDayPlan": "Otwórz Plan dnia",
     "toolUnlocksUnlocked": "Odblokowano: <TOOLS>",
     "toolUnlocksListAnd": "i",
-    "toolUnlocksRowHint": "Pokazuje, jak je odblokować"
+    "toolUnlocksRowHint": "Pokazuje, jak je odblokować",
+    "toolUnlocksNextCreateAccount": "Utwórz konto",
+    "toolUnlocksExplainCreateAccount": "Utwórz konto, a potem połącz swój kalendarz w panelu Focus Bear, aby odblokować narzędzia świadomości czasu: <TOOLS>.",
+    "toolUnlocksCalendarNeedsAccount": "Kalendarze łączy się w panelu Focus Bear, który wymaga konta. Najpierw utwórz konto, a potem połącz swój kalendarz."
   },
   "browsersTabAuditVcInfo": {
     "title": "Audyt kart",

@@ -6469,7 +6469,10 @@
         "toolUnlocksOpenDayPlan": "Abrir el Plan del día",
         "toolUnlocksUnlocked": "Desbloqueado: <TOOLS>",
         "toolUnlocksListAnd": "y",
-        "toolUnlocksRowHint": "Muestra cómo desbloquearlas"
+        "toolUnlocksRowHint": "Muestra cómo desbloquearlas",
+        "toolUnlocksNextCreateAccount": "Crea una cuenta",
+        "toolUnlocksExplainCreateAccount": "Crea una cuenta y luego conecta tu calendario en el panel de Focus Bear para desbloquear las herramientas de conciencia del tiempo: <TOOLS>.",
+        "toolUnlocksCalendarNeedsAccount": "Los calendarios se conectan en el panel de Focus Bear, que requiere una cuenta. Crea una primero y luego conecta tu calendario."
     },
     "browsersTabAuditVcInfo":{
         "title": "Auditoría de pestañas",

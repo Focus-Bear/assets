@@ -6024,7 +6024,10 @@
     "toolUnlocksOpenDayPlan": "Ouvrir le Plan de journée",
     "toolUnlocksUnlocked": "Débloqué : <TOOLS>",
     "toolUnlocksListAnd": "et",
-    "toolUnlocksRowHint": "Montre comment les débloquer"
+    "toolUnlocksRowHint": "Montre comment les débloquer",
+    "toolUnlocksNextCreateAccount": "Crée un compte",
+    "toolUnlocksExplainCreateAccount": "Crée un compte, puis connecte ton calendrier depuis le tableau de bord Focus Bear pour débloquer les outils de conscience du temps : <TOOLS>.",
+    "toolUnlocksCalendarNeedsAccount": "Les calendriers se connectent depuis le tableau de bord Focus Bear, qui demande un compte. Crée-en un d’abord, puis connecte ton calendrier."
   },
   "browsersTabAuditVcInfo": {
     "title": "Audit des onglets",
