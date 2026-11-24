@@ -8532,6 +8532,19 @@
     "moodOkay": "Okay",
     "moodGood": "Good",
     "moodGreat": "Great",
-    "errorUnreachable": "Couldn't reach the server. Try again."
+    "errorUnreachable": "Couldn't reach the server. Try again.",
+    "hoursFocused": "Hours focused",
+    "hoursFocusedSummary": "Built in · your focus time today",
+    "hideFromDayPlan": "Hide personal metrics",
+    "hideFromDayPlanHelp": "Hide from the Day Plan. Show them again from the ⚙️ Day Plan settings.",
+    "showOnDayPlan": "Show personal metrics",
+    "pickEmoji": "Choose emoji",
+    "emojiSearch": "Search emoji, or paste one",
+    "emojiNoMatches": "No emoji match that",
+    "emojiNone": "No emoji",
+    "answerWith": "Answer with",
+    "answerNumberRange": "Number range",
+    "moodPreviewHelp": "Answered with the five mood faces",
+    "moodMetricName": "Mood"
   }
 }

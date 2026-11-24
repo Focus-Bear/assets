@@ -8526,6 +8526,19 @@
     "moodOkay": "Correct",
     "moodGood": "Bien",
     "moodGreat": "Très bien",
-    "errorUnreachable": "Serveur injoignable. Réessayez."
+    "errorUnreachable": "Serveur injoignable. Réessayez.",
+    "hoursFocused": "Heures de concentration",
+    "hoursFocusedSummary": "Intégrée · ton temps de concentration aujourd’hui",
+    "hideFromDayPlan": "Masquer les métriques personnelles",
+    "hideFromDayPlanHelp": "Masquer du Plan du jour. Réaffiche-les depuis les réglages ⚙️ du Plan du jour.",
+    "showOnDayPlan": "Afficher les métriques personnelles",
+    "pickEmoji": "Choisir un emoji",
+    "emojiSearch": "Cherche un emoji ou colle-le",
+    "emojiNoMatches": "Aucun emoji ne correspond",
+    "emojiNone": "Aucun emoji",
+    "answerWith": "Répondre avec",
+    "answerNumberRange": "Plage de nombres",
+    "moodPreviewHelp": "Réponse avec les cinq visages d’humeur",
+    "moodMetricName": "Humeur"
   }
 }

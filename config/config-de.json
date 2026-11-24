@@ -8526,6 +8526,19 @@
     "moodOkay": "Okay",
     "moodGood": "Gut",
     "moodGreat": "Großartig",
-    "errorUnreachable": "Server nicht erreichbar. Bitte erneut versuchen."
+    "errorUnreachable": "Server nicht erreichbar. Bitte erneut versuchen.",
+    "hoursFocused": "Fokussierte Stunden",
+    "hoursFocusedSummary": "Integriert · deine heutige Fokuszeit",
+    "hideFromDayPlan": "Persönliche Kennzahlen ausblenden",
+    "hideFromDayPlanHelp": "Aus dem Tagesplan ausblenden. In den ⚙️ Tagesplan-Einstellungen wieder einblenden.",
+    "showOnDayPlan": "Persönliche Kennzahlen anzeigen",
+    "pickEmoji": "Emoji auswählen",
+    "emojiSearch": "Emoji suchen oder einfügen",
+    "emojiNoMatches": "Kein passendes Emoji",
+    "emojiNone": "Kein Emoji",
+    "answerWith": "Antworten mit",
+    "answerNumberRange": "Zahlenbereich",
+    "moodPreviewHelp": "Antwort mit den fünf Stimmungsgesichtern",
+    "moodMetricName": "Stimmung"
   }
 }

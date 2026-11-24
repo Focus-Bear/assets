@@ -8542,6 +8542,19 @@
     "moodOkay": "Normal",
     "moodGood": "Bien",
     "moodGreat": "Genial",
-    "errorUnreachable": "No se pudo conectar con el servidor. Inténtalo de nuevo."
+    "errorUnreachable": "No se pudo conectar con el servidor. Inténtalo de nuevo.",
+    "hoursFocused": "Horas de concentración",
+    "hoursFocusedSummary": "Integrada · tu tiempo de concentración de hoy",
+    "hideFromDayPlan": "Ocultar métricas personales",
+    "hideFromDayPlanHelp": "Ocultar del Plan del día. Vuelve a mostrarlas desde la configuración ⚙️ del Plan del día.",
+    "showOnDayPlan": "Mostrar métricas personales",
+    "pickEmoji": "Elegir emoji",
+    "emojiSearch": "Busca un emoji o pega uno",
+    "emojiNoMatches": "Ningún emoji coincide",
+    "emojiNone": "Sin emoji",
+    "answerWith": "Responder con",
+    "answerNumberRange": "Rango numérico",
+    "moodPreviewHelp": "Se responde con las cinco caras de ánimo",
+    "moodMetricName": "Ánimo"
   }
 }

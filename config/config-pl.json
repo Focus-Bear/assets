@@ -8526,6 +8526,19 @@
     "moodOkay": "W porządku",
     "moodGood": "Dobrze",
     "moodGreat": "Świetnie",
-    "errorUnreachable": "Nie udało się połączyć z serwerem. Spróbuj ponownie."
+    "errorUnreachable": "Nie udało się połączyć z serwerem. Spróbuj ponownie.",
+    "hoursFocused": "Godziny skupienia",
+    "hoursFocusedSummary": "Wbudowana · twój dzisiejszy czas skupienia",
+    "hideFromDayPlan": "Ukryj osobiste wskaźniki",
+    "hideFromDayPlanHelp": "Ukryj w Planie dnia. Pokaż je ponownie w ustawieniach ⚙️ Planu dnia.",
+    "showOnDayPlan": "Pokaż osobiste wskaźniki",
+    "pickEmoji": "Wybierz emoji",
+    "emojiSearch": "Wyszukaj emoji lub wklej",
+    "emojiNoMatches": "Brak pasujących emoji",
+    "emojiNone": "Bez emoji",
+    "answerWith": "Odpowiedź za pomocą",
+    "answerNumberRange": "Zakres liczb",
+    "moodPreviewHelp": "Odpowiedź za pomocą pięciu buziek nastroju",
+    "moodMetricName": "Nastrój"
   }
 }
