@@ -5452,6 +5452,7 @@
     "customRoutineDraftSaveHint": "Änderungen bleiben Entwurf, bis du im Tagesplan auf „Änderungen speichern“ tippst.",
     "routineNameBreaks": "Mikropausen",
     "habitFieldOfficeFriendly": "Übung im Sitzen (im Büromodus angeboten)",
+    "habitFieldIncludeInEveryBreak": "In jeder Pause anzeigen",
     "draftSaving": "Wird gespeichert…",
     "routineAutosaveSaved": "Gespeichert",
     "routineAutosaveFailed": "Speichern fehlgeschlagen",

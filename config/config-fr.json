@@ -5454,6 +5454,7 @@
     "customRoutineDraftSaveHint": "Les changements restent en brouillon jusqu'à « Enregistrer les changements » dans le plan de journée.",
     "routineNameBreaks": "Micro-pauses",
     "habitFieldOfficeFriendly": "Exercice sur chaise (proposé en mode bureau)",
+    "habitFieldIncludeInEveryBreak": "Inclure à chaque pause",
     "draftSaving": "Enregistrement…",
     "routineAutosaveSaved": "Enregistré",
     "routineAutosaveFailed": "Échec de l'enregistrement",

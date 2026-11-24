@@ -5452,6 +5452,7 @@
     "customRoutineDraftSaveHint": "Zmiany pozostają szkicem, dopóki nie klikniesz „Zapisz zmiany” w planie dnia.",
     "routineNameBreaks": "Mikroprzerwy",
     "habitFieldOfficeFriendly": "Ćwiczenie na krześle (w trybie biurowym)",
+    "habitFieldIncludeInEveryBreak": "Uwzględnij w każdej przerwie",
     "draftSaving": "Zapisywanie…",
     "routineAutosaveSaved": "Zapisano",
     "routineAutosaveFailed": "Nie udało się zapisać",

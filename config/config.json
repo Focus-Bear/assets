@@ -5845,6 +5845,7 @@
         "customRoutineDraftSaveHint": "Changes are drafted until you press “Save changes” on the Day Plan.",
         "routineNameBreaks": "Micro breaks",
         "habitFieldOfficeFriendly": "Chair exercise (offered in office mode)",
+        "habitFieldIncludeInEveryBreak": "Include in every break",
         "draftSaving": "Saving…",
         "routineAutosaveSaved": "Saved",
         "routineAutosaveFailed": "Couldn't save",

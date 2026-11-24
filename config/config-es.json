@@ -5859,6 +5859,7 @@
         "customRoutineDraftSaveHint": "Los cambios quedan en borrador hasta que pulses «Guardar cambios» en el Plan del día.",
         "routineNameBreaks": "Microdescansos",
         "habitFieldOfficeFriendly": "Ejercicio en silla (se ofrece en modo oficina)",
+        "habitFieldIncludeInEveryBreak": "Incluir en cada pausa",
         "draftSaving": "Guardando…",
         "routineAutosaveSaved": "Guardado",
         "routineAutosaveFailed": "No se pudo guardar",
