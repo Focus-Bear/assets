@@ -317,6 +317,7 @@
         "buttonInstructionsText": "Instructions",
         "buttonChooseVideoText": "Choose a different video",
         "buttonActivityDoneText": "I'm done",
+        "earnMoreHatsWithTimer": "Earn more hats by using the timer during habits",
         "startNonTimerActivityButtonText": "Start <NAME>",
         "startNonTimerBreakActivityTitleText": "It’s time for a micro break. Let’s do <ACTIVITY> to keep your mind and body sharp.",
         "completionRequirementsText": "Complete After: <REQUIREMENTS>",

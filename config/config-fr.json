@@ -288,6 +288,7 @@
     "buttonInstructionsText": "Instructions",
     "buttonChooseVideoText": "Choisir une autre vidéo",
     "buttonActivityDoneText": "J'ai terminé",
+    "earnMoreHatsWithTimer": "Gagne plus de chapeaux en utilisant le minuteur pendant tes habitudes",
     "startNonTimerActivityButtonText": "Démarrer <NAME>",
     "startNonTimerBreakActivityTitleText": "C'est l'heure d'une micro-pause. Faisons <ACTIVITY> pour garder l'esprit et le corps en forme.",
     "completionRequirementsText": "À terminer après : <REQUIREMENTS>",
