@@ -6133,6 +6133,7 @@
     "reportBadAiTooltip": "Schlechte KI-Entscheidung melden",
     "reportBadAiDone": "Danke — zur Prüfung gemeldet",
     "reportBadAiDoneAllowed": "Danke — zur Prüfung gemeldet. Für diese Fokus-Sitzung erlaubt.",
+    "reportBadAiDoneStrict": "Danke — zur Prüfung gemeldet. Bleibt blockiert, solange das strenge Blockieren aktiv ist.",
     "aiReasonPrefix": "KI-Grund:",
     "alignmentScorePrefix": "Fokus-Übereinstimmung:",
     "aiDecisionNoDetail": "Für diese Entscheidung wurde kein KI-Grund festgehalten.",
