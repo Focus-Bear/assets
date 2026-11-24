@@ -6133,6 +6133,7 @@
     "reportBadAiTooltip": "Zgłoś złą decyzję AI",
     "reportBadAiDone": "Dzięki — zgłoszono do przeglądu",
     "reportBadAiDoneAllowed": "Dzięki — zgłoszono do przeglądu. Dozwolone w tej sesji skupienia.",
+    "reportBadAiDoneStrict": "Dzięki — zgłoszono do przeglądu. Pozostaje zablokowane, dopóki rygorystyczne blokowanie jest włączone.",
     "aiReasonPrefix": "Powód AI:",
     "alignmentScorePrefix": "Zgodność ze skupieniem:",
     "aiDecisionNoDetail": "Nie zapisano powodu AI dla tej decyzji.",

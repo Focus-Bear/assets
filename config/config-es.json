@@ -6580,6 +6580,7 @@
         "reportBadAiTooltip": "Informar de una mala decisión de la IA",
         "reportBadAiDone": "Gracias — enviado para revisión",
         "reportBadAiDoneAllowed": "Gracias — enviado para revisión. Está permitido durante esta sesión de enfoque.",
+        "reportBadAiDoneStrict": "Gracias — enviado para revisión. Sigue bloqueado mientras el bloqueo estricto esté activo.",
         "aiReasonPrefix": "Motivo de la IA:",
         "alignmentScorePrefix": "Alineación con el enfoque:",
         "aiDecisionNoDetail": "No se registró ningún motivo de la IA para esta decisión.",
