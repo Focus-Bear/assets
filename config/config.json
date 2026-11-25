@@ -54,7 +54,7 @@
   "featureSwitches": {
     "localRelevanceModel": {
       "enabled": true,
-      "rolloutPercent": 100
+      "rolloutPercent": 10
     }
   },
   "sessionExpiredInfo": {
