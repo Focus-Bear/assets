@@ -4652,6 +4652,7 @@
         "cardDurationSpokenOneMinuteText": "Czas trwania: 1 minuta",
         "showSubtasksText": "Pokaż podzadania",
         "hideSubtasksText": "Ukryj podzadania",
+        "addSubtaskToTaskText": "Dodaj podzadanie do <TITLE>",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
     "mergeProjectText": "Scal z innym projektem…",
     "mergeProjectTitleText": "Scal <PROJECT> z…",
