@@ -8546,6 +8546,7 @@
     "lastBreak": "Last break",
     "breaksToday": "Today's breaks",
     "breakStartedLasted": "%@ · lasted %@",
+    "breaksTotal": "%@ total",
     "breakKindNatural": "Natural break",
     "breakKindFocusBear": "Focus Bear break",
     "focusReportTitle": "Today's focus",

@@ -8540,6 +8540,7 @@
     "lastBreak": "Ostatnia przerwa",
     "breaksToday": "Dzisiejsze przerwy",
     "breakStartedLasted": "%@ · trwała %@",
+    "breaksTotal": "łącznie %@",
     "breakKindNatural": "Naturalna przerwa",
     "breakKindFocusBear": "Przerwa Focus Bear",
     "focusReportTitle": "Dzisiejsze skupienie",

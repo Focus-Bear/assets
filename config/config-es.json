@@ -8556,6 +8556,7 @@
     "lastBreak": "Último descanso",
     "breaksToday": "Descansos de hoy",
     "breakStartedLasted": "%@ · duró %@",
+    "breaksTotal": "%@ en total",
     "breakKindNatural": "Descanso natural",
     "breakKindFocusBear": "Descanso de Focus Bear",
     "focusReportTitle": "Enfoque de hoy",
