@@ -8585,7 +8585,6 @@
     "moodMetricName": "Ánimo",
     "fieldGoal": "Objetivo diario",
     "goalPlaceholder": "Opcional",
-    "goalHintLimit": "Por debajo de %d, “+” suma 1 cada vez. Con un objetivo mayor o sin objetivo, pregunta cuánto.",
     "goalInvalid": "Introduce un número mayor que 0 o déjalo en blanco.",
     "goalProgress": "%1$@ / %2$@",
     "goalProgressSpoken": "%1$@ de %2$@",

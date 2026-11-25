@@ -8569,7 +8569,6 @@
     "moodMetricName": "Humeur",
     "fieldGoal": "Objectif quotidien",
     "goalPlaceholder": "Facultatif",
-    "goalHintLimit": "En dessous de %d, « + » ajoute 1 à la fois. Avec un objectif plus élevé ou sans objectif, il demande la quantité.",
     "goalInvalid": "Saisissez un nombre supérieur à 0, ou laissez vide.",
     "goalProgress": "%1$@ / %2$@",
     "goalProgressSpoken": "%1$@ sur %2$@",

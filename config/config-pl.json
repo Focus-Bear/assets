@@ -8569,7 +8569,6 @@
     "moodMetricName": "Nastrój",
     "fieldGoal": "Cel dzienny",
     "goalPlaceholder": "Opcjonalnie",
-    "goalHintLimit": "Poniżej %d „+” dodaje po 1. Przy większym celu lub bez celu pyta o ilość.",
     "goalInvalid": "Wpisz liczbę większą od 0 albo zostaw puste.",
     "goalProgress": "%1$@ / %2$@",
     "goalProgressSpoken": "%1$@ z %2$@",
