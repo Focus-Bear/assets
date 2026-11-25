@@ -8566,6 +8566,12 @@
     "answerWith": "Odpowiedź za pomocą",
     "answerNumberRange": "Zakres liczb",
     "moodPreviewHelp": "Odpowiedź za pomocą pięciu buziek nastroju",
-    "moodMetricName": "Nastrój"
+    "moodMetricName": "Nastrój",
+    "quickAddHelp": "Dodaj %1$@ do: %2$@. Kliknij prawym przyciskiem lub z ⌥, aby dodać inną ilość.",
+    "addDifferentAmount": "Dodaj inną ilość…",
+    "quickAddAddedAmount": "+%@",
+    "quickAddAnnouncement": "Dodano %1$@ do: %2$@",
+    "quickAddUndo": "Cofnij",
+    "quickAddUndoHelp": "Cofnij dodanie %@"
   }
 }
