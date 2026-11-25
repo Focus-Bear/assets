@@ -5498,6 +5498,8 @@
       "eventScopeTitle": "To jest wydarzenie cykliczne",
       "habitSkipAhead": "Pomiń",
       "habitUnskipAhead": "Cofnij pominięcie",
+      "habitMoreActions": "Więcej",
+      "habitMoreActionsHelp": "Więcej działań dla tego nawyku",
     "habitStartRoutineHere": "Rozpocznij",
     "routineRestart": "Uruchom rutynę ponownie",
     "routineStartBlockedFocusSession": "Najpierw zakończ sesję skupienia, a potem rozpocznij rutynę.",

@@ -5902,6 +5902,8 @@
         "eventScopeTitle": "Este es un evento que se repite",
         "habitSkipAhead": "Omitir",
         "habitUnskipAhead": "No omitir",
+        "habitMoreActions": "Más",
+        "habitMoreActionsHelp": "Más acciones para este hábito",
       "tasksShortcutProject": "#proyecto — archiva la tarea en un proyecto",
       "tasksShortcutsTitle": "Atajos que puedes escribir en el nombre",
       "habitStartRoutineHere": "Empezar",
