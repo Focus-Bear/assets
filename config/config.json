@@ -8572,6 +8572,13 @@
     "answerWith": "Answer with",
     "answerNumberRange": "Number range",
     "moodPreviewHelp": "Answered with the five mood faces",
-    "moodMetricName": "Mood"
+    "moodMetricName": "Mood",
+    "fieldGoal": "Daily goal",
+    "goalPlaceholder": "Optional",
+    "goalHintLimit": "Under %d, “+” adds 1 at a time. With a bigger goal or none, it asks how much.",
+    "goalInvalid": "Enter a number above 0, or leave it blank.",
+    "goalProgress": "%1$@ / %2$@",
+    "goalProgressSpoken": "%1$@ of %2$@",
+    "goalSummary": "Goal %@"
   }
 }
