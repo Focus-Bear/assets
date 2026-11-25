@@ -5498,6 +5498,8 @@
       "eventScopeTitle": "Das ist ein wiederkehrender Termin",
       "habitSkipAhead": "Überspringen",
       "habitUnskipAhead": "Nicht überspringen",
+      "habitMoreActions": "Mehr",
+      "habitMoreActionsHelp": "Weitere Aktionen für diese Gewohnheit",
     "habitStartRoutineHere": "Starten",
     "routineRestart": "Routine neu starten",
     "routineStartBlockedFocusSession": "Beende zuerst die Fokussitzung und starte dann die Routine.",

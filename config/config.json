@@ -5888,6 +5888,8 @@
         "eventScopeTitle": "This is a repeating event",
         "habitSkipAhead": "Skip",
         "habitUnskipAhead": "Unskip",
+        "habitMoreActions": "More",
+        "habitMoreActionsHelp": "More actions for this habit",
       "tasksShortcutDurationWords": "30m, 2h or 1h30m — set the duration in words",
       "tasksShortcutMinutes": "*15 — set the duration to 15 minutes",
       "tasksShortcutPriority": "!1 to !5 — set importance (!5 is the most important)",
