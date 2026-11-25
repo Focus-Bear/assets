@@ -8566,6 +8566,12 @@
     "answerWith": "Antworten mit",
     "answerNumberRange": "Zahlenbereich",
     "moodPreviewHelp": "Antwort mit den fünf Stimmungsgesichtern",
-    "moodMetricName": "Stimmung"
+    "moodMetricName": "Stimmung",
+    "fieldGoal": "Tagesziel",
+    "goalPlaceholder": "Optional",
+    "goalInvalid": "Gib eine Zahl über 0 ein oder lass das Feld leer.",
+    "goalProgress": "%1$@ / %2$@",
+    "goalProgressSpoken": "%1$@ von %2$@",
+    "goalSummary": "Ziel %@"
   }
 }

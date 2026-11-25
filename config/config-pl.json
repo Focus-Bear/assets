@@ -8566,6 +8566,12 @@
     "answerWith": "Odpowiedź za pomocą",
     "answerNumberRange": "Zakres liczb",
     "moodPreviewHelp": "Odpowiedź za pomocą pięciu buziek nastroju",
-    "moodMetricName": "Nastrój"
+    "moodMetricName": "Nastrój",
+    "fieldGoal": "Cel dzienny",
+    "goalPlaceholder": "Opcjonalnie",
+    "goalInvalid": "Wpisz liczbę większą od 0 albo zostaw puste.",
+    "goalProgress": "%1$@ / %2$@",
+    "goalProgressSpoken": "%1$@ z %2$@",
+    "goalSummary": "Cel %@"
   }
 }
