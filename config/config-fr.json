@@ -4652,6 +4652,7 @@
         "cardDurationSpokenOneMinuteText": "Durée 1 minute",
         "showSubtasksText": "Afficher les sous-tâches",
         "hideSubtasksText": "Masquer les sous-tâches",
+        "addSubtaskToTaskText": "Ajouter une sous-tâche à <TITLE>",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
     "mergeProjectText": "Fusionner dans un autre projet…",
     "mergeProjectTitleText": "Fusionner <PROJECT> dans…",

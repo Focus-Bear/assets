@@ -4654,6 +4654,7 @@
         "cardDurationSpokenOneMinuteText": "Dauer 1 Minute",
         "showSubtasksText": "Teilaufgaben anzeigen",
         "hideSubtasksText": "Teilaufgaben ausblenden",
+        "addSubtaskToTaskText": "Teilaufgabe zu <TITLE> hinzufügen",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
     "mergeProjectText": "Mit anderem Projekt zusammenführen…",
     "mergeProjectTitleText": "<PROJECT> zusammenführen mit…",

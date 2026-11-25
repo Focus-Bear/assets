@@ -5057,6 +5057,7 @@
         "cardDurationSpokenOneMinuteText": "Duration 1 minute",
         "showSubtasksText": "Show subtasks",
         "hideSubtasksText": "Hide subtasks",
+        "addSubtaskToTaskText": "Add subtask to <TITLE>",
         "assigneeFilterOptionText": "<NAME> (<COUNT>)",
         "mergeProjectText": "Merge into another project…",
         "mergeProjectTitleText": "Merge <PROJECT> into…",
