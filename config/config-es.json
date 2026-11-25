@@ -8582,6 +8582,12 @@
     "answerWith": "Responder con",
     "answerNumberRange": "Rango numérico",
     "moodPreviewHelp": "Se responde con las cinco caras de ánimo",
-    "moodMetricName": "Ánimo"
+    "moodMetricName": "Ánimo",
+    "quickAddHelp": "Añadir %1$@ a %2$@. Haz clic derecho o ⌥-clic para añadir otra cantidad.",
+    "addDifferentAmount": "Añadir otra cantidad…",
+    "quickAddAddedAmount": "+%@",
+    "quickAddAnnouncement": "Se añadió %1$@ a %2$@",
+    "quickAddUndo": "Deshacer",
+    "quickAddUndoHelp": "Deshacer: añadir %@"
   }
 }

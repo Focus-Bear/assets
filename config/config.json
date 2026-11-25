@@ -8572,6 +8572,12 @@
     "answerWith": "Answer with",
     "answerNumberRange": "Number range",
     "moodPreviewHelp": "Answered with the five mood faces",
-    "moodMetricName": "Mood"
+    "moodMetricName": "Mood",
+    "quickAddHelp": "Add %1$@ to %2$@. Right-click or ⌥-click to add a different amount.",
+    "addDifferentAmount": "Add a different amount…",
+    "quickAddAddedAmount": "+%@",
+    "quickAddAnnouncement": "Added %1$@ to %2$@",
+    "quickAddUndo": "Undo",
+    "quickAddUndoHelp": "Undo adding %@"
   }
 }

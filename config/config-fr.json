@@ -8566,6 +8566,12 @@
     "answerWith": "Répondre avec",
     "answerNumberRange": "Plage de nombres",
     "moodPreviewHelp": "Réponse avec les cinq visages d’humeur",
-    "moodMetricName": "Humeur"
+    "moodMetricName": "Humeur",
+    "quickAddHelp": "Ajouter %1$@ à %2$@. Clic droit ou ⌥-clic pour ajouter une autre quantité.",
+    "addDifferentAmount": "Ajouter une autre quantité…",
+    "quickAddAddedAmount": "+%@",
+    "quickAddAnnouncement": "%1$@ ajouté à %2$@",
+    "quickAddUndo": "Annuler",
+    "quickAddUndoHelp": "Annuler l'ajout de %@"
   }
 }

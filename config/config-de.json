@@ -8566,6 +8566,12 @@
     "answerWith": "Antworten mit",
     "answerNumberRange": "Zahlenbereich",
     "moodPreviewHelp": "Antwort mit den fünf Stimmungsgesichtern",
-    "moodMetricName": "Stimmung"
+    "moodMetricName": "Stimmung",
+    "quickAddHelp": "%1$@ zu %2$@ hinzufügen. Rechtsklick oder ⌥-Klick für eine andere Menge.",
+    "addDifferentAmount": "Andere Menge hinzufügen…",
+    "quickAddAddedAmount": "+%@",
+    "quickAddAnnouncement": "%1$@ zu %2$@ hinzugefügt",
+    "quickAddUndo": "Rückgängig",
+    "quickAddUndoHelp": "Hinzufügen von %@ rückgängig machen"
   }
 }
