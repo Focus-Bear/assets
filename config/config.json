@@ -8572,6 +8572,16 @@
     "answerWith": "Answer with",
     "answerNumberRange": "Number range",
     "moodPreviewHelp": "Answered with the five mood faces",
-    "moodMetricName": "Mood"
+    "moodMetricName": "Mood",
+    "metricHistoryHelp": "Show today's entries",
+    "metricHistoryTitle": "%@ today",
+    "metricHistoryLoading": "Loading today's entries…",
+    "metricHistoryEmpty": "No entries today",
+    "metricHistoryFromHabit": "From a habit",
+    "metricHistoryThisMacOnly": "Couldn't reach the server, so this shows only what this Mac logged today.",
+    "metricHistorySaving": "Saving…",
+    "metricHistoryDelete": "Delete %1$@ logged at %2$@",
+    "metricHistoryDeleted": "Entry deleted",
+    "metricHistoryUndoHelp": "Undo deleting %@"
   }
 }

@@ -8566,6 +8566,16 @@
     "answerWith": "Odpowiedź za pomocą",
     "answerNumberRange": "Zakres liczb",
     "moodPreviewHelp": "Odpowiedź za pomocą pięciu buziek nastroju",
-    "moodMetricName": "Nastrój"
+    "moodMetricName": "Nastrój",
+    "metricHistoryHelp": "Pokaż dzisiejsze wpisy",
+    "metricHistoryTitle": "%@ dzisiaj",
+    "metricHistoryLoading": "Wczytywanie dzisiejszych wpisów…",
+    "metricHistoryEmpty": "Brak wpisów dzisiaj",
+    "metricHistoryFromHabit": "Z nawyku",
+    "metricHistoryThisMacOnly": "Nie udało się połączyć z serwerem, więc widać tylko to, co ten Mac zapisał dzisiaj.",
+    "metricHistorySaving": "Zapisywanie…",
+    "metricHistoryDelete": "Usuń %1$@ zapisane o %2$@",
+    "metricHistoryDeleted": "Wpis usunięty",
+    "metricHistoryUndoHelp": "Cofnij usunięcie %@"
   }
 }

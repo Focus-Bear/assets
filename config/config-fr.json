@@ -8566,6 +8566,16 @@
     "answerWith": "Répondre avec",
     "answerNumberRange": "Plage de nombres",
     "moodPreviewHelp": "Réponse avec les cinq visages d’humeur",
-    "moodMetricName": "Humeur"
+    "moodMetricName": "Humeur",
+    "metricHistoryHelp": "Afficher les entrées d'aujourd'hui",
+    "metricHistoryTitle": "%@ aujourd'hui",
+    "metricHistoryLoading": "Chargement des entrées d'aujourd'hui…",
+    "metricHistoryEmpty": "Aucune entrée aujourd'hui",
+    "metricHistoryFromHabit": "D'une habitude",
+    "metricHistoryThisMacOnly": "Impossible de joindre le serveur : seules les entrées de ce Mac pour aujourd'hui sont affichées.",
+    "metricHistorySaving": "Enregistrement…",
+    "metricHistoryDelete": "Supprimer %1$@ enregistré à %2$@",
+    "metricHistoryDeleted": "Entrée supprimée",
+    "metricHistoryUndoHelp": "Annuler la suppression de %@"
   }
 }

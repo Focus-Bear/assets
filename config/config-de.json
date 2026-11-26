@@ -8566,6 +8566,16 @@
     "answerWith": "Antworten mit",
     "answerNumberRange": "Zahlenbereich",
     "moodPreviewHelp": "Antwort mit den fünf Stimmungsgesichtern",
-    "moodMetricName": "Stimmung"
+    "moodMetricName": "Stimmung",
+    "metricHistoryHelp": "Heutige Einträge anzeigen",
+    "metricHistoryTitle": "%@ heute",
+    "metricHistoryLoading": "Heutige Einträge werden geladen…",
+    "metricHistoryEmpty": "Heute keine Einträge",
+    "metricHistoryFromHabit": "Aus einer Gewohnheit",
+    "metricHistoryThisMacOnly": "Der Server war nicht erreichbar, daher siehst du nur, was dieser Mac heute erfasst hat.",
+    "metricHistorySaving": "Wird gespeichert…",
+    "metricHistoryDelete": "%1$@ (erfasst um %2$@) löschen",
+    "metricHistoryDeleted": "Eintrag gelöscht",
+    "metricHistoryUndoHelp": "Löschen von %@ rückgängig machen"
   }
 }
