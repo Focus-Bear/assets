@@ -6285,6 +6285,7 @@
         "blockingSystemEventsLimited": "macOS indica que falta el permiso de Eventos del Sistema. Algunos controles de ventanas pueden verse afectados; el bloqueo del navegador puede seguir funcionando.",
         "blockingOffTitle": "El bloqueo está desactivado",
         "blockingOffWhy": "¿Por qué?",
+        "blockingOffDismiss": "Descartar",
         "blockingOffDeactivated": "Focus Bear está desactivado, así que no se está bloqueando nada.",
         "blockingOffPermissions": "A Focus Bear le faltan los permisos de macOS que necesita para bloquear sitios web y aplicaciones.",
         "blockingOffNoSchedule": "El bloqueo se activa durante las sesiones de concentración. Añade un horario de bloqueo si quieres que también se active solo a ciertas horas.",
