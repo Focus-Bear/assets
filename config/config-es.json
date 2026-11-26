@@ -8582,6 +8582,16 @@
     "answerWith": "Responder con",
     "answerNumberRange": "Rango numérico",
     "moodPreviewHelp": "Se responde con las cinco caras de ánimo",
-    "moodMetricName": "Ánimo"
+    "moodMetricName": "Ánimo",
+    "metricHistoryHelp": "Mostrar las entradas de hoy",
+    "metricHistoryTitle": "%@ hoy",
+    "metricHistoryLoading": "Cargando las entradas de hoy…",
+    "metricHistoryEmpty": "No hay entradas hoy",
+    "metricHistoryFromHabit": "De un hábito",
+    "metricHistoryThisMacOnly": "No se pudo conectar con el servidor, así que solo se muestra lo que este Mac registró hoy.",
+    "metricHistorySaving": "Guardando…",
+    "metricHistoryDelete": "Eliminar %1$@ registrado a las %2$@",
+    "metricHistoryDeleted": "Entrada eliminada",
+    "metricHistoryUndoHelp": "Deshacer la eliminación de %@"
   }
 }
