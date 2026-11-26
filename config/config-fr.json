@@ -5754,6 +5754,7 @@
     "blockedOnBackendDetail": "La partie Mac est terminée, mais cela ne peut pas être testé tant qu’un changement du backend n’a pas été fusionné et déployé.",
     "noSearchMatches": "Aucun rapport ne correspond à ta recherche.",
     "openInPreview": "Ouvrir dans Aperçu",
+    "openingScreenshot": "Ouverture de la capture d'écran…",
     "pasteImage": "Coller une image",
     "pasteImageFailed": "Impossible de joindre cette image. Copie-la à nouveau et réessaie.",
     "pasteImageHint": "Copie une capture d’écran, puis colle-la ici.",

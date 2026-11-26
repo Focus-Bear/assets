@@ -5754,6 +5754,7 @@
     "blockedOnBackendDetail": "Część na Macu jest gotowa, ale nie da się tego przetestować, dopóki zmiana w backendzie nie zostanie scalona i wdrożona.",
     "noSearchMatches": "Żadne zgłoszenie nie pasuje do wyszukiwania.",
     "openInPreview": "Otwórz w Podglądzie",
+    "openingScreenshot": "Otwieranie zrzutu ekranu…",
     "pasteImage": "Wklej obraz",
     "pasteImageFailed": "Nie udało się załączyć tego obrazu. Skopiuj go ponownie i spróbuj jeszcze raz.",
     "pasteImageHint": "Skopiuj zrzut ekranu, a potem wklej go tutaj.",
