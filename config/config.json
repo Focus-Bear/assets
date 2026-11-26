@@ -6629,6 +6629,7 @@
         "aiBuddyRecoveryHoldHelp": "Keep it pressed, or focus the button and hold Space or Return. Let go and the 10 seconds start again.",
         "aiBuddyRecoveryRetry": "Try my buddy again",
         "aiBuddyStartForMinutes": "Start focus session · {minutes} minutes",
+        "aiBuddyStartForOneMinute": "Start focus session · 1 minute",
         "aiBuddyMeetingPausePrompt": "Your meeting session is holding your habits back. Why do you want to pause it instead of going back to your habits?",
         "aiBuddyMeetingPauseButton": "Pause meeting session",
         "aiBuddyMeetingStopPrompt": "Your meeting session is holding your habits back. Why do you want to end it early and keep putting your habits off?",

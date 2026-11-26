@@ -6192,6 +6192,7 @@
     "aiBuddyRecoveryHoldHelp": "Trzymaj przycisk wciśnięty albo zaznacz go i przytrzymaj Spację lub Enter. Po puszczeniu 10 sekund liczy się od nowa.",
     "aiBuddyRecoveryRetry": "Spróbuj ponownie z kumplem",
     "aiBuddyStartForMinutes": "Rozpocznij sesję skupienia · {minutes} minut",
+    "aiBuddyStartForOneMinute": "Rozpocznij sesję skupienia · 1 minuta",
     "aiBuddyMeetingPausePrompt": "Twoja sesja spotkania wstrzymuje Twoje nawyki. Dlaczego chcesz ją wstrzymać zamiast wrócić do nawyków?",
     "aiBuddyMeetingPauseButton": "Wstrzymaj sesję spotkania",
     "aiBuddyMeetingStopPrompt": "Twoja sesja spotkania wstrzymuje Twoje nawyki. Dlaczego chcesz zakończyć ją wcześniej i dalej odkładać nawyki?",
