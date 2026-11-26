@@ -7763,7 +7763,15 @@
         "showPagesText": "Mostrar páginas",
         "hidePagesText": "Ocultar páginas",
         "openFailedText": "No se pudo abrir este PDF.",
-        "retryText": "Reintentar"
+        "retryText": "Reintentar",
+        "searchText": "Buscar en el PDF",
+        "searchHelpText": "Busca palabras en este PDF (⌘F). Return va a la siguiente coincidencia, Mayúsculas-Return a la anterior y Escape borra la búsqueda.",
+        "searchMatchCountText": "<CURRENT> de <TOTAL>",
+        "searchNoMatchesText": "Sin coincidencias",
+        "nextMatchText": "Siguiente coincidencia",
+        "previousMatchText": "Coincidencia anterior",
+        "nextStepsText": "Próximos pasos",
+        "nextStepsInfoText": "Además de anotar el PDF, puedes escribir notas generales sobre lo que piensas hacer después. p. ej., “Buscar métodos de autorregulación”"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Adjunta un PDF a esta nota para escribir y dibujar en él. Los archivos de PowerPoint se convierten primero en PDF en este equipo, con PowerPoint.",
