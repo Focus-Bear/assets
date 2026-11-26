@@ -49,7 +49,23 @@
     "unitMinute": "min",
     "unitSecond": "s",
     "breakGroupTitle": "J'ai besoin d'une pause",
-    "focusGroupTitle": "Encore plus de concentration !"
+    "focusGroupTitle": "Encore plus de concentration !",
+    "detailClose": "Fermer",
+    "focusTimeDetailHeading": "Apps et sites web utilisés pendant cette session",
+    "distractionsDetailHeading": "Distractions consultées pendant cette session",
+    "columnRank": "#",
+    "columnApp": "App/Site web",
+    "columnTime": "Temps",
+    "columnShare": "% de la session",
+    "shareValue": "<PERCENT> %",
+    "shareBelow": "< <PERCENT> %",
+    "usageRowAccessibility": "<RANK>. <NAME>, <TIME>, <SHARE> de la session",
+    "alignmentInfo": "La part de cette session passée sur des apps et des sites web liés à ton objectif de concentration, mesurée toutes les 5 minutes.",
+    "alignmentPointTooltip": "Score d'alignement : <SCORE>",
+    "alignmentPointAccessibility": "<TIME>, score d'alignement <SCORE>",
+    "noUsage": "Aucune app ni aucun site web n'a été suivi pendant cette session.",
+    "noDistractions": "Aucune distraction pendant cette session. Bravo !",
+    "noAlignmentChart": "Cette session était trop courte pour afficher un graphique."
   },
   "featureSwitches": {
     "localRelevanceModel": {

@@ -49,7 +49,23 @@
     "unitMinute": "min",
     "unitSecond": "s",
     "breakGroupTitle": "Potrzebuję przerwy",
-    "focusGroupTitle": "Chcę więcej skupienia!"
+    "focusGroupTitle": "Chcę więcej skupienia!",
+    "detailClose": "Zamknij",
+    "focusTimeDetailHeading": "Aplikacje i strony używane podczas tej sesji",
+    "distractionsDetailHeading": "Rozpraszacze otwarte podczas tej sesji",
+    "columnRank": "#",
+    "columnApp": "Aplikacja/Strona",
+    "columnTime": "Czas",
+    "columnShare": "% sesji",
+    "shareValue": "<PERCENT>%",
+    "shareBelow": "<<PERCENT>%",
+    "usageRowAccessibility": "<RANK>. <NAME>, <TIME>, <SHARE> sesji",
+    "alignmentInfo": "Jaka część tej sesji przypadła na aplikacje i strony zgodne z Twoim celem skupienia, mierzona co 5 minut.",
+    "alignmentPointTooltip": "Wynik zgodności: <SCORE>",
+    "alignmentPointAccessibility": "<TIME>, wynik zgodności <SCORE>",
+    "noUsage": "W tej sesji nie zarejestrowano żadnych aplikacji ani stron.",
+    "noDistractions": "Brak rozproszeń w tej sesji. Dobra robota!",
+    "noAlignmentChart": "Ta sesja była za krótka, by pokazać wykres."
   },
   "featureSwitches": {
     "localRelevanceModel": {
