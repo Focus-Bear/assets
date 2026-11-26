@@ -7753,7 +7753,15 @@
         "showPagesText": "Show pages",
         "hidePagesText": "Hide pages",
         "openFailedText": "Couldn't open this PDF.",
-        "retryText": "Try again"
+        "retryText": "Try again",
+        "searchText": "Search PDF",
+        "searchHelpText": "Find words in this PDF (⌘F). Return goes to the next match, Shift-Return to the previous one, Escape clears the search.",
+        "searchMatchCountText": "<CURRENT> of <TOTAL>",
+        "searchNoMatchesText": "No matches",
+        "nextMatchText": "Next match",
+        "previousMatchText": "Previous match",
+        "nextStepsText": "Next steps",
+        "nextStepsInfoText": "As well as annotating the PDF, you can put high level notes about what you intend to do afterwards. e.g. “Look up self regulatory methods”"
     },
     "notePDFWindowsInfo": {
         "attachHelpText": "Attach a PDF to this note to type and draw on it. PowerPoint files are turned into a PDF on this computer first, with PowerPoint.",

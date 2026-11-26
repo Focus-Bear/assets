@@ -7775,7 +7775,15 @@
     "showPagesText": "Afficher les pages",
     "hidePagesText": "Masquer les pages",
     "openFailedText": "Impossible d’ouvrir ce PDF.",
-    "retryText": "Réessayer"
+    "retryText": "Réessayer",
+    "searchText": "Rechercher dans le PDF",
+    "searchHelpText": "Trouve des mots dans ce PDF (⌘F). Retour passe au résultat suivant, Maj-Retour au précédent, Échap efface la recherche.",
+    "searchMatchCountText": "<CURRENT> sur <TOTAL>",
+    "searchNoMatchesText": "Aucun résultat",
+    "nextMatchText": "Résultat suivant",
+    "previousMatchText": "Résultat précédent",
+    "nextStepsText": "Prochaines étapes",
+    "nextStepsInfoText": "En plus d’annoter le PDF, tu peux noter ici ce que tu comptes faire ensuite. p. ex. « Chercher des méthodes d’autorégulation »"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Joins un PDF à cette note pour écrire et dessiner dessus. Les fichiers PowerPoint sont d'abord convertis en PDF sur cet ordinateur, avec PowerPoint.",

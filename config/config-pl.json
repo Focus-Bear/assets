@@ -7775,7 +7775,15 @@
     "showPagesText": "Pokaż strony",
     "hidePagesText": "Ukryj strony",
     "openFailedText": "Nie udało się otworzyć tego pliku PDF.",
-    "retryText": "Spróbuj ponownie"
+    "retryText": "Spróbuj ponownie",
+    "searchText": "Szukaj w PDF",
+    "searchHelpText": "Znajdź słowa w tym pliku PDF (⌘F). Return przechodzi do następnego wyniku, Shift-Return do poprzedniego, Escape czyści wyszukiwanie.",
+    "searchMatchCountText": "<CURRENT> z <TOTAL>",
+    "searchNoMatchesText": "Brak wyników",
+    "nextMatchText": "Następny wynik",
+    "previousMatchText": "Poprzedni wynik",
+    "nextStepsText": "Następne kroki",
+    "nextStepsInfoText": "Oprócz adnotacji w PDF możesz zapisać ogólne notatki o tym, co zamierzasz zrobić potem. np. „Poszukać metod samoregulacji”"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Dołącz plik PDF do tej notatki, aby na nim pisać i rysować. Pliki PowerPoint są najpierw zamieniane na PDF na tym komputerze za pomocą programu PowerPoint.",

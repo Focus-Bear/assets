@@ -7775,7 +7775,15 @@
     "showPagesText": "Seiten einblenden",
     "hidePagesText": "Seiten ausblenden",
     "openFailedText": "Dieses PDF konnte nicht geöffnet werden.",
-    "retryText": "Erneut versuchen"
+    "retryText": "Erneut versuchen",
+    "searchText": "PDF durchsuchen",
+    "searchHelpText": "Finde Wörter in diesem PDF (⌘F). Return springt zum nächsten Treffer, Umschalt-Return zum vorherigen, Escape löscht die Suche.",
+    "searchMatchCountText": "<CURRENT> von <TOTAL>",
+    "searchNoMatchesText": "Keine Treffer",
+    "nextMatchText": "Nächster Treffer",
+    "previousMatchText": "Vorheriger Treffer",
+    "nextStepsText": "Nächste Schritte",
+    "nextStepsInfoText": "Neben Anmerkungen im PDF kannst du hier allgemeine Notizen festhalten, was du danach vorhast. z. B. „Methoden zur Selbstregulation recherchieren“"
   },
   "notePDFWindowsInfo": {
     "attachHelpText": "Hänge ein PDF an diese Notiz an, um darauf zu schreiben und zu zeichnen. PowerPoint-Dateien werden zuerst auf diesem Computer mit PowerPoint in ein PDF umgewandelt.",
