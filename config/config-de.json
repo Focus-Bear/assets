@@ -8251,6 +8251,8 @@
         "outcomeDone": "Fertig. Für dich bleibt nichts zu tun.",
         "outcomeNeedsYou": "Braucht dich. Claude konnte das nicht allein fertigstellen.",
         "statusWaitingForYou": "Wartet auf dich",
+        "statusReplyHeld": "Deine Antwort wartet bis <TIME>",
+        "replyHeldHelp": "Sie geht an Claude, wenn dein Tag beginnt. Öffne die Unterhaltung, um sie zu bearbeiten oder abzubrechen.",
         "waitingForYouHelp": "Claude hat dich etwas gefragt. Öffne die Unterhaltung und antworte, damit es weitermachen kann.",
         "outcomeWaitingForYou": "Wartet auf dich. Claude hat dich oben etwas gefragt und macht weiter, sobald du antwortest.",
         "outcomeStepsLeft": "Braucht dich. Claude hat seinen Teil erledigt; die Schritte unten sind deine.",
