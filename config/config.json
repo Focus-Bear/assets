@@ -6587,7 +6587,9 @@
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausing Custom schedule - <SCHEDULE>",
-        "buttonAbortFocus": "Pause Custom Schedule"
+        "buttonAbortFocus": "Pause Custom Schedule",
+        "titleSubtractText": "Subtracting time from focus session — <NAME>",
+        "subtractSubtitleText": "Strict mode activated — please wait 15 seconds before the time is subtracted."
     },
     "aiBlockBuddyInfo":{
       "taskSavedForLater": "Task saved for later ({0})",

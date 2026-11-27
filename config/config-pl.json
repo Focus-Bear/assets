@@ -6150,7 +6150,9 @@
   },
   "abortingCustomScheduleBlockingVcInfo": {
     "titlePauseText": "Wstrzymywanie niestandardowego harmonogramu – <SCHEDULE>",
-    "buttonAbortFocus": "Wstrzymaj niestandardowy harmonogram"
+    "buttonAbortFocus": "Wstrzymaj niestandardowy harmonogram",
+    "titleSubtractText": "Odejmowanie czasu z sesji skupienia — <NAME>",
+    "subtractSubtitleText": "Tryb ścisły aktywny — poczekaj 15 sekund, zanim czas zostanie odjęty."
   },
   "aiBlockBuddyInfo": {
     "taskSavedForLater": "Zadanie zapisane na później ({0})",

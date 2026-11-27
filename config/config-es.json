@@ -6597,7 +6597,9 @@
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausando horario personalizado - <SCHEDULE>",
-        "buttonAbortFocus": "Pausar horario personalizado"
+        "buttonAbortFocus": "Pausar horario personalizado",
+        "titleSubtractText": "Restando tiempo de la sesión de enfoque — <NAME>",
+        "subtractSubtitleText": "Modo estricto activado: espera 15 segundos antes de que se reste el tiempo."
     },
     "aiBlockBuddyInfo":{
       "taskSavedForLater": "Tarea guardada para más tarde ({0})",

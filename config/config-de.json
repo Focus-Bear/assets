@@ -6150,7 +6150,9 @@
   },
   "abortingCustomScheduleBlockingVcInfo": {
     "titlePauseText": "Individueller Zeitplan wird pausiert – <SCHEDULE>",
-    "buttonAbortFocus": "Individuellen Zeitplan pausieren"
+    "buttonAbortFocus": "Individuellen Zeitplan pausieren",
+    "titleSubtractText": "Zeit wird von der Fokussitzung abgezogen — <NAME>",
+    "subtractSubtitleText": "Strikter Modus aktiviert – bitte warte 15 Sekunden, bevor die Zeit abgezogen wird."
   },
   "aiBlockBuddyInfo": {
     "taskSavedForLater": "Aufgabe für später gespeichert ({0})",

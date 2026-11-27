@@ -6150,7 +6150,9 @@
   },
   "abortingCustomScheduleBlockingVcInfo": {
     "titlePauseText": "Mise en pause du planning personnalisé – <SCHEDULE>",
-    "buttonAbortFocus": "Mettre en pause le planning personnalisé"
+    "buttonAbortFocus": "Mettre en pause le planning personnalisé",
+    "titleSubtractText": "Soustraction de temps de la session de concentration — <NAME>",
+    "subtractSubtitleText": "Mode strict activé — patiente 15 secondes avant que le temps soit soustrait."
   },
   "aiBlockBuddyInfo": {
     "taskSavedForLater": "Tâche enregistrée pour plus tard ({0})",
