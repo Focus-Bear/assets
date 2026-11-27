@@ -89,6 +89,7 @@
     "noteFailed": "Die Besprechungsnotiz konnte nicht gespeichert werden. Hinzugefügte Aufgaben sind gespeichert. Versuche es unten erneut.",
     "forYou": "Für dich",
     "forOthers": "Für andere",
+    "unassigned": "Nicht zugewiesen",
     "project": "Projekt",
     "noProject": "Kein Projekt"
   },

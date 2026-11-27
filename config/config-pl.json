@@ -89,6 +89,7 @@
     "noteFailed": "Nie udało się zapisać notatki ze spotkania. Dodane zadania są bezpieczne. Spróbuj ponownie poniżej.",
     "forYou": "Dla Ciebie",
     "forOthers": "Dla innych",
+    "unassigned": "Nieprzypisane",
     "project": "Projekt",
     "noProject": "Bez projektu"
   },

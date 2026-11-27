@@ -99,6 +99,7 @@
     "noteFailed": "Could not save the meeting note. Your added tasks are safe. Retry below.",
     "forYou": "For you",
     "forOthers": "For others",
+    "unassigned": "Unassigned",
     "project": "Project",
     "noProject": "No project"
   },

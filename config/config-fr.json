@@ -89,6 +89,7 @@
     "noteFailed": "Impossible d’enregistrer la note de réunion. Vos tâches ajoutées sont conservées. Réessayez ci-dessous.",
     "forYou": "Pour vous",
     "forOthers": "Pour les autres",
+    "unassigned": "Non attribuées",
     "project": "Projet",
     "noProject": "Aucun projet"
   },
