@@ -1934,7 +1934,7 @@
         "routine": "Routine créée",
         "notifications": "Notifications activées"
       },
-      "habitLimitReached": "Les habitudes rapportent des chapeaux pendant {minutes} minutes par jour au maximum. Cette journée a atteint cette limite, donc ses habitudes suivantes n'en ont rapporté aucun.",
+      "habitLimitReached": "Les habitudes rapportent des chapeaux pour le temps passé sur le minuteur, jusqu'à {minutes} minutes par jour. Ensuite, les habitudes terminées rapportent encore 1 chapeau par minute de leur durée, jusqu'à 100 chapeaux par jour.",
       "empty": "Pas encore de chapeaux. Termine une session de concentration ou une habitude pour gagner les premiers.",
       "loadFailed": "Impossible de charger ton historique de chapeaux.",
       "loadMore": "Charger plus",

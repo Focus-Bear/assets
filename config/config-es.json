@@ -2365,7 +2365,7 @@
                 "routine": "Creaste una rutina",
                 "notifications": "Activaste las notificaciones"
             },
-            "habitLimitReached": "Los hábitos ganan sombreros durante un máximo de {minutes} minutos al día. Este día llegó a ese límite, así que sus hábitos posteriores no ganaron ninguno.",
+            "habitLimitReached": "Los hábitos ganan sombreros por el tiempo del temporizador durante un máximo de {minutes} minutos al día. Después, los hábitos completados siguen ganando 1 sombrero por minuto de su duración, hasta 100 sombreros al día.",
             "empty": "Aún no tienes sombreros. Termina una sesión de enfoque o un hábito para ganar los primeros.",
             "loadFailed": "No se pudo cargar tu historial de sombreros.",
             "loadMore": "Cargar más",

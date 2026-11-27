@@ -2353,7 +2353,7 @@
                 "routine": "Built a routine",
                 "notifications": "Turned on notifications"
             },
-            "habitLimitReached": "Habits earn hats for up to {minutes} minutes a day. This day reached that, so its later habits earned none.",
+            "habitLimitReached": "Habits earn timer hats for up to {minutes} minutes a day. After that, completed habits still earn 1 hat per minute of their length, up to 100 hats a day.",
             "empty": "No hats yet. Finish a focus session or a habit to earn your first ones.",
             "loadFailed": "Couldn't load your hats history.",
             "loadMore": "Load more",

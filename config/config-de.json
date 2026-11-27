@@ -1934,7 +1934,7 @@
         "routine": "Routine erstellt",
         "notifications": "Benachrichtigungen aktiviert"
       },
-      "habitLimitReached": "Gewohnheiten bringen Hüte für bis zu {minutes} Minuten pro Tag. Dieser Tag hat das erreicht, daher brachten spätere Gewohnheiten keine Hüte mehr.",
+      "habitLimitReached": "Gewohnheiten bringen Hüte für Timer-Minuten, bis zu {minutes} Minuten pro Tag. Danach bringen erledigte Gewohnheiten weiterhin 1 Hut pro Minute ihrer Dauer, bis zu 100 Hüte pro Tag.",
       "empty": "Noch keine Hüte. Schließe eine Fokus-Session oder eine Gewohnheit ab, um deine ersten zu verdienen.",
       "loadFailed": "Dein Hut-Verlauf konnte nicht geladen werden.",
       "loadMore": "Mehr laden",
