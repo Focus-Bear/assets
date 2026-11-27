@@ -2934,6 +2934,14 @@
     "title": "Zawsze dozwolone aplikacje",
     "subTitleText": "Aplikacje dodane tutaj nigdy nie zostaną zablokowane, niezależnie od trybu skupienia, harmonogramów blokowania czy ustawień rygoru. Użyj tego dla najważniejszych aplikacji, do których zawsze potrzebujesz dostępu."
   },
+  "alwaysAllowedUrlsViewInfo": {
+    "buttonAddAccessibilityLabel": "Dodaj zawsze dozwoloną witrynę",
+    "buttonRemoveAccessibilityLabel": "Usuń wybraną zawsze dozwoloną witrynę",
+    "title": "Zawsze dozwolone witryny",
+    "subTitleText": "Witryny dodane tutaj nigdy nie zostaną zablokowane, niezależnie od trybu skupienia, harmonogramów blokowania czy ustawień rygoru. Użyj tego dla najważniejszych witryn, do których zawsze potrzebujesz dostępu.",
+    "addPromptText": "Wpisz witrynę lub słowo kluczowe, które ma być zawsze dozwolone (na przykład youtube.com).",
+    "urlAlreadyExistsText": "Ta witryna jest już na liście."
+  },
   "canvasSyncInfo": {
     "menuItem": "Importuj z Canvas…",
     "menuStatus": "Canvas: zsynchronizowano <TIME>",
@@ -3490,6 +3498,7 @@
     "strictness_Block_Lists": "Używaj list blokad, aby skupić się na określonym rodzaju pracy. Rozpocznij sesję skupienia z menu Focus Bear lub użyj harmonogramu blokowania.",
     "strictness_Blocking_Schedules": "Twórz własne harmonogramy, aby automatycznie blokować rozpraszacze. Wybierz dni i godziny, w których rozpraszacze mają być blokowane. Zachowaj skupienie bez konieczności ręcznego uruchamiania blokowania.",
     "strictness_AlwaysAllowedApps": "Aplikacje dodane tutaj nigdy nie zostaną zablokowane, niezależnie od trybu skupienia, harmonogramów blokowania czy ustawień rygorystyczności. Użyj tego dla niezbędnych aplikacji, do których zawsze potrzebujesz dostępu.",
+    "strictness_AlwaysAllowedUrls": "Witryny dodane tutaj nigdy nie zostaną zablokowane, niezależnie od trybu skupienia, harmonogramów blokowania czy ustawień rygorystyczności. Użyj tego dla niezbędnych witryn, do których zawsze potrzebujesz dostępu.",
     "shortcutsToggleInfo": "Włącz lub wyłącz skróty dla poszczególnych okien"
   },
   "chooseHabitsVCInfo": {

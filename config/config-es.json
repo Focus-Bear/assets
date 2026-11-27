@@ -3367,6 +3367,14 @@
         "title": "Aplicaciones Siempre Permitidas",
         "subTitleText": "Las aplicaciones añadidas aquí nunca serán bloqueadas, independientemente del modo de enfoque, los horarios de bloqueo o la configuración de restricción. Usa esto para aplicaciones esenciales a las que siempre necesitas acceso."
     },
+    "alwaysAllowedUrlsViewInfo": {
+        "buttonAddAccessibilityLabel": "Añadir sitio web siempre permitido",
+        "buttonRemoveAccessibilityLabel": "Quitar el sitio web siempre permitido seleccionado",
+        "title": "Sitios Web Siempre Permitidos",
+        "subTitleText": "Los sitios web añadidos aquí nunca serán bloqueados, independientemente del modo de enfoque, los horarios de bloqueo o la configuración de restricción. Usa esto para sitios esenciales a los que siempre necesitas acceso.",
+        "addPromptText": "Escribe un sitio web o palabra clave para permitir siempre (por ejemplo, youtube.com).",
+        "urlAlreadyExistsText": "Ese sitio web ya está en la lista."
+    },
     "canvasSyncInfo": {
         "menuItem": "Importar desde Canvas…",
         "menuStatus": "Canvas: sincronizado <TIME>",
@@ -3920,6 +3928,7 @@
         "strictness_Block_Lists": "Usa las listas de bloqueo para mantenerte enfocad@ en un tipo de trabajo. Inicia una sesión de enfoque desde el menú de Focus Bear o crea un horario de bloqueo.",
         "strictness_Blocking_Schedules": "Crea tus propios horarios para bloquear distracciones automáticamente. Elige los días y horas en que quieres que se bloqueen las distracciones. Mantente enfocad@ sin tener que activar el bloqueo manualmente.",
         "strictness_AlwaysAllowedApps": "Las apps que añadas aquí nunca se bloquearán, sin importar el modo de enfoque, los horarios de bloqueo o el nivel de restricción. Úsalo para apps esenciales a las que siempre necesitas acceder.",
+        "strictness_AlwaysAllowedUrls": "Los sitios web que añadas aquí nunca se bloquearán, sin importar el modo de enfoque, los horarios de bloqueo o el nivel de restricción. Úsalo para sitios esenciales a los que siempre necesitas acceder.",
         "shortcutsToggleInfo": "Activar o desactivar atajos por ventana"
     },
     "chooseHabitsVCInfo": {

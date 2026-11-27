@@ -2934,6 +2934,14 @@
     "title": "Applications toujours autorisées",
     "subTitleText": "Les applications ajoutées ici ne seront jamais bloquées, quels que soient le mode concentration, les plannings de blocage ou les paramètres de sévérité. Utilise cette option pour les applications essentielles auxquelles tu as toujours besoin d'accéder."
   },
+  "alwaysAllowedUrlsViewInfo": {
+    "buttonAddAccessibilityLabel": "Ajouter un site web toujours autorisé",
+    "buttonRemoveAccessibilityLabel": "Retirer le site web toujours autorisé sélectionné",
+    "title": "Sites web toujours autorisés",
+    "subTitleText": "Les sites web ajoutés ici ne seront jamais bloqués, quels que soient le mode concentration, les plannings de blocage ou les paramètres de sévérité. Utilise cette option pour les sites essentiels auxquels tu as toujours besoin d'accéder.",
+    "addPromptText": "Saisis un site web ou un mot-clé à toujours autoriser (par exemple youtube.com).",
+    "urlAlreadyExistsText": "Ce site web est déjà dans la liste."
+  },
   "canvasSyncInfo": {
     "menuItem": "Importer depuis Canvas…",
     "menuStatus": "Canvas : synchronisé <TIME>",
@@ -3490,6 +3498,7 @@
     "strictness_Block_Lists": "Utilise des listes de blocage pour rester concentré sur un certain type de travail. Démarre une session de concentration depuis le menu Focus Bear ou utilise un programme de blocage.",
     "strictness_Blocking_Schedules": "Crée tes propres programmes pour bloquer automatiquement les distractions. Choisis les jours et heures pendant lesquels les distractions doivent être bloquées. Reste concentré sans avoir à démarrer le blocage manuellement.",
     "strictness_AlwaysAllowedApps": "Les applications ajoutées ici ne seront jamais bloquées, quels que soient le mode concentration, les programmes de blocage ou les paramètres de rigueur. Utilise ceci pour les applications essentielles auxquelles tu as toujours besoin d'accéder.",
+    "strictness_AlwaysAllowedUrls": "Les sites web ajoutés ici ne seront jamais bloqués, quels que soient le mode concentration, les programmes de blocage ou les paramètres de rigueur. Utilise ceci pour les sites essentiels auxquels tu as toujours besoin d'accéder.",
     "shortcutsToggleInfo": "Activer ou désactiver les raccourcis par fenêtre"
   },
   "chooseHabitsVCInfo": {
