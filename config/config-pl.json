@@ -2430,6 +2430,8 @@
     "addUrlEyebrow": "DODAJ URL",
     "addKeywordEyebrow": "DODAJ SŁOWO KLUCZOWE",
     "addAppEyebrow": "DODAJ APLIKACJĘ",
+    "addMultipleUrlsEyebrow": "DODAJ ADRESY URL",
+    "addMultipleUrls": "Dodaj <COUNT> witryn",
     "allowQuickLookEyebrow": "ZEZWÓL NA PODGLĄD",
     "blockQuickLookEyebrow": "ZABLOKUJ PODGLĄD",
     "allowQuickLookTitle": "Szybki podgląd",

@@ -2848,6 +2848,8 @@
         "addUrlEyebrow": "ADD URL",
         "addKeywordEyebrow": "ADD KEYWORD",
         "addAppEyebrow": "ADD APP",
+        "addMultipleUrlsEyebrow": "ADD URLS",
+        "addMultipleUrls": "Add <COUNT> sites",
         "allowQuickLookEyebrow": "ALLOW PREVIEWS",
         "blockQuickLookEyebrow": "BLOCK PREVIEWS",
         "allowQuickLookTitle": "Quick Look",

@@ -2433,6 +2433,8 @@
     "addUrlEyebrow": "AJOUTER UNE URL",
     "addKeywordEyebrow": "AJOUTER UN MOT-CLÉ",
     "addAppEyebrow": "AJOUTER UNE APPLI",
+    "addMultipleUrlsEyebrow": "AJOUTER DES URL",
+    "addMultipleUrls": "Ajouter <COUNT> sites",
     "allowQuickLookEyebrow": "AUTORISER LES APERÇUS",
     "blockQuickLookEyebrow": "BLOQUER LES APERÇUS",
     "allowQuickLookTitle": "Coup d’œil",

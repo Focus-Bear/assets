@@ -2865,6 +2865,8 @@
         "addUrlEyebrow": "AGREGAR URL",
         "addKeywordEyebrow": "AGREGAR PALABRA CLAVE",
         "addAppEyebrow": "AGREGAR APP",
+        "addMultipleUrlsEyebrow": "AGREGAR URLS",
+        "addMultipleUrls": "Agregar <COUNT> sitios",
         "allowQuickLookEyebrow": "PERMITIR VISTAS PREVIAS",
         "blockQuickLookEyebrow": "BLOQUEAR VISTAS PREVIAS",
         "allowQuickLookTitle": "Vista rápida",
