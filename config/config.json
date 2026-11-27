@@ -8275,7 +8275,19 @@
         "updateSchedule": "Update",
         "updateScheduleHelp": "Give Claude these instructions when it starts.",
         "queuedEditUnsaved": "Press Update to give Claude these changes when it starts.",
-        "queuedEditSaved": "Updated. Claude will start with these instructions."
+        "queuedEditSaved": "Updated. Claude will start with these instructions.",
+        "heldMessageNote": "Held until <TIME> — sends when your day starts",
+        "heldMessagesHint": "It's after your cutoff time, so what you send now waits until <TIME>.",
+        "heldMessagesLabel": "Messages waiting for the morning",
+        "heldMessageEdit": "Edit",
+        "heldMessageEditHelp": "Change this message before it goes to Claude.",
+        "heldMessageCancel": "Cancel message",
+        "heldMessageCancelHelp": "Don't send this message to Claude.",
+        "heldMessageSave": "Save",
+        "heldMessageSaveHelp": "Keep your changes (⌘Return). The message still waits until the morning.",
+        "heldMessageDiscardEdit": "Discard changes",
+        "heldMessageDiscardEditHelp": "Keep the message as it was.",
+        "heldMessageEditorLabel": "Message for Claude"
     },
     "browserExtensionCheckInfo": {
         "warningTitle": "Turn off '<EXTENSION>'",
