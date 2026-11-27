@@ -2786,6 +2786,7 @@
         "buttonContinueText": "Continue"
     },
     "blockListViewInfo": {
+        "categoryShopping": "Shopping",
         "removeEntryNamed": "Remove <NAME>",
         "editEntryNamed": "Edit <NAME>",
         "editWebsiteTitle": "Edit website",
@@ -8471,6 +8472,15 @@
     "saveButton": "Save and continue"
   },
   "blockingSetupInfo": {
+    "newListNamePlaceholder": "Block list name",
+    "newListNameSubtitle": "Pick a name you'll recognise when you start a focus session, for example Social media or Evenings.",
+    "newListNameTitle": "What do you want to call this block list?",
+    "newListManualBody": "Start with an empty block list, then add websites and apps yourself.",
+    "newListManualTitle": "Create it myself",
+    "newListWizardBody": "Pick from common distractions step by step, the same way you set up blocking when you started with Focus Bear.",
+    "newListWizardTitle": "Use the wizard",
+    "newListChoiceSubtitle": "How would you like to set it up?",
+    "newListChoiceTitle": "Create a new block list",
     "suggestionTitle": "Choose what to block",
     "stagePersonalise": "Personalise",
     "suggestionBody": "Nothing is blocked yet. Pick the sites and apps that pull you away, and Focus Bear will block them while you focus.",

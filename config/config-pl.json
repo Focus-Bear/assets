@@ -2367,6 +2367,7 @@
     "buttonContinueText": "Dalej"
   },
   "blockListViewInfo": {
+    "categoryShopping": "Zakupy",
     "removeEntryNamed": "Usuń <NAME>",
     "editEntryNamed": "Edytuj <NAME>",
     "editWebsiteTitle": "Edytuj witrynę",
@@ -8465,6 +8466,15 @@
     "saveButton": "Zapisz i kontynuuj"
   },
   "blockingSetupInfo": {
+    "newListNamePlaceholder": "Nazwa listy blokowanych",
+    "newListNameSubtitle": "Wybierz nazwę, którą rozpoznasz przy rozpoczynaniu sesji skupienia, na przykład Media społecznościowe albo Wieczory.",
+    "newListNameTitle": "Jak chcesz nazwać tę listę blokowanych?",
+    "newListManualBody": "Zacznij od pustej listy blokowanych, a potem samodzielnie dodaj strony i aplikacje.",
+    "newListManualTitle": "Utworzę ją sam",
+    "newListWizardBody": "Wybieraj krok po kroku spośród typowych rozpraszaczy, tak jak przy konfigurowaniu blokowania na początku korzystania z Focus Bear.",
+    "newListWizardTitle": "Użyj kreatora",
+    "newListChoiceSubtitle": "Jak chcesz ją skonfigurować?",
+    "newListChoiceTitle": "Utwórz nową listę blokowanych",
     "suggestionTitle": "Wybierz, co blokować",
     "stagePersonalise": "Dopasowanie",
     "suggestionBody": "Nic jeszcze nie jest zablokowane. Wybierz strony i aplikacje, które Cię rozpraszają, a Focus Bear zablokuje je, gdy będziesz się skupiać.",

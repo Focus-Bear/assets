@@ -2367,6 +2367,7 @@
     "buttonContinueText": "Weiter"
   },
   "blockListViewInfo": {
+    "categoryShopping": "Shopping",
     "removeEntryNamed": "<NAME> entfernen",
     "editEntryNamed": "<NAME> bearbeiten",
     "editWebsiteTitle": "Website bearbeiten",
@@ -8465,6 +8466,15 @@
     "saveButton": "Speichern und weiter"
   },
   "blockingSetupInfo": {
+    "newListNamePlaceholder": "Name der Sperrliste",
+    "newListNameSubtitle": "Wähle einen Namen, den du beim Start einer Fokussitzung wiedererkennst, zum Beispiel Soziale Medien oder Abends.",
+    "newListNameTitle": "Wie soll diese Sperrliste heißen?",
+    "newListManualBody": "Beginne mit einer leeren Sperrliste und füge Websites und Apps selbst hinzu.",
+    "newListManualTitle": "Selbst erstellen",
+    "newListWizardBody": "Wähle Schritt für Schritt aus häufigen Ablenkungen – so wie beim Einrichten der Sperren, als du mit Focus Bear angefangen hast.",
+    "newListWizardTitle": "Assistenten verwenden",
+    "newListChoiceSubtitle": "Wie möchtest du sie einrichten?",
+    "newListChoiceTitle": "Neue Sperrliste erstellen",
     "suggestionTitle": "Wähle, was blockiert werden soll",
     "stagePersonalise": "Personalisieren",
     "suggestionBody": "Noch ist nichts blockiert. Wähle die Websites und Apps, die dich ablenken, und Focus Bear blockiert sie, während du dich konzentrierst.",

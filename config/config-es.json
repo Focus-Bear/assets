@@ -2798,6 +2798,7 @@
         "buttonContinueText": "Continuar"
     },
     "blockListViewInfo": {
+        "categoryShopping": "Compras",
         "removeEntryNamed": "Eliminar <NAME>",
         "editEntryNamed": "Editar <NAME>",
         "editWebsiteTitle": "Editar sitio web",
@@ -8481,6 +8482,15 @@
     "saveButton": "Guardar y continuar"
   },
   "blockingSetupInfo": {
+    "newListNamePlaceholder": "Nombre de la lista de bloqueo",
+    "newListNameSubtitle": "Elige un nombre que reconozcas al iniciar una sesión de concentración, por ejemplo Redes sociales o Noches.",
+    "newListNameTitle": "¿Cómo quieres llamar a esta lista de bloqueo?",
+    "newListManualBody": "Empieza con una lista de bloqueo vacía y añade tú mismo sitios web y apps.",
+    "newListManualTitle": "Crearla yo mismo",
+    "newListWizardBody": "Elige entre las distracciones más habituales paso a paso, igual que cuando configuraste el bloqueo al empezar con Focus Bear.",
+    "newListWizardTitle": "Usar el asistente",
+    "newListChoiceSubtitle": "¿Cómo quieres configurarla?",
+    "newListChoiceTitle": "Crear una nueva lista de bloqueo",
     "suggestionTitle": "Elige qué bloquear",
     "stagePersonalise": "Personalizar",
     "suggestionBody": "Todavía no hay nada bloqueado. Elige los sitios y las apps que te distraen y Focus Bear los bloqueará mientras te concentras.",
