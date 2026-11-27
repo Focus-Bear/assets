@@ -3357,6 +3357,14 @@
         "title": "Always Allowed Apps",
         "subTitleText": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to."
     },
+    "alwaysAllowedUrlsViewInfo": {
+        "buttonAddAccessibilityLabel": "Add always allowed website",
+        "buttonRemoveAccessibilityLabel": "Remove selected always allowed website",
+        "title": "Always Allowed Websites",
+        "subTitleText": "Websites added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential sites that you always need access to.",
+        "addPromptText": "Enter a website or keyword to always allow (for example youtube.com).",
+        "urlAlreadyExistsText": "That website is already in the list."
+    },
     "canvasSyncInfo": {
         "menuItem": "Import from Canvas…",
         "menuStatus": "Canvas: synced <TIME>",
@@ -3910,6 +3918,7 @@
         "strictness_Block_Lists": "Use Block Lists to stay focused on a certain type of work. Start a focus session from the focus bear menu or use a blocking schedule.",
         "strictness_Blocking_Schedules": "Create your own schedules to automatically block distractions. Pick the days and times when distractions should be blocked. Stay focused without needing to start blocking manually.",
         "strictness_AlwaysAllowedApps": "Apps added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential apps that you always need access to.",
+        "strictness_AlwaysAllowedUrls": "Websites added here will never be blocked, regardless of focus mode, blocking schedules, or strictness settings. Use this for essential sites that you always need access to.",
         "shortcutsToggleInfo": "Enable or disable shortcuts per window"
     },
     "chooseHabitsVCInfo": {
@@ -6465,6 +6474,7 @@
         "menuNotes": "Notes",
         "menuRevise": "Revise",
         "menuFocusingTimeLeft": "Focusing (<MINUTES>m left)",
+        "menuFocusingTimeElapsed": "Focusing (<MINUTES>m)",
         "menuHabitTimeLeft": "<MINUTES>m left",
         "menuHabitPausedTimeLeft": "Paused · <MINUTES>m left",
         "menuHabitPaused": "Paused",
@@ -6577,7 +6587,9 @@
     },
     "abortingCustomScheduleBlockingVcInfo":{
         "titlePauseText": "Pausing Custom schedule - <SCHEDULE>",
-        "buttonAbortFocus": "Pause Custom Schedule"
+        "buttonAbortFocus": "Pause Custom Schedule",
+        "titleSubtractText": "Subtracting time from focus session — <NAME>",
+        "subtractSubtitleText": "Strict mode activated — please wait 15 seconds before the time is subtracted."
     },
     "aiBlockBuddyInfo":{
       "taskSavedForLater": "Task saved for later ({0})",
@@ -6822,6 +6834,7 @@
         "toolTipIncreaseDuration": "Increase duration by 1 minute",
         "toolTipDecreaseDuration": "Decrease duration by 1 minute",
         "titleOngoingSession": "Ongoing Focus Session",
+        "titleOngoingUntimedSession": "Ongoing Untimed Focus Session",
         "titleSessionPaused": "Focus Session Paused",
         "titleSuperFocusRunning": "Super Focus session running",
         "unitHourText": "hr",

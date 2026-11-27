@@ -2934,6 +2934,14 @@
     "title": "Immer erlaubte Apps",
     "subTitleText": "Hier hinzugefügte Apps werden nie blockiert, unabhängig von Fokus-Modus, Blockierungsplänen oder Strenge-Einstellungen. Nutze dies für wichtige Apps, auf die du immer zugreifen musst."
   },
+  "alwaysAllowedUrlsViewInfo": {
+    "buttonAddAccessibilityLabel": "Immer erlaubte Website hinzufügen",
+    "buttonRemoveAccessibilityLabel": "Ausgewählte immer erlaubte Website entfernen",
+    "title": "Immer erlaubte Websites",
+    "subTitleText": "Hier hinzugefügte Websites werden nie blockiert, unabhängig von Fokus-Modus, Blockierungsplänen oder Strenge-Einstellungen. Nutze dies für wichtige Websites, auf die du immer zugreifen musst.",
+    "addPromptText": "Gib eine Website oder ein Schlüsselwort ein, die immer erlaubt sein soll (zum Beispiel youtube.com).",
+    "urlAlreadyExistsText": "Diese Website ist bereits in der Liste."
+  },
   "canvasSyncInfo": {
     "menuItem": "Aus Canvas importieren…",
     "menuStatus": "Canvas: synchronisiert <TIME>",
@@ -3490,6 +3498,7 @@
     "strictness_Block_Lists": "Nutze Blocklisten, um dich auf eine bestimmte Art von Arbeit zu konzentrieren. Starte eine Fokus-Sitzung über das Focus-Bear-Menü oder verwende einen Blockierungsplan.",
     "strictness_Blocking_Schedules": "Erstelle eigene Zeitpläne, um Ablenkungen automatisch zu blockieren. Wähle die Tage und Zeiten aus, an denen Ablenkungen blockiert werden sollen. Bleib fokussiert, ohne die Blockierung manuell starten zu müssen.",
     "strictness_AlwaysAllowedApps": "Hier hinzugefügte Apps werden niemals blockiert, unabhängig von Fokusmodus, Blockierungsplänen oder Strenge-Einstellungen. Nutze dies für wichtige Apps, auf die du immer Zugriff brauchst.",
+    "strictness_AlwaysAllowedUrls": "Hier hinzugefügte Websites werden niemals blockiert, unabhängig von Fokusmodus, Blockierungsplänen oder Strenge-Einstellungen. Nutze dies für wichtige Websites, auf die du immer Zugriff brauchst.",
     "shortcutsToggleInfo": "Tastenkombinationen pro Fenster aktivieren oder deaktivieren"
   },
   "chooseHabitsVCInfo": {
@@ -6030,6 +6039,7 @@
     "menuNotes": "Notizen",
         "menuRevise": "Revise",
     "menuFocusingTimeLeft": "Fokussiert (noch <MINUTES> Min.)",
+    "menuFocusingTimeElapsed": "Fokussiert (<MINUTES> Min.)",
         "menuHabitTimeLeft": "noch <MINUTES> Min.",
         "menuHabitPausedTimeLeft": "Pausiert · noch <MINUTES> Min.",
         "menuHabitPaused": "Pausiert",
@@ -6140,7 +6150,9 @@
   },
   "abortingCustomScheduleBlockingVcInfo": {
     "titlePauseText": "Individueller Zeitplan wird pausiert – <SCHEDULE>",
-    "buttonAbortFocus": "Individuellen Zeitplan pausieren"
+    "buttonAbortFocus": "Individuellen Zeitplan pausieren",
+    "titleSubtractText": "Zeit wird von der Fokussitzung abgezogen — <NAME>",
+    "subtractSubtitleText": "Strikter Modus aktiviert – bitte warte 15 Sekunden, bevor die Zeit abgezogen wird."
   },
   "aiBlockBuddyInfo": {
     "taskSavedForLater": "Aufgabe für später gespeichert ({0})",
@@ -6385,6 +6397,7 @@
     "toolTipIncreaseDuration": "Dauer um 1 Minute verlängern",
     "toolTipDecreaseDuration": "Dauer um 1 Minute verkürzen",
     "titleOngoingSession": "Laufende Fokus-Session",
+    "titleOngoingUntimedSession": "Laufende Fokussitzung ohne Zeitlimit",
     "titleSessionPaused": "Fokus-Session pausiert",
     "titleSuperFocusRunning": "Super-Fokus-Session läuft",
     "unitHourText": "Std.",
