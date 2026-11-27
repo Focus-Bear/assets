@@ -360,6 +360,8 @@
     "stayFocusedText": "OK – trzymaj skupienie przez cały dzień!",
     "letsCreatAccountText": "Załóżmy teraz Twoje konto",
     "buttonAbortText": "Wyjdź z pełnego ekranu",
+    "buttonExitText": "Wyjdź",
+    "buttonExitFullScreenText": "Wyjdź z pełnego ekranu",
     "buttonCancelText": "Anuluj",
     "buttonOkText": "OK",
     "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
