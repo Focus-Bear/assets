@@ -2368,6 +2368,11 @@
   },
   "blockListViewInfo": {
     "removeEntryNamed": "Supprimer <NAME>",
+    "editEntryNamed": "Modifier <NAME>",
+    "editWebsiteTitle": "Modifier le site web",
+    "editWebsiteDuplicate": "Ce site web est déjà dans cette liste.",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
     "blockListMode": "Liste de blocage",
     "allowListMode": "Liste d'autorisation",
     "changeListMode": "Bascule entre la modification de ta liste de blocage et de ta liste d'autorisation",

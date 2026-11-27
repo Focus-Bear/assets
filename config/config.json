@@ -2787,6 +2787,11 @@
     },
     "blockListViewInfo": {
         "removeEntryNamed": "Remove <NAME>",
+        "editEntryNamed": "Edit <NAME>",
+        "editWebsiteTitle": "Edit website",
+        "editWebsiteDuplicate": "That website is already on this list.",
+        "save": "Save",
+        "cancel": "Cancel",
         "blockListMode": "Block List",
         "allowListMode": "Allow List",
         "changeListMode": "Switch between editing your block list and your allow list",
