@@ -1545,6 +1545,7 @@
     "deleteAccountSuccessText": "Twoje konto zostało pomyślnie usunięte.",
     "deleteAccountFailedTitle": "Nie udało się usunąć konta",
     "deleteAccountFailedText": "Coś poszło nie tak podczas usuwania twojego konta. Sprawdź swoje połączenie z internetem i spróbuj ponownie.",
+    "deletingAccountText": "Usuwanie konta…",
     "guestAccountTitle": "Korzystasz z konta gościa",
     "guestAccountDescription": "Utwórz konto, aby zapisać postępy i ustawienia oraz zachować je po zmianie urządzenia lub ponownej instalacji.",
     "buttonCreateAccountText": "Utwórz konto",

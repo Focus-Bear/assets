@@ -1552,6 +1552,7 @@
         "deleteAccountSuccessText": "Your account has been successfully deleted.",
         "deleteAccountFailedTitle": "Unable to Delete Account",
         "deleteAccountFailedText": "Something went wrong while deleting your account. Please check your internet connection and try again.",
+        "deletingAccountText": "Deleting your account…",
         "guestAccountTitle": "You're using a guest account",
         "guestAccountDescription": "Create an account to save your progress and settings, and keep them if you change or reinstall on another device.",
         "buttonCreateAccountText": "Create account",

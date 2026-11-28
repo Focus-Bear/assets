@@ -1564,6 +1564,7 @@
         "deleteAccountSuccessText": "Tu cuenta ha sido eliminada exitosamente.",
         "deleteAccountFailedTitle": "No se pudo eliminar la cuenta",
         "deleteAccountFailedText": "Algo salió mal al eliminar tu cuenta. Revisa tu conexión a internet e intenta de nuevo.",
+        "deletingAccountText": "Eliminando tu cuenta…",
         "guestAccountTitle": "Estás usando una cuenta de invitado",
         "guestAccountDescription": "Crea una cuenta para guardar tu progreso y tu configuración, y conservarlos si cambias de dispositivo o reinstalas la app.",
         "buttonCreateAccountText": "Crear cuenta",
