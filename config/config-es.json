@@ -6781,6 +6781,7 @@
         "aiBuddyNoApps": "Ninguna app específica",
         "aiBuddyNoSites": "Ningún sitio específico",
         "aiBuddyBlockedFor": "Todo lo demás permanece bloqueado durante {0} minutos (súper estricto).",
+        "aiBuddyBlockedForOneMinute": "Todo lo demás permanece bloqueado durante 1 minuto (súper estricto).",
         "aiBuddyButtonCancel": "Cancelar",
         "aiBuddyButtonStart": "Iniciar sesión de enfoque",
         "aiBuddyDeniedTitle": "Mejor no",
@@ -7179,6 +7180,7 @@
     "discordUrl": "https://discord.gg/VZdv3ZjhSq",
     "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
     "WindowsSpecific": {
+        "holdOrClickToPostponeShortText": "Mantén presionado {seconds} s o haz clic {clicks} veces",
         "minimiseWindowTooltip": "Minimizar",
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear está funcionando en segundo plano",

@@ -6280,6 +6280,7 @@
     "aiBuddyNoApps": "Brak konkretnych aplikacji",
     "aiBuddyNoSites": "Brak konkretnych stron",
     "aiBuddyBlockedFor": "Wszystko inne pozostaje zablokowane przez {0} minut (super strict).",
+    "aiBuddyBlockedForOneMinute": "Wszystko inne pozostaje zablokowane przez 1 minutę (super strict).",
     "aiBuddyButtonCancel": "Anuluj",
     "aiBuddyButtonStart": "Rozpocznij sesję skupienia",
     "aiBuddyDeniedTitle": "Lepiej nie",
@@ -6678,6 +6679,7 @@
   "discordUrl": "https://discord.gg/VZdv3ZjhSq",
   "whatsAppUrl": "https://chat.whatsapp.com/FV0oTbCUWpILBYif7CP6UD",
   "WindowsSpecific": {
+    "holdOrClickToPostponeShortText": "Przytrzymaj {seconds} s lub kliknij {clicks} razy",
     "minimiseWindowTooltip": "Minimalizuj",
     "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
     "runningbg": "Focus Bear działa w tle",
