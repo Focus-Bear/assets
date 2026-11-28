@@ -8601,5 +8601,8 @@
     "habitCountOther": "%d Gewohnheiten",
     "jumpTo": "Springen zu",
     "jumpToNamed": "Zu %@ springen"
+  },
+  "screenshotKeys": {
+    "copiedToClipboard": "Screenshot in die Zwischenablage kopiert"
   }
 }

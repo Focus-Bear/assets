@@ -8601,5 +8601,8 @@
     "habitCountOther": "Nawyki: %d",
     "jumpTo": "Przejdź do",
     "jumpToNamed": "Przejdź do: %@"
+  },
+  "screenshotKeys": {
+    "copiedToClipboard": "Zrzut ekranu skopiowany do schowka"
   }
 }

@@ -8661,5 +8661,8 @@
     "habitCountOther": "%d habits",
     "jumpTo": "Jump to",
     "jumpToNamed": "Jump to %@"
+  },
+  "screenshotKeys": {
+    "copiedToClipboard": "Screenshot copied to the clipboard"
   }
 }
