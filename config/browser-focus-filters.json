@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "rules": [
     {
       "id": "linkedin-feed",
@@ -177,30 +177,11 @@
       ],
       "paths": [],
       "selectors": [
-        "#leftpanel",
-        ".zcl-leftpanel",
-        "[data-ztype=\"leftpanel\"]"
+        "#leftpannel",
+        "section.zcleftsidebar"
       ],
-      "action": "hide",
+      "action": "blur",
       "labelKey": "focusFilterSidebarHidden",
-      "unlockCategory": "cliq.zoho.com/sidebar"
-    },
-    {
-      "id": "cliq-notifications",
-      "hosts": [
-        "cliq.zoho.com",
-        "cliq.zoho.eu",
-        "cliq.zoho.in",
-        "cliq.zoho.com.au"
-      ],
-      "paths": [],
-      "selectors": [
-        "#notificationpanel",
-        ".zc-notification-panel",
-        "[data-ztype=\"notifications\"]"
-      ],
-      "action": "hide",
-      "labelKey": "focusFilterNotificationsHidden",
       "unlockCategory": "cliq.zoho.com/sidebar"
     },
     {
@@ -213,14 +194,46 @@
       ],
       "paths": [],
       "selectors": [
-        ".zc-unread-count",
-        ".unreadcount",
-        ".zcl-unread-count"
+        ".LHS-unreadcount",
+        ".unreadcount"
       ],
       "action": "hide",
       "labelKey": "focusFilterNotificationsHidden",
       "unlockCategory": "cliq.zoho.com/sidebar",
       "showsPlaceholder": false
+    },
+    {
+      "id": "discord-servers",
+      "hosts": [
+        "discord.com"
+      ],
+      "paths": [
+        "/channels*"
+      ],
+      "selectors": [
+        "[class^=\"guilds_\"]",
+        "[class*=\" guilds_\"]"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterSidebarHidden",
+      "unlockCategory": "discord.com/sidebar",
+      "showsPlaceholder": false
+    },
+    {
+      "id": "discord-channels",
+      "hosts": [
+        "discord.com"
+      ],
+      "paths": [
+        "/channels*"
+      ],
+      "selectors": [
+        "[class^=\"sidebarList_\"]",
+        "[class*=\" sidebarList_\"]"
+      ],
+      "action": "blur",
+      "labelKey": "focusFilterSidebarHidden",
+      "unlockCategory": "discord.com/sidebar"
     },
     {
       "id": "youtube-home-feed",
