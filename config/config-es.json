@@ -8671,5 +8671,8 @@
     "habitCountOther": "%d hábitos",
     "jumpTo": "Ir a",
     "jumpToNamed": "Ir a %@"
+  },
+  "screenshotKeys": {
+    "copiedToClipboard": "Captura de pantalla copiada al portapapeles"
   }
 }

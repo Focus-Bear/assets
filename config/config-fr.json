@@ -8601,5 +8601,8 @@
     "habitCountOther": "%d habitudes",
     "jumpTo": "Aller à",
     "jumpToNamed": "Aller à %@"
+  },
+  "screenshotKeys": {
+    "copiedToClipboard": "Capture d’écran copiée dans le presse-papiers"
   }
 }
