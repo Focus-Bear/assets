@@ -5040,6 +5040,7 @@
     "showEventButton": "👀 Afficher",
     "joinMeetingButton": "Rejoindre",
     "joinMeetingAccessibilityLabel": "Rejoindre %@ dans le navigateur Focus Bear",
+    "joinMeetingAccessibilityLabelWindows": "Rejoindre %@ dans ton navigateur",
     "dismissRepeatingTitle": "C'est un événement récurrent.",
     "dismissRepeatingInfo": "Veux-tu masquer toute la série ou seulement celui d'aujourd’hui ?",
     "dismissRepeatingJustThisOne": "Seulement celui-ci",

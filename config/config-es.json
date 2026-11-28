@@ -5495,6 +5495,7 @@
         "showEventButton": "👀 Mostrar",
         "joinMeetingButton": "Unirse",
         "joinMeetingAccessibilityLabel": "Unirse a %@ en el navegador de Focus Bear",
+        "joinMeetingAccessibilityLabelWindows": "Unirse a %@ en tu navegador",
         "dismissRepeatingTitle": "Este es un evento recurrente.",
         "dismissRepeatingInfo": "¿Quieres ocultar todos los eventos de la serie o solo el de hoy?",
         "dismissRepeatingJustThisOne": "Solo este",
